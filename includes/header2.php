@@ -17,7 +17,8 @@
     <link rel="stylesheet" href="fonts/flaticon.css">
     <link rel="stylesheet" href="css/plugins.css">
     <link rel="stylesheet" href="css/style.css">
-    <link rel="stylesheet" href="css/color.css" id="color-change">
+	<link rel="stylesheet" href="css/color/color-8.css" id="color-change">
+	<link rel="stylesheet" href="css/custom2.css">
 
      <!-- Favicon 
     ==================================================-->
@@ -49,43 +50,7 @@
 			</div>
 		</div>
 	</div>
-	<!-- Color Settings Start
-	==================================================-->
-	<div class="color-panel">
-		<div class="on-panel color_white bg_primary">
-			<div class="text-center icon-spinner">
-			  <i class="fa fa-cog fa-spin fa-3x fa-fw"></i>
-			</div>
-		</div>
-		<div class="panel-box">
-			<span class="panel-title">Theme Colors</span>
-			<ul class="color-box">
-				<li class="default" data-name="default" data-path="css/color.css" data-image="images/logo/29.png" data-target="images/logo/29.png"></li>
-				<li class="color_2" data-name="color_2" data-path="css/color/color-1.css" data-image="images/logo/30.png" data-target="images/logo/30.png"></li>
-				<li class="color_3" data-name="color_3" data-path="css/color/color-2.css" data-image="images/logo/31.png" data-target="images/logo/31.png"></li>
-				<li class="color_4" data-name="color_4" data-path="css/color/color-3.css" data-image="images/logo/32.png" data-target="images/logo/32.png"></li>
-				<li class="color_5" data-name="color_5" data-path="css/color/color-4.css" data-image="images/logo/33.png" data-target="images/logo/33.png"></li>
-				<li class="color_6" data-name="color_6" data-path="css/color/color-5.css" data-image="images/logo/34.png" data-target="images/logo/34.png"></li>
-				<li class="color_7" data-name="color_7" data-path="css/color/color-6.css" data-image="images/logo/35.png" data-target="images/logo/35.png"></li>
-				<li class="color_8" data-name="color_8" data-path="css/color/color-7.css" data-image="images/logo/36.png" data-target="images/logo/36.png"></li>
-				<li class="color_9" data-name="color_9" data-path="css/color/color-8.css" data-image="images/logo/37.png" data-target="images/logo/37.png"></li>
-				<li class="color_10" data-name="color_10" data-path="css/color/color-9.css" data-image="images/logo/38.png" data-target="images/logo/38.png"></li>
-				<li class="color_11" data-name="color_11" data-path="css/color/color-10.css" data-image="images/logo/39.png" data-target="images/logo/39.png"></li>
-				<li class="color_12" data-name="color_12" data-path="css/color/color-11.css" data-image="images/logo/40.png" data-target="images/logo/40.png"></li>
-				<li class="color_13" data-name="color_13" data-path="css/color/color-12.css" data-image="images/logo/41.png" data-target="images/logo/41.png"></li>
-				<li class="color_14" data-name="color_14" data-path="css/color/color-13.css" data-image="images/logo/42.png" data-target="images/logo/42.png"></li>
-			</ul>
-		</div>
-		<div class="template_style">
-			<span class="layout_title">Template Style</span>
-			<ul>
-				<li><a class="btn_link" href="index-1.html" target="blank">White Version</a></li>
-				<li><a class="btn_link" href="index-2.html" target="blank">Black Version</a></li>
-			</ul>
-		</div>
-	</div>
-	<!--  Color Settings End
-	==============================================-->
+	
 	<!--	Start Sidebar
 	==================================================-->
 	<div id="mysidenav" class="sidenav">
@@ -93,13 +58,13 @@
 	  <img class="nav-logo" src="images/logo/29.png" alt="image">
 	  	<ul id="menu">
 			<li data-menuanchor="page1" class="active"><a href="#page1">Home</a></li>
-			<li data-menuanchor="page2"><a href="#page2">About</a></li>
-			<li data-menuanchor="page3"><a href="#page3">Resume</a></li>
+			<li data-menuanchor="page2"><a href="#page2">About Us</a></li>
+			<li data-menuanchor="page3"><a href="#page3">Lifestyle</a></li>
 			<li data-menuanchor="page4"><a href="#page4">Services</a></li>
-			<li data-menuanchor="page5"><a href="#page5">Portfolio</a></li>
-			<li data-menuanchor="page6"><a href="#page6">Pricing</a></li>
-			<li data-menuanchor="page7"><a href="#page7">Team</a></li>
-			<li data-menuanchor="page8"><a href="#page8">Testimonial</a></li>
+			<li data-menuanchor="page5"><a href="#page5">Gallery</a></li>
+			<li data-menuanchor="page6"><a href="#page6">Location Map</a></li>
+			<li data-menuanchor="page7"><a href="#page7">Enquiry Now</a></li>
+			<li data-menuanchor="page8"><a href="#page8">Download</a></li>
 			<li data-menuanchor="page9"><a href="#page9">Contact</a></li>
 		</ul>
 	</div>

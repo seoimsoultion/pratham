@@ -3,3 +3,11 @@
   }
   .nav-logo {width:80px}
   #contact {background: #762424; background-image: url(../images/footer.png);;}
+  .rgba-black-strong, .rgba-black-strong::after {
+    background-color: rgba(63,81,181,0.7);
+}
+
+.rgba-indigo-strong, .rgba-indigo-strong::after {
+  background-color: 
+  rgba(63,81,181,0.7);
+}

@@ -1,5 +1,4 @@
-
-	<!--	Start Contact
+<!--	Start Contact
 		===================================================-->
 	    <div id="contact" class="section bg_white pp-scrollable">
 	    	<div class="container">
@@ -17,71 +16,93 @@
 		    			</div>
 		    		</div>
 		    		<div class="row">
-		    			<div class="col-md-5 col-lg-4">
-		    				<div class="contact_info">
-		    					<ul>
-		    						<li>
-		    							<div class="contact_icon float-left"><i class="fa fa-phone" aria-hidden="true"></i></div>
-		    							<div class="contact_text">
-		    								<h6 class="font-weight-bold color_primary">CALL</h6>
-		    								<span class="color_secondery">+6103 6000 8590</span>
-		    							</div>
-		    						</li>
-		    						<li>
-		    							<div class="contact_icon float-left"><i class="fa fa-envelope" aria-hidden="true"></i></div>
-		    							<div class="contact_text">
-		    								<h6 class="font-weight-bold color_primary">EMAIL</h6>
-		    								<span class="color_secondery">info@yourdomain.com</span>
-		    							</div>
-		    						</li>
-		    						<li>
-		    							<div class="contact_icon float-left"><i class="fa fa-map-marker" aria-hidden="true"></i></div>
-		    							<div class="contact_text">
-		    								<h6 class="font-weight-bold color_primary">ADDRESS</h6>
-		    								<span class="color_secondery">210 Elizabeth St, Melbourne VIC 3000, Australia.</span>
-		    							</div>
-		    						</li>
-		    					</ul>
-		    				</div>
-		    			</div>
-		    			<div class="col-md-7 col-lg-8">
-		    				<form class="form contact_message pb_60" id="contact-form" action="email.php" method="post">
-								<div class="row">
-									<div class="col-md-6 col-lg-6">
-										<div class="form-group">
-											<input class="form-control" type="text" name="name" placeholder="Your Name" />
-										</div>
+					<div class="col-md-4 col-lg-4">
+						<div class="contact_info wow animated fadeInLeft">
+							<ul>
+								<li>
+									<div class="contact_text color_default">
+										<h6 class="font-weight-bold color_default">Email</h6>
+										<span class="">www.prathamconstructions.com</span>
 									</div>
-									<div class="col-md-6 col-lg-6">
-										<div class="form-group">
-											<input class="form-control" type="email" name="email" placeholder="Email Address" />
-										</div>
+								</li>
+								<li>
+									<div class="contact_text">
+										<h6 class="font-weight-bold color_default">Phone</h6>
+										<span class="">(+91) 7829 583 111
+											<br/>
+											(+91) 804 171 5678</span>
 									</div>
-									<div class="col-md-12 col-lg-12">
-										<div class="form-group">
-										  <input class="form-control" type="text" name="subject" placeholder="Subject"/>
-										</div>
+								</li>
+								<li>
+									<div class="contact_text">
+										<h6 class="font-weight-bold color_default">Address</h6>
+										<span class=""> Pratham Corporate Office
+											<br />
+											Off K G Road,
+											<br />
+											Opp Menaka Theater,
+											<br />
+											Bengaluru,
+											<br />
+											Karnataka - 560 009</span>
 									</div>
-									<div class="col-md-12 col-lg-12">
-										<div class="form-group">
-											<textarea class="form-control" name="message" rows="7" placeholder="Message"></textarea>
-										</div>							
+								</li>
+								<li>
+									<div class="contact_text">
+										<h6 class="font-weight-bold color_default">Website</h6>
+										<span class="">www.yourdomain.com</span>
 									</div>
-									<div class="col-md-12 col-lg-12">
-										<div class="form-group">
-											<input class="btn btn-default" id="send" value="Send Massage" type="submit"/>
-										</div>
-									</div>
-									<div class="col-md-12 col-lg-12">
-										<div class="error-handel">
-											<div id="success">Your email sent Successfully, Thank you.</div>
-											<div id="error"> Error occurred while sending email. Please try again later.</div>
-										</div>
+								</li>
+							</ul>
+						</div>
+						<div class="socal_media_2 mt_15 d-inline-block">
+							<ul>
+								<li><a href="#"><i class="fa fa-facebook " aria-hidden="true"></i></a></li>
+								<li><a href="#"><i class="fa fa-twitter " aria-hidden="true"></i></a></li>
+								<li><a href="#"><i class="fa fa-google-plus " aria-hidden="true"></i></a></li>
+								<li><a href="#"><i class="fa fa-linkedin " aria-hidden="true"></i></a></li>
+								<li><a href="#"><i class="fa fa-instagram " aria-hidden="true"></i></a></li>
+							</ul>
+						</div>
+					</div>
+					<div class="col-md-8 col-lg-8">
+						<form class="form contact_message wow animated fadeInRight" id="contact-form" action="email.php" method="post">
+							<div class="row">
+								<div class="col-md-6 col-lg-6">
+									<div class="form-group">
+										<input class="form-control" type="text" name="name" placeholder="Your Name" />
 									</div>
 								</div>
-							</form>
-		    			</div>
-		    		</div>
+								<div class="col-md-6 col-lg-6">
+									<div class="form-group">
+										<input class="form-control" type="email" name="email" placeholder="Email Address" />
+									</div>
+								</div>
+								<div class="col-md-12 col-lg-12">
+									<div class="form-group">
+										<input class="form-control" type="text" name="subject" placeholder="Subject" />
+									</div>
+								</div>
+								<div class="col-md-12 col-lg-12">
+									<div class="form-group">
+										<textarea class="form-control" name="message" rows="7" placeholder="Message"></textarea>
+									</div>
+								</div>
+								<div class="col-md-12 col-lg-12">
+									<div class="form-group">
+										<input class="btn btn-default" id="send" value="Send Massage" type="submit" />
+									</div>
+								</div>
+								<div class="col-md-12 col-lg-12">
+									<div class="error-handel">
+										<div id="success">Your email sent Successfully, Thank you.</div>
+										<div id="error"> Error occurred while sending email. Please try again later.</div>
+									</div>
+								</div>
+							</div>
+						</form>
+					</div>
+				</div>
 	    		</div>
 	    	</div>
 	    	<div class="footer pt_60 background6">

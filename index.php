@@ -198,6 +198,8 @@ include 'includes/header.php';
 </section>
 <!--	End Skill
 	===================================================-->
+
+	
 <!--	Start Experience and Projects
 	===================================================-->
 <div class="experience background2 overlay_two py_60 full_row">
@@ -315,10 +317,120 @@ include 'includes/header.php';
 	===================================================-->
 <section id="portfolio" class="py_80 bg_secondery full_row">
 	<div class="container">
+
+	<div class="row">
+		<div class="col-lg-6">
+			<div class="row">
+          <div class="col-lg-5">
+            <!--Carousel Wrapper-->
+            <div id="carousel-thumb" class="carousel slide carousel-fade carousel-thumbnails"
+              data-ride="carousel">
+              <!--Slides-->
+              <div class="carousel-inner" role="listbox">
+                <div class="carousel-item active">
+                  <img class="d-block w-100"
+                    src="https://mdbootstrap.com/img/Photos/Horizontal/E-commerce/Vertical/img%20(23).jpg"
+                    alt="First slide">
+                </div>
+                <div class="carousel-item">
+                  <img class="d-block w-100"
+                    src="https://mdbootstrap.com/img/Photos/Horizontal/E-commerce/Vertical/img%20(24).jpg"
+                    alt="Second slide">
+                </div>
+                <div class="carousel-item">
+                  <img class="d-block w-100"
+                    src="https://mdbootstrap.com/img/Photos/Horizontal/E-commerce/Vertical/img%20(25).jpg"
+                    alt="Third slide">
+                </div>
+              </div>
+              <!--/.Slides-->
+              <!--Controls-->
+              <a class="carousel-control-prev" href="#carousel-thumb" role="button" data-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="sr-only">Previous</span>
+              </a>
+              <a class="carousel-control-next" href="#carousel-thumb" role="button" data-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="sr-only">Next</span>
+              </a>
+              <!--/.Controls-->
+              <ol class="carousel-indicators">
+                <li data-target="#carousel-thumb" data-slide-to="0" class="active">
+                  <img src="https://mdbootstrap.com/img/Photos/Horizontal/E-commerce/Vertical/img%20(23).jpg" width="60">
+                </li>
+                <li data-target="#carousel-thumb" data-slide-to="1">
+                  <img src="https://mdbootstrap.com/img/Photos/Horizontal/E-commerce/Vertical/img%20(24).jpg" width="60">
+                </li>
+                <li data-target="#carousel-thumb" data-slide-to="2">
+                  <img src="https://mdbootstrap.com/img/Photos/Horizontal/E-commerce/Vertical/img%20(25).jpg" width="60">
+                </li>
+              </ol>
+            </div>
+            <!--/.Carousel Wrapper-->
+          </div>
+          <div class="col-lg-7">
+            <h2 class="h2-responsive product-name">
+              <strong>Product Name</strong>
+            </h2>
+            
+
+            <!--Accordion wrapper-->
+            <div class="accordion md-accordion" id="accordionEx" role="tablist" aria-multiselectable="true">
+
+              <!-- Accordion card -->
+              <div class="card">
+
+                <!-- Card header -->
+                <div class="card-header" role="tab" id="headingOne11">
+                  <a data-toggle="collapse" data-parent="#accordionEx" href="#collapseOne1" aria-expanded="true"
+                    aria-controls="collapseOne11">
+                    <h5 class="mb-0">
+                      Collapsible Group Item #1 <i class="fas fa-angle-down rotate-icon"></i>
+                    </h5>
+                  </a>
+                </div>
+
+                <!-- Card body -->
+                <div id="collapseOne1" class="collapse show" role="tabpanel" aria-labelledby="headingOne1"
+                  data-parent="#accordionEx">
+                  <div class="card-body">
+                    Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad
+                    squid. 3
+                    wolf moon officia aute,
+                    non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod.
+                  </div>
+                </div>
+
+              </div>
+              <!-- Accordion card -->
+
+            
+
+            
+              <!-- Accordion card -->
+
+            </div>
+          
+            <div class="card-body">
+             
+              <div class="text-center">
+
+                <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+               
+              </div>
+            </div>
+            <!-- /.Add to Cart -->
+          </div>
+		</div>
+		</div>
+	</div>
+
+
+
 		<div class="row">
 			<div class="col-md-12 col-lg-12">
 				<div class="section_title_1 text-center mx-auto pb_60 wow animated slideInUp">
-					<h2 class="title text-uppercase"><span class="line_double mx-auto color_default">portfolio</span>Recent Projects</h2>
+					<h2 class="title text-uppercase"><span class="line_double mx-auto color_default">Our</span> Projects</h2>
 					<span class="sub_title">Interdum a etiam sagittis vehicula porta. Massa felis eros quam blandit nulla dolor habitant. Ullamcorper quis ornare et proin pellentesque.</span>
 				</div>
 			</div>
