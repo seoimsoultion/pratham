@@ -53,7 +53,7 @@ include 'includes/header.php';
 		<div class="row h-100 align-items-center">
 			<div class="col-md-12 col-lg-12 home-content text-left">
 				<div class="mainbanner_content">
-					<span class="pb_5 banner_title color_white">Pratham Construction</span>
+					<span class="pb_5 banner_title color_white ">Pratham Construction</span>
 					<h1 class="cd-headline clip is-full-width text-uppercase">
 						<span class="color_white">I am a</span>
 						<span class="cd-words-wrapper color_default">
