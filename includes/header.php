@@ -72,9 +72,9 @@
 					<ul class="navbar-nav ml-auto">
 					  <li class="nav-item"><a class="nav-link active" href="#top">Home<span class="sr-only">(current)</span></a></li>
 					  <li class="nav-item"><a class="nav-link" href="#about">About </a></li>
-					  <li class="nav-item"><a class="nav-link" href="#skill">Our Projects</a></li>
-					  <li class="nav-item"><a class="nav-link" href="#services">Location</a></li>
-					  <li class="nav-item"><a class="nav-link" href="#portfolio">Contact Us</a></li>	
+					  <li class="nav-item"><a class="nav-link" href="#portfolio">Our Projects</a></li>
+					  <li class="nav-item"><a class="nav-link" href="#experience">Location</a></li>
+			
 					 
 					  <li class="nav-item"><a class="nav-link" href="#contact">Contact</a></li>	
 					</ul>

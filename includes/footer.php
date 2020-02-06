@@ -42,12 +42,7 @@
 											Karnataka - 560 009</span>
 									</div>
 								</li>
-								<li>
-									<div class="contact_text">
-										<h6 class="font-weight-bold color_default">Website</h6>
-										<span class="color_white">www.yourdomain.com</span>
-									</div>
-								</li>
+								
 							</ul>
 						</div>
 						<div class="socal_media_2 mt_15 d-inline-block">

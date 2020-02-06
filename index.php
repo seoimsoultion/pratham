@@ -55,15 +55,15 @@ include 'includes/header.php';
 				<div class="mainbanner_content">
 					<span class="pb_5 banner_title color_white ">Pratham Construction</span>
 					<h1 class="cd-headline clip is-full-width text-uppercase">
-						<span class="color_white">I am a</span>
+						<span class="color_white"></span>
 						<span class="cd-words-wrapper color_default">
-							<b class="is-visible">UI/UX Designer.</b>
-							<b>Developer.</b>
-							<b>Freelancer.</b>
+							<b class="is-visible color_white">Presents to you <br/>Indraprastha</b>
+							<b class="color_white">Pratham  Brings <br/> Royalty to you!!</b>
+							
 						</span>
 					</h1>
-					<p class="color_white mb_30">Libero habitasse sollicitudin aliquet venenatis iaculis placerat amet ligula, eleifend nonummy enim in volutpat diam.</p>
-					<a class="btn btn-default" href="#">Download CV</a>
+					<p class="color_white mb_30">Pratham's Latest Project for the modern lifestyle and urban families.</p>
+					<a class="btn btn-default" href="#">Download Brochure</a>
 				</div>
 			</div>
 		</div>
@@ -199,7 +199,7 @@ include 'includes/header.php';
 </section>
 
 
-<div class="experience background2 overlay_two py_60 full_row">
+<div id="experience" class="experience background2 overlay_two py_60 full_row">
 	<div class="container">
 		
 	<div class="row">
