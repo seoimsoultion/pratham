@@ -78,7 +78,7 @@ include 'includes/header.php';
 
 
 
-		
+
 
 <section id="about" class="py_80 full_row bg_primary">
 	<div class="container">
@@ -86,7 +86,7 @@ include 'includes/header.php';
 			<div class="col-md-12 col-lg-12">
 				<div class="section_title_1 text-center mx-auto pb_60 wow animated slideInUp">
 					<h2 class="title text-uppercase color_white"><span class="line_double mx-auto color_default">about</span>about myself</h2>
-					<span class="sub_title color_white" >Interdum a etiam sagittis vehicula porta. Massa felis eros quam blandit nulla dolor habitant. Ullamcorper quis ornare et proin pellentesque.</span>
+					<span class="sub_title color_white">Interdum a etiam sagittis vehicula porta. Massa felis eros quam blandit nulla dolor habitant. Ullamcorper quis ornare et proin pellentesque.</span>
 				</div>
 			</div>
 		</div>
@@ -94,27 +94,27 @@ include 'includes/header.php';
 			<div class="row">
 				<div class="col-md-7 col-lg-7">
 					<div class="myself color_secondery wow animated fadeInLeft">
-						<p class="color_white">Sodales iaculis est Scelerisque sociis magna dolor pulvinar magnis. Varius  Donec morbi feugiat placerat gravida porttitor natoque nonummy parturient posuere. Magnis suspendisse parturient. Magna ultricies nostra nunc magna. Sodales etiam arcu suscipit, mollis. Aenean tempor eu ipsum nisi sociosqu lorem hymenaeos sapien. Aptent maecenas ac ante molestie habitant.</p>
+						<p class="color_white">Sodales iaculis est Scelerisque sociis magna dolor pulvinar magnis. Varius Donec morbi feugiat placerat gravida porttitor natoque nonummy parturient posuere. Magnis suspendisse parturient. Magna ultricies nostra nunc magna. Sodales etiam arcu suscipit, mollis. Aenean tempor eu ipsum nisi sociosqu lorem hymenaeos sapien. Aptent maecenas ac ante molestie habitant.</p>
 
-						
+
 					</div>
 					<div class="personal_info color_lightgray">
-											<ul>
-												<li><span class="color_secondery">
-													</span>Founded on the vision of
-												<b class="color_default">	Mr. Kesarimalji Gadia </b>70 years ago.</li>
-												<li><span class="color_secondery"></span> Began
-													trading in gold threads and yarns. </li>
-												<li><span class="color_secondery"></span> Diversified on to trading
-													manufacturing and real estate. </li>
-												<li><span class="color_secondery"></span> An affordable housing solution
-													for all is the core vision.</li>
-												<li><span class="color_secondery"></span> Initial success with Casa Serene
-													paved path for Indraprastha</li>
-												<li><span class="color_secondery"></span><b class="color_default"> Indraprastha Bengaluru's </b>
-													royal address for royal families</li>
-											</ul>
-										</div>
+						<ul>
+							<li><span class="color_secondery">
+								</span>Founded on the vision of
+								<b class="color_default"> Mr. Kesarimalji Gadia </b>70 years ago.</li>
+							<li><span class="color_secondery"></span> Began
+								trading in gold threads and yarns. </li>
+							<li><span class="color_secondery"></span> Diversified on to trading
+								manufacturing and real estate. </li>
+							<li><span class="color_secondery"></span> An affordable housing solution
+								for all is the core vision.</li>
+							<li><span class="color_secondery"></span> Initial success with Casa Serene
+								paved path for Indraprastha</li>
+							<li><span class="color_secondery"></span><b class="color_default"> Indraprastha Bengaluru's </b>
+								royal address for royal families</li>
+						</ul>
+					</div>
 				</div>
 				<div class="col-md-5 col-lg-5">
 					<div class=" personal_video wow animated fadeInRight">
@@ -139,9 +139,9 @@ include 'includes/header.php';
 
 <section id="portfolio" class="py_80 bg_secondery full_row">
 	<div class="container">
-	
 
-	
+
+
 		<div class="row">
 			<div class="col-md-12 col-lg-12">
 				<div class="section_title_1 text-center mx-auto pb_60 wow animated slideInUp">
@@ -150,105 +150,84 @@ include 'includes/header.php';
 				</div>
 			</div>
 			<div class="col-md-12 col-lg-12">
-				<div class="my_portfolio" id="tab-panel">
-					<!--Filter-->
-					<div class="row">
-						<div class="col-md-12">
 
+				<div class="col-md-2">
+					<div class="tab">
+						<button class="tablinks" onmouseover="openCity(event, 'London')">Indraprastha</button>
+						<button class="tablinks" onmouseover="openCity(event, 'Casa-Serene')">Casa Serene</button>
 
+					</div>
+				</div>
+				<div id="London" class="col-md-10 tabcontent">
 
-
-							<div class="filters mb_30 w-100 text-center">
-								<ul class="filter-tabs mx-auto d-inline-block">
-									<li class="active filter" data-role="button" data-filter="all">All</li>
-									<li class="filter" data-role="button" data-filter=".design">Web Design</li>
-									<li class="filter" data-role="button" data-filter=".wordpress">Wordpress</li>
-									<li class="filter" data-role="button" data-filter=".development">Web Development</li>
-									<li class="filter" data-role="button" data-filter=".branding">Branding</li>
-								</ul>
-							</div>
-						</div>
+					<div class="col-md-6 pull-left"><img src="images/pratham/about-us.jpg" class="img-fluid"></div>
+					<div class="col-md-6 pull-right">
+						<h5>Indraprastha</h5>
+						<p>Live like royalty near Yeshwantpur Metro Station, Bengaluru</p>
+						<h5>Happy Families</h5>
+						<p>23 different apartment designs spread across 4 blocks</p>
+						<h5>Amenities</h5>
+						<p>Latest amenities, malls & metro all at fingertips.</p>
+						<h5>Area</h5>
+						<p>Lush green vibrant spaces</p>
+						<h5 class="color_default">Visit Indraprastha's web page to know more.</h5>
 					</div>
 
-					<div class="filter-list">
-						<div class="portfolio-items">
-							<div class="row">
-							
-							
-							
-							
-								<div class="column mix mix_all graphic design branding mb_30 col-md-6 col-lg-6">
-									<div class="default-portfolio-item">
-										<a href="images/portfolio/05.jpg" data-fancybox="gallery">
-											<img src="images/portfolio/05.jpg" alt="image" />
-											<div class="overlay-box">
-												<span><i class="fa fa-eye" aria-hidden="true"></i></span>
-												<div class="tag">
-													<ul>
-														<li>Web Design,</li>
-														<li>wordpress</li>
-													</ul>
-												</div>
-											</div>
-										</a>
-									</div>
-								</div>
-								<div class="column mix mix_all development wordpress design mb_30 col-md-6 col-lg-6">
-									<div class="default-portfolio-item">
-										<a href="images/portfolio/06.jpg" data-fancybox="gallery">
-											<img src="images/portfolio/06.jpg" alt="image" />
-											<div class="overlay-box">
-												<span><i class="fa fa-eye" aria-hidden="true"></i></span>
-												<div class="tag">
-													<ul>
-														<li>Web Design,</li>
-														<li>Web Development</li>
-													</ul>
-												</div>
-											</div>
-										</a>
-									</div>
-								</div>
 
-								
-							</div>
-						</div>
+				</div>
+				<div id="Casa-Serene" class="col-md-10 tabcontent">
+					<div class="col-md-6 pull-left">
+						<h5>Casa Serene</h5>
+						<p>Modelled on European design which exudes timeless luxury and comfort for todayâ€™s fast-paced life. </p>
+						<h5>Happy Families</h5>
+						<p>All 4 side open apartments. </p>
+						<h5>Amenities</h5>
+						<p>All latest amenities that your modern lifestyle requires. </p>
+						<h5>Area</h5>
+						<p>78% open area for you to enjoy your own private paradise. </p>
+						<h5 class="color_default">Visit Casa Serene's web page to know more.</h5>
 					</div>
+					<div class="col-md-6 pull-right"><img src="images/pratham/about-us.jpg" class="img-fluid"></div>
+					</div>
+
+					<div class="clearfix"></div>
+
+
 				</div>
 			</div>
 		</div>
-	</div>
 </section>
 
 
 <div class="experience background2 overlay_two py_60 full_row">
-		<div class="container">
-			<div class="row">
-				<div class="col-md-12 col-lg-12">
-					<div class="fact-counter">
-						<div class="row">
-							<div class="col-md-4 col-lg-4">
-							    <div class="counter count wow text-center" data-wow-duration="300ms">
-								
-								<img src="images/pratham/bengalurumap.png"  class="img-fluid">
-								
+	<div class="container">
+		<div class="row">
+			<div class="col-md-12 col-lg-12">
+				<div class="fact-counter">
+					<div class="row">
+						<div class="col-md-4 col-lg-4">
+							<div class="counter count wow text-center" data-wow-duration="300ms">
+
+								<img src="images/pratham/bengalurumap.png" class="img-fluid">
+
 							</div>
+						</div>
+						<div class="col-md-4 col-lg-4">
+							<div class="counter count wow text-center" data-wow-duration="300ms">
+								<span class="flaticon-half-time-work"></span>
+								<div class="counting_digit color_default mt_15">
+									<h2 class="count-num" data-speed="3000" data-stop="145">0</h2><span>+</span>
+								</div>
+								<h3 class="color_white mt_15">Porjects Done</h3>
 							</div>
-							<div class="col-md-4 col-lg-4">
-							    <div class="counter count wow text-center" data-wow-duration="300ms">
-							    	<span class="flaticon-half-time-work"></span>
-					            	<div class="counting_digit color_default mt_15"> <h2 class="count-num" data-speed="3000" data-stop="145">0</h2><span>+</span>
-					            	</div>
-					            	<h3 class="color_white mt_15">Porjects Done</h3>
-					          	</div>
-							</div>
-							<div class="col-md-4 col-lg-4">
-							    <div class="counter count wow text-center" data-wow-duration="300ms">
-							    	<span class="flaticon-happy"></span>
-					            	<div class="counting_digit color_default mt_15"><h2 class="count-num" data-speed="3000" data-stop="137">0</h2><span>+</span>
-					            	</div>
-					            	<h3 class="color_white mt_15">Happy Clients</h3>
-					          	</div>
+						</div>
+						<div class="col-md-4 col-lg-4">
+							<div class="counter count wow text-center" data-wow-duration="300ms">
+								<span class="flaticon-happy"></span>
+								<div class="counting_digit color_default mt_15">
+									<h2 class="count-num" data-speed="3000" data-stop="137">0</h2><span>+</span>
+								</div>
+								<h3 class="color_white mt_15">Happy Clients</h3>
 							</div>
 						</div>
 					</div>
@@ -256,24 +235,26 @@ include 'includes/header.php';
 			</div>
 		</div>
 	</div>
+</div>
 
 <?php
 include 'includes/footer.php';
 ?>
 <script>
-function openCity(cityName,elmnt,color) {
-  var i, tabcontent, tablinks;
-  tabcontent = document.getElementsByClassName("tabcontent");
-  for (i = 0; i < tabcontent.length; i++) {
-    tabcontent[i].style.display = "none";
-  }
-  tablinks = document.getElementsByClassName("tablink");
-  for (i = 0; i < tablinks.length; i++) {
-    tablinks[i].style.backgroundColor = "";
-  }
-  document.getElementById(cityName).style.display = "block";
-  elmnt.style.backgroundColor = color;
+	
+		$( "#London" ).trigger("click") ;
 
-}
-// Get the element with id="defaultOpen" and click on it
-document.getElementById("defaultOpen").click();</script>
+	function openCity(evt, cityName) {
+		var i, tabcontent, tablinks;
+		tabcontent = document.getElementsByClassName("tabcontent");
+		for (i = 0; i < tabcontent.length; i++) {
+			tabcontent[i].style.display = "none";
+		}
+		tablinks = document.getElementsByClassName("tablinks");
+		for (i = 0; i < tablinks.length; i++) {
+			tablinks[i].className = tablinks[i].className.replace(" active", "");
+		}
+		document.getElementById(cityName).style.display = "block";
+		evt.currentTarget.className += " active";
+	}
+</script>
