@@ -86,7 +86,7 @@ include 'includes/header.php';
 			<div class="col-md-12 col-lg-12">
 				<div class="section_title_1 text-center mx-auto pb_60 wow animated slideInUp">
 					<h2 class="title text-uppercase color_white"><span class="line_double mx-auto color_default">about</span>about myself</h2>
-					<span class="sub_title color_white">Interdum a etiam sagittis vehicula porta. Massa felis eros quam blandit nulla dolor habitant. Ullamcorper quis ornare et proin pellentesque.</span>
+					<span class="sub_title color_white">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque sapien.</span>
 				</div>
 			</div>
 		</div>
@@ -146,23 +146,38 @@ include 'includes/header.php';
 			<div class="col-md-12 col-lg-12">
 				<div class="section_title_1 text-center mx-auto pb_60 wow animated slideInUp">
 					<h2 class="title text-uppercase"><span class="line_double mx-auto color_default">Our</span> Projects</h2>
-					<span class="sub_title">Interdum a etiam sagittis vehicula porta. Massa felis eros quam blandit nulla dolor habitant. Ullamcorper quis ornare et proin pellentesque.</span>
+					<span class="sub_title">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque sapien velit, aliquet eget commodo nec,  Curabitur quis varius libero. Lorem.</span>
 				</div>
 			</div>
 			<div class="col-md-12 col-lg-12">
-
-				<div class="col-md-2">
+				<div class="row">
+				<div class="col-md-6"><img src="images/pratham/home/indraprastha.jpg" class="img-fluid" alt="" title="">
+				<span class=" test" >
+                           <span class="test-title" wfd-id="167">Indraprastha</span>
+                           <span class="test-info" wfd-id="166">Near  Yeshwantpur Metro Station</span>
+                           </span>
+			</div>
+				<div class="col-md-6"><img src="images/pratham/home/casaserene.jpg" class="img-fluid" alt="" title="">
+				<span class=" test" >
+                           <span class="test-title" wfd-id="167">Casa Serene</span>
+                           <span class="test-info" wfd-id="166"></span>
+                           </span>
+			</div>
+				</div>
+				<div class="clearfix"></div>
+				<?php /*
+				<div class="col-md-12">
 					<div class="tab">
-						<button class="tablinks" onmouseover="openCity(event, 'London')">Indraprastha</button>
-						<button class="tablinks" onmouseover="openCity(event, 'Casa-Serene')">Casa Serene</button>
+						<button class="tablinks col-md-6 pull-left text-ceneter tt1" onmouseover="openCity(event, 'London')">Indraprastha</button>
+						<button class="tablinks col-md-6 pull-right text-ceneter tt2" onmouseover="openCity(event, 'Casa-Serene')">Casa Serene</button>
 
 					</div>
 				</div>
-				<div id="London" class="col-md-10 tabcontent">
+				<div id="London" class="col-md-12 tabcontent">
 
 					<div class="col-md-6 pull-left"><img src="images/pratham/home/indraprastha.jpg" class="img-fluid"></div>
 					<div class="col-md-6 pull-right">
-						<h5>Indraprastha</h5>
+						<h3>Indraprastha</h3>
 						<p>Live like royalty near Yeshwantpur Metro Station, Bengaluru</p>
 						<h5>Happy Families</h5>
 						<p>23 different apartment designs spread across 4 blocks</p>
@@ -175,9 +190,9 @@ include 'includes/header.php';
 
 
 				</div>
-				<div id="Casa-Serene" class="col-md-10 tabcontent">
+				<div id="Casa-Serene" class="col-md-12 tabcontent">
 					<div class="col-md-6 pull-left">
-						<h5>Casa Serene</h5>
+						<h3>Casa Serene</h3>
 						<p>Modelled on European design which exudes timeless luxury and comfort for todayâ€™s fast-paced life. </p>
 						<h5>Happy Families</h5>
 						<p>All 4 side open apartments. </p>
@@ -191,7 +206,7 @@ include 'includes/header.php';
 				</div>
 
 				<div class="clearfix"></div>
-
+				*/ ?>
 
 			</div>
 		</div>
@@ -211,9 +226,11 @@ include 'includes/header.php';
 						
 						<div class="col-md-4 col-lg-4">
 							<div class="counter count wow text-center" data-wow-duration="300ms">
-
+							<br/><a href="images/pratham/bengalurumap.png" data-fancybox="gallery">
 								<img style="width:250px;background:white;padding:20px" src="images/pratham/bengalurumap.png" class="">
-
+								</a>
+														
+												
 							</div>
 						</div>
 						<div class="col-md-4 col-lg-4">
@@ -253,7 +270,7 @@ include 'includes/footer.php';
 ?>
 <script>
 	$('document').ready(function () {
-
+		//$('.tt1').css("background","red");
 		openCity(event, 'London');
 	} )
 
