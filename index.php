@@ -160,7 +160,7 @@ include 'includes/header.php';
 				</div>
 				<div id="London" class="col-md-10 tabcontent">
 
-					<div class="col-md-6 pull-left"><img src="images/pratham/about-us.jpg" class="img-fluid"></div>
+					<div class="col-md-6 pull-left"><img src="images/pratham/home/indraprastha.jpg" class="img-fluid"></div>
 					<div class="col-md-6 pull-right">
 						<h5>Indraprastha</h5>
 						<p>Live like royalty near Yeshwantpur Metro Station, Bengaluru</p>
@@ -187,47 +187,58 @@ include 'includes/header.php';
 						<p>78% open area for you to enjoy your own private paradise. </p>
 						<h5 class="color_default">Visit Casa Serene's web page to know more.</h5>
 					</div>
-					<div class="col-md-6 pull-right"><img src="images/pratham/about-us.jpg" class="img-fluid"></div>
-					</div>
-
-					<div class="clearfix"></div>
-
-
+					<div class="col-md-6 pull-right"><img src="images/pratham/home/casaserene.jpg" class="img-fluid"></div>
 				</div>
+
+				<div class="clearfix"></div>
+
+
 			</div>
 		</div>
+	</div>
 </section>
 
 
 <div class="experience background2 overlay_two py_60 full_row">
 	<div class="container">
-		<div class="row">
+		
+	<div class="row">
+
+
 			<div class="col-md-12 col-lg-12">
 				<div class="fact-counter">
 					<div class="row">
+						
 						<div class="col-md-4 col-lg-4">
 							<div class="counter count wow text-center" data-wow-duration="300ms">
 
-								<img src="images/pratham/bengalurumap.png" class="img-fluid">
+								<img style="width:250px;background:white;padding:20px" src="images/pratham/bengalurumap.png" class="">
 
 							</div>
 						</div>
 						<div class="col-md-4 col-lg-4">
 							<div class="counter count wow text-center" data-wow-duration="300ms">
-								<span class="flaticon-half-time-work"></span>
-								<div class="counting_digit color_default mt_15">
-									<h2 class="count-num" data-speed="3000" data-stop="145">0</h2><span>+</span>
-								</div>
-								<h3 class="color_white mt_15">Porjects Done</h3>
+							
+
+								<h3 class="color_white mt_15">Indraprastha</h3>
+								<address class="color_white">
+									Ullas Theatre, 49/4,<br />
+									R K Road (previously known as MEC Batteries Road),<br />
+									Ward Near, Bengaluru,<br />
+									Karnataka - 560 022<br />
+								</address>
 							</div>
 						</div>
 						<div class="col-md-4 col-lg-4">
 							<div class="counter count wow text-center" data-wow-duration="300ms">
-								<span class="flaticon-happy"></span>
-								<div class="counting_digit color_default mt_15">
-									<h2 class="count-num" data-speed="3000" data-stop="137">0</h2><span>+</span>
-								</div>
-								<h3 class="color_white mt_15">Happy Clients</h3>
+							
+							
+								<h3 class="color_white mt_15">Casa Serene</h3>
+								<address class="color_white">
+									8, Subroto Mukherjee Road,<br />
+									Jalahalli Cross,<br />
+									Jalahalli (W), Bangalore,<br />
+									Karnataka - 560 028 </address>
 							</div>
 						</div>
 					</div>
@@ -241,8 +252,10 @@ include 'includes/header.php';
 include 'includes/footer.php';
 ?>
 <script>
-	
-		$( "#London" ).trigger("click") ;
+	$('document').ready(function () {
+
+		openCity(event, 'London');
+	} )
 
 	function openCity(evt, cityName) {
 		var i, tabcontent, tablinks;
