@@ -82,7 +82,7 @@
 
 .test {
   position:  absolute;
-  bottom:50px;
+  bottom:120px;
   padding: 15px;
   z-index: 999;
   left:0;
@@ -90,6 +90,8 @@
   margin: 15px;
   
 }
+.testp {background:rgba(184, 41, 47, 0.9);color:white;text-align: justify;padding:10px}
+
 .test-title {color:#FAA61A}
 .test-info {color:white}
 select.form-control[multiple], select.form-control[size] {height: calc(30px + 15px);}

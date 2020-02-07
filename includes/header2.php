@@ -26,7 +26,7 @@
 
       <!--	Title
     ==================================================-->
-	<title>Runaway - Personal Portfolio HTML Template</title>
+	<title></title>
 
 </head>
 <body id="top" class="page-load">
@@ -59,13 +59,14 @@
 	  	<ul id="menu">
 			<li data-menuanchor="page1" class="active"><a href="#page1">Home</a></li>
 			<li data-menuanchor="page2"><a href="#page2">About Us</a></li>
-			<li data-menuanchor="page3"><a href="#page3">Lifestyle</a></li>
-			<li data-menuanchor="page4"><a href="#page4">Services</a></li>
-			<li data-menuanchor="page5"><a href="#page5">Gallery</a></li>
-			<li data-menuanchor="page6"><a href="#page6">Location Map</a></li>
-			<li data-menuanchor="page7"><a href="#page7">Enquiry Now</a></li>
+			<li data-menuanchor="page3"><a href="#page3">Amenities</a></li>
+			
+			<li data-menuanchor="page5"><a href="#page4">Floor Plan</a></li>
+			<li data-menuanchor="page6"><a href="#page5">Master Plan</a></li>
+			<li data-menuanchor="page7"><a href="#page6">Location Map</a></li>
+			
+			<li data-menuanchor="page9"><a href="#page7">Contact</a></li>
 			<li data-menuanchor="page8"><a href="#page8">Download</a></li>
-			<li data-menuanchor="page9"><a href="#page9">Contact</a></li>
 		</ul>
 	</div>
 	<div class="sidebar bg_primary">

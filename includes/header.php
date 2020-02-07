@@ -73,6 +73,7 @@
 					  <li class="nav-item"><a class="nav-link active" href="#top">Home<span class="sr-only">(current)</span></a></li>
 					  <li class="nav-item"><a class="nav-link" href="#about">About </a></li>
 					  <li class="nav-item"><a class="nav-link" href="#portfolio">Our Projects</a></li>
+					  <li class="nav-item"><a class="nav-link" href="#Walkthrough">Walkthrough</a></li>
 					  <li class="nav-item"><a class="nav-link" href="#experience">Location</a></li>
 			
 					 
