@@ -82,7 +82,7 @@
 
 .test {
   position:  absolute;
-  bottom:120px;
+  top:56%;
   padding: 15px;
   z-index: 999;
   left:0;
@@ -90,8 +90,14 @@
   margin: 15px;
   
 }
-.testp {background:rgba(184, 41, 47, 0.9);color:white;text-align: justify;padding:10px}
+.testp {;color:#707070;text-align: left;padding:10px 0; border-top:#FAA61A solid 5px; line-height: 24px; }
 
 .test-title {color:#FAA61A}
 .test-info {color:white}
 select.form-control[multiple], select.form-control[size] {height: calc(30px + 15px);}
+.txt-italic { font-style: italic; font-size: 22px; color:#bdbabc;}
+.why-box img {width: 50%; margin: 0 25%;}
+.why-box p {text-align: center!important;}
+a.btn-project {border:1px #FAA61A solid; border-radius: 30px; margin: 10px 0; padding: 13px 40px; 
+}
+.experience {background: #faa61a;}

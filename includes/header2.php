@@ -26,7 +26,7 @@
 
       <!--	Title
     ==================================================-->
-	<title></title>
+	<title>Runaway - Personal Portfolio HTML Template</title>
 
 </head>
 <body id="top" class="page-load">

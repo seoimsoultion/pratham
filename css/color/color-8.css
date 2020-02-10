@@ -1,7 +1,7 @@
 /*	Color
 =====================================================================*/
 .color_default{
-	color: #ff3926;
+	color: #faa61a;
 }
 .color_primary{
 	color: #1e283c;
@@ -21,7 +21,7 @@
 /*	Background Color
 ===================================================================*/
 .bg_default{
-	background-color: #ff3926;
+	background-color: #faa61a;
 }
 .bg_primary{
 	background-color: #1e283c;
@@ -137,7 +137,7 @@ ul#menu li a:hover,.twite i,.twite a:hover,.category_sidebar ul li:hover,
 .lds-spinner div,.socal_media ul li a,#pp-nav li .active span, .pp-slidesNav .active span,
 .carousel-indicators .active,.contact_icon,.widget_title:before,.progress-bar,.page-item.active .page-link,
 .page-link:hover,.tags ul li a:hover{
-	background-color: #ff3926 !important;
+	background-color: #faa61a !important;
 }
 ::-webkit-scrollbar-thumb{
 	background-color: #232323;
@@ -191,7 +191,7 @@ ul#menu li a:hover,.twite i,.twite a:hover,.category_sidebar ul li:hover,
 	background: rgba(0,0,0,0.3);
 }
 .overlay_two:before,.overlay-box{
-	background: rgba(0,0,0,0.9);
+	background: #faa61a;
 }
 .overlay_four:before{
 	background: rgba(0,0,0,0.6);
@@ -215,10 +215,10 @@ ul#menu li a:hover,.twite i,.twite a:hover,.category_sidebar ul li:hover,
 }
 
 .service_one,.service_two,.member_feedback,.blog_item,.table{
-	-webkit-box-shadow: 1px 2px 10px rgba(0,0,0,.18);
+	/*-webkit-box-shadow: 1px 2px 10px rgba(0,0,0,.18);
 	-moz-box-shadow: 1px 2px 10px rgba(0,0,0,.18);
 	-ms-box-shadow: 1px 2px 10px rgba(0,0,0,.18);
 	-o-box-shadow: 1px 2px 10px rgba(0,0,0,.18);
-	box-shadow: 1px 2px 10px rgba(0,0,0,.18);
+	box-shadow: 1px 2px 10px rgba(0,0,0,.18);*/
 
 }

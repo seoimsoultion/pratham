@@ -1,8 +1,6 @@
 <?php 
 include 'includes/header2.php';
 ?>
-
-
 	<div id="pagepiling">
 	    <!--    Start Main Banner 
 		==================================================-->
