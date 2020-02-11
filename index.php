@@ -5,149 +5,185 @@ include 'includes/header.php';
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Swiper/4.4.1/css/swiper.min.css">
 <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.13/css/all.css" integrity="sha384-DNOHZ68U8hZfKXOrtjWvjxusGo9WQnrNx2sqG0tfsghAvtVlRW3tvkXWZh58N9jp" crossorigin="anonymous">
 <link href="https://fonts.googleapis.com/css?family=Oswald:500" rel="stylesheet">
-<script>!function(e){"undefined"==typeof module?this.charming=e:module.exports=e}(function(e,n){"use strict";n=n||{};var t=n.tagName||"span",o=null!=n.classPrefix?n.classPrefix:"char",r=1,a=function(e){for(var n=e.parentNode,a=e.nodeValue,c=a.length,l=-1;++l<c;){var d=document.createElement(t);o&&(d.className=o+r,r++),d.appendChild(document.createTextNode(a[l])),n.insertBefore(d,e)}n.removeChild(e)};return function c(e){for(var n=[].slice.call(e.childNodes),t=n.length,o=-1;++o<t;)c(n[o]);e.nodeType===Node.TEXT_NODE&&a(e)}(e),e});
+<script>
+	! function(e) {
+		"undefined" == typeof module ? this.charming = e : module.exports = e
+	}(function(e, n) {
+		"use strict";
+		n = n || {};
+		var t = n.tagName || "span",
+			o = null != n.classPrefix ? n.classPrefix : "char",
+			r = 1,
+			a = function(e) {
+				for (var n = e.parentNode, a = e.nodeValue, c = a.length, l = -1; ++l < c;) {
+					var d = document.createElement(t);
+					o && (d.className = o + r, r++), d.appendChild(document.createTextNode(a[l])), n.insertBefore(d, e)
+				}
+				n.removeChild(e)
+			};
+		return function c(e) {
+			for (var n = [].slice.call(e.childNodes), t = n.length, o = -1; ++o < t;) c(n[o]);
+			e.nodeType === Node.TEXT_NODE && a(e)
+		}(e), e
+	});
 </script>
-   
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/Swiper/4.4.1/js/swiper.min.js"></script>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/Swiper/4.4.1/js/swiper.min.js"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/2.0.2/TweenMax.min.js"></script>
 <style type="text/css">
+	.swiper-container {
+		width: 100%;
+		height: 100%;
+	}
 
+	.slide {
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		position: relative;
+		text-align: center;
+		font-size: 18px;
+		background: #fff;
+		overflow: hidden;
+	}
 
-.swiper-container {
-  width: 100%;
-  height: 100%;
-}
+	.slide-image {
+		position: absolute;
+		top: 0;
+		left: 0px;
+		width: calc(100% + 100px);
+		height: calc(100% + 100px);
+		background-position: 100%;
+		background-size: cover;
+	}
 
-.slide {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  position: relative;
-  text-align: center;
-  font-size: 18px;
-  background: #fff;
-  overflow: hidden;
-}
-.slide-image {
-  position: absolute;
-  top: 0;
-  left: 0px;
-  width: calc(100% + 100px);
-  height: calc(100% + 100px);
-  background-position: 100%;
-  background-size: cover;
-}
-.slide-title {
-  font-size: 4rem;
-  line-height: 1;
-  max-width: 50%;
-  white-space: normal;
-  word-break: break-word;
-  color: #FFF;
-  z-index: 100;
-  font-family: 'Oswald', sans-serif;
-  text-transform: uppercase;
-  font-weight: normal;
-}
-@media (min-width: 45em) {
-  .slide-title {
-    font-size: 7vw;
-    max-width: none;
-  }
-}
-.slide-title span {
-  white-space: pre;
-  display: inline-block;
-  opacity: 0;
-}
+	.slide-title {
+		font-size: 4rem;
+		line-height: 1;
+		max-width: 50%;
+		white-space: normal;
+		word-break: break-word;
+		color: #FFF;
+		z-index: 100;
+		font-family: 'Oswald', sans-serif;
+		text-transform: uppercase;
+		font-weight: normal;
+	}
 
-.slideshow {
-  position: relative;
-}
-.slideshow-pagination {
-  position: absolute;
-  bottom: 5rem;
-  left: 0;
-  width: 100%;
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
-  align-items: center;
-  transition: .3s opacity;
-  z-index: 10;
-}
-.slideshow-pagination-item {
-  display: flex;
-  align-items: center;
-}
-.slideshow-pagination-item .pagination-number {
-  opacity: 0.5;
-}
-.slideshow-pagination-item:hover, .slideshow-pagination-item:focus {
-  cursor: pointer;
-}
-.slideshow-pagination-item:last-of-type .pagination-separator {
-  width: 0;
-}
-.slideshow-pagination-item.active .pagination-number {
-  opacity: 1;
-}
-.slideshow-pagination-item.active .pagination-separator {
-  width: 10vw;
-}
-.slideshow-navigation-button {
-  position: absolute;
-  top: 0;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  height: 100%;
-  width: 5rem;
-  z-index: 1000;
-  transition: all .3s ease;
-  color: #FFF;
-}
-.slideshow-navigation-button:hover, .slideshow-navigation-button:focus {
-  cursor: pointer;
-  background: rgba(0, 0, 0, 0.5);
-}
-.slideshow-navigation-button.prev {
-  left: 0;
-}
-.slideshow-navigation-button.next {
-  right: 0;
-}
+	@media (min-width: 45em) {
+		.slide-title {
+			font-size: 7vw;
+			max-width: none;
+		}
+	}
 
-.pagination-number {
-  font-size: 1.8rem;
-  color: #FFF;
-  font-family: 'Oswald', sans-serif;
-  padding: 0 0.5rem;
-}
+	.slide-title span {
+		white-space: pre;
+		display: inline-block;
+		opacity: 0;
+	}
 
-.pagination-separator {
-  display: none;
-  position: relative;
-  width: 40px;
-  height: 2px;
-  background: rgba(255, 255, 255, 0.25);
-  transition: all .3s ease;
-}
-@media (min-width: 45em) {
-  .pagination-separator {
-    display: block;
-  }
-}
-.pagination-separator-loader {
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
-  background: #FFFFFF;
-  transform-origin: 0 0;
-}
+	.slideshow {
+		position: relative;
+	}
 
+	.slideshow-pagination {
+		position: absolute;
+		bottom: 5rem;
+		left: 0;
+		width: 100%;
+		display: flex;
+		flex-wrap: wrap;
+		justify-content: center;
+		align-items: center;
+		transition: .3s opacity;
+		z-index: 10;
+	}
+
+	.slideshow-pagination-item {
+		display: flex;
+		align-items: center;
+	}
+
+	.slideshow-pagination-item .pagination-number {
+		opacity: 0.5;
+	}
+
+	.slideshow-pagination-item:hover,
+	.slideshow-pagination-item:focus {
+		cursor: pointer;
+	}
+
+	.slideshow-pagination-item:last-of-type .pagination-separator {
+		width: 0;
+	}
+
+	.slideshow-pagination-item.active .pagination-number {
+		opacity: 1;
+	}
+
+	.slideshow-pagination-item.active .pagination-separator {
+		width: 10vw;
+	}
+
+	.slideshow-navigation-button {
+		position: absolute;
+		top: 0;
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		height: 100%;
+		width: 5rem;
+		z-index: 1000;
+		transition: all .3s ease;
+		color: #FFF;
+	}
+
+	.slideshow-navigation-button:hover,
+	.slideshow-navigation-button:focus {
+		cursor: pointer;
+		background: rgba(0, 0, 0, 0.5);
+	}
+
+	.slideshow-navigation-button.prev {
+		left: 0;
+	}
+
+	.slideshow-navigation-button.next {
+		right: 0;
+	}
+
+	.pagination-number {
+		font-size: 1.8rem;
+		color: #FFF;
+		font-family: 'Oswald', sans-serif;
+		padding: 0 0.5rem;
+	}
+
+	.pagination-separator {
+		display: none;
+		position: relative;
+		width: 40px;
+		height: 2px;
+		background: rgba(255, 255, 255, 0.25);
+		transition: all .3s ease;
+	}
+
+	@media (min-width: 45em) {
+		.pagination-separator {
+			display: block;
+		}
+	}
+
+	.pagination-separator-loader {
+		position: absolute;
+		top: 0;
+		left: 0;
+		width: 100%;
+		height: 100%;
+		background: #FFFFFF;
+		transform-origin: 0 0;
+	}
 </style>
 <?php /*
 <div id="slider" class="section bg_white">
@@ -203,37 +239,37 @@ include 'includes/header.php';
 
 
 
- <div class="swiper-container slideshow">
+	<div class="swiper-container slideshow">
 
-    <div class="swiper-wrapper">
+		<div class="swiper-wrapper">
 
-      <div class="swiper-slide  ">
-        <div class="slide-image" style="background-image: url(images/slider/banner1.jpg)"></div>
-       <!-- <span class="slide-title">Exotic places</span>-->
-      </div>
+			<div class="swiper-slide  ">
+				<div class="slide-image" style="background-image: url(images/slider/banner1.jpg)"></div>
+				<!-- <span class="slide-title">Exotic places</span>-->
+			</div>
 
-      <div class="swiper-slide slide">
-        <div class="slide-image" style="background-image: url(images/slider/banner2.jpg"></div>
-        <!--<span class="slide-title">Meet ocean</span>-->
-      </div>
+			<div class="swiper-slide slide">
+				<div class="slide-image" style="background-image: url(images/slider/banner2.jpg"></div>
+				<!--<span class="slide-title">Meet ocean</span>-->
+			</div>
 
-      <div class="swiper-slide slide">
-        <div class="slide-image" style = "background-image: url(images/slider/banner3.jpg)"></div>
-       <!-- <span class="slide-title">Around the world</span>-->
-      </div>
+			<div class="swiper-slide slide">
+				<div class="slide-image" style="background-image: url(images/slider/banner3.jpg)"></div>
+				<!-- <span class="slide-title">Around the world</span>-->
+			</div>
 
-      
 
-    </div>
 
-    <div class="slideshow-pagination"></div>
+		</div>
 
-    <div class="slideshow-navigation">
-      <div class="slideshow-navigation-button prev"><span class="fas fa-chevron-left"></span></div>
-      <div class="slideshow-navigation-button next"><span class="fas fa-chevron-right"></span></div>
-    </div>
+		<div class="slideshow-pagination"></div>
 
-  </div>
+		<div class="slideshow-navigation">
+			<div class="slideshow-navigation-button prev"><span class="fas fa-chevron-left"></span></div>
+			<div class="slideshow-navigation-button next"><span class="fas fa-chevron-right"></span></div>
+		</div>
+
+	</div>
 
 
 
@@ -297,8 +333,8 @@ include 'includes/header.php';
 				<div class="section_title_1 text-center mx-auto pb_60 wow animated slideInUp">
 					<h2 class="title text-uppercase color_white"><span class="line_double mx-auto color_default">about</span>Pratham Construction</h2>
 					<span class="sub_title color_white txt-italic">“ Providing the communities we serve with superior products and services by developing innovative
-solutions to improve the quality of life and satisfy customer needs.”
-</span>
+						solutions to improve the quality of life and satisfy customer needs.”
+					</span>
 				</div>
 			</div>
 		</div>
@@ -306,35 +342,35 @@ solutions to improve the quality of life and satisfy customer needs.”
 			<div class="row">
 				<div class="col-md-7 col-lg-7">
 					<div class="myself color_secondery wow animated fadeInLeft">
-						<p class="color_white text-justify">These words may very well well sum sum up up the the lif 
-life of Late Shri Kesarimalji Gadia, the founder o Gadia group, and continue tinue to to be be the the Guidin 
-Guiding Light for us today at the Gadia Group. 
-</p>
+						<p class="color_white text-justify">These words may very well well sum sum up up the the lif
+							life of Late Shri Kesarimalji Gadia, the founder o Gadia group, and continue tinue to to be be the the Guidin
+							Guiding Light for us today at the Gadia Group.
+						</p>
 
-<p class="color_white text-justify">
-	The Group traces its humble humble beginnings beginnings in 
-in the late 1930s’, when a young g lad, lad, started started the the business bus 
-of trading of Jari and Yarns. rns. Over Over the the years, years, the th 
-group grew from being a simple imple trading trading compan 
-company into a Specialised, High Performance rformance Jari Jari Manufa 
-Manufacturing company, which was s headed headed by by Late Late Shri Shr 
-Kiran Kumar K Gadia, the son son of of Late Late Shri Shri Kesarimalji 
-Kes Gadia. It was the Late e Shri Shri Kiran Kiran Kumar Kumar K K 
-Gadia’s vision to move from providing providing innovative innovative solutions 
-s in the Textile Industry to providing providing affordable afforda 
-and innovative solutions in in the the Housing Housing In 
-Industry. Along, with Mr. Kiran an Kumar Kumar K K Gadia, Gadia, his h 
-sons, Manish Gadia, Amit Gadia Gadia and and Vinay Vinay Ga 
-Gadia, the group conceptualized their their maiden maiden project project Pratham 
-P Casa Serene and successfully successfully complete 
-completed and handed over the same. 
+						<p class="color_white text-justify">
+							The Group traces its humble humble beginnings beginnings in
+							in the late 1930s’, when a young g lad, lad, started started the the business bus
+							of trading of Jari and Yarns. rns. Over Over the the years, years, the th
+							group grew from being a simple imple trading trading compan
+							company into a Specialised, High Performance rformance Jari Jari Manufa
+							Manufacturing company, which was s headed headed by by Late Late Shri Shr
+							Kiran Kumar K Gadia, the son son of of Late Late Shri Shri Kesarimalji
+							Kes Gadia. It was the Late e Shri Shri Kiran Kiran Kumar Kumar K K
+							Gadia’s vision to move from providing providing innovative innovative solutions
+							s in the Textile Industry to providing providing affordable afforda
+							and innovative solutions in in the the Housing Housing In
+							Industry. Along, with Mr. Kiran an Kumar Kumar K K Gadia, Gadia, his h
+							sons, Manish Gadia, Amit Gadia Gadia and and Vinay Vinay Ga
+							Gadia, the group conceptualized their their maiden maiden project project Pratham
+							P Casa Serene and successfully successfully complete
+							completed and handed over the same.
 
-</p>
+						</p>
 
 
 					</div>
 					<div class="personal_info color_lightgray">
-						
+
 					</div>
 				</div>
 				<div class="col-md-5 col-lg-5">
@@ -366,12 +402,12 @@ completed and handed over the same.
 			<div class="col-md-12 col-lg-12">
 				<div class="section_title_1 text-center mx-auto pb_60 wow animated slideInUp">
 					<h2 class="title text-uppercase"><span class="line_double mx-auto color_default">Why</span> Pratham Construction</h2>
-					
+
 				</div>
 			</div>
 			<div class="col-md-12 col-lg-12">
 
-				
+
 
 				<!-- main slider -->
 
@@ -390,7 +426,7 @@ completed and handed over the same.
 							<img src="images/why-icon.png">
 							<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque sapien velit, aliquet eget commodo nec, Curabitur quis varius libero. Lorem.</p>
 						</div>
-						
+
 
 					</div>
 					<!--/main slider carousel-->
@@ -425,10 +461,10 @@ completed and handed over the same.
 
 					<div class="col-md-6">
 
-			<div class="blog_item">
-			<div class="blog_img overlay_one"><a href="indraprastha.php"><img src="images/pratham/home/indraprastha.jpg" alt="image"></a></div>
-			</div>
-						
+						<div class="blog_item">
+							<div class="blog_img overlay_one"><a href="indraprastha.php"><img src="images/pratham/home/indraprastha.jpg" alt="image"></a></div>
+						</div>
+
 						<span class=" test">
 							<span class="test-title" wfd-id="167"><b>Indraprastha</b></span>
 							<span class="test-info" wfd-id="166">Near Yeshwantpur Metro Station</span>
@@ -443,10 +479,10 @@ completed and handed over the same.
 					<div class="col-md-6">
 
 						<div class="blog_item">
-			<div class="blog_img overlay_one"><a href="#"><img src="images/pratham/home/casaserene.jpg" alt="image"></a></div>
-			</div>
+							<div class="blog_img overlay_one"><a href="#"><img src="images/pratham/home/casaserene.jpg" alt="image"></a></div>
+						</div>
 
-						
+
 						<span class=" test">
 							<span class="test-title" wfd-id="167"><b>Casa Serene</b></span>
 							<span class="test-info" wfd-id="166"></span>
@@ -506,90 +542,219 @@ completed and handed over the same.
 </section>
 
 
-
-<section id="blog" class="py_80 experience full_row">
+<section id="services" class="py_80 full_row bg_white">
 		<div class="container">
 			<div class="row">
 				<div class="col-md-12 col-lg-12">
 					<div class="section_title_1 text-center mx-auto pb_60 wow animated slideInUp">
-	                    <h2 class="title text-uppercase"><span class="line_double mx-auto color_white">blog</span>What’s News</h2>
+	                    <h2 class="title text-uppercase"><span class="line_double mx-auto color_default">The </span>Team</h2>
 	                    <span class="sub_title">Interdum a etiam sagittis vehicula porta. Massa felis eros quam blandit nulla dolor habitant. Ullamcorper quis ornare et proin pellentesque.</span>
 	                </div>
 				</div>
+				
+			</div>
+
+			<div class="row">
 				<div class="col-md-12 col-lg-12">
-					<div class="blog_grid_1 wow animated slideInUp">
-						<div class="row">
-							<div class="col-md-12 col-lg-4">
-								<div class="blog_item">
-									<div class="comments">
-										<i class="fa fa-comment" aria-hidden="true"></i>
-										<span class="color_white">12</span>
-									</div>
-									<div class="blog_img overlay_one"><img src="images/blog/01.jpg" alt="image"></div>
-									<div class="blog_content bg_white color_secondery">
-										<div class="blog_title">
-											<a class="color_primary" href="blog-details.html"><h5>Convallis pulvinar morbi. Aenean nisi vitae metus nonummy a morbi.</h5></a>
-										</div>
-										<p class="mt_15 mb_30">Dictumst integer sollicitudin venenatis ornare quam. Ligula integer luctus, blandit egestas molestie facilisi porttitor neque sodal luctus senectus lacinia euismod adipiscing element turpis dolor curae; posuere augue.</p>
-										
-										<div class="admin">
-											<img src="images/about/02.jpg" alt="image">
-											<span class="color_white">By - Rockstar Jack</span>
-										</div>
-										<div class="date float-right color_primary">20 Jan 2019</div>
-									</div>
-								</div>
+					<div class="team_member owl-carousel">
+						<div class="member">
+							<img src="images/team/01.jpg" alt="image">
+							<div class="data">
+								<h4 class="bg_default color_primary font-weight-bold m-0">MANISH KIRAN GADIA </h4>
+								<strong class="bg_primary color_white">Managing Director </strong>
 							</div>
-							<div class="col-md-12 col-lg-4">
-								<div class="blog_item">
-									<div class="comments">
-										<i class="fa fa-comment" aria-hidden="true"></i>
-										<span class="color_white">18</span>
-									</div>
-									<div class="blog_img overlay_one"><img src="images/blog/02.jpg" alt="image"></div>
-									<div class="blog_content bg_white color_secondery">
-										<div class="blog_title">
-											<a class="color_primary" href="blog-details.html"><h5>Ornare fames imperdiet sapien. Iaculis dictum aptent commodo at iaculis.</h5></a>
-										</div>
-										<p class="mt_15 mb_30">Dictumst integer sollicitudin venenatis ornare quam. Ligula integer luctus, blandit egestas molestie facilisi porttitor neque sodal luctus senectus lacinia euismod adipiscing element turpis dolor curae; posuere augue.</p>
-										
-										<div class="admin">
-											<img src="images/about/02.jpg" alt="image">
-											<span class="color_white">By - Rockstar Jack</span>
-										</div>
-										<div class="date float-right color_primary">18 Jan 2019</div>
-									</div>
-								</div>
-							</div>
-							<div class="col-md-12 col-lg-4">
-								<div class="blog_item">
-									<div class="comments">
-										<i class="fa fa-comment" aria-hidden="true"></i>
-										<span class="color_white">23</span>
-									</div>
-									<div class="blog_img overlay_one"><img src="images/blog/03.jpg" alt="image"></div>
-									<div class="blog_content bg_white color_secondery">
-										<div class="blog_title">
-											<a class="color_primary" href="blog-details.html"><h5>Vulputate donec sem purus litora varius auctor augue suscipit hac.</h5></a>
-										</div>
-										<p class="mt_15 mb_30">Dictumst integer sollicitudin venenatis ornare quam. Ligula integer luctus, blandit egestas molestie facilisi porttitor neque sodal luctus senectus lacinia euismod adipiscing element turpis dolor curae; posuere augue.</p>
-										
-										<div class="admin">
-											<img src="images/about/02.jpg" alt="image">
-											<span class="color_white">By - Rockstar Jack</span>
-										</div>
-										<div class="date float-right color_primary">17 Jan 2019</div>
+							<div class="hover_overlay">
+								<div class="border">
+									<h4 class="color_default font-weight-bold text-center text-uppercase">MANISH KIRAN GADIA</h4>
+									<strong class="color_white text-center d-block mb_15">Managing Director</strong>
+									<p class="color_white">Manish joined the group in 2003. Conceptualization is the key areas directly under his purview. Known for his dynamism and belief in ‘positive change’, Manish has keenly addressed the growing demands by conceptualizing unique projects. Manish is now charting out new courses for the group well as to set new standards in the emerging business scenario. After the demise of Shri Kiranji Gadia, the group’s visionary, in 2014, Manish boldly leads the K M Gadia group to reach great heights.
+									</p>
+									<div class="socal_media">
+										<ul>
+											<li><a href="#"><i class="fa fa-facebook" aria-hidden="true"></i></a></li>
+											<li><a href="#"><i class="fa fa-twitter" aria-hidden="true"></i></a></li>
+											<li><a href="#"><i class="fa fa-google-plus" aria-hidden="true"></i></a></li>
+											<li><a href="#"><i class="fa fa-linkedin" aria-hidden="true"></i></a></li>
+											<li><a href="#"><i class="fa fa-instagram" aria-hidden="true"></i></a></li>
+										</ul>
 									</div>
 								</div>
 							</div>
 						</div>
-						<div class="mx-auto text-center mt_60"><a class="btn btn-default" href="blog.html">View Blog</a></div>
+						<div class="member">
+							<img src="images/team/02.jpg" alt="image">
+							<div class="data">
+								<h4 class="bg_default color_primary font-weight-bold m-0">AMIT KIRAN GADIA </h4>
+								<strong class="bg_primary color_white">Director </strong>
+							</div>
+							<div class="hover_overlay">
+								<div class="border">
+									<h4 class="color_default font-weight-bold text-center text-uppercase">AMIT KIRAN GADIA </h4>
+									<strong class="color_white text-center d-block mb_15">Director </strong>
+									<p class="color_white">In his early 30’s, Amit is a self starter, a voracious reader with a great penchant for learning and adapting to new things. His ability to analyze and solve problems coupled with his innate ability to engender trust and rapport and work with all levels of the organization makes him an asset. Amit currently handles the finance and legal functions of the organization.</p>
+									<div class="socal_media">
+										<ul>
+											<li><a href="#"><i class="fa fa-facebook" aria-hidden="true"></i></a></li>
+											<li><a href="#"><i class="fa fa-twitter" aria-hidden="true"></i></a></li>
+											<li><a href="#"><i class="fa fa-google-plus" aria-hidden="true"></i></a></li>
+											<li><a href="#"><i class="fa fa-linkedin" aria-hidden="true"></i></a></li>
+											<li><a href="#"><i class="fa fa-instagram" aria-hidden="true"></i></a></li>
+										</ul>
+									</div>
+								</div>
+							</div>
+						</div>
+						<div class="member">
+							<img src="images/team/03.jpg" alt="image">
+							<div class="data">
+								<h4 class="bg_default color_primary font-weight-bold m-0">VINAY KIRAN GADIA</h4>
+								<strong class="bg_primary color_white">Director</strong>
+							</div>
+							<div class="hover_overlay">
+								<div class="border">
+									<h4 class="color_default font-weight-bold text-center text-uppercase">VINAY KIRAN GADIA</h4>
+									<strong class="color_white text-center d-block mb_15">Director</strong>
+									<p class="color_white">Vinay joined the group in early 2011 after spending his early 20s
+										abroad at USA. Owing to his somewhat gregarious nature, he enjoys
+										taking up the Marketing division of the group. Further, given his
+										technical background in engineering management he collaborates in
+										the project management aspect of the construction schedules.
+									</p>
+									<div class="socal_media">
+										<ul>
+											<li><a href="#"><i class="fa fa-facebook" aria-hidden="true"></i></a></li>
+											<li><a href="#"><i class="fa fa-twitter" aria-hidden="true"></i></a></li>
+											<li><a href="#"><i class="fa fa-google-plus" aria-hidden="true"></i></a></li>
+											<li><a href="#"><i class="fa fa-linkedin" aria-hidden="true"></i></a></li>
+											<li><a href="#"><i class="fa fa-instagram" aria-hidden="true"></i></a></li>
+										</ul>
+									</div>
+									<a href="#" class="btn btn-primary">Read More</a>
+								</div>
+							</div>
+						</div>
+						<div class="member">
+							<img src="images/team/04.jpg" alt="image">
+							<div class="data">
+								<h4 class="bg_default color_primary font-weight-bold m-0">Donna Patricia</h4>
+								<strong class="bg_primary color_white">Graphic Designer</strong>
+							</div>
+							<div class="hover_overlay">
+								<div class="border">
+									<h4 class="color_default font-weight-bold text-center text-uppercase">Donna Patricia</h4>
+									<strong class="color_white text-center d-block mb_15">Graphic Designer</strong>
+									<p class="color_white">Nisl vitae consectetuer dictumst mauris vitae, purus torquent praesent pharetra consectetuer nullam fames pede sapien litora condimentum pretium volutpat magnis facilisi hendrerit.</p>
+									<div class="socal_media">
+										<ul>
+											<li><a href="#"><i class="fa fa-facebook" aria-hidden="true"></i></a></li>
+											<li><a href="#"><i class="fa fa-twitter" aria-hidden="true"></i></a></li>
+											<li><a href="#"><i class="fa fa-google-plus" aria-hidden="true"></i></a></li>
+											<li><a href="#"><i class="fa fa-linkedin" aria-hidden="true"></i></a></li>
+											<li><a href="#"><i class="fa fa-instagram" aria-hidden="true"></i></a></li>
+										</ul>
+									</div>
+								</div>
+							</div>
+						</div>
 					</div>
 				</div>
 			</div>
 		</div>
 	</section>
-	<!--	End Blog
+	<!--	End Services
+	===================================================-->
+
+
+
+<section id="blog" class="py_80 experience full_row">
+	<div class="container">
+		<div class="row">
+			<div class="col-md-12 col-lg-12">
+				<div class="section_title_1 text-center mx-auto pb_60 wow animated slideInUp">
+					<h2 class="title text-uppercase"><span class="line_double mx-auto color_white">blog</span>What’s News</h2>
+					<span class="sub_title">Interdum a etiam sagittis vehicula porta. Massa felis eros quam blandit nulla dolor habitant. Ullamcorper quis ornare et proin pellentesque.</span>
+				</div>
+			</div>
+			<div class="col-md-12 col-lg-12">
+				<div class="blog_grid_1 wow animated slideInUp">
+					<div class="row">
+						<div class="col-md-12 col-lg-4">
+							<div class="blog_item">
+								<div class="comments">
+									<i class="fa fa-comment" aria-hidden="true"></i>
+									<span class="color_white">12</span>
+								</div>
+								<div class="blog_img overlay_one"><img src="images/blog/01.jpg" alt="image"></div>
+								<div class="blog_content bg_white color_secondery">
+									<div class="blog_title">
+										<a class="color_primary" href="blog-details.html">
+											<h5>Convallis pulvinar morbi. Aenean nisi vitae metus nonummy a morbi.</h5>
+										</a>
+									</div>
+									<p class="mt_15 mb_30">Dictumst integer sollicitudin venenatis ornare quam. Ligula integer luctus, blandit egestas molestie facilisi porttitor neque sodal luctus senectus lacinia euismod adipiscing element turpis dolor curae; posuere augue.</p>
+
+									<div class="admin">
+										<img src="images/about/02.jpg" alt="image">
+										<span class="color_white">By - Rockstar Jack</span>
+									</div>
+									<div class="date float-right color_primary">20 Jan 2019</div>
+								</div>
+							</div>
+						</div>
+						<div class="col-md-12 col-lg-4">
+							<div class="blog_item">
+								<div class="comments">
+									<i class="fa fa-comment" aria-hidden="true"></i>
+									<span class="color_white">18</span>
+								</div>
+								<div class="blog_img overlay_one"><img src="images/blog/02.jpg" alt="image"></div>
+								<div class="blog_content bg_white color_secondery">
+									<div class="blog_title">
+										<a class="color_primary" href="blog-details.html">
+											<h5>Ornare fames imperdiet sapien. Iaculis dictum aptent commodo at iaculis.</h5>
+										</a>
+									</div>
+									<p class="mt_15 mb_30">Dictumst integer sollicitudin venenatis ornare quam. Ligula integer luctus, blandit egestas molestie facilisi porttitor neque sodal luctus senectus lacinia euismod adipiscing element turpis dolor curae; posuere augue.</p>
+
+									<div class="admin">
+										<img src="images/about/02.jpg" alt="image">
+										<span class="color_white">By - Rockstar Jack</span>
+									</div>
+									<div class="date float-right color_primary">18 Jan 2019</div>
+								</div>
+							</div>
+						</div>
+						<div class="col-md-12 col-lg-4">
+							<div class="blog_item">
+								<div class="comments">
+									<i class="fa fa-comment" aria-hidden="true"></i>
+									<span class="color_white">23</span>
+								</div>
+								<div class="blog_img overlay_one"><img src="images/blog/03.jpg" alt="image"></div>
+								<div class="blog_content bg_white color_secondery">
+									<div class="blog_title">
+										<a class="color_primary" href="blog-details.html">
+											<h5>Vulputate donec sem purus litora varius auctor augue suscipit hac.</h5>
+										</a>
+									</div>
+									<p class="mt_15 mb_30">Dictumst integer sollicitudin venenatis ornare quam. Ligula integer luctus, blandit egestas molestie facilisi porttitor neque sodal luctus senectus lacinia euismod adipiscing element turpis dolor curae; posuere augue.</p>
+
+									<div class="admin">
+										<img src="images/about/02.jpg" alt="image">
+										<span class="color_white">By - Rockstar Jack</span>
+									</div>
+									<div class="date float-right color_primary">17 Jan 2019</div>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="mx-auto text-center mt_60"><a class="btn btn-default" href="blog.html">View Blog</a></div>
+				</div>
+			</div>
+		</div>
+	</div>
+</section>
+<!--	End Blog
 	===================================================-->
 <?php /*
 <div id="experience" class="experience  py_60 full_row">
@@ -647,57 +812,57 @@ completed and handed over the same.
 
 ===================================================-->
 */ ?>
-	<!--	Start Testimonial
+<!--	Start Testimonial
 	===================================================-->
-	<section id="testimonial" class="py_80 full_row bg_white">
-		<div class="container">
-			<div class="row">
-				<div class="col-md-12 col-lg-12">
-					<div class="section_title_1 text-center mx-auto pb_60 wow animated slideInUp">
-	                    <h2 class="title text-uppercase"><span class="line_double mx-auto color_default">testimonial</span>What Client Say’s</h2>
-	                    <span class="sub_title">Interdum a etiam sagittis vehicula porta. Massa felis eros quam blandit nulla dolor habitant. Ullamcorper quis ornare et proin pellentesque.</span>
-	                </div>
+<section id="testimonial" class="py_80 full_row bg_white">
+	<div class="container">
+		<div class="row">
+			<div class="col-md-12 col-lg-12">
+				<div class="section_title_1 text-center mx-auto pb_60 wow animated slideInUp">
+					<h2 class="title text-uppercase"><span class="line_double mx-auto color_default">testimonial</span>What Client Say’s</h2>
+					<span class="sub_title">Interdum a etiam sagittis vehicula porta. Massa felis eros quam blandit nulla dolor habitant. Ullamcorper quis ornare et proin pellentesque.</span>
 				</div>
-				<div class="col-md-12 col-lg-12">
-    				<div class="testimonial_item owl-carousel wow animated slideInUp">
-    					<div class="member_feedback p_30 color_secondery">
-							<div class="client_img"><img src="images/testimonial/01.jpg" alt="image"></div>
-							<div class="star d-inline-block mt_30 color_default">
-								
-							</div>
-							<h5 class="color_primary mb_15">Aisha Lexi</h5>
-							<p>Sem duis platea erat feugiat vivamus nascetur sapien tortor. Sollic dictum ultric. Aliquam inceptos bibendum fringilla sodales. Molest lacin urna per aenean commodo sociosqu.</p>
+			</div>
+			<div class="col-md-12 col-lg-12">
+				<div class="testimonial_item owl-carousel wow animated slideInUp">
+					<div class="member_feedback p_30 color_secondery">
+						<div class="client_img"><img src="images/testimonial/01.jpg" alt="image"></div>
+						<div class="star d-inline-block mt_30 color_default">
+
 						</div>
-						<div class="member_feedback p_30 color_secondery">
-							<div class="client_img"><img src="images/testimonial/02.jpg" alt="image"></div>
-							<div class="star d-inline-block mt_30 color_default">
-								
-							</div>
-							<h5 class="color_primary mb_15">Kiara Paige</h5>
-							<p>Sem duis platea erat feugiat vivamus nascetur sapien tortor. Sollic dictum ultric. Aliquam inceptos bibendum fringilla sodales. Molest lacin urna per aenean commodo sociosqu.</p>
+						<h5 class="color_primary mb_15">Aisha Lexi</h5>
+						<p>Sem duis platea erat feugiat vivamus nascetur sapien tortor. Sollic dictum ultric. Aliquam inceptos bibendum fringilla sodales. Molest lacin urna per aenean commodo sociosqu.</p>
+					</div>
+					<div class="member_feedback p_30 color_secondery">
+						<div class="client_img"><img src="images/testimonial/02.jpg" alt="image"></div>
+						<div class="star d-inline-block mt_30 color_default">
+
 						</div>
-						<div class="member_feedback p_30 color_secondery">
-							<div class="client_img"><img src="images/testimonial/03.jpg" alt="image"></div>
-							<div class="star d-inline-block mt_30 color_default">
-								
-							</div>
-							<h5 class="color_primary mb_15">Lucas Noah</h5>
-							<p>Sem duis platea erat feugiat vivamus nascetur sapien tortor. Sollic dictum ultric. Aliquam inceptos bibendum fringilla sodales. Molest lacin urna per aenean commodo sociosqu.</p>
+						<h5 class="color_primary mb_15">Kiara Paige</h5>
+						<p>Sem duis platea erat feugiat vivamus nascetur sapien tortor. Sollic dictum ultric. Aliquam inceptos bibendum fringilla sodales. Molest lacin urna per aenean commodo sociosqu.</p>
+					</div>
+					<div class="member_feedback p_30 color_secondery">
+						<div class="client_img"><img src="images/testimonial/03.jpg" alt="image"></div>
+						<div class="star d-inline-block mt_30 color_default">
+
 						</div>
-						<div class="member_feedback p_30 color_secondery">
-							<div class="client_img"><img src="images/testimonial/04.jpg" alt="image"></div>
-							<div class="star d-inline-block mt_30 color_default">
-								
-							</div>
-							<h5 class="color_primary mb_15">Grace Ruby</h5>
-							<p>Sem duis platea erat feugiat vivamus nascetur sapien tortor. Sollic dictum ultric. Aliquam inceptos bibendum fringilla sodales. Molest lacin urna per aenean commodo sociosqu.</p>
+						<h5 class="color_primary mb_15">Lucas Noah</h5>
+						<p>Sem duis platea erat feugiat vivamus nascetur sapien tortor. Sollic dictum ultric. Aliquam inceptos bibendum fringilla sodales. Molest lacin urna per aenean commodo sociosqu.</p>
+					</div>
+					<div class="member_feedback p_30 color_secondery">
+						<div class="client_img"><img src="images/testimonial/04.jpg" alt="image"></div>
+						<div class="star d-inline-block mt_30 color_default">
+
 						</div>
-    				</div>
-    			</div>
+						<h5 class="color_primary mb_15">Grace Ruby</h5>
+						<p>Sem duis platea erat feugiat vivamus nascetur sapien tortor. Sollic dictum ultric. Aliquam inceptos bibendum fringilla sodales. Molest lacin urna per aenean commodo sociosqu.</p>
+					</div>
+				</div>
 			</div>
 		</div>
-	</section>
-	<!--	End Testimonial-->
+	</div>
+</section>
+<!--	End Testimonial-->
 
 <!--	Start Portfolio
 	===================================================-->
@@ -709,176 +874,186 @@ completed and handed over the same.
 include 'includes/footer.php';
 ?>
 <script>
-    // The Slideshow class.
-class Slideshow {
-    constructor(el) {
-        
-        this.DOM = {el: el};
-      
-        this.config = {
-          slideshow: {
-            delay: 3000,
-            pagination: {
-              duration: 3,
-            }
-          }
-        };
-        
-        // Set the slideshow
-        this.init();
-      
-    }
-    init() {
-      
-      var self = this;
-      
-      // Charmed title
-      this.DOM.slideTitle = this.DOM.el.querySelectorAll('.slide-title');
-      this.DOM.slideTitle.forEach((slideTitle) => {
-        charming(slideTitle);
-      });
-      
-      // Set the slider
-      this.slideshow = new Swiper (this.DOM.el, {
-          
-          loop: true,
-          autoplay: {
-            delay: this.config.slideshow.delay,
-            disableOnInteraction: false,
-          },
-          speed: 500,
-          preloadImages: true,
-          updateOnImagesReady: true,
-          
-          // lazy: true,
-          // preloadImages: false,
+	// The Slideshow class.
+	class Slideshow {
+		constructor(el) {
 
-          pagination: {
-            el: '.slideshow-pagination',
-            clickable: true,
-            bulletClass: 'slideshow-pagination-item',
-            bulletActiveClass: 'active',
-            clickableClass: 'slideshow-pagination-clickable',
-            modifierClass: 'slideshow-pagination-',
-            renderBullet: function (index, className) {
-              
-              var slideIndex = index,
-                  number = (index <= 8) ? '0' + (slideIndex + 1) : (slideIndex + 1);
-              
-              var paginationItem = '<span class="slideshow-pagination-item">';
-              paginationItem += '<span class="pagination-number">' + number + '</span>';
-              paginationItem = (index <= 8) ? paginationItem + '<span class="pagination-separator"><span class="pagination-separator-loader"></span></span>' : paginationItem;
-              paginationItem += '</span>';
-            
-              return paginationItem;
-              
-            },
-          },
+			this.DOM = {
+				el: el
+			};
 
-          // Navigation arrows
-          navigation: {
-            nextEl: '.slideshow-navigation-button.next',
-            prevEl: '.slideshow-navigation-button.prev',
-          },
+			this.config = {
+				slideshow: {
+					delay: 3000,
+					pagination: {
+						duration: 3,
+					}
+				}
+			};
 
-          // And if we need scrollbar
-          scrollbar: {
-            el: '.swiper-scrollbar',
-          },
-        
-          on: {
-            init: function() {
-              self.animate('next');
-            },
-          }
-        
-        });
-      
-        // Init/Bind events.
-        this.initEvents();
-        
-    }
-    initEvents() {
-        
-        this.slideshow.on('paginationUpdate', (swiper, paginationEl) => this.animatePagination(swiper, paginationEl));
-        //this.slideshow.on('paginationRender', (swiper, paginationEl) => this.animatePagination());
+			// Set the slideshow
+			this.init();
 
-        this.slideshow.on('slideNextTransitionStart', () => this.animate('next'));
-        
-        this.slideshow.on('slidePrevTransitionStart', () => this.animate('prev'));
-            
-    }
-    animate(direction = 'next') {
-      
-        // Get the active slide
-        this.DOM.activeSlide = this.DOM.el.querySelector('.swiper-slide-active'),
-        this.DOM.activeSlideImg = this.DOM.activeSlide.querySelector('.slide-image'),
-        this.DOM.activeSlideTitle = this.DOM.activeSlide.querySelector('.slide-title'),
-        this.DOM.activeSlideTitleLetters = this.DOM.activeSlideTitle.querySelectorAll('span');
-      
-        // Reverse if prev  
-        this.DOM.activeSlideTitleLetters = direction === "next" ? this.DOM.activeSlideTitleLetters : [].slice.call(this.DOM.activeSlideTitleLetters).reverse();
-      
-        // Get old slide
-        this.DOM.oldSlide = direction === "next" ? this.DOM.el.querySelector('.swiper-slide-prev') : this.DOM.el.querySelector('.swiper-slide-next');
-        if (this.DOM.oldSlide) {
-          // Get parts
-          this.DOM.oldSlideTitle = this.DOM.oldSlide.querySelector('.slide-title'),
-          this.DOM.oldSlideTitleLetters = this.DOM.oldSlideTitle.querySelectorAll('span'); 
-          // Animate
-          this.DOM.oldSlideTitleLetters.forEach((letter,pos) => {
-            TweenMax.to(letter, .3, {
-              ease: Quart.easeIn,
-              delay: (this.DOM.oldSlideTitleLetters.length-pos-1)*.04,
-              y: '50%',
-              opacity: 0
-            });
-          });
-        }
-      
-        // Animate title
-        this.DOM.activeSlideTitleLetters.forEach((letter,pos) => {
-					TweenMax.to(letter, .6, {
-						ease: Back.easeOut,
-						delay: pos*.05,
-						startAt: {y: '50%', opacity: 0},
-						y: '0%',
-						opacity: 1
+		}
+		init() {
+
+			var self = this;
+
+			// Charmed title
+			this.DOM.slideTitle = this.DOM.el.querySelectorAll('.slide-title');
+			this.DOM.slideTitle.forEach((slideTitle) => {
+				charming(slideTitle);
+			});
+
+			// Set the slider
+			this.slideshow = new Swiper(this.DOM.el, {
+
+				loop: true,
+				autoplay: {
+					delay: this.config.slideshow.delay,
+					disableOnInteraction: false,
+				},
+				speed: 500,
+				preloadImages: true,
+				updateOnImagesReady: true,
+
+				// lazy: true,
+				// preloadImages: false,
+
+				pagination: {
+					el: '.slideshow-pagination',
+					clickable: true,
+					bulletClass: 'slideshow-pagination-item',
+					bulletActiveClass: 'active',
+					clickableClass: 'slideshow-pagination-clickable',
+					modifierClass: 'slideshow-pagination-',
+					renderBullet: function(index, className) {
+
+						var slideIndex = index,
+							number = (index <= 8) ? '0' + (slideIndex + 1) : (slideIndex + 1);
+
+						var paginationItem = '<span class="slideshow-pagination-item">';
+						paginationItem += '<span class="pagination-number">' + number + '</span>';
+						paginationItem = (index <= 8) ? paginationItem + '<span class="pagination-separator"><span class="pagination-separator-loader"></span></span>' : paginationItem;
+						paginationItem += '</span>';
+
+						return paginationItem;
+
+					},
+				},
+
+				// Navigation arrows
+				navigation: {
+					nextEl: '.slideshow-navigation-button.next',
+					prevEl: '.slideshow-navigation-button.prev',
+				},
+
+				// And if we need scrollbar
+				scrollbar: {
+					el: '.swiper-scrollbar',
+				},
+
+				on: {
+					init: function() {
+						self.animate('next');
+					},
+				}
+
+			});
+
+			// Init/Bind events.
+			this.initEvents();
+
+		}
+		initEvents() {
+
+			this.slideshow.on('paginationUpdate', (swiper, paginationEl) => this.animatePagination(swiper, paginationEl));
+			//this.slideshow.on('paginationRender', (swiper, paginationEl) => this.animatePagination());
+
+			this.slideshow.on('slideNextTransitionStart', () => this.animate('next'));
+
+			this.slideshow.on('slidePrevTransitionStart', () => this.animate('prev'));
+
+		}
+		animate(direction = 'next') {
+
+			// Get the active slide
+			this.DOM.activeSlide = this.DOM.el.querySelector('.swiper-slide-active'),
+				this.DOM.activeSlideImg = this.DOM.activeSlide.querySelector('.slide-image'),
+				this.DOM.activeSlideTitle = this.DOM.activeSlide.querySelector('.slide-title'),
+				this.DOM.activeSlideTitleLetters = this.DOM.activeSlideTitle.querySelectorAll('span');
+
+			// Reverse if prev  
+			this.DOM.activeSlideTitleLetters = direction === "next" ? this.DOM.activeSlideTitleLetters : [].slice.call(this.DOM.activeSlideTitleLetters).reverse();
+
+			// Get old slide
+			this.DOM.oldSlide = direction === "next" ? this.DOM.el.querySelector('.swiper-slide-prev') : this.DOM.el.querySelector('.swiper-slide-next');
+			if (this.DOM.oldSlide) {
+				// Get parts
+				this.DOM.oldSlideTitle = this.DOM.oldSlide.querySelector('.slide-title'),
+					this.DOM.oldSlideTitleLetters = this.DOM.oldSlideTitle.querySelectorAll('span');
+				// Animate
+				this.DOM.oldSlideTitleLetters.forEach((letter, pos) => {
+					TweenMax.to(letter, .3, {
+						ease: Quart.easeIn,
+						delay: (this.DOM.oldSlideTitleLetters.length - pos - 1) * .04,
+						y: '50%',
+						opacity: 0
 					});
 				});
-      
-        // Animate background
-        TweenMax.to(this.DOM.activeSlideImg, 1.5, {
-            ease: Expo.easeOut,
-            startAt: {x: direction === 'next' ? 200 : -200},
-            x: 0,
-        });
-      
-        //this.animatePagination()
-    
-    }
-    animatePagination(swiper, paginationEl) {
-            
-      // Animate pagination
-      this.DOM.paginationItemsLoader = paginationEl.querySelectorAll('.pagination-separator-loader');
-      this.DOM.activePaginationItem = paginationEl.querySelector('.slideshow-pagination-item.active');
-      this.DOM.activePaginationItemLoader = this.DOM.activePaginationItem.querySelector('.pagination-separator-loader');
-      
-      console.log(swiper.pagination);
-      // console.log(swiper.activeIndex);
-      
-      // Reset and animate
-        TweenMax.set(this.DOM.paginationItemsLoader, {scaleX: 0});
-        TweenMax.to(this.DOM.activePaginationItemLoader, this.config.slideshow.pagination.duration, {
-          startAt: {scaleX: 0},
-          scaleX: 1,
-        });
-      
-      
-    }
-    
-}
+			}
 
-const slideshow = new Slideshow(document.querySelector('.slideshow'));
+			// Animate title
+			this.DOM.activeSlideTitleLetters.forEach((letter, pos) => {
+				TweenMax.to(letter, .6, {
+					ease: Back.easeOut,
+					delay: pos * .05,
+					startAt: {
+						y: '50%',
+						opacity: 0
+					},
+					y: '0%',
+					opacity: 1
+				});
+			});
 
+			// Animate background
+			TweenMax.to(this.DOM.activeSlideImg, 1.5, {
+				ease: Expo.easeOut,
+				startAt: {
+					x: direction === 'next' ? 200 : -200
+				},
+				x: 0,
+			});
+
+			//this.animatePagination()
+
+		}
+		animatePagination(swiper, paginationEl) {
+
+			// Animate pagination
+			this.DOM.paginationItemsLoader = paginationEl.querySelectorAll('.pagination-separator-loader');
+			this.DOM.activePaginationItem = paginationEl.querySelector('.slideshow-pagination-item.active');
+			this.DOM.activePaginationItemLoader = this.DOM.activePaginationItem.querySelector('.pagination-separator-loader');
+
+			console.log(swiper.pagination);
+			// console.log(swiper.activeIndex);
+
+			// Reset and animate
+			TweenMax.set(this.DOM.paginationItemsLoader, {
+				scaleX: 0
+			});
+			TweenMax.to(this.DOM.activePaginationItemLoader, this.config.slideshow.pagination.duration, {
+				startAt: {
+					scaleX: 0
+				},
+				scaleX: 1,
+			});
+
+
+		}
+
+	}
+
+	const slideshow = new Slideshow(document.querySelector('.slideshow'));
 </script>

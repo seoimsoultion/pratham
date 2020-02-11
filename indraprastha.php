@@ -1507,7 +1507,7 @@
 									<div class="col-md-12 col-lg-12">
 										<div class="table text-center">
 											<a href="">
-												<img src="images/pratham/indraprastha/indraprastha.jpg" class="img-fluid">
+												<img src="images/pratham/indraprastha/indraprastha.png" class="img-fluid">
 											</a>
 										</div>
 									</div>
