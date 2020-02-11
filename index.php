@@ -342,32 +342,14 @@ include 'includes/header.php';
 			<div class="row">
 				<div class="col-md-7 col-lg-7">
 					<div class="myself color_secondery wow animated fadeInLeft">
-						<p class="color_white text-justify">These words may very well well sum sum up up the the lif
-							life of Late Shri Kesarimalji Gadia, the founder o Gadia group, and continue tinue to to be be the the Guidin
-							Guiding Light for us today at the Gadia Group.
+						<p class="color_white text-justify">Founded by Late Kiran Kumar K Gadia, the Pratham Group had a humble beginning specialising in the Jari textile during the early 1930s. Over the years, the Pratham Group diversified in other ventures such as copper wire, polyester yarn and the real estate. Today, Pratham Group has firmly established itself as one of the leading names and is among the most successful organisation in India continually imprinting its indelible marking in global market. 
 						</p>
-
+						<br/>
 						<p class="color_white text-justify">
-							The Group traces its humble humble beginnings beginnings in
-							in the late 1930s’, when a young g lad, lad, started started the the business bus
-							of trading of Jari and Yarns. rns. Over Over the the years, years, the th
-							group grew from being a simple imple trading trading compan
-							company into a Specialised, High Performance rformance Jari Jari Manufa
-							Manufacturing company, which was s headed headed by by Late Late Shri Shr
-							Kiran Kumar K Gadia, the son son of of Late Late Shri Shri Kesarimalji
-							Kes Gadia. It was the Late e Shri Shri Kiran Kiran Kumar Kumar K K
-							Gadia’s vision to move from providing providing innovative innovative solutions
-							s in the Textile Industry to providing providing affordable afforda
-							and innovative solutions in in the the Housing Housing In
-							Industry. Along, with Mr. Kiran an Kumar Kumar K K Gadia, Gadia, his h
-							sons, Manish Gadia, Amit Gadia Gadia and and Vinay Vinay Ga
-							Gadia, the group conceptualized their their maiden maiden project project Pratham
-							P Casa Serene and successfully successfully complete
-							completed and handed over the same.
+						Realising the need of quality yet affordable housing in the ever growing Bangalore city; the Silicon Valley of India, the Pratham Group ventured in the real estate sector. In our sincere efforts, Pratham Group endeavours to create quality residential spaces to better people’s living experiences. With a clear vision to transform the way people perceive quality housing, Pratham Constructions blends professional real estate expertise with innovative technology while  encompassing robust engineering, ground-breaking research and uncompromising business ethics in all spheres of realty development making home living more comfortable, productive and cheerful.
 
 						</p>
-
-
+					
 					</div>
 					<div class="personal_info color_lightgray">
 
@@ -386,6 +368,11 @@ include 'includes/header.php';
 							</div>
 						</div>
 					</div>
+				</div>
+				<div class="clearfix"></div>
+				<div class="col-md-12 col-lg-12"><br/>
+				<p class="color_white text-justify">We have our real estate operations in major Indian cities. Our flagship realty project in Bangalore are Pratham Casa Serene and Pratham Indraprastha. At pratham, we believe a home should always be the best space of your comfort! Therefore, while designing the layout of every project, ample attention is paid to enhance the lifestyle of our customers. Each apartment accommodates abundant space, greenery, privacy, natural light, ventilation, aesthetics and also comes with the latest security features make sure that you get the best of indoor and outdoor experience.</p>
+
 				</div>
 			</div>
 		</div>
@@ -416,15 +403,18 @@ include 'includes/header.php';
 
 						<div class="col-md-4 col-lg-4 why-box">
 							<img src="images/why-icon.png">
-							<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque sapien velit, aliquet eget commodo nec, Curabitur quis varius libero. Lorem.</p>
+							<h4 class="text-center">	Customer Focus</h4>
+							<p>Pratham Construction delivers every project with highest level of integrity. Every decision taken is client centric. We aim at providing the customer high levels of satisfaction in terms of interaction, service and quality.</p>
 						</div>
 						<div class="col-md-4 col-lg-4 why-box">
 							<img src="images/why-icon.png">
-							<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque sapien velit, aliquet eget commodo nec, Curabitur quis varius libero. Lorem.</p>
+							<h4 class="text-center">	Innovation</h4>
+							<p>Pratham Construction is synonymous to innovation. We always encourage multiple solutions and perspectives in the realty sector. We incorporate new ideas in all realms of our company’s venture and the new trends in the realty industries. </p>
 						</div>
 						<div class="col-md-4 col-lg-4 why-box">
 							<img src="images/why-icon.png">
-							<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque sapien velit, aliquet eget commodo nec, Curabitur quis varius libero. Lorem.</p>
+							<h4 class="text-center">	Transparency</h4>
+							<p>Transparency is rooted in all of our operations. We strongly believe that in order for a lasting relation with customers, transparency is the key. That is why; we prioritise transparency in all our dealings as we focus on imaginative engineering and reliability. </p>
 						</div>
 
 
@@ -449,7 +439,7 @@ include 'includes/header.php';
 			<div class="col-md-12 col-lg-12">
 				<div class="section_title_1 text-center mx-auto pb_60 wow animated slideInUp">
 					<h2 class="title text-uppercase"><span class="line_double mx-auto color_default">Our</span> Projects</h2>
-					<span class="sub_title">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque sapien velit, aliquet eget commodo nec, Curabitur quis varius libero. Lorem.</span>
+					<span class="sub_title">Pratham Construction is a pioneer in delivering world-class residential spaces. We have pioneered many landmark developments across cities in Gujarat and Karnataka. In Bangalore, Pratham Construction works to redefine the concept of urban lifestyle of highest quality. </span>
 				</div>
 			</div>
 			<div class="col-md-12 col-lg-12">
@@ -469,7 +459,7 @@ include 'includes/header.php';
 							<span class="test-title" wfd-id="167"><b>Indraprastha</b></span>
 							<span class="test-info" wfd-id="166">Near Yeshwantpur Metro Station</span>
 						</span>
-						<p class="testp">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque sapien velit, aliquet eget commodo nec, auctor a sapien. Nam eu neque vulputate diam rhoncus faucibus. Curabitur quis varius libero. Lorem.</p>
+						<p class="testp">Located at Yashwantpur, Indraprastha is a premium residential project nestled in the manicured greens and replete with all modern amenities offering a blissful life. The amenities highlights include gymnasium, swimming pool and other sports facilities such as Squash Court, Badminton Court, Multipurpose Court, etc. </p>
 
 						<a class="btn btn-project" href="#">View Project</a>
 
@@ -487,7 +477,7 @@ include 'includes/header.php';
 							<span class="test-title" wfd-id="167"><b>Casa Serene</b></span>
 							<span class="test-info" wfd-id="166"></span>
 						</span>
-						<p class="testp">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque sapien velit, aliquet eget commodo nec, auctor a sapien. Nam eu neque vulputate diam rhoncus faucibus. Curabitur quis varius libero. Lorem.</p>
+						<p class="testp">Indulge in absolute serenity while still having the best access to urban amenities at Casa Serene. Located at Dasarahalli on Tumkur Road, Casa Serene has 2 and 3BHK apartments with modern amenities.  It offers smooth connectivity to the prime locations in the city, besides housing many reputed educational institutions, hospitals etc.</p>
 
 						<a class="btn btn-project" href="#">View Project</a>
 					</div>
@@ -819,8 +809,8 @@ include 'includes/header.php';
 		<div class="row">
 			<div class="col-md-12 col-lg-12">
 				<div class="section_title_1 text-center mx-auto pb_60 wow animated slideInUp">
-					<h2 class="title text-uppercase"><span class="line_double mx-auto color_default">testimonial</span>What Client Say’s</h2>
-					<span class="sub_title">Interdum a etiam sagittis vehicula porta. Massa felis eros quam blandit nulla dolor habitant. Ullamcorper quis ornare et proin pellentesque.</span>
+					<h2 class="title text-uppercase"><span class="line_double mx-auto color_default">Testimonial</span>What Client’s say about us</h2>
+					<span class="sub_title">Pratham Constructions take customer feedbacks very seriously as we continually strive for improvement and better ourselves in every step we take. We were overwhelmed with the kind words said by our customers. </span>
 				</div>
 			</div>
 			<div class="col-md-12 col-lg-12">
@@ -831,7 +821,7 @@ include 'includes/header.php';
 
 						</div>
 						<h5 class="color_primary mb_15">Aisha Lexi</h5>
-						<p>Sem duis platea erat feugiat vivamus nascetur sapien tortor. Sollic dictum ultric. Aliquam inceptos bibendum fringilla sodales. Molest lacin urna per aenean commodo sociosqu.</p>
+						<p>	I booked an apartment at Indraprastha. It is one of the most well-designed and planned residential apartment. The rooms are spacious with abundant natural lighting. I have no complaints on my booking at Casa Serene. </p>
 					</div>
 					<div class="member_feedback p_30 color_secondery">
 						<div class="client_img"><img src="images/testimonial/02.jpg" alt="image"></div>
@@ -839,7 +829,7 @@ include 'includes/header.php';
 
 						</div>
 						<h5 class="color_primary mb_15">Kiara Paige</h5>
-						<p>Sem duis platea erat feugiat vivamus nascetur sapien tortor. Sollic dictum ultric. Aliquam inceptos bibendum fringilla sodales. Molest lacin urna per aenean commodo sociosqu.</p>
+						<p>	Indraprastha is from one of the most trusted builder. Quality at its best, this residential building is one of the most contemporary buildings in Yashwantpur. I have recently booked my apartment. The rooms are very spacious with good ventilation. This is one of the best apartments so far. </p>
 					</div>
 					<div class="member_feedback p_30 color_secondery">
 						<div class="client_img"><img src="images/testimonial/03.jpg" alt="image"></div>
