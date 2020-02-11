@@ -101,3 +101,4 @@ select.form-control[multiple], select.form-control[size] {height: calc(30px + 15
 a.btn-project {border:1px #FAA61A solid; border-radius: 30px; margin: 10px 0; padding: 13px 40px; 
 }
 .experience {background: #faa61a;}
+.primary_link a:hover, .filter-tabs li.filter.active, .comments, .blog_item a:hover, .navbar-light .navbar-nav .nav-link:hover, .socal_media_2 ul li a:hover, ul#menu li a:hover, .twite i, .twite a:hover, .category_sidebar ul li:hover, .white_link a:hover, .recent_post a:hover, .archives ul li a:hover {color:#faa61a}

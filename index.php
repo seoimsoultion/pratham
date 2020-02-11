@@ -218,7 +218,7 @@ include 'includes/header.php';
       </div>
 
       <div class="swiper-slide slide">
-        <div class="slide-image" style="background-image: url(images/slider/banner3.jpg"></div>
+        <div class="slide-image" style = "background-image: url(images/slider/banner3.jpg)"></div>
        <!-- <span class="slide-title">Around the world</span>-->
       </div>
 
@@ -507,6 +507,91 @@ completed and handed over the same.
 
 
 
+<section id="blog" class="py_80 experience full_row">
+		<div class="container">
+			<div class="row">
+				<div class="col-md-12 col-lg-12">
+					<div class="section_title_1 text-center mx-auto pb_60 wow animated slideInUp">
+	                    <h2 class="title text-uppercase"><span class="line_double mx-auto color_white">blog</span>What’s News</h2>
+	                    <span class="sub_title">Interdum a etiam sagittis vehicula porta. Massa felis eros quam blandit nulla dolor habitant. Ullamcorper quis ornare et proin pellentesque.</span>
+	                </div>
+				</div>
+				<div class="col-md-12 col-lg-12">
+					<div class="blog_grid_1 wow animated slideInUp">
+						<div class="row">
+							<div class="col-md-12 col-lg-4">
+								<div class="blog_item">
+									<div class="comments">
+										<i class="fa fa-comment" aria-hidden="true"></i>
+										<span class="color_white">12</span>
+									</div>
+									<div class="blog_img overlay_one"><img src="images/blog/01.jpg" alt="image"></div>
+									<div class="blog_content bg_white color_secondery">
+										<div class="blog_title">
+											<a class="color_primary" href="blog-details.html"><h5>Convallis pulvinar morbi. Aenean nisi vitae metus nonummy a morbi.</h5></a>
+										</div>
+										<p class="mt_15 mb_30">Dictumst integer sollicitudin venenatis ornare quam. Ligula integer luctus, blandit egestas molestie facilisi porttitor neque sodal luctus senectus lacinia euismod adipiscing element turpis dolor curae; posuere augue.</p>
+										
+										<div class="admin">
+											<img src="images/about/02.jpg" alt="image">
+											<span class="color_white">By - Rockstar Jack</span>
+										</div>
+										<div class="date float-right color_primary">20 Jan 2019</div>
+									</div>
+								</div>
+							</div>
+							<div class="col-md-12 col-lg-4">
+								<div class="blog_item">
+									<div class="comments">
+										<i class="fa fa-comment" aria-hidden="true"></i>
+										<span class="color_white">18</span>
+									</div>
+									<div class="blog_img overlay_one"><img src="images/blog/02.jpg" alt="image"></div>
+									<div class="blog_content bg_white color_secondery">
+										<div class="blog_title">
+											<a class="color_primary" href="blog-details.html"><h5>Ornare fames imperdiet sapien. Iaculis dictum aptent commodo at iaculis.</h5></a>
+										</div>
+										<p class="mt_15 mb_30">Dictumst integer sollicitudin venenatis ornare quam. Ligula integer luctus, blandit egestas molestie facilisi porttitor neque sodal luctus senectus lacinia euismod adipiscing element turpis dolor curae; posuere augue.</p>
+										
+										<div class="admin">
+											<img src="images/about/02.jpg" alt="image">
+											<span class="color_white">By - Rockstar Jack</span>
+										</div>
+										<div class="date float-right color_primary">18 Jan 2019</div>
+									</div>
+								</div>
+							</div>
+							<div class="col-md-12 col-lg-4">
+								<div class="blog_item">
+									<div class="comments">
+										<i class="fa fa-comment" aria-hidden="true"></i>
+										<span class="color_white">23</span>
+									</div>
+									<div class="blog_img overlay_one"><img src="images/blog/03.jpg" alt="image"></div>
+									<div class="blog_content bg_white color_secondery">
+										<div class="blog_title">
+											<a class="color_primary" href="blog-details.html"><h5>Vulputate donec sem purus litora varius auctor augue suscipit hac.</h5></a>
+										</div>
+										<p class="mt_15 mb_30">Dictumst integer sollicitudin venenatis ornare quam. Ligula integer luctus, blandit egestas molestie facilisi porttitor neque sodal luctus senectus lacinia euismod adipiscing element turpis dolor curae; posuere augue.</p>
+										
+										<div class="admin">
+											<img src="images/about/02.jpg" alt="image">
+											<span class="color_white">By - Rockstar Jack</span>
+										</div>
+										<div class="date float-right color_primary">17 Jan 2019</div>
+									</div>
+								</div>
+							</div>
+						</div>
+						<div class="mx-auto text-center mt_60"><a class="btn btn-default" href="blog.html">View Blog</a></div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+	<!--	End Blog
+	===================================================-->
+<?php /*
 <div id="experience" class="experience  py_60 full_row">
 	<div class="">
 
@@ -561,6 +646,7 @@ completed and handed over the same.
 	
 
 ===================================================-->
+*/ ?>
 	<!--	Start Testimonial
 	===================================================-->
 	<section id="testimonial" class="py_80 full_row bg_white">
