@@ -26,7 +26,7 @@
 
       <!--	Title
     ==================================================-->
-	<title>Runaway - Personal Portfolio HTML Template</title>
+	<title>Pratham Construction</title>
 
 </head>
 <body id="top" class="page-load">
