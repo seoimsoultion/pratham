@@ -207,7 +207,7 @@ include 'includes/header.php';
 
     <div class="swiper-wrapper">
 
-      <div class="swiper-slide slide">
+      <div class="swiper-slide  ">
         <div class="slide-image" style="background-image: url(images/slider/banner1.jpg)"></div>
        <!-- <span class="slide-title">Exotic places</span>-->
       </div>
@@ -881,24 +881,4 @@ class Slideshow {
 
 const slideshow = new Slideshow(document.querySelector('.slideshow'));
 
-</script>
-<script>
-	$('document').ready(function() {
-		//$('.tt1').css("background","red");
-		openCity(event, 'London');
-	})
-
-	function openCity(evt, cityName) {
-		var i, tabcontent, tablinks;
-		tabcontent = document.getElementsByClassName("tabcontent");
-		for (i = 0; i < tabcontent.length; i++) {
-			tabcontent[i].style.display = "none";
-		}
-		tablinks = document.getElementsByClassName("tablinks");
-		for (i = 0; i < tablinks.length; i++) {
-			tablinks[i].className = tablinks[i].className.replace(" active", "");
-		}
-		document.getElementById(cityName).style.display = "block";
-		evt.currentTarget.className += " active";
-	}
 </script>

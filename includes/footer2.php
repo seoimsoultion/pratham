@@ -8,8 +8,8 @@
 		    				<!--	Start Title
 		    				================================-->
 		    				<div class="main_title pb_60">
-								<h2 class="title color_white">Contact</h2>
-								<p class="mt_15 color_white">Interdum a etiam sagittis vehicula porta. Massa felis eros quam blandit nulla dolor habitant.</p>											
+								<h2 class="title color_white text-center">Contact</h2>
+								<p class="mt_15 color_white text-center">Interdum a etiam sagittis vehicula porta. Massa felis eros quam blandit nulla dolor habitant.</p>											
 							</div>
 							<!--	End Title
 		    				================================-->
@@ -565,12 +565,15 @@
 		<!--	End Contact
 		===================================================-->
 	</div>
+	
 	<!--	Js Links
 	===================================================-->
 	<script src="js/jquery.min.js"></script>
 	<script src="js/popper.min.js"></script>
 	<script src="js/bootstrap.min.js"></script>
 	<script src="js/plugins.js"></script>
+	<script src="js/particles.min.js"></script>
+	<script src="js/app.js"></script>
 	<script src="js/jquery.pagepiling.min.js"></script>
 	<script src="js/custom.js"></script>
 	<script>
@@ -594,5 +597,6 @@
 		    document.getElementById("mysidenav").style.width = "0";
 		}
     </script>
+   
 </body>
 </html>

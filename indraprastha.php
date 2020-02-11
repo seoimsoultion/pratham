@@ -1,14 +1,97 @@
-<?php 
-include 'includes/header2.php';
-?>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<!--===== Meta Tag =====-->
+	<meta charset="utf-8">
+	<meta http-equiv="x-ua-compatible" content="ie=edge">
+	<meta name="description" content="Runaway - Personal Portfolio HTML Template">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta name="keywords" content="business, agency, blog, cv, creative, html, one page, personal, portfolio, resume, responsive, bootstrap, photography, designer, developer">
+	<meta name="author" content="root">
+
+	 <!--	Css Links
+    ==================================================-->
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+	<link rel="stylesheet" href="css/jquery.pagepiling.css">
+    <link rel="stylesheet" href="css/font-awesome.min.css">
+    <link rel="stylesheet" href="fonts/flaticon.css">
+    <link rel="stylesheet" href="css/plugins.css">
+    <link rel="stylesheet" href="css/style.css">
+	<link rel="stylesheet" href="css/color.css" id="color-change">
+	<link rel="stylesheet" href="css/custom2.css">
+
+     <!-- Favicon 
+    ==================================================-->
+	<link rel="icon" type="image/png" sizes="32x32" href="images/icon.png">
+
+      <!--	Title
+    ==================================================-->
+	<title>Runaway - Personal Portfolio HTML Template</title>
+
+</head>
+<body id="top" class="page-load">
+	<!--	Preloader
+	==================================================-->
+	<div class="preloader">
+		<div class="lds-css ng-scope">
+			<div class="lds-spinner" style="100%;height:100%">
+				<div></div>
+				<div></div>
+				<div></div>
+				<div></div>
+				<div></div>
+				<div></div>
+				<div></div>
+				<div></div>
+				<div></div>
+				<div></div>
+				<div></div>
+				<div></div>
+			</div>
+		</div>
+	</div>
+	
+	<!--	Start Sidebar
+	==================================================-->
+	<div id="mysidenav" class="sidenav">
+	  <a href="javascript:void(0)" class="closebtn" onclick="closeNav()"><i class="flaticon-close-button"></i></a>
+	  <img class="nav-logo" src="images/logo/29.png" alt="image">
+	  	<ul id="menu">
+		  <li data-menuanchor="page1" class="active"><a href="#page1">Home</a></li>
+			<li data-menuanchor="page2"><a href="#page2">About Us</a></li>
+			<li data-menuanchor="page3"><a href="#page3">Amenities</a></li>
+			
+			<li data-menuanchor="page5"><a href="#page4">Floor Plan</a></li>
+			<li data-menuanchor="page6"><a href="#page5">Master Plan</a></li>
+			<li data-menuanchor="page7"><a href="#page6">Location Map</a></li>
+			
+			<li data-menuanchor="page9"><a href="#page7">Contact</a></li>
+			<li data-menuanchor="page8"><a href="#page8">Download</a></li>
+		</ul>
+	</div>
+	<div class="sidebar bg_primary">
+		<div class="logo text-center"><a href="#page1"><img class="nav-logo" src="images/logo/29.png" alt="logo"></a></div>
+		<span style="cursor:pointer" onclick="openNav()">&#9776;</span>
+		<div class="socal_media mt_60">
+			<ul>
+				<li><a href="#"><i class="fa fa-facebook" aria-hidden="true"></i></a></li>
+				<li><a href="#"><i class="fa fa-twitter" aria-hidden="true"></i></a></li>
+				<li><a href="#"><i class="fa fa-google-plus" aria-hidden="true"></i></a></li>
+				<li><a href="#"><i class="fa fa-linkedin" aria-hidden="true"></i></a></li>
+				<li><a href="#"><i class="fa fa-instagram" aria-hidden="true"></i></a></li>
+			</ul>
+		</div>			
+	</div>
+	<div class="contact_massage bg_primary">
+		<a href="#page9"><i class="fa fa-envelope" aria-hidden="true"></i></a>
+	</div>
+	<!--	End Sidebar
+	=======================================================-->
 	<div id="pagepiling">
 	    <!--    Start Main Banner 
 		==================================================-->
 		<div class="pagegilling-mani-banner section bg_white">
-		
-
-		
-			<div id="main_banner" class="banner_image background13 overlay_one">
+			<div id="particles-js" class="banner_image background13">
 				<div class="container h-100">
 		            <div class="row h-100 align-items-center">
 		                <div class="col-md-12 col-lg-12 home-content text-left">
@@ -19,7 +102,7 @@ include 'includes/header2.php';
 		                            <span class="cd-words-wrapper color_default">
 		                                <b class="is-visible"><br/></b>
 		                                <b></b>
-		                               
+		                                <b></b>
 		                            </span>
 		                        </h1>
 		                        <p class="color_white mb_30">Libero habitasse sollicitudin aliquet venenatis iaculis placerat amet ligula, eleifend nonummy enim in volutpat diam.</p>
@@ -30,8 +113,6 @@ include 'includes/header2.php';
 		        </div>
 		    </div>
 		</div>
-	    <!--	End Main Banner 
-		==================================================-->
 		<!--	Start About
 		===================================================-->
 	    <div id="about" class="section bg_white pp-scrollable">
@@ -47,9 +128,9 @@ include 'includes/header2.php';
 	    							<div class="about_myself pb_60">
 	    								<!--	Start Title
 	    								================================-->
-	    								<div class="main_title my_60">
-											<h2 class="title color_primary">About Us</h2>
-											<p class="mt_15">Interdum a etiam sagittis vehicula porta. Massa felis eros quam blandit nulla dolor habitant.</p>											
+	    								<div class="main_title my_60 text-center">
+											<h2 class="title color_primary text-center">About Us</h2>
+											<p class="mt_15 text-center">Interdum a etiam sagittis vehicula porta. Massa felis eros quam blandit nulla dolor habitant.</p>											
 										</div>
 										<!--	End Title
 	    								================================-->
@@ -91,8 +172,8 @@ include 'includes/header2.php';
 		    				<!--	Start Title
 		    				================================-->
 		    				<div class="main_title pb_60">
-								<h2 class="title color_primary">Amenities</h2>
-								<p class="mt_15">Interdum a etiam sagittis vehicula porta. Massa felis eros quam blandit nulla dolor habitant.</p>											
+								<h2 class="title color_primary  text-center">Amenities</h2>
+								<p class="mt_15 text-center">Interdum a etiam sagittis vehicula porta. Massa felis eros quam blandit nulla dolor habitant.</p>											
 							</div>
 							<!--	End Title
 		    				================================-->
@@ -226,8 +307,8 @@ include 'includes/header2.php';
 		    				<!--	Start Title
 		    				================================-->
 		    				<div class="main_title pb_60">
-								<h2 class="title color_primary">Floor Plan</h2>
-								<p class="mt_15">Interdum a etiam sagittis vehicula porta. Massa felis eros quam blandit nulla dolor habitant.</p>											
+								<h2 class="title color_primary  text-center">Floor Plan</h2>
+								<p class="mt_15  text-center">Interdum a etiam sagittis vehicula porta. Massa felis eros quam blandit nulla dolor habitant.</p>											
 							</div>
 							<!--	End Title
 		    				================================-->
@@ -663,7 +744,7 @@ include 'includes/header2.php';
 		    				<!--	Start Title
 		    				================================-->
 		    				<div class="main_title pb_60">
-								<h2 class="title color_primary">Master Plan</h2>
+								<h2 class="title color_primary  text-center">Master Plan</h2>
 								
 							</div>
 							<!--	End Title
@@ -704,7 +785,7 @@ include 'includes/header2.php';
 		    				<!--	Start Title
 		    				================================-->
 		    				<div class="main_title pb_60">
-								<h2 class="title color_primary">Location Map</h2>
+								<h2 class="title color_primary  text-center">Location Map</h2>
 								
 							</div>
 							<!--	End Title
