@@ -13,16 +13,16 @@ include 'includes/header.php';
 
 
 				<div class="mainbanner_content">
-					<span class="pb_5 banner_title color_white ">Pratham Construction</span>
+					<span class="pb_5 banner_title color_white ">PRATHAM CONSTRUCTIONS</span>
 					<h1 class="cd-headline clip is-full-width text-uppercase">
 						<span class="color_white"></span>
 						<span class="cd-words-wrapper color_default">
-							<b class="is-visible color_white">Presents to you <br />Indraprastha</b>
-							<b class="color_white">Pratham Brings <br /> Royalty to you!!</b>
+							<b class="is-visible color_white">Pratham resonates <br />Royalty </b>
+							<b class="color_white">Pratham symbolises <br />Integrity</b>
 
 						</span>
 					</h1>
-					<p class="color_white mb_30">Pratham's Latest Project for the modern lifestyle and urban families.</p>
+					<p class="color_white mb_30">Committed to superior quality housing through innovation!</p>
 					<a class="btn btn-default" href="#">Download Brochure</a>
 				</div>
 
@@ -303,7 +303,7 @@ include 'includes/header.php';
 
 			<div class="col-md-12 col-lg-12">
 				<div class="section_title_1 text-center mx-auto pb_60 wow animated slideInUp">
-					<h2 class="title text-uppercase color_white"><span class="line_double mx-auto color_default">about</span>Pratham Construction</h2>
+					<h2 class="title text-uppercase color_white"><span class="line_double mx-auto color_default">about</span>PRATHAM CONSTRUCTION</h2>
 					<span class="sub_title color_white txt-italic">“ Providing the communities we serve with superior products and services by developing innovative
 						solutions to improve the quality of life and satisfy customer needs.”
 					</span>
@@ -314,12 +314,11 @@ include 'includes/header.php';
 			<div class="row">
 				<div class="col-md-7 col-lg-7">
 					<div class="myself color_secondery wow animated fadeInLeft">
-						<p class="color_white text-justify">Founded by Late Kiran Kumar K Gadia, the Pratham Group had a humble beginning specialising in the Jari textile during the early 1930s. Over the years, the Pratham Group diversified in other ventures such as copper wire, polyester yarn and the real estate. Today, Pratham Group has firmly established itself as one of the leading names and is among the most successful organisation in India continually imprinting its indelible marking in global market.
+						<p class="color_white text-justify">Founded by Late Kiran Kumar K Gadia, the Pratham Group had a humble beginning specialising in the Jari textile during the early 1930s. Over the years, the Pratham Group diversified in other ventures such as copper wire, polyester yarn and the real estate. Today, Pratham Group has firmly established itself as one of the leading names and is among the most successful organisation in India continually imprinting its indelible marking in global market. 
 						</p>
 						<br />
 						<p class="color_white text-justify">
-							Realising the need of quality yet affordable housing in the ever growing Bangalore city; the Silicon Valley of India, the Pratham Group ventured in the real estate sector. In our sincere efforts, Pratham Group endeavours to create quality residential spaces to better people’s living experiences. With a clear vision to transform the way people perceive quality housing, Pratham Constructions blends professional real estate expertise with innovative technology while encompassing robust engineering, ground-breaking research and uncompromising business ethics in all spheres of realty development making home living more comfortable, productive and cheerful.
-
+						Realising the need of quality yet affordable housing in the ever growing Bangalore city; the Silicon Valley of India, the Pratham Group ventured in the real estate sector. In our sincere efforts, Pratham Group endeavours to create quality residential spaces to better people’s living experiences. With a clear vision to transform the way people perceive quality housing, Pratham Constructions blends professional real estate expertise with innovative technology while  encompassing robust engineering, ground-breaking research and uncompromising business ethics in all spheres of realty development making home living more comfortable, productive and cheerful.
 						</p>
 
 					</div>
@@ -386,7 +385,7 @@ include 'includes/header.php';
 						<div class="col-md-4 col-lg-4 why-box">
 							<img src="images/pratham/Transparency.png">
 							<h4 class="text-center"> Transparency</h4>
-							<p>Transparency is rooted in all of our operations. We strongly believe that in order for a lasting relation with customers, transparency is the key. That is why; we prioritise transparency in all our dealings as we focus on imaginative engineering and reliability. </p>
+							<p>Transparency is rooted in all of our operations. We strongly believe that in order for a lasting relation with customers, transparency is the key. That is why; we prioritise transparency in all our dealings as we focus on imaginative engineering and reliability.  </p>
 						</div>
 
 
@@ -431,7 +430,7 @@ include 'includes/header.php';
 							<span class="test-title" wfd-id="167"><b>Indraprastha</b></span>
 							<span class="test-info" wfd-id="166">Near Yeshwantpur Metro Station</span>
 						</span>
-						<p class="testp">Located at Yashwantpur, Indraprastha is a premium residential project nestled in the manicured greens and replete with all modern amenities offering a blissful life. The amenities highlights include gymnasium, swimming pool and other sports facilities such as Squash Court, Badminton Court, Multipurpose Court, etc. </p>
+						<p class="testp">Located at Yashwantpur, Indraprastha is a premium residential project nestled in the manicured greens and replete with all modern amenities offering a blissful life. The amenities highlights include gymnasium, swimming pool and other sports facilities such as Squash Court, Badminton Court, Multipurpose Court, etc.  </p>
 
 						<a class="btn btn-project" href="indraprastha.php">View Project</a>
 
@@ -449,7 +448,7 @@ include 'includes/header.php';
 							<span class="test-title" wfd-id="167"><b>Casa Serene</b></span>
 							<span class="test-info" wfd-id="166"></span>
 						</span>
-						<p class="testp">Indulge in absolute serenity while still having the best access to urban amenities at Casa Serene. Located at Dasarahalli on Tumkur Road, Casa Serene has 2 and 3BHK apartments with modern amenities. It offers smooth connectivity to the prime locations in the city, besides housing many reputed educational institutions, hospitals etc.</p>
+						<p class="testp">Indulge in absolute serenity while still having the best access to urban amenities at Casa Serene. Located at Dasarahalli on Tumkur Road, Casa Serene has 2 and 3BHK apartments with modern amenities.  It offers smooth connectivity to the prime locations in the city, besides housing many reputed educational institutions, hospitals etc.</p>
 						
 						<a class="btn btn-project" href="#">View Project</a>
 					</div>
@@ -510,7 +509,7 @@ include 'includes/header.php';
 			<div class="col-md-12 col-lg-12">
 				<div class="section_title_1 text-center mx-auto pb_60 wow animated slideInUp">
 					<h2 class="title text-uppercase"><span class="line_double mx-auto color_default">The </span>Team</h2>
-					<span class="sub_title">Interdum a etiam sagittis vehicula porta. Massa felis eros quam blandit nulla dolor habitant. Ullamcorper quis ornare et proin pellentesque.</span>
+					<span class="sub_title">At Pratham Consructions, we value talent, hard work and development at both professional and personal level. In all our aspirations, we are open to hiring the best brains to ensure maximum productivity and capitalise on human resources. </span>
 				</div>
 			</div>
 
@@ -529,7 +528,7 @@ include 'includes/header.php';
 							<div class="border">
 								<h4 class="color_default font-weight-bold text-center text-uppercase">MANISH KIRAN GADIA</h4>
 								<strong class="color_white text-center d-block mb_15">Managing Director</strong>
-								<p class="color_white">Manish joined the group in 2003. Conceptualization is the key areas directly under his purview. Known for his dynamism and belief in ‘positive change’ 
+								<p class="color_white">As the head of the organisation, Manish Kiran Gadia has keenly addressed the growing demands of the market by conceptualizing unique projects. Under his leadership, Pratham Constructions has reached new standards of in the emerging business scenario.  
 								</p>
 								<div class="mx-auto text-center team-link" wfd-id="198">
 									
@@ -548,7 +547,7 @@ include 'includes/header.php';
 							<div class="border">
 								<h4 class="color_default font-weight-bold text-center text-uppercase">AMIT KIRAN GADIA </h4>
 								<strong class="color_white text-center d-block mb_15">Director </strong>
-								<p class="color_white">In his early 30’s, Amit is a self starter, a voracious reader with a great penchant for learning and adapting to new things. His ability to analyze and solve problems coupled </p>
+								<p class="color_white">His ability to analyze and solve problems coupled with his innate ability to garner trust and rapport at all levels of the organisation makes him an asset for the organisation. He currently handles finance and legal functions of the organisation. </p>
 								<div class="mx-auto text-center team-link" wfd-id="198">
 								<button type="button" class="btn btn-default" data-toggle="modal" data-target="#myModal2">Read More</button>
 								</div>
@@ -565,9 +564,7 @@ include 'includes/header.php';
 							<div class="border">
 								<h4 class="color_default font-weight-bold text-center text-uppercase">VINAY KIRAN GADIA</h4>
 								<strong class="color_white text-center d-block mb_15">Director</strong>
-								<p class="color_white">Vinay joined the group in early 2011 after spending his early 20s
-									abroad at USA. Owing to his somewhat gregarious nature, he enjoys
-									taking up the Marketing division of the group. 
+								<p class="color_white">With his early years of training in USA in engineering, Vinay returned to India in the 2011. His gregarious nature, makes him enjoys heading the Marketing division of the group. He also handles the project management aspect of the construction schedules.
 								</p>
 								<div class="mx-auto text-center team-link" wfd-id="198">
 								<button type="button" class="btn btn-default" data-toggle="modal" data-target="#myModal3">Read More</button>
@@ -741,7 +738,7 @@ include 'includes/header.php';
 			<div class="col-md-12 col-lg-12">
 				<div class="section_title_1 text-center mx-auto pb_60 wow animated slideInUp">
 					<h2 class="title text-uppercase"><span class="line_double mx-auto color_default">Testimonial</span>What Client’s say about us</h2>
-					<span class="sub_title">Pratham Constructions take customer feedbacks very seriously as we continually strive for improvement and better ourselves in every step we take. We were overwhelmed with the kind words said by our customers. </span>
+					<span class="sub_title">Pratham Constructions take customer feedbacks very seriously as we continually strive for improvement and better ourselves in every step we take. We were overwhelmed with the kind words said by our customers.  </span>
 				</div>
 			</div>
 			<div class="col-md-12 col-lg-12">
@@ -752,7 +749,7 @@ include 'includes/header.php';
 
 						</div>
 						<h5 class="color_primary mb_15">Aisha Lexi</h5>
-						<p> I booked an apartment at Indraprastha. It is one of the most well-designed and planned residential apartment. The rooms are spacious with abundant natural lighting. I have no complaints on my booking at Casa Serene. </p>
+						<p>	I booked an apartment at Indraprastha. It is one of the most well-designed and planned residential apartment. The rooms are spacious with abundant natural lighting. I have no complaints on my booking at Casa Serene.  </p>
 					</div>
 					<div class="member_feedback p_30 color_secondery">
 						<div class="client_img"><img src="images/testimonial/02.jpg" alt="image"></div>
@@ -760,24 +757,10 @@ include 'includes/header.php';
 
 						</div>
 						<h5 class="color_primary mb_15">Kiara Paige</h5>
-						<p> Indraprastha is from one of the most trusted builder. Quality at its best, this residential building is one of the most contemporary buildings in Yashwantpur. I have recently booked my apartment. The rooms are very spacious with good ventilation. This is one of the best apartments so far. </p>
+						<p> 	Indraprastha is from one of the most trusted builder. Quality at its best, this residential building is one of the most contemporary buildings in Yashwantpur. I have recently booked my apartment. The rooms are very spacious with good ventilation. This is one of the best apartments so far. </p>
 					</div>
-					<div class="member_feedback p_30 color_secondery">
-						<div class="client_img"><img src="images/testimonial/03.jpg" alt="image"></div>
-						<div class="star d-inline-block mt_30 color_default">
-
-						</div>
-						<h5 class="color_primary mb_15">Lucas Noah</h5>
-						<p>Sem duis platea erat feugiat vivamus nascetur sapien tortor. Sollic dictum ultric. Aliquam inceptos bibendum fringilla sodales. Molest lacin urna per aenean commodo sociosqu.</p>
-					</div>
-					<div class="member_feedback p_30 color_secondery">
-						<div class="client_img"><img src="images/testimonial/04.jpg" alt="image"></div>
-						<div class="star d-inline-block mt_30 color_default">
-
-						</div>
-						<h5 class="color_primary mb_15">Grace Ruby</h5>
-						<p>Sem duis platea erat feugiat vivamus nascetur sapien tortor. Sollic dictum ultric. Aliquam inceptos bibendum fringilla sodales. Molest lacin urna per aenean commodo sociosqu.</p>
-					</div>
+					
+					
 				</div>
 			</div>
 		</div>

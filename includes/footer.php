@@ -6,7 +6,7 @@
 			<div class="col-md-12 col-lg-12">
 				<div class="section_title_1 text-center mx-auto pb_60 wow animated slideInUp">
 					<h2 class="title text-uppercase color_white"><span class="line_double mx-auto color_default color_white">contact</span>Get In Touch</h2>
-					<span class="sub_title color_white">Interdum a etiam sagittis vehicula porta. Massa felis eros quam blandit nulla dolor habitant. Ullamcorper quis ornare et proin pellentesque.</span>
+					<span class="sub_title color_white">Should you wish to know more, please free to write to us. Our representative will attend to you as soon as possible. We also arrange for site visit on request. </span>
 				</div>
 			</div>
 			<div class="col-md-12 col-lg-12">
