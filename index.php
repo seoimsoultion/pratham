@@ -529,17 +529,9 @@ include 'includes/header.php';
 							<div class="border">
 								<h4 class="color_default font-weight-bold text-center text-uppercase">MANISH KIRAN GADIA</h4>
 								<strong class="color_white text-center d-block mb_15">Managing Director</strong>
-								<p class="color_white">Manish joined the group in 2003. Conceptualization is the key areas directly under his purview. Known for his dynamism and belief in ‘positive change’, Manish has keenly addressed the growing demands by conceptualizing unique projects. Manish is now charting out new courses for the group well as to set new standards in the emerging business scenario. After the demise of Shri Kiranji Gadia, the group’s visionary, in 2014, Manish boldly leads the K M Gadia group to reach great heights.
+								<p class="color_white">Manish joined the group in 2003. Conceptualization is the key areas directly under his purview. Known for his dynamism and belief in ‘positive change’ 
 								</p>
-								<div class="socal_media">
-									<ul>
-										<li><a href="#"><i class="fa fa-facebook" aria-hidden="true"></i></a></li>
-										<li><a href="#"><i class="fa fa-twitter" aria-hidden="true"></i></a></li>
-										<li><a href="#"><i class="fa fa-google-plus" aria-hidden="true"></i></a></li>
-										<li><a href="#"><i class="fa fa-linkedin" aria-hidden="true"></i></a></li>
-										<li><a href="#"><i class="fa fa-instagram" aria-hidden="true"></i></a></li>
-									</ul>
-								</div>
+								<div class="mx-auto text-center team-link" wfd-id="198"><a class="btn btn-default" href="">Read More</a></div>
 							</div>
 						</div>
 					</div>
@@ -553,16 +545,8 @@ include 'includes/header.php';
 							<div class="border">
 								<h4 class="color_default font-weight-bold text-center text-uppercase">AMIT KIRAN GADIA </h4>
 								<strong class="color_white text-center d-block mb_15">Director </strong>
-								<p class="color_white">In his early 30’s, Amit is a self starter, a voracious reader with a great penchant for learning and adapting to new things. His ability to analyze and solve problems coupled with his innate ability to engender trust and rapport and work with all levels of the organization makes him an asset. Amit currently handles the finance and legal functions of the organization.</p>
-								<div class="socal_media">
-									<ul>
-										<li><a href="#"><i class="fa fa-facebook" aria-hidden="true"></i></a></li>
-										<li><a href="#"><i class="fa fa-twitter" aria-hidden="true"></i></a></li>
-										<li><a href="#"><i class="fa fa-google-plus" aria-hidden="true"></i></a></li>
-										<li><a href="#"><i class="fa fa-linkedin" aria-hidden="true"></i></a></li>
-										<li><a href="#"><i class="fa fa-instagram" aria-hidden="true"></i></a></li>
-									</ul>
-								</div>
+								<p class="color_white">In his early 30’s, Amit is a self starter, a voracious reader with a great penchant for learning and adapting to new things. His ability to analyze and solve problems coupled </p>
+								<div class="mx-auto text-center team-link" wfd-id="198"><a class="btn btn-default" href="">Read More</a></div>
 							</div>
 						</div>
 					</div>
@@ -578,20 +562,10 @@ include 'includes/header.php';
 								<strong class="color_white text-center d-block mb_15">Director</strong>
 								<p class="color_white">Vinay joined the group in early 2011 after spending his early 20s
 									abroad at USA. Owing to his somewhat gregarious nature, he enjoys
-									taking up the Marketing division of the group. Further, given his
-									technical background in engineering management he collaborates in
-									the project management aspect of the construction schedules.
+									taking up the Marketing division of the group. 
 								</p>
-								<div class="socal_media">
-									<ul>
-										<li><a href="#"><i class="fa fa-facebook" aria-hidden="true"></i></a></li>
-										<li><a href="#"><i class="fa fa-twitter" aria-hidden="true"></i></a></li>
-										<li><a href="#"><i class="fa fa-google-plus" aria-hidden="true"></i></a></li>
-										<li><a href="#"><i class="fa fa-linkedin" aria-hidden="true"></i></a></li>
-										<li><a href="#"><i class="fa fa-instagram" aria-hidden="true"></i></a></li>
-									</ul>
-								</div>
-								<a href="#" class="btn btn-primary">Read More</a>
+								<div class="mx-auto text-center team-link" wfd-id="198"><a class="btn btn-default" href="">Read More</a></div>
+								
 							</div>
 						</div>
 					</div>
