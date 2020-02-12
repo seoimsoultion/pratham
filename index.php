@@ -569,29 +569,7 @@ include 'includes/header.php';
 							</div>
 						</div>
 					</div>
-					<div class="member">
-						<img src="images/team/04.jpg" alt="image">
-						<div class="data">
-							<h4 class="bg_default color_primary font-weight-bold m-0">Donna Patricia</h4>
-							<strong class="bg_primary color_white">Graphic Designer</strong>
-						</div>
-						<div class="hover_overlay">
-							<div class="border">
-								<h4 class="color_default font-weight-bold text-center text-uppercase">Donna Patricia</h4>
-								<strong class="color_white text-center d-block mb_15">Graphic Designer</strong>
-								<p class="color_white">Nisl vitae consectetuer dictumst mauris vitae, purus torquent praesent pharetra consectetuer nullam fames pede sapien litora condimentum pretium volutpat magnis facilisi hendrerit.</p>
-								<div class="socal_media">
-									<ul>
-										<li><a href="#"><i class="fa fa-facebook" aria-hidden="true"></i></a></li>
-										<li><a href="#"><i class="fa fa-twitter" aria-hidden="true"></i></a></li>
-										<li><a href="#"><i class="fa fa-google-plus" aria-hidden="true"></i></a></li>
-										<li><a href="#"><i class="fa fa-linkedin" aria-hidden="true"></i></a></li>
-										<li><a href="#"><i class="fa fa-instagram" aria-hidden="true"></i></a></li>
-									</ul>
-								</div>
-							</div>
-						</div>
-					</div>
+					
 				</div>
 			</div>
 		</div>

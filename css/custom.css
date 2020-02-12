@@ -82,7 +82,7 @@
 
 .test {
   position:  absolute;
-  top:52%;
+  bottom:50%;
   padding: 15px;
   z-index: 999;
   left:0;
@@ -114,3 +114,11 @@ a.btn-project {border:1px #FAA61A solid; border-radius: 30px; margin: 10px 0; pa
   font-family: Font Awesome 5 ;
 }
 .team-link {position: absolute; bottom: 0;left: 30%;}
+#errmsg{color: red;}
+input[type=number]::-webkit-inner-spin-button, 
+input[type=number]::-webkit-outer-spin-button { 
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    margin: 0; 
+}
