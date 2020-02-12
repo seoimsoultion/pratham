@@ -1,6 +1,40 @@
 <?php
 include 'includes/header.php';
 ?>
+
+
+
+<!--    Start Main Banner 
+	==================================================-->
+<section id="water-effect" class="banner_image background1 ">
+	<div class="container h-100">
+		<div class="row h-100 align-items-center">
+			<div class="col-md-12 col-lg-12 home-content text-left">
+
+
+				<div class="mainbanner_content">
+					<span class="pb_5 banner_title color_white ">Pratham Construction</span>
+					<h1 class="cd-headline clip is-full-width text-uppercase">
+						<span class="color_white"></span>
+						<span class="cd-words-wrapper color_default">
+							<b class="is-visible color_white">Presents to you <br />Indraprastha</b>
+							<b class="color_white">Pratham Brings <br /> Royalty to you!!</b>
+
+						</span>
+					</h1>
+					<p class="color_white mb_30">Pratham's Latest Project for the modern lifestyle and urban families.</p>
+					<a class="btn btn-default" href="#">Download Brochure</a>
+				</div>
+
+
+			</div>
+		</div>
+	</div>
+</section>
+<!--	End Main Banner 
+	==================================================-->
+<?php /* 
+//////////////////////another slider/////////////////////
 <!------ Include the above in your HEAD tag ---------->
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Swiper/4.4.1/css/swiper.min.css">
 <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.13/css/all.css" integrity="sha384-DNOHZ68U8hZfKXOrtjWvjxusGo9WQnrNx2sqG0tfsghAvtVlRW3tvkXWZh58N9jp" crossorigin="anonymous">
@@ -185,54 +219,10 @@ include 'includes/header.php';
 		transform-origin: 0 0;
 	}
 </style>
-<?php /*
-<div id="slider" class="section bg_white">
-			<div class="line-container">
-				<div class="row">
-					<div class="col-md-3 col-lg-3"><div class="liner"></div></div>
-					<div class="col-md-3 col-lg-3"><div class="liner"></div></div>
-					<div class="col-md-3 col-lg-3"><div class="liner"></div></div>
-					<div class="col-md-3 col-lg-3"><div class="liner"></div></div>
-				</div>
-			</div>
-			<div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
-			  <ol class="carousel-indicators">
-			    <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
-			    <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
-			    <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
-			  </ol>
-			  <div class="carousel-inner overlay_three">
-			    <div class="carousel-item active">
-			      <div class="overlay_one pattan"><img  class="" src="images/pratham/home/banner1.jpg" alt="slide image"></div>
-			      <div class="carousel-caption">
-				    <h1 class="mb_20">Awesome solution<br> for <span class="color_default">you Business</span></h1>
-				    <p class="mb_20">Risus faucibus mollis velit sollicitudin consequat inceptos dictum. Cras quis amet dui inceptos varius, faucibus bibendum fringilla sodales mauris tortor lacus vitae sagittis consequat dapibus consequat justo nostra.</p>
-				    <a class="btn btn-default" href="#">Start a Project</a>
-				  </div>
-			    </div>
-			    <div class="carousel-item">
-			      <div class="overlay_one pattan"><img src="images/pratham/home/banner2.jpg" alt="slide image"></div>
-			      <div class="carousel-caption">
-				    <h1 class="mb_20">Awesome solution<br> for <span class="color_default">you Business</span></h1>
-				    <p class="mb_20">Risus faucibus mollis velit sollicitudin consequat inceptos dictum. Cras quis amet dui inceptos varius, faucibus bibendum fringilla sodales mauris tortor lacus vitae sagittis consequat dapibus consequat justo nostra.</p>
-				    <a class="btn btn-default" href="#">Start a Project</a>
-				  </div>
-			    </div>
-			    <div class="carousel-item">
-			      <div class="overlay_one pattan"><img src="images/pratham/home/banner3.jpg" alt="slide image"></div>
-			      <div class="carousel-caption">
-				    <h1 class="mb_20">Awesome solution<br> for <span class="color_default">you Business</span></h1>
-				    <p class="mb_20">Risus faucibus mollis velit sollicitudin consequat inceptos dictum. Cras quis amet dui inceptos varius, faucibus bibendum fringilla sodales mauris tortor lacus vitae sagittis consequat dapibus consequat justo nostra.</p>
-				    <a class="btn btn-default" href="#">Start a Project</a>
-				  </div>
-			    </div>
-			  </div>
-			</div>
-		</div>
-*/ ?>
+
 <!--	Start Main Banner 
 	==================================================-->
-<section id="main_banner" class="banner_image background1 <?php /*overlay_one*/ ?>">
+<section  id="water-effect" class="banner_image background1 ?>">
 
 
 
@@ -291,29 +281,11 @@ include 'includes/header.php';
 
 
 
-
-	<!--<div class="container h-100">
-		<div class="row h-100 align-items-center">
-			<div class="col-md-12 col-lg-12 home-content text-left">
-				<div class="mainbanner_content">
-					<span class="pb_5 banner_title color_white ">Pratham Construction</span>
-					<h1 class="cd-headline clip is-full-width text-uppercase">
-						<span class="color_white"></span>
-						<span class="cd-words-wrapper color_default">
-							<b class="is-visible color_white">Presents to you <br />Indraprastha</b>
-							<b class="color_white">Pratham Brings <br /> Royalty to you!!</b>
-
-						</span>
-					</h1>
-					<p class="color_white mb_30">Pratham's Latest Project for the modern lifestyle and urban families.</p>
-					<a class="btn btn-default" href="#">Download Brochure</a>
-				</div>
-			</div>
-		</div>
-	</div>-->
 </section>
 <!--	End Main Banner 
 	==================================================-->
+*/
+	?>
 <!--	Start About
 	===================================================-->
 
@@ -342,14 +314,14 @@ include 'includes/header.php';
 			<div class="row">
 				<div class="col-md-7 col-lg-7">
 					<div class="myself color_secondery wow animated fadeInLeft">
-						<p class="color_white text-justify">Founded by Late Kiran Kumar K Gadia, the Pratham Group had a humble beginning specialising in the Jari textile during the early 1930s. Over the years, the Pratham Group diversified in other ventures such as copper wire, polyester yarn and the real estate. Today, Pratham Group has firmly established itself as one of the leading names and is among the most successful organisation in India continually imprinting its indelible marking in global market. 
+						<p class="color_white text-justify">Founded by Late Kiran Kumar K Gadia, the Pratham Group had a humble beginning specialising in the Jari textile during the early 1930s. Over the years, the Pratham Group diversified in other ventures such as copper wire, polyester yarn and the real estate. Today, Pratham Group has firmly established itself as one of the leading names and is among the most successful organisation in India continually imprinting its indelible marking in global market.
 						</p>
-						<br/>
+						<br />
 						<p class="color_white text-justify">
-						Realising the need of quality yet affordable housing in the ever growing Bangalore city; the Silicon Valley of India, the Pratham Group ventured in the real estate sector. In our sincere efforts, Pratham Group endeavours to create quality residential spaces to better people’s living experiences. With a clear vision to transform the way people perceive quality housing, Pratham Constructions blends professional real estate expertise with innovative technology while  encompassing robust engineering, ground-breaking research and uncompromising business ethics in all spheres of realty development making home living more comfortable, productive and cheerful.
+							Realising the need of quality yet affordable housing in the ever growing Bangalore city; the Silicon Valley of India, the Pratham Group ventured in the real estate sector. In our sincere efforts, Pratham Group endeavours to create quality residential spaces to better people’s living experiences. With a clear vision to transform the way people perceive quality housing, Pratham Constructions blends professional real estate expertise with innovative technology while encompassing robust engineering, ground-breaking research and uncompromising business ethics in all spheres of realty development making home living more comfortable, productive and cheerful.
 
 						</p>
-					
+
 					</div>
 					<div class="personal_info color_lightgray">
 
@@ -370,8 +342,8 @@ include 'includes/header.php';
 					</div>
 				</div>
 				<div class="clearfix"></div>
-				<div class="col-md-12 col-lg-12"><br/>
-				<p class="color_white text-justify">We have our real estate operations in major Indian cities. Our flagship realty project in Bangalore are Pratham Casa Serene and Pratham Indraprastha. At pratham, we believe a home should always be the best space of your comfort! Therefore, while designing the layout of every project, ample attention is paid to enhance the lifestyle of our customers. Each apartment accommodates abundant space, greenery, privacy, natural light, ventilation, aesthetics and also comes with the latest security features make sure that you get the best of indoor and outdoor experience.</p>
+				<div class="col-md-12 col-lg-12"><br />
+					<p class="color_white text-justify">We have our real estate operations in major Indian cities. Our flagship realty project in Bangalore are Pratham Casa Serene and Pratham Indraprastha. At pratham, we believe a home should always be the best space of your comfort! Therefore, while designing the layout of every project, ample attention is paid to enhance the lifestyle of our customers. Each apartment accommodates abundant space, greenery, privacy, natural light, ventilation, aesthetics and also comes with the latest security features make sure that you get the best of indoor and outdoor experience.</p>
 
 				</div>
 			</div>
@@ -403,17 +375,17 @@ include 'includes/header.php';
 
 						<div class="col-md-4 col-lg-4 why-box">
 							<img src="images/why-icon.png">
-							<h4 class="text-center">	Customer Focus</h4>
+							<h4 class="text-center"> Customer Focus</h4>
 							<p>Pratham Construction delivers every project with highest level of integrity. Every decision taken is client centric. We aim at providing the customer high levels of satisfaction in terms of interaction, service and quality.</p>
 						</div>
 						<div class="col-md-4 col-lg-4 why-box">
 							<img src="images/why-icon.png">
-							<h4 class="text-center">	Innovation</h4>
+							<h4 class="text-center"> Innovation</h4>
 							<p>Pratham Construction is synonymous to innovation. We always encourage multiple solutions and perspectives in the realty sector. We incorporate new ideas in all realms of our company’s venture and the new trends in the realty industries. </p>
 						</div>
 						<div class="col-md-4 col-lg-4 why-box">
 							<img src="images/why-icon.png">
-							<h4 class="text-center">	Transparency</h4>
+							<h4 class="text-center"> Transparency</h4>
 							<p>Transparency is rooted in all of our operations. We strongly believe that in order for a lasting relation with customers, transparency is the key. That is why; we prioritise transparency in all our dealings as we focus on imaginative engineering and reliability. </p>
 						</div>
 
@@ -452,7 +424,7 @@ include 'includes/header.php';
 					<div class="col-md-6">
 
 						<div class="blog_item">
-							<div class="blog_img overlay_one"><a href="indraprastha.php"><img src="images/pratham/home/indraprastha.jpg" alt="image"></a></div>
+							<div class="blog_img "><a href="indraprastha.php"><img src="images/pratham/home/indraprastha.jpg" alt="image"></a></div>
 						</div>
 
 						<span class=" test">
@@ -461,7 +433,7 @@ include 'includes/header.php';
 						</span>
 						<p class="testp">Located at Yashwantpur, Indraprastha is a premium residential project nestled in the manicured greens and replete with all modern amenities offering a blissful life. The amenities highlights include gymnasium, swimming pool and other sports facilities such as Squash Court, Badminton Court, Multipurpose Court, etc. </p>
 
-						<a class="btn btn-project" href="#">View Project</a>
+						<a class="btn btn-project" href="indraprastha.php">View Project</a>
 
 
 					</div>
@@ -469,7 +441,7 @@ include 'includes/header.php';
 					<div class="col-md-6">
 
 						<div class="blog_item">
-							<div class="blog_img overlay_one"><a href="#"><img src="images/pratham/home/casaserene.jpg" alt="image"></a></div>
+							<div class="blog_img "><a href="#"><img src="images/pratham/home/casaserene.jpg" alt="image"></a></div>
 						</div>
 
 
@@ -477,7 +449,7 @@ include 'includes/header.php';
 							<span class="test-title" wfd-id="167"><b>Casa Serene</b></span>
 							<span class="test-info" wfd-id="166"></span>
 						</span>
-						<p class="testp">Indulge in absolute serenity while still having the best access to urban amenities at Casa Serene. Located at Dasarahalli on Tumkur Road, Casa Serene has 2 and 3BHK apartments with modern amenities.  It offers smooth connectivity to the prime locations in the city, besides housing many reputed educational institutions, hospitals etc.</p>
+						<p class="testp">Indulge in absolute serenity while still having the best access to urban amenities at Casa Serene. Located at Dasarahalli on Tumkur Road, Casa Serene has 2 and 3BHK apartments with modern amenities. It offers smooth connectivity to the prime locations in the city, besides housing many reputed educational institutions, hospitals etc.</p>
 
 						<a class="btn btn-project" href="#">View Project</a>
 					</div>
@@ -533,116 +505,115 @@ include 'includes/header.php';
 
 
 <section id="services" class="py_80 full_row bg_white">
-		<div class="container">
-			<div class="row">
-				<div class="col-md-12 col-lg-12">
-					<div class="section_title_1 text-center mx-auto pb_60 wow animated slideInUp">
-	                    <h2 class="title text-uppercase"><span class="line_double mx-auto color_default">The </span>Team</h2>
-	                    <span class="sub_title">Interdum a etiam sagittis vehicula porta. Massa felis eros quam blandit nulla dolor habitant. Ullamcorper quis ornare et proin pellentesque.</span>
-	                </div>
+	<div class="container">
+		<div class="row">
+			<div class="col-md-12 col-lg-12">
+				<div class="section_title_1 text-center mx-auto pb_60 wow animated slideInUp">
+					<h2 class="title text-uppercase"><span class="line_double mx-auto color_default">The </span>Team</h2>
+					<span class="sub_title">Interdum a etiam sagittis vehicula porta. Massa felis eros quam blandit nulla dolor habitant. Ullamcorper quis ornare et proin pellentesque.</span>
 				</div>
-				
 			</div>
 
-			<div class="row">
-				<div class="col-md-12 col-lg-12">
-					<div class="team_member owl-carousel">
-						<div class="member">
-							<img src="images/team/01.jpg" alt="image">
-							<div class="data">
-								<h4 class="bg_default color_primary font-weight-bold m-0">MANISH KIRAN GADIA </h4>
-								<strong class="bg_primary color_white">Managing Director </strong>
-							</div>
-							<div class="hover_overlay">
-								<div class="border">
-									<h4 class="color_default font-weight-bold text-center text-uppercase">MANISH KIRAN GADIA</h4>
-									<strong class="color_white text-center d-block mb_15">Managing Director</strong>
-									<p class="color_white">Manish joined the group in 2003. Conceptualization is the key areas directly under his purview. Known for his dynamism and belief in ‘positive change’, Manish has keenly addressed the growing demands by conceptualizing unique projects. Manish is now charting out new courses for the group well as to set new standards in the emerging business scenario. After the demise of Shri Kiranji Gadia, the group’s visionary, in 2014, Manish boldly leads the K M Gadia group to reach great heights.
-									</p>
-									<div class="socal_media">
-										<ul>
-											<li><a href="#"><i class="fa fa-facebook" aria-hidden="true"></i></a></li>
-											<li><a href="#"><i class="fa fa-twitter" aria-hidden="true"></i></a></li>
-											<li><a href="#"><i class="fa fa-google-plus" aria-hidden="true"></i></a></li>
-											<li><a href="#"><i class="fa fa-linkedin" aria-hidden="true"></i></a></li>
-											<li><a href="#"><i class="fa fa-instagram" aria-hidden="true"></i></a></li>
-										</ul>
-									</div>
+		</div>
+
+		<div class="row">
+			<div class="col-md-12 col-lg-12">
+				<div class="team_member owl-carousel">
+					<div class="member">
+						<img src="images/team/01.jpg" alt="image">
+						<div class="data">
+							<h4 class="bg_default color_primary font-weight-bold m-0">MANISH KIRAN GADIA </h4>
+							<strong class="bg_primary color_white">Managing Director </strong>
+						</div>
+						<div class="hover_overlay">
+							<div class="border">
+								<h4 class="color_default font-weight-bold text-center text-uppercase">MANISH KIRAN GADIA</h4>
+								<strong class="color_white text-center d-block mb_15">Managing Director</strong>
+								<p class="color_white">Manish joined the group in 2003. Conceptualization is the key areas directly under his purview. Known for his dynamism and belief in ‘positive change’, Manish has keenly addressed the growing demands by conceptualizing unique projects. Manish is now charting out new courses for the group well as to set new standards in the emerging business scenario. After the demise of Shri Kiranji Gadia, the group’s visionary, in 2014, Manish boldly leads the K M Gadia group to reach great heights.
+								</p>
+								<div class="socal_media">
+									<ul>
+										<li><a href="#"><i class="fa fa-facebook" aria-hidden="true"></i></a></li>
+										<li><a href="#"><i class="fa fa-twitter" aria-hidden="true"></i></a></li>
+										<li><a href="#"><i class="fa fa-google-plus" aria-hidden="true"></i></a></li>
+										<li><a href="#"><i class="fa fa-linkedin" aria-hidden="true"></i></a></li>
+										<li><a href="#"><i class="fa fa-instagram" aria-hidden="true"></i></a></li>
+									</ul>
 								</div>
 							</div>
 						</div>
-						<div class="member">
-							<img src="images/team/02.jpg" alt="image">
-							<div class="data">
-								<h4 class="bg_default color_primary font-weight-bold m-0">AMIT KIRAN GADIA </h4>
-								<strong class="bg_primary color_white">Director </strong>
-							</div>
-							<div class="hover_overlay">
-								<div class="border">
-									<h4 class="color_default font-weight-bold text-center text-uppercase">AMIT KIRAN GADIA </h4>
-									<strong class="color_white text-center d-block mb_15">Director </strong>
-									<p class="color_white">In his early 30’s, Amit is a self starter, a voracious reader with a great penchant for learning and adapting to new things. His ability to analyze and solve problems coupled with his innate ability to engender trust and rapport and work with all levels of the organization makes him an asset. Amit currently handles the finance and legal functions of the organization.</p>
-									<div class="socal_media">
-										<ul>
-											<li><a href="#"><i class="fa fa-facebook" aria-hidden="true"></i></a></li>
-											<li><a href="#"><i class="fa fa-twitter" aria-hidden="true"></i></a></li>
-											<li><a href="#"><i class="fa fa-google-plus" aria-hidden="true"></i></a></li>
-											<li><a href="#"><i class="fa fa-linkedin" aria-hidden="true"></i></a></li>
-											<li><a href="#"><i class="fa fa-instagram" aria-hidden="true"></i></a></li>
-										</ul>
-									</div>
+					</div>
+					<div class="member">
+						<img src="images/team/02.jpg" alt="image">
+						<div class="data">
+							<h4 class="bg_default color_primary font-weight-bold m-0">AMIT KIRAN GADIA </h4>
+							<strong class="bg_primary color_white">Director </strong>
+						</div>
+						<div class="hover_overlay">
+							<div class="border">
+								<h4 class="color_default font-weight-bold text-center text-uppercase">AMIT KIRAN GADIA </h4>
+								<strong class="color_white text-center d-block mb_15">Director </strong>
+								<p class="color_white">In his early 30’s, Amit is a self starter, a voracious reader with a great penchant for learning and adapting to new things. His ability to analyze and solve problems coupled with his innate ability to engender trust and rapport and work with all levels of the organization makes him an asset. Amit currently handles the finance and legal functions of the organization.</p>
+								<div class="socal_media">
+									<ul>
+										<li><a href="#"><i class="fa fa-facebook" aria-hidden="true"></i></a></li>
+										<li><a href="#"><i class="fa fa-twitter" aria-hidden="true"></i></a></li>
+										<li><a href="#"><i class="fa fa-google-plus" aria-hidden="true"></i></a></li>
+										<li><a href="#"><i class="fa fa-linkedin" aria-hidden="true"></i></a></li>
+										<li><a href="#"><i class="fa fa-instagram" aria-hidden="true"></i></a></li>
+									</ul>
 								</div>
 							</div>
 						</div>
-						<div class="member">
-							<img src="images/team/03.jpg" alt="image">
-							<div class="data">
-								<h4 class="bg_default color_primary font-weight-bold m-0">VINAY KIRAN GADIA</h4>
-								<strong class="bg_primary color_white">Director</strong>
-							</div>
-							<div class="hover_overlay">
-								<div class="border">
-									<h4 class="color_default font-weight-bold text-center text-uppercase">VINAY KIRAN GADIA</h4>
-									<strong class="color_white text-center d-block mb_15">Director</strong>
-									<p class="color_white">Vinay joined the group in early 2011 after spending his early 20s
-										abroad at USA. Owing to his somewhat gregarious nature, he enjoys
-										taking up the Marketing division of the group. Further, given his
-										technical background in engineering management he collaborates in
-										the project management aspect of the construction schedules.
-									</p>
-									<div class="socal_media">
-										<ul>
-											<li><a href="#"><i class="fa fa-facebook" aria-hidden="true"></i></a></li>
-											<li><a href="#"><i class="fa fa-twitter" aria-hidden="true"></i></a></li>
-											<li><a href="#"><i class="fa fa-google-plus" aria-hidden="true"></i></a></li>
-											<li><a href="#"><i class="fa fa-linkedin" aria-hidden="true"></i></a></li>
-											<li><a href="#"><i class="fa fa-instagram" aria-hidden="true"></i></a></li>
-										</ul>
-									</div>
-									<a href="#" class="btn btn-primary">Read More</a>
+					</div>
+					<div class="member">
+						<img src="images/team/03.jpg" alt="image">
+						<div class="data">
+							<h4 class="bg_default color_primary font-weight-bold m-0">VINAY KIRAN GADIA</h4>
+							<strong class="bg_primary color_white">Director</strong>
+						</div>
+						<div class="hover_overlay">
+							<div class="border">
+								<h4 class="color_default font-weight-bold text-center text-uppercase">VINAY KIRAN GADIA</h4>
+								<strong class="color_white text-center d-block mb_15">Director</strong>
+								<p class="color_white">Vinay joined the group in early 2011 after spending his early 20s
+									abroad at USA. Owing to his somewhat gregarious nature, he enjoys
+									taking up the Marketing division of the group. Further, given his
+									technical background in engineering management he collaborates in
+									the project management aspect of the construction schedules.
+								</p>
+								<div class="socal_media">
+									<ul>
+										<li><a href="#"><i class="fa fa-facebook" aria-hidden="true"></i></a></li>
+										<li><a href="#"><i class="fa fa-twitter" aria-hidden="true"></i></a></li>
+										<li><a href="#"><i class="fa fa-google-plus" aria-hidden="true"></i></a></li>
+										<li><a href="#"><i class="fa fa-linkedin" aria-hidden="true"></i></a></li>
+										<li><a href="#"><i class="fa fa-instagram" aria-hidden="true"></i></a></li>
+									</ul>
 								</div>
+								<a href="#" class="btn btn-primary">Read More</a>
 							</div>
 						</div>
-						<div class="member">
-							<img src="images/team/04.jpg" alt="image">
-							<div class="data">
-								<h4 class="bg_default color_primary font-weight-bold m-0">Donna Patricia</h4>
-								<strong class="bg_primary color_white">Graphic Designer</strong>
-							</div>
-							<div class="hover_overlay">
-								<div class="border">
-									<h4 class="color_default font-weight-bold text-center text-uppercase">Donna Patricia</h4>
-									<strong class="color_white text-center d-block mb_15">Graphic Designer</strong>
-									<p class="color_white">Nisl vitae consectetuer dictumst mauris vitae, purus torquent praesent pharetra consectetuer nullam fames pede sapien litora condimentum pretium volutpat magnis facilisi hendrerit.</p>
-									<div class="socal_media">
-										<ul>
-											<li><a href="#"><i class="fa fa-facebook" aria-hidden="true"></i></a></li>
-											<li><a href="#"><i class="fa fa-twitter" aria-hidden="true"></i></a></li>
-											<li><a href="#"><i class="fa fa-google-plus" aria-hidden="true"></i></a></li>
-											<li><a href="#"><i class="fa fa-linkedin" aria-hidden="true"></i></a></li>
-											<li><a href="#"><i class="fa fa-instagram" aria-hidden="true"></i></a></li>
-										</ul>
-									</div>
+					</div>
+					<div class="member">
+						<img src="images/team/04.jpg" alt="image">
+						<div class="data">
+							<h4 class="bg_default color_primary font-weight-bold m-0">Donna Patricia</h4>
+							<strong class="bg_primary color_white">Graphic Designer</strong>
+						</div>
+						<div class="hover_overlay">
+							<div class="border">
+								<h4 class="color_default font-weight-bold text-center text-uppercase">Donna Patricia</h4>
+								<strong class="color_white text-center d-block mb_15">Graphic Designer</strong>
+								<p class="color_white">Nisl vitae consectetuer dictumst mauris vitae, purus torquent praesent pharetra consectetuer nullam fames pede sapien litora condimentum pretium volutpat magnis facilisi hendrerit.</p>
+								<div class="socal_media">
+									<ul>
+										<li><a href="#"><i class="fa fa-facebook" aria-hidden="true"></i></a></li>
+										<li><a href="#"><i class="fa fa-twitter" aria-hidden="true"></i></a></li>
+										<li><a href="#"><i class="fa fa-google-plus" aria-hidden="true"></i></a></li>
+										<li><a href="#"><i class="fa fa-linkedin" aria-hidden="true"></i></a></li>
+										<li><a href="#"><i class="fa fa-instagram" aria-hidden="true"></i></a></li>
+									</ul>
 								</div>
 							</div>
 						</div>
@@ -650,8 +621,9 @@ include 'includes/header.php';
 				</div>
 			</div>
 		</div>
-	</section>
-	<!--	End Services
+	</div>
+</section>
+<!--	End Services
 	===================================================-->
 
 
@@ -821,7 +793,7 @@ include 'includes/header.php';
 
 						</div>
 						<h5 class="color_primary mb_15">Aisha Lexi</h5>
-						<p>	I booked an apartment at Indraprastha. It is one of the most well-designed and planned residential apartment. The rooms are spacious with abundant natural lighting. I have no complaints on my booking at Casa Serene. </p>
+						<p> I booked an apartment at Indraprastha. It is one of the most well-designed and planned residential apartment. The rooms are spacious with abundant natural lighting. I have no complaints on my booking at Casa Serene. </p>
 					</div>
 					<div class="member_feedback p_30 color_secondery">
 						<div class="client_img"><img src="images/testimonial/02.jpg" alt="image"></div>
@@ -829,7 +801,7 @@ include 'includes/header.php';
 
 						</div>
 						<h5 class="color_primary mb_15">Kiara Paige</h5>
-						<p>	Indraprastha is from one of the most trusted builder. Quality at its best, this residential building is one of the most contemporary buildings in Yashwantpur. I have recently booked my apartment. The rooms are very spacious with good ventilation. This is one of the best apartments so far. </p>
+						<p> Indraprastha is from one of the most trusted builder. Quality at its best, this residential building is one of the most contemporary buildings in Yashwantpur. I have recently booked my apartment. The rooms are very spacious with good ventilation. This is one of the best apartments so far. </p>
 					</div>
 					<div class="member_feedback p_30 color_secondery">
 						<div class="client_img"><img src="images/testimonial/03.jpg" alt="image"></div>

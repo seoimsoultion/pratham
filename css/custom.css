@@ -1,7 +1,7 @@
 .background1{
     background-image: url(../images/pratham/home/banner1.jpg);
   }
-  .nav-logo {width:80px}
+  
   #contact {background: #762424; background-image: url(../images/footer.png);;}
   .rgba-black-strong, .rgba-black-strong::after {
     background-color: rgba(63,81,181,0.7);
@@ -69,12 +69,12 @@
 
 .nav-logo {
 
-    width: 80px;
+    width: 100px;
     background: white;
     padding:5px;
   
-    margin-top: -20px;
-    margin-bottom: -20px;
+    margin-top: -15px;
+    margin-bottom: -15px;
 
 }
 .tt1 {background: #FAA61A;}
@@ -82,7 +82,7 @@
 
 .test {
   position:  absolute;
-  top:56%;
+  top:52%;
   padding: 15px;
   z-index: 999;
   left:0;
@@ -90,7 +90,7 @@
   margin: 15px;
   
 }
-.testp {;color:#707070;text-align: left;padding:10px 0; border-top:#FAA61A solid 5px; line-height: 24px; }
+.testp {color:#707070;text-align: left;padding:10px 0; border-top:#FAA61A solid 5px; line-height: 24px; }
 
 .test-title {color:#FAA61A}
 .test-info {color:white}
@@ -102,3 +102,14 @@ a.btn-project {border:1px #FAA61A solid; border-radius: 30px; margin: 10px 0; pa
 }
 .experience {background: #faa61a;}
 .primary_link a:hover, .filter-tabs li.filter.active, .comments, .blog_item a:hover, .navbar-light .navbar-nav .nav-link:hover, .socal_media_2 ul li a:hover, ul#menu li a:hover, .twite i, .twite a:hover, .category_sidebar ul li:hover, .white_link a:hover, .recent_post a:hover, .archives ul li a:hover {color:#faa61a}
+.main_nav {
+  border-bottom: none;
+  -webkit-box-shadow: none;
+  box-shadow: 0 1px 10px rgba(0, 0, 0, 0.1);
+  background-color: rgba(255, 255, 255, 0.05);
+}
+.navbar-collapse {margin-top:10px ;}
+.slide-image {height: calc(100% + 135px);}
+.fa, .far, .fas {
+  font-family: Font Awesome 5 ;
+}

@@ -55,7 +55,10 @@
 							</ul>
 						</div>
 					</div>
-					<div class="col-md-8 col-lg-8">
+					<div class="col-md-3 col-lg-3">
+					<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3331526.464703651!2d75.9153996165634!3d14.135007853135056!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bae160ea081b3ef%3A0x2a70d35330e1dabb!2sPrathamm%20Developers!5e0!3m2!1sen!2sin!4v1581493178368!5m2!1sen!2sin" width="100%" height="400" frameborder="0" style="border:0;" allowfullscreen=""></iframe>
+					</div>
+					<div class="col-md-5 col-lg-5">
 						<form class="form contact_message wow animated fadeInRight" id="contact-form" action="email.php" method="post">
 							<div class="row">
 								<div class="col-md-6 col-lg-6">
@@ -514,7 +517,7 @@
 								</div>
 								<div class="col-md-8 col-lg-8">
 									<div class="form-group">
-										<input class="form-control" type="text" name="phone" placeholder="Phone" />
+										<input class="form-control" type="number" name="phone" required  pattern="/^+91(7\d|8\d|9\d)\d{9}$/" placeholder="Phone" />
 									</div>
 								</div>
 								<div class="col-md-12 col-lg-12">
