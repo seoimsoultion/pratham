@@ -323,7 +323,7 @@ include 'includes/header.php';
 
 
 
-<section id="Walkthrough" class="py_80  full_row">
+<section id="why-us" class="py_80  full_row">
 	<div class="container">
 		<div class="row">
 			<div class="col-md-12 col-lg-12">
@@ -473,7 +473,7 @@ include 'includes/header.php';
 </section>
 
 
-<section id="services" class="py_80 full_row bg_white">
+<section id="team" class="py_80 full_row bg_white">
 	<div class="container">
 		<div class="row">
 			<div class="col-md-12 col-lg-12">

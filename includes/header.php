@@ -72,8 +72,11 @@
 					<ul class="navbar-nav ml-auto">
 					  <li class="nav-item"><a class="nav-link active" href="#top">Home<span class="sr-only">(current)</span></a></li>
 					  <li class="nav-item"><a class="nav-link" href="#about">About </a></li>
+					  <li class="nav-item"><a class="nav-link" href="#why-us">Why Us </a></li>
 					  <li class="nav-item"><a class="nav-link" href="#portfolio">Our Projects</a></li>
-					  <li class="nav-item"><a class="nav-link" href="#Walkthrough">Walkthrough</a></li>
+					  <li class="nav-item"><a class="nav-link" href="#team">Our Team </a></li>
+					  <li class="nav-item"><a class="nav-link" href="#blog">Blogs</a></li>
+					  <li class="nav-item"><a class="nav-link" href="#testimonial">Testimonial</a></li>
 					<?php //  <li class="nav-item"><a class="nav-link" href="#experience">Location</a></li> ?>
 			
 					 
