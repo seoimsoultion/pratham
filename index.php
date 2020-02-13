@@ -332,6 +332,7 @@ include 'includes/header.php';
 
 				</div>
 			</div>
+			<div class="clearfix"></div>
 			<div class="col-md-12 col-lg-12">
 
 
@@ -339,9 +340,9 @@ include 'includes/header.php';
 				<!-- main slider -->
 
 				<div class="thumb-sl  ">
-					<div class="row align-items-center">
+					<div class="row  align-items-center">
 
-						<div class="col-md-4 col-lg-4 why-box">
+						<div class="col-md-4 col-lg-4 why-box " style="margin-top:-20px">
 							<img src="images/pratham/Customer-Focus.png">
 							<h4 class="text-center"> Customer Focus</h4>
 							<p>Pratham Construction delivers every project with highest level of integrity. Every decision taken is client centric. We aim at providing the customer high levels of satisfaction in terms of interaction, service and quality.</p>
