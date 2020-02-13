@@ -36,13 +36,17 @@
 	background-color: #757575;
 }
 .bg_black{
-	background-color: #2e2e2e;
+	/*background-color: #2e2e2e;*/
+	background-color: #452620;
 }
 .bg_deepblack{
 	background-color: #232323;
 }
 .bg_white{
 	background-color: #fff;
+}
+.bg_brown{
+	background-color: #452620;
 }
 /*	btn color
 ===================================================================*/
@@ -146,7 +150,8 @@ ul#menu li a:hover,.twite i,.twite a:hover,.category_sidebar ul li:hover,
 ===================================================================*/
 #scroll,.personal_video a,.ball-scale-multiple > div,.preloader,
 .sidenav,.table:hover,.admin{
-	background-color: #1e283c;
+	/*background-color: #1e283c;*/
+	background-color: #452620;
 }
 /*	Background Color Gray Class & ID
 ===================================================================*/

@@ -548,7 +548,8 @@ ul#menu li a{
 /*====================================================================
 10.   Main banner
 ======================================================================*/
-.banner_image,.banner_water_effect{
+
+/*.banner_image,.banner_water_effect{
     width: 100%;
     height: 100vh;
     background-size: cover;
@@ -556,7 +557,32 @@ ul#menu li a{
     background-position: 50% 50%;
     background-repeat: no-repeat;
     position: relative;
+}*/
+@media only screen and (max-width: 767px) {
+	.banner_image,.banner_water_effect{
+		width: 100%;
+		height: 100vh;
+		background-size: cover;
+		overflow: hidden;
+		background-position: 0% 0%;
+		background-repeat: no-repeat;
+		position: relative;
+		margin-left: 7%;
+	}	
 }
+@media (min-width: 768px) {  
+	.banner_image,.banner_water_effect{
+		width: 100%;
+		height: 100vh;
+		background-size: cover;
+		overflow: hidden;
+		background-position: 0% 0%;
+		background-repeat: no-repeat;
+		position: relative;
+		margin-left: 5%;
+	}
+}
+
 .mainbanner_content{
   position: relative;
   z-index: 9
@@ -845,6 +871,7 @@ ul#menu li a{
   border-color: transparent;
   /*margin: 10px 20px;*/
   margin: 10px 0px;
+  min-height: 270px;
 }
 .service_one:hover{
   border: 2px solid;
@@ -1907,7 +1934,8 @@ label.radios {
 .color-panel {
   position: fixed;
   right: -225px;
-  top: 90px;
+  top: 60px;
+  /*top: 90px;*/
   z-index: 111;
   -webkit-transition: all 500ms ease-in-out;
   -ms-transition: all 500ms ease-in-out;
