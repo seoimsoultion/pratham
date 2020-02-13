@@ -587,7 +587,42 @@
 	<div id="pagepiling">
 		<!--    Start Main Banner 
 		==================================================-->
+
+		<!--    Start Main Banner 
+	==================================================-->
+
+<!--	End Main Banner 
+	==================================================-->
+
+
 		<div class="pagegilling-mani-banner section bg_white">
+
+		<div id="water-effect" class="banner_image background13 ">
+	<div class="container h-100">
+		<div class="row h-100 align-items-center">
+			<div class="col-md-12 col-lg-12 home-content text-left">
+
+
+				<div class="mainbanner_content">
+					<span class="pb_5 banner_title color_white ">PRATHAM CONSTRUCTIONS</span>
+					<h1 class="cd-headline clip is-full-width text-uppercase">
+						<span class="color_white"></span>
+						<span class="cd-words-wrapper color_default">
+							<b class="is-visible color_white">Pratham resonates <br />Royalty </b>
+							<b class="color_white">Pratham symbolises <br />Integrity</b>
+
+						</span>
+					</h1>
+					<p class="color_white mb_30">Committed to superior quality housing through innovation!</p>
+					<a class="btn btn-default" href="#">Download Brochure</a>
+				</div>
+
+
+			</div>
+		</div>
+	</div>
+</div>
+<?php /*
 			<div id="particles-js" class="banner_image background13">
 				<div class="container h-100">
 					<div class="row h-100 align-items-center">
@@ -609,6 +644,8 @@
 					</div>
 				</div>
 			</div>
+
+			*/ ?>
 		</div>
 		<!--	Start About
 		===================================================-->

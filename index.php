@@ -4,37 +4,7 @@ include 'includes/header.php';
 
 
 
-<!--    Start Main Banner 
-	==================================================-->
-<section id="water-effect" class="banner_image background1 ">
-	<div class="container h-100">
-		<div class="row h-100 align-items-center">
-			<div class="col-md-12 col-lg-12 home-content text-left">
 
-
-				<div class="mainbanner_content">
-					<span class="pb_5 banner_title color_white ">PRATHAM CONSTRUCTIONS</span>
-					<h1 class="cd-headline clip is-full-width text-uppercase">
-						<span class="color_white"></span>
-						<span class="cd-words-wrapper color_default">
-							<b class="is-visible color_white">Pratham resonates <br />Royalty </b>
-							<b class="color_white">Pratham symbolises <br />Integrity</b>
-
-						</span>
-					</h1>
-					<p class="color_white mb_30">Committed to superior quality housing through innovation!</p>
-					<a class="btn btn-default" href="#">Download Brochure</a>
-				</div>
-
-
-			</div>
-		</div>
-	</div>
-</section>
-<!--	End Main Banner 
-	==================================================-->
-<?php /* 
-//////////////////////another slider/////////////////////
 <!------ Include the above in your HEAD tag ---------->
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Swiper/4.4.1/css/swiper.min.css">
 <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.13/css/all.css" integrity="sha384-DNOHZ68U8hZfKXOrtjWvjxusGo9WQnrNx2sqG0tfsghAvtVlRW3tvkXWZh58N9jp" crossorigin="anonymous">
@@ -284,8 +254,7 @@ include 'includes/header.php';
 </section>
 <!--	End Main Banner 
 	==================================================-->
-*/
-	?>
+
 <!--	Start About
 	===================================================-->
 
