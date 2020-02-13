@@ -56,7 +56,7 @@ include 'includes/header.php';
 		top: 0;
 		left: 0px;
 		width: calc(100% + 100px);
-		height: calc(100% + 100px);
+		height: calc(100% + 200px);
 		background-position: 100%;
 		background-size: cover;
 	}

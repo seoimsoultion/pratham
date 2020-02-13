@@ -672,10 +672,10 @@
 											<div class="col-md-12 col-lg-12">
 												<div class="myself title color_primary">
 													<h3>Embracing age old traditions while forging modern paths </h3>
-													<p>Pratham Constructions have a rich history spanning various business segments over 70 years under the parent name of K.M. Gadia & Sons. K.M. Gadia & Sons explored the realm of real estate development with its maiden project ‘Pratham Casa Serene.’</p>
+													<p>Pratham Constructions have a rich history spanning various business segments over 70 years under the parent name of K.M. Gadia & Sons. K.M. Gadia & Sons explored the realm of real estate development with its maiden project ‘Pratham Casa Serene’.</p>
 													<p>The excitement of turning lands into landmarks was the biggest driving factor for the company. The company’s mission has always been to provide superior products and services by arriving at innovative solutions, which will help improve the quality of life and satisfy consumer needs.</p>
 													<p>
-														Nestled in the heart of Yeshwantpur, Pratham Indrapastha embodies traditional values that blend seamlessly with modern comforts and luxuries..
+														Nestled in the heart of Yeshwantpur, Pratham Indrapastha embodies traditional values that blend seamlessly with modern comforts and luxuries.
 													</p>
 													<h3 class="title color_primary">Luxury 2 and 3 bedroom homes at Indraprastha</h3>
 													<p class="">Experience the joy of living big with generous spaces planned for quality lifestyles. Indraprastha boasts a vast selection of 2 and 3 BHK homes, designed for comfort, functionality and affordability.</p>
@@ -1121,7 +1121,7 @@
 															<div class="tag">
 																<ul>
 																	<li>Block 1</li>
-																	<li>Web Development</li>
+																	<li></li>
 																</ul>
 															</div>
 														</div>
@@ -1169,7 +1169,7 @@
 															<div class="tag">
 																<ul>
 																	<li>Block 1</li>
-																	<li>Web Development</li>
+																	<li></li>
 																</ul>
 															</div>
 														</div>
@@ -1203,7 +1203,7 @@
 															<span><i class="fa fa-eye" aria-hidden="true"></i></span>
 															<div class="tag">
 																<ul>
-																	<li>Block 2,</li>
+																	<li>Block 2</li>
 																	<li></li>
 																</ul>
 															</div>
@@ -1220,7 +1220,7 @@
 															<div class="tag">
 																<ul>
 																	<li>Block 2</li>
-																	<li>Web Development</li>
+																	<li></li>
 																</ul>
 															</div>
 														</div>
@@ -1309,7 +1309,7 @@
 															<span><i class="fa fa-eye" aria-hidden="true"></i></span>
 															<div class="tag">
 																<ul>
-																	<li>Block 3,</li>
+																	<li>Block 3</li>
 																	<li></li>
 																</ul>
 															</div>
@@ -1326,7 +1326,7 @@
 															<div class="tag">
 																<ul>
 																	<li>Block 3</li>
-																	<li>Web Development</li>
+																	<li></li>
 																</ul>
 															</div>
 														</div>
@@ -1391,7 +1391,7 @@
 															<span><i class="fa fa-eye" aria-hidden="true"></i></span>
 															<div class="tag">
 																<ul>
-																	<li>Block 4,</li>
+																	<li>Block 4</li>
 																	<li></li>
 																</ul>
 															</div>
@@ -1408,7 +1408,7 @@
 															<div class="tag">
 																<ul>
 																	<li>Block 4</li>
-																	<li>Web Development</li>
+																	<li></li>
 																</ul>
 															</div>
 														</div>
@@ -1456,7 +1456,7 @@
 															<div class="tag">
 																<ul>
 																	<li>Block 4</li>
-																	<li>Web Development</li>
+																	<li></li>
 																</ul>
 															</div>
 														</div>

@@ -109,9 +109,9 @@ a.btn-project {border:1px #FAA61A solid; border-radius: 30px; margin: 10px 0; pa
   background-color: rgba(255, 255, 255, 0.05);
 }
 .navbar-collapse {margin-top:10px ;}
-.slide-image {height: calc(100% + 135px);}
+.slide-image {height: calc(100% + 150px);}
 .fa, .far, .fas {
-  font-family: Font Awesome 5 ;
+  font-family: "FontAwesome" !important  ;
 }
 .team-link {position: absolute; bottom: 0;left: 30%;}
 #errmsg{color: red;}
