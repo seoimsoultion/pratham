@@ -718,7 +718,7 @@ include 'includes/header.php';
 						<div class="star d-inline-block mt_30 color_default">
 
 						</div>
-						<h5 class="color_primary mb_15">Aisha Lexi</h5>
+						<h5 class="color_primary mb_15">Naveen Bansal</h5>
 						<p>	I booked an apartment at Indraprastha. It is one of the most well-designed and planned residential apartment. The rooms are spacious with abundant natural lighting. I have no complaints on my booking at Casa Serene.  </p>
 					</div>
 					<div class="member_feedback p_30 color_secondery">
@@ -726,7 +726,7 @@ include 'includes/header.php';
 						<div class="star d-inline-block mt_30 color_default">
 
 						</div>
-						<h5 class="color_primary mb_15">Kiara Paige</h5>
+						<h5 class="color_primary mb_15">Jagdish Tyagi</h5>
 						<p> 	Indraprastha is from one of the most trusted builder. Quality at its best, this residential building is one of the most contemporary buildings in Yashwantpur. I have recently booked my apartment. The rooms are very spacious with good ventilation. This is one of the best apartments so far. </p>
 					</div>
 					
