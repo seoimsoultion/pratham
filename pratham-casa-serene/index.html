@@ -1,0 +1,1691 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <!--===== Meta Tag =====-->
+    <meta charset="utf-8">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <meta name="description" content="Runaway - Personal Portfolio HTML Template">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="keywords" content="business, agency, blog, cv, creative, html, one page, personal, portfolio, resume, responsive, bootstrap, photography, designer, developer">
+    <meta name="author" content="root">
+
+    <!--	Css Links
+    ==================================================-->
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/jquery.pagepiling.css">
+    <link rel="stylesheet" href="css/font-awesome.min.css">
+    <link rel="stylesheet" href="fonts/flaticon.css">
+    <link rel="stylesheet" href="css/plugins.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/color.css" id="color-change">
+    <!-- Favicon 
+    ==================================================-->
+    <link rel="icon" type="image/png" sizes="32x32" href="images/icon.png">
+
+    <!--	Title
+    ==================================================-->
+    <title>Pratham Casa Serene</title>
+	<style>
+	.ulExtra {
+		display: none;
+	}
+
+	.liReadMore {
+		-webkit-box-shadow: 10px 10px 5px 0px rgba(189, 189, 189, 1);
+		-moz-box-shadow: 10px 10px 5px 0px rgba(189, 189, 189, 1);
+		box-shadow: 10px 10px 5px 0px rgba(189, 189, 189, 1);
+		color: #000;
+		border-radius: 10px;
+		cursor: pointer;
+		margin: 10px 60px 0px 60px;
+		padding: 6px;
+		border: 1px solid;
+		text-align: center;
+	}
+
+	.liReadMore:hover {
+		color: #FFF;
+		background-color: #d41125;
+	}
+	.holderCircle {
+		width: 500px;
+		height: 500px;
+		border-radius: 100%;
+		margin: 60px auto;
+		position: relative;
+	}
+
+
+	.dotCircle {
+		width: 100%;
+		height: 100%;
+		position: absolute;
+		margin: auto;
+		top: 0;
+		left: 0;
+		right: 0;
+		bottom: 0;
+		border-radius: 100%;
+		z-index: 20;
+	}
+
+	.dotCircle .itemDot {
+		display: block;
+		width: 80px;
+		height: 80px;
+		position: absolute;
+		background: #ffffff;
+		color: #7d4ac7;
+		border-radius: 20px;
+		text-align: center;
+		line-height: 80px;
+		font-size: 30px;
+		z-index: 3;
+		cursor: pointer;
+		border: 2px solid #e6e6e6;
+	}
+
+	.dotCircle .itemDot .forActive {
+		width: 56px;
+		height: 56px;
+		position: absolute;
+		top: 0;
+		left: 0;
+		right: 0;
+		bottom: 0;
+		display: none;
+	}
+
+	.dotCircle .itemDot .forActive::after {
+		content: '';
+		width: 5px;
+		height: 5px;
+		border: 3px solid #7d4ac7;
+		bottom: -31px;
+		left: -14px;
+		filter: blur(1px);
+		position: absolute;
+		border-radius: 100%;
+	}
+
+	.dotCircle .itemDot .forActive::before {
+		content: '';
+		width: 6px;
+		height: 6px;
+		filter: blur(5px);
+		top: -15px;
+		position: absolute;
+		transform: rotate(-45deg);
+		border: 6px solid #a733bb;
+		right: -39px;
+	}
+
+	.dotCircle .itemDot.active .forActive {
+		display: block;
+	}
+
+	.round {
+		position: absolute;
+		left: 40px;
+		top: 45px;
+		width: 410px;
+		height: 410px;
+		border: 2px dotted #a733bb;
+		border-radius: 100%;
+		-webkit-animation: rotation 100s infinite linear;
+	}
+
+	.dotCircle .itemDot:hover,
+	.dotCircle .itemDot.active {
+		color: #ffffff;
+		transition: 0.5s;
+		/* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#7d4ac7+0,a733bb+100 */
+		background: #7d4ac7;
+		/* Old browsers */
+		background: -moz-linear-gradient(left, #7d4ac7 0%, #a733bb 100%);
+		/* FF3.6-15 */
+		background: -webkit-linear-gradient(left, #7d4ac7 0%, #a733bb 100%);
+		/* Chrome10-25,Safari5.1-6 */
+		background: linear-gradient(to right, #7d4ac7 0%, #a733bb 100%);
+		/* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+		filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#7d4ac7', endColorstr='#a733bb', GradientType=1);
+		/* IE6-9 */
+		border: 2px solid #ffffff;
+		-webkit-box-shadow: 0 30px 30px 0 rgba(0, 0, 0, .13);
+		-moz-box-shadow: 0 30px 30px 0 rgba(0, 0, 0, .13);
+		box-shadow: 0 30px 30px 0 rgba(0, 0, 0, .13);
+	}
+
+	.dotCircle .itemDot {
+		font-size: 40px;
+	}
+
+	.contentCircle {
+		width: 250px;
+		border-radius: 100%;
+		color: #222222;
+		position: relative;
+		top: 150px;
+		left: 50%;
+		transform: translate(-50%, -50%);
+	}
+
+	.contentCircle .CirItem {
+		border-radius: 100%;
+		color: #222222;
+		position: absolute;
+		text-align: center;
+		bottom: 0;
+		left: 0;
+		opacity: 0;
+		transform: scale(0);
+		transition: 0.5s;
+		font-size: 15px;
+		width: 100%;
+		height: 100%;
+		top: 0;
+		right: 0;
+		margin: auto;
+		line-height: 250px;
+	}
+
+	.CirItem.active {
+		z-index: 1;
+		opacity: 1;
+		transform: scale(1);
+		transition: 0.5s;
+	}
+
+	.contentCircle .CirItem i {
+		font-size: 180px;
+		position: absolute;
+		top: 0;
+		left: 50%;
+		margin-left: -90px;
+		color: #000000;
+		opacity: 0.1;
+	}
+
+	@media only screen and (min-width:300px) and (max-width:599px) {
+		.holderCircle {
+			/* width: 300px; height: 300px;*/
+			margin: 110px auto;
+		}
+
+		.holderCircle::after {
+			width: 100%;
+			height: 100%;
+		}
+
+		.dotCircle {
+			width: 100%;
+			height: 100%;
+			top: 0;
+			right: 0;
+			bottom: 0;
+			left: 0;
+			margin: auto;
+		}
+	}
+
+	@media only screen and (min-width:600px) and (max-width:767px) {}
+
+	@media only screen and (min-width:768px) and (max-width:991px) {}
+
+	@media only screen and (min-width:992px) and (max-width:1199px) {}
+
+	@media only screen and (min-width:1200px) and (max-width:1499px) {}
+
+	.title-box .title {
+		font-weight: 600;
+		letter-spacing: 2px;
+		position: relative;
+		z-index: -1;
+	}
+
+	.title-box span {
+		text-shadow: 0 10px 10px rgba(0, 0, 0, .15);
+		font-weight: 800;
+		color: #640178;
+	}
+
+	.title-box p {
+		font-size: 17px;
+		line-height: 2em;
+	}
+	.proj_amenities{
+		text-align:center;
+		margin-bottom: 30px;
+		-webkit-box-shadow: 0 3px 5px -3px #090545;
+		-moz-box-shadow: 0 3px 5px -3px #090545;
+		box-shadow: 0 3px 5px -3px #090545;
+		padding: 8px;
+		border-radius: 10px;
+	}
+
+	.proj_amenities img{
+		width: 100px;
+	}
+	.proj_amenities p{
+		font-weight: bold;
+		padding-top:5px;
+	}
+	.proj_amenities:hover {
+		border: 1px solid #ffb32f;
+	}
+	@media (min-width: 360px AND max-width: 740px ){
+		.service_one{
+			padding:0px
+		}
+		
+		.arrowClass li:before {
+			content: '\2192';
+			font-family: 'FontAwesome';
+			float: left;
+			margin-left: -1.5em;
+			color: #d41125;
+		}
+	}
+	@media only screen and (max-width: 767px) {
+		.arrowClass li:before {
+			content: '\2192';
+			font-family: 'FontAwesome';
+			float: left;
+			margin-left: -10px;
+			color: #d41125;
+		}
+	}
+	@media (min-width: 768px) {  
+		.arrowClass li:before {
+			content: '\2192';
+			font-family: 'FontAwesome';
+			float: left;
+			margin-left: -1.5em;
+			color: #d41125;
+		}
+		.location{
+			height:400px;
+		}
+	}
+	</style>
+</head>
+
+<body id="top" class="page-load">
+    <!--	Start Sidebar
+	==================================================-->
+    <div id="mysidenav" class="sidenav">
+        <a href="javascript:void(0)" class="closebtn" onclick="closeNav()"><i class="flaticon-close-button"></i></a>
+        <img class="nav-logo" src="images/logo/logo.png" alt="image">
+        <ul id="menu">
+            <li data-menuanchor="page1" class="active"><a href="#page1">Home</a></li>
+            <li data-menuanchor="page2"><a href="#page2">About</a></li>
+            <li data-menuanchor="page3"><a href="#page3">Amenities</a></li>
+            <li data-menuanchor="page4"><a href="#page4">Specifications</a></li>
+            <li data-menuanchor="page5"><a href="#page5">Floor Plan</a></li>
+            <li data-menuanchor="page6"><a href="#page6">Master Plan</a></li>
+            <li data-menuanchor="page7"><a href="#page7">Location Map</a></li>
+            <li data-menuanchor="page8"><a href="#page8">Contact</a></li>
+        </ul>
+    </div>
+    <div class="sidebar bg_primary">
+        <div class="logo text-center"><a href="#page1"><img class="nav-logo" src="images/logo/logo.png" alt="logo" style="width: 30px;"></a></div>
+        <span style="cursor:pointer" onclick="openNav()">&#9776;</span>
+        <!--<div class="socal_media mt_60">
+			<ul>
+				<li><a href="#"><i class="fa fa-facebook" aria-hidden="true"></i></a></li>
+				<li><a href="#"><i class="fa fa-twitter" aria-hidden="true"></i></a></li>
+				<li><a href="#"><i class="fa fa-google-plus" aria-hidden="true"></i></a></li>
+				<li><a href="#"><i class="fa fa-linkedin" aria-hidden="true"></i></a></li>
+				<li><a href="#"><i class="fa fa-instagram" aria-hidden="true"></i></a></li>
+			</ul>
+		</div>-->
+    </div>
+
+    <!--	End Sidebar
+	=======================================================-->
+    <div id="pagepiling_horizontal">
+        <!--    Start Main Banner 
+		==================================================-->
+        <div class="pagegilling-mani-banner section bg_white">
+            <div id="water-effect" class="banner_image background10 overlay_one">
+                <div class="container h-100">
+                    <div class="row h-100 align-items-center">
+                        <div class="col-md-12 col-lg-12 home-content text-left">
+                            <!--<div class="mainbanner_content">
+                                <span class="pb_5 banner_title color_white">I Am Austin Jackson!</span>
+                                <h1 class="cd-headline clip is-full-width text-uppercase">
+                                    <span class="color_white">I am a</span>
+                                    <span class="cd-words-wrapper color_default">
+                                        <b class="is-visible">UI/UX Designer.</b>
+                                        <b>Developer.</b>
+                                        <b>Freelancer.</b>
+                                    </span>
+                                </h1>
+                                <p class="color_white mb_30">Libero habitasse sollicitudin aliquet venenatis iaculis placerat amet ligula, eleifend nonummy enim in volutpat diam.</p>
+                                <a class="btn btn-default" href="#">Download CV</a>
+                            </div>-->
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!--	End Main Banner 
+		==================================================-->
+        <!--	Start About
+		===================================================-->
+        <div id="about" class="section pp-scrollable py_80 bg_black">
+            <div class="container">
+				<div class="services my_60">
+					<div class="row">
+						<div class="col-md-12 col-lg-12">
+							<div class="section_title_1 text-center mx-auto pb_60 wow animated slideInUp">
+								<h2 class="title text-uppercase color_white">About</h2>
+							</div>
+						</div>
+					</div>
+					<div class="about_one">
+						<div class="row">
+							<div class="col-md-7 col-lg-7">
+								<div class="myself color_lightgray wow animated fadeInLeft">
+									<p class="color_white mb_30">"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."</p>
+									<p class="color_white mb_30">"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia ."</p>
+								</div>
+							</div>
+							<div class="col-md-5 col-lg-5">
+								<div class="profile_img personal_video wow animated fadeInRight">
+									<img src="images/about/03.png" alt="image">
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+            </div>
+        </div>
+		<!--<div id="about" class="section pp-scrollable py_80 bg_white">
+            <div class="container">
+                <div class="row align-items-center">
+                  <div class="col-lg-12 col-md-12">
+                     <div class="holderCircle">
+                        <div class="round"></div>
+                        <div class="dotCircle">
+                           <span class="itemDot active itemDot1" data-tab="1">
+                           <i class="fa fa-clock-o"></i>
+                           <span class="forActive"></span>
+                           </span>
+                           <span class="itemDot itemDot2" data-tab="2">
+                           <i class="fa fa-comments"></i>
+                           <span class="forActive"></span>
+                           </span>
+                           <span class="itemDot itemDot3" data-tab="3">
+                           <i class="fa fa-user"></i>
+                           <span class="forActive"></span>
+                           </span>
+                           <span class="itemDot itemDot4" data-tab="4">
+                           <i class="fa fa-tags"></i>
+                           <span class="forActive"></span>
+                           </span>
+                           <span class="itemDot itemDot5" data-tab="5">
+                           <i class="fa fa-upload"></i>
+                           <span class="forActive"></span>
+                           </span>
+                           <span class="itemDot itemDot6" data-tab="6">
+                           <i class="fa fa-briefcase"></i>
+                           <span class="forActive"></span>
+                           </span>
+                        </div>
+                        <div class="contentCircle">
+                           <div class="CirItem title-box active CirItem1">
+                              <h2 class="title"><span>Automate</span></h2>
+                              <p>It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.</p>
+                              <i class="fa fa-clock-o"></i>
+                           </div>
+                           <div class="CirItem title-box CirItem2">
+                              <h2 class="title"><span>Chat </span></h2>
+                              <p>It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.</p>
+                              <i class="fa fa-comments"></i>
+                           </div>
+                           <div class="CirItem title-box CirItem3">
+                              <h2 class="title"><span>Responses</span></h2>
+                              <p>It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.</p>
+                              <i class="fa fa-user"></i>
+                           </div>
+                           <div class="CirItem title-box CirItem4">
+                              <h2 class="title"><span>Tags</span></h2>
+                              <p>It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.</p>
+                              <i class="fa fa-tags"></i>
+                           </div>
+                           <div class="CirItem title-box CirItem5">
+                              <h2 class="title"><span>Sharing</span></h2>
+                              <p>It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.</p>
+                              <i class="fa fa-upload"></i>
+                           </div>
+                           <div class="CirItem title-box CirItem6">
+                              <h2 class="title"><span>Support</span></h2>
+                              <p>It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.</p>
+                              <i class="fa fa-briefcase"></i>
+                           </div>
+                        </div>
+                     </div>
+                  </div>
+               </div>
+            </div>
+        </div>-->
+        <!--	End About
+		===================================================-->
+        <!--	Start Services
+		===================================================-->
+        <div id="amenities" class="section bg_white pp-scrollable">
+            <div class="container">
+                <div class="services my_60">
+                    <div class="row">
+                        <div class="col-md-12 col-lg-12">
+                            <div class="section_title_1 text-center mx-auto pb_60 wow animated slideInUp">
+                                <h2 class="title text-uppercase color_primary">Amenities</h2>
+                            </div>
+                        </div>
+						<div class="col-md-2 col-sm-6 col-xs-6 ">
+							<div class="proj_amenities">
+							<img src="images/Swimming-Pool-with-an-attached-kids-pool.png">
+							<p>Swimming Pool</p>
+							</div>
+						</div>
+						<div class="col-md-2 col-sm-6 col-xs-6 ">
+							<div class="proj_amenities">
+							<img src="images/Swimming-Pool-with-an-attached-kids-pool.png">
+							<p>Club House</p>
+							</div>
+						</div>
+						<div class="col-md-2 col-sm-6 col-xs-6 ">
+							<div class="proj_amenities">
+							<img src="images/Swimming-Pool-with-an-attached-kids-pool.png">
+							<p>Gym</p>
+							</div>
+						</div>
+						<div class="col-md-2 col-sm-6 col-xs-6 ">
+							<div class="proj_amenities">
+							<img src="images/Swimming-Pool-with-an-attached-kids-pool.png">
+							<p>Toddler's Park</p>
+							</div>
+						</div>
+						<div class="col-md-2 col-sm-6 col-xs-6 ">
+							<div class="proj_amenities">
+							<img src="images/Swimming-Pool-with-an-attached-kids-pool.png">
+							<p>2 level security</p>
+							</div>
+						</div>
+						<div class="col-md-2 col-sm-6 col-xs-6 ">
+							<div class="proj_amenities">
+							<img src="images/Swimming-Pool-with-an-attached-kids-pool.png">
+							<p>Piped Gas supply</p>
+							</div>
+						</div>
+						<div class="col-md-2 col-sm-6 col-xs-6 ">
+							<div class="proj_amenities">
+							<img src="images/Swimming-Pool-with-an-attached-kids-pool.png">
+							<p>5 elevators</p>
+							</div>
+						</div>
+						<div class="col-md-2 col-sm-6 col-xs-6 ">
+							<div class="proj_amenities">
+							<img src="images/Swimming-Pool-with-an-attached-kids-pool.png">
+							<p>Badminton Court</p>
+							</div>
+						</div>
+						<div class="col-md-2 col-sm-6 col-xs-6 ">
+							<div class="proj_amenities">
+							<img src="images/Swimming-Pool-with-an-attached-kids-pool.png">
+							<p>Jogger's track</p>
+							</div>
+						</div>
+						<div class="col-md-2 col-sm-6 col-xs-6 ">
+							<div class="proj_amenities">
+							<img src="images/Swimming-Pool-with-an-attached-kids-pool.png">
+							<p>Car wash area</p>
+							</div>
+						</div>
+						<div class="col-md-2 col-sm-6 col-xs-6 ">
+							<div class="proj_amenities">
+							<img src="images/Swimming-Pool-with-an-attached-kids-pool.png">
+							<p>Fire fighting</p>
+							</div>
+						</div>
+						<div class="col-md-2 col-sm-6 col-xs-6 ">
+							<div class="proj_amenities">
+							<img src="images/Swimming-Pool-with-an-attached-kids-pool.png">
+							<p>Separate toilets for maids and drivers</p>
+							</div>
+						</div>
+						<div class="col-md-2 col-sm-6 col-xs-6 ">
+							<div class="proj_amenities">
+							<img src="images/Swimming-Pool-with-an-attached-kids-pool.png">
+							<p>Other</p>
+							</div>
+						</div>
+						
+					</div>
+                </div>
+            </div>
+        </div>
+        <!--	End Services
+		===================================================-->
+		<!--	Start Services
+		===================================================-->
+        <div id="specifications" class="section bg_white pp-scrollable">
+            <div class="container">
+                <div class="services my_60">
+                    <div class="row">
+                        <div class="col-md-12 col-lg-12">
+                            <div class="section_title_1 text-center mx-auto pb_60 wow animated slideInUp">
+                                <h2 class="title text-uppercase color_primary">Specifications</h2>
+                            </div>
+                        </div>
+                        <div class="col-md-4 col-lg-4 text-center p_30 service_one ">
+                            <div class="srvicon bg_default color_white mx-auto mb_20"><span class="flaticon-website-design-symbol"></span></div>
+                            <h3 class="font-weight-bold color_primary">STRUCTURE</h3>
+                            <ul class='arrowClass' style='text-align:left;'>
+                                <li>Seismic Zone II compliant RCC Structure</li>
+                                <li>Solid Cement Block Masonry</li>
+								<ul class="ulExtra" id="list_A">
+                                    <li>External Walls with Cement Plaster &amp;Internal Walls with lime plaster</li>
+                                </ul>
+                            </ul>
+							<div>
+							   <input class="liReadMore btn btn-default" id="readMore_A"  value='Show More' style="margin: 0px;"/>
+							</div>
+                        </div>
+                        <div class="col-md-4 col-lg-4 text-center p_30 service_one ">
+                            <div class="srvicon bg_default color_white mx-auto mb_20"><span class="flaticon-programming"></span></div>
+                            <h3 class="font-weight-bold color_primary">FLOORING</h3>
+                            <ul class='arrowClass' style='text-align:left;'>
+                                <li>Vitrified tiles in Living, Dining, Kitchen &amp; allBedrooms</li>
+                            </ul>
+                        </div>
+                        <div class="col-md-4 col-lg-4 text-center p_30 service_one">
+                            <div class="srvicon bg_default color_white mx-auto mb_20"><span class="flaticon-wordpress-logo"></span></div>
+                            <h3 class="font-weight-bold color_primary">WALL FINISHES</h3>
+                            <ul class='arrowClass' style='text-align:left;'>
+                                <li>Internal Walls: Oil Bound Distemper for al plastered walls &amp; Ceilings</li>
+								<ul class="ulExtra" id="list_B">
+									<li>External Walls: Cement paint for the exteriors and common Areas</li>
+                                    <li>Enamel Paint for MS Grills and Door Shutters</li>
+                                </ul>
+                            </ul>
+							<div>
+							   <input class="liReadMore btn btn-default" id="readMore_B"  value='Show More' style="margin: 0px;"/>
+							</div>
+                        </div>
+                        <div class="col-md-4 col-lg-4 text-center p_30 service_one ">
+                            <div class="srvicon bg_default color_white mx-auto mb_20"><span class="flaticon-internet"></span></div>
+                            <h3 class="font-weight-bold color_primary">MAIN DOOR</h3>
+                            <ul class='arrowClass' style='text-align:left;'>
+                                <li>Teak Wd Dr Frame with threshld</li>
+                                <li>BSTV designer dr shutters, finished withmelamine plish n bth sides</li>
+                            </ul>
+                        </div>
+                        <div class="col-md-4 col-lg-4 text-center p_30 service_one ">
+                            <div class="srvicon bg_default color_white mx-auto mb_20"><span class="flaticon-shopping-cart"></span></div>
+                            <h3 class="font-weight-bold color_primary">OTHER DOORS</h3>
+                            <ul class='arrowClass' style='text-align:left;'>
+                                <li>Sal/Hard Wd dr frame</li>
+                                <li>Cmmercial flush shutters</li>
+								<ul class="ulExtra" id="list_C">
+                                    <li>NCL Seclr Dr and Windw systems withplain glass fr Balcnies</li>
+                                </ul>                          
+                            </ul>
+							<div>
+							   <input class="liReadMore btn btn-default" id="readMore_C"  value='Show More' style="margin: 0px;"/>
+							</div>
+                        </div>
+                        <div class="col-md-4 col-lg-4 text-center p_30 service_one ">
+                            <div class="srvicon bg_default color_white mx-auto mb_20"><span class="flaticon-editor"></span></div>
+                            <h3 class="font-weight-bold color_primary">WINDOWS</h3>
+                            <ul class='arrowClass' style='text-align:left;'>
+                                <li>NCL Seclr Windw system windws withplain glass and prvisin fr msquit mesh</li>
+								<ul class="ulExtra" id="list_I">
+									<li>NCL Seclr Ventilatr system withtranslucent glass in tilets</li>
+								</ul>
+                            </ul>
+							<div>
+							   <input class="liReadMore btn btn-default" id="readMore_I"  value='Show More' style="margin: 0px;"/>
+							</div>
+                        </div>
+                        <div class="col-md-4 col-lg-4 text-center p_30 service_one ">
+                            <div class="srvicon bg_default color_white mx-auto mb_20"><span class="flaticon-editor"></span></div>
+                            <h3 class="font-weight-bold color_primary">KITCHEN</h3>
+                            <ul class='arrowClass' style='text-align:left;'>
+                                <li>Plished granite platfrm with stainless steelsink</li>
+                                <li>Ceramic tile dad f 2 feet abve the granitecunter</li>
+								<ul class="ulExtra" id="list_D">
+									<li>Prvisin fr Aqua-guard pint in kitchen</li>
+									<li>Prvisin fr Geyser in kitchen</li>   
+                                </ul>             
+                            </ul>
+							<div>
+							   <input class="liReadMore btn btn-default" id="readMore_D"  value='Show More' style="margin: 0px;"/>
+							</div> 
+                        </div>
+                        <div class="col-md-4 col-lg-4 text-center p_30 service_one ">
+                            <div class="srvicon bg_default color_white mx-auto mb_20"><span class="flaticon-editor"></span></div>
+                            <h3 class="font-weight-bold color_primary">UTILITY</h3>
+                            <ul class='arrowClass' style='text-align:left;'>
+                                <li>Prvisin fr sink in utility</li>
+                                <li>Prvisin fr Washing machine in utility area</li>
+								<li>Prvisin fr irning</li>
+                            </ul>
+                        </div>
+                        <div class="col-md-4 col-lg-4 text-center p_30 service_one ">
+                            <div class="srvicon bg_default color_white mx-auto mb_20"><span class="flaticon-editor"></span></div>
+                            <h3 class="font-weight-bold color_primary">TOILETS</h3>
+                            <ul class='arrowClass' style='text-align:left;'>
+                                <li>Ceramic Tiles fr flring and dad upt 7 ftheight</li>
+                                <li>EWC, Washbasin frm KOHLER</li>
+								<ul class="ulExtra" id="list_F">
+                                    <li>Chrmium plated fittings frm Jaquar</li>
+									<li>Cncealed flush tanks frm GEBRIT</li>
+                                </ul>
+                            </ul>
+							<div>
+							   <input class="liReadMore btn btn-default" id="readMore_F"  value='Show More' style="margin: 0px;"/>
+							</div>
+                        </div>
+                        <div class="col-md-4 col-lg-4 text-center p_30 service_one ">
+                            <div class="srvicon bg_default color_white mx-auto mb_20"><span class="flaticon-editor"></span></div>
+                            <h3 class="font-weight-bold color_primary">ELECTRICAL</h3>
+                            <ul class='arrowClass' style='text-align:left;'>
+                                <li>TV pint in the living rm and masterbedrm</li>
+                                <li>Fire Resistant Wires frm Anchr</li>
+								<ul class="ulExtra" id="list_G">
+									<li>Elegant designer mdular electrical switches</li>
+									<li>1 Earth Leakage Circuit Breaker t ensuresafety</li>
+									<li>1 MCB fr each rm prvided at the maindistributin bx</li>
+									<li>Prvisin fr 5kW pwer in each flat</li>
+									<li>Telephne pint will be prvided in livingrm and each Bedrm</li>
+                                </ul>
+                            </ul>
+							<div>
+							   <input class="liReadMore btn btn-default" id="readMore_G"  value='Show More' style="margin: 0px;"/>
+							</div>
+                        </div>
+                        <div class="col-md-4 col-lg-4 text-center p_30 service_one ">
+                            <div class="srvicon bg_default color_white mx-auto mb_20"><span class="flaticon-editor"></span></div>
+                            <h3 class="font-weight-bold color_primary">WATER SUPPLY</h3>
+                            <ul class='arrowClass' style='text-align:left;'>
+                                <li>Undergrund &amp; Overhead strage tanks fsuitable capacity. Brewell as an auxiliarysurce f water supply</li>
+                            </ul>
+                        </div>
+                        <div class="col-md-4 col-lg-4 text-center p_30 service_one">
+                            <div class="srvicon bg_default color_white mx-auto mb_20"><span class="flaticon-editor"></span></div>
+                            <h3 class="font-weight-bold color_primary">OTHERS</h3>
+                            <ul class='arrowClass' style='text-align:left;'>
+                                <li>Cmplete Generatr Backup fr all cmmnareas and services &amp; 1kW pwer backup frevery apartment at n extra cost</li>
+								<ul class="ulExtra" id="list_H">
+									<li>2 level security</li>
+                                    <li>Wi-fi ready</li>
+									<li>Sewage treatment plant</li>
+									<li>Rain water harvesting</li>
+									<li>5 Elevatrs</li>
+									<li>Marble lbbies &amp; Granite staircase</li>
+                                </ul>
+                            </ul>
+							<div>
+							   <input class="liReadMore btn btn-default" id="readMore_H"  value='Show More' style="margin: 0px;"/>
+							</div>
+                        </div>
+					</div>
+                </div>
+            </div>
+        </div>
+        <!--	End Services
+		===================================================-->
+        <!--	Start Portfolio
+		===================================================-->
+        <div id="portfolio" class="section bg_white pp-scrollable">
+            <div class="container">
+                <div class="portfolio2 my_60">
+                    <div class="row">
+                        <div class="col-md-12 col-lg-12">
+                            <!--	Start Title
+		    				================================-->
+                            <div class="main_title pb_60">
+                                <h2 class="title color_primary  text-center">Floor Plan</h2>
+                            </div>
+                            <!--	End Title
+		    				================================-->
+                        </div>
+                        <div class="col-md-12 col-lg-12">
+                            <div class="my_portfolio" id="tab-panel">
+                                <!--Filter-->
+                                <div class="row">
+                                    <div class="col-md-12">
+                                        <div class="filters mb_30 w-100">
+                                            <ul class="filter-tabs d-inline-block">
+                                                <li class="active filter" data-role="button" data-filter="all">All</li>
+												<li class="filter" data-role="button" data-filter=".2bhk">2 BHK TYPICAL FLOOR</li>
+                                                <li class="filter" data-role="button" data-filter=".3bhk">3 BHK TYPICAL FLOOR</li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="filter-list">
+                                    <div class="portfolio-items">
+                                        <div class="row">
+                                            <div class="column mix mix_all 2bhk mb_30 col-md-4 col-lg-4">
+                                                <div class="default-portfolio-item">
+                                                    <a href="images/Pratham Casa Serene Brochure-page-013.jpg" data-fancybox="gallery">
+                                                        <img src="images/Pratham Casa Serene Brochure-page-013.jpg" alt="image" />
+                                                        <div class="overlay-box">
+                                                            <div class="tag">
+                                                                <h5 style="text-align: left;">T02, T03, T04, T05 - 2 BHK TYPICAL FLOOR</h5>
+																<p style="text-align: left;">Main Door- East Facing </p>
+																<p style="text-align: left;">Balcony - Toddler's Park Facing</p>
+																<p style="text-align: left;">Size: 1,400 sqft </p>
+                                                            </div>
+                                                        </div>
+                                                    </a>
+                                                </div>
+                                            </div>
+                                            <div class="column mix mix_all 2bhk mb_30 col-md-4 col-lg-4">
+                                                <div class="default-portfolio-item">
+                                                    <a href="images/Pratham Casa Serene Brochure-page-014.jpg" data-fancybox="gallery">
+                                                        <img src="images/Pratham Casa Serene Brochure-page-014.jpg" alt="image" />
+                                                        <div class="overlay-box">
+                                                            <div class="tag">
+                                                                <h5 style="text-align: left;">T06 - TYPICAL FLOOR</h5>
+																<p style="text-align: left;">Main Door - North Facing </p>
+																<p style="text-align: left;">Balcony - Toddler's Park Facing </p>
+																<p style="text-align: left;">Size: 1,355 sqft</p>
+                                                            </div>
+                                                        </div>
+                                                    </a>
+                                                </div>
+                                            </div>
+                                            <div class="column mix mix_all 2bhk mb_30 col-md-4 col-lg-4">
+                                                <div class="default-portfolio-item">
+                                                    <a href="images/Pratham Casa Serene Brochure-page-015.jpg" data-fancybox="gallery">
+                                                        <img src="images/Pratham Casa Serene Brochure-page-015.jpg" alt="image" />
+                                                        <div class="overlay-box">
+                                                            <div class="tag">
+                                                                <h5 style="text-align: left;">T07, T08, T09 - 2 BHK TYPICAL FLOOR</h5>
+																<p style="text-align: left;">Main Door-North Facing </p>
+																<p style="text-align: left;">Balcony - Toddler's Park Facing</p>
+																<p style="text-align: left;">Size: 1,411 sqft </p>
+                                                            </div>
+                                                        </div>
+                                                    </a>
+                                                </div>
+                                            </div>
+											<div class="column mix mix_all 3bhk mb_30 col-md-4 col-lg-4">
+                                                <div class="default-portfolio-item">
+                                                    <a href="images/Pratham Casa Serene Brochure-page-012.jpg" data-fancybox="gallery">
+                                                        <img src="images/Pratham Casa Serene Brochure-page-012.jpg" alt="image" />
+                                                        <div class="overlay-box">
+                                                            <div class="tag">
+																<h5 style="text-align: left;">T1- 3 BHK TYPICAL FLOOR</h5>
+																<p style="text-align: left;">Main Door-North Facing </p>
+																<p style="text-align: left;">Size: 1,583 sqft </p>
+                                                            </div>
+                                                        </div>
+                                                    </a>
+                                                </div>
+                                            </div>
+                                            <div class="column mix mix_all 3bhk mb_30 col-md-4 col-lg-4">
+                                                <div class="default-portfolio-item">
+                                                    <a href="images/Pratham Casa Serene Brochure-page-016.jpg" data-fancybox="gallery">
+                                                        <img src="images/Pratham Casa Serene Brochure-page-016.jpg" alt="image" />
+                                                        <div class="overlay-box">
+                                                            <div class="tag">
+                                                                <h5 style="text-align: left;">T10 - 3 BHK TYPICAL FLOOR</h5>
+																<p style="text-align: left;">Main Door-North Facing </p>
+																<p style="text-align: left;">Balcony - Toddler's Park Facing </p>
+																<p style="text-align: left;">Size: 1,583 sqft</p>
+                                                            </div>
+                                                        </div>
+                                                    </a>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!--	End Portfolio
+		===================================================-->
+        <!--	Start Master Plan
+		===================================================-->
+        <div id="pricing" class="section bg_white pp-scrollable">
+            <div class="container">
+                <div class="pricing my_60">
+                    <div class="row">
+                        <div class="col-md-12 col-lg-12">
+                            <!--	Start Title
+		    				================================-->
+                            <div class="main_title pb_60">
+                                <h2 class="title color_primary  text-center">Master Plan</h2>
+
+                            </div>
+                            <!--	End Title
+		    				================================-->
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-md-12 col-lg-12">
+                            <div class="price_table">
+                                <div class="row">
+                                    <div class="col-md-12 col-lg-12">
+                                        <div class="table text-center">
+											<a href="images/Master-Plan.jpg" data-fancybox="gallery">
+												<img src="images/Master-Plan.jpg" class="img-fluid">
+											</a>
+                                        </div>
+                                    </div>
+
+
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!--	End Master Plan
+		===================================================-->
+
+
+        <!--	Start Location
+		===================================================-->
+        <div class="section bg_white pp-scrollable">
+            <div class="container">
+                <div class="pricing my_60">
+                    <div class="row">
+                        <div class="col-md-12 col-lg-12">
+                            <!--	Start Title
+		    				================================-->
+                            <div class="main_title pb_60">
+                                <h2 class="title color_primary  text-center">Location Map</h2>
+                            </div>
+                            <!--	End Title
+		    				================================-->
+                        </div>
+						<div class="col-md-12 col-lg-12">
+							<div class="table text-center">
+								<a href="images/Location-Map.jpg" data-fancybox="gallery">
+									<img src="images/Location-Map.jpg" class="img-fluid">
+								</a>
+							</div>
+						</div>
+						<div class="col-md-6 col-lg-6">
+							<div class="table p_30 location">
+								<p>1. Jaahalli METRO station &ndash; across the road (150 mtrs)</p>
+								<p>2. National Highway 4 &ndash; 300 mtrs</p>
+								<p>3. Peenya Industrial Area &ndash; 500 mtrs</p>
+								<p>4. Jalahalli Airforce station &ndash; 1 km</p>
+								<p>5. Ravi Kirloskar Hospital &ndash; 1.5 kms</p>
+								<p>6. Premier Hospital &ndash; 1.5 kms</p>
+								<p>7. Raghavendra Hospital &ndash; 1.5 kms</p>
+								<p>8. Taj Vivanta &ndash; 3 kms</p>
+								<p>9. Yeshwanthpur Terminus &ndash; 4 kms</p>
+								<p>10. Bangalore International Exhibition Complex &ndash; 4 kms</p>
+								<p>11. METRO Cash n Carry &ndash; 4.5 kms</p>
+								<p>12. Sheraton Hotel &ndash; 4.5 kms</p>
+							</div>
+						</div>
+						<div class="col-md-6 col-lg-6">
+							<div class="table p_30 location">								
+								<p>13. Orion Mall &ndash; 4.5 kms</p>
+								<p>14. Columbia Asia Hospital &ndash; 4.5 kms</p>
+								<p>15. ISKCON &ndash; 5 kms</p>
+								<p>16. Veer Anjaneya Swamy &ndash; 6 kms</p>
+								<p>17. Indian Institute of Science &ndash; 6 kms</p>
+								<p>18. Palace Grounds &ndash; 7 kms</p>
+								<p>19. Bangalore Cantonment Station &ndash; 9 kms</p>
+								<p>20. Vidhan Soudha &ndash; 12 kms</p>
+								<p>21. M G Road &ndash; 14 kms</p>
+								<p>22. Brigade Road  &ndash; 15 kms</p>
+								<p>23. Bangalore International Airport &ndash; 25 kms</p>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+        <!--	End Location
+		===================================================-->
+		<!--	Start Contact
+		===================================================-->
+	    <div id="contact" class="section bg_white pp-scrollable">
+	    	<div class="container">
+	    		<div class="contact pt_60">
+	    			<div class="row">
+		    			<div class="col-md-12 col-lg-12">
+		    				<!--	Start Title
+		    				================================-->
+		    				<div class="main_title pb_60">
+								<h2 class="title color_primary  text-center">Contact</h2>
+								<p class="mt_15 text-center">Interdum a etiam sagittis vehicula porta. Massa felis eros quam blandit nulla dolor habitant.</p>
+                            </div>
+							<!--	End Title
+		    				================================-->
+		    			</div>
+		    		</div>
+		    		<div class="row">
+		    			<div class="col-md-4 col-lg-4">
+						<div class="contact_info wow animated fadeInLeft">
+							<ul>
+								<li>
+									<div class="contact_text color_default">
+										<h6 class="font-weight-bold color_default">Email</h6>
+										<span class="">www.prathamconstructions.com</span>
+									</div>
+								</li>
+								<li>
+									<div class="contact_text">
+										<h6 class="font-weight-bold color_default">Phone</h6>
+										<span class="">(+91) 7829 583 111
+											<br/>
+											(+91) 804 171 5678</span>
+									</div>
+								</li>
+								<li>
+									<div class="contact_text">
+										<h6 class="font-weight-bold color_default">Address</h6>
+										<span class=""> Pratham Corporate Office
+											<br />
+											Off K G Road,
+											Opp Menaka Theater,
+											<br />
+											Bengaluru,Karnataka - 560 009</span>
+									</div>
+								</li>
+								<li>
+									<div class="contact_text">
+										<h6 class="font-weight-bold color_default">Website</h6>
+										<span class="">www.yourdomain.com</span>
+									</div>
+								</li>
+							</ul>
+						</div>
+						<div class="socal_media_2 mt_15 d-inline-block">
+							<ul>
+								<li><a href="#"><i class="fa fa-facebook color_white" aria-hidden="true"></i></a></li>
+								<li><a href="#"><i class="fa fa-twitter color_white" aria-hidden="true"></i></a></li>
+								<li><a href="#"><i class="fa fa-google-plus color_white" aria-hidden="true"></i></a></li>
+								<li><a href="#"><i class="fa fa-linkedin color_white" aria-hidden="true"></i></a></li>
+								<li><a href="#"><i class="fa fa-instagram color_white" aria-hidden="true"></i></a></li>
+							</ul>
+						</div>
+					</div>
+					<div class="col-md-8 col-lg-8">
+					<form class="form contact_message wow animated fadeInRight" id="contact-form" action="email.php" method="post">
+							<div class="row">
+								<div class="col-md-6 col-lg-6">
+									<div class="form-group">
+										<input class="form-control" type="text" name="name" placeholder="Your Name" />
+									</div>
+								</div>
+								<div class="col-md-6 col-lg-6">
+									<div class="form-group">
+										<input class="form-control" type="email" name="email" placeholder="Email Address" />
+									</div>
+								</div>
+
+								<div class="col-md-4 col-lg-4">
+									<div class="form-group">
+										<select class="form-control" size="0" name="ccode" wfd-id="29">
+
+											<option value=""> Select County </option>
+
+											<option data-countrycode="GB" value="44">UK (+44)</option>
+
+											<option data-countrycode="US" value="1">USA (+1)</option>
+
+											<option data-countrycode="DZ" value="213">Algeria (+213)</option>
+
+											<option data-countrycode="AD" value="376">Andorra (+376)</option>
+
+											<option data-countrycode="AO" value="244">Angola (+244)</option>
+
+											<option data-countrycode="AI" value="1264">Anguilla (+1264)</option>
+
+											<option data-countrycode="AG" value="1268">Antigua &amp; Barbuda (+1268)</option>
+
+											<option data-countrycode="AR" value="54">Argentina (+54)</option>
+
+											<option data-countrycode="AM" value="374">Armenia (+374)</option>
+
+											<option data-countrycode="AW" value="297">Aruba (+297)</option>
+
+											<option data-countrycode="AU" value="61">Australia (+61)</option>
+
+											<option data-countrycode="AT" value="43">Austria (+43)</option>
+
+											<option data-countrycode="AZ" value="994">Azerbaijan (+994)</option>
+
+											<option data-countrycode="BS" value="1242">Bahamas (+1242)</option>
+
+											<option data-countrycode="BH" value="973">Bahrain (+973)</option>
+
+											<option data-countrycode="BD" value="880">Bangladesh (+880)</option>
+
+											<option data-countrycode="BB" value="1246">Barbados (+1246)</option>
+
+											<option data-countrycode="BY" value="375">Belarus (+375)</option>
+
+											<option data-countrycode="BE" value="32">Belgium (+32)</option>
+
+											<option data-countrycode="BZ" value="501">Belize (+501)</option>
+
+											<option data-countrycode="BJ" value="229">Benin (+229)</option>
+
+											<option data-countrycode="BM" value="1441">Bermuda (+1441)</option>
+
+											<option data-countrycode="BT" value="975">Bhutan (+975)</option>
+
+											<option data-countrycode="BO" value="591">Bolivia (+591)</option>
+
+											<option data-countrycode="BA" value="387">Bosnia Herzegovina (+387)</option>
+
+											<option data-countrycode="BW" value="267">Botswana (+267)</option>
+
+											<option data-countrycode="BR" value="55">Brazil (+55)</option>
+
+											<option data-countrycode="BN" value="673">Brunei (+673)</option>
+
+											<option data-countrycode="BG" value="359">Bulgaria (+359)</option>
+
+											<option data-countrycode="BF" value="226">Burkina Faso (+226)</option>
+
+											<option data-countrycode="BI" value="257">Burundi (+257)</option>
+
+											<option data-countrycode="KH" value="855">Cambodia (+855)</option>
+
+											<option data-countrycode="CM" value="237">Cameroon (+237)</option>
+
+											<option data-countrycode="CA" value="1">Canada (+1)</option>
+
+											<option data-countrycode="CV" value="238">Cape Verde Islands (+238)</option>
+
+											<option data-countrycode="KY" value="1345">Cayman Islands (+1345)</option>
+
+											<option data-countrycode="CF" value="236">Central African Republic (+236)</option>
+
+											<option data-countrycode="CL" value="56">Chile (+56)</option>
+
+											<option data-countrycode="CN" value="86">China (+86)</option>
+
+											<option data-countrycode="CO" value="57">Colombia (+57)</option>
+
+											<option data-countrycode="KM" value="269">Comoros (+269)</option>
+
+											<option data-countrycode="CG" value="242">Congo (+242)</option>
+
+											<option data-countrycode="CK" value="682">Cook Islands (+682)</option>
+
+											<option data-countrycode="CR" value="506">Costa Rica (+506)</option>
+
+											<option data-countrycode="HR" value="385">Croatia (+385)</option>
+
+											<option data-countrycode="CU" value="53">Cuba (+53)</option>
+
+											<option data-countrycode="CY" value="90392">Cyprus North (+90392)</option>
+
+											<option data-countrycode="CY" value="357">Cyprus South (+357)</option>
+
+											<option data-countrycode="CZ" value="42">Czech Republic (+42)</option>
+
+											<option data-countrycode="DK" value="45">Denmark (+45)</option>
+
+											<option data-countrycode="DJ" value="253">Djibouti (+253)</option>
+
+											<option data-countrycode="DM" value="1809">Dominica (+1809)</option>
+
+											<option data-countrycode="DO" value="1809">Dominican Republic (+1809)</option>
+
+											<option data-countrycode="EC" value="593">Ecuador (+593)</option>
+
+											<option data-countrycode="EG" value="20">Egypt (+20)</option>
+
+											<option data-countrycode="SV" value="503">El Salvador (+503)</option>
+
+											<option data-countrycode="GQ" value="240">Equatorial Guinea (+240)</option>
+
+											<option data-countrycode="ER" value="291">Eritrea (+291)</option>
+
+											<option data-countrycode="EE" value="372">Estonia (+372)</option>
+
+											<option data-countrycode="ET" value="251">Ethiopia (+251)</option>
+
+											<option data-countrycode="FK" value="500">Falkland Islands (+500)</option>
+
+											<option data-countrycode="FO" value="298">Faroe Islands (+298)</option>
+
+											<option data-countrycode="FJ" value="679">Fiji (+679)</option>
+
+											<option data-countrycode="FI" value="358">Finland (+358)</option>
+
+											<option data-countrycode="FR" value="33">France (+33)</option>
+
+											<option data-countrycode="GF" value="594">French Guiana (+594)</option>
+
+											<option data-countrycode="PF" value="689">French Polynesia (+689)</option>
+
+											<option data-countrycode="GA" value="241">Gabon (+241)</option>
+
+											<option data-countrycode="GM" value="220">Gambia (+220)</option>
+
+											<option data-countrycode="GE" value="7880">Georgia (+7880)</option>
+
+											<option data-countrycode="DE" value="49">Germany (+49)</option>
+
+											<option data-countrycode="GH" value="233">Ghana (+233)</option>
+
+											<option data-countrycode="GI" value="350">Gibraltar (+350)</option>
+
+											<option data-countrycode="GR" value="30">Greece (+30)</option>
+
+											<option data-countrycode="GL" value="299">Greenland (+299)</option>
+
+											<option data-countrycode="GD" value="1473">Grenada (+1473)</option>
+
+											<option data-countrycode="GP" value="590">Guadeloupe (+590)</option>
+
+											<option data-countrycode="GU" value="671">Guam (+671)</option>
+
+											<option data-countrycode="GT" value="502">Guatemala (+502)</option>
+
+											<option data-countrycode="GN" value="224">Guinea (+224)</option>
+
+											<option data-countrycode="GW" value="245">Guinea - Bissau (+245)</option>
+
+											<option data-countrycode="GY" value="592">Guyana (+592)</option>
+
+											<option data-countrycode="HT" value="509">Haiti (+509)</option>
+
+											<option data-countrycode="HN" value="504">Honduras (+504)</option>
+
+											<option data-countrycode="HK" value="852">Hong Kong (+852)</option>
+
+											<option data-countrycode="HU" value="36">Hungary (+36)</option>
+
+											<option data-countrycode="IS" value="354">Iceland (+354)</option>
+
+											<option data-countrycode="IN" value="91" selected="">Ind (+91)</option>
+
+											<option data-countrycode="ID" value="62">Indonesia (+62)</option>
+
+											<option data-countrycode="IR" value="98">Iran (+98)</option>
+
+											<option data-countrycode="IQ" value="964">Iraq (+964)</option>
+
+											<option data-countrycode="IE" value="353">Ireland (+353)</option>
+
+											<option data-countrycode="IL" value="972">Israel (+972)</option>
+
+											<option data-countrycode="IT" value="39">Italy (+39)</option>
+
+											<option data-countrycode="JM" value="1876">Jamaica (+1876)</option>
+
+											<option data-countrycode="JP" value="81">Japan (+81)</option>
+
+											<option data-countrycode="JO" value="962">Jordan (+962)</option>
+
+											<option data-countrycode="KZ" value="7">Kazakhstan (+7)</option>
+
+											<option data-countrycode="KE" value="254">Kenya (+254)</option>
+
+											<option data-countrycode="KI" value="686">Kiribati (+686)</option>
+
+											<option data-countrycode="KP" value="850">Korea North (+850)</option>
+
+											<option data-countrycode="KR" value="82">Korea South (+82)</option>
+
+											<option data-countrycode="KW" value="965">Kuwait (+965)</option>
+
+											<option data-countrycode="KG" value="996">Kyrgyzstan (+996)</option>
+
+											<option data-countrycode="LA" value="856">Laos (+856)</option>
+
+											<option data-countrycode="LV" value="371">Latvia (+371)</option>
+
+											<option data-countrycode="LB" value="961">Lebanon (+961)</option>
+
+											<option data-countrycode="LS" value="266">Lesotho (+266)</option>
+
+											<option data-countrycode="LR" value="231">Liberia (+231)</option>
+
+											<option data-countrycode="LY" value="218">Libya (+218)</option>
+
+											<option data-countrycode="LI" value="417">Liechtenstein (+417)</option>
+
+											<option data-countrycode="LT" value="370">Lithuania (+370)</option>
+
+											<option data-countrycode="LU" value="352">Luxembourg (+352)</option>
+
+											<option data-countrycode="MO" value="853">Macao (+853)</option>
+
+											<option data-countrycode="MK" value="389">Macedonia (+389)</option>
+
+											<option data-countrycode="MG" value="261">Madagascar (+261)</option>
+
+											<option data-countrycode="MW" value="265">Malawi (+265)</option>
+
+											<option data-countrycode="MY" value="60">Malaysia (+60)</option>
+
+											<option data-countrycode="MV" value="960">Maldives (+960)</option>
+
+											<option data-countrycode="ML" value="223">Mali (+223)</option>
+
+											<option data-countrycode="MT" value="356">Malta (+356)</option>
+
+											<option data-countrycode="MH" value="692">Marshall Islands (+692)</option>
+
+											<option data-countrycode="MQ" value="596">Martinique (+596)</option>
+
+											<option data-countrycode="MR" value="222">Mauritania (+222)</option>
+
+											<option data-countrycode="YT" value="269">Mayotte (+269)</option>
+
+											<option data-countrycode="MX" value="52">Mexico (+52)</option>
+
+											<option data-countrycode="FM" value="691">Micronesia (+691)</option>
+
+											<option data-countrycode="MD" value="373">Moldova (+373)</option>
+
+											<option data-countrycode="MC" value="377">Monaco (+377)</option>
+
+											<option data-countrycode="MN" value="976">Mongolia (+976)</option>
+
+											<option data-countrycode="MS" value="1664">Montserrat (+1664)</option>
+
+											<option data-countrycode="MA" value="212">Morocco (+212)</option>
+
+											<option data-countrycode="MZ" value="258">Mozambique (+258)</option>
+
+											<option data-countrycode="MN" value="95">Myanmar (+95)</option>
+
+											<option data-countrycode="NA" value="264">Namibia (+264)</option>
+
+											<option data-countrycode="NR" value="674">Nauru (+674)</option>
+
+											<option data-countrycode="NP" value="977">Nepal (+977)</option>
+
+											<option data-countrycode="NL" value="31">Netherlands (+31)</option>
+
+											<option data-countrycode="NC" value="687">New Caledonia (+687)</option>
+
+											<option data-countrycode="NZ" value="64">New Zealand (+64)</option>
+
+											<option data-countrycode="NI" value="505">Nicaragua (+505)</option>
+
+											<option data-countrycode="NE" value="227">Niger (+227)</option>
+
+											<option data-countrycode="NG" value="234">Nigeria (+234)</option>
+
+											<option data-countrycode="NU" value="683">Niue (+683)</option>
+
+											<option data-countrycode="NF" value="672">Norfolk Islands (+672)</option>
+
+											<option data-countrycode="NP" value="670">Northern Marianas (+670)</option>
+
+											<option data-countrycode="NO" value="47">Norway (+47)</option>
+
+											<option data-countrycode="OM" value="968">Oman (+968)</option>
+
+											<option data-countrycode="PW" value="680">Palau (+680)</option>
+
+											<option data-countrycode="PA" value="507">Panama (+507)</option>
+
+											<option data-countrycode="PG" value="675">Papua New Guinea (+675)</option>
+
+											<option data-countrycode="PY" value="595">Paraguay (+595)</option>
+
+											<option data-countrycode="PE" value="51">Peru (+51)</option>
+
+											<option data-countrycode="PH" value="63">Philippines (+63)</option>
+
+											<option data-countrycode="PL" value="48">Poland (+48)</option>
+
+											<option data-countrycode="PT" value="351">Portugal (+351)</option>
+
+											<option data-countrycode="PR" value="1787">Puerto Rico (+1787)</option>
+
+											<option data-countrycode="QA" value="974">Qatar (+974)</option>
+
+											<option data-countrycode="RE" value="262">Reunion (+262)</option>
+
+											<option data-countrycode="RO" value="40">Romania (+40)</option>
+
+											<option data-countrycode="RU" value="7">Russia (+7)</option>
+
+											<option data-countrycode="RW" value="250">Rwanda (+250)</option>
+
+											<option data-countrycode="SM" value="378">San Marino (+378)</option>
+
+											<option data-countrycode="ST" value="239">Sao Tome &amp; Principe (+239)</option>
+
+											<option data-countrycode="SA" value="966">Saudi Arabia (+966)</option>
+
+											<option data-countrycode="SN" value="221">Senegal (+221)</option>
+
+											<option data-countrycode="CS" value="381">Serbia (+381)</option>
+
+											<option data-countrycode="SC" value="248">Seychelles (+248)</option>
+
+											<option data-countrycode="SL" value="232">Sierra Leone (+232)</option>
+
+											<option data-countrycode="SG" value="65">Singapore (+65)</option>
+
+											<option data-countrycode="SK" value="421">Slovak Republic (+421)</option>
+
+											<option data-countrycode="SI" value="386">Slovenia (+386)</option>
+
+											<option data-countrycode="SB" value="677">Solomon Islands (+677)</option>
+
+											<option data-countrycode="SO" value="252">Somalia (+252)</option>
+
+											<option data-countrycode="ZA" value="27">South Africa (+27)</option>
+
+											<option data-countrycode="ES" value="34">Spain (+34)</option>
+
+											<option data-countrycode="LK" value="94">Sri Lanka (+94)</option>
+
+											<option data-countrycode="SH" value="290">St. Helena (+290)</option>
+
+											<option data-countrycode="KN" value="1869">St. Kitts (+1869)</option>
+
+											<option data-countrycode="SC" value="1758">St. Lucia (+1758)</option>
+
+											<option data-countrycode="SD" value="249">Sudan (+249)</option>
+
+											<option data-countrycode="SR" value="597">Suriname (+597)</option>
+
+											<option data-countrycode="SZ" value="268">Swaziland (+268)</option>
+
+											<option data-countrycode="SE" value="46">Sweden (+46)</option>
+
+											<option data-countrycode="CH" value="41">Switzerland (+41)</option>
+
+											<option data-countrycode="SI" value="963">Syria (+963)</option>
+
+											<option data-countrycode="TW" value="886">Taiwan (+886)</option>
+
+											<option data-countrycode="TJ" value="7">Tajikstan (+7)</option>
+
+											<option data-countrycode="TH" value="66">Thailand (+66)</option>
+
+											<option data-countrycode="TG" value="228">Togo (+228)</option>
+
+											<option data-countrycode="TO" value="676">Tonga (+676)</option>
+
+											<option data-countrycode="TT" value="1868">Trinidad &amp; Tobago (+1868)</option>
+
+											<option data-countrycode="TN" value="216">Tunisia (+216)</option>
+
+											<option data-countrycode="TR" value="90">Turkey (+90)</option>
+
+											<option data-countrycode="TM" value="7">Turkmenistan (+7)</option>
+
+											<option data-countrycode="TM" value="993">Turkmenistan (+993)</option>
+
+											<option data-countrycode="TC" value="1649">Turks &amp; Caicos Islands (+1649)</option>
+
+											<option data-countrycode="TV" value="688">Tuvalu (+688)</option>
+
+											<option data-countrycode="UG" value="256">Uganda (+256)</option>
+
+											<option data-countrycode="UA" value="380">Ukraine (+380)</option>
+
+											<option data-countrycode="AE" value="971">United Arab Emirates (+971)</option>
+
+											<option data-countrycode="UY" value="598">Uruguay (+598)</option>
+
+											<option data-countrycode="UZ" value="7">Uzbekistan (+7)</option>
+
+											<option data-countrycode="VU" value="678">Vanuatu (+678)</option>
+
+											<option data-countrycode="VA" value="379">Vatican City (+379)</option>
+
+											<option data-countrycode="VE" value="58">Venezuela (+58)</option>
+
+											<option data-countrycode="VN" value="84">Vietnam (+84)</option>
+
+											<option data-countrycode="VG" value="84">Virgin Islands - British (+1284)</option>
+
+											<option data-countrycode="VI" value="84">Virgin Islands - US (+1340)</option>
+
+											<option data-countrycode="WF" value="681">Wallis &amp; Futuna (+681)</option>
+
+											<option data-countrycode="YE" value="969">Yemen (North)(+969)</option>
+
+											<option data-countrycode="YE" value="967">Yemen (South)(+967)</option>
+
+											<option data-countrycode="ZM" value="260">Zambia (+260)</option>
+
+											<option data-countrycode="ZW" value="263">Zimbabwe (+263)</option>
+										</select>
+									</div>
+								</div>
+								<div class="col-md-8 col-lg-8">
+									<div class="form-group">
+										<input class="form-control" type="text" name="phone" placeholder="Phone" />
+									</div>
+								</div>
+								<div class="col-md-12 col-lg-12">
+									<div class="form-group">
+										<textarea class="form-control" name="message" rows="7" placeholder="Message"></textarea>
+									</div>
+								</div>
+								<div class="col-md-12 col-lg-12">
+									<div class="form-group">
+										<input class="btn btn-default" id="send" value="submit" type="submit" />
+									</div>
+								</div>
+								<div class="col-md-12 col-lg-12">
+									<div class="error-handel">
+										<div id="success">Your email sent Successfully, Thank you.</div>
+										<div id="error"> Error occurred while sending email. Please try again later.</div>
+									</div>
+								</div>
+							</div>
+						</form>
+					</div>
+		    		</div>
+	    		</div>
+	    	</div>
+	    	<div class="footer pt_60 background6">
+	    		<div class="container">
+	    			<div class="footer_bottom pb_60">
+	    				<div class="row">
+		    				<div class="col-md-12 col-lg-12">
+		    					<div class="row">
+		    						<div class="col-md-6 col-lg-6">
+		    							<div class="footer-widget">
+		    								<div class="footer_title pb_30">
+												<h3 class="widget_title color_white">Latest Tweets</h3>					
+											</div>
+											<div class="twite color_secondery pb_30">
+												<p class="color_white">Habitasse auctor proin netus nam maecenas aptent risus. Eu scelerisque pretium amet augue varius rutrum nonummy. <a class="color_default" href="#"> httm://envato/cprxetxyt</a></p>
+												<i class="fa fa-clock-o" aria-hidden="true"></i><span>Posted On 13 Feb 2019</span>
+											</div>
+											<div class="twite color_secondery pb_30">
+												<p class="color_white">Dolor mollis cum mi leo massa, nulla vehicula accumsan nisi etiam tristique fermentum erat purus. <a class="color_default" href="#"> http://envato/sotvoisd</a></p>
+												<i class="fa fa-clock-o" aria-hidden="true"></i><span>Posted On 12 Feb 2019</span>
+											</div>
+		    							</div>
+		    						</div>
+		    						<div class="col-md-6 col-lg-6">
+		    							<div class="footer-widget">
+		    								<div class="footer_title pb_30">
+												<h3 class="widget_title color_white">Newsletter Subscribe</h3>		
+											</div>
+											<div class="newsletter">
+												<p class="color_white">Cursus iaculis interdum arcu habitant arcu rhoncus felis dictum tortor enim dignissim per. Risus ad sodales lorem habitasse. Dapibus vel litora rutrum dignissim nisi. Vitae, lacus imperdiet placerat volutpat inceptos.</p>
+												<div class="subscribe mt_30">
+													<div class="input-group">
+												        <input type="email" class="form-control" placeholder="Enter your email">
+												        <button class="btn btn-default" type="submit">Send</button>
+											        </div>
+												</div>
+											</div>
+		    							</div>
+		    						</div>
+		    					</div>
+		    				</div>
+		    			</div>
+	    			</div>
+	    		</div>
+	    		<div class="copyright2 p_20 color_lightgray bg_primary text-center"><p>Pratham Casa Serene @ 2019. All Right Reserved.</p></div>
+	    	</div>
+	    </div>
+		<!--	End Contact
+		===================================================-->
+    </div>
+    <!--	Js Links
+	===================================================-->
+    <script src="js/jquery.min.js"></script>
+    <script src="js/popper.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/plugins.js"></script>
+    <script src="js/jquery.pagepiling.min.js"></script>
+    <script src="js/custom.js"></script>
+    <script>
+        var deleteLog = false;
+        //	Pagepiling js
+        //=====================================================
+        $(document).ready(function() {
+            $('#pagepiling_horizontal').pagepiling({
+                direction: 'horizontal',
+                menu: '#menu',
+                anchors: ['page1', 'page2', 'page3', 'page4', 'page5', 'page6', 'page7', 'page8', 'page9'],
+                loopTop: true,
+                loopBottom: true
+            });
+        });
+        //	Sidebar Nav Menu js
+        //=====================================================
+        function openNav() {
+            document.getElementById("mysidenav").style.width = "150px";
+        }
+
+        function closeNav() {
+            document.getElementById("mysidenav").style.width = "0";
+        }
+		$('.liReadMore').click(function() {
+
+            var idVal = $(this).attr('id');
+
+
+
+            idValSplit = idVal.split("_");
+
+            idVal = idValSplit[1];
+
+            var idValCss = $('#list_' + idVal).css('display');
+
+            if (idValCss == 'none') {
+
+                $('#list_' + idVal).css('display', 'block');
+
+                $('#readMore_' + idVal).html('Show Less');
+
+            }
+
+            if (idValCss == 'block') {
+
+                $('#list_' + idVal).css('display', 'none');
+
+                $('#readMore_' + idVal).html('Show More');
+
+            }
+
+            console.log(idValCss);
+
+            // $('.testimonials-carousel').trigger('to.owl.carousel', [idVal,10,true]);
+
+        });
+		
+	let i=2;
+
+	
+	$(document).ready(function(){
+		var radius = 200;
+		var fields = $('.itemDot');
+		var container = $('.dotCircle');
+		var width = container.width();
+ radius = width/2.5;
+ 
+		 var height = container.height();
+		var angle = 0, step = (2*Math.PI) / fields.length;
+		fields.each(function() {
+			var x = Math.round(width/2 + radius * Math.cos(angle) - $(this).width()/2);
+			var y = Math.round(height/2 + radius * Math.sin(angle) - $(this).height()/2);
+			if(window.console) {
+				console.log($(this).text(), x, y);
+			}
+			
+			$(this).css({
+				left: x + 'px',
+				top: y + 'px'
+			});
+			angle += step;
+		});
+		
+		
+		$('.itemDot').click(function(){
+			
+			var dataTab= $(this).data("tab");
+			$('.itemDot').removeClass('active');
+			$(this).addClass('active');
+			$('.CirItem').removeClass('active');
+			$( '.CirItem'+ dataTab).addClass('active');
+			i=dataTab;
+			
+			$('.dotCircle').css({
+				"transform":"rotate("+(360-(i-1)*36)+"deg)",
+				"transition":"2s"
+			});
+			$('.itemDot').css({
+				"transform":"rotate("+((i-1)*36)+"deg)",
+				"transition":"1s"
+			});
+			
+			
+		});
+		
+		setInterval(function(){
+			var dataTab= $('.itemDot.active').data("tab");
+			if(dataTab>6||i>6){
+			dataTab=1;
+			i=1;
+			}
+			$('.itemDot').removeClass('active');
+			$('[data-tab="'+i+'"]').addClass('active');
+			$('.CirItem').removeClass('active');
+			$( '.CirItem'+i).addClass('active');
+			i++;
+			
+			
+			$('.dotCircle').css({
+				"transform":"rotate("+(360-(i-2)*36)+"deg)",
+				"transition":"2s"
+			});
+			$('.itemDot').css({
+				"transform":"rotate("+((i-2)*36)+"deg)",
+				"transition":"1s"
+			});
+			
+			}, 5000);
+		
+	});
+
+
+
+    </script>
+</body>
+
+</html>
