@@ -848,7 +848,7 @@ include 'includes/header.php';
           <div class="col-10">
 			  <h6 class="text-center"></h6>
               <br/>
-            <p>Vinay joined the group in early 2011 after spending his early 20s abroad at USA. Owing to his somewhat gregarious nature, he enjoys taking up the Marketing division of the group. Further, given his technical background in engineering management he collaborates in the project management aspect of the construction schedules</p>
+            <p>Vinay joined the group in early 2011 after spending his early 20s abroad at USA. Owing to his somewhat gregarious nature, he enjoys taking up the Marketing division of the group. Further, given his technical background in engineering management he collaborates in the project management aspect of the construction schedules.</p>
 	 </div>
 		  <div class="col-12">
 		  <p><b>
