@@ -76,7 +76,7 @@
 									</div>
 								</div>
 
-								<div class="col-md-5 col-lg-5">
+								<div class="col-md-6 col-lg-6">
 									<div class="form-group">
 										<select class="form-control" size="0" name="ccode" wfd-id="29">
 
@@ -519,7 +519,7 @@
 										</select>
 									</div>
 								</div>
-								<div class="col-md-7 col-lg-7">
+								<div class="col-md-6 col-lg-6">
 									<div class="form-group">
 										<input class="form-control" type="number" id="phone" name="phone" required  placeholder="Phone" />
 									</div>
