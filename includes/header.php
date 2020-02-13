@@ -74,7 +74,7 @@
 					  <li class="nav-item"><a class="nav-link" href="#about">About </a></li>
 					  <li class="nav-item"><a class="nav-link" href="#portfolio">Our Projects</a></li>
 					  <li class="nav-item"><a class="nav-link" href="#Walkthrough">Walkthrough</a></li>
-					  <li class="nav-item"><a class="nav-link" href="#experience">Location</a></li>
+					<?php //  <li class="nav-item"><a class="nav-link" href="#experience">Location</a></li> ?>
 			
 					 
 					  <li class="nav-item"><a class="nav-link" href="#contact">Contact</a></li>	

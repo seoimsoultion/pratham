@@ -553,7 +553,7 @@
 	==================================================-->
 	<div id="mysidenav" class="sidenav">
 		<a href="javascript:void(0)" class="closebtn" onclick="closeNav()"><i class="flaticon-close-button"></i></a>
-		<img class="nav-logo" src="images/logo/29.png" alt="image">
+		<a href="http://demo.imsolutions.in/pratham/"><img class="nav-logo" src="images/logo/29.png" alt="image"></a>
 		<ul id="menu">
 			<li data-menuanchor="page1" class="active"><a href="#page1">Home</a></li>
 			<li data-menuanchor="page2"><a href="#page2">About Us</a></li>
@@ -569,7 +569,9 @@
 		</ul>
 	</div>
 	<div class="sidebar bg_primary">
-		<div class="logo text-center"><a href="#page1"><img class="nav-logo" src="images/logo/29.png" alt="logo"></a></div>
+		<div class="logo text-center">
+			<a href="http://demo.imsolutions.in/pratham/">
+			<img class="nav-logo" src="images/logo/29.png" alt="logo"></a></div>
 		<span style="cursor:pointer" onclick="openNav()">&#9776;</span>
 		<div class="socal_media mt_60">
 			<ul>
