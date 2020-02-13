@@ -673,16 +673,13 @@
 										<div class="row">
 											<div class="col-md-12 col-lg-12">
 												<div class="myself title color_primary">
-													<h3>Embracing age old traditions while forging modern paths </h3>
-													<p>Pratham Constructions have a rich history spanning various business segments over 70 years under the parent name of K.M. Gadia & Sons. K.M. Gadia & Sons explored the realm of real estate development with its maiden project ‘Pratham Casa Serene’.</p>
-													<p>The excitement of turning lands into landmarks was the biggest driving factor for the company. The company’s mission has always been to provide superior products and services by arriving at innovative solutions, which will help improve the quality of life and satisfy consumer needs.</p>
-													<p>
-														Nestled in the heart of Yeshwantpur, Pratham Indrapastha embodies traditional values that blend seamlessly with modern comforts and luxuries.
-													</p>
-													<h3 class="title color_primary">Luxury 2 and 3 bedroom homes at Indraprastha</h3>
-													<p class="">Experience the joy of living big with generous spaces planned for quality lifestyles. Indraprastha boasts a vast selection of 2 and 3 BHK homes, designed for comfort, functionality and affordability.</p>
-													<p>Design meets desire in interiors that display the highest attention to detail, fittings and finishes that reflect the elegance of your taste and Vastu compliant layouts that energise you, fill you with the joy of living and transform your lifestyle into a state of continuous bliss.</p>
-													<p>Nestled in the heart of Yashwanthpur, Indraprastha embodies traditional values that blend seamlessly with a modern lifestyle.</p>
+													<h3>Engineering quality housing for your family!  </h3>
+													<p>Designed to meet the dynamic and ultra-urban lifestyle of the Silicon Valley of India, Indraprastha is an ambitious residential project by the Pratham Construction. Offering exclusive 2 and 3 BHK apartments with state-of-the-art amenities, here at Indraprastha you will experience the ultimate joy of living in a spacious and well-designed residential space. Built to enhance the quality of your lifestyle, each apartment integrates highest quality comfort, functionality and affordability. Facilitating world-class standard of living, the highlights of amenities include a Clubhouse, Library, Crèche, Mini Theatre, Health Club, Tennis Court, Swimming Pool, Outdoor Party Area, Banquet Hall, Gym, Badminton Courts, Squash Courts, Snooker, Table Tennis, other indoor games, Kids’ play area and provision for a Convenience Store.</p>
+													<br/>
+													<p>Pratham Indraprastha is meticulously designed with unbound convenience. The interiors are made up of finest quality giving highest attention to detail, fittings and finishes reflecting the effortless blend of modernity and elegance. Aesthetics blend in perfect harmony making each room well-ventilated with ample natural light. Tradition at its heart, Pratham Indraprastha is also Vaastu Compliant. </p>
+													<br/>
+													<p>Nestled in the heart of Yashwanthpur, Indraprastha embodies connectivity and conveniences. Indraprastha resonates among the most prestigious addresses in Bangalore. It is close to major schools, colleges, hospitals and shopping malls ensuring that your daily life is convenient and hassle free. Some important centres in the vicinity include Sheraton Hotel, Taj Vivanta, Metro Cash n carry Mall, Orion Mall, Big Bazaar, City Railway Station, Columbia Asia Hospital, ISKCON Temple, MS Ramaiah College and India Institute of Science. </p>
+													
 												</div>
 											</div>
 
@@ -709,7 +706,7 @@
 		    				================================-->
 							<div class="main_title pb_60">
 								<h2 class="title color_primary  text-center">Amenities</h2>
-								<p class="mt_15 text-center">Interdum a etiam sagittis vehicula porta. Massa felis eros quam blandit nulla dolor habitant.</p>
+								<p class="mt_15 text-center">Designed by best of architects of the Pratham Constructions, the amenities at Indraprastha is of international standard offering an elegant ambience, contemporary lifestyle and ultra-modern functionality. </p>
 							</div>
 							<!--	End Title
 		    				================================-->
@@ -843,7 +840,7 @@
 		    				================================-->
 							<div class="main_title pb_60">
 								<h2 class="title color_primary text-center">Walkthrough</h2>
-								<p class="mt_15 text-center">Interdum a etiam sagittis vehicula porta. Massa felis eros quam blandit nulla dolor habitant.</p>
+								<p class="mt_15 text-center">Get a glimpse of the luxury that awaits you!</p>
 							</div>
 							<!--	End Title
 		    				================================-->
@@ -1055,7 +1052,7 @@
 		    				================================-->
 							<div class="main_title pb_60">
 								<h2 class="title color_primary  text-center">Floor Plan</h2>
-								<p class="mt_15  text-center">Interdum a etiam sagittis vehicula porta. Massa felis eros quam blandit nulla dolor habitant.</p>
+								<p class="mt_15  text-center">Pratham Indraprastha consists of 2 and 3 BHK apartment units with size ranging from 1270-1655 Sqft coming in 4 blocks. </p>
 							</div>
 							<!--	End Title
 		    				================================-->
@@ -1068,10 +1065,10 @@
 										<div class="filters mb_30 w-100">
 											<ul class="filter-tabs d-inline-block">
 												<li class="active filter" data-role="button" data-filter="all">All</li>
-												<li class=" filter" data-role="button" data-filter=".Block1">Black 1</li>
-												<li class="filter" data-role="button" data-filter=".Block2">Black 2</li>
-												<li class="filter" data-role="button" data-filter=".Block3">Black 3</li>
-												<li class="filter" data-role="button" data-filter=".Block4">Black 4</li>
+												<li class=" filter" data-role="button" data-filter=".Block1">Block 1</li>
+												<li class="filter" data-role="button" data-filter=".Block2">Block 2</li>
+												<li class="filter" data-role="button" data-filter=".Block3">Block 3</li>
+												<li class="filter" data-role="button" data-filter=".Block4">Block 4</li>
 											</ul>
 										</div>
 									</div>
@@ -1492,7 +1489,7 @@
 		    				================================-->
 							<div class="main_title pb_60">
 								<h2 class="title color_primary  text-center">Master Plan</h2>
-
+								<p class="mt_15  text-center">	<p class="mt_15  text-center">Pratham Indraprastha consists of 2 and 3 BHK apartment units with size ranging from 1270-1655 Sqft coming in 4 blocks. </p> </p>
 							</div>
 							<!--	End Title
 		    				================================-->
@@ -1533,7 +1530,7 @@
 		    				================================-->
 							<div class="main_title pb_60">
 								<h2 class="title color_primary  text-center">Location Map</h2>
-
+								<p class="mt_15  text-center">Conveniently placed in the heart of Yashwanthpur, enjoy enhanced connectivity and accessibility to the prime centres of the city from Indraprastha.  </p>
 							</div>
 							<!--	End Title
 		    				================================-->

@@ -9,7 +9,7 @@
 		    				================================-->
 		    				<div class="main_title pb_60">
 								<h2 class="title color_white text-center">Contact</h2>
-								<p class="mt_15 color_white text-center">Interdum a etiam sagittis vehicula porta. Massa felis eros quam blandit nulla dolor habitant.</p>											
+								<p class="mt_15 color_white text-center">Should you wish to know more about the project, please free to leave your comments. We will get back to you and arrange for a site visit on request. </p>											
 							</div>
 							<!--	End Title
 		    				================================-->
@@ -549,7 +549,7 @@
 				</div>
 	    		</div>
 	    	</div>
-	    	<div class="footer pt_60 background6">
+	    	<div class="footer pt_60 ">
 	    		<div class="container">
 	    			<div class="footer_bottom pb_60">
 	    				<div class="row">
@@ -559,9 +559,12 @@
 		    			</div>
 	    			</div>
 	    		</div>
-	    		<div class="copyright2 p_20 color_lightgray bg_primary text-center"><p>Runaway @ 2019. All Right Reserved.</p></div>
+	    		<div class="copyright2 p_20  color_white text-center">
+				<p>Pratham Construction @ 2020. All Right Reserved.</p></div>
 	    	</div>
-	    </div>
+		</div>
+		
+	
 		<!--	End Contact
 		===================================================-->
 	</div>
