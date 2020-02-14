@@ -13,23 +13,35 @@
 							</div>
 							<!--	End Title
 		    				================================-->
-		    			</div>
-		    		</div>
-		    		<div class="row">
+						</div>
+
+
+
+
+
+
+
+
+
+
+						<div class="col-md-12 col-lg-12">
+				<div class="row">
 					<div class="col-md-4 col-lg-4">
 						<div class="contact_info wow animated fadeInLeft">
+							<h4 class="font-weight-bold color_white">VISIT US</h4>
+							<hr>
 							<ul>
 								<li>
 									<div class="contact_text color_default">
 										<h6 class="font-weight-bold color_default">Email</h6>
-										<span class="color_white">www.prathamconstructions.com</span>
+										<span class="color_white">info@prathamconstructions.com</span>
 									</div>
 								</li>
 								<li>
 									<div class="contact_text">
 										<h6 class="font-weight-bold color_default">Phone</h6>
 										<span class="color_white">(+91) 7829 583 111
-											<br/>
+											<br />
 											(+91) 804 171 5678</span>
 									</div>
 								</li>
@@ -47,12 +59,7 @@
 											Karnataka - 560 009</span>
 									</div>
 								</li>
-								<li>
-									<div class="contact_text">
-										<h6 class="font-weight-bold color_default">Website</h6>
-										<span class="color_white">www.yourdomain.com</span>
-									</div>
-								</li>
+
 							</ul>
 						</div>
 						<div class="socal_media_2 mt_15 d-inline-block">
@@ -65,9 +72,14 @@
 							</ul>
 						</div>
 					</div>
-					<div class="col-md-8 col-lg-8">
-					<form class="form contact_message wow animated fadeInRight" id="contact-form" action="email.php" method="post">
+					<div class="col-md-4 col-lg-4">
+						<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3331526.464703651!2d75.9153996165634!3d14.135007853135056!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bae160ea081b3ef%3A0x2a70d35330e1dabb!2sPrathamm%20Developers!5e0!3m2!1sen!2sin!4v1581493178368!5m2!1sen!2sin" width="100%" height="400" frameborder="0" style="border:0;" allowfullscreen=""></iframe>
+					</div>
+					<div class="col-md-4 col-lg-4">
+						<span id="errmsg"></span>
+						<form class="form contact_message wow animated fadeInRight" id="contact-form" action="email.php" method="post">
 							<div class="row">
+
 								<div class="col-md-6 col-lg-6">
 									<div class="form-group">
 										<input class="form-control" type="text" name="name" placeholder=" Name" />
@@ -79,7 +91,7 @@
 									</div>
 								</div>
 
-								<div class="col-md-4 col-lg-4">
+								<div class="col-md-6 col-lg-6">
 									<div class="form-group">
 										<select class="form-control" size="0" name="ccode" wfd-id="29">
 
@@ -522,9 +534,9 @@
 										</select>
 									</div>
 								</div>
-								<div class="col-md-8 col-lg-8">
+								<div class="col-md-6 col-lg-6">
 									<div class="form-group">
-										<input class="form-control" type="text" name="phone" placeholder="Phone" />
+										<input class="form-control" type="number" id="phone" name="phone" required placeholder="Phone" />
 									</div>
 								</div>
 								<div class="col-md-12 col-lg-12">
@@ -547,27 +559,30 @@
 						</form>
 					</div>
 				</div>
-	    		</div>
-	    	</div>
-	    	<div class="footer pt_60 ">
-	    		<div class="container">
-	    			<div class="footer_bottom pb_60">
-	    				<div class="row">
-		    				<div class="col-md-12 col-lg-12">
-		    					
-		    				</div>
-		    			</div>
+				<div class="copyright2 p_20  color_white text-center">
+				<p>Pratham Construction @ 2020. All Right Reserved.</p>
+			<p > &nbsp;</p>
+			</div>
+				
+			</div>
+
+
 	    			</div>
-	    		</div>
-	    		<div class="copyright2 p_20  color_white text-center">
-				<p>Pratham Construction @ 2020. All Right Reserved.</p></div>
-	    	</div>
-		</div>
+
+
+						
+
+		
 		
 	
 		<!--	End Contact
 		===================================================-->
 	</div>
+			</div>
+		</div>
+		
+						</div>
+
 	
 	<!--	Js Links
 	===================================================-->
