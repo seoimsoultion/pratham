@@ -892,7 +892,7 @@
 										<div class="active  carousel-item" data-slide-number="0">
 
 											<a href="https://www.youtube.com/watch?v=85s_vReVsPQ " class="video-thumb-wrapper" data-fancybox="gallery">
-												<img src="http://i3.ytimg.com/vi/85s_vReVsPQ/hqdefault.jpg" class="img-fluid video-thumb" style="width:1120px;height:450px">
+												<img src="http://i3.ytimg.com/vi/85s_vReVsPQ/hqdefault.jpg" class="img-fluid video-img" >
 												<img src="images/play.png" class="vimg">
 											</a>
 
@@ -902,56 +902,56 @@
 
 										<div class="carousel-item" data-slide-number="1">
 											<a href="https://www.youtube.com/watch?v=cslb-p8FFlw" data-fancybox="gallery">
-												<img src="http://i3.ytimg.com/vi/cslb-p8FFlw/hqdefault.jpg" class="img-fluid" style="width:1120px;height:450px">
+												<img src="http://i3.ytimg.com/vi/cslb-p8FFlw/hqdefault.jpg" class="img-fluid video-img" >
 												<img src="images/play.png" class="vimg">
 											</a>
 
 										</div>
 										<div class="carousel-item" data-slide-number="2">
 											<a href="https://www.youtube.com/watch?v=2r258QF0uV0" data-fancybox="gallery">
-												<img src="http://i3.ytimg.com/vi/2r258QF0uV0/hqdefault.jpg" class="img-fluid" style="width:1120px;height:450px">
+												<img src="http://i3.ytimg.com/vi/2r258QF0uV0/hqdefault.jpg" class="img-fluid video-img" >
 												<img src="images/play.png" class="vimg">
 											</a>
 										</div>
 										<div class="carousel-item" data-slide-number="3">
 											<a href="https://www.youtube.com/watch?v=i8prMGP62w8" data-fancybox="gallery">
-												<img src="http://i3.ytimg.com/vi/i8prMGP62w8/hqdefault.jpg" class="img-fluid" style="width:1120px;height:450px">
+												<img src="http://i3.ytimg.com/vi/i8prMGP62w8/hqdefault.jpg" class="img-fluid video-img" >
 												<img src="images/play.png" class="vimg">
 											</a>
 										</div>
 										<div class="carousel-item" data-slide-number="4">
 											<a href="https://www.youtube.com/watch?v=LTnte0kj8js" data-fancybox="gallery">
-												<img src="http://i3.ytimg.com/vi/LTnte0kj8js/hqdefault.jpg" class="img-fluid" style="width:1120px;height:450px">
+												<img src="http://i3.ytimg.com/vi/LTnte0kj8js/hqdefault.jpg" class="img-fluid video-img" >
 												<img src="images/play.png" class="vimg">
 											</a>
 										</div>
 										<div class="carousel-item" data-slide-number="5">
 											<a href="https://www.youtube.com/watch?v=-o4iDefky0U" data-fancybox="gallery">
-												<img src="http://i3.ytimg.com/vi/-o4iDefky0U/hqdefault.jpg" class="img-fluid" style="width:1120px;height:450px">
+												<img src="http://i3.ytimg.com/vi/-o4iDefky0U/hqdefault.jpg" class="img-fluid video-img" >
 												<img src="images/play.png" class="vimg">
 											</a>
 										</div>
 										<div class="carousel-item" data-slide-number="6">
 											<a href="https://www.youtube.com/watch?v=BDriOdnzrxQ" data-fancybox="gallery">
-												<img src="http://i3.ytimg.com/vi/BDriOdnzrxQ/hqdefault.jpg" class="img-fluid" style="width:1120px;height:450px">
+												<img src="http://i3.ytimg.com/vi/BDriOdnzrxQ/hqdefault.jpg" class="img-fluid video-img" >
 												<img src="images/play.png" class="vimg">
 											</a>
 										</div>
 										<div class="carousel-item" data-slide-number="7">
 											<a href="https://www.youtube.com/watch?v=JcfkjjMxthg" data-fancybox="gallery">
-												<img src="http://i3.ytimg.com/vi/JcfkjjMxthg/hqdefault.jpg" class="img-fluid" style="width:1120px;height:450px">
+												<img src="http://i3.ytimg.com/vi/JcfkjjMxthg/hqdefault.jpg" class="img-fluid video-img" >
 												<img src="images/play.png" class="vimg">
 											</a>
 										</div>
 										<div class="carousel-item" data-slide-number="8">
 											<a href="https://www.youtube.com/watch?v=1tDyWbs4bew" data-fancybox="gallery">
-												<img src="http://i3.ytimg.com/vi/1tDyWbs4bew/hqdefault.jpg" class="img-fluid" style="width:1120px;height:450px">
+												<img src="http://i3.ytimg.com/vi/1tDyWbs4bew/hqdefault.jpg" class="img-fluid video-img" >
 												<img src="images/play.png" class="vimg">
 											</a>
 										</div>
 										<div class="carousel-item" data-slide-number="9">
 											<a href="https://www.youtube.com/watch?v=dRBKbO3OGJ8" data-fancybox="gallery">
-												<img src="http://i3.ytimg.com/vi/dRBKbO3OGJ8/hqdefault.jpg" class="img-fluid" style="width:1120px;height:450px">>
+												<img src="http://i3.ytimg.com/vi/dRBKbO3OGJ8/hqdefault.jpg" class="img-fluid video-img" >>
 												<img src="images/play.png" class="vimg">
 											</a>
 										</div>

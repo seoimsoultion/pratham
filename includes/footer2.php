@@ -70,12 +70,12 @@
 							<div class="row">
 								<div class="col-md-6 col-lg-6">
 									<div class="form-group">
-										<input class="form-control" type="text" name="name" placeholder="Your Name" />
+										<input class="form-control" type="text" name="name" placeholder=" Name" />
 									</div>
 								</div>
 								<div class="col-md-6 col-lg-6">
 									<div class="form-group">
-										<input class="form-control" type="email" name="email" placeholder="Email Address" />
+										<input class="form-control" type="email" name="email" placeholder="Email " />
 									</div>
 								</div>
 
