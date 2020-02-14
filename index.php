@@ -56,7 +56,7 @@ include 'includes/header.php';
 		top: 0;
 		left: 0px;
 		width: calc(100% + 100px);
-		height: calc(100% + 200px);
+		height: calc(100% + 120px);
 		background-position: 100%;
 		background-size: cover;
 	}
@@ -406,7 +406,18 @@ include 'includes/header.php';
 							<span class="test-title" wfd-id="167"><b>Indraprastha</b></span>
 							<span class="test-info" wfd-id="166">Near Yeshwantpur Metro Station</span>
 						</span>
-						<p class="testp">Located at Yashwantpur, Indraprastha is a premium residential project nestled in the manicured greens and replete with all modern amenities offering a blissful life. The amenities highlights include gymnasium, swimming pool and other sports facilities such as Squash Court, Badminton Court, Multipurpose Court, etc.  </p>
+						
+						<div class="col-sm-12 details">
+						<div class="row">
+						<div class="col-sm-6 color_white"><b class="color_default" > Type :</b> Residential Apartment</div>
+						<div class="col-sm-6 color_white"><b class="color_default">Area Range  :</b> 1250-1655 Sq.Ft</div>
+						<div class="col-sm-6 color_white"><b class="color_default">Location :</b> Yeshwanthpur</div>
+						<div class="col-sm-6 color_white"><b class="color_default">Classification  :</b> 2BHK,3BHK</div>
+						<div class="col-sm-6 color_white"><b class="color_default">Possession  :</b> Dec 2019</div>
+						<div class="col-sm-6 color_white"><b class="color_default">No. of Units   :</b>  253 Units </div>
+						</div>
+						</div>
+					<?php /*	<p class="testp">Located at Yashwantpur, Indraprastha is a premium residential project nestled in the manicured greens and replete with all modern amenities offering a blissful life. The amenities highlights include gymnasium, swimming pool and other sports facilities such as Squash Court, Badminton Court, Multipurpose Court, etc.  </p> */ ?>
 
 						<a class="btn btn-project" href="indraprastha.php">View Project</a>
 
@@ -424,7 +435,17 @@ include 'includes/header.php';
 							<span class="test-title" wfd-id="167"><b>Casa Serene</b></span>
 							<span class="test-info" wfd-id="166"></span>
 						</span>
-						<p class="testp">Indulge in absolute serenity while still having the best access to urban amenities at Casa Serene. Located at Dasarahalli on Tumkur Road, Casa Serene has 2 and 3BHK apartments with modern amenities.  It offers smooth connectivity to the prime locations in the city, besides housing many reputed educational institutions, hospitals etc.</p>
+						<div class="col-sm-12 details">
+						<div class="row">
+						<div class="col-sm-6 color_white"><b class="color_default" > Type :</b> Residential Apartment</div>
+						<div class="col-sm-6 color_white"><b class="color_default">Area Range  :</b> 1164-1583 Sq.Ft</div>
+						<div class="col-sm-6 color_white"><b class="color_default">Location :</b> Prashanth Nagar</div>
+						<div class="col-sm-6 color_white"><b class="color_default">Classification  :</b> 2BHK,3BHK</div>
+						<div class="col-sm-6 color_white"><b class="color_default">Possession  :</b> Ready To Move</div>
+						<div class="col-sm-6 color_white"><b class="color_default">No. of Units   :</b>  140 Units </div>
+						</div>
+						</div>
+						<?php /*<p class="testp">Indulge in absolute serenity while still having the best access to urban amenities at Casa Serene. Located at Dasarahalli on Tumkur Road, Casa Serene has 2 and 3BHK apartments with modern amenities.  It offers smooth connectivity to the prime locations in the city, besides housing many reputed educational institutions, hospitals etc.</p> */ ?>
 						
 						<a class="btn btn-project" href="#">View Project</a>
 					</div>
