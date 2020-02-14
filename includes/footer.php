@@ -537,7 +537,7 @@
 									</div>
 								</div>
 								<div class="col-md-12 col-lg-12">
-									<div class="form-group">
+									<div class="form-group col text-center">
 										<input class="btn btn-default" id="send" value="submit" type="submit" />
 									</div>
 								</div>
