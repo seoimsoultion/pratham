@@ -13,7 +13,7 @@
 			<div class="col-md-12 col-lg-12">
 				<div class="section_title_1 text-center mx-auto pb_60 wow animated slideInUp">
 					
-					<p class="sub_title color_white text-justify">Should you wish to know more, please free to write to us. Our representative will attend to you as soon as possible. We also arrange for site visit on request. </p>
+					<p class="sub_title color_white ">Should you wish to know more, please free to write to us. Our representative will attend to you as soon as possible. We also arrange for site visit on request. </p>
 				</div>
 			</div>
 			<div class="col-md-12 col-lg-12">

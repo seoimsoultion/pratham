@@ -279,7 +279,7 @@ include 'includes/header.php';
 			<div class="col-md-12 col-lg-12">
 				<div class="section_title_1 text-center mx-auto pb_60 wow animated slideInUp">
 					
-					<p class="sub_title color_white text-justify">“Providing the communities we serve with superior products and services by developing innovative
+					<p class="sub_title color_white ">“Providing the communities we serve with superior products and services by developing innovative
 						solutions to improve the quality of life and satisfy customer needs.”
 					</p>
 				</div>
@@ -511,7 +511,7 @@ include 'includes/header.php';
 		<div class="row">
 			<div class="col-md-12 col-lg-12">
 				<div class="section_title_1 text-center mx-auto  wow animated slideInUp">
-					<h2 class="title text-uppercase"><span class=" mx-auto color_white">&nbsp; </span> blog <b class="heading_span"> What’s News </b></h2>
+					<h2 class="title text-uppercase"><span class=" mx-auto color_white">&nbsp; </span> blog  What’s News </h2>
 					
 				</div>
 			</div>
@@ -519,7 +519,7 @@ include 'includes/header.php';
 			<div class="col-md-12 col-lg-12">
 				<div class="section_title_1 text-center mx-auto pb_60 wow animated slideInUp">
 					
-					<p class="sub_title text-justify">Interdum a etiam sagittis vehicula porta. Massa felis eros quam blandit nulla dolor habitant. Ullamcorper quis ornare et proin pellentesque.</p>
+					<p class="sub_title ">Interdum a etiam sagittis vehicula porta. Massa felis eros quam blandit nulla dolor habitant. Ullamcorper quis ornare et proin pellentesque.</p>
 				</div>
 			</div>
 			<div class="col-md-12 col-lg-12">
@@ -674,7 +674,7 @@ include 'includes/header.php';
 			<div class="col-md-12 col-lg-12">
 				<div class="section_title_1 text-center mx-auto pb_60 wow animated slideInUp">
 					
-					<p class="sub_title text-justify">Pratham Constructions take customer feedbacks very seriously as we continually strive for improvement and better ourselves in every step we take. We were overwhelmed with the kind words said by our customers.  </p>
+					<p class="sub_title ">Pratham Constructions take customer feedbacks very seriously as we continually strive for improvement and better ourselves in every step we take. We were overwhelmed with the kind words said by our customers.  </p>
 				</div>
 			</div>
 
