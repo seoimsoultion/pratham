@@ -69,12 +69,12 @@
 
 .nav-logo {
 
-    width: 100px;
+    width: 85px;
     background: white;
-    padding:5px;
+    
   
-    margin-top: -15px;
-    margin-bottom: -15px;
+    margin-top: -20px;
+    margin-bottom: -20px;
 
 }
 .tt1 {background: #FAA61A;}
@@ -90,6 +90,7 @@
   margin: 15px;
   
 }
+.details { background: rgba(33, 37, 41, 0.9) ;}
 .testp {color:#707070;text-align: left;padding:10px 0; border-top:#FAA61A solid 5px; line-height: 24px; }
 
 .test-title {color:#FAA61A}
@@ -109,9 +110,9 @@ a.btn-project {border:1px #FAA61A solid; border-radius: 30px; margin: 10px 0; pa
   background-color: rgba(255, 255, 255, 0.05);
 }
 .navbar-collapse {margin-top:10px ;}
-.slide-image {height: calc(100% + 135px);}
+.slide-image {height: calc(100% + 100px);}
 .fa, .far, .fas {
-  font-family: Font Awesome 5 ;
+  font-family: "FontAwesome" !important  ;
 }
 .team-link {position: absolute; bottom: 0;left: 30%;}
 #errmsg{color: red;}
@@ -122,5 +123,8 @@ input[type=number]::-webkit-outer-spin-button {
     appearance: none;
     margin: 0; 
 }
-.modal {top: 10%;}
-.modal-body {height:500px;overflow:scroll}
+.modal {top: 20%;}
+.modal-body {height:350px;overflow:scroll}
+.py_80 {padding: 40px 0px;}
+.contact_message .error {color:red}
+.heading_span {color:#faa61a}

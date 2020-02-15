@@ -281,6 +281,8 @@
 //  12.   Contact Form Validation
 //=========================================================================================
 
+
+
 if($contact.length){
     $contact.validate({  //#contact-form contact form id
       rules: {
@@ -291,7 +293,7 @@ if($contact.length){
           required: true, // Field name here
           email: true
         },
-        subject: {
+        phone: {
           required: true
         },
         message: {
@@ -302,10 +304,10 @@ if($contact.length){
       messages: {
                 name: "Please enter your First Name", //Write here your error message that you want to show in contact form
                 email: "Please enter valid Email", //Write here your error message that you want to show in contact form
-                subject: "Please enter your Subject", //Write here your error message that you want to show in contact form
+                phone: "Please enter your phone", //Write here your error message that you want to show in contact form
                 message: "Please write your Message" //Write here your error message that you want to show in contact form
-            },
-
+            }
+            /*
             submitHandler: function (form) {
                 $('#send').attr({'disabled' : 'true', 'value' : 'Sending...' });
                 $.ajax({
@@ -329,7 +331,7 @@ if($contact.length){
                     }
                 });
                 return false; // required to block normal submit since you used ajax
-            }
+            } */
 
     });
   }

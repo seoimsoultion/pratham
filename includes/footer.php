@@ -4,9 +4,16 @@
 	<div class="container">
 		<div class="row">
 			<div class="col-md-12 col-lg-12">
+				<div class="section_title_1 text-center mx-auto  wow animated slideInUp">
+					<h2 class="title text-uppercase color_white"><span class=" mx-auto color_default color_white"></span>Get In Touch</h2>
+					
+				</div>
+			</div>
+
+			<div class="col-md-12 col-lg-12">
 				<div class="section_title_1 text-center mx-auto pb_60 wow animated slideInUp">
-					<h2 class="title text-uppercase color_white"><span class="line_double mx-auto color_default color_white">contact</span>Get In Touch</h2>
-					<span class="sub_title color_white">Should you wish to know more, please free to write to us. Our representative will attend to you as soon as possible. We also arrange for site visit on request. </span>
+					
+					<p class="sub_title color_white ">Should you wish to know more, please free to write to us. Our representative will attend to you as soon as possible. We also arrange for site visit on request. </p>
 				</div>
 			</div>
 			<div class="col-md-12 col-lg-12">
@@ -58,25 +65,25 @@
 						</div>
 					</div>
 					<div class="col-md-4 col-lg-4">
-					<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3331526.464703651!2d75.9153996165634!3d14.135007853135056!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bae160ea081b3ef%3A0x2a70d35330e1dabb!2sPrathamm%20Developers!5e0!3m2!1sen!2sin!4v1581493178368!5m2!1sen!2sin" width="100%" height="400" frameborder="0" style="border:0;" allowfullscreen=""></iframe>
+					<iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d3887.976910497626!2d77.57735039723289!3d12.973328575062375!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x2a70d35330e1dabb!2sPrathamm%20Developers!5e0!3m2!1sen!2sin!4v1581743452672!5m2!1sen!2sin" width="100%" height="400" frameborder="0" style="border:0;" allowfullscreen=""></iframe>
 					</div>
 					<div class="col-md-4 col-lg-4">
-					<span  id="errmsg"></span>
+						<span id="errmsg"></span>
 						<form class="form contact_message wow animated fadeInRight" id="contact-form" action="email.php" method="post">
 							<div class="row">
-							
+
 								<div class="col-md-6 col-lg-6">
 									<div class="form-group">
-										<input class="form-control" type="text" name="name" placeholder="Your Name" />
+										<input class="form-control" type="text" name="name" placeholder=" Name" />
 									</div>
 								</div>
 								<div class="col-md-6 col-lg-6">
 									<div class="form-group">
-										<input class="form-control" type="email" name="email" placeholder="Email Address" />
+										<input class="form-control" type="email" name="email" placeholder="Email " />
 									</div>
 								</div>
 
-								<div class="col-md-5 col-lg-5">
+								<div class="col-md-6 col-lg-6">
 									<div class="form-group">
 										<select class="form-control" size="0" name="ccode" wfd-id="29">
 
@@ -519,9 +526,9 @@
 										</select>
 									</div>
 								</div>
-								<div class="col-md-7 col-lg-7">
+								<div class="col-md-6 col-lg-6">
 									<div class="form-group">
-										<input class="form-control" type="number" id="phone" name="phone" required  placeholder="Phone" />
+										<input class="form-control" type="number" id="phone" name="phone" required placeholder="Contact No." />
 									</div>
 								</div>
 								<div class="col-md-12 col-lg-12">
@@ -530,7 +537,7 @@
 									</div>
 								</div>
 								<div class="col-md-12 col-lg-12">
-									<div class="form-group">
+									<div class="form-group col text-center">
 										<input class="btn btn-default" id="send" value="submit" type="submit" />
 									</div>
 								</div>
@@ -557,7 +564,8 @@
 		<div class="row">
 			<div class="col-md-12 col-lg-12">
 				<div class="copyright">
-					<p>Pratham Construction @ 2020. All Right Reserved.</p>
+				<p class="pull-left">Pratham Construction @ 2020. All Right Reserved.</p> 
+				<p class="pull-right"><a href="">IM Solutions</a></p>
 				</div>
 			</div>
 		</div>
@@ -597,17 +605,62 @@
 		});
 	});
 
-	$(document).ready(function () {
-  //called when key is pressed in textbox
-  $("#phone").keypress(function (e) {
-     //if the letter is not digit then display error and don't type anything
-     if (e.which != 8 && e.which != 0 && (e.which < 48 || e.which > 57)) {
-        //display error message
-        $("#errmsg").html("Digits Only").show().fadeOut("slow");
-               return false;
-    }
-   });
-});
+	$(document).ready(function() {
+		//called when key is pressed in textbox
+		$("#phone").keypress(function(e) {
+			//if the letter is not digit then display error and don't type anything
+			if (e.which != 8 && e.which != 0 && (e.which < 48 || e.which > 57)) {
+				//display error message
+				$("#errmsg").html("Digits Only").show().fadeOut("slow");
+				return false;
+			}
+		});
+
+
+
+	});
+
+	$("#contact-form").submit(function() {
+		var str = $(this).serialize();
+		$.ajax({
+			type: "POST",
+			url: "contact-process.php",
+			data: str,
+			success: function(msg) {
+				if (msg == 'OK') {
+					result = '<p style="color:green !important; font-weight: 600;font-size: 18px;">Email Sent Successfully!</p>';
+					$('#errmsg').delay(18000).fadeOut();
+					$('#contact-form')[0].reset();
+					//$('input,textarea').val('');
+				} else {
+					result = msg;
+				}
+				$('#errmsg').html(result);
+			}
+		});
+		return false;
+	});
+
+	$("#ccon").submit(function() {
+		var str = $(this).serialize();
+		$.ajax({
+			type: "POST",
+			url: "contact-process.php",
+			data: str,
+			success: function(msg) {
+				if (msg == 'OK') {
+					result = '<p style="color:green !important; font-weight: 600;font-size: 18px;">Email Sent Successfully!</p>';
+					$('#contacterrormessage').delay(18000).fadeOut();
+					$('#pcon')[0].reset();
+					//$('input,textarea').val('');
+				} else {
+					result = msg;
+				}
+				$('#contacterrormessage').html(result);
+			}
+		});
+		return false;
+	});
 </script>
 </body>
 
