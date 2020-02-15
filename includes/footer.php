@@ -1,18 +1,18 @@
 <!--	Start Contact
 	===================================================-->
 <section id="contact" class="py_80 full_row bg_white">
-	<div class="container">
+	<div class="container pb_60">
 		<div class="row">
 			<div class="col-md-12 col-lg-12">
-				<div class="section_title_1 text-center mx-auto  wow animated slideInUp">
+				<div class="section_title_1 text-center mx-auto py_80     wow animated slideInUp">
 					<h2 class="title text-uppercase color_white"><span class=" mx-auto color_default color_white"></span>Contact Us</h2>
-					
+
 				</div>
 			</div>
 
 			<div class="col-md-12 col-lg-12">
 				<div class="section_title_1 text-center mx-auto pb_60 wow animated slideInUp">
-					
+
 					<p class="sub_title color_white ">Should you wish to know more, please free to write to us. Our representative will attend to you as soon as possible. We also arrange for site visit on request. </p>
 				</div>
 			</div>
@@ -23,35 +23,32 @@
 							<h4 class="font-weight-bold color_white">VISIT US</h4>
 							<hr>
 							<ul>
+
+								<li>
+									<div class="contact_text">
+										<h6 class="font-weight-bold color_default">Address</h6>
+										<span class="color_white"> Pratham Corporate Office,
+											<br />
+											Off K G Road,
+											Opp Menaka Theater,
+											<br />
+											Bengaluru,Karnataka - 560 009</span>
+									</div>
+								</li>
+
+								<li>
+									<div class="contact_text">
+										<h6 class="font-weight-bold color_default">Phone</h6>
+										<span class="color_white">+91 - 7829 583 111 , +91 - 804 171 5678</span>
+									</div>
+								</li>
+
 								<li>
 									<div class="contact_text color_default">
 										<h6 class="font-weight-bold color_default">Email</h6>
 										<span class="color_white">info@prathamconstructions.com</span>
 									</div>
 								</li>
-								<li>
-									<div class="contact_text">
-										<h6 class="font-weight-bold color_default">Phone</h6>
-										<span class="color_white">(+91) 7829 583 111
-											<br />
-											(+91) 804 171 5678</span>
-									</div>
-								</li>
-								<li>
-									<div class="contact_text">
-										<h6 class="font-weight-bold color_default">Address</h6>
-										<span class="color_white"> Pratham Corporate Office
-											<br />
-											Off K G Road,
-											<br />
-											Opp Menaka Theater,
-											<br />
-											Bengaluru,
-											<br />
-											Karnataka - 560 009</span>
-									</div>
-								</li>
-
 							</ul>
 						</div>
 						<div class="socal_media_2 mt_15 d-inline-block">
@@ -65,11 +62,11 @@
 						</div>
 					</div>
 					<div class="col-md-4 col-lg-4">
-					<iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d3887.976910497626!2d77.57735039723289!3d12.973328575062375!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x2a70d35330e1dabb!2sPrathamm%20Developers!5e0!3m2!1sen!2sin!4v1581743452672!5m2!1sen!2sin" width="100%" height="400" frameborder="0" style="border:0;" allowfullscreen=""></iframe>
+						<iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d3887.976910497626!2d77.57735039723289!3d12.973328575062375!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x2a70d35330e1dabb!2sPrathamm%20Developers!5e0!3m2!1sen!2sin!4v1581743452672!5m2!1sen!2sin" width="100%" height="360" frameborder="0" style="border:0;" allowfullscreen=""></iframe>
 					</div>
 					<div class="col-md-4 col-lg-4">
-						<span id="errmsg"></span>
-						<form class="form contact_message wow animated fadeInRight" id="contact-form" action="email.php" method="post">
+						<span id="contacterrormessage"></span>
+						<form class="form contact_message wow animated fadeInRight" id="ccon" method="post">
 							<div class="row">
 
 								<div class="col-md-6 col-lg-6">
@@ -528,16 +525,17 @@
 								</div>
 								<div class="col-md-6 col-lg-6">
 									<div class="form-group">
-										<input class="form-control" type="number" id="phone" name="phone" required placeholder="Contact No." />
+										<input class="form-control" type="number" id="phone" name="phone"  placeholder="Contact No." />
 									</div>
 								</div>
 								<div class="col-md-12 col-lg-12">
 									<div class="form-group">
-										<textarea class="form-control" name="message" rows="7" placeholder="Message"></textarea>
+										<textarea class="form-control" name="message" rows="5" placeholder="Message"></textarea>
 									</div>
 								</div>
 								<div class="col-md-12 col-lg-12">
 									<div class="form-group col text-center">
+										<input type="hidden" name="Page" value="Pratham Construction Home Page">
 										<input class="btn btn-default" id="send" value="submit" type="submit" />
 									</div>
 								</div>
@@ -551,8 +549,8 @@
 						</form>
 					</div>
 				</div>
-				<div class="copyright text-center">
-				<p class="color_white">Pratham Construction @ 2020. All Right Reserved.| Digital partner <a href="" class="color_default" >IM Solutions</a></p> 
+				<div class="copyright text-center"><br />
+					<p class="color_white ">Pratham Construction @ 2020. All Right Reserved.| Digital partner <a href="" class="color_default">IM Solutions</a></p>
 
 				</div>
 			</div>
@@ -577,10 +575,28 @@
 <script src="js/bootstrap.min.js"></script>
 <script src="js/plugins.js"></script>
 <script src="js/custom.js"></script>
+<script src="https://www.google.com/recaptcha/api.js?render=6LdFLNgUAAAAAJYdNhjXK2PosDbozvImaLqXSdyl"></script>
 <script>
+	grecaptcha.ready(function() {
+
+		grecaptcha.execute('6LdFLNgUAAAAAJYdNhjXK2PosDbozvImaLqXSdyl', {
+
+			action: 'homepage'
+
+		}).then(function(token) {
+
+			$('#hcon').prepend('<input type="hidden" name="g-recaptcha-response"  value="' + token + '">');
+
+			$('#ccon').prepend('<input type="hidden" name="g-recaptcha-response"  value="' + token + '">');
+
+		});
+
+	});
 	$(document).ready(function() {
 		//  Smoothscroll js
 		//=========================================
+		<?php if($url=='home'){ 
+			?>
 		$("a").on('click', function(event) {
 
 			if (this.hash !== "") {
@@ -595,9 +611,38 @@
 					window.location.hash = hash;
 				});
 			}
-		});
+		}); 
+	<?php 
+		}
+		?>
 	});
 
+
+	$('.why-us-sl').owlCarousel({
+		loop: true,
+		autoplay: true,
+		autoplayTimeout: 5000,
+		margin: 0,
+		nav: true,
+		dots: false,
+		navText: ['<span class="fa fa-angle-left"></span>', '<span class="fa fa-angle-right"></span>'],
+		responsive: {
+
+			0: {
+				items: 1
+			},
+			600: {
+				items: 1
+			},
+			1024: {
+				items: 3
+			},
+			1200: {
+				items: 3
+			}
+		}
+
+	});
 	$(document).ready(function() {
 		//called when key is pressed in textbox
 		$("#phone").keypress(function(e) {
@@ -613,26 +658,6 @@
 
 	});
 
-	$("#contact-form").submit(function() {
-		var str = $(this).serialize();
-		$.ajax({
-			type: "POST",
-			url: "contact-process.php",
-			data: str,
-			success: function(msg) {
-				if (msg == 'OK') {
-					result = '<p style="color:green !important; font-weight: 600;font-size: 18px;">Email Sent Successfully!</p>';
-					$('#errmsg').delay(18000).fadeOut();
-					$('#contact-form')[0].reset();
-					//$('input,textarea').val('');
-				} else {
-					result = msg;
-				}
-				$('#errmsg').html(result);
-			}
-		});
-		return false;
-	});
 
 	$("#ccon").submit(function() {
 		var str = $(this).serialize();
@@ -644,7 +669,8 @@
 				if (msg == 'OK') {
 					result = '<p style="color:green !important; font-weight: 600;font-size: 18px;">Email Sent Successfully!</p>';
 					$('#contacterrormessage').delay(18000).fadeOut();
-					$('#pcon')[0].reset();
+					$('#ccon')[0].reset();
+					$('.form-control').val('');
 					//$('input,textarea').val('');
 				} else {
 					result = msg;
@@ -656,30 +682,31 @@
 	});
 
 	$('.why-us-sl  ').owlCarousel({
-     loop: true,
-     autoplay: false,
-     autoplayTimeout: 5000,
-     nav: true,
-     dots: false,
-     navText: ['<span class="fa fa-angle-left"></span>','<span class="fa fa-angle-right"></span>'],
-     responsive:{
+		loop: true,
+		autoplay: false,
+		autoplayTimeout: 5000,
+		nav: true,
+		dots: false,
+		navText: ['<span class="fa fa-angle-left"></span>', '<span class="fa fa-angle-right"></span>'],
+		responsive: {
 
-        0:{
-          items:1
-        },
-        600:{
-          items:2
-        },
-        1024:{
-          items:3
-        },
-        1200:{
-          items:3
-        }
-      }
-      
-     });
+			0: {
+				items: 1
+			},
+			600: {
+				items: 2
+			},
+			1024: {
+				items: 3
+			},
+			1200: {
+				items: 3
+			}
+		}
 
+	});
+	
+	
 </script>
 </body>
 

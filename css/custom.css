@@ -69,12 +69,12 @@
 
 .nav-logo {
 
-    width: 85px;
+    width: 80px;
     background: white;
     
   
-    margin-top: -20px;
-    margin-bottom: -20px;
+    margin-top: -15px;
+    margin-bottom: -15px;
 
 }
 .tt1 {background: #FAA61A;}
@@ -110,7 +110,7 @@ a.btn-project {border:1px #FAA61A solid; border-radius: 30px; margin: 10px 0; pa
   background-color: rgba(255, 255, 255, 0.05);
 }
 .navbar-collapse {margin-top:10px ;}
-.slide-image {height: calc(100% + 100px);}
+
 .fa, .far, .fas {
   font-family: "FontAwesome" !important  ;
 }
@@ -129,10 +129,15 @@ input[type=number]::-webkit-outer-spin-button {
 .contact_message .error {color:red}
 .heading_span {color:#faa61a}
 .why-box img {width:35%}
+.why-box {border: 1px solid gray;
+  margin: 0 3px;  
+  padding: 10px;  
+  min-height: 376px;}
 @media screen and (max-width:990px) and (min-width:280px) {
 
   .details { background: rgba(33, 37, 41, 0.9) ;margin-top:-30px}
   .about-btn {margin-bottom: 20px;}
+  .btn.btn-default.testb {margin-bottom: 30px ;}
 
 }
 
@@ -140,3 +145,14 @@ input[type=number]::-webkit-outer-spin-button {
   .details { background: rgba(33, 37, 41, 0.9)  ;}
 }
 .why-us-sl-img {width:35% !important;text-align: center !important;margin-left: auto !important;margin-right: auto !important;}
+@media screen and (max-width:990px) and (min-width:280px) {
+  .desktop {display: none !important}
+  .mobilesl {margin-top: 80px;}
+
+  
+}
+
+@media screen and (min-width:991px) and (max-width:1980px) {
+    .mobile  {display:none  !important;}
+ 
+}

@@ -1,4 +1,5 @@
 <?php
+$url='home';
 include 'includes/header.php';
 ?>
 
@@ -51,16 +52,7 @@ include 'includes/header.php';
 		overflow: hidden;
 	}
 
-	.slide-image {
-		position: absolute;
-		top: 0;
-		left: 0px;
-		width: calc(100% + 100px);
-		height: calc(100% + 120px);
-		background-position: 100%;
-		background-size: cover;
-	}
-
+	
 	.slide-title {
 		font-size: 4rem;
 		line-height: 1;
@@ -188,18 +180,40 @@ include 'includes/header.php';
 		background: #FFFFFF;
 		transform-origin: 0 0;
 	}
+
+	@media screen and (max-width:990px) and (min-width:280px) {
+		.swiper-slide .slide-image ,swiper-slide-active{background-size:contain}
+		.slide {display: block}
+		.banner_image {
+			width: 100%;
+
+background-size: cover;
+overflow: hidden;
+background-position: 50% 50%;
+background-repeat: no-repeat;
+position: relative;
+margin-top: 82px
+	}
+	.slide-image {height: calc(100% + 100px);}
+  
+}
+
+@media screen and (min-width:991px) and (max-width:1980px) {
+
+	.slide-image {height: calc(100% + 100px);}
+}
 </style>
 
 <!--	Start Main Banner 
 	==================================================-->
-<section  id="water-effect" class="banner_image background1 ?>">
+<section  id="water-effect" class="banner_image  ">
 
 
 
 
 
 
-	<div class="swiper-container slideshow">
+	<div class="swiper-container slideshow ">
 
 		<div class="swiper-wrapper">
 
@@ -233,22 +247,7 @@ include 'includes/header.php';
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+</section>
 
 
 </section>
@@ -297,7 +296,7 @@ include 'includes/header.php';
 						<p class="color_white text-justify" style="margin-top:10px">
 						Realising the need of quality yet affordable housing in the ever growing Bangalore city; the Silicon Valley of India, the Pratham Group ventured in the real estate sector. In our sincere efforts, Pratham Group endeavours to create quality residential spaces to better people’s living experiences. With a clear vision to transform the way people perceive quality housing, Pratham Constructions blends professional real estate expertise with innovative technology while  encompassing robust engineering, ground-breaking research and uncompromising business ethics in all spheres of realty development making home living more comfortable, productive and cheerful.
 						</p>
-						<p class="text-right "><a href="about.php" class="btn btn-default about-btn">Read More</a></p>
+						<p class="text-right "><a href="about.php" class=" color_white">Read More  <i class="fas fa-arrow-right"></i></a></p>
 
 					</div>
 					<div class="personal_info color_lightgray">
@@ -344,19 +343,19 @@ include 'includes/header.php';
 					<div class="mx-auto d-block why-us-sl owl-carousel wow animated slideInUp">
 
 						<div class=" why-box  "   class="mx-auto d-block">
-							<img src="images/pratham/Customer-Focus.png"  class="why-us-sl-img ">
+							<img src="images/pratham/Customer-Focus.png"  class="why-us-sl-img  ">
 							<h4 class="text-center"> Customer Focus</h4>
-							<p>Pratham Construction delivers every project with highest level of integrity. Every decision taken is client centric. We aim at providing the customer high levels of satisfaction in terms of interaction, service and quality.</p>
+							<p class="text-justify"> Pratham Construction delivers every project with highest level of integrity. Every decision taken is client centric. We aim at providing the customer high levels of satisfaction in terms of interaction, service and quality.</p>
 						</div>
 						<div class=" why-box">
-							<img src="images/pratham/Innovation.png" class="why-us-sl-img">
+							<img src="images/pratham/Innovation.png" class="why-us-sl-img ">
 							<h4 class="text-center"> Innovation</h4>
-							<p>Pratham Construction is synonymous to innovation. We always encourage multiple solutions and perspectives in the realty sector. We incorporate new ideas in all realms of our company’s venture and the new trends in the realty industries. </p>
+							<p class="text-justify">Pratham Construction is synonymous to innovation. We always encourage multiple solutions and perspectives in the realty sector. We incorporate new ideas in all realms of our company’s venture and the new trends in the realty industries. </p>
 						</div>
 						<div class=" why-box">
-							<img src="images/pratham/Transparency.png"  class="why-us-sl-img">
+							<img src="images/pratham/Transparency.png"  class="why-us-sl-img ">
 							<h4 class="text-center"> Transparency</h4>
-							<p>Transparency is rooted in all of our operations. We strongly believe that in order for a lasting relation with customers, transparency is the key. That is why; we prioritise transparency in all our dealings as we focus on imaginative engineering and reliability.  </p>
+							<p class="text-justify">Transparency is rooted in all of our operations. We strongly believe that in order for a lasting relation with customers, transparency is the key. That is why; we prioritise transparency in all our dealings as we focus on imaginative engineering and reliability.  </p>
 						</div>
 
 
@@ -418,7 +417,7 @@ include 'includes/header.php';
 						</div>
 						</div>
 					<?php /*	<p class="testp">Located at Yashwantpur, Indraprastha is a premium residential project nestled in the manicured greens and replete with all modern amenities offering a blissful life. The amenities highlights include gymnasium, swimming pool and other sports facilities such as Squash Court, Badminton Court, Multipurpose Court, etc.  </p> */ ?>
-					<div class="mx-auto text-center mt_15" wfd-id="172"><a class="btn btn-default" href="indraprastha.php">View Project</a></div>
+					<div class="mx-auto text-center mt_15" wfd-id="172"><a class="btn btn-default testb"  href="indraprastha.php">View Project</a></div>
 						
 
 
@@ -533,18 +532,22 @@ include 'includes/header.php';
 									<i class="fa fa-comment" aria-hidden="true"></i>
 									<span class="color_white">12</span>
 								</div>
-								<div class="blog_img overlay_one"><img src="images/blog/01.jpg" alt="image"></div>
+								<div class="blog_img overlay_one"><img src="images/bl1.jpg" alt="image"></div>
 								<div class="blog_content bg_white color_secondery">
 									<div class="blog_title">
 										<a class="color_primary" href="blog-details.html">
-											<h5>Convallis pulvinar morbi. Aenean nisi vitae metus nonummy a morbi.</h5>
+											<h5>How Pratham Constructions is redefining quality housing in the Bangalore realty</h5>
 										</a>
 									</div>
-									<p class="mt_15 mb_30">Dictumst integer sollicitudin venenatis ornare quam. Ligula integer luctus, blandit egestas molestie facilisi porttitor neque sodal luctus senectus lacinia euismod adipiscing element turpis dolor curae; posuere augue.</p>
+									<p class="mt_15 mb_30 text-justify">The ever growing Bangalore city has witnessed an increase in demand for residential space.
+However, not all that glitters is gold especially in the real estate segment of Bangalore. Pratham
+Constructions entered into the real estate market of Bangalore with the intention to address the
+need for quality residential houses. In doing the noble deed, Pratham Constructions is
+redefining quality housing in the Bangalore realty through innovative technology.</p>
 
 									<div class="admin">
 										<img src="images/about/02.jpg" alt="image">
-										<span class="color_white">By - Rockstar Jack</span>
+										<span class="color_white">By - Alok Nath</span>
 									</div>
 									<div class="date float-right color_primary">20 Jan 2019</div>
 								</div>
@@ -556,18 +559,22 @@ include 'includes/header.php';
 									<i class="fa fa-comment" aria-hidden="true"></i>
 									<span class="color_white">18</span>
 								</div>
-								<div class="blog_img overlay_one"><img src="images/blog/02.jpg" alt="image"></div>
+								<div class="blog_img overlay_one"><img src="images/bl2.jpg" alt="image"></div>
 								<div class="blog_content bg_white color_secondery">
 									<div class="blog_title">
 										<a class="color_primary" href="blog-details.html">
-											<h5>Ornare fames imperdiet sapien. Iaculis dictum aptent commodo at iaculis.</h5>
+											<h5>Time is ripe to harvest the golden opportunity for investment in the Indian real estate</h5>
 										</a>
 									</div>
-									<p class="mt_15 mb_30">Dictumst integer sollicitudin venenatis ornare quam. Ligula integer luctus, blandit egestas molestie facilisi porttitor neque sodal luctus senectus lacinia euismod adipiscing element turpis dolor curae; posuere augue.</p>
+									<p class="mt_15 mb_30 text-justify">India still continues to be among the fastest developing economies in the world despite the ebbs
+and flow in the global market. The Real Estate Regulation Act (RERA) and the Benami
+Properties Act were ground breaking in the Indian real estate segment bringing significant
+transparency and inspiring customer trust. These legal changes have brought greater focus on
+customer rights increasing the demand from end-use customers and NRI investors alike.</p>
 
 									<div class="admin">
 										<img src="images/about/02.jpg" alt="image">
-										<span class="color_white">By - Rockstar Jack</span>
+										<span class="color_white">By - Maahir Jain</span>
 									</div>
 									<div class="date float-right color_primary">18 Jan 2019</div>
 								</div>
@@ -579,18 +586,23 @@ include 'includes/header.php';
 									<i class="fa fa-comment" aria-hidden="true"></i>
 									<span class="color_white">23</span>
 								</div>
-								<div class="blog_img overlay_one"><img src="images/blog/03.jpg" alt="image"></div>
+								<div class="blog_img overlay_one"><img src="images/bl3.jpg" alt="image"></div>
 								<div class="blog_content bg_white color_secondery">
 									<div class="blog_title">
 										<a class="color_primary" href="blog-details.html">
-											<h5>Vulputate donec sem purus litora varius auctor augue suscipit hac.</h5>
+											<h5>Upbeat housing market of Bangalore</h5>
 										</a>
 									</div>
-									<p class="mt_15 mb_30">Dictumst integer sollicitudin venenatis ornare quam. Ligula integer luctus, blandit egestas molestie facilisi porttitor neque sodal luctus senectus lacinia euismod adipiscing element turpis dolor curae; posuere augue.</p>
+									<p class="mt_15 mb_30 text-justify">What is not to love about the silicon valley of India, Bangalore? As one of the fastest growing
+cities in India, Bangalore houses the finest IT industries, world-class healthcare facilities, state-
+of-the-art infrastructure and international educational institutes making it one of the most
+preferred cities to live in. Among the many housing projects, Pratham Constructions is making a
+landmark in the housing sector of Bangalore. Pratham Casa Serene and Pratham Indraprastha
+are two flagship programs from the Pratham Constructions.</p>
 
 									<div class="admin">
 										<img src="images/about/02.jpg" alt="image">
-										<span class="color_white">By - Rockstar Jack</span>
+										<span class="color_white">By - Atul Kumar</span>
 									</div>
 									<div class="date float-right color_primary">17 Jan 2019</div>
 								</div>
@@ -689,7 +701,7 @@ include 'includes/header.php';
 
 						</div>
 						<h5 class="color_primary mb_15">Naveen Bansal</h5>
-						<p>	I booked an apartment at Indraprastha. It is one of the most well-designed and planned residential apartment. The rooms are spacious with abundant natural lighting. I have no complaints on my booking at Casa Serene.  </p>
+						<p class="text-justify">	I booked an apartment at Indraprastha. It is one of the most well-designed and planned residential apartment. The rooms are spacious with abundant natural lighting. I have no complaints on my booking at Casa Serene.  </p>
 					</div>
 					<div class="member_feedback p_30 color_secondery">
 						
@@ -697,7 +709,7 @@ include 'includes/header.php';
 
 						</div>
 						<h5 class="color_primary mb_15">Jagdish Tyagi</h5>
-						<p> 	Indraprastha is from one of the most trusted builder. Quality at its best, this residential building is one of the most contemporary buildings in Yashwantpur. I have recently booked my apartment. The rooms are very spacious with good ventilation. This is one of the best apartments so far. </p>
+						<p class="text-justify"> 	Indraprastha is from one of the most trusted builder. Quality at its best, this residential building is one of the most contemporary buildings in Yashwantpur. I have recently booked my apartment. The rooms are very spacious with good ventilation. This is one of the best apartments so far. </p>
 					</div>
 					
 					
@@ -722,203 +734,6 @@ include 'includes/header.php';
 
 
 
-
-
-
-
-
-
-
-<!--Modal: modalRelatedContent-->
-<div class="modal fade right" id="myModal2" tabindex="-1" role="dialog"
-  aria-labelledby="myModalLabel" aria-hidden="true" data-backdrop="false">
-  <div class="modal-dialog modal-side modal-bottom-right modal-notify modal-info modal-xl" role="document">
-    <!--Content-->
-    <div class="modal-content">
-      <!--Header-->
-      <div class="modal-header">
-        <p class="heading">AMIT KIRAN GADIA <b>(Director)</b></p>
-
-        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-          <span aria-hidden="true" class="white-text">&times;</span>
-        </button>
-      </div>
-
-      <!--Body-->
-      <div class="modal-body">
-
-        <div class="row">
-          <div class="col-2">
-			
-            <img src="images/pratham/2.jpg"
-              class="img-fluid" alt="">
-          </div>
-
-          <div class="col-10">
-			  <h6 class="text-center"></h6>
-              <br/>
-            <p>In his early 30’s, Amit is a self starter, a voracious reader with a great penchant for learning and adapting to new things. His ability to analyze and solve problems coupled with his innate ability to engender trust and rapport and work with all levels of the organization makes him an asset. Amit currently handles the finance and legal functions of the organization.</p>
-	 </div>
-		  <div class="col-12">
-		  <p><b>
- Educational Background  </b> <br/>Amit K Gadia completed his schooling from Bishop Cotton Boys School, Bangalore also known as EATON of the EAST. Post completion of his engineering in Computer Science at B M S College of Engineering, Bangalore, Amit completed his Masters in Engineering in Computer Science with Business courses at Cornell University, Ithaca, New York.  Post completion of his Masters at Cornell and successful stints in the professional world, Amit went on to Administration program) from S P Jain, Mumbai. </p>
-		 
-			  <p><b>Professional Background</b></p>
-			  <p>Professional Background Amit gained professional experience and knowledge during his stints with Lucent Technologies (Bangalore), Huawei Technologies (Bangalore) and Global While at Lucent Technologies, he was part of the team that successfully developed and deployed a web based "Document Review Tool" that helped Lucent cut down automate and streamline quality and defect tr Subsequently at Huawei Technologies, he was a part of the ENIP (Enhanced Network Intelligent Platform) team. At Global Tech Research LLC, Amit was part of a geographically distributed technical team who developed a Content M company. The CMS Tool grabs content from the web and allows the research team of the company to attach tags to it for easy retrieval.</p>
-			  <p>Having completed his education at Cornell University, USA, Amit was offered a high job at Merrill Lynch, New York, USA. The Entrepreneurial bug in him drove him to turn down the job opportunity at Merrill Lynch and return back to the family business and take up the challenge to scale it up and foray into new ventures.</p>
-			  <p>After a stint of 1 year in the family business, Amit went on to do the FMBA (Family Managed Business Administration program) from S P Jain, Mumbai to hone his business skills. Continuous learning in diverse fields, being comfortable with diverse fields of technology business are among Amit’s core strengths. </p>
-		<p>&nbsp;</p>
-		<p>&nbsp;</p>
-
-			</div>
-        </div>
-      </div>
-    </div>
-    <!--/.Content-->
-  </div>
-</div>
-<!--Modal: modalRelatedContent-->
-
-
-
-
-
-
-
-
-
-
-
-
-
-<!--Modal: modalRelatedContent-->
-<div class="modal fade right" id="myModal3" tabindex="-1" role="dialog"
-  aria-labelledby="myModalLabel" aria-hidden="true" data-backdrop="false">
-  <div class="modal-dialog modal-side modal-bottom-right modal-notify modal-info modal-xl" role="document">
-    <!--Content-->
-    <div class="modal-content">
-      <!--Header-->
-      <div class="modal-header">
-        <p class="heading">VINAY KIRAN GADIA <b>(Director)</b></p>
-
-        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-          <span aria-hidden="true" class="white-text">&times;</span>
-        </button>
-      </div>
-
-      <!--Body-->
-      <div class="modal-body">
-
-        <div class="row">
-          <div class="col-2">
-			
-            <img src="images/pratham/1.jpg"
-              class="img-fluid" alt="">
-          </div>
-
-          <div class="col-10">
-			  <h6 class="text-center"></h6>
-              <br/>
-            <p>Vinay joined the group in early 2011 after spending his early 20s abroad at USA. Owing to his somewhat gregarious nature, he enjoys taking up the Marketing division of the group. Further, given his technical background in engineering management he collaborates in the project management aspect of the construction schedules.</p>
-	 </div>
-		  <div class="col-12">
-		  <p><b>
- Educational Background  </b> <br/>Vinay completed his schooling from Bishop Cotton Boys’ School and St. Josephs Pre-University College, after which he went abroad to complete his engineering at Drexel University, Philadelphia, USA. He completed his engineering with various accolades including distinctive (summa cum laude) honors and multiple scholarships for academic excellence (TBP National Scholarship, Nathan Swerdlow Award, Milton Rosenberg Scholarship). He further received research grants and many leadership awards for his involvement in various different organizations. He held many important positions such as CFO, VP, CAO, Judicial Chair and Secretary in student organizations like IEEE, APO, EKN and TBP. Additionally, he did intensive research in the biomedical (Genome classification), mechanical (Micro Aerial Vehicle inspired by a dragonfly) and electrical (Educational Atomic Force Microscope) fields, and went on to publish technical papers in various esteemed publications. Vinay went on to obtain masters at Columbia University, New York, USA in the field of Industrial Engineering & Operations Research, specializing in engineering management.  
- </p>
- <br/>
-			  <p><b>Professional Background</b></p>
-			  <p>During his time in the US, Vinay gained diversified professional experiences to encompass both technical and management know-how. He worked at Philadelphia Housing Authority (PHA) where he played a crucial role in project management and execution of government low-income housing projects. Tracking progress and highlighting gaps in execution were his primary responsibilities. He also worked at DuPont’s R&D facility to analyze big data for nanoprogrammed controllers. His stint at wire-bonding machine manufacturing company, Kulicke & Soffa Industries gave him the experience of performing root-cause analysis on sophisticated machines to increase the speed of the machines. He also served as an operations consultant for about a year. He studied, analyzed and delivered a mathematical and operational report on streamlining the sorting operations of the packaging department of an expanding online supermarket. Vinay also worked as a project manager at a start-up, Brooklyn Motorized Corp, leading a team of 30 multi-disciplinary engineers to build a production-ready urban commuter electric motorcycle.  
- </p>
- <br/><p>
- Vinay has lead teams, delivered projects, motivated people and streamlined operations. He is adept at negotiation and communication.  </p>
-			 
-		<p>&nbsp;</p>
-		<p>&nbsp;</p>
-
-			</div>
-        </div>
-      </div>
-    </div>
-    <!--/.Content-->
-  </div>
-</div>
-<!--Modal: modalRelatedContent-->
-
-
-
-
-
-
-<!--Modal: modalRelatedContent-->
-<div class="modal fade right" id="myModal1" tabindex="-1" role="dialog"
-  aria-labelledby="myModalLabel" aria-hidden="true" data-backdrop="false">
-  <div class="modal-dialog modal-side modal-bottom-right modal-notify modal-info modal-xl" role="document">
-    <!--Content-->
-    <div class="modal-content">
-      <!--Header-->
-      <div class="modal-header">
-        <p class="heading">MANISH KIRAN GADIA  <b>(Managing Director )</b></p>
-
-        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-          <span aria-hidden="true" class="white-text">&times;</span>
-        </button>
-      </div>
-
-      <!--Body-->
-      <div class="modal-body">
-
-        <div class="row">
-          <div class="col-2">
-			
-            <img src="images/pratham/3.jpg"
-              class="img-fluid" alt="">
-          </div>
-
-          <div class="col-10">
-			  <h6 class="text-center"></h6>
-             
-            <p>Manish joined the group in 2003.			Conceptualization is the  key areas directly under his purview. Known for his dynamism and belief in ‘positive change’, Manish has keenly addressed the growing demands by conceptualizing unique projects. Manish is now charting out new courses for the group 
-			to traverse the trends as
-			well as to set new standards in the emerging business scenario. After the demise of Shri Kiranji Gadia, the group’s visionary, in 2014, Manish boldly leads the K M Gadia group to reach great heights.
-
-			</p>
-	 </div>
-		  <div class="col-12">
-		  <p><b>
- Educational Background  </b> <br/>Manish completed his schooling from the 
- renowned Bishop Cotton Boys’ School, Bangalore after which he progressed to 
- study engineering in Dayanand Sagar Engineering College. worked at ITI for a short while to
- gain technical knowledge on new-age systems and project   
- management. After a few years in business, he pursued a 
- MBA from the prestigious Business School, S P Jain Institute of Management in Mumbai, India.
- </p>
- <br/>
-			  <p><b>Professional Background</b></p>
-			  <p>
-			  Manish’s forte lies in managing large scale projects orchestrating the smooth functioning  of
-			  various agencies and contractors. His deep technical understanding 
-, disciplined control quality, a keen eye on prevention of cost over-runs mixed with the cash flow financial foresight
-place him in the ideal position to lead the group’s growth. HIs ability to motivate the entire
-team to work coherently is one of his key strengths.
- </p>
- <br/>
-			  <p>
-			  On joining the family’s Jari manufacturing business, Manish had expanded the market scope of the business. He streamlined many aspects of the business brining 
-			  in modern analytic systems transforming the archaic model of the business, leading to the company’s growth in difficult economic times. Recognizing the need to diversify and push the group into a higher league, he targeted the real estate sector with his father's
-			  guidance.
-			</p> <br/>
-			 <p>Manish has been responsible for the success of the maiden real-estate project of 140 apartments. He has been the face of the group, right from obtaining sanctions to appointment of the technically competent contractors to closely monitoring the project's progress. Manish is the man-in-charge when it come to evaluating the scope of projects, economic viability, business potential and marketability. He is able to ascertain the midnset of all the stakeholder, wheather they are investor, contrators, employees, consultants of his brothers installing optimism from a grassroots lavel. The group derives inspiration from his competence and his vision. His lateral thinking and ability to garner momentum in the organization make him an able leader.</p>
-		<p>&nbsp;</p>
-		<p>&nbsp;</p>
-
-			</div>
-        </div>
-      </div>
-    </div>
-    <!--/.Content-->
-  </div>
-</div>
-<!--Modal: modalRelatedContent-->
 
 
 

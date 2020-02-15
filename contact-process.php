@@ -3,6 +3,8 @@
 session_start();
 
 define("WEBMASTER_EMAIL", 'hamalton@imsolutions.mobi');
+define("WEBMASTER_EMAIL1", 'lokesh@imsolutions.mobi');
+define("WEBMASTER_EMAIL2", 'ravi.k@imsolutions.mobi');
 
 
 error_reporting(E_ALL ^ E_NOTICE);
@@ -32,9 +34,11 @@ if ($_POST) {
     $email = stripslashes(trim($_POST['email']));
     $ccode = stripslashes(trim($_POST['ccode']));
     $phone = stripslashes(trim($_POST['phone']));
+    $page = stripslashes(trim($_POST['Page']));
     $query = stripslashes(trim($_POST['message']));
    // $captcha = $_POST['g-recaptcha-response'];
-    $subject = 'Enquiry from Prakruti Centurysports Village';
+     $subject = 'Enquiry from '.$page;
+    
 
 
     $error = '';
@@ -72,7 +76,7 @@ if ($_POST) {
    
 
 
-    $email_name = "Prakruti Centurysports Village";
+    $email_name = "Pratham Construction";
     $email_to = "noreply@imsolutions.in";
 
     $headers = 'MIME-Version: 2.0' . "\r\n";
@@ -84,7 +88,7 @@ if ($_POST) {
 		
 		<tr align="center">
 			<td colspan="3" style="text-align:center;">
-				<img src="http://demo.imsolutions.in/prakruti-microsite-new/images/logo.png" style="background-color: #000;">
+				<img src="http://demo.imsolutions.in/pratham/images/pratham/logo.png" style="background-color: #000;">
 			</td>
         </tr>
 		<tr style="background-color:#f5f5f5">
@@ -126,10 +130,12 @@ if ($_POST) {
 		$result = json_decode($result);
 		if ($result->success) {
 			ini_set("sendmail_from", 'info@imsolutions.mobi'); // for windows server
-			$mail = mail(WEBMASTER_EMAIL,$subject,$message,$headers,'-freturn@imsolutions.in');      
-		  if($mail)
+            $mail = mail(WEBMASTER_EMAIL,$subject,$message,$headers,'-freturn@imsolutions.in');      
+            $mail1 = mail(WEBMASTER_EMAIL1,$subject,$message,$headers,'-freturn@imsolutions.in');      
+            $mail2 = mail(WEBMASTER_EMAIL2,$subject,$message,$headers,'-freturn@imsolutions.in');      
+		  if($mail ||$mail1 || $mail2 )
 		  {
-		  $mail = mail($email,'Thanks for contacting us','<h4>Thank you for contacting Prakruti ! Our team will get in touch with you shortly. Appreciate your patience.</h4>',$headers,'-freturn@imsolutions.in');
+		  $mail = mail($email,'Thanks for contacting us','<h4>Thank you for contacting Pratham Construction ! Our team will get in touch with you shortly. Appreciate your patience.</h4>',$headers,'-freturn@imsolutions.in');
 		  echo '<p style="color:green !important; font-weight: 600;font-size: 18px;">Email Sent Successfully!</p>';
 		  }
 		} else {
