@@ -830,7 +830,7 @@
 					</div>
 					<div class="col-md-12 col-lg-12">
 						<div class="form-group">
-							<input class="form-control" type="number" name="phone" placeholder="Phone" pattern="/^\d{10}$/" min="0" />
+							<input class="form-control" type="number" name="phone" id='phone1' placeholder="Phone" pattern="/^\d{10}$/" min="0" />
 						</div>
 					</div>
 					<div class="col-md-12 col-lg-12">
@@ -2266,6 +2266,14 @@
 		if (e.which != 8 && e.which != 0 && (e.which < 48 || e.which > 57)) {
 			//display error message
 			$("#contacterrormessage").html('<p style="color:red !important;">Digits Only</p>').show().fadeOut("slow");
+			return false;
+		}
+	});
+	$("#phone1").keypress(function(e) {
+		//if the letter is not digit then display error and don't type anything
+		if (e.which != 8 && e.which != 0 && (e.which < 48 || e.which > 57)) {
+			//display error message
+			$("#headererrormessage").html('<p style="color:red !important;">Digits Only</p>').show().fadeOut("slow");
 			return false;
 		}
 	});
