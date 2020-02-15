@@ -66,24 +66,24 @@
 		</div>
 		<div class="template_style">
 			
-			<form class="form contact_message wow animated fadeInRight" id="contact-form" action="email.php" method="post">
+			<p id='headererrormessage'></p>
+			<form id="hcon" method="post" role="form" class="contactForm">
+			<!--<form class="form contact_message wow animated fadeInRight" id="contact-form" action="email.php" method="post">-->
 				<div class="row">
 					<div class="col-md-12 col-lg-12">
 						<div class="form-group">
-							<input class="form-control" type="text" name="name" placeholder="Your Name" />
+							<input class="form-control" type="text" name="name" placeholder="Name" />
 						</div>
 					</div>
 					<div class="col-md-12 col-lg-12">
 						<div class="form-group">
-							<input class="form-control" type="email" name="email" placeholder="Email Address" />
+							<input class="form-control" type="email" name="email" placeholder="Email" />
 						</div>
 					</div>
 
 					<div class="col-md-12 col-lg-12">
 						<div class="form-group">
 							<select class="form-control" size="0" name="ccode" wfd-id="29">
-
-
 
 								<option value=""> Select County </option>
 
@@ -515,25 +515,21 @@
 
 								<option data-countrycode="ZW" value="263">Zimbabwe (+263)</option>
 
-
-
-
-
 							</select>
 						</div>
 					</div>
 					<div class="col-md-12 col-lg-12">
 						<div class="form-group">
-							<input class="form-control" type="text" name="phone" placeholder="Phone" />
+							<input class="form-control" type="number" name="phone" id='phone1' placeholder="Phone" pattern="/^\d{10}$/" min="0" />
 						</div>
 					</div>
 					<div class="col-md-12 col-lg-12">
 						<div class="form-group">
-							<textarea class="form-control" name="message" rows="2" placeholder="Message"></textarea>
+							<textarea class="form-control" name="message" rows="2" placeholder="Message" minlength="25" ></textarea>
 						</div>
 					</div>
 					<div class="col-md-12 col-lg-12">
-						<div class="form-group">
+						<div class="form-group text-center">
 							<input class="btn btn-default" id="send" value="submit" type="submit" />
 						</div>
 					</div>
