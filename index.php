@@ -346,17 +346,17 @@ include 'includes/header.php';
 						<div class=" why-box  "   class="mx-auto d-block">
 							<img src="images/pratham/Customer-Focus.png"  class="why-us-sl-img  ">
 							<h4 class="text-center"> Customer Focus</h4>
-							<p>Pratham Construction delivers every project with highest level of integrity. Every decision taken is client centric. We aim at providing the customer high levels of satisfaction in terms of interaction, service and quality.</p>
+							<p class="text-justify"> Pratham Construction delivers every project with highest level of integrity. Every decision taken is client centric. We aim at providing the customer high levels of satisfaction in terms of interaction, service and quality.</p>
 						</div>
 						<div class=" why-box">
 							<img src="images/pratham/Innovation.png" class="why-us-sl-img ">
 							<h4 class="text-center"> Innovation</h4>
-							<p>Pratham Construction is synonymous to innovation. We always encourage multiple solutions and perspectives in the realty sector. We incorporate new ideas in all realms of our company’s venture and the new trends in the realty industries. </p>
+							<p class="text-justify">Pratham Construction is synonymous to innovation. We always encourage multiple solutions and perspectives in the realty sector. We incorporate new ideas in all realms of our company’s venture and the new trends in the realty industries. </p>
 						</div>
 						<div class=" why-box">
 							<img src="images/pratham/Transparency.png"  class="why-us-sl-img ">
 							<h4 class="text-center"> Transparency</h4>
-							<p>Transparency is rooted in all of our operations. We strongly believe that in order for a lasting relation with customers, transparency is the key. That is why; we prioritise transparency in all our dealings as we focus on imaginative engineering and reliability.  </p>
+							<p class="text-justify">Transparency is rooted in all of our operations. We strongly believe that in order for a lasting relation with customers, transparency is the key. That is why; we prioritise transparency in all our dealings as we focus on imaginative engineering and reliability.  </p>
 						</div>
 
 
@@ -418,7 +418,7 @@ include 'includes/header.php';
 						</div>
 						</div>
 					<?php /*	<p class="testp">Located at Yashwantpur, Indraprastha is a premium residential project nestled in the manicured greens and replete with all modern amenities offering a blissful life. The amenities highlights include gymnasium, swimming pool and other sports facilities such as Squash Court, Badminton Court, Multipurpose Court, etc.  </p> */ ?>
-					<div class="mx-auto text-center mt_15" wfd-id="172"><a class="btn btn-default" href="indraprastha.php">View Project</a></div>
+					<div class="mx-auto text-center mt_15" wfd-id="172"><a class="btn btn-default testb"  href="indraprastha.php">View Project</a></div>
 						
 
 
@@ -537,10 +537,14 @@ include 'includes/header.php';
 								<div class="blog_content bg_white color_secondery">
 									<div class="blog_title">
 										<a class="color_primary" href="blog-details.html">
-											<h5>Convallis pulvinar morbi. Aenean nisi vitae metus nonummy a morbi.</h5>
+											<h5>How Pratham Constructions is redefining quality housing in the Bangalore realty</h5>
 										</a>
 									</div>
-									<p class="mt_15 mb_30">Dictumst integer sollicitudin venenatis ornare quam. Ligula integer luctus, blandit egestas molestie facilisi porttitor neque sodal luctus senectus lacinia euismod adipiscing element turpis dolor curae; posuere augue.</p>
+									<p class="mt_15 mb_30 text-justify">The ever growing Bangalore city has witnessed an increase in demand for residential space.
+However, not all that glitters is gold especially in the real estate segment of Bangalore. Pratham
+Constructions entered into the real estate market of Bangalore with the intention to address the
+need for quality residential houses. In doing the noble deed, Pratham Constructions is
+redefining quality housing in the Bangalore realty through innovative technology.</p>
 
 									<div class="admin">
 										<img src="images/about/02.jpg" alt="image">
@@ -560,10 +564,14 @@ include 'includes/header.php';
 								<div class="blog_content bg_white color_secondery">
 									<div class="blog_title">
 										<a class="color_primary" href="blog-details.html">
-											<h5>Ornare fames imperdiet sapien. Iaculis dictum aptent commodo at iaculis.</h5>
+											<h5>Time is ripe to harvest the golden opportunity for investment in the Indian real estate</h5>
 										</a>
 									</div>
-									<p class="mt_15 mb_30">Dictumst integer sollicitudin venenatis ornare quam. Ligula integer luctus, blandit egestas molestie facilisi porttitor neque sodal luctus senectus lacinia euismod adipiscing element turpis dolor curae; posuere augue.</p>
+									<p class="mt_15 mb_30 text-justify">India still continues to be among the fastest developing economies in the world despite the ebbs
+and flow in the global market. The Real Estate Regulation Act (RERA) and the Benami
+Properties Act were ground breaking in the Indian real estate segment bringing significant
+transparency and inspiring customer trust. These legal changes have brought greater focus on
+customer rights increasing the demand from end-use customers and NRI investors alike.</p>
 
 									<div class="admin">
 										<img src="images/about/02.jpg" alt="image">
@@ -583,10 +591,15 @@ include 'includes/header.php';
 								<div class="blog_content bg_white color_secondery">
 									<div class="blog_title">
 										<a class="color_primary" href="blog-details.html">
-											<h5>Vulputate donec sem purus litora varius auctor augue suscipit hac.</h5>
+											<h5>Upbeat housing market of Bangalore</h5>
 										</a>
 									</div>
-									<p class="mt_15 mb_30">Dictumst integer sollicitudin venenatis ornare quam. Ligula integer luctus, blandit egestas molestie facilisi porttitor neque sodal luctus senectus lacinia euismod adipiscing element turpis dolor curae; posuere augue.</p>
+									<p class="mt_15 mb_30 text-justify">What is not to love about the silicon valley of India, Bangalore? As one of the fastest growing
+cities in India, Bangalore houses the finest IT industries, world-class healthcare facilities, state-
+of-the-art infrastructure and international educational institutes making it one of the most
+preferred cities to live in. Among the many housing projects, Pratham Constructions is making a
+landmark in the housing sector of Bangalore. Pratham Casa Serene and Pratham Indraprastha
+are two flagship programs from the Pratham Constructions.</p>
 
 									<div class="admin">
 										<img src="images/about/02.jpg" alt="image">
@@ -689,7 +702,7 @@ include 'includes/header.php';
 
 						</div>
 						<h5 class="color_primary mb_15">Naveen Bansal</h5>
-						<p>	I booked an apartment at Indraprastha. It is one of the most well-designed and planned residential apartment. The rooms are spacious with abundant natural lighting. I have no complaints on my booking at Casa Serene.  </p>
+						<p class="text-justify">	I booked an apartment at Indraprastha. It is one of the most well-designed and planned residential apartment. The rooms are spacious with abundant natural lighting. I have no complaints on my booking at Casa Serene.  </p>
 					</div>
 					<div class="member_feedback p_30 color_secondery">
 						
@@ -697,7 +710,7 @@ include 'includes/header.php';
 
 						</div>
 						<h5 class="color_primary mb_15">Jagdish Tyagi</h5>
-						<p> 	Indraprastha is from one of the most trusted builder. Quality at its best, this residential building is one of the most contemporary buildings in Yashwantpur. I have recently booked my apartment. The rooms are very spacious with good ventilation. This is one of the best apartments so far. </p>
+						<p class="text-justify"> 	Indraprastha is from one of the most trusted builder. Quality at its best, this residential building is one of the most contemporary buildings in Yashwantpur. I have recently booked my apartment. The rooms are very spacious with good ventilation. This is one of the best apartments so far. </p>
 					</div>
 					
 					
