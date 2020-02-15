@@ -417,9 +417,17 @@ a:hover,a:focus,a.active{
   background-size: cover;
   background-position: center center;
 }
-.background10{
-  background-image: url(../images/slider/07.jpg);
+@media only screen and (max-width: 767px) {
+	.background10{
+	  background-image: url(../images/slider/mobileslider.jpg);
+	}
 }
+@media (min-width: 768px) {
+	.background10{
+	  background-image: url(../images/slider/07.jpg);
+	}
+}
+
 .background11{
   background-image: url(../images/slider/08.jpg);
 }
@@ -431,6 +439,9 @@ a:hover,a:focus,a.active{
 }
 .background14{
   background-image: url(../images/slider/11.jpg);
+}
+.background15{
+  background-image: url(../images/slider/mobileslider.jpg);
 }
 /*====================================================================
 08.   Nav Menu Css
@@ -560,7 +571,56 @@ ul#menu li a{
 }*/
 @media only screen and (max-width: 767px) {
 	.banner_image,.banner_water_effect{
-		width: 100%;
+		width: 89%;
+		height: 100vh;
+		background-size: cover;
+		overflow: hidden;
+		background-position: 0% 0%;
+		background-repeat: no-repeat;
+		position: relative;
+		margin-left: 14%;
+	}	
+}
+
+@media only screen and (max-width: 667px) and (min-width:667px){
+	.banner_image,.banner_water_effect{
+		width: 92%;
+		height: 100vh;
+		background-size: cover;
+		overflow: hidden;
+		background-position: 0% 0%;
+		background-repeat: no-repeat;
+		position: relative;
+		margin-left: 9%;
+	}	
+}
+@media only screen and (max-width: 684px) and (min-width:684px){
+	.banner_image,.banner_water_effect{
+		width: 94%;
+		height: 100vh;
+		background-size: cover;
+		overflow: hidden;
+		background-position: 0% 0%;
+		background-repeat: no-repeat;
+		position: relative;
+		margin-left: 8%;
+	}	
+}
+@media only screen and (max-width: 734px) and (min-width:734px){
+	.banner_image,.banner_water_effect{
+		width: 97%;
+		height: 100vh;
+		background-size: cover;
+		overflow: hidden;
+		background-position: 0% 0%;
+		background-repeat: no-repeat;
+		position: relative;
+		margin-left: 6%;
+	}	
+}
+@media only screen and (max-width: 736px) and (min-width:736px){
+	.banner_image,.banner_water_effect{
+		width: 95%;
 		height: 100vh;
 		background-size: cover;
 		overflow: hidden;
@@ -865,14 +925,27 @@ ul#menu li a{
 /*==================================================================================
 15.   Services One
 ====================================================================================*/
-.service_one{
-  border-radius: 20px;
-  border: 2px solid;
-  border-color: transparent;
-  /*margin: 10px 20px;*/
-  margin: 10px 0px;
-  min-height: 270px;
+@media (min-width: 768px) {
+	.service_one{
+	  border-radius: 20px;
+	  border: 2px solid;
+	  border-color: transparent;
+	  /*margin: 10px 20px;*/
+	  margin: 10px 0px;
+	  min-height: 320px;
+	  padding: 15px;
+	}
 }
+@media only screen and (max-width: 767px) {
+	.service_one{
+	  border-radius: 20px;
+	  border: 2px solid;
+	  border-color: transparent;
+	  /*margin: 10px 20px;*/
+	  margin: 10px 0px;
+	}
+}
+
 .service_one:hover{
   border: 2px solid;
 }
@@ -961,6 +1034,7 @@ ul#menu li a{
 	font-size: 16px;
 	text-transform: uppercase;
 	letter-spacing: 1px;
+	font-weight: 700;
 }
 .default-portfolio-item{
     position: relative;
@@ -2777,6 +2851,7 @@ label.radios {
   .filters ul li {
       margin: 0px 8px;
       font-size: 14px;
+	  font-weight:700;
   }
   .admin{
     padding: 0px;

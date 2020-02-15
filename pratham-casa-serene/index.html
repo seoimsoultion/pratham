@@ -31,7 +31,7 @@
 		display: none;
 	}
 
-	.liReadMore {
+	/*.liReadMore {
 		-webkit-box-shadow: 10px 10px 5px 0px rgba(189, 189, 189, 1);
 		-moz-box-shadow: 10px 10px 5px 0px rgba(189, 189, 189, 1);
 		box-shadow: 10px 10px 5px 0px rgba(189, 189, 189, 1);
@@ -47,7 +47,7 @@
 	.liReadMore:hover {
 		color: #FFF;
 		background-color: #d41125;
-	}
+	}*/
 	.holderCircle {
 		width: 500px;
 		height: 500px;
@@ -254,27 +254,6 @@
 		font-size: 17px;
 		line-height: 2em;
 	}
-	.proj_amenities{
-		text-align:center;
-		margin-bottom: 30px;
-		-webkit-box-shadow: 0 3px 5px -3px #090545;
-		-moz-box-shadow: 0 3px 5px -3px #090545;
-		box-shadow: 0 3px 5px -3px #090545;
-		padding: 8px;
-		border-radius: 10px;
-		height:200px;
-	}
-
-	.proj_amenities img{
-		width: 100px;
-	}
-	.proj_amenities p{
-		font-weight: bold;
-		padding-top:5px;
-	}
-	.proj_amenities:hover {
-		border: 1px solid #452620;
-	}
 	@media (min-width: 360px AND max-width: 740px ){
 		.service_one{
 			padding:0px
@@ -289,6 +268,26 @@
 		}
 	}
 	@media only screen and (max-width: 767px) {
+		.proj_amenities{
+			text-align:center;
+			margin-bottom: 30px;
+			-webkit-box-shadow: 0 3px 5px -3px #090545;
+			-moz-box-shadow: 0 3px 5px -3px #090545;
+			box-shadow: 0 3px 5px -3px #090545;
+			padding: 8px;
+			border-radius: 10px;
+		}
+
+		.proj_amenities img{
+			width: 100px;
+		}
+		.proj_amenities p{
+			font-weight: bold;
+			padding-top:5px;
+		}
+		.proj_amenities:hover {
+			border: 1px solid #452620;
+		}
 		.arrowClass li:before {
 			content: '\2192';
 			font-family: 'FontAwesome';
@@ -307,16 +306,51 @@
 		.project-detail-ul li {
 			position: relative;
 			background: url(images/aoc-mic-arrow.png) no-repeat;
-			/*background-position: 0;*/
+			background-position: 0 3px;
 			font-size: 15px;
 			font-weight: 400;
-			padding: 0px 0px 10px 25px !important;
-			line-height: 20px;
+			padding: 0 0 0 25px !important;
+			margin: 0 0 5px 0;
+			line-height: 25px;
 			border-bottom:0px !important;
-			margin-left: -20px;
 		}
+		.location{
+			-webkit-box-shadow: 1px 2px 10px rgba(0,0,0,.18);
+			-moz-box-shadow: 1px 2px 10px rgba(0,0,0,.18);
+			-ms-box-shadow: 1px 2px 10px rgba(0,0,0,.18);
+			-o-box-shadow: 1px 2px 10px rgba(0,0,0,.18);
+			box-shadow: 1px 2px 10px rgba(0,0,0,.18);
+			border-radius: 20px;
+			padding: 10px;
+			margin-bottom:20px;
+		}
+		#desktop{
+			display:none;
+		}
+		
 	}
-	@media (min-width: 768px) {  
+	@media (min-width: 768px) {
+		.proj_amenities{
+			text-align:center;
+			margin-bottom: 30px;
+			-webkit-box-shadow: 0 3px 5px -3px #090545;
+			-moz-box-shadow: 0 3px 5px -3px #090545;
+			box-shadow: 0 3px 5px -3px #090545;
+			padding: 8px;
+			border-radius: 10px;
+			min-height:200px;
+		}
+
+		.proj_amenities img{
+			width: 100px;
+		}
+		.proj_amenities p{
+			font-weight: bold;
+			padding-top:5px;
+		}
+		.proj_amenities:hover {
+			border: 1px solid #452620;
+		}
 		.arrowClass li:before {
 			content: '\2192';
 			font-family: 'FontAwesome';
@@ -325,8 +359,15 @@
 			color: #d41125;
 			padding: 0px 5px;
 		}
-		.location{
-			height:430px;
+		.location{			
+			-webkit-box-shadow: 1px 2px 10px rgba(0,0,0,.18);
+			-moz-box-shadow: 1px 2px 10px rgba(0,0,0,.18);
+			-ms-box-shadow: 1px 2px 10px rgba(0,0,0,.18);
+			-o-box-shadow: 1px 2px 10px rgba(0,0,0,.18);
+			box-shadow: 1px 2px 10px rgba(0,0,0,.18);
+			border-radius: 20px;
+			padding: 10px;
+			min-height:300px
 		}
 		.sidebar .nav-logo{
 			width:50px;
@@ -334,13 +375,16 @@
 		.project-detail-ul li {
 			position: relative;
 			background: url(images/aoc-mic-arrow.png) no-repeat;
-			background-position: 0;
+			background-position: 0 3px;
 			font-size: 15px;
 			font-weight: 400;
-			padding: 0 0 0 24px !important;
-			margin: 0 0 4px 0;
-			line-height: 26px;
+			padding: 0 0 0 25px !important;
+			margin: 0 0 5px 0;
+			line-height: 25px;
 			border-bottom:0px !important;
+		}
+		#mobile{
+			display:none;
 		}
 	}
 	
@@ -361,6 +405,14 @@
     }
 	#mysidenav img{
 		width:100px;
+	}
+	#more {display: none;}
+	#more1 {display: none;}
+	button#myBtn1 {
+		margin-top: 10px;
+	}
+	button#myBtn2 {
+		margin-top: 10px;
 	}
 	</style>
 </head>
@@ -833,12 +885,12 @@
 					</div>
 					<div class="col-md-12 col-lg-12">
 						<div class="form-group">
-							<input class="form-control" type="number" name="phone" id='phone1' placeholder="Phone" pattern="/^\d{10}$/" min="0" />
+							<input class="form-control" type="number" name="phone" id='phone1' placeholder="Phone" min="0" size="10" maxlength="10" oninput="checkNumberFieldLength1(this);"/>
 						</div>
 					</div>
 					<div class="col-md-12 col-lg-12">
 						<div class="form-group">
-							<textarea class="form-control" name="message" rows="2" placeholder="Message" minlength="25" ></textarea>
+							<textarea style='overflow: scroll;' class="form-control" name="message" rows="2" placeholder="Message" minlength="25" ></textarea>
 						</div>
 					</div>
 					<div class="col-md-12 col-lg-12">
@@ -862,7 +914,7 @@
 	==================================================-->
     <div id="mysidenav" class="sidenav">
         <a href="javascript:void(0)" class="closebtn" onclick="closeNav()"><i class="flaticon-close-button"></i></a>
-        <img class="nav-logo" src="images/logo.png" alt="image">
+        <img class="nav-logo" src="images/logo-white.png" alt="image">
         <ul id="menu">
             <li data-menuanchor="page1" class="active"><a href="#page1">Home</a></li>
             <li data-menuanchor="page2"><a href="#page2">About</a></li>
@@ -925,28 +977,48 @@
 				<div class="services my_60">
 					<div class="row">
 						<div class="col-md-12 col-lg-12">
-							<div class="section_title_1 text-center mx-auto pb_60 wow animated slideInUp">
+							<div class="section_title_1 text-center mx-auto pb_30 wow animated slideInUp">
 								<h2 class="title text-uppercase color_white">About</h2>
 							</div>
 						</div>
 					</div>
-					<div class="about_one">
+					<div class="about_one" id='desktop'>
 						<div class="row">
 							<div class="col-md-7 col-lg-7">
 								<div class="myself color_lightgray wow animated fadeInLeft">
-									
-									
 									<p class="color_white " style="text-align: justify; margin-bottom:10px;">Pratham Constructions its latest illustrious project - Casa Serene! Located at Jalahalli in Bangalore, Casa Serene is meticulously designed residential gated community. Consisting of 140 spacious apartments, Casa Serene offers premium 2 and 3 BHKs to choose from. Designed to befit ultra-modern lifestyles of the modern Indian families, at Casa Serene experience magnificent ambience of luscious greenery combined with ultra-modern amenities for a modern and contemporary lifestyle.</p>
-									<p class="color_white" style="text-align: justify; margin-bottom:10px;">The highlights of amenities include swimming pool, club house, Badminton court, Car wash area, Jogger’s track, high-speed elevators, 24/7 surveillance camera, 100% DG Back up for common areas, clutter free provision to connect DTH of your choice, water treatment plant-advanced, soft and grey, sewage treatment plant, solar water heater, solid waste convertor, rain water harvesting, connectivity, vehicle charging bays, car wash bays, round the clock security, restrooms for support staff, maintenance office cabin, disabled friendly community, sensor and timer controlled LED Lights for entire common area lighting.</p>
+									<p class="color_white" style="text-align: justify; margin-bottom:10px;">The highlights of amenities include swimming pool, club house, Badminton court, Car wash area, Jogger’s track, high-speed elevators, 24/7 surveillance camera, 100% DG Back up for common areas, clutter free provision to connect DTH of your choice, water treatment plant-advanced, soft and grey, sewage treatment plant, solar water heater, solid waste convertor, rain water harvesting, connectivity, vehicle charging bays, car wash bays, round the clock security, restrooms for support staff, maintenance office cabin, disabled friendly community, sensor and timer controlled LED Lights for entire common area lighting.<span id="dots"></span>&nbsp;&nbsp;
+									</p><a href='#' onclick="myFunction()" id="myBtn" class="btn1 color_white">Read More  <i class="fa fa-arrow-right"></i></a>
 								</div>
+								
 							</div>
 							<div class="col-md-5 col-lg-5">
 								<img src="images/About-us.png" alt="image">
 								<br/><br/>
 							</div>
-							<div class="col-md-12 col-lg-12">
+							<div class="col-md-12 col-lg-12" id='more'>								
 								<p class="color_white" style="text-align: justify;">Casa Serene’s architectural model is rooted to traditions and is Vaastu compliant attracting positive aura.Strategically located at Jalahalli, North West quadrant of Bangalore, Casa Serene has excellent connectivity to major centres of the Bangalore city. Casa Serene is in close proximity to Jaahalli METRO station, Peenya Industrial Area, METRO Cash and Carry, Indian Institute of Science, Orion Mall, Vidhan Soudha, Raghavendra Hospital, ISKCON and Palace Ground. </p>
+								<a href='#' onclick="myFunction()" id='myBtn1' class="btn2 color_white">Read More <i class="fa fa-arrow-left"></i></a>
+							</div>							
+						</div>
+					</div>
+					<div class="about_one" id='mobile'>
+						<div class="row">
+							<div class="col-md-7 col-lg-7">
+								<div class="myself color_lightgray wow animated fadeInLeft">
+									<p class="color_white " style="text-align: justify; margin-bottom:10px;">Pratham Constructions its latest illustrious project - Casa Serene! Located at Jalahalli in Bangalore, Casa Serene is meticulously designed residential gated community. Consisting of 140 spacious apartments, Casa Serene offers premium 2 and 3 BHKs to choose from. Designed to befit ultra-modern lifestyles of the modern Indian families, at Casa Serene experience magnificent ambience of luscious greenery combined with ultra-modern amenities for a modern and contemporary lifestyle.</p>
+									<p class="color_white" style="text-align: justify; margin-bottom:10px;">The highlights of amenities include swimming pool, club house, Badminton court, Car wash area, Jogger’s track, high-speed elevators, 24/7 surveillance camera, 100% DG Back up for common areas, clutter free provision to connect DTH of your choice, water treatment plant-advanced, soft and grey, sewage treatment plant, solar water heater, solid waste convertor, rain water harvesting, connectivity, vehicle charging bays, car wash bays, round the clock security, restrooms for support staff, maintenance office cabin, disabled friendly community, sensor and timer controlled LED Lights for entire common area lighting.<span id="dots"></span>&nbsp;&nbsp;</p>
+								</div>			
+								<div id='more1'>
+									<p class="color_white" style="text-align: justify;">Casa Serene’s architectural model is rooted to traditions and is Vaastu compliant attracting positive aura.Strategically located at Jalahalli, North West quadrant of Bangalore, Casa Serene has excellent connectivity to major centres of the Bangalore city. Casa Serene is in close proximity to Jaahalli METRO station, Peenya Industrial Area, METRO Cash and Carry, Indian Institute of Science, Orion Mall, Vidhan Soudha, Raghavendra Hospital, ISKCON and Palace Ground. </p>
+								</div>
+								<a href='#' onclick="myFunction2()" id="myBtn2" class="btn2 color_white">Read More <i class="fa fa-arrow-right"></i></a>
+								<br/>
+								<br/>
 							</div>
+							<div class="col-md-5 col-lg-5">
+								<img src="images/About-us.png" alt="image">
+							</div>						
 						</div>
 					</div>
 				</div>
@@ -1120,114 +1192,77 @@
                 <div class="services my_60">
                     <div class="row">
                         <div class="col-md-12 col-lg-12">
-                            <div class="section_title_1 text-center mx-auto pb_60 wow animated slideInUp">
+                            <div class="section_title_1 text-center mx-auto pb_30 wow animated slideInUp">
                                 <h2 class="title text-uppercase color_primary">Specifications</h2>
                             </div>
                         </div>
                         <div class="col-md-4 col-lg-4">
-							<div class="service_one text-center">
-								<div class="srvicon bg_default color_white mx-auto mb_20 "><span><img src='images/specifications/structure.png'style="margin: 5px;width: 80%;" alt=''/></span></div>
-								<h3 class="font-weight-bold color_primary">STRUCTURE</h3>
-								<ul class='arrowClass' style='text-align:left;padding: 10px;'>
+							<div class="service_one">
+								<div class="srvicon bg_default color_white mx-auto mb_20 "><span><img src='images/specifications/structure.png'style="margin: 5px;width: 80%;padding: 5px" alt=''/></span></div>
+								<h3 class="font-weight-bold color_primary text-center">STRUCTURE</h3>
+								<ul class='project-detail-ul'>
 									<li>Seismic Zone II compliant RCC Structure</li>
 									<li>Solid Cement Block Masonry</li>
-									<ul class="ulExtra" id="list_A">
-										<li>External Walls with Cement Plaster & Internal Walls with lime plaster</li>
-									</ul>
+									<li>External Walls with Cement Plaster & Internal Walls with lime plaster</li>
 								</ul>
-								<div>
-								   <button class="liReadMore btn btn-default" id="readMore_A"  style="margin: 0px;">Show More</button>
-								</div>
 							</div>
                         </div>
                         <div class="col-md-4 col-lg-4">
-							<div class="service_one text-center">
-								<div class="srvicon bg_default color_white mx-auto mb_20"><span><img src='images/specifications/flooring.png'style="margin: 5px;width: 80%;" alt=''/></span></div>
-								<h3 class="font-weight-bold color_primary">FLOORING</h3>
-								<ul class='arrowClass' style='text-align:left;padding: 10px;'>
+							<div class="service_one">
+								<div class="srvicon bg_default color_white mx-auto mb_20"><span><img src='images/specifications/flooring.png'style="margin: 5px;width: 80%;padding: 5px" alt=''/></span></div>
+								<h3 class="font-weight-bold color_primary text-center">FLOORING</h3>
+								<ul class='project-detail-ul'>
 									<li>Vitrified tiles in Living, Dining, Kitchen & all Bedrooms</li>
 								</ul>
 							</div>
                         </div>
-                        <div class="col-md-4 col-lg-4">
-							<div class="service_one text-center">
-								<div class="srvicon bg_default color_white mx-auto mb_20"><span><img src='images/specifications/wall.png'style="margin: 5px;width: 80%;" alt=''/></span></div>
-								<h3 class="font-weight-bold color_primary">WALL FINISHES</h3>
-								<ul class='arrowClass' style='text-align:left;padding: 10px;'>
-									<li>Internal Walls: Oil Bound Distemper for all plastered walls & Ceilings</li>
-									<ul class="ulExtra" id="list_B">
-										<li>External Walls: Cement paint for the exteriors and common Areas</li>
-										<li>Enamel Paint for MS Grills and Door Shutters</li>
-									</ul>
-								</ul>
-								<div>
-								   <button class="liReadMore btn btn-default" id="readMore_B"  style="margin: 0px;">Show More</button>
-								</div>
-							</div>
-                        </div>
-                        <div class="col-md-4 col-lg-4">
-							<div class="service_one text-center">
-								<div class="srvicon bg_default color_white mx-auto mb_20"><span><img src='images/specifications/main-door.png'style="margin: 5px;width: 80%;" alt=''/></span></div>
-								<h3 class="font-weight-bold color_primary">MAIN DOOR</h3>
-								<ul class='arrowClass' style='text-align:left;padding: 10px;'>
+						<div class="col-md-4 col-lg-4">
+							<div class="service_one">
+								<div class="srvicon bg_default color_white mx-auto mb_20"><span><img src='images/specifications/main-door.png'style="margin: 5px;width: 80%;padding: 5px" alt=''/></span></div>
+								<h3 class="font-weight-bold color_primary text-center">MAIN DOOR</h3>
+								<ul class='project-detail-ul'>
 									<li>Teak Wood Door Frame with threshold</li>
 									<li>BSTV designer door shutters, finished with melamine polish on both sides</li>
 								</ul>
 							</div>
                         </div>
+                        
                         <div class="col-md-4 col-lg-4">
-							<div class="service_one text-center">
-								<div class="srvicon bg_default color_white mx-auto mb_20"><span><img src='images/specifications/other-doors.png'style="margin: 5px;width: 80%;" alt=''/></span></div>
-								<h3 class="font-weight-bold color_primary">OTHER DOORS</h3>
-								<ul class='arrowClass' style='text-align:left;padding: 10px;'>
+							<div class="service_one">
+								<div class="srvicon bg_default color_white mx-auto mb_20"><span><img src='images/specifications/other-doors.png'style="margin: 5px;width: 80%;padding: 5px" alt=''/></span></div>
+								<h3 class="font-weight-bold color_primary text-center">OTHER DOORS</h3>
+								<ul class='project-detail-ul'>
 									<li>Sal/Hard Wood door frame</li>
 									<li>Commercial flush shutters</li>
-									<ul class="ulExtra" id="list_C">
-										<li>NCL Secolor Door and Window systems with plain glass for Balconies</li>
-									</ul>                          
-								</ul>
-								<div>
-								   <button class="liReadMore btn btn-default" id="readMore_C"  style="margin: 0px;">Show More</button>
-								</div>
+									<li>NCL Secolor Door and Window systems with plain glass for Balconies</li>
+								</ul>	
 							</div>
                         </div>
                         <div class="col-md-4 col-lg-4">
-							<div class="service_one text-center">
-								<div class="srvicon bg_default color_white mx-auto mb_20"><span><img src='images/specifications/window.png'style="margin: 5px;width: 80%;" alt=''/></span></div>
-								<h3 class="font-weight-bold color_primary">WINDOWS</h3>
-								<ul class='arrowClass' style='text-align:left;padding: 10px;'>
+							<div class="service_one">
+								<div class="srvicon bg_default color_white mx-auto mb_20"><span><img src='images/specifications/window.png'style="margin: 5px;width: 80%;padding: 5px" alt=''/></span></div>
+								<h3 class="font-weight-bold color_primary text-center">WINDOWS</h3>
+								<ul class='project-detail-ul'>
 									<li>NCL Secolor Window system windows with plain glass and provision for mosquito mesh</li>
-									<ul class="ulExtra" id="list_I">
-										<li>NCL Secolor Ventilator system with translucent glass in toilets</li>
-									</ul>
-								</ul>
-								<div>
-								   <button class="liReadMore btn btn-default" id="readMore_I" style="margin: 0px;">Show More</button>
-								</div>
+									<li>NCL Secolor Ventilator system with translucent glass in toilets</li>
+								</ul>	
 							</div>
                         </div>
-                        <div class="col-md-4 col-lg-4">
-							<div class="service_one text-center">
-								<div class="srvicon bg_default color_white mx-auto mb_20"><span><img src='images/specifications/kitchn.png'style="margin: 5px;width: 80%;" alt=''/></span></div>
-								<h3 class="font-weight-bold color_primary">KITCHEN</h3>
-								<ul class='arrowClass' style='text-align:left;padding: 10px;'>
-									<li>Polished granite platform with stainless steel sink</li>
-									<li>Ceramic tile dado of 2 feet above the granite counter</li>
-									<ul class="ulExtra" id="list_D">
-										<li>Provision for Aqua-guard point in kitchen</li>
-										<li>Provision for Geyser in kitchen</li>   
-									</ul>             
+						<div class="col-md-4 col-lg-4">
+							<div class="service_one">
+								<div class="srvicon bg_default color_white mx-auto mb_20"><span><img src='images/specifications/water-suply.png'style="margin: 5px;width: 80%;padding: 5px" alt=''/></span></div>
+								<h3 class="font-weight-bold color_primary text-center">WATER SUPPLY</h3>
+								<ul class='project-detail-ul'>
+									<li>Underground & Overhead storage tanks of suitable capacity. Borewell as an auxiliary source of water supply</li>
 								</ul>
-								<div>
-								   <button class="liReadMore btn btn-default" id="readMore_D" style="margin: 0px;">Show More</button>
-								</div> 
-							</div> 
+							</div>
                         </div>
+                        
                         <div class="col-md-4 col-lg-4">
-							<div class="service_one text-center">
-								<div class="srvicon bg_default color_white mx-auto mb_20"><span><img src='images/specifications/utility.png'style="margin: 5px;width: 80%;" alt=''/></span></div>
-								<h3 class="font-weight-bold color_primary">UTILITY</h3>
-								<ul class='arrowClass' style='text-align:left;padding: 10px;'>
+							<div class="service_one">
+								<div class="srvicon bg_default color_white mx-auto mb_20"><span><img src='images/specifications/utility.png'style="margin: 5px;width: 80%;padding: 5px" alt=''/></span></div>
+								<h3 class="font-weight-bold color_primary text-center">UTILITY</h3>
+								<ul class='project-detail-ul'>
 									<li>Provision for sink in utility</li>
 									<li>Provision for Washing machine in utility area</li>
 									<li>Provision for ironing</li>
@@ -1235,56 +1270,80 @@
 							</div>
                         </div>
                         <div class="col-md-4 col-lg-4">
-							<div class="service_one text-center">
-								<div class="srvicon bg_default color_white mx-auto mb_20"><span><img src='images/specifications/toilet.png'style="margin: 5px;width: 80%;" alt=''/></span></div>
-								<h3 class="font-weight-bold color_primary">TOILETS</h3>
-								<ul class='arrowClass' style='text-align:left;padding: 10px;'>
+							<div class="service_one">
+								<div class="srvicon bg_default color_white mx-auto mb_20"><span><img src='images/specifications/toilet.png'style="margin: 5px;width: 80%;padding: 5px" alt=''/></span></div>
+								<h3 class="font-weight-bold color_primary text-center">TOILETS</h3>
+								<ul class='project-detail-ul'>
 									<li>Ceramic Tiles for flooring and dado upto 7 ft height</li>
 									<li>EWC, Washbasin from KOHLER</li>
-									<ul class="ulExtra" id="list_F">
-										<li>Chromium plated fittings from Jaquar</li>
+									<li>Chromium plated fittings from Jaquar</li>
+									<ul class="ulExtra" id="list_D">
 										<li>Concealed flush tanks from GEBRIT</li>
 									</ul>
+									<div class='text-center'>
+									   <button class="liReadMore btn btn-default" id="readMore_D" style="margin: 0px;">Show More</button>
+									</div>
 								</ul>
-								<div>
-								   <button class="liReadMore btn btn-default" id="readMore_F" style="margin: 0px;">Show More</button>
-								</div>
 							</div>
                         </div>
+						<div class="col-md-4 col-lg-4">
+							<div class="service_one">
+								<div class="srvicon bg_default color_white mx-auto mb_20"><span><img src='images/specifications/wall.png'style="margin: 5px;width: 80%;padding: 5px" alt=''/></span></div>
+								<h3 class="font-weight-bold color_primary text-center">WALL FINISHES</h3>
+								<ul class='project-detail-ul'>
+									<li>Internal Walls: Oil Bound Distemper for all plastered walls & Ceilings</li>
+									<li>External Walls: Cement paint for the exteriors and common Areas</li>
+									<ul class="ulExtra" id="list_E">
+										<li>Enamel Paint for MS Grills and Door Shutters</li>
+									</ul>
+									<div class='text-center'>
+									   <button class="liReadMore btn btn-default" id="readMore_E" style="margin: 0px;">Show More</button>
+									</div>
+								</ul>	
+							</div>
+                        </div>
+						<div class="col-md-4 col-lg-4">
+							<div class="service_one">
+								<div class="srvicon bg_default color_white mx-auto mb_20"><span><img src='images/specifications/kitchn.png'style="margin: 5px;width: 80%;padding: 5px" alt=''/></span></div>
+								<h3 class="font-weight-bold color_primary  text-center">KITCHEN</h3>
+								<ul class='project-detail-ul'>
+									<li>Polished granite platform with stainless steel sink</li>
+									<li>Ceramic tile dado of 2 feet above the granite counter</li>
+									<ul class="ulExtra" id="list_F">
+										<li>Provision for Aqua-guard point in kitchen</li>
+										<li>Provision for Geyser in kitchen</li>
+									</ul>
+									<div class='text-center'>
+									   <button class="liReadMore btn btn-default" id="readMore_F" style="margin: 0px;">Show More</button>
+									</div>
+								</ul>
+							</div> 
+                        </div>
                         <div class="col-md-4 col-lg-4">
-							<div class="service_one text-center">
-								<div class="srvicon bg_default color_white mx-auto mb_20"><span><img src='images/specifications/ELECTRICAL.png'style="margin: 5px;width: 80%;" alt=''/></span></div>
-								<h3 class="font-weight-bold color_primary">ELECTRICAL</h3>
-								<ul class='arrowClass' style='text-align:left;padding: 10px;'>
+							<div class="service_one">
+								<div class="srvicon bg_default color_white mx-auto mb_20"><span><img src='images/specifications/ELECTRICAL.png'style="margin: 5px;width: 80%;padding: 5px" alt=''/></span></div>
+								<h3 class="font-weight-bold color_primary text-center">ELECTRICAL</h3>
+								<ul class='project-detail-ul'>
 									<li>TV point in the living room and master bedroom</li>
-									<li>Fire Resistant Wires from Anchor</li>
+									<li>Elegant designer modular electrical switches</li>
 									<ul class="ulExtra" id="list_G">
-										<li>Elegant designer modular electrical switches</li>
+										<li>Fire Resistant Wires from Anchor</li>
 										<li>1 Earth Leakage Circuit Breaker to ensure safety</li>
-										<li>o1 MCB for each room provided at the main distribution box</li>
+										<li>1 MCB for each room provided at the main distribution box</li>
 										<li>Provision for 5kW power in each flat</li>
 										<li>Telephone point will be provided in living room and each Bedroom</li>
 									</ul>
 								</ul>
-								<div>
+								<div class='text-center'>
 								   <button class="liReadMore btn btn-default" id="readMore_G" style="margin: 0px;">Show More</button>
 								</div>
 							</div>
                         </div>
                         <div class="col-md-4 col-lg-4">
-							<div class="service_one text-center">
-								<div class="srvicon bg_default color_white mx-auto mb_20"><span><img src='images/specifications/water-suply.png'style="margin: 5px;width: 80%;" alt=''/></span></div>
-								<h3 class="font-weight-bold color_primary">WATER SUPPLY</h3>
-								<ul class='arrowClass' style='text-align:left;padding: 10px;'>
-									<li>Underground & Overhead storage tanks of suitable capacity. Borewell as an auxiliary source of water supply</li>
-								</ul>
-							</div>
-                        </div>
-                        <div class="col-md-4 col-lg-4">
-							<div class="service_one text-center">
-								<div class="srvicon bg_default color_white mx-auto mb_20"><span><img src='images/specifications/other.png'style="margin: 5px;width: 80%;" alt=''/></span></div>
-								<h3 class="font-weight-bold color_primary">OTHERS</h3>
-								<ul class='arrowClass' style='text-align:left;padding: 10px;'>
+							<div class="service_one">
+								<div class="srvicon bg_default color_white mx-auto mb_20"><span><img src='images/specifications/other.png'style="margin: 5px;width: 80%;padding: 5px" alt=''/></span></div>
+								<h3 class="font-weight-bold color_primary text-center">OTHERS</h3>
+								<ul class='project-detail-ul'>
 									<li>Complete Generator Backup for all common areas and services & 1kW power backup for every apartment at no extra cost</li>
 									<ul class="ulExtra" id="list_H">
 										<li>2 level security</li>
@@ -1295,7 +1354,7 @@
 										<li>Marble lobbies & Granite staircase</li>
 									</ul>
 								</ul>
-								<div>
+								<div class='text-center'>
 								   <button class="liReadMore btn btn-default" id="readMore_H" style="margin: 0px;">Show More</button>
 								</div>
 							</div>
@@ -1330,8 +1389,8 @@
                                         <div class="filters mb_30 w-100">
                                             <ul class="filter-tabs d-inline-block">
                                                 <li class="active filter color_white" data-role="button" data-filter="all">All</li>
-												<li class="filter color_white" data-role="button" data-filter=".2bhk">2 BHK TYPICAL FLOOR</li>
-                                                <li class="filter color_white" data-role="button" data-filter=".3bhk">3 BHK TYPICAL FLOOR</li>
+												<li class="filter color_white" data-role="button" data-filter=".2bhk">2 BHK</li>
+                                                <li class="filter color_white" data-role="button" data-filter=".3bhk">3 BHK</li>
                                             </ul>
                                         </div>
                                     </div>
@@ -1342,76 +1401,71 @@
                                         <div class="row">
                                             <div class="column mix mix_all 2bhk mb_30 col-md-4 col-lg-4">
                                                 <div class="default-portfolio-item">
-                                                    <a href="images/2.jpg" data-fancybox="gallery">
-                                                        <img src="images/2.jpg" alt="image" />
-                                                        <div class="overlay-box">
-                                                            <div class="tag">
-                                                                <h5 style="text-align: left;">T02, T03, T04, T05 - 2 BHK TYPICAL FLOOR</h5>
-																<p style="text-align: left;">Main Door- East Facing </p>
-																<p style="text-align: left;">Balcony - Toddler's Park Facing</p>
-																<p style="text-align: left;">Size: 1,400 sqft </p>
-                                                            </div>
-                                                        </div>
-                                                    </a>
+													<img src="images/2.jpg" alt="image" />
+													<div class="overlay-box">
+														<a href="images/2.jpg" data-fancybox="gallery"><span style="margin-top: -30px;"><i class="fa fa-eye" aria-hidden="true"></i></span></a>
+														<div class="tag">
+															<h5 style="text-align: left;">T02, T03, T04, T05 - 2 BHK </h5>
+															<p style="text-align: left;">Main Door- East Facing </p>
+															<p style="text-align: left;">Balcony - Toddler's Park Facing</p>
+															<p style="text-align: left;">Size - 1,400 sqft </p>
+														</div>
+													</div>
                                                 </div>
                                             </div>
                                             <div class="column mix mix_all 2bhk mb_30 col-md-4 col-lg-4">
                                                 <div class="default-portfolio-item">
-                                                    <a href="images/3.jpg" data-fancybox="gallery">
-                                                        <img src="images/3.jpg" alt="image" />
-                                                        <div class="overlay-box">
-                                                            <div class="tag">
-                                                                <h5 style="text-align: left;">T06 - TYPICAL FLOOR</h5>
-																<p style="text-align: left;">Main Door - North Facing </p>
-																<p style="text-align: left;">Balcony - Toddler's Park Facing </p>
-																<p style="text-align: left;">Size: 1,355 sqft</p>
-                                                            </div>
-                                                        </div>
-                                                    </a>
+													<img src="images/3.jpg" alt="image" />
+													<div class="overlay-box">
+														<a href="images/3.jpg" data-fancybox="gallery"><span style="margin-top: -30px;"><i class="fa fa-eye" aria-hidden="true"></i></span></a>
+														<div class="tag">
+															<h5 style="text-align: left;">T06 - 2 BHK</h5>
+															<p style="text-align: left;">Main Door - North Facing </p>
+															<p style="text-align: left;">Balcony - Toddler's Park Facing </p>
+															<p style="text-align: left;">Size - 1,355 sqft</p>
+														</div>
+													</div>
                                                 </div>
                                             </div>
                                             <div class="column mix mix_all 2bhk mb_30 col-md-4 col-lg-4">
                                                 <div class="default-portfolio-item">
-                                                    <a href="images/4.jpg" data-fancybox="gallery">
                                                         <img src="images/4.jpg" alt="image" />
                                                         <div class="overlay-box">
+															<a href="images/4.jpg" data-fancybox="gallery"><span style="margin-top: -30px;"><i class="fa fa-eye" aria-hidden="true"></i></span></a>
                                                             <div class="tag">
-                                                                <h5 style="text-align: left;">T07, T08, T09 - 2 BHK TYPICAL FLOOR</h5>
+                                                                <h5 style="text-align: left;">T07, T08, T09 - 2 BHK</h5>
 																<p style="text-align: left;">Main Door-North Facing </p>
 																<p style="text-align: left;">Balcony - Toddler's Park Facing</p>
-																<p style="text-align: left;">Size: 1,411 sqft </p>
+																<p style="text-align: left;">Size - 1,411 sqft </p>
                                                             </div>
                                                         </div>
-                                                    </a>
                                                 </div>
                                             </div>
 											<div class="column mix mix_all 3bhk mb_30 col-md-4 col-lg-4">
-                                                <div class="default-portfolio-item">
-                                                    <a href="images/5.jpg" data-fancybox="gallery">
-                                                        <img src="images/5.jpg" alt="image" />
-                                                        <div class="overlay-box">
-                                                            <div class="tag">
-																<h5 style="text-align: left;">T1- 3 BHK TYPICAL FLOOR</h5>
-																<p style="text-align: left;">Main Door-North Facing </p>
-																<p style="text-align: left;">Size: 1,583 sqft </p>
-                                                            </div>
-                                                        </div>
-                                                    </a>
+                                                <div class="default-portfolio-item">                                                    
+													<img src="images/1.jpg" alt="image" />
+													<div class="overlay-box">
+														<a href="images/1.jpg" data-fancybox="gallery"><span style="margin-top: -30px;"><i class="fa fa-eye" aria-hidden="true"></i></span></a>
+														<div class="tag">
+															<h5 style="text-align: left;">T1 - 3 BHK</h5>
+															<p style="text-align: left;">Main Door-North Facing </p>
+															<p style="text-align: left;">Size - 1,583 sqft </p>
+														</div>
+													</div>
                                                 </div>
                                             </div>
                                             <div class="column mix mix_all 3bhk mb_30 col-md-4 col-lg-4">
                                                 <div class="default-portfolio-item">
-                                                    <a href="images/5.jpg" data-fancybox="gallery">
                                                         <img src="images/5.jpg" alt="image" />
                                                         <div class="overlay-box">
+															<a href="images/5.jpg" data-fancybox="gallery"><span style="margin-top: -30px;"><i class="fa fa-eye" aria-hidden="true"></i></span></a>
                                                             <div class="tag">
-                                                                <h5 style="text-align: left;">T10 - 3 BHK TYPICAL FLOOR</h5>
+                                                                <h5 style="text-align: left;">T10 - 3 BHK</h5>
 																<p style="text-align: left;">Main Door-North Facing </p>
 																<p style="text-align: left;">Balcony - Toddler's Park Facing </p>
-																<p style="text-align: left;">Size: 1,583 sqft</p>
+																<p style="text-align: left;">Size - 1,583 sqft</p>
                                                             </div>
                                                         </div>
-                                                    </a>
                                                 </div>
                                             </div>
                                         </div>
@@ -1454,8 +1508,6 @@
 											</a>
                                         </div>
                                     </div>
-
-
                                 </div>
                             </div>
                         </div>
@@ -1476,7 +1528,7 @@
                         <div class="col-md-12 col-lg-12">
                             <!--	Start Title
 		    				================================-->
-                            <div class="main_title pb_60">
+                            <div class="main_title pb_30">
                                 <h2 class="title color_primary text-uppercase text-center">Location Map</h2>
 								<p class="mt_15 text-center color_primary">Casa Serene is strategically located at Jalahalli, North West quadrant of Bangalore. From here, enjoy enhanced connectivity and accessibility to the prime centres of the city. </p>
                             </div>
@@ -1499,8 +1551,8 @@
                             <!--	End Title
 		    				================================-->
                         </div>
-						<div class="col-md-6 col-lg-6">
-							<div class="table p_30 location">
+						<div class="col-md-4 col-lg-4">
+							<div class="location">
 								<ul class="project-detail-ul">
 									<li>Jaahalli METRO station &ndash; across the road (150 mtrs)</li>
 									<li>National Highway 4 &ndash; 300 mtrs</li>
@@ -1509,19 +1561,25 @@
 									<li>Ravi Kirloskar Hospital &ndash; 1.5 kms</li>
 									<li>Premier Hospital &ndash; 1.5 kms</li>
 									<li>Raghavendra Hospital &ndash; 1.5 kms</li>
+								</ul>
+							</div>
+						</div>
+						<div class="col-md-4 col-lg-4">
+							<div class="location">
+								<ul class="project-detail-ul">
 									<li>Taj Vivanta &ndash; 3 kms</li>
 									<li>Yeshwanthpur Terminus &ndash; 4 kms</li>
 									<li>Bangalore International Exhibition Complex &ndash; 4 kms</li>
 									<li>METRO Cash n Carry &ndash; 4.5 kms</li>
 									<li>Sheraton Hotel &ndash; 4.5 kms</li>
+									<li>Orion Mall &ndash; 4.5 kms</li>
+									<li>Columbia Asia Hospital &ndash; 4.5 kms</li>
 								</ul>
 							</div>
 						</div>
-						<div class="col-md-6 col-lg-6">
-							<div class="table p_30 location">								
+						<div class="col-md-4 col-lg-4">
+							<div class="location">								
 								<ul class="project-detail-ul">
-									<li>Orion Mall &ndash; 4.5 kms</li>
-									<li>Columbia Asia Hospital &ndash; 4.5 kms</li>
 									<li>ISKCON &ndash; 5 kms</li>
 									<li>Veer Anjaneya Swamy &ndash; 6 kms</li>
 									<li>Indian Institute of Science &ndash; 6 kms</li>
@@ -1564,7 +1622,7 @@
 								<li>
 									<div class="contact_text">
 										<h6 class="font-weight-bold color_default">Address</h6>
-										<span class="color_white"> Pratham Corporate Office
+										<span class="color_white"> Pratham Corporate Office,
 											<br />
 											Off K G Road,
 											Opp Menaka Theater,
@@ -1581,7 +1639,7 @@
 								<li>
 									<div class="contact_text">
 										<h6 class="font-weight-bold color_default">Phone</h6>
-										<span class="color_white">+91-7829 583 111 , +91-804 171 5678</span>
+										<span class="color_white"><a href="tel:7829583111" style="color: #fff;">+91 - 7829 583 111</a> , <a href="tel:8041715678" style="color: #fff;">+91 - 804 171 5678</a></span>
 									</div>
 								</li>
 							</ul>
@@ -2050,7 +2108,7 @@
 								</div>
 								<div class="col-md-6 col-lg-6">
 									<div class="form-group">
-										<input class="form-control" type="number" id='phone' name="phone" placeholder="Phone" pattern="/^\d{10}$/" min="0" />
+										<input class="form-control" type="number" id='phone' name="phone" placeholder="Phone" min="0" size="10" maxlength="10" oninput="checkNumberFieldLength(this);"/>
 									</div>
 								</div>
 								<div class="col-md-12 col-lg-12">
@@ -2075,20 +2133,12 @@
 		    		</div>
 	    		</div>
 	    	</div>
-	    	<div class="footer pt_60 background6">
+	    	<div class="footer pt_30 background6">
 	    		<div class="container">
-	    			<div class="footer_bottom pb_60">
+	    			<div class="footer_bottom pb_30">
 	    				<div class="row">
 		    				<div class="col-md-12 col-lg-12">
-		    					<div class="row">
-		    						<div class="col-md-12 col-lg-12">
-		    							<div class="footer-widget">
-		    								<div class="footer_title pb_30">
-												<a href='https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3886.9028135538197!2d77.51693491525049!3d13.041857790809814!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bae3d27cd3cc213%3A0xa4fd2c5a2ae17aef!2sPratham%20Casa%20Serene%2C%20SM%20Rd%2C%20Prashanth%20Nagar%2C%20Peenya%2C%20Bengaluru%2C%20Karnataka%20560057!5e0!3m2!1sen!2sin!4v1581574735343!5m2!1sen!2sin' target='_blank' ><img src="images/google-map.png" class="img-fluid"></a>
-											</div>
-		    							</div>
-		    						</div>
-		    					</div>
+								<a href='https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3886.9028135538197!2d77.51693491525049!3d13.041857790809814!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bae3d27cd3cc213%3A0xa4fd2c5a2ae17aef!2sPratham%20Casa%20Serene%2C%20SM%20Rd%2C%20Prashanth%20Nagar%2C%20Peenya%2C%20Bengaluru%2C%20Karnataka%20560057!5e0!3m2!1sen!2sin!4v1581574735343!5m2!1sen!2sin' target='_blank' ><img src="images/google-map.png" class="img-fluid"></a>
 		    				</div>
 		    			</div>
 	    			</div>
@@ -2168,118 +2218,162 @@
 		
 		grecaptcha.ready(function() {
 
-        grecaptcha.execute('6LdFLNgUAAAAAJYdNhjXK2PosDbozvImaLqXSdyl', {
+			grecaptcha.execute('6LdFLNgUAAAAAJYdNhjXK2PosDbozvImaLqXSdyl', {
 
-            action: 'homepage'
+				action: 'homepage'
 
-        }).then(function(token) {
+			}).then(function(token) {
 
-            $('#hcon').prepend('<input type="hidden" name="g-recaptcha-response"  value="' + token + '">');
+				$('#hcon').prepend('<input type="hidden" name="g-recaptcha-response"  value="' + token + '">');
 
-            $('#ccon').prepend('<input type="hidden" name="g-recaptcha-response"  value="' + token + '">');
+				$('#ccon').prepend('<input type="hidden" name="g-recaptcha-response"  value="' + token + '">');
 
-        });
+			});
 
-    });
+		});
 
-   
+	   
 
-    $("#hcon").submit(function() {		
+		$("#hcon").submit(function() {		
 
-			var str = $(this).serialize();
+				var str = $(this).serialize();
 
-        $.ajax({
+			$.ajax({
 
-            type: "POST",
+				type: "POST",
 
-            url: "contact-process.php",
+				url: "contact-process.php",
 
-            data: str,
+				data: str,
 
-            success: function(msg) {
+				success: function(msg) {
 
-                if (msg == 'OK') {
+					if (msg == 'OK') {
 
-                    result = '<p style="color:green !important; font-weight: 600;font-size: 18px;">Email Sent Successfully!</p>';
+						result = '<p style="color:green !important; font-weight: 600;font-size: 18px;">Email Sent Successfully!</p>';
 
-                    $('#headererrormessage').delay(18000).fadeOut();
+						$('#headererrormessage').delay(18000).fadeOut();
 
-                    $('#hcon')[0].reset();
+						$('#hcon')[0].reset();
 
-                    //$('input,textarea').val('');
+						//$('input,textarea').val('');
 
-                } else {
+					} else {
 
-                    result = msg;
+						result = msg;
 
-                }
+					}
 
-                $('#headererrormessage').html(result);
+					$('#headererrormessage').html(result);
 
-            }
+				}
 
-        });
+			});
 
-        return false;
-
-    });
-
-	$("#ccon").submit(function() {		
-
-			var str = $(this).serialize();
-
-        $.ajax({
-
-            type: "POST",
-
-            url: "contact-process.php",
-
-            data: str,
-
-            success: function(msg) {
-
-                if (msg == 'OK') {
-
-                    result = '<p style="color:green !important; font-weight: 600;font-size: 18px;">Email Sent Successfully!</p>';
-
-                    $('#contacterrormessage').delay(18000).fadeOut();
-
-                    $('#pcon')[0].reset();
-
-                    //$('input,textarea').val('');
-
-                } else {
-
-                    result = msg;
-
-                }
-
-                $('#contacterrormessage').html(result);
-
-            }
-
-        });
-
-        return false;
-
-    });
-
-	$("#phone").keypress(function(e) {
-		//if the letter is not digit then display error and don't type anything
-		if (e.which != 8 && e.which != 0 && (e.which < 48 || e.which > 57)) {
-			//display error message
-			$("#contacterrormessage").html('<p style="color:red !important;">Digits Only</p>').show().fadeOut("slow");
 			return false;
-		}
-	});
-	$("#phone1").keypress(function(e) {
-		//if the letter is not digit then display error and don't type anything
-		if (e.which != 8 && e.which != 0 && (e.which < 48 || e.which > 57)) {
-			//display error message
-			$("#headererrormessage").html('<p style="color:red !important;">Digits Only</p>').show().fadeOut("slow");
+
+		});
+
+		$("#ccon").submit(function() {		
+
+				var str = $(this).serialize();
+
+			$.ajax({
+
+				type: "POST",
+
+				url: "contact-process.php",
+
+				data: str,
+
+				success: function(msg) {
+
+					if (msg == 'OK') {
+
+						result = '<p style="color:green !important; font-weight: 600;font-size: 18px;">Email Sent Successfully!</p>';
+
+						$('#contacterrormessage').delay(18000).fadeOut();
+
+						$('#pcon')[0].reset();
+
+						//$('input,textarea').val('');
+
+					} else {
+
+						result = msg;
+
+					}
+
+					$('#contacterrormessage').html(result);
+
+				}
+
+			});
+
 			return false;
+
+		});
+		
+		function checkNumberFieldLength(elem){
+			if (elem.value.length > 10) {
+				elem.value = elem.value.slice(0,10);
+			}
 		}
-	});
+		function checkNumberFieldLength1(elem){
+			if (elem.value.length > 10) {
+				elem.value = elem.value.slice(0,10);
+			}
+		}
+		$("#phone").keypress(function(e) {
+			//if the letter is not digit then display error and don't type anything
+			if (e.which != 8 && e.which != 0 && (e.which < 48 || e.which > 57)) {
+				//display error message
+				$("#contacterrormessage").html('<p style="color:red !important;">Digits Only</p>').show().fadeOut("slow");
+				return false;
+			}
+		});
+		$("#phone1").keypress(function(e) {
+			//if the letter is not digit then display error and don't type anything
+			if (e.which != 8 && e.which != 0 && (e.which < 48 || e.which > 57)) {
+				//display error message
+				$("#headererrormessage").html('<p style="color:red !important;">Digits Only</p>').show().fadeOut("slow");
+				return false;
+			}
+		});
+		
+		function myFunction() {
+		  var dots = document.getElementById("dots");
+		  var moreText = document.getElementById("more");
+		  var btnText = document.getElementById("myBtn");
+		  var btnText1 = document.getElementById("myBtn1");
+
+		  if (dots.style.display === "none") {
+			dots.style.display = "inline";
+			btnText.innerHTML = 'Read More <i class="fa fa-arrow-right"></i>'; 
+			moreText.style.display = "none";
+			$(".btn1").show();
+		  } else {
+			dots.style.display = "none";
+			btnText1.innerHTML = 'Read Less <i class="fa fa-arrow-left"></i>';
+			moreText.style.display = "inline";
+			$(".btn1").hide();
+		  }
+		}
+		function myFunction2() {
+		  var dots = document.getElementById("dots");
+		  var moreText = document.getElementById("more1");
+		  var btnText = document.getElementById("myBtn2");
+
+		  if (dots.style.display === "none") {
+			dots.style.display = "inline";
+			btnText.innerHTML = "<span style='color:#fff;'>Read More <i class='fa fa-arrow-right'></i></span>"; 
+			moreText.style.display = "none";
+		  } else {
+			dots.style.display = "none";
+			btnText.innerHTML = "<span style='color:#fff;'>Read Less <i class='fa fa-arrow-left'></i></span>";
+			moreText.style.display = "inline";
+		  }
+		}
 
     </script>
    
