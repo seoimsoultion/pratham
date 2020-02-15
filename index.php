@@ -272,7 +272,7 @@ include 'includes/header.php';
 
 			<div class="col-md-12 col-lg-12">
 				<div class="section_title_1 text-center mx-auto  wow animated slideInUp">
-					<h2 class="title text-uppercase color_white"><span class=" mx-auto color_default">&nbsp;</span> About <b class="heading_span">PRATHAM CONSTRUCTION</b></h2>
+					<h2 class="title text-uppercase color_white"><span class=" mx-auto color_default">&nbsp;</span> About PRATHAM CONSTRUCTION</h2>
 					
 				</div>
 			</div>
@@ -329,7 +329,7 @@ include 'includes/header.php';
 		<div class="row">
 			<div class="col-md-12 col-lg-12">
 				<div class="section_title_1 text-center mx-auto pb_60 wow animated slideInUp">
-					<h2 class="title text-uppercase"><span class=" mx-auto color_default">&nbsp;</span>Why <b class="heading_span">Pratham Construction</b></h2>
+					<h2 class="title text-uppercase"><span class=" mx-auto color_default">&nbsp;</span>Why Pratham Construction</h2>
 
 				</div>
 			</div>
@@ -341,20 +341,20 @@ include 'includes/header.php';
 				<!-- main slider -->
 
 				<div class="thumb-sl  ">
-					<div class="row  align-items-center">
+					<div class="mx-auto d-block why-us-sl owl-carousel wow animated slideInUp">
 
-						<div class="col-md-4 col-lg-4 why-box " style="margin-top:-20px"  class="mx-auto d-block">
-							<img src="images/pratham/Customer-Focus.png"  class="mx-auto d-block">
+						<div class=" why-box  "   class="mx-auto d-block">
+							<img src="images/pratham/Customer-Focus.png"  class="why-us-sl-img ">
 							<h4 class="text-center"> Customer Focus</h4>
 							<p>Pratham Construction delivers every project with highest level of integrity. Every decision taken is client centric. We aim at providing the customer high levels of satisfaction in terms of interaction, service and quality.</p>
 						</div>
-						<div class="col-md-4 col-lg-4 why-box">
-							<img src="images/pratham/Innovation.png" class="mx-auto d-block">
+						<div class=" why-box">
+							<img src="images/pratham/Innovation.png" class="why-us-sl-img">
 							<h4 class="text-center"> Innovation</h4>
 							<p>Pratham Construction is synonymous to innovation. We always encourage multiple solutions and perspectives in the realty sector. We incorporate new ideas in all realms of our company’s venture and the new trends in the realty industries. </p>
 						</div>
-						<div class="col-md-4 col-lg-4 why-box">
-							<img src="images/pratham/Transparency.png"  class="mx-auto d-block">
+						<div class=" why-box">
+							<img src="images/pratham/Transparency.png"  class="why-us-sl-img">
 							<h4 class="text-center"> Transparency</h4>
 							<p>Transparency is rooted in all of our operations. We strongly believe that in order for a lasting relation with customers, transparency is the key. That is why; we prioritise transparency in all our dealings as we focus on imaginative engineering and reliability.  </p>
 						</div>
@@ -668,7 +668,7 @@ include 'includes/header.php';
 		<div class="row">
 			<div class="col-md-12 col-lg-12">
 				<div class="section_title_1 text-center mx-auto  wow animated slideInUp">
-					<h2 class="title text-uppercase"><span class=" mx-auto color_default">&nbsp;</span> Testimonials <b class="heading_span"> </b></h2>
+					<h2 class="title text-uppercase"><span class=" mx-auto color_default">&nbsp;</span> Testimonials </h2>
 					
 				</div>
 			</div>

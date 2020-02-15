@@ -654,6 +654,32 @@
 		});
 		return false;
 	});
+
+	$('.why-us-sl  ').owlCarousel({
+     loop: true,
+     autoplay: false,
+     autoplayTimeout: 5000,
+     nav: true,
+     dots: false,
+     navText: ['<span class="fa fa-angle-left"></span>','<span class="fa fa-angle-right"></span>'],
+     responsive:{
+
+        0:{
+          items:1
+        },
+        600:{
+          items:2
+        },
+        1024:{
+          items:3
+        },
+        1200:{
+          items:3
+        }
+      }
+      
+     });
+
 </script>
 </body>
 
