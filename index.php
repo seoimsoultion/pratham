@@ -666,7 +666,7 @@ include 'includes/header.php';
 		<div class="row">
 			<div class="col-md-12 col-lg-12">
 				<div class="section_title_1 text-center mx-auto  wow animated slideInUp">
-					<h2 class="title text-uppercase"><span class=" mx-auto color_default">&nbsp;</span>  What Client’s say <b class="heading_span"> about us </b></h2>
+					<h2 class="title text-uppercase"><span class=" mx-auto color_default">&nbsp;</span> Testimonials <b class="heading_span"> </b></h2>
 					
 				</div>
 			</div>
@@ -682,7 +682,7 @@ include 'includes/header.php';
 			<div class="col-md-12 col-lg-12">
 				<div class="testimonial_item owl-carousel wow animated slideInUp">
 					<div class="member_feedback p_30 color_secondery">
-						<div class="client_img"><img src="images/testimonial/01.jpg" alt="image"></div>
+					
 						<div class="star d-inline-block mt_30 color_default">
 
 						</div>
@@ -690,7 +690,7 @@ include 'includes/header.php';
 						<p>	I booked an apartment at Indraprastha. It is one of the most well-designed and planned residential apartment. The rooms are spacious with abundant natural lighting. I have no complaints on my booking at Casa Serene.  </p>
 					</div>
 					<div class="member_feedback p_30 color_secondery">
-						<div class="client_img"><img src="images/testimonial/02.jpg" alt="image"></div>
+						
 						<div class="star d-inline-block mt_30 color_default">
 
 						</div>
