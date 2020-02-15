@@ -533,7 +533,7 @@ include 'includes/header.php';
 									<i class="fa fa-comment" aria-hidden="true"></i>
 									<span class="color_white">12</span>
 								</div>
-								<div class="blog_img overlay_one"><img src="images/blog/01.jpg" alt="image"></div>
+								<div class="blog_img overlay_one"><img src="images/bl1.jpg" alt="image"></div>
 								<div class="blog_content bg_white color_secondery">
 									<div class="blog_title">
 										<a class="color_primary" href="blog-details.html">
@@ -560,7 +560,7 @@ redefining quality housing in the Bangalore realty through innovative technology
 									<i class="fa fa-comment" aria-hidden="true"></i>
 									<span class="color_white">18</span>
 								</div>
-								<div class="blog_img overlay_one"><img src="images/blog/02.jpg" alt="image"></div>
+								<div class="blog_img overlay_one"><img src="images/bl2.jpg" alt="image"></div>
 								<div class="blog_content bg_white color_secondery">
 									<div class="blog_title">
 										<a class="color_primary" href="blog-details.html">
@@ -587,7 +587,7 @@ customer rights increasing the demand from end-use customers and NRI investors a
 									<i class="fa fa-comment" aria-hidden="true"></i>
 									<span class="color_white">23</span>
 								</div>
-								<div class="blog_img overlay_one"><img src="images/blog/03.jpg" alt="image"></div>
+								<div class="blog_img overlay_one"><img src="images/bl3.jpg" alt="image"></div>
 								<div class="blog_content bg_white color_secondery">
 									<div class="blog_title">
 										<a class="color_primary" href="blog-details.html">

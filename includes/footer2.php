@@ -531,6 +531,7 @@
 								</div>
 								<div class="col-md-12 col-lg-12">
 									<div class="form-group text-center">
+									<input type="hidden" name="Page" value="Pratham Indraprastha  Microsite">
 										<input class="btn btn-default" id="send" value="submit" type="submit" />
 									</div>
 								</div>
@@ -630,7 +631,8 @@
 
                     $('#headererrormessage').delay(18000).fadeOut();
 
-                    $('#hcon')[0].reset();
+					$('#hcon')[0].reset();
+					$('.form-control').val('');
 
                     //$('input,textarea').val('');
 
@@ -670,7 +672,8 @@
 
                     $('#contacterrormessage').delay(18000).fadeOut();
 
-                    $('#pcon')[0].reset();
+					$('#pcon')[0].reset();
+					$('.form-control').val('');
 
                     //$('input,textarea').val('');
 
