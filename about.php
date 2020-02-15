@@ -12,7 +12,7 @@ include 'includes/header.php';
                         <h1 class="page_banner_title color_white text-uppercase">About Us</h1>
                         <div class="breadcrumbs m-auto d-inline-block">
                             <ul>
-                                <li class="hover_gray"><a href="index-5.html">Home</a></li>
+                                <li class="hover_gray"><a href="index.php">Home</a></li>
                                 <li><i class="fa fa-angle-right" aria-hidden="true"></i></li>
                                 <li class="color-default">About Us</li>
                             </ul>

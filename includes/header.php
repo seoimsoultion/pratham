@@ -70,17 +70,17 @@
 				<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation"> <span class="navbar-toggler-icon"></span> </button>
 				<div class="collapse navbar-collapse" id="navbarSupportedContent">
 					<ul class="navbar-nav ml-auto">
-					  <li class="nav-item"><a class="nav-link active" href="#top">Home<span class="sr-only">(current)</span></a></li>
-					  <li class="nav-item"><a class="nav-link" href="#about">About </a></li>
-					  <li class="nav-item"><a class="nav-link" href="#why-us">Why Us </a></li>
-					  <li class="nav-item"><a class="nav-link" href="#portfolio">Our Projects</a></li>
+					  <li class="nav-item"><a class="nav-link active" href="<?php if($url!='home'){ echo 'index.php';}  ?>#top">Home<span class="sr-only">(current)</span></a></li>
+					  <li class="nav-item"><a class="nav-link" href="<?php if($url!='home'){ echo 'index.php';}  ?>#about">About </a></li>
+					  <li class="nav-item"><a class="nav-link" href="<?php if($url!='home'){ echo 'index.php';}  ?>#why-us">Why Us </a></li>
+					  <li class="nav-item"><a class="nav-link" href="<?php if($url!='home'){ echo 'index.php';}  ?>#portfolio">Our Projects</a></li>
 					 
-					  <li class="nav-item"><a class="nav-link" href="#blog">Blogs</a></li>
-					  <li class="nav-item"><a class="nav-link" href="#testimonial">Testimonial</a></li>
+					  <li class="nav-item"><a class="nav-link" href="<?php if($url!='home'){ echo 'index.php';}  ?>#blog">Blogs</a></li>
+					  <li class="nav-item"><a class="nav-link" href="<?php if($url!='home'){ echo 'index.php';}  ?>#testimonial">Testimonial</a></li>
 					<?php //  <li class="nav-item"><a class="nav-link" href="#experience">Location</a></li> ?>
 			
 					 
-					  <li class="nav-item"><a class="nav-link" href="#contact">Contact</a></li>	
+					  <li class="nav-item"><a class="nav-link" href="<?php if($url!='home'){ echo 'index.php';}  ?>#contact">Contact</a></li>	
 					</ul>
 				</div>		
 			</nav>

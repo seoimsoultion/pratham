@@ -595,6 +595,8 @@
 	$(document).ready(function() {
 		//  Smoothscroll js
 		//=========================================
+		<?php if($url=='home'){ 
+			?>
 		$("a").on('click', function(event) {
 
 			if (this.hash !== "") {
@@ -609,7 +611,10 @@
 					window.location.hash = hash;
 				});
 			}
-		});
+		}); 
+	<?php 
+		}
+		?>
 	});
 
 
@@ -700,6 +705,8 @@
 		}
 
 	});
+	
+	
 </script>
 </body>
 
