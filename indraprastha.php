@@ -619,7 +619,8 @@
 			</div>
 		</div>
 	</div>
-</div>
+</div> 
+
 <?php /*
 			<div id="particles-js" class="banner_image background13">
 				<div class="container h-100">
@@ -1497,8 +1498,13 @@
 								<div class="row">
 									<div class="col-md-12 col-lg-12">
 										<div class="table text-center">
-											<a href="">
+											<a href="images/pratham/indraprastha/5-1.jpg" class="desktop" data-fancybox="gallery">
 												<img src="images/pratham/indraprastha/5-1.jpg" class="img-fluid">
+											
+											</a>
+											<a href="images/pratham/indraprastha/5-1.jpg" class="mobile" data-fancybox="gallery">
+												<img src="images/pratham/indraprastha/masterm.jpg" class="img-fluid">
+												
 											</a>
 										</div>
 									</div>
@@ -1538,8 +1544,11 @@
 								<div class="row">
 									<div class="col-md-12 col-lg-12">
 										<div class="table text-center">
-											<a href="">
+											<a href="images/pratham/indraprastha/indraprastha.png" class="desktop"  data-fancybox="gallery">
 												<img src="images/pratham/indraprastha/indraprastha.png" class="img-fluid">
+											</a>
+											<a href="images/pratham/indraprastha/indraprastha.png" class="mobile"  data-fancybox="gallery">
+												<img src="images/pratham/indraprastha/indraprastha-m.png" class="img-fluid">
 											</a>
 										</div>
 									</div>

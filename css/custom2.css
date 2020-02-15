@@ -1,6 +1,4 @@
-.background13{
-    background-image: url(../images/pratham/indraprastha/Logo.jpg);
-  }
+
   .main_title p,.about_myself .main_title p {width: 100%;}
   .pop-icon {color:#fd7e14}
   @media only screen and (min-width:1120px) and (max-width:1980px) {
@@ -14,3 +12,16 @@
 .background60{
   background-image: url(../images/footer.png);
 }
+
+@media screen and (max-width:990px) and (min-width:280px) {
+  .desktop img{display: none !important}
+  .background13 {background-image: url(../images/pratham/indraprastha/moblie-banner.jpg);}
+  .mainbanner_content {display: none;}
+}
+
+@media screen and (min-width:991px) and (max-width:1980px) {
+  
+  .mobile img {display:none  !important;}
+  .background13 {background-image: url(../images/pratham/indraprastha/Logo.jpg);}
+}
+  
