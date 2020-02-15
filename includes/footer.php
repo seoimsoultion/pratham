@@ -5,7 +5,7 @@
 		<div class="row">
 			<div class="col-md-12 col-lg-12">
 				<div class="section_title_1 text-center mx-auto  wow animated slideInUp">
-					<h2 class="title text-uppercase color_white"><span class=" mx-auto color_default color_white"></span>Get In Touch</h2>
+					<h2 class="title text-uppercase color_white"><span class=" mx-auto color_default color_white"></span>Contact Us</h2>
 					
 				</div>
 			</div>
@@ -79,7 +79,7 @@
 								</div>
 								<div class="col-md-6 col-lg-6">
 									<div class="form-group">
-										<input class="form-control" type="email" name="email" placeholder="Email " />
+										<input class="form-control" type="email" name="email" placeholder="Email" />
 									</div>
 								</div>
 
@@ -551,6 +551,10 @@
 						</form>
 					</div>
 				</div>
+				<div class="copyright text-center">
+				<p class="color_white">Pratham Construction @ 2020. All Right Reserved.| Digital partner <a href="" class="color_default" >IM Solutions</a></p> 
+
+				</div>
 			</div>
 		</div>
 	</div>
@@ -559,18 +563,7 @@
 	===================================================-->
 <!--	Start Footer
 	===================================================-->
-<footer class="p_20 color_primary  text-center full_row">
-	<div class="container">
-		<div class="row">
-			<div class="col-md-12 col-lg-12">
-				<div class="copyright">
-				<p class="pull-left">Pratham Construction @ 2020. All Right Reserved.</p> 
-				<p class="pull-right"><a href="">IM Solutions</a></p>
-				</div>
-			</div>
-		</div>
-	</div>
-</footer>
+
 <!--	End Footer
 	===================================================-->
 </div>
@@ -661,6 +654,32 @@
 		});
 		return false;
 	});
+
+	$('.why-us-sl  ').owlCarousel({
+     loop: true,
+     autoplay: false,
+     autoplayTimeout: 5000,
+     nav: true,
+     dots: false,
+     navText: ['<span class="fa fa-angle-left"></span>','<span class="fa fa-angle-right"></span>'],
+     responsive:{
+
+        0:{
+          items:1
+        },
+        600:{
+          items:2
+        },
+        1024:{
+          items:3
+        },
+        1200:{
+          items:3
+        }
+      }
+      
+     });
+
 </script>
 </body>
 

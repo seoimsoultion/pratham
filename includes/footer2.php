@@ -8,7 +8,7 @@
 		    				<!--	Start Title
 		    				================================-->
 		    				<div class="main_title pb_60">
-								<h2 class="title color_white text-center">Contact</h2>
+								<h2 class="title color_white text-center">Contact Us</h2>
 								<p class="mt_15 color_white text-center">Should you wish to know more about the project, please free to leave your comments. We will get back to you and arrange for a site visit on request. </p>											
 							</div>
 							<!--	End Title
@@ -536,7 +536,7 @@
 								</div>
 								<div class="col-md-6 col-lg-6">
 									<div class="form-group">
-										<input class="form-control" type="number" id="phone" name="phone" required placeholder="Phone" />
+										<input class="form-control" type="number" id="phone" name="phone" required placeholder=" Contact No." />
 									</div>
 								</div>
 								<div class="col-md-12 col-lg-12">
@@ -559,11 +559,10 @@
 						</form>
 					</div>
 				</div>
-				<div class="copyright2 p_20  color_white">
-				<p class="pull-left">Pratham Construction @ 2020. All Right Reserved.</p> 
-				<p class="pull-right">IM Solutions</p>
-			<p > &nbsp;</p>
-			</div>
+				<div class="copyright text-center">
+				<p class="color_white">Pratham Construction @ 2020. All Right Reserved.| Digital partner <a href="" class="color_default" >IM Solutions</a></p> 
+						<p> &nbsp; </p>
+				</div>
 				
 			</div>
 
