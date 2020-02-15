@@ -262,6 +262,7 @@
 		box-shadow: 0 3px 5px -3px #090545;
 		padding: 8px;
 		border-radius: 10px;
+		height:200px;
 	}
 
 	.proj_amenities img{
@@ -292,8 +293,10 @@
 			content: '\2192';
 			font-family: 'FontAwesome';
 			float: left;
-			/*margin-left: -10px;*/
+			margin-left: -20px;
+			margin-top: -1px;
 			color: #d41125;
+			padding: 0px 5px 0px 0px;
 		}
 		.nav-logo{
 			width:40px;
@@ -301,44 +304,46 @@
 		.footerp{
 			margin-left: 13%;
 		}
+		.project-detail-ul li {
+			position: relative;
+			background: url(images/aoc-mic-arrow.png) no-repeat;
+			/*background-position: 0;*/
+			font-size: 15px;
+			font-weight: 400;
+			padding: 0px 0px 10px 25px !important;
+			line-height: 20px;
+			border-bottom:0px !important;
+			margin-left: -20px;
+		}
 	}
 	@media (min-width: 768px) {  
 		.arrowClass li:before {
 			content: '\2192';
 			font-family: 'FontAwesome';
 			float: left;
-			/*margin-left: -1.5em;*/
+			margin-left: -10px;
 			color: #d41125;
+			padding: 0px 5px;
 		}
 		.location{
-			height:400px;
+			height:430px;
 		}
 		.nav-logo{
 			width:50px;
 		}
+		.project-detail-ul li {
+			position: relative;
+			background: url(images/aoc-mic-arrow.png) no-repeat;
+			background-position: 0;
+			font-size: 15px;
+			font-weight: 400;
+			padding: 0 0 0 24px !important;
+			margin: 0 0 4px 0;
+			line-height: 26px;
+			border-bottom:0px !important;
+		}
 	}
-	.project-detail-ul li {
-        position: relative;
-        background: url(images/aoc-mic-arrow.png) no-repeat;
-        background-position: 0;
-        font-size: 15px;
-        font-weight: 400;
-        padding: 0 0 0 24px !important;
-        margin: 0 0 4px 0;
-        line-height: 26px;
-		border-bottom:0px !important;
-    }
-	.project-detail-ul li :hover{
-        position: relative;
-        background: url(images/aoc-mic-arrow.png) no-repeat;
-        background-position: 0;
-        font-size: 15px;
-        font-weight: 400;
-        padding: 0 0 0 24px !important;
-        margin: 0 0 4px 0;
-        line-height: 26px;
-		border-bottom:0px !important;
-    }
+	
     
     .project-detail-ul li img {
         width: 20px;
@@ -377,7 +382,7 @@
 				<div class="row">
 					<div class="col-md-12 col-lg-12">
 						<div class="form-group">
-							<input class="form-control" type="text" name="name" placeholder="Your Name" />
+							<input class="form-control" type="text" name="name" placeholder="Name" />
 						</div>
 					</div>
 					<div class="col-md-12 col-lg-12">
@@ -928,15 +933,16 @@
 								<div class="myself color_lightgray wow animated fadeInLeft">
 									
 									
-									<p class="color_white " style="text-align: justify; margin-bottom:10px;">Pratham Constructions its latest illustrious project---Casa Serene! Located at Jalahalli in Bangalore, Casa Serene is meticulously designed residential gated community. Consisting of 140 spacious apartments, Casa Serene offers premium 2 and 3 BHKs to choose from. Designed to befit ultra-modern lifestyles of the modern Indian families, at Casa Serene experience magnificent ambience of luscious greenery combined with ultra-modern amenities for a modern and contemporary lifestyle.</p>
+									<p class="color_white " style="text-align: justify; margin-bottom:10px;">Pratham Constructions its latest illustrious project - Casa Serene! Located at Jalahalli in Bangalore, Casa Serene is meticulously designed residential gated community. Consisting of 140 spacious apartments, Casa Serene offers premium 2 and 3 BHKs to choose from. Designed to befit ultra-modern lifestyles of the modern Indian families, at Casa Serene experience magnificent ambience of luscious greenery combined with ultra-modern amenities for a modern and contemporary lifestyle.</p>
 									<p class="color_white" style="text-align: justify; margin-bottom:10px;">The highlights of amenities include swimming pool, club house, Badminton court, Car wash area, Jogger’s track, high-speed elevators, 24/7 surveillance camera, 100% DG Back up for common areas, clutter free provision to connect DTH of your choice, water treatment plant-advanced, soft and grey, sewage treatment plant, solar water heater, solid waste convertor, rain water harvesting, connectivity, vehicle charging bays, car wash bays, round the clock security, restrooms for support staff, maintenance office cabin, disabled friendly community, sensor and timer controlled LED Lights for entire common area lighting.</p>
 								</div>
 							</div>
 							<div class="col-md-5 col-lg-5">
 								<img src="images/About-us.png" alt="image">
+								<br/><br/>
 							</div>
 							<div class="col-md-12 col-lg-12">
-								<p class="color_white" style="text-align: justify;">Casa Serene’s architectural model is rooted to traditions and is Vaastu compliant attracting positive aura.Strategically located at Jalahalli, North West quadrant of Bangalore, Casa Serene has excellent connectivity to major centres of the Bangalore city. Casa Serene is in close proximity to Jaahalli METRO station, Peenya Industrial Area, METRO Cash n Carry, Indian Institute of Science, Orion Mall, Vidhan Soudha, Raghavendra Hospital, ISKCON and Palace Ground. </p>
+								<p class="color_white" style="text-align: justify;">Casa Serene’s architectural model is rooted to traditions and is Vaastu compliant attracting positive aura.Strategically located at Jalahalli, North West quadrant of Bangalore, Casa Serene has excellent connectivity to major centres of the Bangalore city. Casa Serene is in close proximity to Jaahalli METRO station, Peenya Industrial Area, METRO Cash and Carry, Indian Institute of Science, Orion Mall, Vidhan Soudha, Raghavendra Hospital, ISKCON and Palace Ground. </p>
 							</div>
 						</div>
 					</div>
@@ -1119,11 +1125,11 @@
 							<div class="service_one text-center">
 								<div class="srvicon bg_default color_white mx-auto mb_20 "><span><img src='images/specifications/structure.png'style="margin: 5px;width: 80%;" alt=''/></span></div>
 								<h3 class="font-weight-bold color_primary">STRUCTURE</h3>
-								<ul class='arrowClass' style='text-align:left;'>
+								<ul class='arrowClass' style='text-align:left;padding: 10px;'>
 									<li>Seismic Zone II compliant RCC Structure</li>
 									<li>Solid Cement Block Masonry</li>
 									<ul class="ulExtra" id="list_A">
-										<li>External Walls with Cement Plaster &amp;Internal Walls with lime plaster</li>
+										<li>External Walls with Cement Plaster & Internal Walls with lime plaster</li>
 									</ul>
 								</ul>
 								<div>
@@ -1135,8 +1141,8 @@
 							<div class="service_one text-center">
 								<div class="srvicon bg_default color_white mx-auto mb_20"><span><img src='images/specifications/flooring.png'style="margin: 5px;width: 80%;" alt=''/></span></div>
 								<h3 class="font-weight-bold color_primary">FLOORING</h3>
-								<ul class='arrowClass' style='text-align:left;'>
-									<li>Vitrified tiles in Living, Dining, Kitchen &amp; allBedrooms</li>
+								<ul class='arrowClass' style='text-align:left;padding: 10px;'>
+									<li>Vitrified tiles in Living, Dining, Kitchen & all Bedrooms</li>
 								</ul>
 							</div>
                         </div>
@@ -1144,8 +1150,8 @@
 							<div class="service_one text-center">
 								<div class="srvicon bg_default color_white mx-auto mb_20"><span><img src='images/specifications/wall.png'style="margin: 5px;width: 80%;" alt=''/></span></div>
 								<h3 class="font-weight-bold color_primary">WALL FINISHES</h3>
-								<ul class='arrowClass' style='text-align:left;'>
-									<li>Internal Walls: Oil Bound Distemper for al plastered walls &amp; Ceilings</li>
+								<ul class='arrowClass' style='text-align:left;padding: 10px;'>
+									<li>Internal Walls: Oil Bound Distemper for all plastered walls & Ceilings</li>
 									<ul class="ulExtra" id="list_B">
 										<li>External Walls: Cement paint for the exteriors and common Areas</li>
 										<li>Enamel Paint for MS Grills and Door Shutters</li>
@@ -1160,9 +1166,9 @@
 							<div class="service_one text-center">
 								<div class="srvicon bg_default color_white mx-auto mb_20"><span><img src='images/specifications/main-door.png'style="margin: 5px;width: 80%;" alt=''/></span></div>
 								<h3 class="font-weight-bold color_primary">MAIN DOOR</h3>
-								<ul class='arrowClass' style='text-align:left;'>
-									<li>Teak Wd Dr Frame with threshld</li>
-									<li>BSTV designer dr shutters, finished withmelamine plish n bth sides</li>
+								<ul class='arrowClass' style='text-align:left;padding: 10px;'>
+									<li>Teak Wood Door Frame with threshold</li>
+									<li>BSTV designer door shutters, finished with melamine polish on both sides</li>
 								</ul>
 							</div>
                         </div>
@@ -1170,11 +1176,11 @@
 							<div class="service_one text-center">
 								<div class="srvicon bg_default color_white mx-auto mb_20"><span><img src='images/specifications/other-doors.png'style="margin: 5px;width: 80%;" alt=''/></span></div>
 								<h3 class="font-weight-bold color_primary">OTHER DOORS</h3>
-								<ul class='arrowClass' style='text-align:left;'>
-									<li>Sal/Hard Wd dr frame</li>
-									<li>Cmmercial flush shutters</li>
+								<ul class='arrowClass' style='text-align:left;padding: 10px;'>
+									<li>Sal/Hard Wood door frame</li>
+									<li>Commercial flush shutters</li>
 									<ul class="ulExtra" id="list_C">
-										<li>NCL Seclr Dr and Windw systems withplain glass fr Balcnies</li>
+										<li>NCL Secolor Door and Window systems with plain glass for Balconies</li>
 									</ul>                          
 								</ul>
 								<div>
@@ -1186,10 +1192,10 @@
 							<div class="service_one text-center">
 								<div class="srvicon bg_default color_white mx-auto mb_20"><span><img src='images/specifications/window.png'style="margin: 5px;width: 80%;" alt=''/></span></div>
 								<h3 class="font-weight-bold color_primary">WINDOWS</h3>
-								<ul class='arrowClass' style='text-align:left;'>
-									<li>NCL Seclr Windw system windws withplain glass and prvisin fr msquit mesh</li>
+								<ul class='arrowClass' style='text-align:left;padding: 10px;'>
+									<li>NCL Secolor Window system windows with plain glass and provision for mosquito mesh</li>
 									<ul class="ulExtra" id="list_I">
-										<li>NCL Seclr Ventilatr system withtranslucent glass in tilets</li>
+										<li>NCL Secolor Ventilator system with translucent glass in toilets</li>
 									</ul>
 								</ul>
 								<div>
@@ -1201,12 +1207,12 @@
 							<div class="service_one text-center">
 								<div class="srvicon bg_default color_white mx-auto mb_20"><span><img src='images/specifications/kitchn.png'style="margin: 5px;width: 80%;" alt=''/></span></div>
 								<h3 class="font-weight-bold color_primary">KITCHEN</h3>
-								<ul class='arrowClass' style='text-align:left;'>
-									<li>Plished granite platfrm with stainless steelsink</li>
-									<li>Ceramic tile dad f 2 feet abve the granitecunter</li>
+								<ul class='arrowClass' style='text-align:left;padding: 10px;'>
+									<li>Polished granite platform with stainless steel sink</li>
+									<li>Ceramic tile dado of 2 feet above the granite counter</li>
 									<ul class="ulExtra" id="list_D">
-										<li>Prvisin fr Aqua-guard pint in kitchen</li>
-										<li>Prvisin fr Geyser in kitchen</li>   
+										<li>Provision for Aqua-guard point in kitchen</li>
+										<li>Provision for Geyser in kitchen</li>   
 									</ul>             
 								</ul>
 								<div>
@@ -1218,10 +1224,10 @@
 							<div class="service_one text-center">
 								<div class="srvicon bg_default color_white mx-auto mb_20"><span><img src='images/specifications/utility.png'style="margin: 5px;width: 80%;" alt=''/></span></div>
 								<h3 class="font-weight-bold color_primary">UTILITY</h3>
-								<ul class='arrowClass' style='text-align:left;'>
-									<li>Prvisin fr sink in utility</li>
-									<li>Prvisin fr Washing machine in utility area</li>
-									<li>Prvisin fr irning</li>
+								<ul class='arrowClass' style='text-align:left;padding: 10px;'>
+									<li>Provision for sink in utility</li>
+									<li>Provision for Washing machine in utility area</li>
+									<li>Provision for ironing</li>
 								</ul>
 							</div>
                         </div>
@@ -1229,12 +1235,12 @@
 							<div class="service_one text-center">
 								<div class="srvicon bg_default color_white mx-auto mb_20"><span><img src='images/specifications/toilet.png'style="margin: 5px;width: 80%;" alt=''/></span></div>
 								<h3 class="font-weight-bold color_primary">TOILETS</h3>
-								<ul class='arrowClass' style='text-align:left;'>
-									<li>Ceramic Tiles fr flring and dad upt 7 ftheight</li>
-									<li>EWC, Washbasin frm KOHLER</li>
+								<ul class='arrowClass' style='text-align:left;padding: 10px;'>
+									<li>Ceramic Tiles for flooring and dado upto 7 ft height</li>
+									<li>EWC, Washbasin from KOHLER</li>
 									<ul class="ulExtra" id="list_F">
-										<li>Chrmium plated fittings frm Jaquar</li>
-										<li>Cncealed flush tanks frm GEBRIT</li>
+										<li>Chromium plated fittings from Jaquar</li>
+										<li>Concealed flush tanks from GEBRIT</li>
 									</ul>
 								</ul>
 								<div>
@@ -1246,15 +1252,15 @@
 							<div class="service_one text-center">
 								<div class="srvicon bg_default color_white mx-auto mb_20"><span><img src='images/specifications/ELECTRICAL.png'style="margin: 5px;width: 80%;" alt=''/></span></div>
 								<h3 class="font-weight-bold color_primary">ELECTRICAL</h3>
-								<ul class='arrowClass' style='text-align:left;'>
-									<li>TV pint in the living rm and masterbedrm</li>
-									<li>Fire Resistant Wires frm Anchr</li>
+								<ul class='arrowClass' style='text-align:left;padding: 10px;'>
+									<li>TV point in the living room and master bedroom</li>
+									<li>Fire Resistant Wires from Anchor</li>
 									<ul class="ulExtra" id="list_G">
-										<li>Elegant designer mdular electrical switches</li>
-										<li>1 Earth Leakage Circuit Breaker t ensuresafety</li>
-										<li>1 MCB fr each rm prvided at the maindistributin bx</li>
-										<li>Prvisin fr 5kW pwer in each flat</li>
-										<li>Telephne pint will be prvided in livingrm and each Bedrm</li>
+										<li>Elegant designer modular electrical switches</li>
+										<li>1 Earth Leakage Circuit Breaker to ensure safety</li>
+										<li>o1 MCB for each room provided at the main distribution box</li>
+										<li>Provision for 5kW power in each flat</li>
+										<li>Telephone point will be provided in living room and each Bedroom</li>
 									</ul>
 								</ul>
 								<div>
@@ -1266,8 +1272,8 @@
 							<div class="service_one text-center">
 								<div class="srvicon bg_default color_white mx-auto mb_20"><span><img src='images/specifications/water-suply.png'style="margin: 5px;width: 80%;" alt=''/></span></div>
 								<h3 class="font-weight-bold color_primary">WATER SUPPLY</h3>
-								<ul class='arrowClass' style='text-align:left;'>
-									<li>Undergrund &amp; Overhead strage tanks fsuitable capacity. Brewell as an auxiliarysurce f water supply</li>
+								<ul class='arrowClass' style='text-align:left;padding: 10px;'>
+									<li>Underground & Overhead storage tanks of suitable capacity. Borewell as an auxiliary source of water supply</li>
 								</ul>
 							</div>
                         </div>
@@ -1275,15 +1281,15 @@
 							<div class="service_one text-center">
 								<div class="srvicon bg_default color_white mx-auto mb_20"><span><img src='images/specifications/other.png'style="margin: 5px;width: 80%;" alt=''/></span></div>
 								<h3 class="font-weight-bold color_primary">OTHERS</h3>
-								<ul class='arrowClass' style='text-align:left;'>
-									<li>Cmplete Generatr Backup fr all cmmnareas and services &amp; 1kW pwer backup frevery apartment at n extra cost</li>
+								<ul class='arrowClass' style='text-align:left;padding: 10px;'>
+									<li>Complete Generator Backup for all common areas and services & 1kW power backup for every apartment at no extra cost</li>
 									<ul class="ulExtra" id="list_H">
 										<li>2 level security</li>
 										<li>Wi-fi ready</li>
 										<li>Sewage treatment plant</li>
 										<li>Rain water harvesting</li>
-										<li>5 Elevatrs</li>
-										<li>Marble lbbies &amp; Granite staircase</li>
+										<li>5 Elevators</li>
+										<li>Marble lobbies & Granite staircase</li>
 									</ul>
 								</ul>
 								<div>
@@ -2041,7 +2047,7 @@
 								</div>
 								<div class="col-md-6 col-lg-6">
 									<div class="form-group">
-										<input class="form-control" type="number" name="phone" placeholder="Phone" pattern="/^\d{10}$/" min="0" />
+										<input class="form-control" type="number" id='phone' name="phone" placeholder="Phone" pattern="/^\d{10}$/" min="0" />
 									</div>
 								</div>
 								<div class="col-md-12 col-lg-12">
@@ -2084,7 +2090,7 @@
 		    			</div>
 	    			</div>
 	    		</div>
-	    		<div class="copyright2 p_20 color_lightgray bg_brown text-center footerp"><p>Pratham Casa Serene @ 2019. All Right Reserved.</p></div>
+	    		<div class="copyright2 p_20 color_lightgray bg_brown text-center footerp"><p>Pratham Casa Serene @ 2019. All Right Reserved.| Digital partner <a href="https://www.imsolutions.co/" target="_blank" style='color: #ffb32f;'>IM Solutions</a></p></div>
 	    	</div>
 	    </div>
 		<!--	End Contact
@@ -2255,7 +2261,14 @@
 
     });
 
-
+	$("#phone").keypress(function(e) {
+		//if the letter is not digit then display error and don't type anything
+		if (e.which != 8 && e.which != 0 && (e.which < 48 || e.which > 57)) {
+			//display error message
+			$("#contacterrormessage").html('<p style="color:red !important;">Digits Only</p>').show().fadeOut("slow");
+			return false;
+		}
+	});
 
     </script>
    
