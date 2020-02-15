@@ -42,7 +42,17 @@
 										<span class="color_white">info@prathamconstructions.com</span>
 									</div>
 								</li>
+
 							</ul>
+							<div class="socal_media_2 mt_15 d-inline-block">
+							<ul>
+								<li><a href="#"><i class="fa fa-facebook color_white" aria-hidden="true"></i></a></li>
+								<li><a href="#"><i class="fa fa-twitter color_white" aria-hidden="true"></i></a></li>
+								<li><a href="#"><i class="fa fa-google-plus color_white" aria-hidden="true"></i></a></li>
+								<li><a href="#"><i class="fa fa-linkedin color_white" aria-hidden="true"></i></a></li>
+								<li><a href="#"><i class="fa fa-instagram color_white" aria-hidden="true"></i></a></li>
+							</ul>
+						</div>
 						</div>
 						<!--<div class="socal_media_2 mt_15 d-inline-block">
 							<ul>
@@ -538,20 +548,8 @@
 	    	</div>
 	    	<div class="footer pt_60 background6">
 	    		<div class="container">
-	    			<div class="footer_bottom pb_60">
-	    				<div class="row">
-		    				<div class="col-md-12 col-lg-12">
-		    					<div class="row">
-		    						<div class="col-md-12 col-lg-12">
-		    							<div class="footer-widget">
-		    								<div class="footer_title pb_30">
-												<a href='https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d3887.976910497626!2d77.57735039723289!3d12.973328575062375!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x2a70d35330e1dabb!2sPrathamm%20Developers!5e0!3m2!1sen!2sin!4v1581743452672!5m2!1sen!2sin' target='_blank' ><img src="images/google-map.png" class="img-fluid"></a>
-											</div>
-		    							</div>
-		    						</div>
-		    					</div>
-		    				</div>
-		    			</div>
+	    			<div class="footer_bottom ">
+	    			
 	    			</div>
 	    		</div>
 	    		<div class="copyright2 p_20 color_lightgray bg_brown text-center footerp"><p>Pratham Construction @ 2020. All Right Reserved.| Digital partner <a href="https://www.imsolutions.co/" target="_blank" style='color: #ffb32f;'>IM Solutions</a></p></div>

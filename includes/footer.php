@@ -548,8 +548,8 @@
 						</form>
 					</div>
 				</div>
-				<div class="copyright text-center">
-				<p class="color_white">Pratham Construction @ 2020. All Right Reserved.| Digital partner <a href="" class="color_default" >IM Solutions</a></p> 
+				<div class="copyright text-center"><br/>
+				<p class="color_white ">Pratham Construction @ 2020. All Right Reserved.| Digital partner <a href="" class="color_default" >IM Solutions</a></p> 
 
 				</div>
 			</div>
