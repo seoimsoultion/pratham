@@ -1,6 +1,5 @@
-<!--	Start Contact
-		===================================================-->
-	    <div id="contact" class="section background6 pp-scrollable">
+<!--Start Contact ===================================================-->
+<div id="contact" class="section bg_black pp-scrollable">
 	    	<div class="container">
 	    		<div class="contact pt_60">
 	    			<div class="row">
@@ -8,61 +7,43 @@
 		    				<!--	Start Title
 		    				================================-->
 		    				<div class="main_title pb_60">
-								<h2 class="title color_white text-center">Contact Us</h2>
-								<p class="mt_15 color_white text-center">Should you wish to know more about the project, please free to leave your comments. We will get back to you and arrange for a site visit on request. </p>											
-							</div>
+								<h2 class="title color_primary text-uppercase text-center color_white">Contact</h2>
+								<p class="mt_15 text-center color_white">Should you wish to know more about the project, please free to leave your comments. We will get back to you and arrange for a site visit on request. </p>
+                            </div>
 							<!--	End Title
 		    				================================-->
-						</div>
-
-
-
-
-
-
-
-
-
-
-						<div class="col-md-12 col-lg-12">
-				<div class="row">
-					<div class="col-md-4 col-lg-4">
+		    			</div>
+		    		</div>
+		    		<div class="row">
+		    			<div class="col-md-4 col-lg-4">
 						<div class="contact_info wow animated fadeInLeft">
-							<h4 class="font-weight-bold color_white">VISIT US</h4>
-							<hr>
 							<ul>
-								<li>
-									<div class="contact_text color_default">
-										<h6 class="font-weight-bold color_default">Email</h6>
-										<span class="color_white">info@prathamconstructions.com</span>
-									</div>
-								</li>
-								<li>
-									<div class="contact_text">
-										<h6 class="font-weight-bold color_default">Phone</h6>
-										<span class="color_white">(+91) 7829 583 111
-											<br />
-											(+91) 804 171 5678</span>
-									</div>
-								</li>
 								<li>
 									<div class="contact_text">
 										<h6 class="font-weight-bold color_default">Address</h6>
 										<span class="color_white"> Pratham Corporate Office
 											<br />
 											Off K G Road,
-											<br />
 											Opp Menaka Theater,
 											<br />
-											Bengaluru,
-											<br />
-											Karnataka - 560 009</span>
+											Bengaluru,Karnataka - 560 009</span>
 									</div>
 								</li>
-
+								<li>
+									<div class="contact_text color_default">
+										<h6 class="font-weight-bold color_default">Email</h6>
+										<span class="color_white">www.prathamconstructions.com</span>
+									</div>
+								</li>
+								<li>
+									<div class="contact_text">
+										<h6 class="font-weight-bold color_default">Phone</h6>
+										<span class="color_white">+91-7829 583 111 , +91-804 171 5678</span>
+									</div>
+								</li>
 							</ul>
 						</div>
-						<div class="socal_media_2 mt_15 d-inline-block">
+						<!--<div class="socal_media_2 mt_15 d-inline-block">
 							<ul>
 								<li><a href="#"><i class="fa fa-facebook color_white" aria-hidden="true"></i></a></li>
 								<li><a href="#"><i class="fa fa-twitter color_white" aria-hidden="true"></i></a></li>
@@ -70,32 +51,27 @@
 								<li><a href="#"><i class="fa fa-linkedin color_white" aria-hidden="true"></i></a></li>
 								<li><a href="#"><i class="fa fa-instagram color_white" aria-hidden="true"></i></a></li>
 							</ul>
-						</div>
+						</div>-->
 					</div>
-					<div class="col-md-4 col-lg-4">
-					<iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d3887.976910497626!2d77.57735039723289!3d12.973328575062375!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x2a70d35330e1dabb!2sPrathamm%20Developers!5e0!3m2!1sen!2sin!4v1581743452672!5m2!1sen!2sin" width="100%" height="400" frameborder="0" style="border:0;" allowfullscreen=""></iframe>
-					</div>
-					<div class="col-md-4 col-lg-4">
-						<span id="errmsg"></span>
-						<form class="form contact_message wow animated fadeInRight" id="contact-form" action="email.php" method="post">
+					<div class="col-md-8 col-lg-8">
+					<p id='contacterrormessage'></p>
+					<form id="ccon" method="post" role="form" class="contactForm">
+					<!--<form class="form contact_message wow animated fadeInRight" id="contact-form" action="email.php" method="post">-->
 							<div class="row">
-
 								<div class="col-md-6 col-lg-6">
 									<div class="form-group">
-										<input class="form-control" type="text" name="name" placeholder=" Name" />
+										<input class="form-control" type="text" name="name" placeholder="Name" />
 									</div>
 								</div>
 								<div class="col-md-6 col-lg-6">
 									<div class="form-group">
-										<input class="form-control" type="email" name="email" placeholder="Email " />
+										<input class="form-control" type="email" name="email" placeholder="Email" />
 									</div>
 								</div>
 
 								<div class="col-md-6 col-lg-6">
 									<div class="form-group">
-										<select class="form-control" size="0" name="ccode" wfd-id="29">
-
-
+										<select class="form-control" size="0" name="ccode" wfd-id="29" style='height: calc(30px + 15px);'>
 
 											<option value=""> Select County </option>
 
@@ -526,26 +502,21 @@
 											<option data-countrycode="ZM" value="260">Zambia (+260)</option>
 
 											<option data-countrycode="ZW" value="263">Zimbabwe (+263)</option>
-
-
-
-
-
 										</select>
 									</div>
 								</div>
 								<div class="col-md-6 col-lg-6">
 									<div class="form-group">
-										<input class="form-control" type="number" id="phone" name="phone" required placeholder=" Contact No." />
+										<input class="form-control" type="number" id='phone' name="phone" placeholder="Phone" pattern="/^\d{10}$/" min="0" />
 									</div>
 								</div>
 								<div class="col-md-12 col-lg-12">
 									<div class="form-group">
-										<textarea class="form-control" name="message" rows="7" placeholder="Message"></textarea>
+										<textarea class="form-control" name="message" rows="7" placeholder="Message" minlength="25" ></textarea>
 									</div>
 								</div>
 								<div class="col-md-12 col-lg-12">
-									<div class="form-group col text-center">
+									<div class="form-group text-center">
 										<input class="btn btn-default" id="send" value="submit" type="submit" />
 									</div>
 								</div>
@@ -558,63 +529,182 @@
 							</div>
 						</form>
 					</div>
-				</div>
-				<div class="copyright text-center">
-				<p class="color_white">Pratham Construction @ 2020. All Right Reserved.| Digital partner <a href="" class="color_default" >IM Solutions</a></p> 
-						<p> &nbsp; </p>
-				</div>
-				
-			</div>
-
-
+		    		</div>
+	    		</div>
+	    	</div>
+	    	<div class="footer pt_60 background6">
+	    		<div class="container">
+	    			<div class="footer_bottom pb_60">
+	    				<div class="row">
+		    				<div class="col-md-12 col-lg-12">
+		    					<div class="row">
+		    						<div class="col-md-12 col-lg-12">
+		    							<div class="footer-widget">
+		    								<div class="footer_title pb_30">
+												<a href='https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d3887.976910497626!2d77.57735039723289!3d12.973328575062375!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x2a70d35330e1dabb!2sPrathamm%20Developers!5e0!3m2!1sen!2sin!4v1581743452672!5m2!1sen!2sin' target='_blank' ><img src="images/google-map.png" class="img-fluid"></a>
+											</div>
+		    							</div>
+		    						</div>
+		    					</div>
+		    				</div>
+		    			</div>
 	    			</div>
+	    		</div>
+	    		<div class="copyright2 p_20 color_lightgray bg_brown text-center footerp"><p>Pratham Construction @ 2020. All Right Reserved.| Digital partner <a href="https://www.imsolutions.co/" target="_blank" style='color: #ffb32f;'>IM Solutions</a></p></div>
+	    	</div>
+	    </div>
+
+</div>
 
 
-						
-
-		
-		
-	
-		<!--	End Contact
-		===================================================-->
-	</div>
-			</div>
-		</div>
-		
-						</div>
-
-	
-	<!--	Js Links
+<!--	Js Links
 	===================================================-->
-	<script src="js/jquery.min.js"></script>
-	<script src="js/popper.min.js"></script>
-	<script src="js/bootstrap.min.js"></script>
-	<script src="js/plugins.js"></script>
-	<script src="js/particles.min.js"></script>
-	<script src="js/app.js"></script>
-	<script src="js/jquery.pagepiling.min.js"></script>
-	<script src="js/custom.js"></script>
-	<script>
-		var deleteLog = false;
-		//	Pagepiling js
-		//=====================================================
-		$(document).ready(function() {
-	    	$('#pagepiling').pagepiling({
-		    	menu: '#menu',
-		    	anchors: ['page1', 'page2', 'page3', 'page4', 'page5','page6', 'page7', 'page8','page9'],
-		    	loopTop: true,
-		    	loopBottom: true
-		  	});
-	    });
-		//	Sidebar Nav Menu js
-		//=====================================================
-		function openNav() {
-		    document.getElementById("mysidenav").style.width = "150px";
-		}
-		function closeNav() {
-		    document.getElementById("mysidenav").style.width = "0";
-		}
-    </script>
+<script src="js/jquery.min.js"></script>
+<script src="js/popper.min.js"></script>
+<script src="js/bootstrap.min.js"></script>
+<script src="js/plugins.js"></script>
+<script src="js/particles.min.js"></script>
+<script src="js/app.js"></script>
+<script src="js/jquery.pagepiling.min.js"></script>
+<script src="js/custom.js"></script>
+<script src="https://www.google.com/recaptcha/api.js?render=6LdFLNgUAAAAAJYdNhjXK2PosDbozvImaLqXSdyl"></script>
+<script>
+    var deleteLog = false;
+    //	Pagepiling js
+    //=====================================================
+    $(document).ready(function() {
+        $('#pagepiling').pagepiling({
+            menu: '#menu',
+            anchors: ['page1', 'page2', 'page3', 'page4', 'page5', 'page6', 'page7', 'page8', 'page9'],
+            loopTop: true,
+            loopBottom: true
+        });
+    });
+    //	Sidebar Nav Menu js
+    //=====================================================
+    function openNav() {
+        document.getElementById("mysidenav").style.width = "150px";
+    }
+
+    function closeNav() {
+        document.getElementById("mysidenav").style.width = "0";
+    }
+	
+	grecaptcha.ready(function() {
+
+        grecaptcha.execute('6LdFLNgUAAAAAJYdNhjXK2PosDbozvImaLqXSdyl', {
+
+            action: 'homepage'
+
+        }).then(function(token) {
+
+            $('#hcon').prepend('<input type="hidden" name="g-recaptcha-response"  value="' + token + '">');
+
+            $('#ccon').prepend('<input type="hidden" name="g-recaptcha-response"  value="' + token + '">');
+
+        });
+
+    });
+
    
+
+    $("#hcon").submit(function() {		
+
+			var str = $(this).serialize();
+
+        $.ajax({
+
+            type: "POST",
+
+            url: "contact-process.php",
+
+            data: str,
+
+            success: function(msg) {
+
+                if (msg == 'OK') {
+
+                    result = '<p style="color:green !important; font-weight: 600;font-size: 18px;">Email Sent Successfully!</p>';
+
+                    $('#headererrormessage').delay(18000).fadeOut();
+
+                    $('#hcon')[0].reset();
+
+                    //$('input,textarea').val('');
+
+                } else {
+
+                    result = msg;
+
+                }
+
+                $('#headererrormessage').html(result);
+
+            }
+
+        });
+
+        return false;
+
+    });
+
+	$("#ccon").submit(function() {		
+
+			var str = $(this).serialize();
+
+        $.ajax({
+
+            type: "POST",
+
+            url: "contact-process.php",
+
+            data: str,
+
+            success: function(msg) {
+
+                if (msg == 'OK') {
+
+                    result = '<p style="color:green !important; font-weight: 600;font-size: 18px;">Email Sent Successfully!</p>';
+
+                    $('#contacterrormessage').delay(18000).fadeOut();
+
+                    $('#pcon')[0].reset();
+
+                    //$('input,textarea').val('');
+
+                } else {
+
+                    result = msg;
+
+                }
+
+                $('#contacterrormessage').html(result);
+
+            }
+
+        });
+
+        return false;
+
+    });
+	$("#phone").keypress(function(e) {
+		//if the letter is not digit then display error and don't type anything
+		if (e.which != 8 && e.which != 0 && (e.which < 48 || e.which > 57)) {
+			//display error message
+			$("#contacterrormessage").html('<p style="color:red !important;">Digits Only</p>').show().fadeOut("slow");
+			return false;
+		}
+	});
+	$("#phone1").keypress(function(e) {
+		//if the letter is not digit then display error and don't type anything
+		if (e.which != 8 && e.which != 0 && (e.which < 48 || e.which > 57)) {
+			//display error message
+			$("#headererrormessage").html('<p style="color:red !important;">Digits Only</p>').show().fadeOut("slow");
+			return false;
+		}
+	});
+</script>
+
 </body>
+
 </html>
