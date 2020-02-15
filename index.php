@@ -343,18 +343,18 @@ include 'includes/header.php';
 				<div class="thumb-sl  ">
 					<div class="row  align-items-center">
 
-						<div class="col-md-4 col-lg-4 why-box " style="margin-top:-20px">
+						<div class="col-md-4 col-lg-4 why-box " style="margin-top:-20px"  class="mx-auto d-block">
 							<img src="images/pratham/Customer-Focus.png">
 							<h4 class="text-center"> Customer Focus</h4>
 							<p>Pratham Construction delivers every project with highest level of integrity. Every decision taken is client centric. We aim at providing the customer high levels of satisfaction in terms of interaction, service and quality.</p>
 						</div>
 						<div class="col-md-4 col-lg-4 why-box">
-							<img src="images/pratham/Innovation.png">
+							<img src="images/pratham/Innovation.png" class="mx-auto d-block">
 							<h4 class="text-center"> Innovation</h4>
 							<p>Pratham Construction is synonymous to innovation. We always encourage multiple solutions and perspectives in the realty sector. We incorporate new ideas in all realms of our company’s venture and the new trends in the realty industries. </p>
 						</div>
 						<div class="col-md-4 col-lg-4 why-box">
-							<img src="images/pratham/Transparency.png">
+							<img src="images/pratham/Transparency.png"  class="mx-auto d-block">
 							<h4 class="text-center"> Transparency</h4>
 							<p>Transparency is rooted in all of our operations. We strongly believe that in order for a lasting relation with customers, transparency is the key. That is why; we prioritise transparency in all our dealings as we focus on imaginative engineering and reliability.  </p>
 						</div>
@@ -380,7 +380,7 @@ include 'includes/header.php';
 		<div class="row">
 			<div class="col-md-12 col-lg-12">
 				<div class="section_title_1 text-center mx-auto  wow animated slideInUp">
-					<h2 class="title text-uppercase"><span class=" mx-auto color_default">&nbsp;</span> Our <b class="heading_span">Projects</b></h2>
+					<h2 class="title text-uppercase"><span class=" mx-auto color_default">&nbsp;</span> Our Projects</h2>
 					
 				</div>
 
@@ -511,7 +511,7 @@ include 'includes/header.php';
 		<div class="row">
 			<div class="col-md-12 col-lg-12">
 				<div class="section_title_1 text-center mx-auto  wow animated slideInUp">
-					<h2 class="title text-uppercase"><span class=" mx-auto color_white">&nbsp; </span> blog  What’s News </h2>
+					<h2 class="title text-uppercase"><span class=" mx-auto color_white">&nbsp; </span> blogs   </h2>
 					
 				</div>
 			</div>
