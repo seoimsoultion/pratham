@@ -23,35 +23,32 @@
 							<h4 class="font-weight-bold color_white">VISIT US</h4>
 							<hr>
 							<ul>
+
+							<li>
+									<div class="contact_text">
+										<h6 class="font-weight-bold color_default">Address</h6>
+										<span class="color_white"> Pratham Corporate Office
+											<br />
+											Off K G Road,
+											Opp Menaka Theater,
+											<br />
+											Bengaluru,Karnataka - 560 009</span>
+									</div>
+								</li>
+							
+								<li>
+									<div class="contact_text">
+										<h6 class="font-weight-bold color_default">Phone</h6>
+										<span class="color_white">+91-7829 583 111 , +91-804 171 5678</span>
+									</div>
+								</li>
+							
 								<li>
 									<div class="contact_text color_default">
 										<h6 class="font-weight-bold color_default">Email</h6>
 										<span class="color_white">info@prathamconstructions.com</span>
 									</div>
 								</li>
-								<li>
-									<div class="contact_text">
-										<h6 class="font-weight-bold color_default">Phone</h6>
-										<span class="color_white">(+91) 7829 583 111
-											<br />
-											(+91) 804 171 5678</span>
-									</div>
-								</li>
-								<li>
-									<div class="contact_text">
-										<h6 class="font-weight-bold color_default">Address</h6>
-										<span class="color_white"> Pratham Corporate Office
-											<br />
-											Off K G Road,
-											<br />
-											Opp Menaka Theater,
-											<br />
-											Bengaluru,
-											<br />
-											Karnataka - 560 009</span>
-									</div>
-								</li>
-
 							</ul>
 						</div>
 						<div class="socal_media_2 mt_15 d-inline-block">
@@ -65,7 +62,7 @@
 						</div>
 					</div>
 					<div class="col-md-4 col-lg-4">
-					<iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d3887.976910497626!2d77.57735039723289!3d12.973328575062375!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x2a70d35330e1dabb!2sPrathamm%20Developers!5e0!3m2!1sen!2sin!4v1581743452672!5m2!1sen!2sin" width="100%" height="400" frameborder="0" style="border:0;" allowfullscreen=""></iframe>
+					<iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d3887.976910497626!2d77.57735039723289!3d12.973328575062375!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x2a70d35330e1dabb!2sPrathamm%20Developers!5e0!3m2!1sen!2sin!4v1581743452672!5m2!1sen!2sin" width="100%" height="360" frameborder="0" style="border:0;" allowfullscreen=""></iframe>
 					</div>
 					<div class="col-md-4 col-lg-4">
 						<span id="errmsg"></span>
@@ -533,7 +530,7 @@
 								</div>
 								<div class="col-md-12 col-lg-12">
 									<div class="form-group">
-										<textarea class="form-control" name="message" rows="7" placeholder="Message"></textarea>
+										<textarea class="form-control" name="message" rows="5" placeholder="Message"></textarea>
 									</div>
 								</div>
 								<div class="col-md-12 col-lg-12">
@@ -598,6 +595,32 @@
 		});
 	});
 
+
+	$('.why-us-sl').owlCarousel({
+     loop: true,
+     autoplay: true,
+     autoplayTimeout: 5000,
+     margin: 0,
+     nav: true,
+     dots: false,
+     navText: ['<span class="fa fa-angle-left"></span>','<span class="fa fa-angle-right"></span>'],
+     responsive:{
+
+        0:{
+          items:1
+        },
+        600:{
+          items:1
+        },
+        1024:{
+          items:3
+        },
+        1200:{
+          items:3
+        }
+      }
+      
+     });
 	$(document).ready(function() {
 		//called when key is pressed in textbox
 		$("#phone").keypress(function(e) {

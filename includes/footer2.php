@@ -1,5 +1,5 @@
 <!--Start Contact ===================================================-->
-<div id="contact" class="section bg_black pp-scrollable">
+<div id="contact" class="section background60 pp-scrollable">
 	    	<div class="container">
 	    		<div class="contact pt_60">
 	    			<div class="row">
@@ -29,16 +29,17 @@
 											Bengaluru,Karnataka - 560 009</span>
 									</div>
 								</li>
-								<li>
-									<div class="contact_text color_default">
-										<h6 class="font-weight-bold color_default">Email</h6>
-										<span class="color_white">www.prathamconstructions.com</span>
-									</div>
-								</li>
+							
 								<li>
 									<div class="contact_text">
 										<h6 class="font-weight-bold color_default">Phone</h6>
 										<span class="color_white">+91-7829 583 111 , +91-804 171 5678</span>
+									</div>
+								</li>
+								<li>
+									<div class="contact_text color_default">
+										<h6 class="font-weight-bold color_default">Email</h6>
+										<span class="color_white">info@prathamconstructions.com</span>
 									</div>
 								</li>
 							</ul>
@@ -53,7 +54,10 @@
 							</ul>
 						</div>-->
 					</div>
-					<div class="col-md-8 col-lg-8">
+					<div class="col-md-4 col-lg-4">
+					<iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d3887.976910497626!2d77.57735039723289!3d12.973328575062375!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x2a70d35330e1dabb!2sPrathamm%20Developers!5e0!3m2!1sen!2sin!4v1581743452672!5m2!1sen!2sin" width="100%" height="360" frameborder="0" style="border:0;" allowfullscreen=""></iframe>
+					</div>
+					<div class="col-md-4 col-lg-4">
 					<p id='contacterrormessage'></p>
 					<form id="ccon" method="post" role="form" class="contactForm">
 					<!--<form class="form contact_message wow animated fadeInRight" id="contact-form" action="email.php" method="post">-->
@@ -512,7 +516,7 @@
 								</div>
 								<div class="col-md-12 col-lg-12">
 									<div class="form-group">
-										<textarea class="form-control" name="message" rows="7" placeholder="Message" minlength="25" ></textarea>
+										<textarea class="form-control" name="message" rows="5" placeholder="Message" minlength="25" ></textarea>
 									</div>
 								</div>
 								<div class="col-md-12 col-lg-12">
