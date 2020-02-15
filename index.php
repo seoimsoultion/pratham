@@ -297,7 +297,7 @@ include 'includes/header.php';
 						<p class="color_white text-justify" style="margin-top:10px">
 						Realising the need of quality yet affordable housing in the ever growing Bangalore city; the Silicon Valley of India, the Pratham Group ventured in the real estate sector. In our sincere efforts, Pratham Group endeavours to create quality residential spaces to better people’s living experiences. With a clear vision to transform the way people perceive quality housing, Pratham Constructions blends professional real estate expertise with innovative technology while  encompassing robust engineering, ground-breaking research and uncompromising business ethics in all spheres of realty development making home living more comfortable, productive and cheerful.
 						</p>
-						<p class="text-right "><a href="about.php" class="btn btn-default about-btn">Read More</a></p>
+						<p class="text-right "><a href="about.php" class=" color_white">Read More  <i class="fas fa-arrow-right"></i></a></p>
 
 					</div>
 					<div class="personal_info color_lightgray">
@@ -548,7 +548,7 @@ redefining quality housing in the Bangalore realty through innovative technology
 
 									<div class="admin">
 										<img src="images/about/02.jpg" alt="image">
-										<span class="color_white">By - Rockstar Jack</span>
+										<span class="color_white">By - Alok Nath</span>
 									</div>
 									<div class="date float-right color_primary">20 Jan 2019</div>
 								</div>
@@ -575,7 +575,7 @@ customer rights increasing the demand from end-use customers and NRI investors a
 
 									<div class="admin">
 										<img src="images/about/02.jpg" alt="image">
-										<span class="color_white">By - Rockstar Jack</span>
+										<span class="color_white">By - Maahir Jain</span>
 									</div>
 									<div class="date float-right color_primary">18 Jan 2019</div>
 								</div>
@@ -603,7 +603,7 @@ are two flagship programs from the Pratham Constructions.</p>
 
 									<div class="admin">
 										<img src="images/about/02.jpg" alt="image">
-										<span class="color_white">By - Rockstar Jack</span>
+										<span class="color_white">By - Atul Kumar</span>
 									</div>
 									<div class="date float-right color_primary">17 Jan 2019</div>
 								</div>

@@ -1,10 +1,10 @@
 <!--	Start Contact
 	===================================================-->
 <section id="contact" class="py_80 full_row bg_white">
-	<div class="container">
+	<div class="container pb_60">
 		<div class="row">
 			<div class="col-md-12 col-lg-12">
-				<div class="section_title_1 text-center mx-auto  wow animated slideInUp">
+				<div class="section_title_1 text-center mx-auto py_80     wow animated slideInUp">
 					<h2 class="title text-uppercase color_white"><span class=" mx-auto color_default color_white"></span>Contact Us</h2>
 
 				</div>
@@ -27,7 +27,7 @@
 								<li>
 									<div class="contact_text">
 										<h6 class="font-weight-bold color_default">Address</h6>
-										<span class="color_white"> Pratham Corporate Office
+										<span class="color_white"> Pratham Corporate Office,
 											<br />
 											Off K G Road,
 											Opp Menaka Theater,
@@ -39,7 +39,7 @@
 								<li>
 									<div class="contact_text">
 										<h6 class="font-weight-bold color_default">Phone</h6>
-										<span class="color_white">+91-7829 583 111 , +91-804 171 5678</span>
+										<span class="color_white">+91 - 7829 583 111 , +91 - 804 171 5678</span>
 									</div>
 								</li>
 
