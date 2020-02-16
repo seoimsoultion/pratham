@@ -414,6 +414,15 @@
 	button#myBtn2 {
 		margin-top: 10px;
 	}
+	#myBtn {
+		color:#ffb32f;
+	}
+	#myBtn1 {
+		color:red;
+	}
+	#myBtn2 {
+		color:#ffb32f !important;
+	}
 	</style>
 </head>
 
@@ -988,7 +997,7 @@
 								<div class="myself color_lightgray wow animated fadeInLeft">
 									<p class="color_white " style="text-align: justify; margin-bottom:10px;">Pratham Constructions its latest illustrious project - Casa Serene! Located at Jalahalli in Bangalore, Casa Serene is meticulously designed residential gated community. Consisting of 140 spacious apartments, Casa Serene offers premium 2 and 3 BHKs to choose from. Designed to befit ultra-modern lifestyles of the modern Indian families, at Casa Serene experience magnificent ambience of luscious greenery combined with ultra-modern amenities for a modern and contemporary lifestyle.</p>
 									<p class="color_white" style="text-align: justify; margin-bottom:10px;">The highlights of amenities include swimming pool, club house, Badminton court, Car wash area, Jogger’s track, high-speed elevators, 24/7 surveillance camera, 100% DG Back up for common areas, clutter free provision to connect DTH of your choice, water treatment plant-advanced, soft and grey, sewage treatment plant, solar water heater, solid waste convertor, rain water harvesting, connectivity, vehicle charging bays, car wash bays, round the clock security, restrooms for support staff, maintenance office cabin, disabled friendly community, sensor and timer controlled LED Lights for entire common area lighting.<span id="dots"></span>&nbsp;&nbsp;
-									</p><a href='#' onclick="myFunction()" id="myBtn" class="btn1 color_white">Read More  <i class="fa fa-arrow-right"></i></a>
+									</p><a href='#' onclick="myFunction()" id="myBtn" class="btn1">Read More  <i class="fa fa-arrow-right"></i></a>
 								</div>
 								
 							</div>
@@ -998,7 +1007,7 @@
 							</div>
 							<div class="col-md-12 col-lg-12" id='more'>								
 								<p class="color_white" style="text-align: justify;">Casa Serene’s architectural model is rooted to traditions and is Vaastu compliant attracting positive aura.Strategically located at Jalahalli, North West quadrant of Bangalore, Casa Serene has excellent connectivity to major centres of the Bangalore city. Casa Serene is in close proximity to Jaahalli METRO station, Peenya Industrial Area, METRO Cash and Carry, Indian Institute of Science, Orion Mall, Vidhan Soudha, Raghavendra Hospital, ISKCON and Palace Ground. </p>
-								<a href='#' onclick="myFunction()" id='myBtn1' class="btn2 color_white">Read More <i class="fa fa-arrow-left"></i></a>
+								<a href='#' onclick="myFunction()" id='myBtn1' class="btn2">Read More <i class="fa fa-arrow-left"></i></a>
 							</div>							
 						</div>
 					</div>
@@ -1012,7 +1021,7 @@
 								<div id='more1'>
 									<p class="color_white" style="text-align: justify;">Casa Serene’s architectural model is rooted to traditions and is Vaastu compliant attracting positive aura.Strategically located at Jalahalli, North West quadrant of Bangalore, Casa Serene has excellent connectivity to major centres of the Bangalore city. Casa Serene is in close proximity to Jaahalli METRO station, Peenya Industrial Area, METRO Cash and Carry, Indian Institute of Science, Orion Mall, Vidhan Soudha, Raghavendra Hospital, ISKCON and Palace Ground. </p>
 								</div>
-								<a href='#' onclick="myFunction2()" id="myBtn2" class="btn2 color_white">Read More <i class="fa fa-arrow-right"></i></a>
+								<a href='#' onclick="myFunction2()" id="myBtn2" class="btn2">Read More <i class="fa fa-arrow-right"></i></a>
 								<br/>
 								<br/>
 							</div>
@@ -1102,7 +1111,7 @@
                 <div class="services my_60">
                     <div class="row">
                         <div class="col-md-12 col-lg-12">
-                            <div class="section_title_1 text-center mx-auto pb_60 wow animated slideInUp">
+                            <div class="section_title_1 text-center mx-auto pb_30 wow animated slideInUp">
                                 <h2 class="title text-uppercase color_primary">Amenities</h2>
 								<p class="mt_15 text-center color_primary">For the ultimate contemporary lifestyle revolving around health and well-being, Casa Serene offers a multitude of modern amenities.</p>
                             </div>
@@ -1602,12 +1611,12 @@
 		===================================================-->
 	    <div id="contact" class="section bg_brown pp-scrollable">
 	    	<div class="container">
-	    		<div class="contact pt_60">
+	    		<div class="contact my_60">
 	    			<div class="row">
 		    			<div class="col-md-12 col-lg-12">
 		    				<!--	Start Title
 		    				================================-->
-		    				<div class="main_title pb_60">
+		    				<div class="main_title pb_30">
 								<h2 class="title color_primary text-uppercase text-center color_white">Contact</h2>
 								<p class="mt_15 text-center color_white">Should you wish to know more about the project, please free to leave your comments. We will get back to you and arrange for a site visit on request.</p>
                             </div>
@@ -2199,7 +2208,8 @@
                 $('#list_' + idVal).css('display', 'block');
 
                 $('#readMore_' + idVal).html('Show Less');
-
+				
+				$('#readMore_' + idVal).css({backgroundColor: 'red'});
             }
 
             if (idValCss == 'block') {
@@ -2207,6 +2217,8 @@
                 $('#list_' + idVal).css('display', 'none');
 
                 $('#readMore_' + idVal).html('Show More');
+								
+				$('#readMore_' + idVal).css({backgroundColor: '#ffb32f'});
 
             }
 
@@ -2367,11 +2379,11 @@
 
 		  if (dots.style.display === "none") {
 			dots.style.display = "inline";
-			btnText.innerHTML = "<span style='color:#fff;'>Read More <i class='fa fa-arrow-right'></i></span>"; 
+			btnText.innerHTML = "<span style='color:#ffb32f !important;'>Read More <i class='fa fa-arrow-right'></i></span>"; 
 			moreText.style.display = "none";
 		  } else {
 			dots.style.display = "none";
-			btnText.innerHTML = "<span style='color:#fff;'>Read Less <i class='fa fa-arrow-left'></i></span>";
+			btnText.innerHTML = "<span style='color:red;'>Read Less <i class='fa fa-arrow-left'></i></span>";
 			moreText.style.display = "inline";
 		  }
 		}
