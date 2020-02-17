@@ -1,7 +1,7 @@
 <!--Start Contact ===================================================-->
 <div id="contact" class="section background60 pp-scrollable">
 	    	<div class="container">
-	    		<div class="contact pt_60">
+	    		<div class="contact ">
 	    			<div class="row">
 		    			<div class="col-md-12 col-lg-12">
 		    				<!--	Start Title
@@ -544,17 +544,12 @@
 							</div>
 						</form>
 					</div>
-		    		</div>
+					</div>
+					
+					<div class="copyright2 p_20 color_lightgray bg_brown text-center footerp"><p>Pratham Construction @ 2020. All Right Reserved.| Digital partner <a href="https://www.imsolutions.co/" target="_blank" style='color: #ffb32f;'>IM Solutions</a></p></div>
 	    		</div>
 	    	</div>
-	    	<div class="footer pt_60 background6">
-	    		<div class="container">
-	    			<div class="footer_bottom ">
-	    			
-	    			</div>
-	    		</div>
-	    		<div class="copyright2 p_20 color_lightgray bg_brown text-center footerp"><p>Pratham Construction @ 2020. All Right Reserved.| Digital partner <a href="https://www.imsolutions.co/" target="_blank" style='color: #ffb32f;'>IM Solutions</a></p></div>
-	    	</div>
+	    
 	    </div>
 
 </div>
@@ -636,13 +631,13 @@
             success: function(msg) {
 
                 if (msg == 'OK') {
-
+					$('.form-control').val('');
                     result = '<p style="color:green !important; font-weight: 600;font-size: 18px;">Email Sent Successfully!</p>';
 
                     $('#headererrormessage').delay(18000).fadeOut();
 
 					$('#hcon')[0].reset();
-					$('.form-control').val('');
+					
 
                     //$('input,textarea').val('');
 
@@ -677,13 +672,13 @@
             success: function(msg) {
 
                 if (msg == 'OK') {
-
+					$('.form-control').val('');
                     result = '<p style="color:green !important; font-weight: 600;font-size: 18px;">Email Sent Successfully!</p>';
 
                     $('#contacterrormessage').delay(18000).fadeOut();
 
-					$('#pcon')[0].reset();
-					$('.form-control').val('');
+					$('#ccon')[0].reset();
+				
 
                     //$('input,textarea').val('');
 
