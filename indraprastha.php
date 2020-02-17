@@ -1489,7 +1489,7 @@
 							<div class="main_title pb_60">
 								<h2 class="title color_primary  text-center">Master Plan</h2>
 								<p class="mt_15  text-center">
-									<p class="mt_15  text-center">Pratham Indraprastha consists of 2 and 3 BHK apartment units with size ranging from 1270-1655 Sqft coming in 4 blocks. </p>
+									<p class="mt_15  text-center">The master plan of Indraprastha is an aerial view of the project on its completion. It offers a clear picture of how the whole space is going to be utilised.  </p>
 								</p>
 							</div>
 							<!--	End Title
