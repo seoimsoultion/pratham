@@ -52,7 +52,16 @@ include 'includes/header.php';
 		overflow: hidden;
 	}
 
-	
+	.slide-image {
+		position: absolute;
+		top: 0;
+		left: 0px;
+		width: calc(100% + 100px);
+		height: calc(100% + 120px);
+		background-position: 100%;
+		background-size: cover;
+	}
+
 	.slide-title {
 		font-size: 4rem;
 		line-height: 1;
@@ -180,33 +189,11 @@ include 'includes/header.php';
 		background: #FFFFFF;
 		transform-origin: 0 0;
 	}
-
-	@media screen and (max-width:990px) and (min-width:280px) {
-		.swiper-slide .slide-image ,swiper-slide-active{background-size:contain}
-		.slide {display: block}
-		.banner_image {
-			width: 100%;
-
-background-size: cover;
-overflow: hidden;
-background-position: 50% 50%;
-background-repeat: no-repeat;
-position: relative;
-margin-top: 82px
-	}
-	.slide-image {height: calc(100% + 100px);}
-  
-}
-
-@media screen and (min-width:991px) and (max-width:1980px) {
-
-	.slide-image {height: calc(100% + 100px);}
-}
 </style>
 
 <!--	Start Main Banner 
 	==================================================-->
-<section  id="water-effect" class="banner_image  ">
+<section  id="water-effect" class="banner_image background1 ">
 
 
 
