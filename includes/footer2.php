@@ -21,7 +21,7 @@
 								<li>
 									<div class="contact_text">
 										<h6 class="font-weight-bold color_default">Address</h6>
-										<span class="color_white"> Pratham Corporate Office,
+										<span class="color_white">  Corporate Office,
 											<br />
 											Off K G Road,
 											Opp Menaka Theater,

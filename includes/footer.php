@@ -27,7 +27,7 @@
 								<li>
 									<div class="contact_text">
 										<h6 class="font-weight-bold color_default">Address</h6>
-										<span class="color_white"> Pratham Corporate Office,
+										<span class="color_white">  Corporate Office,
 											<br />
 											Off K G Road,
 											Opp Menaka Theater,
@@ -550,7 +550,7 @@
 					</div>
 				</div>
 				<div class="copyright text-center"><br />
-					<p class="color_white ">Pratham Construction @ 2020. All Right Reserved.| Digital partner <a href="" class="color_default">IM Solutions</a></p>
+					<p class="color_white ">Pratham Construction @ 2020. All Right Reserved.| Digital partner <a href="https://www.imsolutions.co/" class="color_default">IM Solutions</a></p>
 
 				</div>
 			</div>
