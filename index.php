@@ -195,9 +195,9 @@ include 'includes/header.php';
   position: relative;
 }
 #mixedSlider .MS-content {
-
+  white-space: normal;
   overflow: hidden;
-  margin: 0 ;
+  margin: 0 1%;
 }
 #mixedSlider .MS-content .item {
   display: inline-block;
@@ -216,7 +216,8 @@ include 'includes/header.php';
 }
 @media (max-width: 767px) {
   #mixedSlider .MS-content .item {
-    width: 100%;
+
+  
   }
 }
 #mixedSlider .MS-content .item .imgTitle {
@@ -227,7 +228,7 @@ include 'includes/header.php';
   text-align: left;
   letter-spacing: 2px;
   color: #252525;
-  font-style: italic;
+
   position: absolute;
   background-color: rgba(255, 255, 255, 0.5);
   width: 100%;
@@ -248,11 +249,10 @@ include 'includes/header.php';
   float: right;
   margin: 0 20px 0 0;
   font-size: 16px;
-  font-style: normal;
-  color: rgba(173, 0, 0, 0.82);
+
+  color: #252525;
   font-weight: bold;
-  color: #1e283c!important;
- 
+
   transition: linear 0.1s;
 }
 #mixedSlider .MS-content .item a:hover {
@@ -277,15 +277,6 @@ include 'includes/header.php';
   }
 }
 @media (max-width: 767px) {
-
-
-#mixedSlider .MS-content .item {
-
-
-}
-
-
-
   #mixedSlider .MS-controls button {
     font-size: 20px;
   }
@@ -606,10 +597,122 @@ include 'includes/header.php';
 
 <!--	End Services
 	===================================================-->
+<section class="mob-banner experience " style="padding:20px 0; ">
+<div class="top-content">
+    <div class="container-fluid">
+    		<div class="col-md-12 col-lg-12">
+				<div class="section_title_1 text-center mx-auto  wow animated slideInUp">
+					<h2 class="title text-uppercase"><span class=" mx-auto color_white">&nbsp; </span> blogs   </h2>
+					
+				</div>
+			</div>
 
+			<div class="col-md-12 col-lg-12">
+				<div class="section_title_1 text-center mx-auto pb_60 wow animated slideInUp">
+					
+					<p class="sub_title ">Interdum a etiam sagittis vehicula porta. Massa felis eros quam blandit nulla dolor habitant. Ullamcorper quis ornare et proin pellentesque.</p>
+				</div>
+			</div>
+        <div id="carousel-example" class="carousel slide" data-ride="carousel">
+            <div class="carousel-inner row w-100 mx-auto" role="listbox" style="padding-top: 15px;">
+                <div class="carousel-item col-12 col-sm-6 col-md-4 col-lg-3 active">
+                    <div class="blog_item">
+								<div class="comments">
+									<i class="fa fa-comment" aria-hidden="true"></i>
+									<span class="color_white">12</span>
+								</div>
+								<div class="blog_img overlay_one"><img src="images/bl1.jpg" alt="image" style="width: 100%;"></div>
+								<div class="blog_content bg_white color_secondery">
+									<div class="blog_title">
+										<a class="color_primary" href="blog-details.html">
+											<h4>How Pratham Constructions is redefining quality housing in the Bangalore realty</h4>
+										</a>
+									</div>
+									<p class="mt_15 mb_30 text-justify">The ever growing Bangalore city has witnessed an increase in demand for residential space.
+However, not all that glitters is gold especially in the real estate segment of Bangalore. Pratham
+Constructions entered into the real estate market of Bangalore with the intention to address the
+need for quality residential houses. In doing the noble deed, Pratham Constructions is
+redefining quality housing in the Bangalore realty through innovative technology.</p>
 
+									<div class="admin">
+										<img src="images/about/02.jpg" alt="image">
+										<span class="color_white">By - Alok Nath</span>
+									</div>
+									<div class="date float-right color_primary">20 Jan 2019</div>
+								</div>
+							</div>
+                </div>
+                <div class="carousel-item col-12 col-sm-6 col-md-4 col-lg-3">
+                    <div class="blog_item">
+								<div class="comments">
+									<i class="fa fa-comment" aria-hidden="true"></i>
+									<span class="color_white">18</span>
+								</div>
+								<div class="blog_img overlay_one"><img src="images/bl2.jpg" alt="image" style="width: 100%;"></div>
+								<div class="blog_content bg_white color_secondery">
+									<div class="blog_title">
+										<a class="color_primary" href="blog-details.html">
+											<h5>Time is ripe to harvest the golden opportunity for investment in the Indian real estate</h5>
+										</a>
+									</div>
+									<p class="mt_15 mb_30 text-justify">India still continues to be among the fastest developing economies in the world despite the ebbs
+and flow in the global market. The Real Estate Regulation Act (RERA) and the Benami
+Properties Act were ground breaking in the Indian real estate segment bringing significant
+transparency and inspiring customer trust. These legal changes have brought greater focus on
+customer rights increasing the demand from end-use customers and NRI investors alike.</p>
 
-<section id="blog" class="py_80 experience full_row">
+									<div class="admin">
+										<img src="images/about/02.jpg" alt="image">
+										<span class="color_white">By - Maahir Jain</span>
+									</div>
+									<div class="date float-right color_primary">18 Jan 2019</div>
+								</div>
+							</div>
+                </div>
+
+                 <div class="carousel-item col-12 col-sm-6 col-md-4 col-lg-3">
+                  <div class="blog_item">
+								<div class="comments">
+									<i class="fa fa-comment" aria-hidden="true"></i>
+									<span class="color_white">23</span>
+								</div>
+								<div class="blog_img overlay_one"><img src="images/bl3.jpg" alt="image" style="width: 100%;"></div>
+								<div class="blog_content bg_white color_secondery">
+									<div class="blog_title">
+										<a class="color_primary" href="blog-details.html">
+											<h5>Upbeat housing market of Bangalore</h5>
+										</a>
+									</div>
+									<p class="mt_15 mb_30 text-justify">What is not to love about the silicon valley of India, Bangalore? As one of the fastest growing
+cities in India, Bangalore houses the finest IT industries, world-class healthcare facilities, state-
+of-the-art infrastructure and international educational institutes making it one of the most
+preferred cities to live in. Among the many housing projects, Pratham Constructions is making a
+landmark in the housing sector of Bangalore. Pratham Casa Serene and Pratham Indraprastha
+are two flagship programs from the Pratham Constructions.</p>
+
+									<div class="admin">
+										<img src="images/about/02.jpg" alt="image">
+										<span class="color_white">By - Atul Kumar</span>
+									</div>
+									<div class="date float-right color_primary">17 Jan 2019</div>
+								</div>
+							</div>
+                </div>
+                
+            </div>
+            <a class="carousel-control-prev" href="#carousel-example" role="button" data-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="sr-only">Previous</span>
+            </a>
+            <a class="carousel-control-next" href="#carousel-example" role="button" data-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="sr-only">Next</span>
+            </a>
+        </div>
+    </div>
+</div>
+</section>
+<section id="blog" class="py_80 experience full_row desk-banner">
 	<div class="container">
 		<div class="row">
 			<div class="col-md-12 col-lg-12">
