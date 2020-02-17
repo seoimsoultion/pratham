@@ -4,10 +4,10 @@
 	<!--===== Meta Tag =====-->
 	<meta charset="utf-8">
 	<meta http-equiv="x-ua-compatible" content="ie=edge">
-	<meta name="description" content="Runaway - Personal Portfolio HTML Template">
+	<meta name="description" content="">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
-	<meta name="keywords" content="business, agency, blog, cv, creative, html, one page, personal, portfolio, resume, responsive, bootstrap, photography, designer, developer">
-	<meta name="author" content="root">
+	<meta name="keywords" content="">
+	<meta name="author" content="">
 
 	 <!--	Css Links
     ==================================================-->
@@ -1631,7 +1631,7 @@
 								<li>
 									<div class="contact_text">
 										<h6 class="font-weight-bold color_default">Address</h6>
-										<span class="color_white"> Pratham Corporate Office,
+										<span class="color_white">  Corporate Office,
 											<br />
 											Off K G Road,
 											Opp Menaka Theater,
@@ -1665,8 +1665,9 @@
 						</div>-->
 					</div>
 					<div class="col-md-8 col-lg-8">
-					<p id='contacterrormessage'></p>
+					
 					<form id="ccon" method="post" role="form" class="contactForm">
+						<div id='contacterrormessage'></div>
 					<!--<form class="form contact_message wow animated fadeInRight" id="contact-form" action="email.php" method="post">-->
 							<div class="row">
 								<div class="col-md-6 col-lg-6">
@@ -2192,139 +2193,76 @@
 		}
 		
 		$('.liReadMore').click(function() {
-
             var idVal = $(this).attr('id');
-
-
-
             idValSplit = idVal.split("_");
-
             idVal = idValSplit[1];
-
             var idValCss = $('#list_' + idVal).css('display');
-
             if (idValCss == 'none') {
-
                 $('#list_' + idVal).css('display', 'block');
-
                 $('#readMore_' + idVal).html('Show Less');
-				
 				$('#readMore_' + idVal).css({backgroundColor: 'red'});
             }
-
             if (idValCss == 'block') {
-
                 $('#list_' + idVal).css('display', 'none');
-
                 $('#readMore_' + idVal).html('Show More');
-								
 				$('#readMore_' + idVal).css({backgroundColor: '#ffb32f'});
-
-            }
-
+           }
             console.log(idValCss);
-
-            // $('.testimonials-carousel').trigger('to.owl.carousel', [idVal,10,true]);
-
+           // $('.testimonials-carousel').trigger('to.owl.carousel', [idVal,10,true]);
         });
 		
 		
 		grecaptcha.ready(function() {
-
 			grecaptcha.execute('6LdFLNgUAAAAAJYdNhjXK2PosDbozvImaLqXSdyl', {
-
 				action: 'homepage'
-
 			}).then(function(token) {
-
 				$('#hcon').prepend('<input type="hidden" name="g-recaptcha-response"  value="' + token + '">');
-
 				$('#ccon').prepend('<input type="hidden" name="g-recaptcha-response"  value="' + token + '">');
-
 			});
-
 		});
-
 	   
-
 		$("#hcon").submit(function() {		
-
 				var str = $(this).serialize();
-
 			$.ajax({
-
 				type: "POST",
-
 				url: "contact-process.php",
-
 				data: str,
-
 				success: function(msg) {
-
 					if (msg == 'OK') {
-
+						$('.form-control').val('');
 						result = '<p style="color:green !important; font-weight: 600;font-size: 18px;">Email Sent Successfully!</p>';
-
 						$('#headererrormessage').delay(18000).fadeOut();
-
 						$('#hcon')[0].reset();
-
 						//$('input,textarea').val('');
-
 					} else {
-
 						result = msg;
-
 					}
-
 					$('#headererrormessage').html(result);
-
 				}
-
 			});
-
 			return false;
-
 		});
 
 		$("#ccon").submit(function() {		
-
 				var str = $(this).serialize();
-
 			$.ajax({
-
 				type: "POST",
-
 				url: "contact-process.php",
-
 				data: str,
-
 				success: function(msg) {
-
 					if (msg == 'OK') {
-
+						$('.form-control').val('');
 						result = '<p style="color:green !important; font-weight: 600;font-size: 18px;">Email Sent Successfully!</p>';
-
 						$('#contacterrormessage').delay(18000).fadeOut();
-
 						$('#pcon')[0].reset();
-
 						//$('input,textarea').val('');
-
 					} else {
-
 						result = msg;
-
 					}
-
 					$('#contacterrormessage').html(result);
-
 				}
-
 			});
-
 			return false;
-
 		});
 		
 		function checkNumberFieldLength(elem){
