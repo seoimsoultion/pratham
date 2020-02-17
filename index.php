@@ -403,7 +403,11 @@ include 'includes/header.php';
 						<img src="images/pratham/about-us.jpg" alt="image">
 						<?php /*<div class="iconround"><a class="video-popup" href="https://www.youtube.com/watch?v=U16kL-npP9s" title="video popup">
 								<i class="fa fa-play" aria-hidden="true"></i></a></div> */ ?>
-						
+						<div class="loader">
+							<div class="loader-inner ball-scale-multiple">
+								
+							</div>
+						</div>
 					</div>
 				</div>
 				<div class="clearfix"></div>
