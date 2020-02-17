@@ -243,6 +243,12 @@ a:hover,a:focus,a.active{
 	padding-bottom: 30px;
 }
 
+
+.desk-banner {display: block;}
+.mob-banner {display: none;}
+
+
+
 /*=======================================================================
 03.		Overlay Css
 =========================================================================*/
@@ -2811,4 +2817,12 @@ label.radios {
     .about_myself .main_title p{
       width: 100%;
     }
+}
+
+@media (max-width: 680px){
+
+.desk-banner {display: none!important;}
+.mob-banner {display: block!important;}
+.slide-image {width: 100%!important; top:12vh!important;}
+.banner_image, .banner_water_effect {height: 112vh!important;}
 }

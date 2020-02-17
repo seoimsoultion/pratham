@@ -195,7 +195,7 @@ include 'includes/header.php';
   position: relative;
 }
 #mixedSlider .MS-content {
-  white-space: nowrap;
+
   overflow: hidden;
   margin: 0 ;
 }
@@ -277,6 +277,15 @@ include 'includes/header.php';
   }
 }
 @media (max-width: 767px) {
+
+
+#mixedSlider .MS-content .item {
+
+
+}
+
+
+
   #mixedSlider .MS-controls button {
     font-size: 20px;
   }
@@ -302,24 +311,27 @@ include 'includes/header.php';
 
 <!--	Start Main Banner 
 	==================================================-->
-<section  id="water-effect" class="banner_image background1 ">
+<section  id="" class="banner_image background1 ">
 
 <div class="swiper-container slideshow">
 
     <div class="swiper-wrapper">
 
       <div class="swiper-slide slide">
-        <div class="slide-image" style="background-image: url(images/slider/banner1.jpg)"></div>
+        <div class="slide-image desk-banner" style="background-image: url(images/slider/banner1.jpg)"></div>
+        <div class="slide-image mob-banner" style="background-image: url(images/slider/banner1-mob.jpg)"></div>
         <span class="slide-title"></span>
       </div>
 
       <div class="swiper-slide slide">
-        <div class="slide-image" style="background-image: url(images/slider/banner2.jpg"></div>
+        <div class="slide-image desk-banner" style="background-image: url(images/slider/banner2.jpg"></div>
+        <div class="slide-image mob-banner" style="background-image: url(images/slider/banner2-mob.jpg"></div>
         <span class="slide-title"></span>
       </div>
 
       <div class="swiper-slide slide">
-        <div class="slide-image" style="background-image: url(images/slider/banner3.jpg"></div>
+        <div class="slide-image desk-banner" style="background-image: url(images/slider/banner3.jpg"></div>
+        <div class="slide-image mob-banner" style="background-image: url(images/slider/banner3-mob.jpg"></div>
         <span class="slide-title"></span>
       </div>
 
@@ -340,7 +352,7 @@ include 'includes/header.php';
 </section>
 
 
-</section>
+
 <!--	End Main Banner 
 	==================================================-->
 
@@ -621,7 +633,7 @@ include 'includes/header.php';
 									<i class="fa fa-comment" aria-hidden="true"></i>
 									<span class="color_white">12</span>
 								</div>
-								<div class="blog_img overlay_one"><img src="images/bl1.jpg" alt="image"></div>
+								<div class="blog_img overlay_one"><img src="images/bl1.jpg" alt="image" style="width: 100%;"></div>
 								<div class="blog_content bg_white color_secondery">
 									<div class="blog_title">
 										<a class="color_primary" href="blog-details.html">
@@ -648,7 +660,7 @@ redefining quality housing in the Bangalore realty through innovative technology
 									<i class="fa fa-comment" aria-hidden="true"></i>
 									<span class="color_white">18</span>
 								</div>
-								<div class="blog_img overlay_one"><img src="images/bl2.jpg" alt="image"></div>
+								<div class="blog_img overlay_one"><img src="images/bl2.jpg" alt="image" style="width: 100%;"></div>
 								<div class="blog_content bg_white color_secondery">
 									<div class="blog_title">
 										<a class="color_primary" href="blog-details.html">
@@ -675,7 +687,7 @@ customer rights increasing the demand from end-use customers and NRI investors a
 									<i class="fa fa-comment" aria-hidden="true"></i>
 									<span class="color_white">23</span>
 								</div>
-								<div class="blog_img overlay_one"><img src="images/bl3.jpg" alt="image"></div>
+								<div class="blog_img overlay_one"><img src="images/bl3.jpg" alt="image" style="width: 100%;"></div>
 								<div class="blog_content bg_white color_secondery">
 									<div class="blog_title">
 										<a class="color_primary" href="blog-details.html">
@@ -930,7 +942,6 @@ are two flagship programs from the Pratham Constructions.</p>
 <?php
 include 'includes/footer.php';
 ?>
-
 <script src="js/multislider.js"></script> 
 <script>
 $('#basicSlider').multislider({
