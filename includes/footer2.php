@@ -521,7 +521,7 @@
 								</div>
 								<div class="col-md-6 col-lg-6">
 									<div class="form-group">
-										<input class="form-control" type="number" id='phone' name="phone" placeholder="Phone" pattern="/^\d{10}$/" min="0" />
+										<input class="form-control" oninput="checkNumberFieldLength1(this);" type="number" id='phone' name="phone" placeholder="Phone" pattern="/^\d{10}$/" min="0" />
 									</div>
 								</div>
 								<div class="col-md-12 col-lg-12">
@@ -708,6 +708,11 @@
 			return false;
 		}
 	});
+	function checkNumberFieldLength1(elem){
+			if (elem.value.length > 10) {
+				elem.value = elem.value.slice(0,10);
+			}
+		}
 </script>
 
 </body>

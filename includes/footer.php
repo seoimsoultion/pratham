@@ -525,7 +525,7 @@
 								</div>
 								<div class="col-md-6 col-lg-6">
 									<div class="form-group">
-										<input class="form-control" type="number" id="phone" name="phone"  placeholder="Contact No." />
+										<input class="form-control" oninput="checkNumberFieldLength1(this);" type="number" id="phone" name="phone"  placeholder="Contact No." />
 									</div>
 								</div>
 								<div class="col-md-12 col-lg-12">
@@ -643,6 +643,11 @@
 		}
 
 	});
+	function checkNumberFieldLength1(elem){
+			if (elem.value.length > 10) {
+				elem.value = elem.value.slice(0,10);
+			}
+		}
 	$(document).ready(function() {
 		//called when key is pressed in textbox
 		$("#phone").keypress(function(e) {
@@ -653,7 +658,7 @@
 				return false;
 			}
 		});
-
+	
 
 
 	});
