@@ -32,7 +32,7 @@ include 'includes/header.php';
 
 			<div class="col-md-12 col-lg-12">
 				<div class="section_title_1 text-center mx-auto  wow animated slideInUp">
-					<h2 class="title text-uppercase color_white"><span class=" mx-auto color_default">&nbsp;</span> About <b class="heading_span">PRATHAM CONSTRUCTION</b></h2>
+					<h2 class="title text-uppercase color_white"><span class=" mx-auto color_default">&nbsp;</span> About PRATHAM CONSTRUCTION</h2>
 					
 				</div>
 			</div>
@@ -94,7 +94,7 @@ include 'includes/header.php';
 		<div class="row">
 			<div class="col-md-12 col-lg-12">
 				<div class="section_title_1 text-center mx-auto  wow animated slideInUp">
-					<h2 class="title text-uppercase"><span class=" mx-auto color_default"> &nbsp;</span>The <b class="heading_span"> Team </b></h2>
+					<h2 class="title text-uppercase"><span class=" mx-auto color_default"> &nbsp;</span>The  Team</h2>
 				
 				</div>
 			</div>
