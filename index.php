@@ -10,6 +10,8 @@ include 'includes/header.php';
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Swiper/4.4.1/css/swiper.min.css">
 <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.13/css/all.css" integrity="sha384-DNOHZ68U8hZfKXOrtjWvjxusGo9WQnrNx2sqG0tfsghAvtVlRW3tvkXWZh58N9jp" crossorigin="anonymous">
 <link href="https://fonts.googleapis.com/css?family=Oswald:500" rel="stylesheet">
+<script>!function(e){"undefined"==typeof module?this.charming=e:module.exports=e}(function(e,n){"use strict";n=n||{};var t=n.tagName||"span",o=null!=n.classPrefix?n.classPrefix:"char",r=1,a=function(e){for(var n=e.parentNode,a=e.nodeValue,c=a.length,l=-1;++l<c;){var d=document.createElement(t);o&&(d.className=o+r,r++),d.appendChild(document.createTextNode(a[l])),n.insertBefore(d,e)}n.removeChild(e)};return function c(e){for(var n=[].slice.call(e.childNodes),t=n.length,o=-1;++o<t;)c(n[o]);e.nodeType===Node.TEXT_NODE&&a(e)}(e),e});
+</script>
 <script>
 	! function(e) {
 		"undefined" == typeof module ? this.charming = e : module.exports = e
@@ -94,7 +96,7 @@ include 'includes/header.php';
 
 	.slideshow-pagination {
 		position: absolute;
-		bottom: 5rem;
+		bottom: 1rem;
 		left: 0;
 		width: 100%;
 		display: flex;
@@ -189,49 +191,150 @@ include 'includes/header.php';
 		background: #FFFFFF;
 		transform-origin: 0 0;
 	}
+	#mixedSlider {
+  position: relative;
+}
+#mixedSlider .MS-content {
+  white-space: nowrap;
+  overflow: hidden;
+  margin: 0 ;
+}
+#mixedSlider .MS-content .item {
+  display: inline-block;
+  width: 33.3333%;
+  position: relative;
+  vertical-align: top;
+  overflow: hidden;
+  height: 100%;
+  white-space: normal;
+  padding: 0 10px;
+}
+@media (max-width: 991px) {
+  #mixedSlider .MS-content .item {
+    width: 50%;
+  }
+}
+@media (max-width: 767px) {
+  #mixedSlider .MS-content .item {
+    width: 100%;
+  }
+}
+#mixedSlider .MS-content .item .imgTitle {
+  position: relative;
+}
+#mixedSlider .MS-content .item .imgTitle .blogTitle {
+  margin: 0;
+  text-align: left;
+  letter-spacing: 2px;
+  color: #252525;
+  font-style: italic;
+  position: absolute;
+  background-color: rgba(255, 255, 255, 0.5);
+  width: 100%;
+  bottom: 0;
+  font-weight: bold;
+  padding: 0 0 2px 10px;
+}
+#mixedSlider .MS-content .item .imgTitle img {
+  height: auto;
+  width: 100%;
+}
+#mixedSlider .MS-content .item p {
+  font-size: 16px;
+  margin: 2px 10px 0 5px;
+  text-indent: 15px;
+}
+#mixedSlider .MS-content .item a {
+  float: right;
+  margin: 0 20px 0 0;
+  font-size: 16px;
+  font-style: normal;
+  color: rgba(173, 0, 0, 0.82);
+  font-weight: bold;
+  color: #1e283c!important;
+ 
+  transition: linear 0.1s;
+}
+#mixedSlider .MS-content .item a:hover {
+  text-shadow: 0 0 1px grey;
+}
+#mixedSlider .MS-controls button {
+  position: absolute;
+  border: none;
+  background-color: transparent;
+  outline: 0;
+  font-size: 50px;
+  top: 95px;
+  color: rgba(0, 0, 0, 0.4);
+  transition: 0.15s linear;
+}
+#mixedSlider .MS-controls button:hover {
+  color: rgba(0, 0, 0, 0.8);
+}
+@media (max-width: 992px) {
+  #mixedSlider .MS-controls button {
+    font-size: 30px;
+  }
+}
+@media (max-width: 767px) {
+  #mixedSlider .MS-controls button {
+    font-size: 20px;
+  }
+}
+#mixedSlider .MS-controls .MS-left {
+  left: 0px;
+}
+@media (max-width: 767px) {
+  #mixedSlider .MS-controls .MS-left {
+    left: -10px;
+  }
+}
+#mixedSlider .MS-controls .MS-right {
+  right: 0px;
+}
+@media (max-width: 767px) {
+  #mixedSlider .MS-controls .MS-right {
+    right: -10px;
+  }
+}
+
 </style>
 
 <!--	Start Main Banner 
 	==================================================-->
 <section  id="water-effect" class="banner_image background1 ">
 
+<div class="swiper-container slideshow">
 
+    <div class="swiper-wrapper">
 
+      <div class="swiper-slide slide">
+        <div class="slide-image" style="background-image: url(images/slider/banner1.jpg)"></div>
+        <span class="slide-title"></span>
+      </div>
 
+      <div class="swiper-slide slide">
+        <div class="slide-image" style="background-image: url(images/slider/banner2.jpg"></div>
+        <span class="slide-title"></span>
+      </div>
 
+      <div class="swiper-slide slide">
+        <div class="slide-image" style="background-image: url(images/slider/banner3.jpg"></div>
+        <span class="slide-title"></span>
+      </div>
 
-	<div class="swiper-container slideshow ">
+      
 
-		<div class="swiper-wrapper">
+    </div>
 
-			<div class="swiper-slide  ">
-				<div class="slide-image" style="background-image: url(images/slider/banner1.jpg)"></div>
-				<!-- <span class="slide-title">Exotic places</span>-->
-			</div>
+    <div class="slideshow-pagination"></div>
 
-			<div class="swiper-slide slide">
-				<div class="slide-image" style="background-image: url(images/slider/banner2.jpg"></div>
-				<!--<span class="slide-title">Meet ocean</span>-->
-			</div>
+    <div class="slideshow-navigation">
+      <div class="slideshow-navigation-button prev"><span class="fas fa-chevron-left"></span></div>
+      <div class="slideshow-navigation-button next"><span class="fas fa-chevron-right"></span></div>
+    </div>
 
-			<div class="swiper-slide slide">
-				<div class="slide-image" style="background-image: url(images/slider/banner3.jpg)"></div>
-				<!-- <span class="slide-title">Around the world</span>-->
-			</div>
-
-
-
-		</div>
-
-		<div class="slideshow-pagination"></div>
-
-		<div class="slideshow-navigation">
-			<div class="slideshow-navigation-button prev"><span class="fas fa-chevron-left"></span></div>
-			<div class="slideshow-navigation-button next"><span class="fas fa-chevron-right"></span></div>
-		</div>
-
-	</div>
-
+  </div>
 
 
 </section>
@@ -510,7 +613,99 @@ include 'includes/header.php';
 					<p class="sub_title ">Interdum a etiam sagittis vehicula porta. Massa felis eros quam blandit nulla dolor habitant. Ullamcorper quis ornare et proin pellentesque.</p>
 				</div>
 			</div>
-			<div class="col-md-12 col-lg-12">
+			<div id="mixedSlider">
+                    <div class="MS-content">
+                        <div class="item">
+                            <div class="blog_item">
+								<div class="comments">
+									<i class="fa fa-comment" aria-hidden="true"></i>
+									<span class="color_white">12</span>
+								</div>
+								<div class="blog_img overlay_one"><img src="images/bl1.jpg" alt="image"></div>
+								<div class="blog_content bg_white color_secondery">
+									<div class="blog_title">
+										<a class="color_primary" href="blog-details.html">
+											<h4>How Pratham Constructions is redefining quality housing in the Bangalore realty</h4>
+										</a>
+									</div>
+									<p class="mt_15 mb_30 text-justify">The ever growing Bangalore city has witnessed an increase in demand for residential space.
+However, not all that glitters is gold especially in the real estate segment of Bangalore. Pratham
+Constructions entered into the real estate market of Bangalore with the intention to address the
+need for quality residential houses. In doing the noble deed, Pratham Constructions is
+redefining quality housing in the Bangalore realty through innovative technology.</p>
+
+									<div class="admin">
+										<img src="images/about/02.jpg" alt="image">
+										<span class="color_white">By - Alok Nath</span>
+									</div>
+									<div class="date float-right color_primary">20 Jan 2019</div>
+								</div>
+							</div>
+                        </div>
+                        <div class="item">
+                   <div class="blog_item">
+								<div class="comments">
+									<i class="fa fa-comment" aria-hidden="true"></i>
+									<span class="color_white">18</span>
+								</div>
+								<div class="blog_img overlay_one"><img src="images/bl2.jpg" alt="image"></div>
+								<div class="blog_content bg_white color_secondery">
+									<div class="blog_title">
+										<a class="color_primary" href="blog-details.html">
+											<h5>Time is ripe to harvest the golden opportunity for investment in the Indian real estate</h5>
+										</a>
+									</div>
+									<p class="mt_15 mb_30 text-justify">India still continues to be among the fastest developing economies in the world despite the ebbs
+and flow in the global market. The Real Estate Regulation Act (RERA) and the Benami
+Properties Act were ground breaking in the Indian real estate segment bringing significant
+transparency and inspiring customer trust. These legal changes have brought greater focus on
+customer rights increasing the demand from end-use customers and NRI investors alike.</p>
+
+									<div class="admin">
+										<img src="images/about/02.jpg" alt="image">
+										<span class="color_white">By - Maahir Jain</span>
+									</div>
+									<div class="date float-right color_primary">18 Jan 2019</div>
+								</div>
+							</div>
+                        </div>
+                        <div class="item">
+                    <div class="blog_item">
+								<div class="comments">
+									<i class="fa fa-comment" aria-hidden="true"></i>
+									<span class="color_white">23</span>
+								</div>
+								<div class="blog_img overlay_one"><img src="images/bl3.jpg" alt="image"></div>
+								<div class="blog_content bg_white color_secondery">
+									<div class="blog_title">
+										<a class="color_primary" href="blog-details.html">
+											<h5>Upbeat housing market of Bangalore</h5>
+										</a>
+									</div>
+									<p class="mt_15 mb_30 text-justify">What is not to love about the silicon valley of India, Bangalore? As one of the fastest growing
+cities in India, Bangalore houses the finest IT industries, world-class healthcare facilities, state-
+of-the-art infrastructure and international educational institutes making it one of the most
+preferred cities to live in. Among the many housing projects, Pratham Constructions is making a
+landmark in the housing sector of Bangalore. Pratham Casa Serene and Pratham Indraprastha
+are two flagship programs from the Pratham Constructions.</p>
+
+									<div class="admin">
+										<img src="images/about/02.jpg" alt="image">
+										<span class="color_white">By - Atul Kumar</span>
+									</div>
+									<div class="date float-right color_primary">17 Jan 2019</div>
+								</div>
+							</div>
+                        </div>
+                        
+                       
+                    </div>
+                   <!-- <div class="MS-controls">
+                        <button class="MS-left"><i class="fa fa-angle-left" aria-hidden="true"></i></button>
+                        <button class="MS-right"><i class="fa fa-angle-right" aria-hidden="true"></i></button>
+                    </div>-->
+                </div>
+			<!--<div class="col-md-12 col-lg-12">
 				<div class="blog_grid_1 wow animated slideInUp">
 					<div class="row">
 						<div class="col-md-12 col-lg-4">
@@ -598,7 +793,7 @@ are two flagship programs from the Pratham Constructions.</p>
 					</div>
 					<div class="mx-auto text-center mt_60"><a class="btn btn-default" href="blog.html">View Blog</a></div>
 				</div>
-			</div>
+			</div>-->
 		</div>
 	</div>
 </section>
@@ -735,6 +930,18 @@ are two flagship programs from the Pratham Constructions.</p>
 <?php
 include 'includes/footer.php';
 ?>
+
+<script src="js/multislider.js"></script> 
+<script>
+$('#basicSlider').multislider({
+			continuous: true,
+			duration: 2000
+		});
+		$('#mixedSlider').multislider({
+			duration: 750,
+			interval: 3000
+		});
+</script>
 <script>
 	// The Slideshow class.
 	class Slideshow {
