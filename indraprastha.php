@@ -5,9 +5,9 @@
 	<!--===== Meta Tag =====-->
 	<meta charset="utf-8">
 	<meta http-equiv="x-ua-compatible" content="ie=edge">
-	<meta name="description" content="Runaway - Personal Portfolio HTML Template">
+	<meta name="description" content="">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
-	<meta name="keywords" content="business, agency, blog, cv, creative, html, one page, personal, portfolio, resume, responsive, bootstrap, photography, designer, developer">
+	<meta name="keywords" content="">
 	<meta name="author" content="root">
 
 	<!--	Css Links
@@ -27,7 +27,7 @@
 
 	<!--	Title
     ==================================================-->
-	<title>Pratham Construction</title>
+	<title>Pratham Construction: Indraprastha</title>
 
 </head>
 
@@ -65,10 +65,11 @@
 
 		</div>
 		<div class="template_style">
-			
-			<p id='headererrormessage'></p>
+
+
 			<form id="hcon" method="post" role="form" class="contactForm">
-			<!--<form class="form contact_message wow animated fadeInRight" id="contact-form" action="email.php" method="post">-->
+				<div id='headererrormessage'></div>
+				<!--<form class="form contact_message wow animated fadeInRight" id="contact-form" action="email.php" method="post">-->
 				<div class="row">
 					<div class="col-md-12 col-lg-12">
 						<div class="form-group">
@@ -525,11 +526,12 @@
 					</div>
 					<div class="col-md-12 col-lg-12">
 						<div class="form-group">
-							<textarea class="form-control" name="message" rows="2" placeholder="Message" minlength="25" ></textarea>
+							<textarea class="form-control" name="message" rows="2" placeholder="Message" minlength="25"></textarea>
 						</div>
 					</div>
 					<div class="col-md-12 col-lg-12">
 						<div class="form-group text-center">
+						<input type="hidden" name="Page" value="Pratham Indraprastha  Microsite">
 							<input class="btn btn-default" id="send" value="submit" type="submit" />
 						</div>
 					</div>
@@ -567,7 +569,7 @@
 	<div class="sidebar bg_primary">
 		<div class="logo text-center">
 			<a href="http://demo.imsolutions.in/pratham/">
-			<img class="nav-logo" src="images/logo/29.png" alt="logo"></a></div>
+				<img class="nav-logo" src="images/logo/29.png" alt="logo"></a></div>
 		<span style="cursor:pointer" onclick="openNav()">&#9776;</span>
 		<div class="socal_media mt_60">
 			<ul>
@@ -579,7 +581,7 @@
 			</ul>
 		</div>
 	</div>
-	
+
 	<!--	End Sidebar
 	=======================================================-->
 	<div id="pagepiling">
@@ -589,39 +591,39 @@
 		<!--    Start Main Banner 
 	==================================================-->
 
-<!--	End Main Banner 
+		<!--	End Main Banner 
 	==================================================-->
 
 
 		<div class="pagegilling-mani-banner section bg_white">
 
-		<div id="water-effect" class="banner_image background13 ">
-	<div class="container h-100">
-		<div class="row h-100 align-items-center">
-			<div class="col-md-12 col-lg-12 home-content text-left">
+			<div id="water-effect" class="banner_image background13 ">
+				<div class="container h-100">
+					<div class="row h-100 align-items-center">
+						<div class="col-md-12 col-lg-12 home-content text-left">
 
 
-				<div class="mainbanner_content">
-					<span class="pb_5 banner_title color_white ">PRATHAM CONSTRUCTIONS</span>
-					<h1 class="cd-headline clip is-full-width text-uppercase">
-						<span class="color_white"></span>
-						<span class="cd-words-wrapper color_default">
-							<b class="is-visible color_white">Pratham resonates <br />Royalty </b>
-							<b class="color_white">Pratham symbolises <br />Integrity</b>
+							<div class="mainbanner_content">
+								<span class="pb_5 banner_title color_white ">PRATHAM CONSTRUCTIONS</span>
+								<h1 class="cd-headline clip is-full-width text-uppercase">
+									<span class="color_white"></span>
+									<span class="cd-words-wrapper color_default">
+										<b class="is-visible color_white">Pratham resonates <br />Royalty </b>
+										<b class="color_white">Pratham symbolises <br />Integrity</b>
 
-						</span>
-					</h1>
-					<p class="color_white mb_30">Committed to superior quality housing through innovation!</p>
-					<a class="btn btn-default" href="#">Download Brochure</a>
+									</span>
+								</h1>
+								<p class="color_white mb_30">Committed to superior quality housing through innovation!</p>
+								<a class="btn btn-default" href="#">Download Brochure</a>
+							</div>
+
+
+						</div>
+					</div>
 				</div>
-
-
 			</div>
-		</div>
-	</div>
-</div> 
 
-<?php /*
+			<?php /*
 			<div id="particles-js" class="banner_image background13">
 				<div class="container h-100">
 					<div class="row h-100 align-items-center">
@@ -657,26 +659,26 @@
 								<div class="col-md-4 col-lg-4">
 									<div class="overlay_one"><img src="images/pratham/indraprastha/4.jpg" alt="image"></div>
 								</div>
-								<div class="col-md-8 col-lg-8">
+								<div class="col-md-8 col-lg-8 my_60">
 									<div class="about_myself pb_60">
 										<!--	Start Title
 	    								================================-->
-										<div class="main_title my_60 text-center">
+										<div class="main_title  text-center">
 											<h2 class="title color_primary text-center">About Us</h2>
-											<p class="mt_15 text-center">Interdum a etiam sagittis vehicula porta. Massa felis eros quam blandit nulla dolor habitant.</p>
+											<p class="mt_15 text-center">&nbsp;</p>
 										</div>
 										<!--	End Title
 	    								================================-->
 										<div class="row">
 											<div class="col-md-12 col-lg-12">
 												<div class="myself title color_primary">
-													<h3>Engineering quality housing for your family!  </h3>
+													<h3>Engineering quality housing for your family! </h3>
 													<p>Designed to meet the dynamic and ultra-urban lifestyle of the Silicon Valley of India, Indraprastha is an ambitious residential project by the Pratham Construction. Offering exclusive 2 and 3 BHK apartments with state-of-the-art amenities, here at Indraprastha you will experience the ultimate joy of living in a spacious and well-designed residential space. Built to enhance the quality of your lifestyle, each apartment integrates highest quality comfort, functionality and affordability. Facilitating world-class standard of living, the highlights of amenities include a Clubhouse, Library, Crèche, Mini Theatre, Health Club, Tennis Court, Swimming Pool, Outdoor Party Area, Banquet Hall, Gym, Badminton Courts, Squash Courts, Snooker, Table Tennis, other indoor games, Kids’ play area and provision for a Convenience Store.</p>
-													<br/>
+													<br />
 													<p>Pratham Indraprastha is meticulously designed with unbound convenience. The interiors are made up of finest quality giving highest attention to detail, fittings and finishes reflecting the effortless blend of modernity and elegance. Aesthetics blend in perfect harmony making each room well-ventilated with ample natural light. Tradition at its heart, Pratham Indraprastha is also Vaastu Compliant. </p>
-													<br/>
+													<br />
 													<p>Nestled in the heart of Yashwanthpur, Indraprastha embodies connectivity and conveniences. Indraprastha resonates among the most prestigious addresses in Bangalore. It is close to major schools, colleges, hospitals and shopping malls ensuring that your daily life is convenient and hassle free. Some important centres in the vicinity include Sheraton Hotel, Taj Vivanta, Metro Cash n carry Mall, Orion Mall, Big Bazaar, City Railway Station, Columbia Asia Hospital, ISKCON Temple, MS Ramaiah College and India Institute of Science. </p>
-													
+
 												</div>
 											</div>
 
@@ -889,7 +891,7 @@
 										<div class="active  carousel-item" data-slide-number="0">
 
 											<a href="https://www.youtube.com/watch?v=85s_vReVsPQ " class="video-thumb-wrapper" data-fancybox="gallery">
-												<img src="images/video/1.jpg" class="img-fluid video-img" >
+												<img src="images/video/1.jpg" class="img-fluid video-img">
 												<img src="images/play.png" class="vimg">
 											</a>
 
@@ -899,56 +901,56 @@
 
 										<div class="carousel-item" data-slide-number="1">
 											<a href="https://www.youtube.com/watch?v=cslb-p8FFlw" data-fancybox="gallery">
-												<img src="images/video/2.jpg" class="img-fluid video-img" >
+												<img src="images/video/2.jpg" class="img-fluid video-img">
 												<img src="images/play.png" class="vimg">
 											</a>
 
 										</div>
 										<div class="carousel-item" data-slide-number="2">
 											<a href="https://www.youtube.com/watch?v=2r258QF0uV0" data-fancybox="gallery">
-												<img src="images/video/3.jpg" class="img-fluid video-img" >
+												<img src="images/video/3.jpg" class="img-fluid video-img">
 												<img src="images/play.png" class="vimg">
 											</a>
 										</div>
 										<div class="carousel-item" data-slide-number="3">
 											<a href="https://www.youtube.com/watch?v=i8prMGP62w8" data-fancybox="gallery">
-												<img src="images/video/4.jpg" class="img-fluid video-img" >
+												<img src="images/video/4.jpg" class="img-fluid video-img">
 												<img src="images/play.png" class="vimg">
 											</a>
 										</div>
 										<div class="carousel-item" data-slide-number="4">
 											<a href="https://www.youtube.com/watch?v=LTnte0kj8js" data-fancybox="gallery">
-												<img src="images/video/5.jpg" class="img-fluid video-img" >
+												<img src="images/video/5.jpg" class="img-fluid video-img">
 												<img src="images/play.png" class="vimg">
 											</a>
 										</div>
 										<div class="carousel-item" data-slide-number="5">
 											<a href="https://www.youtube.com/watch?v=-o4iDefky0U" data-fancybox="gallery">
-												<img src="images/video/6.jpg" class="img-fluid video-img" >
+												<img src="images/video/6.jpg" class="img-fluid video-img">
 												<img src="images/play.png" class="vimg">
 											</a>
 										</div>
 										<div class="carousel-item" data-slide-number="6">
 											<a href="https://www.youtube.com/watch?v=BDriOdnzrxQ" data-fancybox="gallery">
-												<img src="images/video/7.jpg" class="img-fluid video-img" >
+												<img src="images/video/7.jpg" class="img-fluid video-img">
 												<img src="images/play.png" class="vimg">
 											</a>
 										</div>
 										<div class="carousel-item" data-slide-number="7">
 											<a href="https://www.youtube.com/watch?v=JcfkjjMxthg" data-fancybox="gallery">
-												<img src="images/video/8.jpg" class="img-fluid video-img" >
+												<img src="images/video/8.jpg" class="img-fluid video-img">
 												<img src="images/play.png" class="vimg">
 											</a>
 										</div>
 										<div class="carousel-item" data-slide-number="8">
 											<a href="https://www.youtube.com/watch?v=1tDyWbs4bew" data-fancybox="gallery">
-												<img src="images/video/9.jpg" class="img-fluid video-img" >
+												<img src="images/video/9.jpg" class="img-fluid video-img">
 												<img src="images/play.png" class="vimg">
 											</a>
 										</div>
 										<div class="carousel-item" data-slide-number="9">
 											<a href="https://www.youtube.com/watch?v=dRBKbO3OGJ8" data-fancybox="gallery">
-												<img src="images/video/10.jpg" class="img-fluid video-img" >>
+												<img src="images/video/10.jpg" class="img-fluid video-img">>
 												<img src="images/play.png" class="vimg">
 											</a>
 										</div>
@@ -1486,7 +1488,9 @@
 		    				================================-->
 							<div class="main_title pb_60">
 								<h2 class="title color_primary  text-center">Master Plan</h2>
-								<p class="mt_15  text-center">	<p class="mt_15  text-center">Pratham Indraprastha consists of 2 and 3 BHK apartment units with size ranging from 1270-1655 Sqft coming in 4 blocks. </p> </p>
+								<p class="mt_15  text-center">
+									<p class="mt_15  text-center">The master plan of Indraprastha is an aerial view of the project on its completion. It offers a clear picture of how the whole space is going to be utilised.  </p>
+								</p>
 							</div>
 							<!--	End Title
 		    				================================-->
@@ -1500,11 +1504,11 @@
 										<div class="table text-center">
 											<a href="images/pratham/indraprastha/5-1.jpg" class="desktop" data-fancybox="gallery">
 												<img src="images/pratham/indraprastha/5-1.jpg" class="img-fluid">
-											
+
 											</a>
 											<a href="images/pratham/indraprastha/5-1.jpg" class="mobile" data-fancybox="gallery">
 												<img src="images/pratham/indraprastha/masterm.jpg" class="img-fluid">
-												
+
 											</a>
 										</div>
 									</div>
@@ -1532,7 +1536,7 @@
 		    				================================-->
 							<div class="main_title pb_60">
 								<h2 class="title color_primary  text-center">Location Map</h2>
-								<p class="mt_15  text-center">Conveniently placed in the heart of Yashwanthpur, enjoy enhanced connectivity and accessibility to the prime centres of the city from Indraprastha.  </p>
+								<p class="mt_15  text-center">Conveniently placed in the heart of Yashwanthpur, enjoy enhanced connectivity and accessibility to the prime centres of the city from Indraprastha. </p>
 							</div>
 							<!--	End Title
 		    				================================-->
@@ -1544,10 +1548,10 @@
 								<div class="row">
 									<div class="col-md-12 col-lg-12">
 										<div class="table text-center">
-											<a href="images/pratham/indraprastha/indraprastha.png" class="desktop"  data-fancybox="gallery">
+											<a href="images/pratham/indraprastha/indraprastha.png" class="desktop" data-fancybox="gallery">
 												<img src="images/pratham/indraprastha/indraprastha.png" class="img-fluid">
 											</a>
-											<a href="images/pratham/indraprastha/indraprastha.png" class="mobile"  data-fancybox="gallery">
+											<a href="images/pratham/indraprastha/indraprastha.png" class="mobile" data-fancybox="gallery">
 												<img src="images/pratham/indraprastha/indraprastha-m.jpg" class="img-fluid">
 											</a>
 										</div>

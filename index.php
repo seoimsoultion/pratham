@@ -302,7 +302,7 @@ include 'includes/header.php';
 
 <!--	Start Main Banner 
 	==================================================-->
-<section  id="" class="banner_image background1 ">
+<section  id="water-effect" class="banner_image background1 desktop">
 
 <div class="swiper-container slideshow">
 
@@ -340,6 +340,10 @@ include 'includes/header.php';
   </div>
 
 
+</section>
+
+<section class="banner_image mobile" style="height:112vh">
+<img src="images/slider/moblie-banner-m.jpg"  class="img-fluid">
 </section>
 
 
@@ -402,7 +406,11 @@ include 'includes/header.php';
 						<img src="images/pratham/about-us.jpg" alt="image">
 						<?php /*<div class="iconround"><a class="video-popup" href="https://www.youtube.com/watch?v=U16kL-npP9s" title="video popup">
 								<i class="fa fa-play" aria-hidden="true"></i></a></div> */ ?>
-						
+						<div class="loader">
+							<div class="loader-inner ball-scale-multiple">
+								
+							</div>
+						</div>
 					</div>
 				</div>
 				<div class="clearfix"></div>
@@ -519,7 +527,7 @@ include 'includes/header.php';
 					<div class="col-md-6">
 
 						<div class="blog_item">
-							<div class="blog_img "><a href="#"><img src="images/pratham/home/casaserene.jpg" alt="image"></a></div>
+							<div class="blog_img "><a href="./pratham-casa-serene/"><img src="images/pratham/home/casaserene.jpg" alt="image"></a></div>
 						</div>
 
 
@@ -540,7 +548,7 @@ include 'includes/header.php';
 						<?php /*<p class="testp">Indulge in absolute serenity while still having the best access to urban amenities at Casa Serene. Located at Dasarahalli on Tumkur Road, Casa Serene has 2 and 3BHK apartments with modern amenities.  It offers smooth connectivity to the prime locations in the city, besides housing many reputed educational institutions, hospitals etc.</p> */ ?>
 						
 						
-						<div class="mx-auto text-center mt_15" wfd-id="172"><a class="btn btn-default" href="#">View Project</a></div>
+						<div class="mx-auto text-center mt_15" wfd-id="172"><a class="btn btn-default" href="./pratham-casa-serene/">View Project</a></div>
 					
 					</div>
 				</div>
@@ -718,16 +726,11 @@ are two flagship programs from the Pratham Constructions.</p>
 			<div class="col-md-12 col-lg-12">
 				<div class="section_title_1 text-center mx-auto  wow animated slideInUp">
 					<h2 class="title text-uppercase"><span class=" mx-auto color_white">&nbsp; </span> blogs   </h2>
-					
+					<p class="sub_title ">&nbsp;</p>
 				</div>
 			</div>
 
-			<div class="col-md-12 col-lg-12">
-				<div class="section_title_1 text-center mx-auto pb_60 wow animated slideInUp">
-					
-					<p class="sub_title ">Interdum a etiam sagittis vehicula porta. Massa felis eros quam blandit nulla dolor habitant. Ullamcorper quis ornare et proin pellentesque.</p>
-				</div>
-			</div>
+			
 			<div id="mixedSlider">
                     <div class="MS-content">
                         <div class="item">
