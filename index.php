@@ -302,7 +302,7 @@ include 'includes/header.php';
 
 <!--	Start Main Banner 
 	==================================================-->
-<section  id="water-effect" class="banner_image background1 desktop">
+<section  id="" class="banner_image background1 ">
 
 <div class="swiper-container slideshow">
 
