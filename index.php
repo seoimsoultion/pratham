@@ -302,7 +302,7 @@ include 'includes/header.php';
 
 <!--	Start Main Banner 
 	==================================================-->
-<section  id="water-effect" class="banner_image background1 ">
+<section  id="water-effect" class="banner_image background1 desktop">
 
 <div class="swiper-container slideshow">
 
@@ -339,8 +339,12 @@ include 'includes/header.php';
 
 </section>
 
-
+<section class="banner_image mobile" style="height:112vh">
+<img src="images/slider/moblie-banner-m.jpg"  class="img-fluid">
 </section>
+
+
+
 <!--	End Main Banner 
 	==================================================-->
 
