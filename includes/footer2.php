@@ -65,7 +65,7 @@
 						</div>-->
 					</div>
 					<div class="col-md-4 col-lg-4">
-					<iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d3887.976910497626!2d77.57735039723289!3d12.973328575062375!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x2a70d35330e1dabb!2sPrathamm%20Developers!5e0!3m2!1sen!2sin!4v1581743452672!5m2!1sen!2sin" width="100%" height="360" frameborder="0" style="border:0;" allowfullscreen=""></iframe>
+					<iframe class="lazy" data-src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d3887.976910497626!2d77.57735039723289!3d12.973328575062375!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x2a70d35330e1dabb!2sPrathamm%20Developers!5e0!3m2!1sen!2sin!4v1581743452672!5m2!1sen!2sin" width="100%" height="360" frameborder="0" style="border:0;" allowfullscreen=""></iframe>
 					</div>
 					<div class="col-md-4 col-lg-4">
 					<p id='contacterrormessage'></p>
@@ -521,7 +521,7 @@
 								</div>
 								<div class="col-md-6 col-lg-6">
 									<div class="form-group">
-										<input class="form-control" type="number" id='phone' name="phone" placeholder="Phone" pattern="/^\d{10}$/" min="0" />
+										<input class="form-control" oninput="checkNumberFieldLength1(this);" type="number" id='phone' name="phone" placeholder="Phone" pattern="/^\d{10}$/" min="0" />
 									</div>
 								</div>
 								<div class="col-md-12 col-lg-12">
@@ -570,8 +570,18 @@
 <script src="js/app.js"></script>
 <script src="js/jquery.pagepiling.min.js"></script>
 <script src="js/custom.js"></script>
+<script src="js/recliner.min.js"></script>
 <script src="https://www.google.com/recaptcha/api.js?render=6LdFLNgUAAAAAJYdNhjXK2PosDbozvImaLqXSdyl"></script>
 <script>
+       
+		// instantiate recliner
+		$('.lazy').recliner({
+			attrib: "data-src", // selector for attribute containing the media src
+			throttle: 300,      // millisecond interval at which to process events
+			threshold: 100,     // scroll distance from element before its loaded
+			live: true          // auto bind lazy loading to ajax loaded elements          
+		});
+	
     var deleteLog = false;
     //	Pagepiling js
     //=====================================================
@@ -708,6 +718,11 @@
 			return false;
 		}
 	});
+	function checkNumberFieldLength1(elem){
+			if (elem.value.length > 10) {
+				elem.value = elem.value.slice(0,10);
+			}
+		}
 </script>
 
 </body>
