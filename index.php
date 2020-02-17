@@ -692,13 +692,13 @@ include 'includes/header.php';
 </section>
 
 
-
+<!--
 <section class="banner_image mobile" style="height:112vh">
 
 	<img src="images/slider/moblie-banner-m.jpg" class="img-fluid">
 
 </section>
-
+-->
 
 
 
