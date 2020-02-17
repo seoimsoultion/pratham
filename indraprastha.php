@@ -889,7 +889,7 @@
 										<div class="active  carousel-item" data-slide-number="0">
 
 											<a href="https://www.youtube.com/watch?v=85s_vReVsPQ " class="video-thumb-wrapper" data-fancybox="gallery">
-												<img src="http://i3.ytimg.com/vi/85s_vReVsPQ/hqdefault.jpg" class="img-fluid video-img" >
+												<img src="images/video/1.jpg" class="img-fluid video-img" >
 												<img src="images/play.png" class="vimg">
 											</a>
 
@@ -899,56 +899,56 @@
 
 										<div class="carousel-item" data-slide-number="1">
 											<a href="https://www.youtube.com/watch?v=cslb-p8FFlw" data-fancybox="gallery">
-												<img src="http://i3.ytimg.com/vi/cslb-p8FFlw/hqdefault.jpg" class="img-fluid video-img" >
+												<img src="images/video/2.jpg" class="img-fluid video-img" >
 												<img src="images/play.png" class="vimg">
 											</a>
 
 										</div>
 										<div class="carousel-item" data-slide-number="2">
 											<a href="https://www.youtube.com/watch?v=2r258QF0uV0" data-fancybox="gallery">
-												<img src="http://i3.ytimg.com/vi/2r258QF0uV0/hqdefault.jpg" class="img-fluid video-img" >
+												<img src="images/video/3.jpg" class="img-fluid video-img" >
 												<img src="images/play.png" class="vimg">
 											</a>
 										</div>
 										<div class="carousel-item" data-slide-number="3">
 											<a href="https://www.youtube.com/watch?v=i8prMGP62w8" data-fancybox="gallery">
-												<img src="http://i3.ytimg.com/vi/i8prMGP62w8/hqdefault.jpg" class="img-fluid video-img" >
+												<img src="images/video/4.jpg" class="img-fluid video-img" >
 												<img src="images/play.png" class="vimg">
 											</a>
 										</div>
 										<div class="carousel-item" data-slide-number="4">
 											<a href="https://www.youtube.com/watch?v=LTnte0kj8js" data-fancybox="gallery">
-												<img src="http://i3.ytimg.com/vi/LTnte0kj8js/hqdefault.jpg" class="img-fluid video-img" >
+												<img src="images/video/5.jpg" class="img-fluid video-img" >
 												<img src="images/play.png" class="vimg">
 											</a>
 										</div>
 										<div class="carousel-item" data-slide-number="5">
 											<a href="https://www.youtube.com/watch?v=-o4iDefky0U" data-fancybox="gallery">
-												<img src="http://i3.ytimg.com/vi/-o4iDefky0U/hqdefault.jpg" class="img-fluid video-img" >
+												<img src="images/video/6.jpg" class="img-fluid video-img" >
 												<img src="images/play.png" class="vimg">
 											</a>
 										</div>
 										<div class="carousel-item" data-slide-number="6">
 											<a href="https://www.youtube.com/watch?v=BDriOdnzrxQ" data-fancybox="gallery">
-												<img src="http://i3.ytimg.com/vi/BDriOdnzrxQ/hqdefault.jpg" class="img-fluid video-img" >
+												<img src="images/video/7.jpg" class="img-fluid video-img" >
 												<img src="images/play.png" class="vimg">
 											</a>
 										</div>
 										<div class="carousel-item" data-slide-number="7">
 											<a href="https://www.youtube.com/watch?v=JcfkjjMxthg" data-fancybox="gallery">
-												<img src="http://i3.ytimg.com/vi/JcfkjjMxthg/hqdefault.jpg" class="img-fluid video-img" >
+												<img src="images/video/8.jpg" class="img-fluid video-img" >
 												<img src="images/play.png" class="vimg">
 											</a>
 										</div>
 										<div class="carousel-item" data-slide-number="8">
 											<a href="https://www.youtube.com/watch?v=1tDyWbs4bew" data-fancybox="gallery">
-												<img src="http://i3.ytimg.com/vi/1tDyWbs4bew/hqdefault.jpg" class="img-fluid video-img" >
+												<img src="images/video/9.jpg" class="img-fluid video-img" >
 												<img src="images/play.png" class="vimg">
 											</a>
 										</div>
 										<div class="carousel-item" data-slide-number="9">
 											<a href="https://www.youtube.com/watch?v=dRBKbO3OGJ8" data-fancybox="gallery">
-												<img src="http://i3.ytimg.com/vi/dRBKbO3OGJ8/hqdefault.jpg" class="img-fluid video-img" >>
+												<img src="images/video/10.jpg" class="img-fluid video-img" >>
 												<img src="images/play.png" class="vimg">
 											</a>
 										</div>
@@ -969,52 +969,52 @@
 									<ul class="carousel-indicators list-inline mx-auto border px-2">
 										<li class="list-inline-item active">
 											<a id="carousel-selector-0" class="selected" data-slide-to="0" data-target="#myCarousel">
-												<img src="http://i3.ytimg.com/vi/85s_vReVsPQ/hqdefault.jpg" class="img-fluid">
+												<img src="images/video/1.jpg" class="img-fluid">
 											</a>
 										</li>
 										<li class="list-inline-item">
 											<a id="carousel-selector-1" data-slide-to="1" data-target="#myCarousel">
-												<img src="http://i3.ytimg.com/vi/cslb-p8FFlw/hqdefault.jpg" class="img-fluid">
+												<img src="images/video/2.jpg" class="img-fluid">
 											</a>
 										</li>
 										<li class="list-inline-item">
 											<a id="carousel-selector-2" data-slide-to="2" data-target="#myCarousel">
-												<img src="http://i3.ytimg.com/vi/2r258QF0uV0/hqdefault.jpg" class="img-fluid">
+												<img src="images/video/3.jpg" class="img-fluid">
 											</a>
 										</li>
 										<li class="list-inline-item">
 											<a id="carousel-selector-3" data-slide-to="3" data-target="#myCarousel">
-												<img src="http://i3.ytimg.com/vi/i8prMGP62w8/hqdefault.jpg" class="img-fluid">
+												<img src="images/video/4.jpg" class="img-fluid">
 											</a>
 										</li>
 										<li class="list-inline-item">
 											<a id="carousel-selector-4" data-slide-to="4" data-target="#myCarousel">
-												<img src="http://i3.ytimg.com/vi/LTnte0kj8js/hqdefault.jpg" class="img-fluid">
+												<img src="images/video/5.jpg" class="img-fluid">
 											</a>
 										</li>
 										<li class="list-inline-item">
 											<a id="carousel-selector-5" data-slide-to="5" data-target="#myCarousel">
-												<img src="http://i3.ytimg.com/vi/-o4iDefky0U/hqdefault.jpg" class="img-fluid">
+												<img src="images/video/6.jpg" class="img-fluid">
 											</a>
 										</li>
 										<li class="list-inline-item">
 											<a id="carousel-selector-6" data-slide-to="6" data-target="#myCarousel">
-												<img src="http://i3.ytimg.com/vi/BDriOdnzrxQ/hqdefault.jpg" class="img-fluid">
+												<img src="images/video/7.jpg" class="img-fluid">
 											</a>
 										</li>
 										<li class="list-inline-item">
 											<a id="carousel-selector-7" data-slide-to="7" data-target="#myCarousel">
-												<img src="http://i3.ytimg.com/vi/JcfkjjMxthg/hqdefault.jpg" class="img-fluid">
+												<img src="images/video/8.jpg" class="img-fluid">
 											</a>
 										</li>
 										<li class="list-inline-item">
 											<a id="carousel-selector-6" data-slide-to="8" data-target="#myCarousel">
-												<img src="http://i3.ytimg.com/vi/1tDyWbs4bew/hqdefault.jpg" class="img-fluid">
+												<img src="images/video/9.jpg" class="img-fluid">
 											</a>
 										</li>
 										<li class="list-inline-item">
 											<a id="carousel-selector-7" data-slide-to="9" data-target="#myCarousel">
-												<img src="http://i3.ytimg.com/vi/dRBKbO3OGJ8/hqdefault.jpg" class="img-fluid">
+												<img src="images/video/10.jpg" class="img-fluid">
 											</a>
 										</li>
 									</ul>
@@ -1079,7 +1079,7 @@
 											<div class="column mix  Block1 mb_30 col-md-4 col-lg-4">
 												<div class="default-portfolio-item">
 													<a href="images/pratham/indraprastha/b1_a1-1.jpg" data-fancybox="gallery">
-														<img src="images/pratham/indraprastha/b1_a1-1.jpg" alt="image" />
+														<img src="images/pratham/indraprastha/m/b1_a1-1.jpg" alt="image" />
 														<div class="overlay-box">
 															<span><i class="fa fa-eye" aria-hidden="true"></i></span>
 															<div class="tag">
@@ -1095,7 +1095,7 @@
 											<div class="column mix mix_all Block1 mb_30 col-md-4 col-lg-4">
 												<div class="default-portfolio-item">
 													<a href="images/pratham/indraprastha/b1_a1-2.jpg" data-fancybox="gallery">
-														<img src="images/pratham/indraprastha/b1_a2-2.jpg" alt="image" />
+														<img src="images/pratham/indraprastha/m/b1_a2-2.jpg" alt="image" />
 														<div class="overlay-box">
 															<span><i class="fa fa-eye" aria-hidden="true"></i></span>
 															<div class="tag">
@@ -1111,7 +1111,7 @@
 											<div class="column mix mix_all Block1 mb_30 col-md-4 col-lg-4">
 												<div class="default-portfolio-item">
 													<a href="images/pratham/indraprastha/b1_a3-3.jpg" data-fancybox="gallery">
-														<img src="images/pratham/indraprastha/b1_a3-3.jpg" alt="image" />
+														<img src="images/pratham/indraprastha/m/b1_a3-3.jpg" alt="image" />
 														<div class="overlay-box">
 															<span><i class="fa fa-eye" aria-hidden="true"></i></span>
 															<div class="tag">
@@ -1127,7 +1127,7 @@
 											<div class="column mix mix_all Block1 mb_30 col-md-4 col-lg-4">
 												<div class="default-portfolio-item">
 													<a href="images/pratham/indraprastha/b1_a4-4.jpg" data-fancybox="gallery">
-														<img src="images/pratham/indraprastha/b1_a4-4.jpg" alt="image" />
+														<img src="images/pratham/indraprastha/m/b1_a4-4.jpg" alt="image" />
 														<div class="overlay-box">
 															<span><i class="fa fa-eye" aria-hidden="true"></i></span>
 															<div class="tag">
@@ -1143,7 +1143,7 @@
 											<div class="column mix mix_all Block1 mb_30 col-md-4 col-lg-4">
 												<div class="default-portfolio-item">
 													<a href="images/pratham/indraprastha/b5_a1-5.jpg" data-fancybox="gallery">
-														<img src="images/pratham/indraprastha/b1_a5-5.jpg" alt="image" />
+														<img src="images/pratham/indraprastha/m/b1_a5-5.jpg" alt="image" />
 														<div class="overlay-box">
 															<span><i class="fa fa-eye" aria-hidden="true"></i></span>
 															<div class="tag">
@@ -1159,7 +1159,7 @@
 											<div class="column mix mix_all Block1 mb_30 col-md-4 col-lg-4">
 												<div class="default-portfolio-item">
 													<a href="images/pratham/indraprastha/b1_a6-6.jpg" data-fancybox="gallery">
-														<img src="images/pratham/indraprastha/b1_a6-6.jpg" alt="image" />
+														<img src="images/pratham/indraprastha/m/b1_a6-6.jpg" alt="image" />
 														<div class="overlay-box">
 															<span><i class="fa fa-eye" aria-hidden="true"></i></span>
 															<div class="tag">
@@ -1178,7 +1178,7 @@
 											<div class="column mix mix_all Block2 mb_30 col-md-4 col-lg-4">
 												<div class="default-portfolio-item">
 													<a href="images/pratham/indraprastha/b2_a2-1.jpg" data-fancybox="gallery">
-														<img src="images/pratham/indraprastha/b2_a2-1.jpg" alt="image" />
+														<img src="images/pratham/indraprastha/m/b2_a2-1.jpg" alt="image" />
 														<div class="overlay-box">
 															<span><i class="fa fa-eye" aria-hidden="true"></i></span>
 															<div class="tag">
@@ -1194,7 +1194,7 @@
 											<div class="column mix mix_all Block2 mb_30 col-md-4 col-lg-4">
 												<div class="default-portfolio-item">
 													<a href="images/pratham/indraprastha/b2_a2-2.jpg" data-fancybox="gallery">
-														<img src="images/pratham/indraprastha/b2_a2-2.jpg" alt="image" />
+														<img src="images/pratham/indraprastha/m/b2_a2-2.jpg" alt="image" />
 														<div class="overlay-box">
 															<span><i class="fa fa-eye" aria-hidden="true"></i></span>
 															<div class="tag">
@@ -1210,7 +1210,7 @@
 											<div class="column mix mix_all Block2 mb_30 col-md-4 col-lg-4">
 												<div class="default-portfolio-item">
 													<a href="images/pratham/indraprastha/b2_a3-3.jpg" data-fancybox="gallery">
-														<img src="images/pratham/indraprastha/b2_a3-3.jpg" alt="image" />
+														<img src="images/pratham/indraprastha/m/b2_a3-3.jpg" alt="image" />
 														<div class="overlay-box">
 															<span><i class="fa fa-eye" aria-hidden="true"></i></span>
 															<div class="tag">
@@ -1226,7 +1226,7 @@
 											<div class="column mix mix_all Block2 mb_30 col-md-4 col-lg-4">
 												<div class="default-portfolio-item">
 													<a href="images/pratham/indraprastha/b2_a4-4.jpg" data-fancybox="gallery">
-														<img src="images/pratham/indraprastha/b2_a4-4.jpg" alt="image" />
+														<img src="images/pratham/indraprastha/m/b2_a4-4.jpg" alt="image" />
 														<div class="overlay-box">
 															<span><i class="fa fa-eye" aria-hidden="true"></i></span>
 															<div class="tag">
@@ -1242,7 +1242,7 @@
 											<div class="column mix mix_all Block2 mb_30 col-md-4 col-lg-4">
 												<div class="default-portfolio-item">
 													<a href="images/pratham/indraprastha/b2_a5-5.jpg" data-fancybox="gallery">
-														<img src="images/pratham/indraprastha/b2_a5-5.jpg" alt="image" />
+														<img src="images/pratham/indraprastha/m/b2_a5-5.jpg" alt="image" />
 														<div class="overlay-box">
 															<span><i class="fa fa-eye" aria-hidden="true"></i></span>
 															<div class="tag">
@@ -1260,7 +1260,7 @@
 											<div class="column mix mix_all Block2 mb_30 col-md-4 col-lg-4">
 												<div class="default-portfolio-item">
 													<a href="images/pratham/indraprastha/b2_a6-6.jpg" data-fancybox="gallery">
-														<img src="images/pratham/indraprastha/b2_a6-6.jpg" alt="image" />
+														<img src="images/pratham/indraprastha/m/b2_a6-6.jpg" alt="image" />
 														<div class="overlay-box">
 															<span><i class="fa fa-eye" aria-hidden="true"></i></span>
 															<div class="tag">
@@ -1284,7 +1284,7 @@
 											<div class="column mix mix_all Block3 mb_30 col-md-4 col-lg-4">
 												<div class="default-portfolio-item">
 													<a href="images/pratham/indraprastha/b3_a1-1.jpg" data-fancybox="gallery">
-														<img src="images/pratham/indraprastha/b3_a1-1.jpg" alt="image" />
+														<img src="images/pratham/indraprastha/m/b3_a1-1.jpg" alt="image" />
 														<div class="overlay-box">
 															<span><i class="fa fa-eye" aria-hidden="true"></i></span>
 															<div class="tag">
@@ -1300,7 +1300,7 @@
 											<div class="column mix mix_all Block3 mb_30 col-md-4 col-lg-4">
 												<div class="default-portfolio-item">
 													<a href="images/pratham/indraprastha/b3_a1-2.jpg" data-fancybox="gallery">
-														<img src="images/pratham/indraprastha/b3_a2-2.jpg" alt="image" />
+														<img src="images/pratham/indraprastha/m/b3_a2-2.jpg" alt="image" />
 														<div class="overlay-box">
 															<span><i class="fa fa-eye" aria-hidden="true"></i></span>
 															<div class="tag">
@@ -1316,7 +1316,7 @@
 											<div class="column mix mix_all Block3 mb_30 col-md-4 col-lg-4">
 												<div class="default-portfolio-item">
 													<a href="images/pratham/indraprastha/b3_a3-3.jpg" data-fancybox="gallery">
-														<img src="images/pratham/indraprastha/b3_a3-3.jpg" alt="image" />
+														<img src="images/pratham/indraprastha/m/b3_a3-3.jpg" alt="image" />
 														<div class="overlay-box">
 															<span><i class="fa fa-eye" aria-hidden="true"></i></span>
 															<div class="tag">
@@ -1332,7 +1332,7 @@
 											<div class="column mix mix_all Block3 mb_30 col-md-4 col-lg-4">
 												<div class="default-portfolio-item">
 													<a href="images/pratham/indraprastha/b3_a4-4.jpg" data-fancybox="gallery">
-														<img src="images/pratham/indraprastha/b3_a4-4.jpg" alt="image" />
+														<img src="images/pratham/indraprastha/m/b3_a4-4.jpg" alt="image" />
 														<div class="overlay-box">
 															<span><i class="fa fa-eye" aria-hidden="true"></i></span>
 															<div class="tag">
@@ -1348,7 +1348,7 @@
 											<div class="column mix mix_all Block3 mb_30 col-md-4 col-lg-4">
 												<div class="default-portfolio-item">
 													<a href="images/pratham/indraprastha/b3_a5-5.jpg" data-fancybox="gallery">
-														<img src="images/pratham/indraprastha/b3_a5-5.jpg" alt="image" />
+														<img src="images/pratham/indraprastha/m/b3_a5-5.jpg" alt="image" />
 														<div class="overlay-box">
 															<span><i class="fa fa-eye" aria-hidden="true"></i></span>
 															<div class="tag">
@@ -1366,7 +1366,7 @@
 											<div class="column mix mix_all Block4 mb_30 col-md-4 col-lg-4">
 												<div class="default-portfolio-item">
 													<a href="images/pratham/indraprastha/b4_a1-1.jpg" data-fancybox="gallery">
-														<img src="images/pratham/indraprastha/b4_a1-1.jpg" alt="image" />
+														<img src="images/pratham/indraprastha/m/b4_a1-1.jpg" alt="image" />
 														<div class="overlay-box">
 															<span><i class="fa fa-eye" aria-hidden="true"></i></span>
 															<div class="tag">
@@ -1382,7 +1382,7 @@
 											<div class="column mix mix_all Block4 mb_30 col-md-4 col-lg-4">
 												<div class="default-portfolio-item">
 													<a href="images/pratham/indraprastha/b4_a1-2.jpg" data-fancybox="gallery">
-														<img src="images/pratham/indraprastha/b4_a2-2.jpg" alt="image" />
+														<img src="images/pratham/indraprastha/m/b4_a2-2.jpg" alt="image" />
 														<div class="overlay-box">
 															<span><i class="fa fa-eye" aria-hidden="true"></i></span>
 															<div class="tag">
@@ -1398,7 +1398,7 @@
 											<div class="column mix mix_all Block4 mb_30 col-md-4 col-lg-4">
 												<div class="default-portfolio-item">
 													<a href="images/pratham/indraprastha/b4_a3-3.jpg" data-fancybox="gallery">
-														<img src="images/pratham/indraprastha/b4_a3-3.jpg" alt="image" />
+														<img src="images/pratham/indraprastha/m/b4_a3-3.jpg" alt="image" />
 														<div class="overlay-box">
 															<span><i class="fa fa-eye" aria-hidden="true"></i></span>
 															<div class="tag">
@@ -1414,7 +1414,7 @@
 											<div class="column mix mix_all Block4 mb_30 col-md-4 col-lg-4">
 												<div class="default-portfolio-item">
 													<a href="images/pratham/indraprastha/b4_a4-4.jpg" data-fancybox="gallery">
-														<img src="images/pratham/indraprastha/b4_a4-4.jpg" alt="image" />
+														<img src="images/pratham/indraprastha/m/b4_a4-4.jpg" alt="image" />
 														<div class="overlay-box">
 															<span><i class="fa fa-eye" aria-hidden="true"></i></span>
 															<div class="tag">
@@ -1430,7 +1430,7 @@
 											<div class="column mix mix_all Block4 mb_30 col-md-4 col-lg-4">
 												<div class="default-portfolio-item">
 													<a href="images/pratham/indraprastha/b4_a1-5.jpg" data-fancybox="gallery">
-														<img src="images/pratham/indraprastha/b4_a5-5.jpg" alt="image" />
+														<img src="images/pratham/indraprastha/m/b4_a5-5.jpg" alt="image" />
 														<div class="overlay-box">
 															<span><i class="fa fa-eye" aria-hidden="true"></i></span>
 															<div class="tag">
@@ -1446,7 +1446,7 @@
 											<div class="column mix mix_all Block4 mb_30 col-md-4 col-lg-4">
 												<div class="default-portfolio-item">
 													<a href="images/pratham/indraprastha/b4_a6-6.jpg" data-fancybox="gallery">
-														<img src="images/pratham/indraprastha/b4_a6-6.jpg" alt="image" />
+														<img src="images/pratham/indraprastha/m/b4_a6-6.jpg" alt="image" />
 														<div class="overlay-box">
 															<span><i class="fa fa-eye" aria-hidden="true"></i></span>
 															<div class="tag">

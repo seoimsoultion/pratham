@@ -573,8 +573,7 @@
 <script src="js/recliner.min.js"></script>
 <script src="https://www.google.com/recaptcha/api.js?render=6LdFLNgUAAAAAJYdNhjXK2PosDbozvImaLqXSdyl"></script>
 <script>
-	 $(function() {
-        
+       
 		// instantiate recliner
 		$('.lazy').recliner({
 			attrib: "data-src", // selector for attribute containing the media src
@@ -582,7 +581,7 @@
 			threshold: 100,     // scroll distance from element before its loaded
 			live: true          // auto bind lazy loading to ajax loaded elements          
 		});
-	 });
+	
     var deleteLog = false;
     //	Pagepiling js
     //=====================================================
