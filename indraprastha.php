@@ -1548,7 +1548,7 @@
 												<img src="images/pratham/indraprastha/indraprastha.png" class="img-fluid">
 											</a>
 											<a href="images/pratham/indraprastha/indraprastha.png" class="mobile"  data-fancybox="gallery">
-												<img src="images/pratham/indraprastha/indraprastha-m.png" class="img-fluid">
+												<img src="images/pratham/indraprastha/indraprastha-m.jpg" class="img-fluid">
 											</a>
 										</div>
 									</div>
