@@ -1,21 +1,16 @@
 <!--	Start Contact
 	===================================================-->
 <section id="contact" class="py_80 full_row bg_white">
-	<div class="container pb_60">
+	<div class="container ">
 		<div class="row">
 			<div class="col-md-12 col-lg-12">
 				<div class="section_title_1 text-center mx-auto py_80     wow animated slideInUp">
 					<h2 class="title text-uppercase color_white"><span class=" mx-auto color_default color_white"></span>Contact Us</h2>
-
-				</div>
-			</div>
-
-			<div class="col-md-12 col-lg-12">
-				<div class="section_title_1 text-center mx-auto pb_60 wow animated slideInUp">
-
 					<p class="sub_title color_white ">Should you wish to know more, please free to write to us. Our representative will attend to you as soon as possible. We also arrange for site visit on request. </p>
 				</div>
 			</div>
+
+		
 			<div class="col-md-12 col-lg-12">
 				<div class="row">
 					<div class="col-md-4 col-lg-4">
