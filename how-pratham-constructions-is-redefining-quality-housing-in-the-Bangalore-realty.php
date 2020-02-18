@@ -112,41 +112,16 @@ include 'includes/header.php';
 									<div class="recent_post">
 										<ul>
 											<li class="mb_30">
-												<a href="#">
-													<div class="post_img"><img src="images/recent-post/01.jpg" alt="images"></div>
+												<a href="time-is-ripe-to-harvest-the-golden-opportunity-for-investment-in-the-Indian-real-estate.php">
+													<div class="post_img"><img src="images/blog/time.jpg" alt="images"></div>
 													<div class="recent_post_content">
-														<h6>Convallis pulvinar morbi. Aenean nisi vitae metus.</h6>
+														<h6>Time is ripe to harvest the golden opportunity for investment in the Indian real estate</h6>
 														<span class="color_gray">30 Jan 2019</span>
 													</div>
 												</a>
 											</li>
-											<li class="mb_30">
-												<a href="#">
-													<div class="post_img"><img src="images/recent-post/02.jpg" alt="images"></div>
-													<div class="recent_post_content">
-														<h6>Eleifend ante hac quam. Rhoncus dapibus morbi.</h6>
-														<span class="color_gray">28 Jan 2019</span>
-													</div>
-												</a>
-											</li>
-											<li class="mb_30">
-												<a href="#">
-													<div class="post_img"><img src="images/recent-post/03.jpg" alt="images"></div>
-													<div class="recent_post_content">
-														<h6>Felis cum, elementum. Rhoncus aliquam cras.</h6>
-														<span class="color_gray">25 Jan 2019</span>
-													</div>
-												</a>
-											</li>
-											<li class="mb_30">
-												<a href="#">
-													<div class="post_img"><img src="images/recent-post/04.jpg" alt="images"></div>
-													<div class="recent_post_content">
-														<h6>Turpis eleifend dis platea lectus nam eleifen etiam.</h6>
-														<span class="color_gray">24 Jan 2019</span>
-													</div>
-												</a>
-											</li>
+											
+										
 										</ul>
 									</div>
 								</div>

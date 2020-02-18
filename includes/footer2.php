@@ -64,7 +64,8 @@
 						</div>-->
 					</div>
 					<div class="col-md-4 col-lg-4">
-					<iframe class="lazy" data-src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d3887.976910497626!2d77.57735039723289!3d12.973328575062375!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x2a70d35330e1dabb!2sPrathamm%20Developers!5e0!3m2!1sen!2sin!4v1581743452672!5m2!1sen!2sin" width="100%" height="360" frameborder="0" style="border:0;" allowfullscreen=""></iframe>
+					<iframe  src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1155.690198823871!2d77.550195304585!3d13.018917978649508!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bae3d6b24b1d2b5%3A0xc4abc5155f53f248!2sPRATHAM%20INDRAPRASTHA!5e0!3m2!1sen!2sin!4v1582031734034!5m2!1sen!2sin" width="100%" height="360" frameborder="0" style="border:0;" allowfullscreen=""></iframe>
+					
 					</div>
 					<div class="col-md-4 col-lg-4">
 					<p id='contacterrormessage'></p>
@@ -567,6 +568,66 @@
 <script src="js/recliner.min.js"></script>
 <script src="https://www.google.com/recaptcha/api.js?render=6LdFLNgUAAAAAJYdNhjXK2PosDbozvImaLqXSdyl"></script>
 <script>
+	$('document').ready(function () {
+		$('.liReadMore').trigger('click');
+		$('.ulExtra').hide();
+	} );
+	$('.liReadMore').click(function() {
+            var idVal = $(this).attr('id');
+            idValSplit = idVal.split("_");
+            idVal = idValSplit[1];
+            var idValCss = $('#list_' + idVal).css('display');
+            if (idValCss == 'none') {
+                $('#list_' + idVal).css('display', 'block');
+                $('#readMore_' + idVal).html('Show Less');
+				$('#readMore_' + idVal).css({backgroundColor: 'red'});
+            }
+            if (idValCss == 'block') {
+                $('#list_' + idVal).css('display', 'none');
+                $('#readMore_' + idVal).html('Show More');
+				$('#readMore_' + idVal).css({backgroundColor: '#ffb32f'});
+           }
+            console.log(idValCss);
+           // $('.testimonials-carousel').trigger('to.owl.carousel', [idVal,10,true]);
+        });
+		
+
+		function myFunction() {
+		  var dots = document.getElementById("dots");
+		  var moreText = document.getElementById("more");
+		  var btnText = document.getElementById("myBtn");
+		  var btnText1 = document.getElementById("myBtn1");
+
+		  if (dots.style.display === "none") {
+			dots.style.display = "inline";
+			btnText.innerHTML = 'Read More <i class="fa fa-arrow-right"></i>'; 
+			moreText.style.display = "none";
+			$(".btn1").show();
+		  } else {
+			dots.style.display = "none";
+			btnText1.innerHTML = 'Read Less <i class="fa fa-arrow-left"></i>';
+			moreText.style.display = "inline";
+			$(".btn1").hide();
+		  }
+		}
+		function myFunction2() {
+		  var dots = document.getElementById("dots");
+		  var moreText = document.getElementById("more1");
+		  var btnText = document.getElementById("myBtn2");
+
+		  if (dots.style.display === "none") {
+			dots.style.display = "inline";
+			btnText.innerHTML = "<span style='color:#ffb32f !important;'>Read More <i class='fa fa-arrow-right'></i></span>"; 
+			moreText.style.display = "none";
+		  } else {
+			dots.style.display = "none";
+			btnText.innerHTML = "<span style='color:red;'>Read Less <i class='fa fa-arrow-left'></i></span>";
+			moreText.style.display = "inline";
+		  }
+		}
+
+
+
        
 		// instantiate recliner
 		$('.lazy').recliner({

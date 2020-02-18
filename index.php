@@ -981,7 +981,7 @@ include 'includes/header.php';
 
 
 
-					<p class="sub_title" >Pratham Construction is a pioneer in delivering world-class
+					<p class="sub_title">Pratham Construction is a pioneer in delivering world-class
 						residential spaces. We have pioneered many landmark
 						developments across cities in Gujarat, Karnataka, Maharashtra and many other Indian states. In Bangalore, our flagship
 						programs are Casa Serene and Indraprastha.</p>
@@ -1019,8 +1019,9 @@ include 'includes/header.php';
 						<span class=" test">
 
 							<span class="test-title" wfd-id="167"><b>Indraprastha</b></span>
-
-							<span class="test-info" wfd-id="166">Near Yeshwantpur Metro Station</span>
+							<br />
+							<span class="test-info" wfd-id="166"> <i class="fa fa-map-marker" aria-hidden="true"></i>
+								Near Yeshwantpur Metro Station</span>
 
 						</span>
 
@@ -1030,7 +1031,7 @@ include 'includes/header.php';
 
 							<div class="row">
 
-								<div class="col-sm-6 color_white"><b class="color_default"> Type :</b> Residential Apartment</div>
+								<div class="col-sm-6 color_white"><b class="color_default"> Type :</b> Residential Apartments</div>
 
 								<div class="col-sm-6 color_white"><b class="color_default">Area Range :</b> 1250-1655 Sq.Ft</div>
 
@@ -1038,7 +1039,7 @@ include 'includes/header.php';
 
 								<div class="col-sm-6 color_white"><b class="color_default">Classification :</b> 2BHK,3BHK</div>
 
-								<div class="col-sm-6 color_white"><b class="color_default">Possession :</b> Dec 2019</div>
+								<div class="col-sm-6 color_white"><b class="color_default">Possession :</b> Dec 2020</div>
 
 								<div class="col-sm-6 color_white"><b class="color_default">No. of Units :</b> 253 Units </div>
 
@@ -1077,8 +1078,9 @@ include 'includes/header.php';
 						<span class=" test">
 
 							<span class="test-title" wfd-id="167"><b>Casa Serene</b></span>
-
-							<span class="test-info" wfd-id="166"></span>
+							<br />
+							<span class="test-info" wfd-id="166"> <i class="fa fa-map-marker" aria-hidden="true"></i>
+								Near Jaahalli Metro Station</span>
 
 						</span>
 
@@ -1086,7 +1088,7 @@ include 'includes/header.php';
 
 							<div class="row">
 
-								<div class="col-sm-6 color_white"><b class="color_default"> Type :</b> Residential Apartment</div>
+								<div class="col-sm-6 color_white"><b class="color_default"> Type :</b> Residential Apartments</div>
 
 								<div class="col-sm-6 color_white"><b class="color_default">Area Range :</b> 1164-1583 Sq.Ft</div>
 
@@ -1276,7 +1278,7 @@ include 'includes/header.php';
 
 								<div class="blog_title">
 
-									<a class="color_primary" href="blog-details.html">
+									<a class="color_primary" href="how-pratham-constructions-is-redefining-quality-housing-in-the-Bangalore-realty.php">
 
 										<h5>How Pratham Constructions is redefining quality housing in the Bangalore realty</h5>
 
@@ -1330,7 +1332,7 @@ include 'includes/header.php';
 
 								<div class="blog_title">
 
-									<a class="color_primary" href="blog-details.html">
+									<a class="color_primary" href="time-is-ripe-to-harvest-the-golden-opportunity-for-investment-in-the-Indian-real-estate.php">
 
 										<h5>Time is ripe to harvest the golden opportunity for investment in the Indian real estate</h5>
 
@@ -1386,7 +1388,7 @@ include 'includes/header.php';
 
 								<div class="blog_title">
 
-									<a class="color_primary" href="blog-details.html">
+									<a class="color_primary" href="#">
 
 										<h5>Upbeat housing market of Bangalore</h5>
 
@@ -1496,7 +1498,7 @@ include 'includes/header.php';
 
 								<div class="blog_title">
 
-									<a class="color_primary" href="blog-details.html">
+									<a class="color_primary" href="how-pratham-constructions-is-redefining-quality-housing-in-the-Bangalore-realty.php">
 
 										<h5>How Pratham Constructions is redefining quality housing in the Bangalore realty</h5>
 
@@ -1550,7 +1552,7 @@ include 'includes/header.php';
 
 								<div class="blog_title">
 
-									<a class="color_primary" href="blog-details.html">
+									<a class="color_primary" href="time-is-ripe-to-harvest-the-golden-opportunity-for-investment-in-the-Indian-real-estate.php">
 
 										<h5>Time is ripe to harvest the golden opportunity for investment in the Indian real estate</h5>
 
@@ -1604,7 +1606,7 @@ include 'includes/header.php';
 
 								<div class="blog_title">
 
-									<a class="color_primary" href="blog-details.html">
+									<a class="color_primary" href="#">
 
 										<h5>Upbeat housing market of Bangalore</h5>
 
