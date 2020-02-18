@@ -837,7 +837,7 @@
 						<div class="col-md-12 col-lg-12">
 							<!--	Start Title
 		    				================================-->
-							<div class="main_title pb_60">
+							<div class="main_title ">
 								<h2 class="title color_primary text-center">Walkthrough</h2>
 								<p class="mt_15 text-center">Get a glimpse of the luxury that awaits you!</p>
 							</div>
@@ -882,7 +882,7 @@
 
 					<!-- main slider -->
 
-					<div class="thumb-sl  ">
+					<div class="thumb-sl  mt_15">
 						<div class="row align-items-center">
 							<div class="col-lg-12 " id="slider">
 								<div id="myCarousel" class="carousel slide shadow">
@@ -1486,7 +1486,7 @@
 						<div class="col-md-12 col-lg-12">
 							<!--	Start Title
 		    				================================-->
-							<div class="main_title pb_60">
+							<div class="main_title ">
 								<h2 class="title color_primary  text-center">Master Plan</h2>
 								<p class="mt_15  text-center">
 									<p class="mt_15  text-center">The master plan of Indraprastha is an aerial view of the project on its completion. It offers a clear picture of how the whole space is going to be utilised.  </p>
@@ -1501,7 +1501,7 @@
 							<div class="price_table">
 								<div class="row">
 									<div class="col-md-12 col-lg-12">
-										<div class="table text-center">
+										<div class="table text-center mt_15">
 											<a href="images/pratham/indraprastha/5-1.jpg" class="desktop" data-fancybox="gallery">
 												<img src="images/pratham/indraprastha/5-1.jpg" class="img-fluid">
 
@@ -1534,7 +1534,7 @@
 						<div class="col-md-12 col-lg-12">
 							<!--	Start Title
 		    				================================-->
-							<div class="main_title pb_60">
+							<div class="main_title ">
 								<h2 class="title color_primary  text-center">Location Map</h2>
 								<p class="mt_15  text-center">Conveniently placed in the heart of Yashwanthpur, enjoy enhanced connectivity and accessibility to the prime centres of the city from Indraprastha. </p>
 							</div>
@@ -1547,7 +1547,7 @@
 							<div class="price_table">
 								<div class="row">
 									<div class="col-md-12 col-lg-12">
-										<div class="table text-center">
+										<div class="table text-center mt_15">
 											<a href="images/pratham/indraprastha/indraprastha.png" class="desktop" data-fancybox="gallery">
 												<img src="images/pratham/indraprastha/indraprastha.png" class="img-fluid">
 											</a>

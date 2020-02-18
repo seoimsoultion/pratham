@@ -1,13 +1,13 @@
 <!--Start Contact ===================================================-->
-<div id="contact" class="section background60 pp-scrollable">
+<div id="contact" class="section background60 pp-scrollable ">
 	    	<div class="container">
 	    		<div class="contact ">
 	    			<div class="row">
 		    			<div class="col-md-12 col-lg-12">
 		    				<!--	Start Title
 		    				================================-->
-		    				<div class="main_title pb_60">
-								<h2 class="title color_primary text-uppercase text-center color_white">Contact</h2>
+		    				<div class="main_title pb_60 mt_60">
+								<h2 class="title color_primary text-uppercase text-center color_white">Contact Us</h2>
 								<p class="mt_15 text-center color_white">Should you wish to know more about the project, please free to leave your comments. We will get back to you and arrange for a site visit on request. </p>
                             </div>
 							<!--	End Title
@@ -23,10 +23,9 @@
 										<h6 class="font-weight-bold color_default">Address</h6>
 										<span class="color_white">  Corporate Office,
 											<br />
-											Off K G Road,
-											Opp Menaka Theater,
-											<br />
-											Bengaluru,Karnataka - 560 009</span>
+											Ullas Theatre, 49/4, <br/>
+											 R K Road (previously known as MEC Batteries Road),<br/>
+											  Mahalaxmipuram Ward Near,<br/> Bengaluru, Karnataka 560022</span>
 									</div>
 								</li>
 							

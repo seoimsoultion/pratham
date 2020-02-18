@@ -984,7 +984,7 @@ include 'includes/header.php';
 					<p class="sub_title">Pratham Construction is a pioneer in delivering world-class
 						residential spaces. We have pioneered many landmark
 						developments across cities in Gujarat, Karnataka, Maharashtra and many other Indian states. In Bangalore, our flagship
-						programs are Casa Seren and Indraprastha.</p>
+						programs are Casa Serene and Indraprastha.</p>
 
 				</div>
 
@@ -1278,7 +1278,7 @@ include 'includes/header.php';
 
 									<a class="color_primary" href="blog-details.html">
 
-										<h4>How Pratham Constructions is redefining quality housing in the Bangalore realty</h4>
+										<h5>How Pratham Constructions is redefining quality housing in the Bangalore realty</h5>
 
 									</a>
 
