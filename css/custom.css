@@ -157,3 +157,8 @@ input[type=number]::-webkit-outer-spin-button {
     .banner_image, .banner_water_effect {height:112vh !important}
  
 }
+.blog-p-c {
+
+    min-height: 488px;
+
+}

@@ -977,11 +977,11 @@ include 'includes/header.php';
 
 
 
-				<div class="section_title_1 text-center mx-auto pb_60 wow animated slideInUp">
+				<div class="section_title_1 text-center mx-auto pb_60 wow animated slideInUp" style="width:80%">
 
 
 
-					<p class="sub_title">Pratham Construction is a pioneer in delivering world-class
+					<p class="sub_title" >Pratham Construction is a pioneer in delivering world-class
 						residential spaces. We have pioneered many landmark
 						developments across cities in Gujarat, Karnataka, Maharashtra and many other Indian states. In Bangalore, our flagship
 						programs are Casa Serene and Indraprastha.</p>
@@ -1284,7 +1284,7 @@ include 'includes/header.php';
 
 								</div>
 
-								<p class="mt_15 mb_30 text-justify">The ever growing Bangalore city has witnessed an increase in demand for residential space.
+								<p class="mt_15 mb_30 text-justify blog-p-c">The ever growing Bangalore city has witnessed an increase in demand for residential space.
 
 									However, not all that glitters is gold especially in the real estate segment of Bangalore. Pratham
 
@@ -1338,7 +1338,7 @@ include 'includes/header.php';
 
 								</div>
 
-								<p class="mt_15 mb_30 text-justify">India still continues to be among the fastest developing economies in the world despite the ebbs
+								<p class="mt_15 mb_30 text-justify blog-p-c">India still continues to be among the fastest developing economies in the world despite the ebbs
 
 									and flow in the global market. The Real Estate Regulation Act (RERA) and the Benami
 
@@ -1394,7 +1394,7 @@ include 'includes/header.php';
 
 								</div>
 
-								<p class="mt_15 mb_30 text-justify">What is not to love about the silicon valley of India, Bangalore? As one of the fastest growing
+								<p class="mt_15 mb_30 text-justify blog-p-c">What is not to love about the silicon valley of India, Bangalore? As one of the fastest growing
 
 									cities in India, Bangalore houses the finest IT industries, world-class healthcare facilities, state-
 
@@ -1498,13 +1498,13 @@ include 'includes/header.php';
 
 									<a class="color_primary" href="blog-details.html">
 
-										<h4>How Pratham Constructions is redefining quality housing in the Bangalore realty</h4>
+										<h5>How Pratham Constructions is redefining quality housing in the Bangalore realty</h5>
 
 									</a>
 
 								</div>
 
-								<p class="mt_15 mb_30 text-justify">The ever growing Bangalore city has witnessed an increase in demand for residential space.
+								<p class="mt_15 mb_30 text-justify blog-p-c">The ever growing Bangalore city has witnessed an increase in demand for residential space.
 
 									However, not all that glitters is gold especially in the real estate segment of Bangalore. Pratham
 
@@ -1558,7 +1558,7 @@ include 'includes/header.php';
 
 								</div>
 
-								<p class="mt_15 mb_30 text-justify">India still continues to be among the fastest developing economies in the world despite the ebbs
+								<p class="mt_15 mb_30 text-justify blog-p-c">India still continues to be among the fastest developing economies in the world despite the ebbs
 
 									and flow in the global market. The Real Estate Regulation Act (RERA) and the Benami
 
@@ -1612,7 +1612,7 @@ include 'includes/header.php';
 
 								</div>
 
-								<p class="mt_15 mb_30 text-justify">What is not to love about the silicon valley of India, Bangalore? As one of the fastest growing
+								<p class="mt_15 mb_30 text-justify blog-p-c">What is not to love about the silicon valley of India, Bangalore? As one of the fastest growing
 
 									cities in India, Bangalore houses the finest IT industries, world-class healthcare facilities, state-
 
