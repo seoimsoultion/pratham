@@ -19,9 +19,9 @@ function ValidateEmail($value) {
     return empty($string) ? true : false;
 }
 
-function validate_mobile($mobile)
+function validate_mobile($phone)
 {
-    return preg_match('/^[0-9]{10}+$/', $mobile);
+    return preg_match('/^[0-9]{10}+$/', $phone);
 }
 
 
