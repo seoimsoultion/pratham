@@ -1,13 +1,13 @@
 <!--Start Contact ===================================================-->
-<div id="contact" class="section background60 pp-scrollable">
+<div id="contact" class="section background60 pp-scrollable ">
 	    	<div class="container">
-	    		<div class="contact pt_60">
+	    		<div class="contact ">
 	    			<div class="row">
 		    			<div class="col-md-12 col-lg-12">
 		    				<!--	Start Title
 		    				================================-->
-		    				<div class="main_title pb_60">
-								<h2 class="title color_primary text-uppercase text-center color_white">Contact</h2>
+		    				<div class="main_title pb_60 mt_60">
+								<h2 class="title color_primary text-uppercase text-center color_white">Contact Us</h2>
 								<p class="mt_15 text-center color_white">Should you wish to know more about the project, please free to leave your comments. We will get back to you and arrange for a site visit on request. </p>
                             </div>
 							<!--	End Title
@@ -21,12 +21,11 @@
 								<li>
 									<div class="contact_text">
 										<h6 class="font-weight-bold color_default">Address</h6>
-										<span class="color_white"> Pratham Corporate Office,
+										<span class="color_white">  Corporate Office,
 											<br />
-											Off K G Road,
-											Opp Menaka Theater,
-											<br />
-											Bengaluru,Karnataka - 560 009</span>
+											Ullas Theatre, 49/4, <br/>
+											 R K Road (previously known as MEC Batteries Road),<br/>
+											  Mahalaxmipuram Ward Near,<br/> Bengaluru, Karnataka 560022</span>
 									</div>
 								</li>
 							
@@ -65,7 +64,8 @@
 						</div>-->
 					</div>
 					<div class="col-md-4 col-lg-4">
-					<iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d3887.976910497626!2d77.57735039723289!3d12.973328575062375!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x2a70d35330e1dabb!2sPrathamm%20Developers!5e0!3m2!1sen!2sin!4v1581743452672!5m2!1sen!2sin" width="100%" height="360" frameborder="0" style="border:0;" allowfullscreen=""></iframe>
+					<iframe  src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1155.690198823871!2d77.550195304585!3d13.018917978649508!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bae3d6b24b1d2b5%3A0xc4abc5155f53f248!2sPRATHAM%20INDRAPRASTHA!5e0!3m2!1sen!2sin!4v1582031734034!5m2!1sen!2sin" width="100%" height="360" frameborder="0" style="border:0;" allowfullscreen=""></iframe>
+					
 					</div>
 					<div class="col-md-4 col-lg-4">
 					<p id='contacterrormessage'></p>
@@ -521,7 +521,7 @@
 								</div>
 								<div class="col-md-6 col-lg-6">
 									<div class="form-group">
-										<input class="form-control" type="number" id='phone' name="phone" placeholder="Phone" pattern="/^\d{10}$/" min="0" />
+										<input class="form-control" oninput="checkNumberFieldLength1(this);" type="number" id='phone' name="phone" placeholder="Phone" pattern="/^\d{10}$/" min="0" />
 									</div>
 								</div>
 								<div class="col-md-12 col-lg-12">
@@ -544,17 +544,12 @@
 							</div>
 						</form>
 					</div>
-		    		</div>
+					</div>
+					
+					<div class="copyright2 p_20 color_lightgray bg_brown text-center footerp"><p>Pratham Construction @ 2020. All Right Reserved.| Digital partner <a href="https://www.imsolutions.co/" target="_blank" style='color: #ffb32f;'>IM Solutions</a></p></div>
 	    		</div>
 	    	</div>
-	    	<div class="footer pt_60 background6">
-	    		<div class="container">
-	    			<div class="footer_bottom ">
-	    			
-	    			</div>
-	    		</div>
-	    		<div class="copyright2 p_20 color_lightgray bg_brown text-center footerp"><p>Pratham Construction @ 2020. All Right Reserved.| Digital partner <a href="https://www.imsolutions.co/" target="_blank" style='color: #ffb32f;'>IM Solutions</a></p></div>
-	    	</div>
+	    
 	    </div>
 
 </div>
@@ -570,8 +565,78 @@
 <script src="js/app.js"></script>
 <script src="js/jquery.pagepiling.min.js"></script>
 <script src="js/custom.js"></script>
+<script src="js/recliner.min.js"></script>
 <script src="https://www.google.com/recaptcha/api.js?render=6LdFLNgUAAAAAJYdNhjXK2PosDbozvImaLqXSdyl"></script>
 <script>
+	$('document').ready(function () {
+		$('.liReadMore').trigger('click');
+		$('.ulExtra').hide();
+	} );
+	$('.liReadMore').click(function() {
+            var idVal = $(this).attr('id');
+            idValSplit = idVal.split("_");
+            idVal = idValSplit[1];
+            var idValCss = $('#list_' + idVal).css('display');
+            if (idValCss == 'none') {
+                $('#list_' + idVal).css('display', 'block');
+                $('#readMore_' + idVal).html('Show Less');
+				$('#readMore_' + idVal).css({backgroundColor: 'red'});
+            }
+            if (idValCss == 'block') {
+                $('#list_' + idVal).css('display', 'none');
+                $('#readMore_' + idVal).html('Show More');
+				$('#readMore_' + idVal).css({backgroundColor: '#ffb32f'});
+           }
+            console.log(idValCss);
+           // $('.testimonials-carousel').trigger('to.owl.carousel', [idVal,10,true]);
+        });
+		
+
+		function myFunction() {
+		  var dots = document.getElementById("dots");
+		  var moreText = document.getElementById("more");
+		  var btnText = document.getElementById("myBtn");
+		  var btnText1 = document.getElementById("myBtn1");
+
+		  if (dots.style.display === "none") {
+			dots.style.display = "inline";
+			btnText.innerHTML = 'Read More <i class="fa fa-arrow-right"></i>'; 
+			moreText.style.display = "none";
+			$(".btn1").show();
+		  } else {
+			dots.style.display = "none";
+			btnText1.innerHTML = 'Read Less <i class="fa fa-arrow-left"></i>';
+			moreText.style.display = "inline";
+			$(".btn1").hide();
+		  }
+		}
+		function myFunction2() {
+		  var dots = document.getElementById("dots");
+		  var moreText = document.getElementById("more1");
+		  var btnText = document.getElementById("myBtn2");
+
+		  if (dots.style.display === "none") {
+			dots.style.display = "inline";
+			btnText.innerHTML = "<span style='color:#ffb32f !important;'>Read More <i class='fa fa-arrow-right'></i></span>"; 
+			moreText.style.display = "none";
+		  } else {
+			dots.style.display = "none";
+			btnText.innerHTML = "<span style='color:red;'>Read Less <i class='fa fa-arrow-left'></i></span>";
+			moreText.style.display = "inline";
+		  }
+		}
+
+
+
+       
+		// instantiate recliner
+		$('.lazy').recliner({
+			attrib: "data-src", // selector for attribute containing the media src
+			throttle: 300,      // millisecond interval at which to process events
+			threshold: 100,     // scroll distance from element before its loaded
+			live: true          // auto bind lazy loading to ajax loaded elements          
+		});
+	
     var deleteLog = false;
     //	Pagepiling js
     //=====================================================
@@ -626,13 +691,13 @@
             success: function(msg) {
 
                 if (msg == 'OK') {
-
+					$('.form-control').val('');
                     result = '<p style="color:green !important; font-weight: 600;font-size: 18px;">Email Sent Successfully!</p>';
 
                     $('#headererrormessage').delay(18000).fadeOut();
 
 					$('#hcon')[0].reset();
-					$('.form-control').val('');
+					
 
                     //$('input,textarea').val('');
 
@@ -667,13 +732,13 @@
             success: function(msg) {
 
                 if (msg == 'OK') {
-
+					$('.form-control').val('');
                     result = '<p style="color:green !important; font-weight: 600;font-size: 18px;">Email Sent Successfully!</p>';
 
                     $('#contacterrormessage').delay(18000).fadeOut();
 
-					$('#pcon')[0].reset();
-					$('.form-control').val('');
+					$('#ccon')[0].reset();
+				
 
                     //$('input,textarea').val('');
 
@@ -708,6 +773,11 @@
 			return false;
 		}
 	});
+	function checkNumberFieldLength1(elem){
+			if (elem.value.length > 10) {
+				elem.value = elem.value.slice(0,10);
+			}
+		}
 </script>
 
 </body>

@@ -4,10 +4,10 @@
 	<!--===== Meta Tag =====-->
 	<meta charset="utf-8">
 	<meta http-equiv="x-ua-compatible" content="ie=edge">
-	<meta name="description" content="Runaway - Personal Portfolio HTML Template">
+	<meta name="description" content="">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
-	<meta name="keywords" content="business, agency, blog, cv, creative, html, one page, personal, portfolio, resume, responsive, bootstrap, photography, designer, developer">
-	<meta name="author" content="root">
+	<meta name="keywords" content="">
+	<meta name="author" content="">
 
 	 <!--	Css Links
     ==================================================-->
@@ -70,7 +70,7 @@
 				<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation"> <span class="navbar-toggler-icon"></span> </button>
 				<div class="collapse navbar-collapse" id="navbarSupportedContent">
 					<ul class="navbar-nav ml-auto">
-					  <li class="nav-item"><a class="nav-link active" href="<?php if($url!='home'){ echo 'index.php';}  ?>#top">Home<span class="sr-only">(current)</span></a></li>
+					  <li class="nav-item"><a class="nav-link <?php if($url=='home') { echo 'active' ; } ?> " href="<?php if($url!='home'){ echo 'index.php';}  ?>#top">Home<span class="sr-only">(current)</span></a></li>
 					  <li class="nav-item"><a class="nav-link" href="<?php if($url!='home'){ echo 'index.php';}  ?>#about">About </a></li>
 					  <li class="nav-item"><a class="nav-link" href="<?php if($url!='home'){ echo 'index.php';}  ?>#why-us">Why Us </a></li>
 					  <li class="nav-item"><a class="nav-link" href="<?php if($url!='home'){ echo 'index.php';}  ?>#portfolio">Our Projects</a></li>

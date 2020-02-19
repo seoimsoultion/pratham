@@ -2,7 +2,7 @@
 
 session_start();
 
-define("WEBMASTER_EMAIL", 'hamalton@imsolutions.mobi');
+define("WEBMASTER_EMAIL", 'ravi.k@imsolutions.mobi');
 
 
 error_reporting(E_ALL ^ E_NOTICE);
@@ -34,7 +34,7 @@ if ($_POST) {
     $phone = stripslashes(trim($_POST['phone']));
     $query = stripslashes(trim($_POST['message']));
    // $captcha = $_POST['g-recaptcha-response'];
-    $subject = 'Enquiry from Prakruti Centurysports Village';
+    $subject = 'Enquiry from Pratham Casa Serene';
 
 
     $error = '';
@@ -72,7 +72,7 @@ if ($_POST) {
    
 
 
-    $email_name = "Prakruti Centurysports Village";
+    $email_name = "Pratham Casa Serene";
     $email_to = "noreply@imsolutions.in";
 
     $headers = 'MIME-Version: 2.0' . "\r\n";
@@ -84,7 +84,7 @@ if ($_POST) {
 		
 		<tr align="center">
 			<td colspan="3" style="text-align:center;">
-				<img src="http://demo.imsolutions.in/prakruti-microsite-new/images/logo.png" style="background-color: #000;">
+				<img src="http://demo.imsolutions.in/pratham/pratham-casa-serene/images/logo.png">
 			</td>
         </tr>
 		<tr style="background-color:#f5f5f5">
@@ -129,8 +129,8 @@ if ($_POST) {
 			$mail = mail(WEBMASTER_EMAIL,$subject,$message,$headers,'-freturn@imsolutions.in');      
 		  if($mail)
 		  {
-		  $mail = mail($email,'Thanks for contacting us','<h4>Thank you for contacting Prakruti ! Our team will get in touch with you shortly. Appreciate your patience.</h4>',$headers,'-freturn@imsolutions.in');
-		  echo '<p style="color:green !important; font-weight: 600;font-size: 18px;">Email Sent Successfully!</p>';
+		  $mail = mail($email,'Thanks for contacting us','<h4>Thank you for contacting Pratham Casa Serene ! Our team will get in touch with you shortly. Appreciate your patience.</h4>',$headers,'-freturn@imsolutions.in');
+		  echo 'OK';
 		  }
 		} else {
 			$error = true;

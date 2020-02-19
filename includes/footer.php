@@ -1,21 +1,16 @@
 <!--	Start Contact
 	===================================================-->
 <section id="contact" class="py_80 full_row bg_white">
-	<div class="container pb_60">
+	<div class="container ">
 		<div class="row">
 			<div class="col-md-12 col-lg-12">
 				<div class="section_title_1 text-center mx-auto py_80     wow animated slideInUp">
 					<h2 class="title text-uppercase color_white"><span class=" mx-auto color_default color_white"></span>Contact Us</h2>
-
-				</div>
-			</div>
-
-			<div class="col-md-12 col-lg-12">
-				<div class="section_title_1 text-center mx-auto pb_60 wow animated slideInUp">
-
 					<p class="sub_title color_white ">Should you wish to know more, please free to write to us. Our representative will attend to you as soon as possible. We also arrange for site visit on request. </p>
 				</div>
 			</div>
+
+		
 			<div class="col-md-12 col-lg-12">
 				<div class="row">
 					<div class="col-md-4 col-lg-4">
@@ -27,7 +22,7 @@
 								<li>
 									<div class="contact_text">
 										<h6 class="font-weight-bold color_default">Address</h6>
-										<span class="color_white"> Pratham Corporate Office,
+										<span class="color_white">  Corporate Office,
 											<br />
 											Off K G Road,
 											Opp Menaka Theater,
@@ -62,7 +57,7 @@
 						</div>
 					</div>
 					<div class="col-md-4 col-lg-4">
-						<iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d3887.976910497626!2d77.57735039723289!3d12.973328575062375!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x2a70d35330e1dabb!2sPrathamm%20Developers!5e0!3m2!1sen!2sin!4v1581743452672!5m2!1sen!2sin" width="100%" height="360" frameborder="0" style="border:0;" allowfullscreen=""></iframe>
+						<iframe class="lazy" data-src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d3887.976910497626!2d77.57735039723289!3d12.973328575062375!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x2a70d35330e1dabb!2sPrathamm%20Developers!5e0!3m2!1sen!2sin!4v1581743452672!5m2!1sen!2sin" width="100%" height="360" frameborder="0" style="border:0;" allowfullscreen=""></iframe>
 					</div>
 					<div class="col-md-4 col-lg-4">
 						<span id="contacterrormessage"></span>
@@ -525,7 +520,7 @@
 								</div>
 								<div class="col-md-6 col-lg-6">
 									<div class="form-group">
-										<input class="form-control" type="number" id="phone" name="phone"  placeholder="Contact No." />
+										<input class="form-control" oninput="checkNumberFieldLength1(this);" type="number" id="phone" name="phone"  placeholder="Contact No." />
 									</div>
 								</div>
 								<div class="col-md-12 col-lg-12">
@@ -550,7 +545,7 @@
 					</div>
 				</div>
 				<div class="copyright text-center"><br />
-					<p class="color_white ">Pratham Construction @ 2020. All Right Reserved.| Digital partner <a href="" class="color_default">IM Solutions</a></p>
+					<p class="color_white ">Pratham Construction @ 2020. All Right Reserved.| Digital partner <a href="https://www.imsolutions.co/" class="color_default">IM Solutions</a></p>
 
 				</div>
 			</div>
@@ -570,13 +565,25 @@
 =======================================================-->
 <!--	Js Links
 	===================================================-->
+	
 <script src="js/jquery.min.js"></script>
 <script src="js/popper.min.js"></script>
 <script src="js/bootstrap.min.js"></script>
 <script src="js/plugins.js"></script>
 <script src="js/custom.js"></script>
+<script src="js/recliner.min.js"></script>
 <script src="https://www.google.com/recaptcha/api.js?render=6LdFLNgUAAAAAJYdNhjXK2PosDbozvImaLqXSdyl"></script>
 <script>
+	 $(function() {
+        
+		// instantiate recliner
+		$('.lazy').recliner({
+			attrib: "data-src", // selector for attribute containing the media src
+			throttle: 300,      // millisecond interval at which to process events
+			threshold: 100,     // scroll distance from element before its loaded
+			live: true          // auto bind lazy loading to ajax loaded elements          
+		});
+	 });
 	grecaptcha.ready(function() {
 
 		grecaptcha.execute('6LdFLNgUAAAAAJYdNhjXK2PosDbozvImaLqXSdyl', {
@@ -643,6 +650,11 @@
 		}
 
 	});
+	function checkNumberFieldLength1(elem){
+			if (elem.value.length > 10) {
+				elem.value = elem.value.slice(0,10);
+			}
+		}
 	$(document).ready(function() {
 		//called when key is pressed in textbox
 		$("#phone").keypress(function(e) {
@@ -653,7 +665,7 @@
 				return false;
 			}
 		});
-
+	
 
 
 	});

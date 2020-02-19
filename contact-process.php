@@ -37,8 +37,11 @@ if ($_POST) {
     $page = stripslashes(trim($_POST['Page']));
     $query = stripslashes(trim($_POST['message']));
    // $captcha = $_POST['g-recaptcha-response'];
-     $subject = 'Enquiry from '.$page;
-    
+   if($page =='') {
+    $subject = 'Enquiry from Pratham '.$page;
+   }else {
+     $subject = 'Enquiry from Pratham Construction';
+    }
 
 
     $error = '';
@@ -136,7 +139,7 @@ if ($_POST) {
 		  if($mail ||$mail1 || $mail2 )
 		  {
 		  $mail = mail($email,'Thanks for contacting us','<h4>Thank you for contacting Pratham Construction ! Our team will get in touch with you shortly. Appreciate your patience.</h4>',$headers,'-freturn@imsolutions.in');
-		  echo '<p style="color:green !important; font-weight: 600;font-size: 18px;">Email Sent Successfully!</p>';
+		  echo 'OK';
 		  }
 		} else {
 			$error = true;

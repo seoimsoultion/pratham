@@ -122,8 +122,8 @@
 
   $('.team_member').owlCarousel({
    loop: true,
-   autoplay: false,
-   autoplayTimeout: 5000,
+   autoplay: true,
+   autoplayTimeout: 2000,
    margin: 30,
    nav: true,
    dots: false,
