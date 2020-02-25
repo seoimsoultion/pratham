@@ -20,21 +20,21 @@ Table of CSS Content arrage with every section name
 03.   Overlay Css
 04.   Socal Media
 05.   Massage Box
-06.	  Main Title
+06.   Main Title
 07.   background Image
 08.   Nav Menu Css
 09.   Side Nav menu
 10.   Main banner
 11.   Slider 
-12.	  About
-13.	  Video Popup 
-14.	  Progress Bar and Fact Counter
+12.   About
+13.   Video Popup 
+14.   Progress Bar and Fact Counter
 15.   Services One
 16.   Services Two
-17.	  Portfolio
+17.   Portfolio
 18.   Pricing
 19.   Team
-20.	  Testimonial
+20.   Testimonial
 21.   Blog
 22.   Contact
 23.   Preloader 
@@ -47,71 +47,71 @@ Table of CSS Content arrage with every section name
 30.   Color Settings
 31.   Responsive Media Queries Css
 /*===================================================================================
-	Typography links 
- 	Import Google Fonts
+  Typography links 
+  Import Google Fonts
 =====================================================================================*/
 @import url("https://fonts.googleapis.com/css?family=Open+Sans:400,400i,700,700i,800,800i|Poppins:400,400i,600,600i,700,700i,800,800i");
 
 /*===================================================================================
-01.		Default Css
+01.   Default Css
 =====================================================================================*/
 body{
-	font-family: 'Open Sans', sans-serif;
-	font-size: 16px;
-	line-height: 28px;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 16px;
+  line-height: 28px;
 }
 h1,h2,h3,h4,h5,h6{
    font-family: 'Poppins', sans-serif;
    font-weight: 700;
 }
 h1{
-	font-size: 40px;
-	line-height: 48px;
+  font-size: 40px;
+  line-height: 48px;
 }
 h2{
-	font-size: 32px;
-	line-height: 44px;
+  font-size: 32px;
+  line-height: 44px;
 }
 h3{
-	font-size: 24px;
-	line-height: 36px;
+  font-size: 24px;
+  line-height: 36px;
 }
 h4{
-	font-size: 18px;
-	line-height: 30px;
+  font-size: 18px;
+  line-height: 30px;
 }
 h5{
-	font-size: 16px;
-	line-height: 24px;
+  font-size: 16px;
+  line-height: 24px;
 }
 h6{
-	font-size: 14px;
-	line-height: 22px;
+  font-size: 14px;
+  line-height: 22px;
 }
 p{
-	margin: 0px;
+  margin: 0px;
 }
 img{
     width: 100%;
     height: auto;
 }
 ul{
-	margin: 0;
-	padding: 0;
+  margin: 0;
+  padding: 0;
 }
 ul li{
-	list-style-type: none;
+  list-style-type: none;
 }
 a{
-	display: inline-block;
-	font-family: 'Poppins', sans-serif;
+  display: inline-block;
+  font-family: 'Poppins', sans-serif;
 }
 a:hover,a:focus,a.active{
-	text-decoration: none !important;
-	box-shadow: none !important;
+  text-decoration: none !important;
+  box-shadow: none !important;
 }
 *, ::after, ::before{
-	 outline: none !important;
+   outline: none !important;
 }
 .btn:focus,.btn:active {
    outline: none !important;
@@ -132,13 +132,13 @@ a:hover,a:focus,a.active{
   padding: 0px;
 }
 .w_60{
-	width: 60%;
+  width: 60%;
 }
 .w_50{
-	width: 50%;
+  width: 50%;
 }
 .w_40{
-	width: 40%;
+  width: 40%;
 }
 .xy-center{
     position: absolute;
@@ -147,7 +147,7 @@ a:hover,a:focus,a.active{
     z-index: 11;
 }
 [class^="flaticon-"]:before, [class*=" flaticon-"]:before{
-	margin-left: 0px !important;
+  margin-left: 0px !important;
 }
 .pp-scrollable{
     overflow-y: scroll;
@@ -164,30 +164,30 @@ a:hover,a:focus,a.active{
       box-shadow: inset 0 0 5px #ececec !important; 
     }
 /*=====================================================================================
-02.		Default Margin and Padding
+02.   Default Margin and Padding
 ========================================================================================*/
 /*  Margin 
 ======================*/
 .mx_10{
-	margin: 0px 10px;
+  margin: 0px 10px;
 }
 .my_60{
   margin: 60px 0px;
 }
 .mt_5{
-	margin-top: 5px;
+  margin-top: 5px;
 }
 .mt_15{
     margin-top: 15px;
 }
 .mt_60{
-	margin-top: 60px;
+  margin-top: 60px;
 }
 .mb_60{
   margin-bottom: 60px;
 }
 .mt_30{
-	margin-top: 30px;
+  margin-top: 30px;
 }
 .mt_100{
   margin-top: 100px;
@@ -222,7 +222,7 @@ a:hover,a:focus,a.active{
   padding: 60px 0px;
 }
 .py_80{
-	padding: 80px 0px;
+  padding: 80px 0px;
 }
 .pr_50{
   padding-right: 50px;
@@ -231,26 +231,27 @@ a:hover,a:focus,a.active{
   padding-top: 15px;
 }
 .pt_30{
-	padding-top: 30px;
+  padding-top: 30px;
 }
 .pt_60{
-	padding-top: 60px;
+  padding-top: 60px;
 }
 .pb_60{
-	padding-bottom: 60px;
+  padding-bottom: 60px;
 }
 .pb_30{
-	padding-bottom: 30px;
+  padding-bottom: 30px;
 }
 
-
+.proj_amenities {text-align: center;}
 .desk-banner {display: block;}
 .mob-banner {display: none;}
-
-
+.about_myself {padding-right: 30px;}
+.proj_amenities img {width: 90px; margin:0 30px;}
+.proj_amenities {margin-bottom: 30px;}
 
 /*=======================================================================
-03.		Overlay Css
+03.   Overlay Css
 =========================================================================*/
 .overlay_one,.overlay_two,.overlay_three,.overlay_four{
     position: relative;
@@ -306,7 +307,7 @@ a:hover,a:focus,a.active{
     text-align: center;
 }
 /*====================================================================
-06.		Main Title
+06.   Main Title
 ======================================================================*/
 .section_title_1 .title span{
     display: table;
@@ -333,8 +334,8 @@ a:hover,a:focus,a.active{
     left: 0;
 }
 .line_double::before, .line_double::after{
-	content: "";
-	position: absolute;
+  content: "";
+  position: absolute;
     width: 25px;
     height: 2px;
     top: 50%;
@@ -343,8 +344,8 @@ a:hover,a:focus,a.active{
     right: 0;
 }
 .line_double::before, .line_double::after{
-	content: "";
-	position: absolute;
+  content: "";
+  position: absolute;
     width: 25px;
     height: 2px;
     top: 50%;
@@ -443,7 +444,7 @@ a:hover,a:focus,a.active{
 08.   Nav Menu Css
 ======================================================================*/
 .navbar{
-	padding:0px;
+  padding:0px;
 }
 .box-layout .main_nav{
   width: 1280px;
@@ -454,13 +455,13 @@ header{
   z-index: 11;
 }
 .navbar-brand{
-	text-transform: uppercase;
-	font-weight: 700;
-	letter-spacing: 2px;
-	font-family: 'Poppins', sans-serif;
+  text-transform: uppercase;
+  font-weight: 700;
+  letter-spacing: 2px;
+  font-family: 'Poppins', sans-serif;
 }
 .main_nav{
-	  width: 100%;
+    width: 100%;
     right: 0;
     left: 0;
     position: absolute;
@@ -476,17 +477,17 @@ header{
     z-index: 9999;
 }
 .navbar-light .navbar-nav .nav-link{
-	letter-spacing:1px;
-	text-transform: uppercase;
-	line-height: 32px;
+  letter-spacing:1px;
+  text-transform: uppercase;
+  line-height: 32px;
 }
 
 .navbar .navbar-nav .nav-item{
-	padding:0px 15px;
+  padding:0px 15px;
 }
 .navbar-nav .nav-item .nav-link{
-	position: relative;
-	padding: 0;
+  position: relative;
+  padding: 0;
 }
 .navbar-nav .nav-item .nav-link:before{
     position: absolute;
@@ -572,8 +573,8 @@ ul#menu li a{
   font-size: 30px;
 }
 .mainbanner_content p{
-	font-size: 16px;
-	letter-spacing: 1px;
+  font-size: 16px;
+  letter-spacing: 1px;
   width: 60%;
 }
 .particles-js-canvas-el{
@@ -657,12 +658,12 @@ ul#menu li a{
     min-height: 100%;
 }
 /*===============================================================================
-12.		About
+12.   About
 =================================================================================*/
 
 .personal_info ul li{
-	border-bottom: 1px solid;
-	padding: 10px 0px;
+  border-bottom: 1px solid;
+  padding: 10px 0px;
 }
 .about2 img{
   width: 100%;
@@ -681,7 +682,7 @@ ul#menu li a{
 }
 
 /*===============================================================================
-13.		Video Popup 
+13.   Video Popup 
 =================================================================================*/
 .intro-video {
  width:100%;
@@ -850,7 +851,8 @@ ul#menu li a{
   border-radius: 20px;
   border: 2px solid;
   border-color: transparent;
-  margin: 10px 20px;
+  margin: 10px;
+    padding: 20px;
 }
 .service_one:hover{
   border: 2px solid;
@@ -870,7 +872,7 @@ ul#menu li a{
   line-height: 62px;
 }
 .owl-nav{
-  margin-top: 50px !important;
+  margin-top: 20px !important;
   text-align: center;
   margin: 0 auto;
 }
@@ -929,91 +931,93 @@ ul#menu li a{
 }
 
 /*===============================================================================
-17.		Portfolio
+17.   Portfolio
 =================================================================================*/
 
 .filters ul li{
-	float: left;
-	margin: 0px 15px;
-	cursor: pointer;
-	font-family: 'Poppins', sans-serif;
-	font-size: 16px;
-	text-transform: uppercase;
-	letter-spacing: 1px;
+  float: left;
+  margin: 0px 15px;
+  cursor: pointer;
+  font-family: 'Poppins', sans-serif;
+  font-size: 16px;
+  text-transform: uppercase;
+  letter-spacing: 1px;
 }
 .default-portfolio-item{
     position: relative;
 }
 .default-portfolio-item .overlay-box{
-	position:absolute;
-	left:0px;
-	top:0px;
-	width:100%;
-	height:100%;
-	display:block;
-	opacity:0;
-	visibility:hidden;
+  position:absolute;
+  left:0px;
+  top:0px;
+  width:100%;
+  height:100%;
+  display:block;
+  opacity:0;
+  visibility:hidden;
 }
 
 .default-portfolio-item .overlay-box span{
-	position:absolute;
-	left:0px;
-	top:47%;
-	width:100%;
-	height:100%;
-	display:table;
-	vertical-align:middle;
-	text-align:center;
+  position:absolute;
+  left:0px;
+  top:47%;
+  width:100%;
+  height:100%;
+  display:table;
+  vertical-align:middle;
+  text-align:center;
 }
 .default-portfolio-item .overlay-box span i.fa{
     text-align: center;
     font-size: 24px;
 }
 .filter-list .mix{
-	display:none;	
+  display:none; 
 }
 .gallery-section .filters{
-	position:relative;
-	text-align:center;
-	margin-bottom:50px;	
+  position:relative;
+  text-align:center;
+  margin-bottom:50px; 
 }
 
 .gallery-section .filter-btns{
-	position:relative;
-	text-align:center;
+  position:relative;
+  text-align:center;
 }
 
 .gallery-section .filter-btns li{
-	position:relative;
-	display:inline-block;
-	padding:5px 20px;
-	line-height:24px;
-	border:1px solid;
-	cursor:pointer;
-	text-transform:uppercase;
-	font-size:14px;
-	margin-right:15px;
+  position:relative;
+  display:inline-block;
+  padding:5px 20px;
+  line-height:24px;
+  border:1px solid;
+  cursor:pointer;
+  text-transform:uppercase;
+  font-size:14px;
+  margin-right:15px;
 }
 .tag{
-	position:absolute;
-	left:15px;
-	bottom:5%;
-	vertical-align:middle;
-	text-align:center;
+  position:absolute;
+  left:15px;
+  bottom:5%;
+  vertical-align:middle;
+  text-align:center;
 }
 .tag ul li{
-	float: left;
-	padding-right: 5px;
+  float: left;
+  padding-right: 5px;
 }
 .overlay-box{
-	border:5px solid
+  border:5px solid
 }
 /*============================================================================
 18.   Pricing
 ==============================================================================*/
 .table{
   border-radius: 20px;
-  padding: 40px 30px;
+  padding: 20px;
+  width: 60%;
+  margin: 0 20%;
 }
 .table h1{
   font-family: 'Poppins', sans-serif;
@@ -1025,6 +1029,7 @@ ul#menu li a{
 .table ul li:last-child{
   border-bottom: none;
 }
+.table:hover {background: #fff!important;}
 /*===========================================================================
 19.   Team
 =============================================================================*/
@@ -1102,12 +1107,12 @@ ul#menu li a{
   opacity: 0;
 }
 /*============================================================================
-20.		Testimonial
+20.   Testimonial
 ==============================================================================*/
 
 .member_feedback{
   position: relative;
-  margin: 60px 15px 10px 15px;
+  margin: 10px 15px 0px 15px;
 }
 .member_feedback h5{
   letter-spacing: 2px;
@@ -1147,7 +1152,7 @@ ul#menu li a{
 }
 .owl-carousel .owl-nav button.owl-prev span,
 .owl-carousel .owl-nav button.owl-next span{
-	font-size: 20px;
+  font-size: 20px;
     line-height: 40px;
     font-weight: 600;
 }
@@ -1902,7 +1907,7 @@ label.radios {
 ================================================*/
 .on-panel {
     height: 45px;
-    left: -45px;
+    left: -40px;
     position: absolute;
     top: 0;
     width: 45px;
@@ -1912,7 +1917,7 @@ label.radios {
 }
 .color-panel {
   position: fixed;
-  right: -225px;
+  right: -243px;
   top: 90px;
   z-index: 111;
   -webkit-transition: all 500ms ease-in-out;
@@ -1929,8 +1934,8 @@ label.radios {
 }
 .panel-box, .switcher_layout,
 .box_bg_style,.template_style{
-  padding: 10px 10px 10px 20px;
-  width: 225px;
+  padding: 10px 10px 10px 10px;
+  width: 250px;
   background: #f8f8f8;
   display: table
 }
@@ -2746,7 +2751,7 @@ label.radios {
       margin-left: 55px;
   }
   .main_nav{
-    background-color: #818181 !important;
+    background-color: #fff !important;
   }
   .about_myskill h2 {
       font-size: 24px;
@@ -2820,9 +2825,18 @@ label.radios {
 }
 
 @media (max-width: 680px){
-
+  #pp-nav.right {
+    right: 5px!important;
+}
+p.sub_title {text-align: justify!important;}
 .desk-banner {display: none!important;}
 .mob-banner {display: block!important;}
 .slide-image {width: 100%!important; top:12vh!important;}
 .banner_image, .banner_water_effect {height: 112vh!important;}
+.test {text-align: center;}
+.color_white {text-align: center;}
+.contact_text {text-align: center;
+display: block;}
+.about_myself {padding-right: 12px;}
+.panel-box, .switcher_layout, .box_bg_style, .template_style {width: 242px!important;}
 }

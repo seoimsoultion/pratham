@@ -98,7 +98,7 @@
 select.form-control[multiple], select.form-control[size] {height: calc(30px + 15px);}
 .txt-italic { font-style: italic; font-size: 22px; color:#bdbabc;}
 .why-box img {width: 50%; margin: 0 25%;}
-.why-box p {text-align: center!important;}
+.why-box p {text-align: justify!important;}
 a.btn-project {border:1px #FAA61A solid; border-radius: 30px; margin: 10px 0; padding: 13px 40px; 
 }
 .experience {background: #faa61a;}
@@ -135,14 +135,14 @@ input[type=number]::-webkit-outer-spin-button {
   min-height: 376px;}
 @media screen and (max-width:990px) and (min-width:280px) {
 
-  .details { background: rgba(33, 37, 41, 0.9) ;margin-top:-30px}
+  .details { background: rgba(33, 37, 41, 0.9) ;margin-top:-30px;padding-bottom: 5px;}
   .about-btn {margin-bottom: 20px;}
   .btn.btn-default.testb {margin-bottom: 30px ;}
 
 }
 
 @media screen and (min-width:991px) and (max-width:1980px) {
-  .details { background: rgba(33, 37, 41, 0.9)  ;}
+  .details { background: rgba(33, 37, 41, 0.9)  ; padding-bottom: 5px}
 }
 .why-us-sl-img {width:35% !important;text-align: center !important;margin-left: auto !important;margin-right: auto !important;}
 @media screen and (max-width:990px) and (min-width:280px) {
@@ -156,4 +156,9 @@ input[type=number]::-webkit-outer-spin-button {
     .mobile  {display:none  !important;}
     .banner_image, .banner_water_effect {height:112vh !important}
  
+}
+.blog-p-c {
+
+    min-height: 348px;
+
 }

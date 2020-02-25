@@ -1,8 +1,13 @@
 <!--	Start Contact
 	===================================================-->
-<section id="contact" class="py_80 full_row bg_white">
+<section id="contact" class="full_row bg_white">
+	<div id="contact1"></div>
 	<div class="container ">
 		<div class="row">
+		<div style="position: fixed; z-index: 99999; left:0; bottom:8%;">
+               <a href="https://api.whatsapp.com/send?phone=917829583111" target="_blank"><img src="images/watsappnew.png" width="100%"
+                     height="100%" alt="Whatsapp" /></a>
+            </div>
 			<div class="col-md-12 col-lg-12">
 				<div class="section_title_1 text-center mx-auto py_80     wow animated slideInUp">
 					<h2 class="title text-uppercase color_white"><span class=" mx-auto color_default color_white"></span>Contact Us</h2>
@@ -34,7 +39,8 @@
 								<li>
 									<div class="contact_text">
 										<h6 class="font-weight-bold color_default">Phone</h6>
-										<span class="color_white">+91 - 7829 583 111 , +91 - 804 171 5678</span>
+										<span class="color_white">+91 - 7829 583 111 ,7829 180 111,<br>
+										 +91 - 804 171 5678</span>
 									</div>
 								</li>
 
@@ -626,7 +632,7 @@
 
 
 	$('.why-us-sl').owlCarousel({
-		loop: true,
+		loop: false,
 		autoplay: true,
 		autoplayTimeout: 5000,
 		margin: 0,

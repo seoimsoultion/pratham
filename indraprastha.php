@@ -20,6 +20,7 @@
 	<link rel="stylesheet" href="css/style.css">
 	<link rel="stylesheet" href="css/color.css" id="color-change">
 	<link rel="stylesheet" href="css/custom2.css">
+<link rel="stylesheet" href="css/developer.css">
 
 	<!-- Favicon 
     ==================================================-->
@@ -28,6 +29,198 @@
 	<!--	Title
     ==================================================-->
 	<title>Pratham Construction: Indraprastha</title>
+	<style>
+.location {
+    -webkit-box-shadow: 1px 2px 10px rgba(0,0,0,.18);
+    -moz-box-shadow: 1px 2px 10px rgba(0,0,0,.18);
+    -ms-box-shadow: 1px 2px 10px rgba(0,0,0,.18);
+    -o-box-shadow: 1px 2px 10px rgba(0,0,0,.18);
+    box-shadow: 1px 2px 10px rgba(0,0,0,.18);
+    border-radius: 20px;
+    padding: 20px;
+    margin-bottom: 20px;
+}
+.project-detail-ul li {
+    position: relative;
+    background: url(images/aoc-mic-arrow.png) no-repeat;
+    background-position: 0 3px;
+    font-size: 15px;
+    font-weight: 400;
+    padding: 0 0 0 25px !important;
+    margin: 0 0 5px 0;
+    line-height: 25px;
+    border-bottom: 0px !important;
+}
+
+#mixedSlider {
+  position: relative;
+}
+#mixedSlider .MS-content {
+  white-space: nowrap;
+  overflow: hidden;
+  margin: 0 5%;
+}
+#mixedSlider .MS-content .item {
+  display: inline-block;
+  width: 50%;
+  position: relative;
+  vertical-align: top;
+  overflow: hidden;
+  height: 100%;
+  white-space: normal;
+  padding: 0 ;
+}
+@media (max-width: 991px) {
+  #mixedSlider .MS-content .item {
+    width: 50%;
+  }
+}
+@media (max-width: 767px) {
+  #mixedSlider .MS-content .item {
+    width: 100%;
+  }
+}
+#mixedSlider .MS-content .item .imgTitle {
+  position: relative;
+}
+#mixedSlider .MS-content .item .imgTitle .blogTitle {
+  margin: 0;
+  text-align: left;
+  letter-spacing: 2px;
+  color: #252525;
+  font-style: italic;
+  position: absolute;
+  background-color: rgba(255, 255, 255, 0.5);
+  width: 100%;
+  bottom: 0;
+  font-weight: bold;
+  padding: 0 0 2px 10px;
+}
+#mixedSlider .MS-content .item .imgTitle img {
+  height: auto;
+  width: 100%;
+}
+#mixedSlider .MS-content .item p {
+  font-size: 16px;
+  margin: 2px 10px 0 5px;
+  text-indent: 15px;
+}
+#mixedSlider .MS-content .item a {
+  float: right;
+  margin: 0 20px 0 0;
+  font-size: 16px;
+  font-style: italic;
+  color: rgba(173, 0, 0, 0.82);
+  font-weight: bold;
+  letter-spacing: 1px;
+  transition: linear 0.1s;
+}
+#mixedSlider .MS-content .item a:hover {
+  text-shadow: 0 0 1px grey;
+}
+#mixedSlider .MS-controls button {
+  position: absolute;
+  border: none;
+  background-color: transparent;
+  outline: 0;
+  font-size: 50px;
+  top: 95px;
+  color: rgba(0, 0, 0, 0.4);
+  transition: 0.15s linear;
+}
+#mixedSlider .MS-controls button:hover {
+  color: rgba(0, 0, 0, 0.8);
+}
+@media (max-width: 992px) {
+  #mixedSlider .MS-controls button {
+    font-size: 30px;
+  }
+}
+@media (max-width: 767px) {
+  #mixedSlider .MS-controls button {
+    font-size: 20px;
+  }
+}
+#mixedSlider .MS-controls .MS-left {
+  left: 0px;
+}
+@media (max-width: 767px) {
+  #mixedSlider .MS-controls .MS-left {
+    left: -10px;
+  }
+}
+#mixedSlider .MS-controls .MS-right {
+  right: 0px;
+}
+@media (max-width: 767px) {
+  #mixedSlider .MS-controls .MS-right {
+    right: -10px;
+  }
+  .location {margin-left: 50px;}
+}
+
+
+
+
+
+
+
+
+
+
+
+body {line-height: 26px!important;}
+ .zoom1:hover {
+                  -ms-transform: scale(1.1); /* IE 9 */
+                  -webkit-transform: scale(1.1); /* Safari 3-8 */
+                  transform: scale(1.1); 
+                  -webkit-transition: 0.6s ease;
+                  transition: 0.6s ease;
+                  opacity: 1;
+                  border: 1px #ff0000 solid;
+                  }
+                  .zoom1Jquery {
+                  -ms-transform: scale(1.1); /* IE 9 */
+                  -webkit-transform: scale(1.1); /* Safari 3-8 */
+                  transform: scale(1.1); 
+                  -webkit-transition: 0.6s ease;
+                  transition: 0.6s ease;
+                  opacity: 1;
+                  border: 1px #ec7616 solid;
+                  }
+                  .zoom1
+                  {
+                  transition: transform .3s;
+                  opacity: 0;
+                  width: 300px;
+             
+                  }
+          
+                 
+                  .zoom:hover {
+                  -ms-transform: scale(1.1); /* IE 9 */
+                  -webkit-transform: scale(1.1); /* Safari 3-8 */
+                  transform: scale(1.1); 
+                  -webkit-transition: 0.6s ease;
+                  transition: 0.6s ease;
+                  }
+                  .zoom
+                  {
+                  transition: transform .3s;
+                  }
+                  .zoom-img {width:210px!important; border: 5px #ff7803 solid;}
+                 
+           @media (max-width: 680px){
+ .zoom1
+                  {
+                  transition: transform .3s;
+                  opacity: 0;
+                  width: 270px;
+             
+                  }
+
+           }   
+	</style>
 
 </head>
 
@@ -556,14 +749,15 @@
 			<li data-menuanchor="page1" class="active"><a href="#page1">Home</a></li>
 			<li data-menuanchor="page2"><a href="#page2">About Us</a></li>
 			<li data-menuanchor="page3"><a href="#page3">Amenities</a></li>
-			<li data-menuanchor="page3"><a href="#page4">Walkthrough</a></li>
+			<li data-menuanchor="page3"><a href="#page4">Specifications</a></li>
+			<li data-menuanchor="page3"><a href="#page5">Walkthrough</a></li>
 
-			<li data-menuanchor="page5"><a href="#page5">Floor Plan</a></li>
-			<li data-menuanchor="page6"><a href="#page6">Master Plan</a></li>
-			<li data-menuanchor="page7"><a href="#page7">Location Map</a></li>
+			<li data-menuanchor="page5"><a href="#page6">Floor Plan</a></li>
+			<li data-menuanchor="page6"><a href="#page7">Master Plan</a></li>
+			<li data-menuanchor="page7"><a href="#page8">Location Map</a></li>
 
-			<li data-menuanchor="page9"><a href="#page8">Contact</a></li>
-			<li data-menuanchor="page8"><a href="#page9">Download</a></li>
+			<li data-menuanchor="page9"><a href="#page9">Contact</a></li>
+			<li data-menuanchor="page8"><a href="#page10">Download</a></li>
 		</ul>
 	</div>
 	<div class="sidebar bg_primary">
@@ -597,13 +791,13 @@
 
 		<div class="pagegilling-mani-banner section bg_white">
 
-			<div id="water-effect" class="banner_image background13 ">
+			<div id="<?php //water-effect ?>" class="banner_image background13 ">
 				<div class="container h-100">
 					<div class="row h-100 align-items-center">
 						<div class="col-md-12 col-lg-12 home-content text-left">
 
 
-							<div class="mainbanner_content">
+							<div class="mainbanner_content" style="padding-top: 50px;">
 								<span class="pb_5 banner_title color_white ">PRATHAM CONSTRUCTIONS</span>
 								<h1 class="cd-headline clip is-full-width text-uppercase">
 									<span class="color_white"></span>
@@ -614,12 +808,19 @@
 									</span>
 								</h1>
 								<p class="color_white mb_30">Committed to superior quality housing through innovation!</p>
-								<a class="btn btn-default" href="#">Download Brochure</a>
+								<a class="btn btn-default" href="images/Indraprastha_brochure.pdf" target="_blank">Download Brochure</a>
+
+								<p class="text-left" style="color: #fff; font-weight: bold; padding-top: 30px;">RERA NO : PRM/KA/RERA/1251/310/PR/171027/000864</p>
 							</div>
 
 
 						</div>
+
+	<div class="col-md-12 col-lg-12 home-content text-center mob-banner">
+							<p class="text-center" style="color: #fff; font-weight: bold; padding: 0 50px;">RERA NO : PRM/KA/RERA/1251/310/PR/ 171027/000864</p>
+						</div>
 					</div>
+
 				</div>
 			</div>
 
@@ -659,13 +860,13 @@
 								<div class="col-md-4 col-lg-4">
 									<div class="overlay_one"><img src="images/pratham/indraprastha/4.jpg" alt="image"></div>
 								</div>
-								<div class="col-md-8 col-lg-8 my_60">
+								<div class="col-md-8 col-lg-8 mt_30">
 									<div class="about_myself pb_60">
 										<!--	Start Title
 	    								================================-->
 										<div class="main_title  text-center">
 											<h2 class="title color_primary text-center">About Us</h2>
-											<p class="mt_15 text-center">&nbsp;</p>
+											
 										</div>
 										<!--	End Title
 	    								================================-->
@@ -673,11 +874,11 @@
 											<div class="col-md-12 col-lg-12">
 												<div class="myself title color_primary">
 													<h3>Engineering quality housing for your family! </h3>
-													<p>Designed to meet the dynamic and ultra-urban lifestyle of the Silicon Valley of India, Indraprastha is an ambitious residential project by the Pratham Construction. Offering exclusive 2 and 3 BHK apartments with state-of-the-art amenities, here at Indraprastha you will experience the ultimate joy of living in a spacious and well-designed residential space. Built to enhance the quality of your lifestyle, each apartment integrates highest quality comfort, functionality and affordability. Facilitating world-class standard of living, the highlights of amenities include a Clubhouse, Library, Crèche, Mini Theatre, Health Club, Tennis Court, Swimming Pool, Outdoor Party Area, Banquet Hall, Gym, Badminton Courts, Squash Courts, Snooker, Table Tennis, other indoor games, Kids’ play area and provision for a Convenience Store.</p>
+													<p class="text-justify">Designed to meet the dynamic and ultra-urban lifestyle of the Silicon Valley of India, Indraprastha is an ambitious residential project by the Pratham Construction. Offering exclusive 2 and 3 BHK apartments with state-of-the-art amenities, here at Indraprastha you will experience the ultimate joy of living in a spacious and well-designed residential space. Built to enhance the quality of your lifestyle, each apartment integrates highest quality comfort, functionality and affordability. Facilitating world-class standard of living, the highlights of amenities include a Clubhouse, Library, Crèche, Mini Theatre, Health Club, Tennis Court, Swimming Pool, Outdoor Party Area, Banquet Hall, Gym, Badminton Courts, Squash Courts, Snooker, Table Tennis, other indoor games, Kids’ play area and provision for a Convenience Store.</p>
 													<br />
-													<p>Pratham Indraprastha is meticulously designed with unbound convenience. The interiors are made up of finest quality giving highest attention to detail, fittings and finishes reflecting the effortless blend of modernity and elegance. Aesthetics blend in perfect harmony making each room well-ventilated with ample natural light. Tradition at its heart, Pratham Indraprastha is also Vaastu Compliant. </p>
+													<p  class="text-justify">Pratham Indraprastha is meticulously designed with unbound convenience. The interiors are made up of finest quality giving highest attention to detail, fittings and finishes reflecting the effortless blend of modernity and elegance. Aesthetics blend in perfect harmony making each room well-ventilated with ample natural light. Tradition at its heart, Pratham Indraprastha is also Vaastu Compliant. </p>
 													<br />
-													<p>Nestled in the heart of Yashwanthpur, Indraprastha embodies connectivity and conveniences. Indraprastha resonates among the most prestigious addresses in Bangalore. It is close to major schools, colleges, hospitals and shopping malls ensuring that your daily life is convenient and hassle free. Some important centres in the vicinity include Sheraton Hotel, Taj Vivanta, Metro Cash n carry Mall, Orion Mall, Big Bazaar, City Railway Station, Columbia Asia Hospital, ISKCON Temple, MS Ramaiah College and India Institute of Science. </p>
+													<p  class="text-justify">Nestled in the heart of Yashwanthpur, Indraprastha embodies connectivity and conveniences. Indraprastha resonates among the most prestigious addresses in Bangalore. It is close to major schools, colleges, hospitals and shopping malls ensuring that your daily life is convenient and hassle free. Some important centres in the vicinity include Sheraton Hotel, Taj Vivanta, Metro Cash n carry Mall, Orion Mall, Big Bazaar, City Railway Station, Columbia Asia Hospital, ISKCON Temple, MS Ramaiah College and India Institute of Science. </p>
 
 												</div>
 											</div>
@@ -693,7 +894,366 @@
 		</div>
 		<!--	End About
 		===================================================-->
+ <!--	Start Services
+		===================================================-->
+        <div id="amenities" class="section bg_white pp-scrollable">
+            <div class="container">
+                <div class="services mt_30">
+                    <div class="row">
+                        <div class="col-md-12 col-lg-12">
+                            <div class="section_title_1 text-center mx-auto pb_30 wow animated slideInUp">
+                                <h2 class="title text-uppercase color_primary">Amenities</h2>
+								<p class="mt_15 text-center color_primary">For the ultimate contemporary lifestyle revolving around health and well-being, Indraprastha offers a multitude of modern amenities.</p>
+                            </div>
+                        </div>
+						<div class="col-md-3 col-sm-6 col-xs-6 ">
+							<div class="proj_amenities">
+							<img src="images/pratham/kidsplayarea.png">
+							<p>Children's Play Area</p>
+							</div>
+						</div>
+						<div class="col-md-3 col-sm-6 col-xs-6 ">
+							<div class="proj_amenities">
+							<img src="images/pratham/hall.png">
+							<p>Multipurpose Hall</p>
+							</div>
+						</div>
+						<div class="col-md-3 col-sm-6 col-xs-6 ">
+							<div class="proj_amenities">
+							<img src="images/pratham/gyn.png">
+							<p>Fully Equipped Gymnasium</p>
+							</div>
+						</div>
+						<div class="col-md-3 col-sm-6 col-xs-6 ">
+							<div class="proj_amenities">
+							<img src="images/pratham/clubhous.png">
+							<p>Club House</p>
+							</div>
+						</div>
+						<div class="col-md-3 col-sm-6 col-xs-6 ">
+							<div class="proj_amenities">
+							<img src="images/pratham/yoga.png">
+							<p>Yoga Centre</p>
+							</div>
+						</div>
+						<div class="col-md-3 col-sm-6 col-xs-6 ">
+							<div class="proj_amenities">
+							<img src="images/pratham/jogging.png">
+							<p>Jogging Track</p>
+							</div>
+						</div>
+						<div class="col-md-3 col-sm-6 col-xs-6 ">
+							<div class="proj_amenities">
+							<img src="images/pratham/swimming-pool.png">
+							<p>Swimming Pool</p>
+							</div>
+						</div>
+						<div class="col-md-3 col-sm-6 col-xs-6 ">
+							<div class="proj_amenities">
+							<img src="images/pratham/library.png">
+							<p>Library</p>
+							</div>
+						</div>
+						<div class="col-md-3 col-sm-6 col-xs-6 ">
+							<div class="proj_amenities">
+							<img src="images/pratham/rainwater-harwasting.png">
+							<p>Rainwater harvesting</p>
+							</div>
+						</div>
+						<div class="col-md-3 col-sm-6 col-xs-6 ">
+							<div class="proj_amenities">
+							<img src="images/pratham/swage-tritment.png">
+							<p>Sewage Treatment Plant</p>
+							</div>
+						</div>
+						<div class="col-md-3 col-sm-6 col-xs-6 ">
+							<div class="proj_amenities">
+							<img src="images/pratham/treatment-plan.png">
+							<p>Water Treatment Plant</p>
+							</div>
+						</div>
+						<div class="col-md-3 col-sm-6 col-xs-6 ">
+							<div class="proj_amenities">
+							<img src="images/pratham/toilet.png">
+							<p>Toilets for Drivers and Maids</p>
+							</div>
+						</div>
+					</div>
+                </div>
+            </div>
+        </div>
+        <!--	End Services
+		===================================================-->
+		<!--	Start Services
+		===================================================-->
+        <div id="specifications" class="section bg_white pp-scrollable">
+            <div class="container">
+                <div class="services mt_30">
+                    <div class="row">
+                        <div class="col-md-12 col-lg-12">
+                            <div class="section_title_1 text-center mx-auto pb_30 wow animated slideInUp">
+                                <h2 class="title text-uppercase color_primary">Specifications</h2>
+                            </div>
+                        </div>
+                        <div class="col-md-4 col-lg-4">
+							<div class="service_one">
+								<div class="srvicon bg_default color_white mx-auto mb_20 "><span><img src='pratham-casa-serene/images/specifications/structure.png'style="margin: 5px;width: 80%;padding: 5px" alt=''/></span></div>
+								<h3 class="font-weight-bold color_primary text-center">STRUCTURE</h3>
+								<ul class='project-detail-ul'>
+<li>Seismic Zone 2 compliant RCC frame structure</li>
+<li>Solid Cement Concrete Blocks</li>
+<li>External Walls finished with sand faced cement plaster</li>
+<li>Internal Walls finished with plastering and gypsum rendering</li>
+					</ul>
+							</div>
+                        </div>
+                        <div class="col-md-4 col-lg-4">
+							<div class="service_one">
+								<div class="srvicon bg_default color_white mx-auto mb_20"><span><img src='pratham-casa-serene/images/specifications/flooring.png'style="margin: 5px;width: 80%;padding: 5px" alt=''/></span></div>
+								<h3 class="font-weight-bold color_primary text-center">FLOORING</h3>
+								<ul class='project-detail-ul'>
+									<li>Vitrified Tiles in Living, Dining, Kitchen and Bedrooms</li>
+<li>Balcony and Utility – ceramic tiles</li>
+<li>Ground Floor Lobby in granite</li>
+<li>Upper floor Lobby in vitrified tiles</li>
+<li>Staircase lobbies at all levels – 20 mm Kota/Kadpah slabs</li>
+								</ul>
+							</div>
+                        </div>
+						<div class="col-md-4 col-lg-4">
+							<div class="service_one">
+								<div class="srvicon bg_default color_white mx-auto mb_20"><span><img src='pratham-casa-serene/images/specifications/main-door.png'style="margin: 5px;width: 80%;padding: 5px" alt=''/></span></div>
+								<h3 class="font-weight-bold color_primary text-center">DOORS</h3>
+								<ul class='project-detail-ul'>
+<li>Main Door – Teak Wood Frame with threshold and Laminated Doors</li>
+<li>Bedroom Doors – Hard Wood Frame and 30 mm thick flush shutter with
+enamel paint finish</li>
 
+
+
+<ul class="ulExtra" id="list_A1">
+	<li>Toilet Doors – Hard Wood Frame with 30 mm thick flush shutter with enamel
+paint finish</li>
+<li>Balcony and Utility Doors – French Window, Aluminium shutter</li>
+<li>Main Door will have mortise lock and handle with vertical and horizontal latch</li>
+<li>Bedroom Door will have cylindrical lock and rose handles with vertical latch</li>
+<li>Toilet doors will have rose handles with vertical latch</li>
+</ul>	
+
+<div class='text-center'>
+<button class="liReadMore btn btn-default" id="readMore_A1" style="margin: 0px;">Show More</button>
+</div>
+
+
+
+
+								</ul>
+							</div>
+                        </div>
+                        
+                        <div class="col-md-4 col-lg-4">
+							<div class="service_one">
+								<div class="srvicon bg_default color_white mx-auto mb_20"><span><img src='pratham-casa-serene/images/specifications/other-doors.png'style="margin: 5px;width: 80%;padding: 5px" alt=''/></span></div>
+								<h3 class="font-weight-bold color_primary text-center">FLOORING</h3>
+								<ul class='project-detail-ul'>
+<li>Vitrified Tiles in Living, Dining, Kitchen and Bedrooms</li>
+<li>Anti skid tiles for Bathroom flooring</li>
+<li>Balcony and Utility – ceramic tiles</li>
+
+
+<ul class="ulExtra" id="list_A">
+<li>Ground Floor Lobby in granite</li>
+<li>Upper floor Lobby in vitrified tiles</li>
+<li>Staircase lobbies at all levels – 20 mm Kota/Kadpah slabs</li>
+</ul>	
+
+<div class='text-center'>
+<button class="liReadMore btn btn-default" id="readMore_A" style="margin: 0px;">Show More</button>
+</div>
+
+	</ul>
+</div>
+                        </div>
+                        <div class="col-md-4 col-lg-4">
+							<div class="service_one">
+								<div class="srvicon bg_default color_white mx-auto mb_20"><span><img src='pratham-casa-serene/images/specifications/window.png'style="margin: 5px;width: 80%;padding: 5px" alt=''/></span></div>
+								<h3 class="font-weight-bold color_primary text-center">WINDOWS</h3>
+								<ul class='project-detail-ul'>
+<li>3 track Powder Coated Aluminium Sliding Windows with provision for
+mosquito mesh, the mesh to be installed by PURCHASER/s.</li>
+<li>No window grills</li>
+								</ul>
+
+							</div>
+                        </div>
+						<div class="col-md-4 col-lg-4">
+							<div class="service_one">
+								<div class="srvicon bg_default color_white mx-auto mb_20"><span><img src='pratham-casa-serene/images/specifications/water-suply.png'style="margin: 5px;width: 80%;padding: 5px" alt=''/></span></div>
+								<h3 class="font-weight-bold color_primary text-center">DADOING</h3>
+<ul class='project-detail-ul'>
+<li>Toilets – Ceramic glazed tiles upto false ceiling</li>
+<li>Kitchen – Ceramic glazed tiles upto 2’ above kitchen platform</li>
+
+<ul class="ulExtra" id="list_B">
+	<li>Kitchen slab – 20 mm Granite Slab cooking counter supported by angles</li>
+<li>Microwave Point and Water Purifier point at appropriate places in
+the kitchen</li>
+<li>Single + half bowl sink with drain board of reputed make</li>
+</ul>
+
+<div class='text-center'>
+<button class="liReadMore btn btn-default" id="readMore_B" style="margin: 0px;">Show More</button>
+</div>
+
+
+
+								</ul>
+							</div>
+                        </div>
+                        
+                        <div class="col-md-4 col-lg-4">
+							<div class="service_one">
+								<div class="srvicon bg_default color_white mx-auto mb_20"><span><img src='pratham-casa-serene/images/specifications/utility.png'style="margin: 5px;width: 80%;padding: 5px" alt=''/></span></div>
+								<h3 class="font-weight-bold color_primary text-center">PLUMBING AND SANITARY</h3>
+								<ul class='project-detail-ul'>
+<li>EWC – Wall mounted commode of Cera/Hindware/Parryware or
+equivalent</li><br>
+<ul class="ulExtra" id="list_C">
+<li>Wash Basin – Cera/Hindware/Parryware or equivalent</li>
+
+
+	<li>2 in 1 mixer with spout and overhead shower</li>
+<li>All plumbing fittings from Jaquar/ESS ESS or equivalent</li>
+<li>Water Treatment Plant</li>
+<li>Sewage Treatment Plant</li>
+<li>Rain Water Harvesting</li>
+									</ul>
+									<div class='text-center'>
+									   <button class="liReadMore btn btn-default" id="readMore_C" style="margin: 0px;">Show More</button>
+									</div>
+
+
+
+								</ul>
+							</div>
+                        </div>
+                        <div class="col-md-4 col-lg-4">
+							<div class="service_one">
+								<div class="srvicon bg_default color_white mx-auto mb_20"><span><img src='pratham-casa-serene/images/specifications/toilet.png'style="margin: 5px;width: 80%;padding: 5px" alt=''/></span></div>
+								<h3 class="font-weight-bold color_primary text-center">TOILETS</h3>
+								<ul class='project-detail-ul'>
+<li>Ceiling and Internal Walls painted in Plastic Emulsion Paint</li>
+<li>Toilet Ceiling and Wall painted in Emulsion Paint</li>
+<li>Kitchen – Emulsion paint</li>
+
+									<ul class="ulExtra" id="list_D">
+										<li>All fabricated members (balcony grills) painted in synthetic enamel paint</li>
+<li>External Walls painted in Weather proof paint</li>
+									</ul>
+									<div class='text-center'>
+									   <button class="liReadMore btn btn-default" id="readMore_D" style="margin: 0px;">Show More</button>
+									</div>
+								</ul>
+							</div>
+                        </div>
+						<div class="col-md-4 col-lg-4">
+							<div class="service_one">
+								<div class="srvicon bg_default color_white mx-auto mb_20"><span><img src='pratham-casa-serene/images/specifications/wall.png'style="margin: 5px;width: 80%;padding: 5px" alt=''/></span></div>
+								<h3 class="font-weight-bold color_primary text-center">WALL FINISHES</h3>
+								<ul class='project-detail-ul'>
+<li>Ceiling and Internal Walls painted in Plastic Emulsion Paint</li>
+<li>Toilet Ceiling and Wall painted in Emulsion Paint</li>
+<li>Kitchen – Emulsion paint</li>
+
+<ul class="ulExtra" id="list_E">
+<li>All fabricated members (balcony grills) painted in synthetic enamel paint</li>
+<li>External Walls painted in Weather proof paint</li>
+									</ul>
+									<div class='text-center'>
+									   <button class="liReadMore btn btn-default" id="readMore_E" style="margin: 0px;">Show More</button>
+									</div>
+								</ul>	
+							</div>
+                        </div>
+						<div class="col-md-4 col-lg-4">
+							<div class="service_one">
+								<div class="srvicon bg_default color_white mx-auto mb_20"><span><img src='pratham-casa-serene/images/specifications/kitchn.png'style="margin: 5px;width: 80%;padding: 5px" alt=''/></span></div>
+								<h3 class="font-weight-bold color_primary  text-center">KITCHEN</h3>
+								<ul class='project-detail-ul'>
+<li>3 phase power supply from electricity board</li>
+<li>One ELCB for every apartment</li>
+<li>MCB for each room at the Distribution box in the apartment</li>
+
+									<ul class="ulExtra" id="list_F">
+<li>Geyser point in all toilets</li>
+<li>TV and Telephone Points in Living Room</li>
+<li>TV and Telephone Points in Master Bedroom and one Additional Room</li>
+<li>Necessary Electrical Points in Kitchen</li>
+<li>Washing Machine Point and water inlet point in utility</li>
+<li>Additional Sink in Utility</li>
+<li>Necessary fan, light and socket points in all rooms</li>
+<li>Modular switches of reputed make</li>
+<li>100% Diesel Generator power back up for common area lighting, lifts,
+pumps and any other common amenity.</li>
+<li>1kVA Diesel Generator back up for 2BHK and 3BHK</li>
+<li>Provision for Split AC power point and core cut for drain pipe in Master Bedroom</li>
+<li>ISI Mark Wires of reputed make like Anchor/RR Kabel or equivalent</li>
+									</ul>
+									<div class='text-center'>
+									   <button class="liReadMore btn btn-default" id="readMore_F" style="margin: 0px;">Show More</button>
+									</div>
+								</ul>
+							</div> 
+                        </div>
+                        <div class="col-md-4 col-lg-4">
+							<div class="service_one">
+								<div class="srvicon bg_default color_white mx-auto mb_20"><span><img src='pratham-casa-serene/images/specifications/ELECTRICAL.png'style="margin: 5px;width: 80%;padding: 5px" alt=''/></span></div>
+								<h3 class="font-weight-bold color_primary text-center">SECURITY AND SAFETY AND OTHERS</h3>
+								<ul class='project-detail-ul'>
+<li>1 Passenger and 1 Service Lift for each block of reputed make</li>
+<li>Security Cabins at the entrance of the property</li>
+
+
+									<ul class="ulExtra" id="list_G">
+										<li>Necessary Fire Fighting equipment</li>
+										<li>Intercom Facility</li>
+<li>Visitor Car Park</li>
+<li>Toilets for Maids/Drivers/Housekeeping Staff</li>
+									</ul>
+								</ul>
+								<div class='text-center'>
+								   <button class="liReadMore btn btn-default" id="readMore_G" style="margin: 0px;">Show More</button>
+								</div>
+							</div>
+                        </div>
+                        <div class="col-md-4 col-lg-4">
+							<div class="service_one">
+								<div class="srvicon bg_default color_white mx-auto mb_20"><span><img src='pratham-casa-serene/images/specifications/other.png'style="margin: 5px;width: 80%;padding: 5px" alt=''/></span></div>
+								<h3 class="font-weight-bold color_primary text-center">OTHERS</h3>
+								<ul class='project-detail-ul'>
+									<li>Complete Generator Backup for all common areas and services & 1kW power backup for every apartment at no extra cost</li>
+									<ul class="ulExtra" id="list_H">
+										<li>2 level security</li>
+										<li>Wi-fi ready</li>
+										<li>Sewage treatment plant</li>
+										<li>Rain water harvesting</li>
+										<li>5 Elevators</li>
+										<li>Marble lobbies & Granite staircase</li>
+									</ul>
+								</ul>
+								<div class='text-center'>
+								   <button class="liReadMore btn btn-default" id="readMore_H" style="margin: 0px;">Show More</button>
+								</div>
+							</div>
+                        </div>
+					</div>
+                </div>
+            </div>
+        </div>
+        <!--	End Services
+		===================================================-->
+		
+		<?php /*
 		<!--	Start Team
 		===================================================-->
 		<div id="team" class="section bg_white pp-scrollable">
@@ -826,18 +1386,18 @@
 		<!--	Start Education and Experience
 		===================================================-->
 
-
+		*/ ?>
 
 		<!--	Start Services
 		===================================================-->
 		<div id="services" class="section bg_white pp-scrollable">
 			<div class="container">
-				<div class="services my_60">
+				<div class="services mt_30">
 					<div class="row">
 						<div class="col-md-12 col-lg-12">
 							<!--	Start Title
 		    				================================-->
-							<div class="main_title pb_60">
+							<div class="main_title ">
 								<h2 class="title color_primary text-center">Walkthrough</h2>
 								<p class="mt_15 text-center">Get a glimpse of the luxury that awaits you!</p>
 							</div>
@@ -878,11 +1438,12 @@
 							left: 44%;
 							width: 100px !important;
 						}
+						.carousel-item {height: 370px!important;}
 					</style>
 
 					<!-- main slider -->
 
-					<div class="thumb-sl  ">
+					<div class="thumb-sl  mt_15">
 						<div class="row align-items-center">
 							<div class="col-lg-12 " id="slider">
 								<div id="myCarousel" class="carousel slide shadow">
@@ -890,8 +1451,8 @@
 									<div class="carousel-inner">
 										<div class="active  carousel-item" data-slide-number="0">
 
-											<a href="https://www.youtube.com/watch?v=85s_vReVsPQ " class="video-thumb-wrapper" data-fancybox="gallery">
-												<img src="images/video/1.jpg" class="img-fluid video-img">
+											<a href="https://www.youtube.com/watch?v=dRBKbO3OGJ8" data-fancybox="gallery-fancy">
+												<img src="images/video/10.jpg" class="img-fluid video-img">
 												<img src="images/play.png" class="vimg">
 											</a>
 
@@ -900,57 +1461,58 @@
 
 
 										<div class="carousel-item" data-slide-number="1">
-											<a href="https://www.youtube.com/watch?v=cslb-p8FFlw" data-fancybox="gallery">
+											<a href="https://www.youtube.com/watch?v=cslb-p8FFlw" data-fancybox="gallery-fancy">
 												<img src="images/video/2.jpg" class="img-fluid video-img">
 												<img src="images/play.png" class="vimg">
 											</a>
 
 										</div>
 										<div class="carousel-item" data-slide-number="2">
-											<a href="https://www.youtube.com/watch?v=2r258QF0uV0" data-fancybox="gallery">
+											<a href="https://www.youtube.com/watch?v=2r258QF0uV0" data-fancybox="gallery-fancy">
 												<img src="images/video/3.jpg" class="img-fluid video-img">
 												<img src="images/play.png" class="vimg">
 											</a>
 										</div>
 										<div class="carousel-item" data-slide-number="3">
-											<a href="https://www.youtube.com/watch?v=i8prMGP62w8" data-fancybox="gallery">
+											<a href="https://www.youtube.com/watch?v=i8prMGP62w8" data-fancybox="gallery-fancy">
 												<img src="images/video/4.jpg" class="img-fluid video-img">
 												<img src="images/play.png" class="vimg">
 											</a>
 										</div>
 										<div class="carousel-item" data-slide-number="4">
-											<a href="https://www.youtube.com/watch?v=LTnte0kj8js" data-fancybox="gallery">
+											<a href="https://www.youtube.com/watch?v=LTnte0kj8js" data-fancybox="gallery-fancy">
 												<img src="images/video/5.jpg" class="img-fluid video-img">
 												<img src="images/play.png" class="vimg">
 											</a>
 										</div>
 										<div class="carousel-item" data-slide-number="5">
-											<a href="https://www.youtube.com/watch?v=-o4iDefky0U" data-fancybox="gallery">
+											<a href="https://www.youtube.com/watch?v=-o4iDefky0U" data-fancybox="gallery-fancy">
 												<img src="images/video/6.jpg" class="img-fluid video-img">
 												<img src="images/play.png" class="vimg">
 											</a>
 										</div>
 										<div class="carousel-item" data-slide-number="6">
-											<a href="https://www.youtube.com/watch?v=BDriOdnzrxQ" data-fancybox="gallery">
+											<a href="https://www.youtube.com/watch?v=BDriOdnzrxQ" data-fancybox="gallery-fancy">
 												<img src="images/video/7.jpg" class="img-fluid video-img">
 												<img src="images/play.png" class="vimg">
 											</a>
 										</div>
 										<div class="carousel-item" data-slide-number="7">
-											<a href="https://www.youtube.com/watch?v=JcfkjjMxthg" data-fancybox="gallery">
+											<a href="https://www.youtube.com/watch?v=JcfkjjMxthg" data-fancybox="gallery-fancy">
 												<img src="images/video/8.jpg" class="img-fluid video-img">
 												<img src="images/play.png" class="vimg">
 											</a>
 										</div>
 										<div class="carousel-item" data-slide-number="8">
-											<a href="https://www.youtube.com/watch?v=1tDyWbs4bew" data-fancybox="gallery">
+											<a href="https://www.youtube.com/watch?v=1tDyWbs4bew" data-fancybox="gallery-fancy">
 												<img src="images/video/9.jpg" class="img-fluid video-img">
 												<img src="images/play.png" class="vimg">
 											</a>
 										</div>
 										<div class="carousel-item" data-slide-number="9">
-											<a href="https://www.youtube.com/watch?v=dRBKbO3OGJ8" data-fancybox="gallery">
-												<img src="images/video/10.jpg" class="img-fluid video-img">>
+											
+												<a href="https://www.youtube.com/watch?v=85s_vReVsPQ " class="video-thumb-wrapper" data-fancybox="gallery-fancy">
+												<img src="images/video/1.jpg" class="img-fluid video-img">>
 												<img src="images/play.png" class="vimg">
 											</a>
 										</div>
@@ -971,7 +1533,7 @@
 									<ul class="carousel-indicators list-inline mx-auto border px-2">
 										<li class="list-inline-item active">
 											<a id="carousel-selector-0" class="selected" data-slide-to="0" data-target="#myCarousel">
-												<img src="images/video/1.jpg" class="img-fluid">
+												<img src="images/video/10.jpg" class="img-fluid">
 											</a>
 										</li>
 										<li class="list-inline-item">
@@ -1016,7 +1578,7 @@
 										</li>
 										<li class="list-inline-item">
 											<a id="carousel-selector-7" data-slide-to="9" data-target="#myCarousel">
-												<img src="images/video/10.jpg" class="img-fluid">
+												<img src="images/video/1.jpg" class="img-fluid">
 											</a>
 										</li>
 									</ul>
@@ -1042,435 +1604,190 @@
 
 		<!--	Start Portfolio
 		===================================================-->
-		<div id="portfolio" class="section bg_white pp-scrollable">
+	<div id="portfolio" class="section bg_white pp-scrollable">
 			<div class="container">
-				<div class="portfolio2 my_60">
+				<div class="portfolio2 mt_30">
 					<div class="row">
 						<div class="col-md-12 col-lg-12">
-							<!--	Start Title
-		    				================================-->
+							
 							<div class="main_title pb_60">
-								<h2 class="title color_primary  text-center">Floor Plan</h2>
-								<p class="mt_15  text-center">Pratham Indraprastha consists of 2 and 3 BHK apartment units with size ranging from 1270-1655 Sqft coming in 4 blocks. </p>
+								<h2 class="title color_primary  text-center">Gallery </h2>
+						
 							</div>
-							<!--	End Title
-		    				================================-->
+							
 						</div>
-						<div class="col-md-12 col-lg-12">
-							<div class="my_portfolio" id="tab-panel">
-								<!--Filter-->
-								<div class="row">
-									<div class="col-md-12">
-										<div class="filters mb_30 w-100">
-											<ul class="filter-tabs d-inline-block">
-												<li class="active filter" data-role="button" data-filter="all">All</li>
-												<li class=" filter" data-role="button" data-filter=".Block1">Block 1</li>
-												<li class="filter" data-role="button" data-filter=".Block2">Block 2</li>
-												<li class="filter" data-role="button" data-filter=".Block3">Block 3</li>
-												<li class="filter" data-role="button" data-filter=".Block4">Block 4</li>
-											</ul>
-										</div>
-									</div>
-								</div>
-
-								<div class="filter-list">
-									<div class="portfolio-items">
-										<div class="row">
-
-
-											<div class="column mix  Block1 mb_30 col-md-4 col-lg-4">
-												<div class="default-portfolio-item">
-													<a href="images/pratham/indraprastha/b1_a1-1.jpg" data-fancybox="gallery">
-														<img src="images/pratham/indraprastha/m/b1_a1-1.jpg" alt="image" />
-														<div class="overlay-box">
-															<span><i class="fa fa-eye" aria-hidden="true"></i></span>
-															<div class="tag">
-																<ul>
-																	<li>Block 1</li>
-																	<li></li>
-																</ul>
-															</div>
-														</div>
-													</a>
-												</div>
-											</div>
-											<div class="column mix mix_all Block1 mb_30 col-md-4 col-lg-4">
-												<div class="default-portfolio-item">
-													<a href="images/pratham/indraprastha/b1_a1-2.jpg" data-fancybox="gallery">
-														<img src="images/pratham/indraprastha/m/b1_a2-2.jpg" alt="image" />
-														<div class="overlay-box">
-															<span><i class="fa fa-eye" aria-hidden="true"></i></span>
-															<div class="tag">
-																<ul>
-																	<li>Block 1,</li>
-																	<li></li>
-																</ul>
-															</div>
-														</div>
-													</a>
-												</div>
-											</div>
-											<div class="column mix mix_all Block1 mb_30 col-md-4 col-lg-4">
-												<div class="default-portfolio-item">
-													<a href="images/pratham/indraprastha/b1_a3-3.jpg" data-fancybox="gallery">
-														<img src="images/pratham/indraprastha/m/b1_a3-3.jpg" alt="image" />
-														<div class="overlay-box">
-															<span><i class="fa fa-eye" aria-hidden="true"></i></span>
-															<div class="tag">
-																<ul>
-																	<li>Block 1</li>
-																	<li></li>
-																</ul>
-															</div>
-														</div>
-													</a>
-												</div>
-											</div>
-											<div class="column mix mix_all Block1 mb_30 col-md-4 col-lg-4">
-												<div class="default-portfolio-item">
-													<a href="images/pratham/indraprastha/b1_a4-4.jpg" data-fancybox="gallery">
-														<img src="images/pratham/indraprastha/m/b1_a4-4.jpg" alt="image" />
-														<div class="overlay-box">
-															<span><i class="fa fa-eye" aria-hidden="true"></i></span>
-															<div class="tag">
-																<ul>
-																	<li>Block 1</li>
-																	<li></li>
-																</ul>
-															</div>
-														</div>
-													</a>
-												</div>
-											</div>
-											<div class="column mix mix_all Block1 mb_30 col-md-4 col-lg-4">
-												<div class="default-portfolio-item">
-													<a href="images/pratham/indraprastha/b5_a1-5.jpg" data-fancybox="gallery">
-														<img src="images/pratham/indraprastha/m/b1_a5-5.jpg" alt="image" />
-														<div class="overlay-box">
-															<span><i class="fa fa-eye" aria-hidden="true"></i></span>
-															<div class="tag">
-																<ul>
-																	<li>Block 1</li>
-																	<li></li>
-																</ul>
-															</div>
-														</div>
-													</a>
-												</div>
-											</div>
-											<div class="column mix mix_all Block1 mb_30 col-md-4 col-lg-4">
-												<div class="default-portfolio-item">
-													<a href="images/pratham/indraprastha/b1_a6-6.jpg" data-fancybox="gallery">
-														<img src="images/pratham/indraprastha/m/b1_a6-6.jpg" alt="image" />
-														<div class="overlay-box">
-															<span><i class="fa fa-eye" aria-hidden="true"></i></span>
-															<div class="tag">
-																<ul>
-																	<li>Block 1</li>
-																	<li></li>
-																</ul>
-															</div>
-														</div>
-													</a>
-												</div>
-											</div>
 
 
 
-											<div class="column mix mix_all Block2 mb_30 col-md-4 col-lg-4">
-												<div class="default-portfolio-item">
-													<a href="images/pratham/indraprastha/b2_a2-1.jpg" data-fancybox="gallery">
-														<img src="images/pratham/indraprastha/m/b2_a2-1.jpg" alt="image" />
+<div id="mixedSlider">
+                    <div class="MS-content">
+                       <div class="default-portfolio-item item">
+													<a href="images/gallery/view-2.jpg" data-fancybox="gallery-fancy">
+														<img src="images/gallery/view-2.jpg" alt="image" />
 														<div class="overlay-box">
 															<span><i class="fa fa-eye" aria-hidden="true"></i></span>
-															<div class="tag">
-																<ul>
-																	<li>Block 2</li>
-																	<li></li>
-																</ul>
-															</div>
+															
 														</div>
 													</a>
 												</div>
-											</div>
-											<div class="column mix mix_all Block2 mb_30 col-md-4 col-lg-4">
-												<div class="default-portfolio-item">
-													<a href="images/pratham/indraprastha/b2_a2-2.jpg" data-fancybox="gallery">
-														<img src="images/pratham/indraprastha/m/b2_a2-2.jpg" alt="image" />
+                           <div class="default-portfolio-item item">
+													<a href="images/gallery/view-3.jpg" data-fancybox="gallery-fancy">
+														<img src="images/gallery/view-3.jpg" alt="image" />
 														<div class="overlay-box">
 															<span><i class="fa fa-eye" aria-hidden="true"></i></span>
-															<div class="tag">
-																<ul>
-																	<li>Block 2</li>
-																	<li></li>
-																</ul>
-															</div>
+															
 														</div>
 													</a>
 												</div>
-											</div>
-											<div class="column mix mix_all Block2 mb_30 col-md-4 col-lg-4">
-												<div class="default-portfolio-item">
-													<a href="images/pratham/indraprastha/b2_a3-3.jpg" data-fancybox="gallery">
-														<img src="images/pratham/indraprastha/m/b2_a3-3.jpg" alt="image" />
+                        <div class="default-portfolio-item item">
+													<a href="images/gallery/view-4.jpg" data-fancybox="gallery-fancy">
+														<img src="images/gallery/view-4.jpg" alt="image" />
 														<div class="overlay-box">
 															<span><i class="fa fa-eye" aria-hidden="true"></i></span>
-															<div class="tag">
-																<ul>
-																	<li>Block 2</li>
-																	<li></li>
-																</ul>
-															</div>
+															
 														</div>
 													</a>
 												</div>
-											</div>
-											<div class="column mix mix_all Block2 mb_30 col-md-4 col-lg-4">
-												<div class="default-portfolio-item">
-													<a href="images/pratham/indraprastha/b2_a4-4.jpg" data-fancybox="gallery">
-														<img src="images/pratham/indraprastha/m/b2_a4-4.jpg" alt="image" />
+                       <div class="default-portfolio-item item">
+													<a href="images/gallery/view-5.jpg" data-fancybox="gallery-fancy">
+														<img src="images/gallery/view-5.jpg" alt="image" />
 														<div class="overlay-box">
 															<span><i class="fa fa-eye" aria-hidden="true"></i></span>
-															<div class="tag">
-																<ul>
-																	<li>Block 2</li>
-																	<li></li>
-																</ul>
-															</div>
+															
 														</div>
 													</a>
 												</div>
-											</div>
-											<div class="column mix mix_all Block2 mb_30 col-md-4 col-lg-4">
-												<div class="default-portfolio-item">
-													<a href="images/pratham/indraprastha/b2_a5-5.jpg" data-fancybox="gallery">
-														<img src="images/pratham/indraprastha/m/b2_a5-5.jpg" alt="image" />
+                          <div class="default-portfolio-item item">
+													<a href="images/gallery/view-6.jpg" data-fancybox="gallery-fancy">
+														<img src="images/gallery/view-6.jpg" alt="image" />
 														<div class="overlay-box">
 															<span><i class="fa fa-eye" aria-hidden="true"></i></span>
-															<div class="tag">
-																<ul>
-																	<li>Block 2</li>
-																	<li></li>
-																</ul>
-															</div>
+															
 														</div>
 													</a>
 												</div>
-											</div>
 
 
-											<div class="column mix mix_all Block2 mb_30 col-md-4 col-lg-4">
-												<div class="default-portfolio-item">
-													<a href="images/pratham/indraprastha/b2_a6-6.jpg" data-fancybox="gallery">
-														<img src="images/pratham/indraprastha/m/b2_a6-6.jpg" alt="image" />
+         <div class="default-portfolio-item item">
+													<a href="images/gallery/view-7.jpg" data-fancybox="gallery-fancy">
+														<img src="images/gallery/view-7.jpg" alt="image" />
 														<div class="overlay-box">
 															<span><i class="fa fa-eye" aria-hidden="true"></i></span>
-															<div class="tag">
-																<ul>
-																	<li>Block 2</li>
-																	<li></li>
-																</ul>
-															</div>
+															
 														</div>
 													</a>
 												</div>
-											</div>
+
+
+												         <div class="default-portfolio-item item">
+													<a href="images/gallery/view-8.jpg" data-fancybox="gallery-fancy">
+														<img src="images/gallery/view-8.jpg" alt="image" />
+														<div class="overlay-box">
+															<span><i class="fa fa-eye" aria-hidden="true"></i></span>
+															
+														</div>
+													</a>
+												</div>
+
+
+         <div class="default-portfolio-item item">
+													<a href="images/gallery/view-9.jpg" data-fancybox="gallery-fancy">
+														<img src="images/gallery/view-9.jpg" alt="image" />
+														<div class="overlay-box">
+															<span><i class="fa fa-eye" aria-hidden="true"></i></span>
+															
+														</div>
+													</a>
+												</div>
+
+
+         <div class="default-portfolio-item item">
+													<a href="images/gallery/view-10.jpg" data-fancybox="gallery-fancy">
+														<img src="images/gallery/view-10.jpg" alt="image" />
+														<div class="overlay-box">
+															<span><i class="fa fa-eye" aria-hidden="true"></i></span>
+															
+														</div>
+													</a>
+												</div>
+
+
+
+         <div class="default-portfolio-item item">
+													<a href="images/gallery/view-11.jpg" data-fancybox="gallery-fancy">
+														<img src="images/gallery/view-11.jpg" alt="image" />
+														<div class="overlay-box">
+															<span><i class="fa fa-eye" aria-hidden="true"></i></span>
+															
+														</div>
+													</a>
+												</div>
+
+         <div class="default-portfolio-item item">
+													<a href="images/gallery/view-12.jpg" data-fancybox="gallery-fancy">
+														<img src="images/gallery/view-12.jpg" alt="image" />
+														<div class="overlay-box">
+															<span><i class="fa fa-eye" aria-hidden="true"></i></span>
+															
+														</div>
+													</a>
+												</div>
+
+
+												<div class="default-portfolio-item item">
+													<a href="images/gallery/view-13.jpg" data-fancybox="gallery-fancy">
+														<img src="images/gallery/view-13.jpg" alt="image" />
+														<div class="overlay-box">
+															<span><i class="fa fa-eye" aria-hidden="true"></i></span>
+															
+														</div>
+													</a>
+												</div>
+
+													<div class="default-portfolio-item item">
+													<a href="images/gallery/view-14.jpg" data-fancybox="gallery-fancy">
+														<img src="images/gallery/view-14.jpg" alt="image" />
+														<div class="overlay-box">
+															<span><i class="fa fa-eye" aria-hidden="true"></i></span>
+															
+														</div>
+													</a>
+												</div>
+
+													<div class="default-portfolio-item item">
+													<a href="images/gallery/view-15.jpg" data-fancybox="gallery-fancy">
+														<img src="images/gallery/view-15.jpg" alt="image" />
+														<div class="overlay-box">
+															<span><i class="fa fa-eye" aria-hidden="true"></i></span>
+															
+														</div>
+													</a>
+												</div>
+
+												<div class="default-portfolio-item item">
+													<a href="images/gallery/room2.jpg" data-fancybox="gallery-fancy">
+														<img src="images/gallery/room2.jpg" alt="image" />
+														<div class="overlay-box">
+															<span><i class="fa fa-eye" aria-hidden="true"></i></span>
+															
+														</div>
+													</a>
+												</div>
+
+
+
+                       
+                    </div>
+                    <div class="MS-controls">
+                        <button class="MS-left"><i class="fa fa-angle-left" aria-hidden="true"></i></button>
+                        <button class="MS-right"><i class="fa fa-angle-right" aria-hidden="true"></i></button>
+                    </div>
+                </div>
 
 
 
 
-
-
-
-
-											<div class="column mix mix_all Block3 mb_30 col-md-4 col-lg-4">
-												<div class="default-portfolio-item">
-													<a href="images/pratham/indraprastha/b3_a1-1.jpg" data-fancybox="gallery">
-														<img src="images/pratham/indraprastha/m/b3_a1-1.jpg" alt="image" />
-														<div class="overlay-box">
-															<span><i class="fa fa-eye" aria-hidden="true"></i></span>
-															<div class="tag">
-																<ul>
-																	<li>Block 3</li>
-																	<li></li>
-																</ul>
-															</div>
-														</div>
-													</a>
-												</div>
-											</div>
-											<div class="column mix mix_all Block3 mb_30 col-md-4 col-lg-4">
-												<div class="default-portfolio-item">
-													<a href="images/pratham/indraprastha/b3_a1-2.jpg" data-fancybox="gallery">
-														<img src="images/pratham/indraprastha/m/b3_a2-2.jpg" alt="image" />
-														<div class="overlay-box">
-															<span><i class="fa fa-eye" aria-hidden="true"></i></span>
-															<div class="tag">
-																<ul>
-																	<li>Block 3</li>
-																	<li></li>
-																</ul>
-															</div>
-														</div>
-													</a>
-												</div>
-											</div>
-											<div class="column mix mix_all Block3 mb_30 col-md-4 col-lg-4">
-												<div class="default-portfolio-item">
-													<a href="images/pratham/indraprastha/b3_a3-3.jpg" data-fancybox="gallery">
-														<img src="images/pratham/indraprastha/m/b3_a3-3.jpg" alt="image" />
-														<div class="overlay-box">
-															<span><i class="fa fa-eye" aria-hidden="true"></i></span>
-															<div class="tag">
-																<ul>
-																	<li>Block 3</li>
-																	<li></li>
-																</ul>
-															</div>
-														</div>
-													</a>
-												</div>
-											</div>
-											<div class="column mix mix_all Block3 mb_30 col-md-4 col-lg-4">
-												<div class="default-portfolio-item">
-													<a href="images/pratham/indraprastha/b3_a4-4.jpg" data-fancybox="gallery">
-														<img src="images/pratham/indraprastha/m/b3_a4-4.jpg" alt="image" />
-														<div class="overlay-box">
-															<span><i class="fa fa-eye" aria-hidden="true"></i></span>
-															<div class="tag">
-																<ul>
-																	<li>Block 3</li>
-																	<li></li>
-																</ul>
-															</div>
-														</div>
-													</a>
-												</div>
-											</div>
-											<div class="column mix mix_all Block3 mb_30 col-md-4 col-lg-4">
-												<div class="default-portfolio-item">
-													<a href="images/pratham/indraprastha/b3_a5-5.jpg" data-fancybox="gallery">
-														<img src="images/pratham/indraprastha/m/b3_a5-5.jpg" alt="image" />
-														<div class="overlay-box">
-															<span><i class="fa fa-eye" aria-hidden="true"></i></span>
-															<div class="tag">
-																<ul>
-																	<li>Block 3</li>
-																	<li></li>
-																</ul>
-															</div>
-														</div>
-													</a>
-												</div>
-											</div>
-
-
-											<div class="column mix mix_all Block4 mb_30 col-md-4 col-lg-4">
-												<div class="default-portfolio-item">
-													<a href="images/pratham/indraprastha/b4_a1-1.jpg" data-fancybox="gallery">
-														<img src="images/pratham/indraprastha/m/b4_a1-1.jpg" alt="image" />
-														<div class="overlay-box">
-															<span><i class="fa fa-eye" aria-hidden="true"></i></span>
-															<div class="tag">
-																<ul>
-																	<li>Block 4</li>
-																	<li></li>
-																</ul>
-															</div>
-														</div>
-													</a>
-												</div>
-											</div>
-											<div class="column mix mix_all Block4 mb_30 col-md-4 col-lg-4">
-												<div class="default-portfolio-item">
-													<a href="images/pratham/indraprastha/b4_a1-2.jpg" data-fancybox="gallery">
-														<img src="images/pratham/indraprastha/m/b4_a2-2.jpg" alt="image" />
-														<div class="overlay-box">
-															<span><i class="fa fa-eye" aria-hidden="true"></i></span>
-															<div class="tag">
-																<ul>
-																	<li>Block 4</li>
-																	<li></li>
-																</ul>
-															</div>
-														</div>
-													</a>
-												</div>
-											</div>
-											<div class="column mix mix_all Block4 mb_30 col-md-4 col-lg-4">
-												<div class="default-portfolio-item">
-													<a href="images/pratham/indraprastha/b4_a3-3.jpg" data-fancybox="gallery">
-														<img src="images/pratham/indraprastha/m/b4_a3-3.jpg" alt="image" />
-														<div class="overlay-box">
-															<span><i class="fa fa-eye" aria-hidden="true"></i></span>
-															<div class="tag">
-																<ul>
-																	<li>Block 4</li>
-																	<li></li>
-																</ul>
-															</div>
-														</div>
-													</a>
-												</div>
-											</div>
-											<div class="column mix mix_all Block4 mb_30 col-md-4 col-lg-4">
-												<div class="default-portfolio-item">
-													<a href="images/pratham/indraprastha/b4_a4-4.jpg" data-fancybox="gallery">
-														<img src="images/pratham/indraprastha/m/b4_a4-4.jpg" alt="image" />
-														<div class="overlay-box">
-															<span><i class="fa fa-eye" aria-hidden="true"></i></span>
-															<div class="tag">
-																<ul>
-																	<li>Block 4</li>
-																	<li></li>
-																</ul>
-															</div>
-														</div>
-													</a>
-												</div>
-											</div>
-											<div class="column mix mix_all Block4 mb_30 col-md-4 col-lg-4">
-												<div class="default-portfolio-item">
-													<a href="images/pratham/indraprastha/b4_a1-5.jpg" data-fancybox="gallery">
-														<img src="images/pratham/indraprastha/m/b4_a5-5.jpg" alt="image" />
-														<div class="overlay-box">
-															<span><i class="fa fa-eye" aria-hidden="true"></i></span>
-															<div class="tag">
-																<ul>
-																	<li>Block 4</li>
-																	<li></li>
-																</ul>
-															</div>
-														</div>
-													</a>
-												</div>
-											</div>
-											<div class="column mix mix_all Block4 mb_30 col-md-4 col-lg-4">
-												<div class="default-portfolio-item">
-													<a href="images/pratham/indraprastha/b4_a6-6.jpg" data-fancybox="gallery">
-														<img src="images/pratham/indraprastha/m/b4_a6-6.jpg" alt="image" />
-														<div class="overlay-box">
-															<span><i class="fa fa-eye" aria-hidden="true"></i></span>
-															<div class="tag">
-																<ul>
-																	<li>Block 4</li>
-																	<li></li>
-																</ul>
-															</div>
-														</div>
-													</a>
-												</div>
-											</div>
-
-
-
-
-
-										</div>
-									</div>
-								</div>
-							</div>
-						</div>
+						
 					</div>
 				</div>
 			</div>
@@ -1481,12 +1798,13 @@
 		===================================================-->
 		<div id="pricing" class="section bg_white pp-scrollable">
 			<div class="container">
-				<div class="pricing my_60">
+				<div class="pricing mt_30">
 					<div class="row">
+					
 						<div class="col-md-12 col-lg-12">
 							<!--	Start Title
 		    				================================-->
-							<div class="main_title pb_60">
+							<div class="main_title ">
 								<h2 class="title color_primary  text-center">Master Plan</h2>
 								<p class="mt_15  text-center">
 									<p class="mt_15  text-center">The master plan of Indraprastha is an aerial view of the project on its completion. It offers a clear picture of how the whole space is going to be utilised.  </p>
@@ -1500,18 +1818,77 @@
 						<div class="col-md-12 col-lg-12">
 							<div class="price_table">
 								<div class="row">
-									<div class="col-md-12 col-lg-12">
-										<div class="table text-center">
-											<a href="images/pratham/indraprastha/5-1.jpg" class="desktop" data-fancybox="gallery">
+										<div class="col-sm-12">
+                                                            <img src="images/pratham/indraprastha/5-1.jpg" alt="design--room" usemap="#Map" class="master-bottom">
+                                                            <div class="master1">
+                                                               <img id="entryExitImg" src="images/pratham/indraprastha/b1_a5-5.jpg" class="zoom1 alig07" height="30" width="30">
+                                                            </div>
+                                                            <div class="master1-1">
+                                                               <img id="entryExitImg2" src="images/pratham/indraprastha/b2_a6-6.jpg" class="zoom1 alig07" height="30" width="30">
+                                                            </div>
+                                                            <div class="master2"><img id="securityPortalImg" class="zoom1  alig07" src="images/pratham/indraprastha/b2_a2-1.jpg" alt="" height="30" width="30"></div>
+
+                                                            <div class="master3"><img id="signageWallImg" class="zoom1 alig07" src="images/pratham/indraprastha/b2_a2-1.jpg" alt="" height="30" width="30"></div>
+
+                                                            <div class="master4"><img id="entrancePavingImg" class="zoom1 alig07" src="images/pratham/indraprastha/b2_a2-2.jpg" alt="" height="30" width="30"></div>
+
+                                                            <div class="master5"><img id="pedestrianWalkImg" class="zoom1 alig07" src="images/pratham/indraprastha/b2_a3-3.jpg" alt="" height="30" width="30"></div>
+
+                                                            <div class="master6"><img id="basmentEntryImg" class="zoom1 alig07" src="images/pratham/indraprastha/b2_a6-6.jpg" alt="" height="30" width="30"></div>
+
+                                                            <div class="master7"><img id="trellisImg" class="zoom1 alig07" src="images/pratham/indraprastha/b2_a4-4.jpg" alt="" height="30" width="30"></div>
+
+
+                                                            <div class="master8"><img id="childrenPlayImg" class="zoom1 alig07" src="images/pratham/indraprastha/b2_a5-5.jpg" alt="" height="30" width="30"></div>
+
+                                                            <div class="master9"><img id="sandPlayImg" class="zoom1 alig07" src="images/pratham/indraprastha/b3_a1-1.jpg" alt="" height="30" width="30"></div>
+
+                                                            <div class="master10"><img id="palmclusterImg" class="zoom1 alig07" src="images/pratham/indraprastha/b3_a2-2.jpg" alt="" height="30" width="30"></div>
+
+                                                            <div class="master11"><img id="barbequePavilionImg" class="zoom1 alig07" src="images/pratham/indraprastha/b3_a3-3.jpg" alt="" height="30" width="30"></div>
+
+                                                            <div class="master12"><img id="gardenWalkImg" class="zoom1 alig07" src="images/pratham/indraprastha/b3_a4-4.jpg" alt="" height="30" width="30"></div>
+
+                                                            <div class="master13"><img id="partyLawnImg" class="zoom1 alig07" src="images/pratham/indraprastha/b3_a3-3.jpg" alt="" height="30" width="30"></div>
+
+                                                            <div class="master14"><img id="walkWideImg" class="zoom1 alig07" src="images/pratham/indraprastha/b3_a5-5.jpg" alt="" height="30" width="30"></div>
+
+                                                            <div class="master15"><img id="halfCourtImg" class="zoom1 alig07" src="images/pratham/indraprastha/b3_a5-5.jpg" alt="" height="30" width="30"></div>
+                                                            <div class="master16"><img id="cricketImg" class="zoom1 alig07" src=".images/pratham/indraprastha/b4_a1-1.jpg" alt="" height="30" width="30"></div>
+
+                                                            <div class="master17"><img id="amphitheatreImg" class="zoom1 alig07" src="images/pratham/indraprastha/b4_a1-1.jpg" alt="" height="30" width="30"></div>
+
+                                                            <div class="master18"><img id="meditationImg" class="zoom1 alig07" src="images/pratham/indraprastha/b4_a3-3.jpg" alt="" height="30" width="30"></div>
+
+                                                            <div class="master19"><img id="therapeuticImg" class="alig07 zoom1" src="images/pratham/indraprastha/b4_a2-2.jpg" alt="" height="30" width="30"></div>
+
+                                                            <div class="master20"><img id="chessImg" class="alig07 zoom1" src="images/pratham/indraprastha/b1_a1-1.jpg" alt="" height="30" width="30"></div>
+
+                                                            <div class="master21"><img id="herbImg" class="alig07 zoom1" src="images/pratham/indraprastha/b1_a2-2.jpg" alt="" height="30" width="30"></div>
+
+                                                            <div class="master22"><img id="drivewayImg" class="alig07 zoom1" src="images/pratham/indraprastha/b1_a3-3.jpg" alt="" height="30" width="30"></div>
+
+                                                            <div class="master23"><img id="joggingImg" class="alig07 zoom1" src="images/pratham/indraprastha/b1_a4-4.jpg" alt="" height="30" width="30"></div>
+                                                            
+                                                            <!--<div><img class="zoom alig2" src="img/image-map-zoom/02.png" alt="" height="30" width="30" style="border: 2px solid #ffffff;border-radius: 50%;"></div> 
+                                                               <div><img class="zoom alig3" src="img/image-map-zoom/02.png" alt="" height="30" width="30" style="border: 2px solid #ffffff;border-radius: 50%;"></div> 
+                                                               <div><img class="zoom alig4" src="img/image-map-zoom/02.png" alt="" height="30" width="30" style="border: 2px solid #ffffff;border-radius: 50%;"></div> 
+                                                               
+                                                               -->
+                                                            <!--   </div>-->
+                                                         </div>
+									<!--<div class="col-md-12 col-lg-12">
+										<div class=" text-center mt_15">
+											<a href="images/pratham/indraprastha/5-1.jpg" class="desktop" data-fancybox="gallery-fancy">
 												<img src="images/pratham/indraprastha/5-1.jpg" class="img-fluid">
 
 											</a>
-											<a href="images/pratham/indraprastha/5-1.jpg" class="mobile" data-fancybox="gallery">
+											<a href="images/pratham/indraprastha/5-1.jpg" class="mobile" data-fancybox="gallery-fancy">
 												<img src="images/pratham/indraprastha/masterm.jpg" class="img-fluid">
 
 											</a>
 										</div>
-									</div>
+									</div>-->
 
 
 								</div>
@@ -1529,14 +1906,14 @@
 		===================================================-->
 		<div class="section bg_white pp-scrollable">
 			<div class="container">
-				<div class="pricing my_60">
+				<div class="pricing mt_30">
 					<div class="row">
 						<div class="col-md-12 col-lg-12">
 							<!--	Start Title
 		    				================================-->
-							<div class="main_title pb_60">
+							<div class="main_title ">
 								<h2 class="title color_primary  text-center">Location Map</h2>
-								<p class="mt_15  text-center">Conveniently placed in the heart of Yashwanthpur, enjoy enhanced connectivity and accessibility to the prime centres of the city from Indraprastha. </p>
+								<p class="mt_15  text-center pb_30">Conveniently placed in the heart of Yashwanthpur, enjoy enhanced connectivity and accessibility to the prime centres of the city from Indraprastha. </p>
 							</div>
 							<!--	End Title
 		    				================================-->
@@ -1544,14 +1921,14 @@
 					</div>
 					<div class="row">
 						<div class="col-md-12 col-lg-12">
-							<div class="price_table">
-								<div class="row">
+							<div class="price_table" style="margin-bottom: 30px;">
+								<div class="row text-center">
 									<div class="col-md-12 col-lg-12">
-										<div class="table text-center">
-											<a href="images/pratham/indraprastha/indraprastha.png" class="desktop" data-fancybox="gallery">
-												<img src="images/pratham/indraprastha/indraprastha.png" class="img-fluid">
+										<div class="table text-center ">
+											<a href="images/pratham/indraprastha/indraprastha.png" class="desktop" data-fancybox="gallery-fancy">
+												<img src="images/pratham/indraprastha/indraprastha.png" class="img-fluid" >
 											</a>
-											<a href="images/pratham/indraprastha/indraprastha.png" class="mobile" data-fancybox="gallery">
+											<a href="images/pratham/indraprastha/indraprastha.png" class="mobile" data-fancybox="gallery-fancy">
 												<img src="images/pratham/indraprastha/indraprastha-m.jpg" class="img-fluid">
 											</a>
 										</div>
@@ -1563,10 +1940,97 @@
 						</div>
 					</div>
 				</div>
+				<div class="row">
+						<div class="col-md-12 col-lg-12">
+                            <!--	Start Title
+		    				================================-->
+                            <div class="main_title pb_30">
+                                <h2 class="title color_primary text-uppercase text-center">Location Advantage</h2>
+                            </div>
+                            <!--	End Title
+		    				================================-->
+                        </div>
+						<div class="col-md-4 col-lg-4">
+							<div class="location">
+								<ul class="project-detail-ul">
+									
+<li>Palace Grounds	15.6km</li>
+<li>Bangalore Cantonment Station	7.6km</li>
+<li>Vidhan Soudha	7.7km</li>
+<li>M G Road	9.5km</li>
+<li>Brigade Road	9.7km</li>
+<li>Bangalore International Airport	35km</li>
+<li>World Trade Center	1.3km</li>
+<li>Fortis Hospital	1.3km</li>
+<li>Yeshwantpur Metro Station	2.2km</li>
+<li>Yeshwantpur RTO Office	2.0km</li>
+									
+								</ul>
+							</div>
+						</div>
+
+
+						<div class="col-md-4 col-lg-4">
+							<div class="location">
+								<ul class="project-detail-ul">
+									<li>Taj Vivanta	2.8km</li>
+									<li>Yeshwanthpur Terminus	2.0km</li>
+									<li>International Exhibition Complex	11.8km</li>
+									<li>Metro Cash n Carry	1.5km</li>
+									<li>Sheraton Hotel	1.4km</li>
+									<li>Orion Mall	1.4km</li>
+									<li>Columbia Asia Hospital	1.5km</li>
+									<li>ISKCON Temple	1.5km</li>
+									<li>Veer Anjaneya Swamy	1.3km</li>
+									<li>Indian Institute of Science	3.2km</li>
+								</ul>
+							</div>
+						</div>
+
+						<div class="col-md-4 col-lg-4">
+							<div class="location">
+								<ul class="project-detail-ul">
+									
+<li>Sparsh Hospital	1.5km</li>
+<li>PVR	1.9km</li>
+<li>National public School	1.9km</li>
+<li>Karnataka Examinations Authority	3.6km</li>
+<li>IWST	4.0km</li>
+<li>J.N Tata Statue	3.6km</li>
+<li>M.S.Ramaiah Hospital	4.4km</li>
+<li>Malleshwaram West	3.3km</li>
+<li>Govardhan Threater	400m</li>
+<li>Yeshwanthpur Market	2.0km</li>
+									
+								</ul>
+							</div>
+						</div>
+
+
+
+
+
+					</div>
 			</div>
 		</div>
 		<!--	End Location
 		===================================================-->
+			<div style="position: fixed; z-index: 9999999; left:-.5%; bottom:3%;">
+               <a href="https://api.whatsapp.com/send?phone=917829583111" target="_blank"><img src="images/watsappnew.png" width="100%"
+                     height="100%" alt="Whatsapp" /></a>
+            </div>
+            <script src="https://code.jquery.com/jquery-1.12.4.min.js"></script> 
+<script src="js/multislider.js"></script> 
+<script>
+$('#basicSlider').multislider({
+			continuous: true,
+			duration: 2000
+		});
+		$('#mixedSlider').multislider({
+			duration: 750,
+			interval: 3000
+		});
+</script>
 
 		<?php
 		include 'includes/footer2.php';

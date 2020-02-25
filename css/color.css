@@ -17,6 +17,7 @@
 }
 .color_white{
 	color: #fff;
+	
 }
 /*	Background Color
 ===================================================================*/
@@ -80,7 +81,7 @@
 	background-color: #ffb32f;
 }
 .navbar-light .navbar-nav .nav-link{
-	color: #fff
+	color: #000
 }
 .navbar-light .navbar-nav .nav-link.active,.nav-scroll .navbar-light .navbar-nav .nav-link.active,
 ul#menu li.active a,.contact_massage a{
@@ -145,7 +146,7 @@ ul#menu li a:hover,.twite i,.twite a:hover,.category_sidebar ul li:hover,
 /*	Background Color Primary Class & ID
 ===================================================================*/
 #scroll,.personal_video a,.ball-scale-multiple > div,.preloader,
-.sidenav,.table:hover,.admin{
+.sidenav,.admin{
 	background-color: #1e283c;
 }
 /*	Background Color Gray Class & ID
@@ -168,6 +169,7 @@ ul#menu li a:hover,.twite i,.twite a:hover,.category_sidebar ul li:hover,
 ===================================================================*/
 .overlay-box{
 	border-color: #ffb32f;
+
 }
 /*	Border Color Primary
 ===================================================================*/
@@ -179,7 +181,7 @@ ul#menu li a:hover,.twite i,.twite a:hover,.category_sidebar ul li:hover,
 }
 .socal_media ul li a, .owl-carousel .owl-nav button.owl-prev,
 .owl-carousel .owl-nav button.owl-next, .srvicon, .contact_icon{
-    border-color: rgba(255, 255, 255, 0.3) !important;
+    border-color: rgba(255, 255, 255, 1) !important;
 }
 
 /*	Overlay Color
@@ -191,7 +193,7 @@ ul#menu li a:hover,.twite i,.twite a:hover,.category_sidebar ul li:hover,
 	background: rgba(0,0,0,0.3);
 }
 .overlay_two:before,.overlay-box{
-	background: rgba(0,0,0,0.9);
+	background: rgba(0,0,0,0.4);
 }
 .overlay_four:before{
 	background: rgba(0,0,0,0.6);

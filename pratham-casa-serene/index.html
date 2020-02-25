@@ -18,6 +18,8 @@
     <link rel="stylesheet" href="css/plugins.css">
     <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="css/color.css" id="color-change">
+    <link rel="stylesheet" href="css/developer.css">
+
 
      <!-- Favicon 
     ==================================================-->
@@ -27,6 +29,45 @@
     ==================================================-->
 	<title>Pratham Casa Serene</title>
 	<style>
+		.zoom1:hover {
+                  -ms-transform: scale(1.1); /* IE 9 */
+                  -webkit-transform: scale(1.1); /* Safari 3-8 */
+                  transform: scale(1.1); 
+                  -webkit-transition: 0.6s ease;
+                  transition: 0.6s ease;
+                  opacity: 1;
+                  border: 1px #ff0000 solid;
+                  }
+                  .zoom1Jquery {
+                  -ms-transform: scale(1.1); /* IE 9 */
+                  -webkit-transform: scale(1.1); /* Safari 3-8 */
+                  transform: scale(1.1); 
+                  -webkit-transition: 0.6s ease;
+                  transition: 0.6s ease;
+                  opacity: 1;
+                  border: 1px #ec7616 solid;
+                  }
+                  .zoom1
+                  {
+                  transition: transform .3s;
+                  opacity: 0;
+                  width: 300px;
+                  }
+          
+                 
+                  .zoom:hover {
+                  -ms-transform: scale(1.1); /* IE 9 */
+                  -webkit-transform: scale(1.1); /* Safari 3-8 */
+                  transform: scale(1.1); 
+                  -webkit-transition: 0.6s ease;
+                  transition: 0.6s ease;
+                  }
+                  .zoom
+                  {
+                  transition: transform .3s;
+                  }
+                  .zoom-img {width:210px!important; border: 5px #ff7803 solid;}
+		.location-box {width: 70%; margin: 0 15% 3% ;}
 	.ulExtra {
 		display: none;
 	}
@@ -321,7 +362,7 @@
 			-o-box-shadow: 1px 2px 10px rgba(0,0,0,.18);
 			box-shadow: 1px 2px 10px rgba(0,0,0,.18);
 			border-radius: 20px;
-			padding: 10px;
+			padding:20px;
 			margin-bottom:20px;
 		}
 		#desktop{
@@ -366,7 +407,7 @@
 			-o-box-shadow: 1px 2px 10px rgba(0,0,0,.18);
 			box-shadow: 1px 2px 10px rgba(0,0,0,.18);
 			border-radius: 20px;
-			padding: 10px;
+			padding: 20px;
 			min-height:300px
 		}
 		.sidebar .nav-logo{
@@ -429,7 +470,7 @@
 <body id="top" class="page-load">
 <!-- Color Settings Start
 	==================================================-->
-	<div class="color-panel">
+	<div id="color-panel" class="color-panel">
 		<div class="on-panel color_white bg_default">
 			<div class="text-center icon-spinner">
 				<i class="fa fa-envelope fa-3x pop-icon" aria-hidden="true"></i>
@@ -955,7 +996,7 @@
 	    <!--    Start Main Banner 
 		==================================================-->
 		<div class="pagegilling-mani-banner section bg_white">
-			<div id="particles-js" class="banner_image background10">
+			<div id="<?php //particles-js ?>" class="banner_image background10">
 				<div class="container h-100">
 		            <div class="row h-100 align-items-center">
 		                <div class="col-md-12 col-lg-12 home-content text-left">
@@ -996,7 +1037,7 @@
 							<div class="col-md-7 col-lg-7">
 								<div class="myself color_lightgray wow animated fadeInLeft">
 									<p class="color_white " style="text-align: justify; margin-bottom:10px;">Pratham Constructions its latest illustrious project - Casa Serene! Located at Jalahalli in Bangalore, Casa Serene is meticulously designed residential gated community. Consisting of 140 spacious apartments, Casa Serene offers premium 2 and 3 BHKs to choose from. Designed to befit ultra-modern lifestyles of the modern Indian families, at Casa Serene experience magnificent ambience of luscious greenery combined with ultra-modern amenities for a modern and contemporary lifestyle.</p>
-									<p class="color_white" style="text-align: justify; margin-bottom:10px;">The highlights of amenities include swimming pool, club house, Badminton court, Car wash area, Jogger’s track, high-speed elevators, 24/7 surveillance camera, 100% DG Back up for common areas, clutter free provision to connect DTH of your choice, water treatment plant-advanced, soft and grey, sewage treatment plant, solar water heater, solid waste convertor, rain water harvesting, connectivity, vehicle charging bays, car wash bays, round the clock security, restrooms for support staff, maintenance office cabin, disabled friendly community, sensor and timer controlled LED Lights for entire common area lighting.<span id="dots"></span>&nbsp;&nbsp;
+									<p class="color_white" style="text-align: justify; margin-bottom:10px;">The highlights of amenities include swimming pool, club house, badminton court, Car wash area, Jogger’s track, high-speed elevators, 24/7 surveillance camera, 100% DG Back up for common areas, clutter free provision to connect DTH of your choice, water treatment plant-advanced, soft and grey, sewage treatment plant, solar water heater, solid waste convertor, rain water harvesting, connectivity, vehicle charging bays, car wash bays, round the clock security, restrooms for support staff, maintenance office cabin, disabled friendly community, sensor and timer controlled LED Lights for entire common area lighting.<span id="dots"></span>&nbsp;&nbsp;
 									</p><a href='#' onclick="myFunction()" id="myBtn" class="btn1">Read More  <i class="fa fa-arrow-right"></i></a>
 								</div>
 								
@@ -1155,7 +1196,7 @@
 						<div class="col-md-2 col-sm-6 col-xs-6 ">
 							<div class="proj_amenities">
 							<img src="images/amenities/s-elevaor.png">
-							<p>5 elevators</p>
+							<p>5 Elevators</p>
 							</div>
 						</div>
 						<div class="col-md-2 col-sm-6 col-xs-6 ">
@@ -1376,23 +1417,21 @@
 		===================================================-->
         <!--	Start Portfolio
 		===================================================-->
-        <div id="portfolio" class="section bg_brown pp-scrollable">
+       <!-- <div id="portfolio" class="section bg_brown pp-scrollable">
             <div class="container">
                 <div class="portfolio2 my_60">
                     <div class="row">
                         <div class="col-md-12 col-lg-12">
-                            <!--	Start Title
-		    				================================-->
+                   
                             <div class="main_title pb_60">
                                 <h2 class="title color_primary text-uppercase text-center color_white">Floor Plan</h2>
 								<p class="mt_15 text-center color_white">Casa Serene has 140 apartment units coming in 2 and 3 BHKs with size ranging from 1400-1583 Sqft</p>
                             </div>
-                            <!--	End Title
-		    				================================-->
+                
                         </div>
                         <div class="col-md-12 col-lg-12">
                             <div class="my_portfolio" id="tab-panel">
-                                <!--Filter-->
+                       
                                 <div class="row">
                                     <div class="col-md-12">
                                         <div class="filters mb_30 w-100">
@@ -1485,7 +1524,7 @@
                     </div>
                 </div>
             </div>
-        </div>
+        </div>-->
         <!--	End Portfolio
 		===================================================-->
         <!--	Start Master Plan
@@ -1497,7 +1536,7 @@
                         <div class="col-md-12 col-lg-12">
                             <!--	Start Title
 		    				================================-->
-                            <div class="main_title pb_60">
+                            <div class="main_title ">
                                 <h2 class="title color_primary text-uppercase text-center">Master Plan</h2>
 								<p class="mt_15 text-center color_primary">Get an aerial view of Casa Serene to have an idea on how the whole building layout is and how the space will be utilised. </p>
 
@@ -1511,11 +1550,21 @@
                             <div class="price_table">
                                 <div class="row">
                                     <div class="col-md-12 col-lg-12">
-                                        <div class="table text-center">
-											<a href="images/layout.jpg" data-fancybox="gallery">
-												<img src="images/layout.jpg" class="img-fluid">
-											</a>
-                                        </div>
+                                    	<img src="images/layout.jpg" alt="design--room" usemap="#Map" class="master-bottom">
+                                                            <div class="master2">
+                                                               <img id="entryExitImg" src="images/m/1.jpg" class="zoom1 alig07" height="30" width="30">
+                                                            </div>
+                                                          
+                                                            <div class="master3"><img id="securityPortalImg" class="zoom1  alig07" src="images/m/3.jpg" alt="" height="30" width="30"></div>
+
+                                                            <div class="master4"><img id="signageWallImg" class="zoom1 alig07" src="images/m/4.jpg" alt="" height="30" width="30"></div>
+
+                                                            <div class="master5"><img id="entrancePavingImg" class="zoom1 alig07" src="images/m/5.jpg" alt="" height="30" width="30"></div>
+
+
+
+
+                                                            
                                     </div>
                                 </div>
                             </div>
@@ -1537,15 +1586,15 @@
                         <div class="col-md-12 col-lg-12">
                             <!--	Start Title
 		    				================================-->
-                            <div class="main_title pb_30">
+                            <div class="main_title ">
                                 <h2 class="title color_primary text-uppercase text-center">Location Map</h2>
 								<p class="mt_15 text-center color_primary">Casa Serene is strategically located at Jalahalli, North West quadrant of Bangalore. From here, enjoy enhanced connectivity and accessibility to the prime centres of the city. </p>
                             </div>
                             <!--	End Title
 		    				================================-->
                         </div>
-						<div class="col-md-12 col-lg-12">
-							<div class="table text-center">
+						<div class="col-md-12 col-lg-12 mt_60">
+							<div class="table text-center location-box">
 								<a href="images/location.jpg" data-fancybox="gallery">
 									<img src="images/location.jpg" class="img-fluid">
 								</a>
@@ -1617,7 +1666,7 @@
 		    				<!--	Start Title
 		    				================================-->
 		    				<div class="main_title pb_30">
-								<h2 class="title color_primary text-uppercase text-center color_white">Contact</h2>
+								<h2 class="title color_primary text-uppercase text-center color_white">Contact Us</h2>
 								<p class="mt_15 text-center color_white">Should you wish to know more about the project, please free to leave your comments. We will get back to you and arrange for a site visit on request.</p>
                             </div>
 							<!--	End Title
@@ -1631,12 +1680,11 @@
 								<li>
 									<div class="contact_text">
 										<h6 class="font-weight-bold color_default">Address</h6>
-										<span class="color_white">  Corporate Office,
+										<span class="color_white">  Site Location,
 											<br />
-											Off K G Road,
-											Opp Menaka Theater,
-											<br />
-											Bengaluru,Karnataka - 560 009</span>
+											SM Rd, Prashanth Nagar, Peenya, <br/>
+											 Bengaluru,Karnataka 560057 
+											</span>
 									</div>
 								</li>
 							
@@ -1664,7 +1712,10 @@
 							</ul>
 						</div>-->
 					</div>
-					<div class="col-md-8 col-lg-8">
+					<div class="col-md-4 col-lg-4">
+						<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1155.5847821470547!2d77.5185077808983!3d13.041502070466207!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bae3d27cd3cc213%3A0xa4fd2c5a2ae17aef!2sPratham%20Casa%20Serene%2C%20SM%20Rd%2C%20Prashanth%20Nagar%2C%20Peenya%2C%20Bengaluru%2C%20Karnataka%20560057!5e0!3m2!1sen!2sin!4v1582030222436!5m2!1sen!2sin" width="100%" height="360" frameborder="0" style="border:0;" allowfullscreen=""></iframe>
+					</div>
+					<div class="col-md-4 col-lg-4">
 					
 					<form id="ccon" method="post" role="form" class="contactForm">
 						<div id='contacterrormessage'></div>
@@ -2141,21 +2192,11 @@
 							</div>
 						</form>
 					</div>
-		    		</div>
+					</div>
+					<div class="copyright2 p_20 color_lightgray bg_brown text-center footerp"><p>Pratham Construction @ 2020. All Right Reserved.| Digital partner <a href="https://www.imsolutions.co/" target="_blank" style='color: #ffb32f;'>IM Solutions</a></p></div>
 	    		</div>
 	    	</div>
-	    	<div class="footer pt_30 background6">
-	    		<div class="container">
-	    			<div class="footer_bottom pb_30">
-	    				<div class="row">
-		    				<div class="col-md-12 col-lg-12">
-								<a href='https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3886.9028135538197!2d77.51693491525049!3d13.041857790809814!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bae3d27cd3cc213%3A0xa4fd2c5a2ae17aef!2sPratham%20Casa%20Serene%2C%20SM%20Rd%2C%20Prashanth%20Nagar%2C%20Peenya%2C%20Bengaluru%2C%20Karnataka%20560057!5e0!3m2!1sen!2sin!4v1581574735343!5m2!1sen!2sin' target='_blank' ><img src="images/google-map.png" class="img-fluid"></a>
-		    				</div>
-		    			</div>
-	    			</div>
-	    		</div>
-	    		<div class="copyright2 p_20 color_lightgray bg_brown text-center footerp"><p>Pratham Construction @ 2020. All Right Reserved.| Digital partner <a href="https://www.imsolutions.co/" target="_blank" style='color: #ffb32f;'>IM Solutions</a></p></div>
-	    	</div>
+	    	
 	    </div>
 		<!--	End Contact
 		===================================================-->
@@ -2171,7 +2212,7 @@
 	<script src="js/jquery.pagepiling.min.js"></script>
 	<script src="js/custom.js"></script>
 	<script src="https://www.google.com/recaptcha/api.js?render=6LdFLNgUAAAAAJYdNhjXK2PosDbozvImaLqXSdyl"></script>
-	<script>
+		<script>
 		var deleteLog = false;
 		//	Pagepiling js
 		//=====================================================

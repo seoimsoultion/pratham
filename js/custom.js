@@ -121,7 +121,7 @@
 //=====================================================================================
 
   $('.team_member').owlCarousel({
-   loop: true,
+   loop: false,
    autoplay: true,
    autoplayTimeout: 2000,
    margin: 30,
@@ -151,7 +151,7 @@
 //=====================================================================================
 
     $('.testimonial_item').owlCarousel({
-     loop: true,
+     loop: false,
      autoplay: true,
      autoplayTimeout: 5000,
      margin: 0,

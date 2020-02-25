@@ -2,6 +2,11 @@
 include 'includes/header.php';
 
 ?>
+<style type="text/css">
+	.owl-carousel .owl-nav.disabled {
+    display: none !important;
+}
+</style>
 <!--    Page Banner Start
     ==================================================-->
     <section class="banner background9 overlay_three full_row">
