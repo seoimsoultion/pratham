@@ -1807,7 +1807,7 @@ pumps and any other common amenity.</li>
 							<div class="main_title ">
 								<h2 class="title color_primary  text-center">Master Plan</h2>
 								<p class="mt_15  text-center">
-									<p class="mt_15  text-center">The master plan of Indraprastha is an aerial view of the project on its completion. It offers a clear picture of how the whole space is going to be utilised.  </p>
+									<p class="mt_15  text-center">The master plan of Indraprastha is an aerial view of the project on its completion. <br>It offers a clear picture of how the whole space is going to be utilised.  </p>
 								</p>
 							</div>
 							<!--	End Title

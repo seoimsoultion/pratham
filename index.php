@@ -584,6 +584,9 @@ include 'includes/header.php';
 	}
 
 	@media (max-width: 767px) {
+		.socal_media_2 { width: 100%; }
+		.socal_media_2 ul li {display: inline-block!important; float: none!important;}
+		.socal_media_2 ul {text-align: center!important;}
 
 		#mixedSlider .MS-controls button {
 

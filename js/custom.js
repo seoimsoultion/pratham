@@ -123,7 +123,7 @@
   $('.team_member').owlCarousel({
    loop: false,
    autoplay: true,
-   autoplayTimeout: 2000,
+   autoplayTimeout: 5000,
    margin: 30,
    nav: true,
    dots: false,

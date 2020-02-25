@@ -8,7 +8,7 @@
 		    				================================-->
 		    				<div class="main_title pb_60 mt_30">
 								<h2 class="title color_primary text-uppercase text-center color_white">Contact Us</h2>
-								<p class="mt_15 text-center color_white">Should you wish to know more about the project, please free to leave your comments. We will get back to you and arrange for a site visit on request. </p>
+								<p class="mt_15 text-center color_white">Should you wish to know more about the project, please free to leave your comments. <br>We will get back to you and arrange for a site visit on request. </p>
                             </div>
 							<!--	End Title
 		    				================================-->
@@ -33,7 +33,7 @@
 									<div class="contact_text">
 										<h6 class="font-weight-bold color_default">Phone</h6>
 										<span class="color_white">+91 - 7829 583 111 / 7829 180 111<br>
-										 080 4171 5678</span>
+										 080 - 4171 5678</span>
 									</div>
 								</li>
 								<li>

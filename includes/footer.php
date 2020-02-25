@@ -39,8 +39,8 @@
 								<li>
 									<div class="contact_text">
 										<h6 class="font-weight-bold color_default">Phone</h6>
-										<span class="color_white">+91 - 7829 583 111 ,7829 180 111,<br>
-										 +91 - 804 171 5678</span>
+										<span class="color_white">+91 - 7829 583 111 /7829 180 111<br>
+										 080 - 804 171 5678</span>
 									</div>
 								</li>
 
