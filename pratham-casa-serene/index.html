@@ -1,18 +1,19 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-	<!--===== Meta Tag =====-->
-	<meta charset="utf-8">
-	<meta http-equiv="x-ua-compatible" content="ie=edge">
-	<meta name="description" content="">
-	<meta name="viewport" content="width=device-width, initial-scale=1">
-	<meta name="keywords" content="">
-	<meta name="author" content="">
 
-	 <!--	Css Links
+<head>
+    <!--===== Meta Tag =====-->
+    <meta charset="utf-8">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="keywords" content="">
+    <meta name="author" content="">
+
+    <!--	Css Links
     ==================================================-->
     <link rel="stylesheet" href="css/bootstrap.min.css">
-	<link rel="stylesheet" href="css/jquery.pagepiling.css">
+    <link rel="stylesheet" href="css/jquery.pagepiling.css">
     <link rel="stylesheet" href="css/font-awesome.min.css">
     <link rel="stylesheet" href="fonts/flaticon.css">
     <link rel="stylesheet" href="css/plugins.css">
@@ -21,58 +22,72 @@
     <link rel="stylesheet" href="css/developer.css">
 
 
-     <!-- Favicon 
+    <!-- Favicon 
     ==================================================-->
-	<link rel="icon" type="image/png" sizes="32x32" href="images/icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="images/icon.png">
 
-      <!--	Title
+    <!--	Title
     ==================================================-->
-	<title>Pratham Casa Serene</title>
-	<style>
-		.zoom1:hover {
-                  -ms-transform: scale(1.1); /* IE 9 */
-                  -webkit-transform: scale(1.1); /* Safari 3-8 */
-                  transform: scale(1.1); 
-                  -webkit-transition: 0.6s ease;
-                  transition: 0.6s ease;
-                  opacity: 1;
-                  border: 1px #ff0000 solid;
-                  }
-                  .zoom1Jquery {
-                  -ms-transform: scale(1.1); /* IE 9 */
-                  -webkit-transform: scale(1.1); /* Safari 3-8 */
-                  transform: scale(1.1); 
-                  -webkit-transition: 0.6s ease;
-                  transition: 0.6s ease;
-                  opacity: 1;
-                  border: 1px #ec7616 solid;
-                  }
-                  .zoom1
-                  {
-                  transition: transform .3s;
-                  opacity: 0;
-                  width: 300px;
-                  }
-          
-                 
-                  .zoom:hover {
-                  -ms-transform: scale(1.1); /* IE 9 */
-                  -webkit-transform: scale(1.1); /* Safari 3-8 */
-                  transform: scale(1.1); 
-                  -webkit-transition: 0.6s ease;
-                  transition: 0.6s ease;
-                  }
-                  .zoom
-                  {
-                  transition: transform .3s;
-                  }
-                  .zoom-img {width:210px!important; border: 5px #ff7803 solid;}
-		.location-box {width: 70%; margin: 0 15% 3% ;}
-	.ulExtra {
-		display: none;
-	}
-
-	/*.liReadMore {
+    <title>Pratham Casa Serene</title>
+    <style>
+        .zoom1:hover {
+            -ms-transform: scale(1.1);
+            /* IE 9 */
+            -webkit-transform: scale(1.1);
+            /* Safari 3-8 */
+            transform: scale(1.1);
+            -webkit-transition: 0.6s ease;
+            transition: 0.6s ease;
+            opacity: 1;
+            border: 1px #ff0000 solid;
+        }
+        
+        .zoom1Jquery {
+            -ms-transform: scale(1.1);
+            /* IE 9 */
+            -webkit-transform: scale(1.1);
+            /* Safari 3-8 */
+            transform: scale(1.1);
+            -webkit-transition: 0.6s ease;
+            transition: 0.6s ease;
+            opacity: 1;
+            border: 1px #ec7616 solid;
+        }
+        
+        .zoom1 {
+            transition: transform .3s;
+            opacity: 0;
+            width: 300px;
+        }
+        
+        .zoom:hover {
+            -ms-transform: scale(1.1);
+            /* IE 9 */
+            -webkit-transform: scale(1.1);
+            /* Safari 3-8 */
+            transform: scale(1.1);
+            -webkit-transition: 0.6s ease;
+            transition: 0.6s ease;
+        }
+        
+        .zoom {
+            transition: transform .3s;
+        }
+        
+        .zoom-img {
+            width: 210px!important;
+            border: 5px #ff7803 solid;
+        }
+        
+        .location-box {
+            width: 70%;
+            margin: 0 15% 3%;
+        }
+        
+        .ulExtra {
+            display: none;
+        }
+        /*.liReadMore {
 		-webkit-box-shadow: 10px 10px 5px 0px rgba(189, 189, 189, 1);
 		-moz-box-shadow: 10px 10px 5px 0px rgba(189, 189, 189, 1);
 		box-shadow: 10px 10px 5px 0px rgba(189, 189, 189, 1);
@@ -89,416 +104,424 @@
 		color: #FFF;
 		background-color: #d41125;
 	}*/
-	.holderCircle {
-		width: 500px;
-		height: 500px;
-		border-radius: 100%;
-		margin: 60px auto;
-		position: relative;
-	}
-
-
-	.dotCircle {
-		width: 100%;
-		height: 100%;
-		position: absolute;
-		margin: auto;
-		top: 0;
-		left: 0;
-		right: 0;
-		bottom: 0;
-		border-radius: 100%;
-		z-index: 20;
-	}
-
-	.dotCircle .itemDot {
-		display: block;
-		width: 80px;
-		height: 80px;
-		position: absolute;
-		background: #ffffff;
-		color: #7d4ac7;
-		border-radius: 20px;
-		text-align: center;
-		line-height: 80px;
-		font-size: 30px;
-		z-index: 3;
-		cursor: pointer;
-		border: 2px solid #e6e6e6;
-	}
-
-	.dotCircle .itemDot .forActive {
-		width: 56px;
-		height: 56px;
-		position: absolute;
-		top: 0;
-		left: 0;
-		right: 0;
-		bottom: 0;
-		display: none;
-	}
-
-	.dotCircle .itemDot .forActive::after {
-		content: '';
-		width: 5px;
-		height: 5px;
-		border: 3px solid #7d4ac7;
-		bottom: -31px;
-		left: -14px;
-		filter: blur(1px);
-		position: absolute;
-		border-radius: 100%;
-	}
-
-	.dotCircle .itemDot .forActive::before {
-		content: '';
-		width: 6px;
-		height: 6px;
-		filter: blur(5px);
-		top: -15px;
-		position: absolute;
-		transform: rotate(-45deg);
-		border: 6px solid #a733bb;
-		right: -39px;
-	}
-
-	.dotCircle .itemDot.active .forActive {
-		display: block;
-	}
-
-	.round {
-		position: absolute;
-		left: 40px;
-		top: 45px;
-		width: 410px;
-		height: 410px;
-		border: 2px dotted #a733bb;
-		border-radius: 100%;
-		-webkit-animation: rotation 100s infinite linear;
-	}
-
-	.dotCircle .itemDot:hover,
-	.dotCircle .itemDot.active {
-		color: #ffffff;
-		transition: 0.5s;
-		/* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#7d4ac7+0,a733bb+100 */
-		background: #7d4ac7;
-		/* Old browsers */
-		background: -moz-linear-gradient(left, #7d4ac7 0%, #a733bb 100%);
-		/* FF3.6-15 */
-		background: -webkit-linear-gradient(left, #7d4ac7 0%, #a733bb 100%);
-		/* Chrome10-25,Safari5.1-6 */
-		background: linear-gradient(to right, #7d4ac7 0%, #a733bb 100%);
-		/* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
-		filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#7d4ac7', endColorstr='#a733bb', GradientType=1);
-		/* IE6-9 */
-		border: 2px solid #ffffff;
-		-webkit-box-shadow: 0 30px 30px 0 rgba(0, 0, 0, .13);
-		-moz-box-shadow: 0 30px 30px 0 rgba(0, 0, 0, .13);
-		box-shadow: 0 30px 30px 0 rgba(0, 0, 0, .13);
-	}
-
-	.dotCircle .itemDot {
-		font-size: 40px;
-	}
-
-	.contentCircle {
-		width: 250px;
-		border-radius: 100%;
-		color: #222222;
-		position: relative;
-		top: 150px;
-		left: 50%;
-		transform: translate(-50%, -50%);
-	}
-
-	.contentCircle .CirItem {
-		border-radius: 100%;
-		color: #222222;
-		position: absolute;
-		text-align: center;
-		bottom: 0;
-		left: 0;
-		opacity: 0;
-		transform: scale(0);
-		transition: 0.5s;
-		font-size: 15px;
-		width: 100%;
-		height: 100%;
-		top: 0;
-		right: 0;
-		margin: auto;
-		line-height: 250px;
-	}
-
-	.CirItem.active {
-		z-index: 1;
-		opacity: 1;
-		transform: scale(1);
-		transition: 0.5s;
-	}
-
-	.contentCircle .CirItem i {
-		font-size: 180px;
-		position: absolute;
-		top: 0;
-		left: 50%;
-		margin-left: -90px;
-		color: #000000;
-		opacity: 0.1;
-	}
-
-	@media only screen and (min-width:300px) and (max-width:599px) {
-		.holderCircle {
-			/* width: 300px; height: 300px;*/
-			margin: 110px auto;
-		}
-
-		.holderCircle::after {
-			width: 100%;
-			height: 100%;
-		}
-
-		.dotCircle {
-			width: 100%;
-			height: 100%;
-			top: 0;
-			right: 0;
-			bottom: 0;
-			left: 0;
-			margin: auto;
-		}
-	}
-
-	@media only screen and (min-width:600px) and (max-width:767px) {}
-
-	@media only screen and (min-width:768px) and (max-width:991px) {}
-
-	@media only screen and (min-width:992px) and (max-width:1199px) {}
-
-	@media only screen and (min-width:1200px) and (max-width:1499px) {}
-
-	.title-box .title {
-		font-weight: 600;
-		letter-spacing: 2px;
-		position: relative;
-		z-index: -1;
-	}
-
-	.title-box span {
-		text-shadow: 0 10px 10px rgba(0, 0, 0, .15);
-		font-weight: 800;
-		color: #640178;
-	}
-
-	.title-box p {
-		font-size: 17px;
-		line-height: 2em;
-	}
-	@media (min-width: 360px AND max-width: 740px ){
-		.service_one{
-			padding:0px
-		}
-		
-		.arrowClass li:before {
-			content: '\2192';
-			font-family: 'FontAwesome';
-			float: left;
-			margin-left: -1.5em;
-			color: #d41125;
-		}
-	}
-	@media only screen and (max-width: 767px) {
-		.proj_amenities{
-			text-align:center;
-			margin-bottom: 30px;
-			-webkit-box-shadow: 0 3px 5px -3px #090545;
-			-moz-box-shadow: 0 3px 5px -3px #090545;
-			box-shadow: 0 3px 5px -3px #090545;
-			padding: 8px;
-			border-radius: 10px;
-		}
-
-		.proj_amenities img{
-			width: 100px;
-		}
-		.proj_amenities p{
-			font-weight: bold;
-			padding-top:5px;
-		}
-		.proj_amenities:hover {
-			border: 1px solid #452620;
-		}
-		.arrowClass li:before {
-			content: '\2192';
-			font-family: 'FontAwesome';
-			float: left;
-			margin-left: -20px;
-			margin-top: -1px;
-			color: #d41125;
-			padding: 0px 5px 0px 0px;
-		}
-		.sidebar .nav-logo{
-			width:40px;
-		}
-		.footerp{
-			margin-left: 13%;
-		}
-		.project-detail-ul li {
-			position: relative;
-			background: url(images/aoc-mic-arrow.png) no-repeat;
-			background-position: 0 3px;
-			font-size: 15px;
-			font-weight: 400;
-			padding: 0 0 0 25px !important;
-			margin: 0 0 5px 0;
-			line-height: 25px;
-			border-bottom:0px !important;
-		}
-		.location{
-			-webkit-box-shadow: 1px 2px 10px rgba(0,0,0,.18);
-			-moz-box-shadow: 1px 2px 10px rgba(0,0,0,.18);
-			-ms-box-shadow: 1px 2px 10px rgba(0,0,0,.18);
-			-o-box-shadow: 1px 2px 10px rgba(0,0,0,.18);
-			box-shadow: 1px 2px 10px rgba(0,0,0,.18);
-			border-radius: 20px;
-			padding:20px;
-			margin-bottom:20px;
-		}
-		#desktop{
-			display:none;
-		}
-		
-	}
-	@media (min-width: 768px) {
-		.proj_amenities{
-			text-align:center;
-			margin-bottom: 30px;
-			-webkit-box-shadow: 0 3px 5px -3px #090545;
-			-moz-box-shadow: 0 3px 5px -3px #090545;
-			box-shadow: 0 3px 5px -3px #090545;
-			padding: 8px;
-			border-radius: 10px;
-			min-height:200px;
-		}
-
-		.proj_amenities img{
-			width: 100px;
-		}
-		.proj_amenities p{
-			font-weight: bold;
-			padding-top:5px;
-		}
-		.proj_amenities:hover {
-			border: 1px solid #452620;
-		}
-		.arrowClass li:before {
-			content: '\2192';
-			font-family: 'FontAwesome';
-			float: left;
-			margin-left: -10px;
-			color: #d41125;
-			padding: 0px 5px;
-		}
-		.location{			
-			-webkit-box-shadow: 1px 2px 10px rgba(0,0,0,.18);
-			-moz-box-shadow: 1px 2px 10px rgba(0,0,0,.18);
-			-ms-box-shadow: 1px 2px 10px rgba(0,0,0,.18);
-			-o-box-shadow: 1px 2px 10px rgba(0,0,0,.18);
-			box-shadow: 1px 2px 10px rgba(0,0,0,.18);
-			border-radius: 20px;
-			padding: 20px;
-			min-height:300px
-		}
-		.sidebar .nav-logo{
-			width:50px;
-		}
-		.project-detail-ul li {
-			position: relative;
-			background: url(images/aoc-mic-arrow.png) no-repeat;
-			background-position: 0 3px;
-			font-size: 15px;
-			font-weight: 400;
-			padding: 0 0 0 25px !important;
-			margin: 0 0 5px 0;
-			line-height: 25px;
-			border-bottom:0px !important;
-		}
-		#mobile{
-			display:none;
-		}
-	}
-	
-    
-    .project-detail-ul li img {
-        width: 20px;
-        position: absolute;
-        left: 0;
-        top: 0;
-    }
-    
-    .project-detail-ul li:nth-of-type(2) img {
-        width: 22px;
-    }
-    
-    .project-detail-ul li:nth-of-type(3) img {
-        width: 19px;
-    }
-	#mysidenav img{
-		width:100px;
-	}
-	#more {display: none;}
-	#more1 {display: none;}
-	button#myBtn1 {
-		margin-top: 10px;
-	}
-	button#myBtn2 {
-		margin-top: 10px;
-	}
-	#myBtn {
-		color:#ffb32f;
-	}
-	#myBtn1 {
-		color:red;
-	}
-	#myBtn2 {
-		color:#ffb32f !important;
-	}
-	</style>
+        
+        .holderCircle {
+            width: 500px;
+            height: 500px;
+            border-radius: 100%;
+            margin: 60px auto;
+            position: relative;
+        }
+        
+        .dotCircle {
+            width: 100%;
+            height: 100%;
+            position: absolute;
+            margin: auto;
+            top: 0;
+            left: 0;
+            right: 0;
+            bottom: 0;
+            border-radius: 100%;
+            z-index: 20;
+        }
+        
+        .dotCircle .itemDot {
+            display: block;
+            width: 80px;
+            height: 80px;
+            position: absolute;
+            background: #ffffff;
+            color: #7d4ac7;
+            border-radius: 20px;
+            text-align: center;
+            line-height: 80px;
+            font-size: 30px;
+            z-index: 3;
+            cursor: pointer;
+            border: 2px solid #e6e6e6;
+        }
+        
+        .dotCircle .itemDot .forActive {
+            width: 56px;
+            height: 56px;
+            position: absolute;
+            top: 0;
+            left: 0;
+            right: 0;
+            bottom: 0;
+            display: none;
+        }
+        
+        .dotCircle .itemDot .forActive::after {
+            content: '';
+            width: 5px;
+            height: 5px;
+            border: 3px solid #7d4ac7;
+            bottom: -31px;
+            left: -14px;
+            filter: blur(1px);
+            position: absolute;
+            border-radius: 100%;
+        }
+        
+        .dotCircle .itemDot .forActive::before {
+            content: '';
+            width: 6px;
+            height: 6px;
+            filter: blur(5px);
+            top: -15px;
+            position: absolute;
+            transform: rotate(-45deg);
+            border: 6px solid #a733bb;
+            right: -39px;
+        }
+        
+        .dotCircle .itemDot.active .forActive {
+            display: block;
+        }
+        
+        .round {
+            position: absolute;
+            left: 40px;
+            top: 45px;
+            width: 410px;
+            height: 410px;
+            border: 2px dotted #a733bb;
+            border-radius: 100%;
+            -webkit-animation: rotation 100s infinite linear;
+        }
+        
+        .dotCircle .itemDot:hover,
+        .dotCircle .itemDot.active {
+            color: #ffffff;
+            transition: 0.5s;
+            /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#7d4ac7+0,a733bb+100 */
+            background: #7d4ac7;
+            /* Old browsers */
+            background: -moz-linear-gradient(left, #7d4ac7 0%, #a733bb 100%);
+            /* FF3.6-15 */
+            background: -webkit-linear-gradient(left, #7d4ac7 0%, #a733bb 100%);
+            /* Chrome10-25,Safari5.1-6 */
+            background: linear-gradient(to right, #7d4ac7 0%, #a733bb 100%);
+            /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+            filter: progid: DXImageTransform.Microsoft.gradient(startColorstr='#7d4ac7', endColorstr='#a733bb', GradientType=1);
+            /* IE6-9 */
+            border: 2px solid #ffffff;
+            -webkit-box-shadow: 0 30px 30px 0 rgba(0, 0, 0, .13);
+            -moz-box-shadow: 0 30px 30px 0 rgba(0, 0, 0, .13);
+            box-shadow: 0 30px 30px 0 rgba(0, 0, 0, .13);
+        }
+        
+        .dotCircle .itemDot {
+            font-size: 40px;
+        }
+        
+        .contentCircle {
+            width: 250px;
+            border-radius: 100%;
+            color: #222222;
+            position: relative;
+            top: 150px;
+            left: 50%;
+            transform: translate(-50%, -50%);
+        }
+        
+        .contentCircle .CirItem {
+            border-radius: 100%;
+            color: #222222;
+            position: absolute;
+            text-align: center;
+            bottom: 0;
+            left: 0;
+            opacity: 0;
+            transform: scale(0);
+            transition: 0.5s;
+            font-size: 15px;
+            width: 100%;
+            height: 100%;
+            top: 0;
+            right: 0;
+            margin: auto;
+            line-height: 250px;
+        }
+        
+        .CirItem.active {
+            z-index: 1;
+            opacity: 1;
+            transform: scale(1);
+            transition: 0.5s;
+        }
+        
+        .contentCircle .CirItem i {
+            font-size: 180px;
+            position: absolute;
+            top: 0;
+            left: 50%;
+            margin-left: -90px;
+            color: #000000;
+            opacity: 0.1;
+        }
+        
+        @media only screen and (min-width:300px) and (max-width:599px) {
+            .holderCircle {
+                /* width: 300px; height: 300px;*/
+                margin: 110px auto;
+            }
+            .holderCircle::after {
+                width: 100%;
+                height: 100%;
+            }
+            .dotCircle {
+                width: 100%;
+                height: 100%;
+                top: 0;
+                right: 0;
+                bottom: 0;
+                left: 0;
+                margin: auto;
+            }
+        }
+        
+        @media only screen and (min-width:600px) and (max-width:767px) {}
+        
+        @media only screen and (min-width:768px) and (max-width:991px) {}
+        
+        @media only screen and (min-width:992px) and (max-width:1199px) {}
+        
+        @media only screen and (min-width:1200px) and (max-width:1499px) {}
+        
+        .title-box .title {
+            font-weight: 600;
+            letter-spacing: 2px;
+            position: relative;
+            z-index: -1;
+        }
+        
+        .title-box span {
+            text-shadow: 0 10px 10px rgba(0, 0, 0, .15);
+            font-weight: 800;
+            color: #640178;
+        }
+        
+        .title-box p {
+            font-size: 17px;
+            line-height: 2em;
+        }
+        
+        @media (min-width: 360px AND max-width: 740px) {
+            .service_one {
+                padding: 0px
+            }
+            .arrowClass li:before {
+                content: '\2192';
+                font-family: 'FontAwesome';
+                float: left;
+                margin-left: -1.5em;
+                color: #d41125;
+            }
+        }
+        
+        @media only screen and (max-width: 767px) {
+            .proj_amenities {
+                text-align: center;
+                margin-bottom: 30px;
+                -webkit-box-shadow: 0 3px 5px -3px #090545;
+                -moz-box-shadow: 0 3px 5px -3px #090545;
+                box-shadow: 0 3px 5px -3px #090545;
+                padding: 8px;
+                border-radius: 10px;
+            }
+            .proj_amenities img {
+                width: 100px;
+            }
+            .proj_amenities p {
+                font-weight: bold;
+                padding-top: 5px;
+            }
+            .proj_amenities:hover {
+                border: 1px solid #452620;
+            }
+            .arrowClass li:before {
+                content: '\2192';
+                font-family: 'FontAwesome';
+                float: left;
+                margin-left: -20px;
+                margin-top: -1px;
+                color: #d41125;
+                padding: 0px 5px 0px 0px;
+            }
+            .sidebar .nav-logo {
+                width: 40px;
+            }
+            .footerp {
+                margin-left: 13%;
+            }
+            .project-detail-ul li {
+                position: relative;
+                background: url(images/aoc-mic-arrow.png) no-repeat;
+                background-position: 0 3px;
+                font-size: 15px;
+                font-weight: 400;
+                padding: 0 0 0 25px !important;
+                margin: 0 0 5px 0;
+                line-height: 25px;
+                border-bottom: 0px !important;
+            }
+            .location {
+                -webkit-box-shadow: 1px 2px 10px rgba(0, 0, 0, .18);
+                -moz-box-shadow: 1px 2px 10px rgba(0, 0, 0, .18);
+                -ms-box-shadow: 1px 2px 10px rgba(0, 0, 0, .18);
+                -o-box-shadow: 1px 2px 10px rgba(0, 0, 0, .18);
+                box-shadow: 1px 2px 10px rgba(0, 0, 0, .18);
+                border-radius: 20px;
+                padding: 20px;
+                margin-bottom: 20px;
+            }
+            #desktop {
+                display: none;
+            }
+        }
+        
+        @media (min-width: 768px) {
+            .proj_amenities {
+                text-align: center;
+                margin-bottom: 30px;
+                -webkit-box-shadow: 0 3px 5px -3px #090545;
+                -moz-box-shadow: 0 3px 5px -3px #090545;
+                box-shadow: 0 3px 5px -3px #090545;
+                padding: 8px;
+                border-radius: 10px;
+                min-height: 200px;
+            }
+            .proj_amenities img {
+                width: 100px;
+            }
+            .proj_amenities p {
+                font-weight: bold;
+                padding-top: 5px;
+            }
+            .proj_amenities:hover {
+                border: 1px solid #452620;
+            }
+            .arrowClass li:before {
+                content: '\2192';
+                font-family: 'FontAwesome';
+                float: left;
+                margin-left: -10px;
+                color: #d41125;
+                padding: 0px 5px;
+            }
+            .location {
+                -webkit-box-shadow: 1px 2px 10px rgba(0, 0, 0, .18);
+                -moz-box-shadow: 1px 2px 10px rgba(0, 0, 0, .18);
+                -ms-box-shadow: 1px 2px 10px rgba(0, 0, 0, .18);
+                -o-box-shadow: 1px 2px 10px rgba(0, 0, 0, .18);
+                box-shadow: 1px 2px 10px rgba(0, 0, 0, .18);
+                border-radius: 20px;
+                padding: 20px;
+                min-height: 300px
+            }
+            .sidebar .nav-logo {
+                width: 50px;
+            }
+            .project-detail-ul li {
+                position: relative;
+                background: url(images/aoc-mic-arrow.png) no-repeat;
+                background-position: 0 3px;
+                font-size: 15px;
+                font-weight: 400;
+                padding: 0 0 0 25px !important;
+                margin: 0 0 5px 0;
+                line-height: 25px;
+                border-bottom: 0px !important;
+            }
+            #mobile {
+                display: none;
+            }
+        }
+        
+        .project-detail-ul li img {
+            width: 20px;
+            position: absolute;
+            left: 0;
+            top: 0;
+        }
+        
+        .project-detail-ul li:nth-of-type(2) img {
+            width: 22px;
+        }
+        
+        .project-detail-ul li:nth-of-type(3) img {
+            width: 19px;
+        }
+        
+        #mysidenav img {
+            width: 100px;
+        }
+        
+        #more {
+            display: none;
+        }
+        
+        #more1 {
+            display: none;
+        }
+        
+        button#myBtn1 {
+            margin-top: 10px;
+        }
+        
+        button#myBtn2 {
+            margin-top: 10px;
+        }
+        
+        #myBtn {
+            color: #ffb32f;
+        }
+        
+        #myBtn1 {
+            color: red;
+        }
+        
+        #myBtn2 {
+            color: #ffb32f !important;
+        }
+    </style>
 </head>
 
 <body id="top" class="page-load">
-<!-- Color Settings Start
+    <!-- Color Settings Start
 	==================================================-->
-	<div id="color-panel" class="color-panel">
-		<div class="on-panel color_white bg_default">
-			<div class="text-center icon-spinner">
-				<i class="fa fa-envelope fa-3x pop-icon" aria-hidden="true"></i>
-			</div>
-		</div>
-		<div class="panel-box">
-			<span class="panel-title">Contact Us</span>
+    <div id="color-panel" class="color-panel">
+        <div class="on-panel color_white bg_default">
+            <div class="text-center icon-spinner">
+                <i class="fa fa-envelope fa-3x pop-icon" aria-hidden="true"></i>
+            </div>
+        </div>
+        <div class="panel-box">
+            <span class="panel-title">Contact Us</span>
 
-		</div>
-		<div class="template_style">
-			<p id='headererrormessage'></p>
-			<form id="hcon" method="post" role="form" class="contactForm">
-			<!--<form class="form contact_message wow animated fadeInRight" id="contact-form" action="email.php" method="post">-->
-				<div class="row">
-					<div class="col-md-12 col-lg-12">
-						<div class="form-group">
-							<input class="form-control" type="text" name="name" placeholder="Name" />
-						</div>
-					</div>
-					<div class="col-md-12 col-lg-12">
-						<div class="form-group">
-							<input class="form-control" type="email" name="email" placeholder="Email" />
-						</div>
-					</div>
+        </div>
+        <div class="template_style">
+            <p id='headererrormessage'></p>
+            <form id="hcon" method="post" role="form" class="contactForm">
+                <!--<form class="form contact_message wow animated fadeInRight" id="contact-form" action="email.php" method="post">-->
+                <div class="row">
+                    <div class="col-md-12 col-lg-12">
+                        <div class="form-group">
+                            <input class="form-control" type="text" name="name" placeholder="Name" />
+                        </div>
+                    </div>
+                    <div class="col-md-12 col-lg-12">
+                        <div class="form-group">
+                            <input class="form-control" type="email" name="email" placeholder="Email" />
+                        </div>
+                    </div>
 
-					<div class="col-md-12 col-lg-12">
-						<div class="form-group">
-							<select class="form-control" size="0" name="ccode" wfd-id="29">
+                    <div class="col-md-12 col-lg-12">
+                        <div class="form-group">
+                            <select class="form-control" size="0" name="ccode" wfd-id="29">
 
 								<option value=""> Select County </option>
 
@@ -931,34 +954,34 @@
 								<option data-countrycode="ZW" value="263">Zimbabwe (+263)</option>
 
 							</select>
-						</div>
-					</div>
-					<div class="col-md-12 col-lg-12">
-						<div class="form-group">
-							<input class="form-control" type="number" name="phone" id='phone1' placeholder="Phone" min="0" size="10" maxlength="10" oninput="checkNumberFieldLength1(this);"/>
-						</div>
-					</div>
-					<div class="col-md-12 col-lg-12">
-						<div class="form-group">
-							<textarea style='overflow: scroll;' class="form-control" name="message" rows="2" placeholder="Message" minlength="25" ></textarea>
-						</div>
-					</div>
-					<div class="col-md-12 col-lg-12">
-						<div class="form-group text-center">
-							<input class="btn btn-default" id="send" value="submit" type="submit" />
-						</div>
-					</div>
-					<div class="col-md-12 col-lg-12">
-						<div class="error-handel">
-							<div id="success">Your email sent Successfully, Thank you.</div>
-							<div id="error"> Error occurred while sending email. Please try again later.</div>
-						</div>
-					</div>
-				</div>
-			</form>
-		</div>
-	</div>
-	<!--  Color Settings End
+                        </div>
+                    </div>
+                    <div class="col-md-12 col-lg-12">
+                        <div class="form-group">
+                            <input class="form-control" type="number" name="phone" id='phone1' placeholder="Phone" min="0" size="10" maxlength="10" oninput="checkNumberFieldLength1(this);" />
+                        </div>
+                    </div>
+                    <div class="col-md-12 col-lg-12">
+                        <div class="form-group">
+                            <textarea style='overflow: scroll;' class="form-control" name="message" rows="2" placeholder="Message" minlength="25"></textarea>
+                        </div>
+                    </div>
+                    <div class="col-md-12 col-lg-12">
+                        <div class="form-group text-center">
+                            <input class="btn btn-default" id="send" value="submit" type="submit" />
+                        </div>
+                    </div>
+                    <div class="col-md-12 col-lg-12">
+                        <div class="error-handel">
+                            <div id="success">Your email sent Successfully, Thank you.</div>
+                            <div id="error"> Error occurred while sending email. Please try again later.</div>
+                        </div>
+                    </div>
+                </div>
+            </form>
+        </div>
+    </div>
+    <!--  Color Settings End
 	==============================================-->
     <!--	Start Sidebar
 	==================================================-->
@@ -977,30 +1000,32 @@
         </ul>
     </div>
     <div class="sidebar bg_default">
-        <div class="logo text-center"><a href="#page1"><img class="nav-logo" src="images/logo.png" alt="logo"></a></div>
+        <div class="logo text-center">
+            <a href="#page1"><img class="nav-logo" src="images/logo.png" alt="logo"></a>
+        </div>
         <span style="cursor:pointer" onclick="openNav()">&#9776;</span>
         <div class="socal_media mt_60">
-			<ul>
-				<li><a href="#"><i class="fa fa-facebook" aria-hidden="true"></i></a></li>
-				<li><a href="#"><i class="fa fa-twitter" aria-hidden="true"></i></a></li>
-				<li><a href="#"><i class="fa fa-google-plus" aria-hidden="true"></i></a></li>
-				<li><a href="#"><i class="fa fa-linkedin" aria-hidden="true"></i></a></li>
-				<li><a href="#"><i class="fa fa-instagram" aria-hidden="true"></i></a></li>
-			</ul>
-		</div>
+            <ul>
+                <li><a href="#"><i class="fa fa-facebook" aria-hidden="true"></i></a></li>
+                <li><a href="#"><i class="fa fa-twitter" aria-hidden="true"></i></a></li>
+                <li><a href="#"><i class="fa fa-google-plus" aria-hidden="true"></i></a></li>
+                <li><a href="#"><i class="fa fa-linkedin" aria-hidden="true"></i></a></li>
+                <li><a href="#"><i class="fa fa-instagram" aria-hidden="true"></i></a></li>
+            </ul>
+        </div>
     </div>
 
     <!--	End Sidebar
 	=======================================================-->
-	<div id="pagepiling">
-	    <!--    Start Main Banner 
+    <div id="pagepiling">
+        <!--    Start Main Banner 
 		==================================================-->
-		<div class="pagegilling-mani-banner section bg_white">
-			<div id="<?php //particles-js ?>" class="banner_image background10">
-				<div class="container h-100">
-		            <div class="row h-100 align-items-center">
-		                <div class="col-md-12 col-lg-12 home-content text-left">
-		                    <!--<div class="mainbanner_content">
+        <div class="pagegilling-mani-banner section bg_white">
+            <div id="<?php //particles-js ?>" class="banner_image background10">
+                <div class="container h-100">
+                    <div class="row h-100 align-items-center">
+                        <div class="col-md-12 col-lg-12 home-content text-left">
+                            <!--<div class="mainbanner_content">
 		                        <span class="pb_5 banner_title color_white">I Am Austin Jackson!</span>  
 		                        <h1 class="cd-headline clip is-full-width text-uppercase">
 		                            <span class="color_white">I am a</span>
@@ -1013,68 +1038,80 @@
 		                        <p class="color_white mb_30">Libero habitasse sollicitudin aliquet venenatis iaculis placerat amet ligula, eleifend nonummy enim in volutpat diam.</p>
 		                        <a class="btn btn-default" href="#">Download CV</a>
 		                    </div>-->
-		                </div>          
-		            </div>
-		        </div>
-		    </div>
-		</div>
-	    <!--	End Main Banner 
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!--	End Main Banner 
 		==================================================-->
-		<!--	Start About
+        <!--	Start About
 		===================================================-->
         <div id="about" class="section pp-scrollable py_30 bg_black">
             <div class="container">
-				<div class="services my_60">
-					<div class="row">
-						<div class="col-md-12 col-lg-12">
-							<div class="section_title_1 text-center mx-auto pb_30 wow animated slideInUp">
-								<h2 class="title text-uppercase color_white">About</h2>
-							</div>
-						</div>
-					</div>
-					<div class="about_one" id='desktop'>
-						<div class="row">
-							<div class="col-md-7 col-lg-7">
-								<div class="myself color_lightgray wow animated fadeInLeft">
-									<p class="color_white " style="text-align: justify; margin-bottom:10px;">Pratham Constructions its latest illustrious project - Casa Serene! Located at Jalahalli in Bangalore, Casa Serene is meticulously designed residential gated community. Consisting of 140 spacious apartments, Casa Serene offers premium 2 and 3 BHKs to choose from. Designed to befit ultra-modern lifestyles of the modern Indian families, at Casa Serene experience magnificent ambience of luscious greenery combined with ultra-modern amenities for a modern and contemporary lifestyle.</p>
-									<p class="color_white" style="text-align: justify; margin-bottom:10px;">The highlights of amenities include swimming pool, club house, badminton court, Car wash area, Jogger’s track, high-speed elevators, 24/7 surveillance camera, 100% DG Back up for common areas, clutter free provision to connect DTH of your choice, water treatment plant-advanced, soft and grey, sewage treatment plant, solar water heater, solid waste convertor, rain water harvesting, connectivity, vehicle charging bays, car wash bays, round the clock security, restrooms for support staff, maintenance office cabin, disabled friendly community, sensor and timer controlled LED Lights for entire common area lighting.<span id="dots"></span>&nbsp;&nbsp;
-									</p><a href='#' onclick="myFunction()" id="myBtn" class="btn1">Read More  <i class="fa fa-arrow-right"></i></a>
-								</div>
-								
-							</div>
-							<div class="col-md-5 col-lg-5">
-								<img src="images/About-us.png" alt="image">
-								<br/><br/>
-							</div>
-							<div class="col-md-12 col-lg-12" id='more'>								
-								<p class="color_white" style="text-align: justify;">Casa Serene’s architectural model is rooted to traditions and is Vaastu compliant attracting positive aura.Strategically located at Jalahalli, North West quadrant of Bangalore, Casa Serene has excellent connectivity to major centres of the Bangalore city. Casa Serene is in close proximity to Jaahalli METRO station, Peenya Industrial Area, METRO Cash and Carry, Indian Institute of Science, Orion Mall, Vidhan Soudha, Raghavendra Hospital, ISKCON and Palace Ground. </p>
-								<a href='#' onclick="myFunction()" id='myBtn1' class="btn2">Read More <i class="fa fa-arrow-left"></i></a>
-							</div>							
-						</div>
-					</div>
-					<div class="about_one" id='mobile'>
-						<div class="row">
-							<div class="col-md-7 col-lg-7">
-								<div class="myself color_lightgray wow animated fadeInLeft">
-									<p class="color_white " style="text-align: justify; margin-bottom:10px;">Pratham Constructions its latest illustrious project - Casa Serene! Located at Jalahalli in Bangalore, Casa Serene is meticulously designed residential gated community. Consisting of 140 spacious apartments, Casa Serene offers premium 2 and 3 BHKs to choose from. Designed to befit ultra-modern lifestyles of the modern Indian families, at Casa Serene experience magnificent ambience of luscious greenery combined with ultra-modern amenities for a modern and contemporary lifestyle.</p>
-									<p class="color_white" style="text-align: justify; margin-bottom:10px;">The highlights of amenities include swimming pool, club house, Badminton court, Car wash area, Jogger’s track, high-speed elevators, 24/7 surveillance camera, 100% DG Back up for common areas, clutter free provision to connect DTH of your choice, water treatment plant-advanced, soft and grey, sewage treatment plant, solar water heater, solid waste convertor, rain water harvesting, connectivity, vehicle charging bays, car wash bays, round the clock security, restrooms for support staff, maintenance office cabin, disabled friendly community, sensor and timer controlled LED Lights for entire common area lighting.<span id="dots"></span>&nbsp;&nbsp;</p>
-								</div>			
-								<div id='more1'>
-									<p class="color_white" style="text-align: justify;">Casa Serene’s architectural model is rooted to traditions and is Vaastu compliant attracting positive aura.Strategically located at Jalahalli, North West quadrant of Bangalore, Casa Serene has excellent connectivity to major centres of the Bangalore city. Casa Serene is in close proximity to Jaahalli METRO station, Peenya Industrial Area, METRO Cash and Carry, Indian Institute of Science, Orion Mall, Vidhan Soudha, Raghavendra Hospital, ISKCON and Palace Ground. </p>
-								</div>
-								<a href='#' onclick="myFunction2()" id="myBtn2" class="btn2">Read More <i class="fa fa-arrow-right"></i></a>
-								<br/>
-								<br/>
-							</div>
-							<div class="col-md-5 col-lg-5">
-								<img src="images/About-us.png" alt="image">
-							</div>						
-						</div>
-					</div>
-				</div>
+                <div class="services my_60">
+                    <div class="row">
+                        <div class="col-md-12 col-lg-12">
+                            <div class="section_title_1 text-center mx-auto pb_30 wow animated slideInUp">
+                                <h2 class="title text-uppercase color_white">About</h2>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="about_one" id='desktop'>
+                        <div class="row">
+                            <div class="col-md-7 col-lg-7">
+                                <div class="myself color_lightgray wow animated fadeInLeft">
+                                    <p class="color_white " style="text-align: justify; margin-bottom:10px;">Pratham Constructions its latest illustrious project - Casa Serene! Located at Jalahalli in Bangalore, Casa Serene is meticulously designed residential gated community. Consisting of 140 spacious apartments, Casa Serene
+                                        offers premium 2 and 3 BHKs to choose from. Designed to befit ultra-modern lifestyles of the modern Indian families, at Casa Serene experience magnificent ambience of luscious greenery combined with ultra-modern
+                                        amenities for a modern and contemporary lifestyle.</p>
+                                    <p class="color_white" style="text-align: justify; margin-bottom:10px;">The highlights of amenities include swimming pool, club house, badminton court, Car wash area, Jogger’s track, high-speed elevators, 24/7 surveillance camera, 100% DG Back up for common areas, clutter free provision
+                                        to connect DTH of your choice, water treatment plant-advanced, soft and grey, sewage treatment plant, solar water heater, solid waste convertor, rain water harvesting, connectivity, vehicle charging bays, car wash
+                                        bays, round the clock security, restrooms for support staff, maintenance office cabin, disabled friendly community, sensor and timer controlled LED Lights for entire common area lighting.<span id="dots"></span>&nbsp;&nbsp;
+                                    </p><a href='#' onclick="myFunction()" id="myBtn" class="btn1">Read More  <i class="fa fa-arrow-right"></i></a>
+                                </div>
+
+                            </div>
+                            <div class="col-md-5 col-lg-5">
+                                <img src="images/About-us.png" alt="image">
+                                <br/><br/>
+                            </div>
+                            <div class="col-md-12 col-lg-12" id='more'>
+                                <p class="color_white" style="text-align: justify;">Casa Serene’s architectural model is rooted to traditions and is Vaastu compliant attracting positive aura.Strategically located at Jalahalli, North West quadrant of Bangalore, Casa Serene has excellent connectivity to
+                                    major centres of the Bangalore city. Casa Serene is in close proximity to Jaahalli METRO station, Peenya Industrial Area, METRO Cash and Carry, Indian Institute of Science, Orion Mall, Vidhan Soudha, Raghavendra Hospital,
+                                    ISKCON and Palace Ground. </p>
+                                <a href='#' onclick="myFunction()" id='myBtn1' class="btn2">Read More <i class="fa fa-arrow-left"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="about_one" id='mobile'>
+                        <div class="row">
+                            <div class="col-md-7 col-lg-7">
+                                <div class="myself color_lightgray wow animated fadeInLeft">
+                                    <p class="color_white " style="text-align: justify; margin-bottom:10px;">Pratham Constructions its latest illustrious project - Casa Serene! Located at Jalahalli in Bangalore, Casa Serene is meticulously designed residential gated community. Consisting of 140 spacious apartments, Casa Serene
+                                        offers premium 2 and 3 BHKs to choose from. Designed to befit ultra-modern lifestyles of the modern Indian families, at Casa Serene experience magnificent ambience of luscious greenery combined with ultra-modern
+                                        amenities for a modern and contemporary lifestyle.</p>
+                                    <p class="color_white" style="text-align: justify; margin-bottom:10px;">The highlights of amenities include swimming pool, club house, Badminton court, Car wash area, Jogger’s track, high-speed elevators, 24/7 surveillance camera, 100% DG Back up for common areas, clutter free provision
+                                        to connect DTH of your choice, water treatment plant-advanced, soft and grey, sewage treatment plant, solar water heater, solid waste convertor, rain water harvesting, connectivity, vehicle charging bays, car wash
+                                        bays, round the clock security, restrooms for support staff, maintenance office cabin, disabled friendly community, sensor and timer controlled LED Lights for entire common area lighting.<span id="dots"></span>&nbsp;&nbsp;</p>
+                                </div>
+                                <div id='more1'>
+                                    <p class="color_white" style="text-align: justify;">Casa Serene’s architectural model is rooted to traditions and is Vaastu compliant attracting positive aura.Strategically located at Jalahalli, North West quadrant of Bangalore, Casa Serene has excellent connectivity
+                                        to major centres of the Bangalore city. Casa Serene is in close proximity to Jaahalli METRO station, Peenya Industrial Area, METRO Cash and Carry, Indian Institute of Science, Orion Mall, Vidhan Soudha, Raghavendra
+                                        Hospital, ISKCON and Palace Ground. </p>
+                                </div>
+                                <a href='#' onclick="myFunction2()" id="myBtn2" class="btn2">Read More <i class="fa fa-arrow-right"></i></a>
+                                <br/>
+                                <br/>
+                            </div>
+                            <div class="col-md-5 col-lg-5">
+                                <img src="images/About-us.png" alt="image">
+                            </div>
+                        </div>
+                    </div>
+                </div>
             </div>
         </div>
-		<!--<div id="about" class="section pp-scrollable py_80 bg_white">
+        <!--<div id="about" class="section pp-scrollable py_80 bg_white">
             <div class="container">
                 <div class="row align-items-center">
                   <div class="col-lg-12 col-md-12">
@@ -1154,88 +1191,88 @@
                         <div class="col-md-12 col-lg-12">
                             <div class="section_title_1 text-center mx-auto pb_30 wow animated slideInUp">
                                 <h2 class="title text-uppercase color_primary">Amenities</h2>
-								<p class="mt_15 text-center color_primary">For the ultimate contemporary lifestyle revolving around health and well-being, Casa Serene offers a multitude of modern amenities.</p>
+                                <p class="mt_15 text-center color_primary">For the ultimate contemporary lifestyle revolving around health and well-being, Casa Serene offers a multitude of modern amenities.</p>
                             </div>
                         </div>
-						<div class="col-md-2 col-sm-6 col-xs-6 ">
-							<div class="proj_amenities">
-							<img src="images/amenities/swwimingpool.png">
-							<p>Swimming Pool</p>
-							</div>
-						</div>
-						<div class="col-md-2 col-sm-6 col-xs-6 ">
-							<div class="proj_amenities">
-							<img src="images/amenities/club-hous.png">
-							<p>Club House</p>
-							</div>
-						</div>
-						<div class="col-md-2 col-sm-6 col-xs-6 ">
-							<div class="proj_amenities">
-							<img src="images/amenities/gym.png">
-							<p>Gym</p>
-							</div>
-						</div>
-						<div class="col-md-2 col-sm-6 col-xs-6 ">
-							<div class="proj_amenities">
-							<img src="images/amenities/toldderpark.png">
-							<p>Toddler's Park</p>
-							</div>
-						</div>
-						<div class="col-md-2 col-sm-6 col-xs-6 ">
-							<div class="proj_amenities">
-							<img src="images/amenities/2levelsecurity.png">
-							<p>2 level security</p>
-							</div>
-						</div>
-						<div class="col-md-2 col-sm-6 col-xs-6 ">
-							<div class="proj_amenities">
-							<img src="images/amenities/pipe-gas.png">
-							<p>Piped Gas supply</p>
-							</div>
-						</div>
-						<div class="col-md-2 col-sm-6 col-xs-6 ">
-							<div class="proj_amenities">
-							<img src="images/amenities/s-elevaor.png">
-							<p>5 Elevators</p>
-							</div>
-						</div>
-						<div class="col-md-2 col-sm-6 col-xs-6 ">
-							<div class="proj_amenities">
-							<img src="images/amenities/badminton.png">
-							<p>Badminton Court</p>
-							</div>
-						</div>
-						<div class="col-md-2 col-sm-6 col-xs-6 ">
-							<div class="proj_amenities">
-							<img src="images/amenities/jogging.png">
-							<p>Jogger's track</p>
-							</div>
-						</div>
-						<div class="col-md-2 col-sm-6 col-xs-6 ">
-							<div class="proj_amenities">
-							<img src="images/amenities/carwash.png">
-							<p>Car wash area</p>
-							</div>
-						</div>
-						<div class="col-md-2 col-sm-6 col-xs-6 ">
-							<div class="proj_amenities">
-							<img src="images/amenities/fire.png">
-							<p>Fire fighting</p>
-							</div>
-						</div>
-						<div class="col-md-2 col-sm-6 col-xs-6 ">
-							<div class="proj_amenities">
-							<img src="images/amenities/toilet.png">
-							<p>Separate toilets for maids and drivers</p>
-							</div>
-						</div>
-					</div>
+                        <div class="col-md-2 col-sm-6 col-xs-6 ">
+                            <div class="proj_amenities">
+                                <img src="images/amenities/swwimingpool.png">
+                                <p>Swimming Pool</p>
+                            </div>
+                        </div>
+                        <div class="col-md-2 col-sm-6 col-xs-6 ">
+                            <div class="proj_amenities">
+                                <img src="images/amenities/club-hous.png">
+                                <p>Club House</p>
+                            </div>
+                        </div>
+                        <div class="col-md-2 col-sm-6 col-xs-6 ">
+                            <div class="proj_amenities">
+                                <img src="images/amenities/gym.png">
+                                <p>Gym</p>
+                            </div>
+                        </div>
+                        <div class="col-md-2 col-sm-6 col-xs-6 ">
+                            <div class="proj_amenities">
+                                <img src="images/amenities/toldderpark.png">
+                                <p>Toddler's Park</p>
+                            </div>
+                        </div>
+                        <div class="col-md-2 col-sm-6 col-xs-6 ">
+                            <div class="proj_amenities">
+                                <img src="images/amenities/2levelsecurity.png">
+                                <p>2 level security</p>
+                            </div>
+                        </div>
+                        <div class="col-md-2 col-sm-6 col-xs-6 ">
+                            <div class="proj_amenities">
+                                <img src="images/amenities/pipe-gas.png">
+                                <p>Piped Gas supply</p>
+                            </div>
+                        </div>
+                        <div class="col-md-2 col-sm-6 col-xs-6 ">
+                            <div class="proj_amenities">
+                                <img src="images/amenities/s-elevaor.png">
+                                <p>5 Elevators</p>
+                            </div>
+                        </div>
+                        <div class="col-md-2 col-sm-6 col-xs-6 ">
+                            <div class="proj_amenities">
+                                <img src="images/amenities/badminton.png">
+                                <p>Badminton Court</p>
+                            </div>
+                        </div>
+                        <div class="col-md-2 col-sm-6 col-xs-6 ">
+                            <div class="proj_amenities">
+                                <img src="images/amenities/jogging.png">
+                                <p>Jogger's track</p>
+                            </div>
+                        </div>
+                        <div class="col-md-2 col-sm-6 col-xs-6 ">
+                            <div class="proj_amenities">
+                                <img src="images/amenities/carwash.png">
+                                <p>Car wash area</p>
+                            </div>
+                        </div>
+                        <div class="col-md-2 col-sm-6 col-xs-6 ">
+                            <div class="proj_amenities">
+                                <img src="images/amenities/fire.png">
+                                <p>Fire fighting</p>
+                            </div>
+                        </div>
+                        <div class="col-md-2 col-sm-6 col-xs-6 ">
+                            <div class="proj_amenities">
+                                <img src="images/amenities/toilet.png">
+                                <p>Separate toilets for maids and drivers</p>
+                            </div>
+                        </div>
+                    </div>
                 </div>
             </div>
         </div>
         <!--	End Services
 		===================================================-->
-		<!--	Start Services
+        <!--	Start Services
 		===================================================-->
         <div id="specifications" class="section bg_white pp-scrollable">
             <div class="container">
@@ -1247,169 +1284,169 @@
                             </div>
                         </div>
                         <div class="col-md-4 col-lg-4">
-							<div class="service_one">
-								<div class="srvicon bg_default color_white mx-auto mb_20 "><span><img src='images/specifications/structure.png'style="margin: 5px;width: 80%;padding: 5px" alt=''/></span></div>
-								<h3 class="font-weight-bold color_primary text-center">STRUCTURE</h3>
-								<ul class='project-detail-ul'>
-									<li>Seismic Zone II compliant RCC Structure</li>
-									<li>Solid Cement Block Masonry</li>
-									<li>External Walls with Cement Plaster & Internal Walls with lime plaster</li>
-								</ul>
-							</div>
+                            <div class="service_one">
+                                <div class="srvicon bg_default color_white mx-auto mb_20 "><span><img src='images/specifications/structure.png'style="margin: 5px;width: 80%;padding: 5px" alt=''/></span></div>
+                                <h3 class="font-weight-bold color_primary text-center">STRUCTURE</h3>
+                                <ul class='project-detail-ul'>
+                                    <li>Seismic Zone II compliant RCC Structure</li>
+                                    <li>Solid Cement Block Masonry</li>
+                                    <li>External Walls with Cement Plaster & Internal Walls with lime plaster</li>
+                                </ul>
+                            </div>
                         </div>
                         <div class="col-md-4 col-lg-4">
-							<div class="service_one">
-								<div class="srvicon bg_default color_white mx-auto mb_20"><span><img src='images/specifications/flooring.png'style="margin: 5px;width: 80%;padding: 5px" alt=''/></span></div>
-								<h3 class="font-weight-bold color_primary text-center">FLOORING</h3>
-								<ul class='project-detail-ul'>
-									<li>Vitrified tiles in Living, Dining, Kitchen & all Bedrooms</li>
-								</ul>
-							</div>
-                        </div>
-						<div class="col-md-4 col-lg-4">
-							<div class="service_one">
-								<div class="srvicon bg_default color_white mx-auto mb_20"><span><img src='images/specifications/main-door.png'style="margin: 5px;width: 80%;padding: 5px" alt=''/></span></div>
-								<h3 class="font-weight-bold color_primary text-center">MAIN DOOR</h3>
-								<ul class='project-detail-ul'>
-									<li>Teak Wood Door Frame with threshold</li>
-									<li>BSTV designer door shutters, finished with melamine polish on both sides</li>
-								</ul>
-							</div>
-                        </div>
-                        
-                        <div class="col-md-4 col-lg-4">
-							<div class="service_one">
-								<div class="srvicon bg_default color_white mx-auto mb_20"><span><img src='images/specifications/other-doors.png'style="margin: 5px;width: 80%;padding: 5px" alt=''/></span></div>
-								<h3 class="font-weight-bold color_primary text-center">OTHER DOORS</h3>
-								<ul class='project-detail-ul'>
-									<li>Sal/Hard Wood door frame</li>
-									<li>Commercial flush shutters</li>
-									<li>NCL Secolor Door and Window systems with plain glass for Balconies</li>
-								</ul>	
-							</div>
+                            <div class="service_one">
+                                <div class="srvicon bg_default color_white mx-auto mb_20"><span><img src='images/specifications/flooring.png'style="margin: 5px;width: 80%;padding: 5px" alt=''/></span></div>
+                                <h3 class="font-weight-bold color_primary text-center">FLOORING</h3>
+                                <ul class='project-detail-ul'>
+                                    <li>Vitrified tiles in Living, Dining, Kitchen & all Bedrooms</li>
+                                </ul>
+                            </div>
                         </div>
                         <div class="col-md-4 col-lg-4">
-							<div class="service_one">
-								<div class="srvicon bg_default color_white mx-auto mb_20"><span><img src='images/specifications/window.png'style="margin: 5px;width: 80%;padding: 5px" alt=''/></span></div>
-								<h3 class="font-weight-bold color_primary text-center">WINDOWS</h3>
-								<ul class='project-detail-ul'>
-									<li>NCL Secolor Window system windows with plain glass and provision for mosquito mesh</li>
-									<li>NCL Secolor Ventilator system with translucent glass in toilets</li>
-								</ul>	
-							</div>
+                            <div class="service_one">
+                                <div class="srvicon bg_default color_white mx-auto mb_20"><span><img src='images/specifications/main-door.png'style="margin: 5px;width: 80%;padding: 5px" alt=''/></span></div>
+                                <h3 class="font-weight-bold color_primary text-center">MAIN DOOR</h3>
+                                <ul class='project-detail-ul'>
+                                    <li>Teak Wood Door Frame with threshold</li>
+                                    <li>BSTV designer door shutters, finished with melamine polish on both sides</li>
+                                </ul>
+                            </div>
                         </div>
-						<div class="col-md-4 col-lg-4">
-							<div class="service_one">
-								<div class="srvicon bg_default color_white mx-auto mb_20"><span><img src='images/specifications/water-suply.png'style="margin: 5px;width: 80%;padding: 5px" alt=''/></span></div>
-								<h3 class="font-weight-bold color_primary text-center">WATER SUPPLY</h3>
-								<ul class='project-detail-ul'>
-									<li>Underground & Overhead storage tanks of suitable capacity. Borewell as an auxiliary source of water supply</li>
-								</ul>
-							</div>
-                        </div>
-                        
+
                         <div class="col-md-4 col-lg-4">
-							<div class="service_one">
-								<div class="srvicon bg_default color_white mx-auto mb_20"><span><img src='images/specifications/utility.png'style="margin: 5px;width: 80%;padding: 5px" alt=''/></span></div>
-								<h3 class="font-weight-bold color_primary text-center">UTILITY</h3>
-								<ul class='project-detail-ul'>
-									<li>Provision for sink in utility</li>
-									<li>Provision for Washing machine in utility area</li>
-									<li>Provision for ironing</li>
-								</ul>
-							</div>
+                            <div class="service_one">
+                                <div class="srvicon bg_default color_white mx-auto mb_20"><span><img src='images/specifications/other-doors.png'style="margin: 5px;width: 80%;padding: 5px" alt=''/></span></div>
+                                <h3 class="font-weight-bold color_primary text-center">OTHER DOORS</h3>
+                                <ul class='project-detail-ul'>
+                                    <li>Sal/Hard Wood door frame</li>
+                                    <li>Commercial flush shutters</li>
+                                    <li>NCL Secolor Door and Window systems with plain glass for Balconies</li>
+                                </ul>
+                            </div>
                         </div>
                         <div class="col-md-4 col-lg-4">
-							<div class="service_one">
-								<div class="srvicon bg_default color_white mx-auto mb_20"><span><img src='images/specifications/toilet.png'style="margin: 5px;width: 80%;padding: 5px" alt=''/></span></div>
-								<h3 class="font-weight-bold color_primary text-center">TOILETS</h3>
-								<ul class='project-detail-ul'>
-									<li>Ceramic Tiles for flooring and dado upto 7 ft height</li>
-									<li>EWC, Washbasin from KOHLER</li>
-									<li>Chromium plated fittings from Jaquar</li>
-									<ul class="ulExtra" id="list_D">
-										<li>Concealed flush tanks from GEBRIT</li>
-									</ul>
-									<div class='text-center'>
-									   <button class="liReadMore btn btn-default" id="readMore_D" style="margin: 0px;">Show More</button>
-									</div>
-								</ul>
-							</div>
-                        </div>
-						<div class="col-md-4 col-lg-4">
-							<div class="service_one">
-								<div class="srvicon bg_default color_white mx-auto mb_20"><span><img src='images/specifications/wall.png'style="margin: 5px;width: 80%;padding: 5px" alt=''/></span></div>
-								<h3 class="font-weight-bold color_primary text-center">WALL FINISHES</h3>
-								<ul class='project-detail-ul'>
-									<li>Internal Walls: Oil Bound Distemper for all plastered walls & Ceilings</li>
-									<li>External Walls: Cement paint for the exteriors and common Areas</li>
-									<ul class="ulExtra" id="list_E">
-										<li>Enamel Paint for MS Grills and Door Shutters</li>
-									</ul>
-									<div class='text-center'>
-									   <button class="liReadMore btn btn-default" id="readMore_E" style="margin: 0px;">Show More</button>
-									</div>
-								</ul>	
-							</div>
-                        </div>
-						<div class="col-md-4 col-lg-4">
-							<div class="service_one">
-								<div class="srvicon bg_default color_white mx-auto mb_20"><span><img src='images/specifications/kitchn.png'style="margin: 5px;width: 80%;padding: 5px" alt=''/></span></div>
-								<h3 class="font-weight-bold color_primary  text-center">KITCHEN</h3>
-								<ul class='project-detail-ul'>
-									<li>Polished granite platform with stainless steel sink</li>
-									<li>Ceramic tile dado of 2 feet above the granite counter</li>
-									<ul class="ulExtra" id="list_F">
-										<li>Provision for Aqua-guard point in kitchen</li>
-										<li>Provision for Geyser in kitchen</li>
-									</ul>
-									<div class='text-center'>
-									   <button class="liReadMore btn btn-default" id="readMore_F" style="margin: 0px;">Show More</button>
-									</div>
-								</ul>
-							</div> 
+                            <div class="service_one">
+                                <div class="srvicon bg_default color_white mx-auto mb_20"><span><img src='images/specifications/window.png'style="margin: 5px;width: 80%;padding: 5px" alt=''/></span></div>
+                                <h3 class="font-weight-bold color_primary text-center">WINDOWS</h3>
+                                <ul class='project-detail-ul'>
+                                    <li>NCL Secolor Window system windows with plain glass and provision for mosquito mesh</li>
+                                    <li>NCL Secolor Ventilator system with translucent glass in toilets</li>
+                                </ul>
+                            </div>
                         </div>
                         <div class="col-md-4 col-lg-4">
-							<div class="service_one">
-								<div class="srvicon bg_default color_white mx-auto mb_20"><span><img src='images/specifications/ELECTRICAL.png'style="margin: 5px;width: 80%;padding: 5px" alt=''/></span></div>
-								<h3 class="font-weight-bold color_primary text-center">ELECTRICAL</h3>
-								<ul class='project-detail-ul'>
-									<li>TV point in the living room and master bedroom</li>
-									<li>Elegant designer modular electrical switches</li>
-									<ul class="ulExtra" id="list_G">
-										<li>Fire Resistant Wires from Anchor</li>
-										<li>1 Earth Leakage Circuit Breaker to ensure safety</li>
-										<li>1 MCB for each room provided at the main distribution box</li>
-										<li>Provision for 5kW power in each flat</li>
-										<li>Telephone point will be provided in living room and each Bedroom</li>
-									</ul>
-								</ul>
-								<div class='text-center'>
-								   <button class="liReadMore btn btn-default" id="readMore_G" style="margin: 0px;">Show More</button>
-								</div>
-							</div>
+                            <div class="service_one">
+                                <div class="srvicon bg_default color_white mx-auto mb_20"><span><img src='images/specifications/water-suply.png'style="margin: 5px;width: 80%;padding: 5px" alt=''/></span></div>
+                                <h3 class="font-weight-bold color_primary text-center">WATER SUPPLY</h3>
+                                <ul class='project-detail-ul'>
+                                    <li>Underground & Overhead storage tanks of suitable capacity. Borewell as an auxiliary source of water supply</li>
+                                </ul>
+                            </div>
+                        </div>
+
+                        <div class="col-md-4 col-lg-4">
+                            <div class="service_one">
+                                <div class="srvicon bg_default color_white mx-auto mb_20"><span><img src='images/specifications/utility.png'style="margin: 5px;width: 80%;padding: 5px" alt=''/></span></div>
+                                <h3 class="font-weight-bold color_primary text-center">UTILITY</h3>
+                                <ul class='project-detail-ul'>
+                                    <li>Provision for sink in utility</li>
+                                    <li>Provision for Washing machine in utility area</li>
+                                    <li>Provision for ironing</li>
+                                </ul>
+                            </div>
                         </div>
                         <div class="col-md-4 col-lg-4">
-							<div class="service_one">
-								<div class="srvicon bg_default color_white mx-auto mb_20"><span><img src='images/specifications/other.png'style="margin: 5px;width: 80%;padding: 5px" alt=''/></span></div>
-								<h3 class="font-weight-bold color_primary text-center">OTHERS</h3>
-								<ul class='project-detail-ul'>
-									<li>Complete Generator Backup for all common areas and services & 1kW power backup for every apartment at no extra cost</li>
-									<ul class="ulExtra" id="list_H">
-										<li>2 level security</li>
-										<li>Wi-fi ready</li>
-										<li>Sewage treatment plant</li>
-										<li>Rain water harvesting</li>
-										<li>5 Elevators</li>
-										<li>Marble lobbies & Granite staircase</li>
-									</ul>
-								</ul>
-								<div class='text-center'>
-								   <button class="liReadMore btn btn-default" id="readMore_H" style="margin: 0px;">Show More</button>
-								</div>
-							</div>
+                            <div class="service_one">
+                                <div class="srvicon bg_default color_white mx-auto mb_20"><span><img src='images/specifications/toilet.png'style="margin: 5px;width: 80%;padding: 5px" alt=''/></span></div>
+                                <h3 class="font-weight-bold color_primary text-center">TOILETS</h3>
+                                <ul class='project-detail-ul'>
+                                    <li>Ceramic Tiles for flooring and dado upto 7 ft height</li>
+                                    <li>EWC, Washbasin from KOHLER</li>
+                                    <li>Chromium plated fittings from Jaquar</li>
+                                    <ul class="ulExtra" id="list_D">
+                                        <li>Concealed flush tanks from GEBRIT</li>
+                                    </ul>
+                                    <div class='text-center'>
+                                        <button class="liReadMore btn btn-default" id="readMore_D" style="margin: 0px;">Show More</button>
+                                    </div>
+                                </ul>
+                            </div>
                         </div>
-					</div>
+                        <div class="col-md-4 col-lg-4">
+                            <div class="service_one">
+                                <div class="srvicon bg_default color_white mx-auto mb_20"><span><img src='images/specifications/wall.png'style="margin: 5px;width: 80%;padding: 5px" alt=''/></span></div>
+                                <h3 class="font-weight-bold color_primary text-center">WALL FINISHES</h3>
+                                <ul class='project-detail-ul'>
+                                    <li>Internal Walls: Oil Bound Distemper for all plastered walls & Ceilings</li>
+                                    <li>External Walls: Cement paint for the exteriors and common Areas</li>
+                                    <ul class="ulExtra" id="list_E">
+                                        <li>Enamel Paint for MS Grills and Door Shutters</li>
+                                    </ul>
+                                    <div class='text-center'>
+                                        <button class="liReadMore btn btn-default" id="readMore_E" style="margin: 0px;">Show More</button>
+                                    </div>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="col-md-4 col-lg-4">
+                            <div class="service_one">
+                                <div class="srvicon bg_default color_white mx-auto mb_20"><span><img src='images/specifications/kitchn.png'style="margin: 5px;width: 80%;padding: 5px" alt=''/></span></div>
+                                <h3 class="font-weight-bold color_primary  text-center">KITCHEN</h3>
+                                <ul class='project-detail-ul'>
+                                    <li>Polished granite platform with stainless steel sink</li>
+                                    <li>Ceramic tile dado of 2 feet above the granite counter</li>
+                                    <ul class="ulExtra" id="list_F">
+                                        <li>Provision for Aqua-guard point in kitchen</li>
+                                        <li>Provision for Geyser in kitchen</li>
+                                    </ul>
+                                    <div class='text-center'>
+                                        <button class="liReadMore btn btn-default" id="readMore_F" style="margin: 0px;">Show More</button>
+                                    </div>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="col-md-4 col-lg-4">
+                            <div class="service_one">
+                                <div class="srvicon bg_default color_white mx-auto mb_20"><span><img src='images/specifications/ELECTRICAL.png'style="margin: 5px;width: 80%;padding: 5px" alt=''/></span></div>
+                                <h3 class="font-weight-bold color_primary text-center">ELECTRICAL</h3>
+                                <ul class='project-detail-ul'>
+                                    <li>TV point in the living room and master bedroom</li>
+                                    <li>Elegant designer modular electrical switches</li>
+                                    <ul class="ulExtra" id="list_G">
+                                        <li>Fire Resistant Wires from Anchor</li>
+                                        <li>1 Earth Leakage Circuit Breaker to ensure safety</li>
+                                        <li>1 MCB for each room provided at the main distribution box</li>
+                                        <li>Provision for 5kW power in each flat</li>
+                                        <li>Telephone point will be provided in living room and each Bedroom</li>
+                                    </ul>
+                                </ul>
+                                <div class='text-center'>
+                                    <button class="liReadMore btn btn-default" id="readMore_G" style="margin: 0px;">Show More</button>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-4 col-lg-4">
+                            <div class="service_one">
+                                <div class="srvicon bg_default color_white mx-auto mb_20"><span><img src='images/specifications/other.png'style="margin: 5px;width: 80%;padding: 5px" alt=''/></span></div>
+                                <h3 class="font-weight-bold color_primary text-center">OTHERS</h3>
+                                <ul class='project-detail-ul'>
+                                    <li>Complete Generator Backup for all common areas and services & 1kW power backup for every apartment at no extra cost</li>
+                                    <ul class="ulExtra" id="list_H">
+                                        <li>2 level security</li>
+                                        <li>Wi-fi ready</li>
+                                        <li>Sewage treatment plant</li>
+                                        <li>Rain water harvesting</li>
+                                        <li>5 Elevators</li>
+                                        <li>Marble lobbies & Granite staircase</li>
+                                    </ul>
+                                </ul>
+                                <div class='text-center'>
+                                    <button class="liReadMore btn btn-default" id="readMore_H" style="margin: 0px;">Show More</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
                 </div>
             </div>
         </div>
@@ -1417,7 +1454,7 @@
 		===================================================-->
         <!--	Start Portfolio
 		===================================================-->
-       <!-- <div id="portfolio" class="section bg_brown pp-scrollable">
+        <!-- <div id="portfolio" class="section bg_brown pp-scrollable">
             <div class="container">
                 <div class="portfolio2 my_60">
                     <div class="row">
@@ -1538,7 +1575,7 @@
 		    				================================-->
                             <div class="main_title ">
                                 <h2 class="title color_primary text-uppercase text-center">Master Plan</h2>
-								<p class="mt_15 text-center color_primary">Get an aerial view of Casa Serene to have an idea on how the whole building layout is and how the space will be utilised. </p>
+                                <p class="mt_15 text-center color_primary">Get an aerial view of Casa Serene to have an idea on how the whole building layout is and how the space will be utilised. </p>
 
                             </div>
                             <!--	End Title
@@ -1550,21 +1587,21 @@
                             <div class="price_table">
                                 <div class="row">
                                     <div class="col-md-12 col-lg-12">
-                                    	<img src="images/layout.jpg" alt="design--room" usemap="#Map" class="master-bottom">
-                                                            <div class="master2">
-                                                               <img id="entryExitImg" src="images/m/1.jpg" class="zoom1 alig07" height="30" width="30">
-                                                            </div>
-                                                          
-                                                            <div class="master3"><img id="securityPortalImg" class="zoom1  alig07" src="images/m/3.jpg" alt="" height="30" width="30"></div>
+                                        <img src="images/layout.jpg" alt="design--room" usemap="#Map" class="master-bottom">
+                                        <div class="master2">
+                                            <img id="entryExitImg" src="images/m/1.jpg" class="zoom1 alig07" height="30" width="30">
+                                        </div>
 
-                                                            <div class="master4"><img id="signageWallImg" class="zoom1 alig07" src="images/m/4.jpg" alt="" height="30" width="30"></div>
+                                        <div class="master3"><img id="securityPortalImg" class="zoom1  alig07" src="images/m/3.jpg" alt="" height="30" width="30"></div>
 
-                                                            <div class="master5"><img id="entrancePavingImg" class="zoom1 alig07" src="images/m/5.jpg" alt="" height="30" width="30"></div>
+                                        <div class="master4"><img id="signageWallImg" class="zoom1 alig07" src="images/m/4.jpg" alt="" height="30" width="30"></div>
 
-
+                                        <div class="master5"><img id="entrancePavingImg" class="zoom1 alig07" src="images/m/5.jpg" alt="" height="30" width="30"></div>
 
 
-                                                            
+
+
+
                                     </div>
                                 </div>
                             </div>
@@ -1588,19 +1625,19 @@
 		    				================================-->
                             <div class="main_title ">
                                 <h2 class="title color_primary text-uppercase text-center">Location Map</h2>
-								<p class="mt_15 text-center color_primary">Casa Serene is strategically located at Jalahalli, North West quadrant of Bangalore. From here, enjoy enhanced connectivity and accessibility to the prime centres of the city. </p>
+                                <p class="mt_15 text-center color_primary">Casa Serene is strategically located at Jalahalli, North West quadrant of Bangalore. From here, enjoy enhanced connectivity and accessibility to the prime centres of the city. </p>
                             </div>
                             <!--	End Title
 		    				================================-->
                         </div>
-						<div class="col-md-12 col-lg-12 mt_60">
-							<div class="table text-center location-box">
-								<a href="images/location.jpg" data-fancybox="gallery">
-									<img src="images/location.jpg" class="img-fluid">
-								</a>
-							</div>
-						</div>
-						<div class="col-md-12 col-lg-12">
+                        <div class="col-md-12 col-lg-12 mt_60">
+                            <div class="table text-center location-box">
+                                <a href="images/location.jpg" data-fancybox="gallery">
+                                    <img src="images/location.jpg" class="img-fluid">
+                                </a>
+                            </div>
+                        </div>
+                        <div class="col-md-12 col-lg-12">
                             <!--	Start Title
 		    				================================-->
                             <div class="main_title pb_30">
@@ -1609,100 +1646,100 @@
                             <!--	End Title
 		    				================================-->
                         </div>
-						<div class="col-md-4 col-lg-4">
-							<div class="location">
-								<ul class="project-detail-ul">
-									<li>Jaahalli METRO station &ndash; across the road (150 mtrs)</li>
-									<li>National Highway 4 &ndash; 300 mtrs</li>
-									<li>Peenya Industrial Area &ndash; 500 mtrs</li>
-									<li>Jalahalli Airforce station &ndash; 1 km</li>
-									<li>Ravi Kirloskar Hospital &ndash; 1.5 kms</li>
-									<li>Premier Hospital &ndash; 1.5 kms</li>
-									<li>Raghavendra Hospital &ndash; 1.5 kms</li>
-								</ul>
-							</div>
-						</div>
-						<div class="col-md-4 col-lg-4">
-							<div class="location">
-								<ul class="project-detail-ul">
-									<li>Taj Vivanta &ndash; 3 kms</li>
-									<li>Yeshwanthpur Terminus &ndash; 4 kms</li>
-									<li>Bangalore International Exhibition Complex &ndash; 4 kms</li>
-									<li>METRO Cash n Carry &ndash; 4.5 kms</li>
-									<li>Sheraton Hotel &ndash; 4.5 kms</li>
-									<li>Orion Mall &ndash; 4.5 kms</li>
-									<li>Columbia Asia Hospital &ndash; 4.5 kms</li>
-								</ul>
-							</div>
-						</div>
-						<div class="col-md-4 col-lg-4">
-							<div class="location">								
-								<ul class="project-detail-ul">
-									<li>ISKCON &ndash; 5 kms</li>
-									<li>Veer Anjaneya Swamy &ndash; 6 kms</li>
-									<li>Indian Institute of Science &ndash; 6 kms</li>
-									<li>Palace Grounds &ndash; 7 kms</li>
-									<li>Bangalore Cantonment Station &ndash; 9 kms</li>
-									<li>Vidhan Soudha &ndash; 12 kms</li>
-									<li>M G Road &ndash; 14 kms</li>
-									<li>Brigade Road  &ndash; 15 kms</li>
-									<li>Bangalore International Airport &ndash; 25 kms</li>
-								</ul>
-							</div>
-						</div>
-					</div>
-				</div>
-			</div>
-		</div>
+                        <div class="col-md-4 col-lg-4">
+                            <div class="location">
+                                <ul class="project-detail-ul">
+                                    <li>Jaahalli METRO station &ndash; across the road (150 mtrs)</li>
+                                    <li>National Highway 4 &ndash; 300 mtrs</li>
+                                    <li>Peenya Industrial Area &ndash; 500 mtrs</li>
+                                    <li>Jalahalli Airforce station &ndash; 1 km</li>
+                                    <li>Ravi Kirloskar Hospital &ndash; 1.5 kms</li>
+                                    <li>Premier Hospital &ndash; 1.5 kms</li>
+                                    <li>Raghavendra Hospital &ndash; 1.5 kms</li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="col-md-4 col-lg-4">
+                            <div class="location">
+                                <ul class="project-detail-ul">
+                                    <li>Taj Vivanta &ndash; 3 kms</li>
+                                    <li>Yeshwanthpur Terminus &ndash; 4 kms</li>
+                                    <li>Bangalore International Exhibition Complex &ndash; 4 kms</li>
+                                    <li>METRO Cash n Carry &ndash; 4.5 kms</li>
+                                    <li>Sheraton Hotel &ndash; 4.5 kms</li>
+                                    <li>Orion Mall &ndash; 4.5 kms</li>
+                                    <li>Columbia Asia Hospital &ndash; 4.5 kms</li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="col-md-4 col-lg-4">
+                            <div class="location">
+                                <ul class="project-detail-ul">
+                                    <li>ISKCON &ndash; 5 kms</li>
+                                    <li>Veer Anjaneya Swamy &ndash; 6 kms</li>
+                                    <li>Indian Institute of Science &ndash; 6 kms</li>
+                                    <li>Palace Grounds &ndash; 7 kms</li>
+                                    <li>Bangalore Cantonment Station &ndash; 9 kms</li>
+                                    <li>Vidhan Soudha &ndash; 12 kms</li>
+                                    <li>M G Road &ndash; 14 kms</li>
+                                    <li>Brigade Road &ndash; 15 kms</li>
+                                    <li>Bangalore International Airport &ndash; 25 kms</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
         <!--	End Location
 		===================================================-->
-		<!--	Start Contact
+        <!--	Start Contact
 		===================================================-->
-	    <div id="contact" class="section bg_brown pp-scrollable">
-	    	<div class="container">
-	    		<div class="contact my_60">
-	    			<div class="row">
-		    			<div class="col-md-12 col-lg-12">
-		    				<!--	Start Title
+        <div id="contact" class="section bg_brown pp-scrollable">
+            <div class="container">
+                <div class="contact my_60">
+                    <div class="row">
+                        <div class="col-md-12 col-lg-12">
+                            <!--	Start Title
 		    				================================-->
-		    				<div class="main_title pb_30">
-								<h2 class="title color_primary text-uppercase text-center color_white">Contact Us</h2>
-								<p class="mt_15 text-center color_white">Should you wish to know more about the project, please free to leave your comments. We will get back to you and arrange for a site visit on request.</p>
+                            <div class="main_title pb_30">
+                                <h2 class="title color_primary text-uppercase text-center color_white">Contact Us</h2>
+                                <p class="mt_15 text-center color_white">Should you wish to know more about the project, please free to leave your comments. We will get back to you and arrange for a site visit on request.</p>
                             </div>
-							<!--	End Title
+                            <!--	End Title
 		    				================================-->
-		    			</div>
-		    		</div>
-		    		<div class="row">
-		    			<div class="col-md-4 col-lg-4">
-						<div class="contact_info wow animated fadeInLeft">
-							<ul>
-								<li>
-									<div class="contact_text">
-										<h6 class="font-weight-bold color_default">Address</h6>
-										<span class="color_white">  Site Location,
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-md-4 col-lg-4">
+                            <div class="contact_info wow animated fadeInLeft">
+                                <ul>
+                                    <li>
+                                        <div class="contact_text">
+                                            <h6 class="font-weight-bold color_default">Address</h6>
+                                            <span class="color_white">  Site Location,
 											<br />
 											SM Rd, Prashanth Nagar, Peenya, <br/>
 											 Bengaluru,Karnataka 560057 
 											</span>
-									</div>
-								</li>
-							
-								<li>
-									<div class="contact_text">
-										<h6 class="font-weight-bold color_default">Phone</h6>
-										<span class="color_white"><a href="tel:7829583111" style="color: #fff;">+91 - 7829 583 111</a> , <a href="tel:8041715678" style="color: #fff;">+91 - 804 171 5678</a></span>
-									</div>
-								</li>
-								<li>
-									<div class="contact_text color_default">
-										<h6 class="font-weight-bold color_default">Email</h6>
-										<span class="color_white">info@prathamconstructions.com</span>
-									</div>
-								</li>
-							</ul>
-						</div>
-						<!--<div class="socal_media_2 mt_15 d-inline-block">
+                                        </div>
+                                    </li>
+
+                                    <li>
+                                        <div class="contact_text">
+                                            <h6 class="font-weight-bold color_default">Phone</h6>
+                                            <span class="color_white"><a href="tel:7829583111" style="color: #fff;">+91 - 7829 583 111</a> , <a href="tel:8041715678" style="color: #fff;">+91 - 804 171 5678</a></span>
+                                        </div>
+                                    </li>
+                                    <li>
+                                        <div class="contact_text color_default">
+                                            <h6 class="font-weight-bold color_default">Email</h6>
+                                            <span class="color_white">info@prathamconstructions.com</span>
+                                        </div>
+                                    </li>
+                                </ul>
+                            </div>
+                            <!--<div class="socal_media_2 mt_15 d-inline-block">
 							<ul>
 								<li><a href="#"><i class="fa fa-facebook color_white" aria-hidden="true"></i></a></li>
 								<li><a href="#"><i class="fa fa-twitter color_white" aria-hidden="true"></i></a></li>
@@ -1711,30 +1748,31 @@
 								<li><a href="#"><i class="fa fa-instagram color_white" aria-hidden="true"></i></a></li>
 							</ul>
 						</div>-->
-					</div>
-					<div class="col-md-4 col-lg-4">
-						<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1155.5847821470547!2d77.5185077808983!3d13.041502070466207!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bae3d27cd3cc213%3A0xa4fd2c5a2ae17aef!2sPratham%20Casa%20Serene%2C%20SM%20Rd%2C%20Prashanth%20Nagar%2C%20Peenya%2C%20Bengaluru%2C%20Karnataka%20560057!5e0!3m2!1sen!2sin!4v1582030222436!5m2!1sen!2sin" width="100%" height="360" frameborder="0" style="border:0;" allowfullscreen=""></iframe>
-					</div>
-					<div class="col-md-4 col-lg-4">
-					
-					<form id="ccon" method="post" role="form" class="contactForm">
-						<div id='contacterrormessage'></div>
-					<!--<form class="form contact_message wow animated fadeInRight" id="contact-form" action="email.php" method="post">-->
-							<div class="row">
-								<div class="col-md-6 col-lg-6">
-									<div class="form-group">
-										<input class="form-control" type="text" name="name" placeholder="Name" />
-									</div>
-								</div>
-								<div class="col-md-6 col-lg-6">
-									<div class="form-group">
-										<input class="form-control" type="email" name="email" placeholder="Email" />
-									</div>
-								</div>
+                        </div>
+                        <div class="col-md-4 col-lg-4">
+                            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1155.5847821470547!2d77.5185077808983!3d13.041502070466207!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bae3d27cd3cc213%3A0xa4fd2c5a2ae17aef!2sPratham%20Casa%20Serene%2C%20SM%20Rd%2C%20Prashanth%20Nagar%2C%20Peenya%2C%20Bengaluru%2C%20Karnataka%20560057!5e0!3m2!1sen!2sin!4v1582030222436!5m2!1sen!2sin"
+                                width="100%" height="360" frameborder="0" style="border:0;" allowfullscreen=""></iframe>
+                        </div>
+                        <div class="col-md-4 col-lg-4">
 
-								<div class="col-md-6 col-lg-6">
-									<div class="form-group">
-										<select class="form-control" size="0" name="ccode" wfd-id="29" style='height: calc(30px + 15px);'>
+                            <form id="ccon" method="post" role="form" class="contactForm">
+                                <div id='contacterrormessage'></div>
+                                <!--<form class="form contact_message wow animated fadeInRight" id="contact-form" action="email.php" method="post">-->
+                                <div class="row">
+                                    <div class="col-md-6 col-lg-6">
+                                        <div class="form-group">
+                                            <input class="form-control" type="text" name="name" placeholder="Name" />
+                                        </div>
+                                    </div>
+                                    <div class="col-md-6 col-lg-6">
+                                        <div class="form-group">
+                                            <input class="form-control" type="email" name="email" placeholder="Email" />
+                                        </div>
+                                    </div>
+
+                                    <div class="col-md-6 col-lg-6">
+                                        <div class="form-group">
+                                            <select class="form-control" size="0" name="ccode" wfd-id="29" style='height: calc(30px + 15px);'>
 
 											<option value=""> Select County </option>
 
@@ -2166,74 +2204,85 @@
 
 											<option data-countrycode="ZW" value="263">Zimbabwe (+263)</option>
 										</select>
-									</div>
-								</div>
-								<div class="col-md-6 col-lg-6">
-									<div class="form-group">
-										<input class="form-control" type="number" id='phone' name="phone" placeholder="Phone" min="0" size="10" maxlength="10" oninput="checkNumberFieldLength(this);"/>
-									</div>
-								</div>
-								<div class="col-md-12 col-lg-12">
-									<div class="form-group">
-										<textarea class="form-control" name="message" rows="7" placeholder="Message" minlength="25" ></textarea>
-									</div>
-								</div>
-								<div class="col-md-12 col-lg-12">
-									<div class="form-group text-center">
-										<input class="btn btn-default" id="send" value="submit" type="submit" />
-									</div>
-								</div>
-								<div class="col-md-12 col-lg-12">
-									<div class="error-handel">
-										<div id="success">Your email sent Successfully, Thank you.</div>
-										<div id="error"> Error occurred while sending email. Please try again later.</div>
-									</div>
-								</div>
-							</div>
-						</form>
-					</div>
-					</div>
-					<div class="copyright2 p_20 color_lightgray bg_brown text-center footerp"><p>Pratham Construction @ 2020. All Right Reserved.| Digital partner <a href="https://www.imsolutions.co/" target="_blank" style='color: #ffb32f;'>IM Solutions</a></p></div>
-	    		</div>
-	    	</div>
-	    	
-	    </div>
-		<!--	End Contact
+                                        </div>
+                                    </div>
+                                    <div class="col-md-6 col-lg-6">
+                                        <div class="form-group">
+                                            <input class="form-control" type="number" id='phone' name="phone" placeholder="Phone" min="0" size="10" maxlength="10" oninput="checkNumberFieldLength(this);" />
+                                        </div>
+                                    </div>
+                                    <div class="col-md-12 col-lg-12">
+                                        <div class="form-group">
+                                            <textarea class="form-control" name="message" rows="7" placeholder="Message" minlength="25"></textarea>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-12 col-lg-12">
+                                        <div class="form-group text-center">
+                                            <input class="btn btn-default" id="send" value="submit" type="submit" />
+                                        </div>
+                                    </div>
+                                    <div class="col-md-12 col-lg-12">
+                                        <div class="error-handel">
+                                            <div id="success">Your email sent Successfully, Thank you.</div>
+                                            <div id="error"> Error occurred while sending email. Please try again later.</div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </form>
+                        </div>
+                    </div>
+                    <div class="copyright2 p_20 color_lightgray bg_brown text-center footerp">
+                        <p>Pratham Construction @ 2020. All Right Reserved.| Digital partner <a href="https://www.imsolutions.co/" target="_blank" style='color: #ffb32f;'>IM Solutions</a></p>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+        <!--	End Contact
 		===================================================-->
     </div>
-	<!--	Js Links
+    <!--	Js Links
 	===================================================-->
-	<script src="js/jquery.min.js"></script>
-	<script src="js/popper.min.js"></script>
-	<script src="js/bootstrap.min.js"></script>
-	<script src="js/plugins.js"></script>
-	<script src="js/particles.min.js"></script>
-	<script src="js/app.js"></script>
-	<script src="js/jquery.pagepiling.min.js"></script>
-	<script src="js/custom.js"></script>
-	<script src="https://www.google.com/recaptcha/api.js?render=6LdFLNgUAAAAAJYdNhjXK2PosDbozvImaLqXSdyl"></script>
-		<script>
-		var deleteLog = false;
-		//	Pagepiling js
-		//=====================================================
-		$(document).ready(function() {
-	    	$('#pagepiling').pagepiling({
-		    	menu: '#menu',
-		    	anchors: ['page1', 'page2', 'page3', 'page4', 'page5','page6', 'page7', 'page8','page9'],
-		    	loopTop: true,
-		    	loopBottom: true
-		  	});
-	    });
-		//	Sidebar Nav Menu js
-		//=====================================================
-		function openNav() {
-		    document.getElementById("mysidenav").style.width = "150px";
-		}
-		function closeNav() {
-		    document.getElementById("mysidenav").style.width = "0";
-		}
-		
-		$('.liReadMore').click(function() {
+    <script src="js/jquery.min.js"></script>
+    <script src="js/popper.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/plugins.js"></script>
+    <script src="js/particles.min.js"></script>
+    <script src="js/app.js"></script>
+    <script src="js/jquery.pagepiling.min.js"></script>
+    <script src="js/custom.js"></script>
+    <script src="https://www.google.com/recaptcha/api.js?render=6LdFLNgUAAAAAJYdNhjXK2PosDbozvImaLqXSdyl"></script>
+    <script>
+        var deleteLog = false;
+        //	Pagepiling js
+        //=====================================================
+        $(document).ready(function() {
+            $('#pagepiling').pagepiling({
+                menu: '#menu',
+                anchors: ['page1', 'page2', 'page3', 'page4', 'page5', 'page6', 'page7', 'page8', 'page9'],
+                loopTop: true,
+                loopBottom: true
+            });
+
+            setTimeout(function() {
+                $('.color-panel').toggleClass('open');
+            }, 5000);
+
+            setTimeout(function() {
+                $('.color-panel').removeClass('open');
+            }, 6000);
+        });
+        //	Sidebar Nav Menu js
+        //=====================================================
+        function openNav() {
+            document.getElementById("mysidenav").style.width = "150px";
+        }
+
+        function closeNav() {
+            document.getElementById("mysidenav").style.width = "0";
+        }
+
+        $('.liReadMore').click(function() {
             var idVal = $(this).attr('id');
             idValSplit = idVal.split("_");
             idVal = idValSplit[1];
@@ -2241,133 +2290,139 @@
             if (idValCss == 'none') {
                 $('#list_' + idVal).css('display', 'block');
                 $('#readMore_' + idVal).html('Show Less');
-				$('#readMore_' + idVal).css({backgroundColor: 'red'});
+                $('#readMore_' + idVal).css({
+                    backgroundColor: 'red'
+                });
             }
             if (idValCss == 'block') {
                 $('#list_' + idVal).css('display', 'none');
                 $('#readMore_' + idVal).html('Show More');
-				$('#readMore_' + idVal).css({backgroundColor: '#ffb32f'});
-           }
+                $('#readMore_' + idVal).css({
+                    backgroundColor: '#ffb32f'
+                });
+            }
             console.log(idValCss);
-           // $('.testimonials-carousel').trigger('to.owl.carousel', [idVal,10,true]);
+            // $('.testimonials-carousel').trigger('to.owl.carousel', [idVal,10,true]);
         });
-		
-		
-		grecaptcha.ready(function() {
-			grecaptcha.execute('6LdFLNgUAAAAAJYdNhjXK2PosDbozvImaLqXSdyl', {
-				action: 'homepage'
-			}).then(function(token) {
-				$('#hcon').prepend('<input type="hidden" name="g-recaptcha-response"  value="' + token + '">');
-				$('#ccon').prepend('<input type="hidden" name="g-recaptcha-response"  value="' + token + '">');
-			});
-		});
-	   
-		$("#hcon").submit(function() {		
-				var str = $(this).serialize();
-			$.ajax({
-				type: "POST",
-				url: "contact-process.php",
-				data: str,
-				success: function(msg) {
-					if (msg == 'OK') {
-						$('.form-control').val('');
-						result = '<p style="color:green !important; font-weight: 600;font-size: 18px;">Email Sent Successfully!</p>';
-						$('#headererrormessage').delay(18000).fadeOut();
-						$('#hcon')[0].reset();
-						//$('input,textarea').val('');
-					} else {
-						result = msg;
-					}
-					$('#headererrormessage').html(result);
-				}
-			});
-			return false;
-		});
 
-		$("#ccon").submit(function() {		
-				var str = $(this).serialize();
-			$.ajax({
-				type: "POST",
-				url: "contact-process.php",
-				data: str,
-				success: function(msg) {
-					if (msg == 'OK') {
-						$('.form-control').val('');
-						result = '<p style="color:green !important; font-weight: 600;font-size: 18px;">Email Sent Successfully!</p>';
-						$('#contacterrormessage').delay(18000).fadeOut();
-						$('#pcon')[0].reset();
-						//$('input,textarea').val('');
-					} else {
-						result = msg;
-					}
-					$('#contacterrormessage').html(result);
-				}
-			});
-			return false;
-		});
-		
-		function checkNumberFieldLength(elem){
-			if (elem.value.length > 10) {
-				elem.value = elem.value.slice(0,10);
-			}
-		}
-		function checkNumberFieldLength1(elem){
-			if (elem.value.length > 10) {
-				elem.value = elem.value.slice(0,10);
-			}
-		}
-		$("#phone").keypress(function(e) {
-			//if the letter is not digit then display error and don't type anything
-			if (e.which != 8 && e.which != 0 && (e.which < 48 || e.which > 57)) {
-				//display error message
-				$("#contacterrormessage").html('<p style="color:red !important;">Digits Only</p>').show().fadeOut("slow");
-				return false;
-			}
-		});
-		$("#phone1").keypress(function(e) {
-			//if the letter is not digit then display error and don't type anything
-			if (e.which != 8 && e.which != 0 && (e.which < 48 || e.which > 57)) {
-				//display error message
-				$("#headererrormessage").html('<p style="color:red !important;">Digits Only</p>').show().fadeOut("slow");
-				return false;
-			}
-		});
-		
-		function myFunction() {
-		  var dots = document.getElementById("dots");
-		  var moreText = document.getElementById("more");
-		  var btnText = document.getElementById("myBtn");
-		  var btnText1 = document.getElementById("myBtn1");
 
-		  if (dots.style.display === "none") {
-			dots.style.display = "inline";
-			btnText.innerHTML = 'Read More <i class="fa fa-arrow-right"></i>'; 
-			moreText.style.display = "none";
-			$(".btn1").show();
-		  } else {
-			dots.style.display = "none";
-			btnText1.innerHTML = 'Read Less <i class="fa fa-arrow-left"></i>';
-			moreText.style.display = "inline";
-			$(".btn1").hide();
-		  }
-		}
-		function myFunction2() {
-		  var dots = document.getElementById("dots");
-		  var moreText = document.getElementById("more1");
-		  var btnText = document.getElementById("myBtn2");
+        grecaptcha.ready(function() {
+            grecaptcha.execute('6LdFLNgUAAAAAJYdNhjXK2PosDbozvImaLqXSdyl', {
+                action: 'homepage'
+            }).then(function(token) {
+                $('#hcon').prepend('<input type="hidden" name="g-recaptcha-response"  value="' + token + '">');
+                $('#ccon').prepend('<input type="hidden" name="g-recaptcha-response"  value="' + token + '">');
+            });
+        });
 
-		  if (dots.style.display === "none") {
-			dots.style.display = "inline";
-			btnText.innerHTML = "<span style='color:#ffb32f !important;'>Read More <i class='fa fa-arrow-right'></i></span>"; 
-			moreText.style.display = "none";
-		  } else {
-			dots.style.display = "none";
-			btnText.innerHTML = "<span style='color:red;'>Read Less <i class='fa fa-arrow-left'></i></span>";
-			moreText.style.display = "inline";
-		  }
-		}
+        $("#hcon").submit(function() {
+            var str = $(this).serialize();
+            $.ajax({
+                type: "POST",
+                url: "contact-process.php",
+                data: str,
+                success: function(msg) {
+                    if (msg == 'OK') {
+                        $('.form-control').val('');
+                        result = '<p style="color:green !important; font-weight: 600;font-size: 18px;">Email Sent Successfully!</p>';
+                        $('#headererrormessage').delay(18000).fadeOut();
+                        $('#hcon')[0].reset();
+                        //$('input,textarea').val('');
+                    } else {
+                        result = msg;
+                    }
+                    $('#headererrormessage').html(result);
+                }
+            });
+            return false;
+        });
 
+        $("#ccon").submit(function() {
+            var str = $(this).serialize();
+            $.ajax({
+                type: "POST",
+                url: "contact-process.php",
+                data: str,
+                success: function(msg) {
+                    if (msg == 'OK') {
+                        $('.form-control').val('');
+                        result = '<p style="color:green !important; font-weight: 600;font-size: 18px;">Email Sent Successfully!</p>';
+                        $('#contacterrormessage').delay(18000).fadeOut();
+                        $('#pcon')[0].reset();
+                        //$('input,textarea').val('');
+                    } else {
+                        result = msg;
+                    }
+                    $('#contacterrormessage').html(result);
+                }
+            });
+            return false;
+        });
+
+        function checkNumberFieldLength(elem) {
+            if (elem.value.length > 10) {
+                elem.value = elem.value.slice(0, 10);
+            }
+        }
+
+        function checkNumberFieldLength1(elem) {
+            if (elem.value.length > 10) {
+                elem.value = elem.value.slice(0, 10);
+            }
+        }
+        $("#phone").keypress(function(e) {
+            //if the letter is not digit then display error and don't type anything
+            if (e.which != 8 && e.which != 0 && (e.which < 48 || e.which > 57)) {
+                //display error message
+                $("#contacterrormessage").html('<p style="color:red !important;">Digits Only</p>').show().fadeOut("slow");
+                return false;
+            }
+        });
+        $("#phone1").keypress(function(e) {
+            //if the letter is not digit then display error and don't type anything
+            if (e.which != 8 && e.which != 0 && (e.which < 48 || e.which > 57)) {
+                //display error message
+                $("#headererrormessage").html('<p style="color:red !important;">Digits Only</p>').show().fadeOut("slow");
+                return false;
+            }
+        });
+
+        function myFunction() {
+            var dots = document.getElementById("dots");
+            var moreText = document.getElementById("more");
+            var btnText = document.getElementById("myBtn");
+            var btnText1 = document.getElementById("myBtn1");
+
+            if (dots.style.display === "none") {
+                dots.style.display = "inline";
+                btnText.innerHTML = 'Read More <i class="fa fa-arrow-right"></i>';
+                moreText.style.display = "none";
+                $(".btn1").show();
+            } else {
+                dots.style.display = "none";
+                btnText1.innerHTML = 'Read Less <i class="fa fa-arrow-left"></i>';
+                moreText.style.display = "inline";
+                $(".btn1").hide();
+            }
+        }
+
+        function myFunction2() {
+            var dots = document.getElementById("dots");
+            var moreText = document.getElementById("more1");
+            var btnText = document.getElementById("myBtn2");
+
+            if (dots.style.display === "none") {
+                dots.style.display = "inline";
+                btnText.innerHTML = "<span style='color:#ffb32f !important;'>Read More <i class='fa fa-arrow-right'></i></span>";
+                moreText.style.display = "none";
+            } else {
+                dots.style.display = "none";
+                btnText.innerHTML = "<span style='color:red;'>Read Less <i class='fa fa-arrow-left'></i></span>";
+                moreText.style.display = "inline";
+            }
+        }
     </script>
-   
+
 </body>
+
 </html>

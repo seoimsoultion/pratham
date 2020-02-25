@@ -572,6 +572,16 @@
 	$('document').ready(function () {
 		$('.liReadMore').trigger('click');
 		$('.ulExtra').hide();
+		//$('.color-panel').toggleClass('open');
+
+		setTimeout(function () {
+			$('.color-panel').toggleClass('open');
+		}, 5000);
+		
+		setTimeout(function () {
+			$('.color-panel').removeClass('open');
+        }, 6000);
+
 	} );
 	$('.liReadMore').click(function() {
             var idVal = $(this).attr('id');
