@@ -70,7 +70,7 @@ include 'includes/header.php';
 				</div>
 				<div class="col-md-5 col-lg-5">
 					<div class=" personal_video wow animated fadeInRight">
-						<img src="images/pratham/about-us.jpg" alt="image">
+						<img src="images/about.gif" alt="image">
 						<?php /*<div class="iconround"><a class="video-popup" href="https://www.youtube.com/watch?v=U16kL-npP9s" title="video popup">
 								<i class="fa fa-play" aria-hidden="true"></i></a></div> */ ?>
 						<div class="loader">
@@ -120,7 +120,7 @@ include 'includes/header.php';
 						<img src="images/pratham/3.jpg" alt="image">
 						<div class="data">
 							<h4 class="bg_default color_primary font-weight-bold m-0">MANISH KIRAN GADIA </h4>
-							<strong class="bg_primary color_white">Managing Director </strong>
+							<strong class="bg_primary color_white">Managing Director</strong>
 						</div>
 						<div class="hover_overlay">
 							<div class="border">
@@ -215,10 +215,11 @@ include 'includes/header.php';
             <p>In his early 30’s, Amit is a self starter, a voracious reader with a great penchant for learning and adapting to new things. His ability to analyze and solve problems coupled with his innate ability to engender trust and rapport and work with all levels of the organization makes him an asset. Amit currently handles the finance and legal functions of the organization.</p>
 	 </div>
 		  <div class="col-12">
-		  <p><b>
+
+		  <p style="padding-top: 30px;" ><b>
  Educational Background  </b> <br/>Amit K Gadia completed his schooling from Bishop Cotton Boys School, Bangalore also known as EATON of the EAST. Post completion of his engineering in Computer Science at B M S College of Engineering, Bangalore, Amit completed his Masters in Engineering in Computer Science with Business courses at Cornell University, Ithaca, New York.  Post completion of his Masters at Cornell and successful stints in the professional world, Amit went on to Administration program) from S P Jain, Mumbai. </p>
 		 
-			  <p><b>Professional Background</b></p>
+			  <p style="padding-top: 30px;" ><b>Professional Background</b></p>
 			  <p>Professional Background Amit gained professional experience and knowledge during his stints with Lucent Technologies (Bangalore), Huawei Technologies (Bangalore) and Global While at Lucent Technologies, he was part of the team that successfully developed and deployed a web based "Document Review Tool" that helped Lucent cut down automate and streamline quality and defect tr Subsequently at Huawei Technologies, he was a part of the ENIP (Enhanced Network Intelligent Platform) team. At Global Tech Research LLC, Amit was part of a geographically distributed technical team who developed a Content M company. The CMS Tool grabs content from the web and allows the research team of the company to attach tags to it for easy retrieval.</p>
 			  <p>Having completed his education at Cornell University, USA, Amit was offered a high job at Merrill Lynch, New York, USA. The Entrepreneurial bug in him drove him to turn down the job opportunity at Merrill Lynch and return back to the family business and take up the challenge to scale it up and foray into new ventures.</p>
 			  <p>After a stint of 1 year in the family business, Amit went on to do the FMBA (Family Managed Business Administration program) from S P Jain, Mumbai to hone his business skills. Continuous learning in diverse fields, being comfortable with diverse fields of technology business are among Amit’s core strengths. </p>
@@ -277,7 +278,7 @@ include 'includes/header.php';
             <p>Vinay joined the group in early 2011 after spending his early 20s abroad at USA. Owing to his somewhat gregarious nature, he enjoys taking up the Marketing division of the group. Further, given his technical background in engineering management he collaborates in the project management aspect of the construction schedules.</p>
 	 </div>
 		  <div class="col-12">
-		  <p><b>
+		  <p style="padding-top: 30px;"><b>
  Educational Background  </b> <br/>Vinay completed his schooling from Bishop Cotton Boys’ School and St. Josephs Pre-University College, after which he went abroad to complete his engineering at Drexel University, Philadelphia, USA. He completed his engineering with various accolades including distinctive (summa cum laude) honors and multiple scholarships for academic excellence (TBP National Scholarship, Nathan Swerdlow Award, Milton Rosenberg Scholarship). He further received research grants and many leadership awards for his involvement in various different organizations. He held many important positions such as CFO, VP, CAO, Judicial Chair and Secretary in student organizations like IEEE, APO, EKN and TBP. Additionally, he did intensive research in the biomedical (Genome classification), mechanical (Micro Aerial Vehicle inspired by a dragonfly) and electrical (Educational Atomic Force Microscope) fields, and went on to publish technical papers in various esteemed publications. Vinay went on to obtain masters at Columbia University, New York, USA in the field of Industrial Engineering & Operations Research, specializing in engineering management.  
  </p>
  <br/>
@@ -312,7 +313,7 @@ include 'includes/header.php';
     <div class="modal-content">
       <!--Header-->
       <div class="modal-header">
-        <p class="heading">MANISH KIRAN GADIA  <b>(Managing Director )</b></p>
+        <p class="heading">MANISH KIRAN GADIA  <b>(Managing Director)</b></p>
 
         <button type="button" class="close" data-dismiss="modal" aria-label="Close">
           <span aria-hidden="true" class="white-text">&times;</span>
@@ -339,7 +340,7 @@ include 'includes/header.php';
 			</p>
 	 </div>
 		  <div class="col-12">
-		  <p><b>
+		  <p style="padding-top: 30px;"><b>
  Educational Background  </b> <br/>Manish completed his schooling from the 
  renowned Bishop Cotton Boys’ School, Bangalore after which he progressed to 
  study engineering in Dayanand Sagar Engineering College. worked at ITI for a short while to
@@ -347,8 +348,8 @@ include 'includes/header.php';
  management. After a few years in business, he pursued a 
  MBA from the prestigious Business School, S P Jain Institute of Management in Mumbai, India.
  </p>
- <br/>
-			  <p><b>Professional Background</b></p>
+
+			  <p style="padding-top: 30px;"><b>Professional Background</b></p>
 			  <p>
 			  Manish’s forte lies in managing large scale projects orchestrating the smooth functioning  of
 			  various agencies and contractors. His deep technical understanding 
@@ -356,12 +357,12 @@ include 'includes/header.php';
 place him in the ideal position to lead the group’s growth. HIs ability to motivate the entire
 team to work coherently is one of his key strengths.
  </p>
- <br/>
+
 			  <p>
 			  On joining the family’s Jari manufacturing business, Manish had expanded the market scope of the business. He streamlined many aspects of the business brining 
 			  in modern analytic systems transforming the archaic model of the business, leading to the company’s growth in difficult economic times. Recognizing the need to diversify and push the group into a higher league, he targeted the real estate sector with his father's
 			  guidance.
-			</p> <br/>
+			</p> 
 			 <p>Manish has been responsible for the success of the maiden real-estate project of 140 apartments. He has been the face of the group, right from obtaining sanctions to appointment of the technically competent contractors to closely monitoring the project's progress. Manish is the man-in-charge when it come to evaluating the scope of projects, economic viability, business potential and marketability. He is able to ascertain the midnset of all the stakeholder, wheather they are investor, contrators, employees, consultants of his brothers installing optimism from a grassroots lavel. The group derives inspiration from his competence and his vision. His lateral thinking and ability to garner momentum in the organization make him an able leader.</p>
 		<p>&nbsp;</p>
 		<p>&nbsp;</p>

@@ -1,263 +1,311 @@
 /********************** Backgrounds **********************/
 .master1
 {
-top: 32%;
+top: 28%;
     left: 10.5%;
     position: absolute;
     z-index: 100;
     width: 71px;
     height: 90px;
     
+
+    
 }
 .master1-1
 {
-top: 32%;
+top: 28%;
     left: 17%;
     position: absolute;
     z-index: 100;
     width: 71px;
     height: 90px;
+
+    
     
 }
 .master2
 {
-top: 32%;
+top: 28%;
     left: 23.5%;
     position: absolute;
     z-index: 100;
     width: 71px;
     height: 90px;
+       
+   
     
 }
 
   .master3
   {
-top: 32%;
+top: 28%;
     left: 30.5%;
     position: absolute;
     z-index: 100;
     width: 85px;
     height: 90px;
+
+    
    
 }
   
 
   .master4
   {
-  top: 32%;
+  top: 28%;
     left: 38.5%;
     position: absolute;
     z-index: 100;
     width: 85px;
     height: 50px;
+      
+ 
     
 }
 
   .master5
   {
-  top: 32%;
+  top: 28%;
     left: 49%;
     position: absolute;
     z-index: 100;
     width: 85px;
     height: 50px;
+
+     
    
 }
   
   .master6
   {
-  top: 42%;
+  top: 38%;
     left: 49%;
     position: absolute;
     z-index: 100;
     width: 85px;
     height: 60px;
+     
+     
     
 }
 
   .master7
   {
-  top: 32%;
+  top: 28%;
     left: 57%;
     position: absolute;
     z-index: 100;
     width: 85px;
     height: 50px;
+
+      
     
 }
 
   .master8
   {
-  top: 42%;
+  top: 38%;
     left: 57%;
     position: absolute;
     z-index: 100;
     width: 85px;
     height: 60px;
+    
+
    
 }
   .master9
   {
-   top: 32%;
+   top: 28%;
     right: 27.5%;
     position: absolute;
     z-index: 100;
     width: 85px;
     height: 50px;
+
+      
     
 }
 
   .master10
   {
-top: 42%;
+top: 38%;
     right: 27.5%;
     position: absolute;
     z-index: 100;
     width: 85px;
     height: 60px;
    
+  
+   
 }
 
   .master11
   {
-    top: 32%;
+    top: 28%;
     right: 19.5%;
     position: absolute;
     z-index: 100;
     width: 85px;
     height: 60px;
+
+     
     
 }
 
   .master12
   {
-    top: 52%;
+    top: 46%;
     right: 19.5%;
     position: absolute;
     z-index: 100;
     width: 65px;
     height: 80px;
+     
+   
    
 }
 
   .master13
   {
-   bottom: 22%;
+   bottom: 32%;
     right: 19.5%;
     position: absolute;
     z-index: 100;
     width: 100px;
     height: 60px;
+
+     
     
 }
 
   .master14
   {
-bottom: 22%;
+bottom: 32%;
     left: 52%;
     position: absolute;
     z-index: 100;
     width: 85px;
     height: 70px;
     
+      
+    
 }
   .master15
   {
- bottom: 22%;
+ bottom: 32%;
     left: 44%;
     position: absolute;
     z-index: 100;
     width: 85px;
     height: 70px;
+
+    
    
 }
 
   .master16
   {
-    bottom: 22%;
+    bottom: 32%;
     left: 34%;
     position: absolute;
     z-index: 100;
     width: 95px;
     height: 60px;
+     
+
     
 }
 
   .master17
   {
-   bottom: 33%;
+   bottom: 42%;
     left: 34%;
     position: absolute;
     z-index: 100;
     width: 85px;
     height: 40px;
+
+     
    
 }
 
   .master18
   {
-   bottom: 22%;
+   bottom: 31%;
     left: 25%;
     position: absolute;
     z-index: 100;
     width: 95px;
     height: 60px;
+    
+    
    
 }
 
   .master19
   {
-   bottom: 33.5%;
+   bottom: 40.5%;
     left: 25.5%;
     position: absolute;
     z-index: 100;
     width: 85px;
     height: 50px;
+
+    
     
 }
 
   .master20
   {
-  bottom: 33.5%;
-    left: 17.5%;
-    position: absolute;
-    z-index: 100;
-    width: 85px;
-    height: 50px;
-   
-}
-
-  .master21
-  {
-  bottom: 23.5%;
+  bottom: 40.5%;
     left: 17.5%;
     position: absolute;
     z-index: 100;
     width: 85px;
     height: 50px;
     
+
+   
+}
+
+  .master21
+  {
+  bottom: 31.5%;
+    left: 17.5%;
+    position: absolute;
+    z-index: 100;
+    width: 85px;
+    height: 50px;
+
+     
+    
 }
 
   .master22
   {
-bottom: 23.5%;
+bottom: 31.5%;
     left: 8.5%;
     position: absolute;
     z-index: 100;
     width: 85px;
     height: 50px;
+     /*background: #ff0000;*/
+
     
 }
 
 
   .master23
   {
-bottom: 33.5%;
+bottom: 41.5%;
     left: 8.5%;
     position: absolute;
     z-index: 100;
     width: 85px;
     height: 60px;
+
+      
     
 }
 
@@ -268,6 +316,8 @@ top: 18.4%;
     right: 15%;
     position: absolute;
     z-index: 100;
+    
+   
 }
   .master25
   {
@@ -275,6 +325,8 @@ top: 18.4%;
     right: 17%;
     position: absolute;
     z-index: 100;
+
+      
 }
 
   .master26
@@ -283,6 +335,8 @@ bottom: 52%;
     right: 44.5%;
     position: absolute;
     z-index: 100;
+     background: #ff0000;
+     
 }
 
   .master27
@@ -291,6 +345,8 @@ bottom: 54.5%;
     right: 47%;
     position: absolute;
     z-index: 100;
+
+      background: #000000;
 }
 
   .master28

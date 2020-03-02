@@ -110,6 +110,7 @@ include 'includes/header.php';
 </script>
 
 <style type="text/css">
+	.color_white span {padding: 0 5px;}
 	.owl-carousel .owl-nav.disabled {
     display: none !important;}
 	#about,#why-us,#portfolio,#blog,#testimonial,#contact1 {position: absolute; top:-90px;}
@@ -466,6 +467,9 @@ include 'includes/header.php';
 	}
 
 	@media (max-width: 767px) {
+		
+		.color_white b {width: 40%; float: left;}
+		.color_white span {padding: 0 5%!important;}
 
 		#mixedSlider .MS-content .item {}
 
@@ -584,6 +588,7 @@ include 'includes/header.php';
 	}
 
 	@media (max-width: 767px) {
+		.owl-nav {padding-top: 10px;}
 		.socal_media_2 { width: 100%; }
 		.socal_media_2 ul li {display: inline-block!important; float: none!important;}
 		.socal_media_2 ul {text-align: center!important;}
@@ -650,7 +655,7 @@ include 'includes/header.php';
 
 			<div class="swiper-slide slide">
 
-				<a href="#"> <div class="slide-image desk-banner" style="background-image: url(images/slider/banner1.jpg) ; background-position: left;"></div>
+				<a href="indraprastha.php"> <div class="slide-image desk-banner" style="background-image: url(images/slider/banner1.jpg) ; background-position: left;"></div>
 
 				<div class="slide-image mob-banner" style="background-image: url(images/slider/banner1-mob.jpg)"></div></a>
 
@@ -661,7 +666,7 @@ include 'includes/header.php';
 
 
 			<div class="swiper-slide slide">
-				<a href="#">
+				<a href="pratham-casa-serene/index.html">
 
 				<div class="slide-image desk-banner" style="background-image: url(images/slider/banner2.jpg);background-position: left;"></div>
 
@@ -787,7 +792,7 @@ include 'includes/header.php';
 
 
 
-					<p class="sub_title color_white ">“Providing the communities we serve with superior products and services by developing innovative
+					<p class="sub_title color_white " style="font-weight: bold;">“Providing the communities we serve with superior products and services by developing innovative
 
 						solutions to improve the quality of life and satisfy customer needs.”
 
@@ -823,7 +828,7 @@ include 'includes/header.php';
 
 						</p>
 
-						<p class="text-right "><a href="about.php" class=" color_white">Read More <i class="fas fa-arrow-right"></i></a></p>
+						<p class="text-right " style="margin-bottom: 20px;"><a href="about.php" class=" color_white">Read More <i class="fas fa-arrow-right"></i></a></p>
 
 
 
@@ -1059,19 +1064,20 @@ include 'includes/header.php';
 
 						<div class="col-sm-12 details">
 
-							<div class="row" style="font-size: 14px; padding-top: 10px; padding-bottom: 10px; line-height: 24px;">
+							<div class="row" style="font-size: 14px; padding-top: 10px; padding-bottom: 10px; line-height: 24px; ">
 
-								<div class="col-sm-6 color_white"><b class="color_default"> Type :</b> Residential Apartments</div>
+								<div class="col-sm-6 color_white " style="text-align: left;"><b class="color_default"> Type </b> 
+									<span>:</span> Residential Apartments</div>
 
-								<div class="col-sm-6 color_white"><b class="color_default">Area Range :</b> 1250-1655 Sq.Ft</div>
+								<div class="col-sm-6 color_white" style="text-align: left;"><b class="color_default">Area Range </b><span>:</span>  1250-1655 Sq.Ft</div>
 
-								<div class="col-sm-6 color_white"><b class="color_default">Location :</b> Yeshwanthpur</div>
+								<div class="col-sm-6 color_white" style="text-align: left;"><b class="color_default">Location </b><span>:</span> Yeshwanthpur</div>
 
-								<div class="col-sm-6 color_white"><b class="color_default">Classification :</b> 2BHK,3BHK</div>
+								<div class="col-sm-6 color_white" style="text-align: left;"><b class="color_default">Classification </b><span>:</span> 2BHK/3BHK/4BHK</div>
 
-								<div class="col-sm-6 color_white"><b class="color_default">Possession :</b> Dec 2020</div>
+								<div class="col-sm-6 color_white" style="text-align: left;"><b class="color_default">Possession </b><span>:</span> Dec 2020</div>
 
-								<div class="col-sm-6 color_white"><b class="color_default">No. of Units :</b> 253 Units </div>
+								<div class="col-sm-6 color_white" style="text-align: left;"><b class="color_default">No. of Units </b><span>:</span>  253 Units </div>
 
 							</div>
 
@@ -1118,17 +1124,17 @@ include 'includes/header.php';
 
 							<div class="row" style="font-size: 14px; padding-top: 10px; padding-bottom: 10px; line-height: 24px;">
 
-								<div class="col-sm-6 color_white"><b class="color_default"> Type :</b> Residential Apartments</div>
+								<div class="col-sm-6 color_white" style="text-align: left;"><b class="color_default"> Type </b><span>:</span> Residential Apartments</div>
 
-								<div class="col-sm-6 color_white"><b class="color_default">Area Range :</b> 1164-1583 Sq.Ft</div>
+								<div class="col-sm-6 color_white" style="text-align: left;"><b class="color_default">Area Range </b> <span>:</span> 1164-1583 Sq.Ft</div>
 
-								<div class="col-sm-6 color_white"><b class="color_default">Location :</b> Jalahalli</div>
+								<div class="col-sm-6 color_white" style="text-align: left;"><b class="color_default">Location </b>  <span>:</span> Jalahalli</div>
 
-								<div class="col-sm-6 color_white"><b class="color_default">Classification :</b> 2BHK,3BHK,4BHK</div>
+								<div class="col-sm-6 color_white" style="text-align: left;"><b class="color_default">Classification</b>  <span>:</span>  2BHK/3BHK</div>
 
-								<div class="col-sm-6 color_white"><b class="color_default">Possession :</b> Ready To Move</div>
+								<div class="col-sm-6 color_white" style="text-align: left;"><b class="color_default">Possession </b> <span>:</span> Ready To Move</div>
 
-								<div class="col-sm-6 color_white"><b class="color_default">No. of Units :</b> 140 Units </div>
+								<div class="col-sm-6 color_white" style="text-align: left;"><b class="color_default">No. of Units </b> <span>:</span> 140 Units </div>
 
 							</div>
 

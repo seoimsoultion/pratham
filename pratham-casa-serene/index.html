@@ -30,54 +30,90 @@
     ==================================================-->
     <title>Pratham Casa Serene</title>
     <style>
-        .zoom1:hover {
-            -ms-transform: scale(1.1);
-            /* IE 9 */
-            -webkit-transform: scale(1.1);
-            /* Safari 3-8 */
-            transform: scale(1.1);
-            -webkit-transition: 0.6s ease;
-            transition: 0.6s ease;
-            opacity: 1;
-            border: 1px #ff0000 solid;
-        }
-        
-        .zoom1Jquery {
-            -ms-transform: scale(1.1);
-            /* IE 9 */
-            -webkit-transform: scale(1.1);
-            /* Safari 3-8 */
-            transform: scale(1.1);
-            -webkit-transition: 0.6s ease;
-            transition: 0.6s ease;
-            opacity: 1;
-            border: 1px #ec7616 solid;
-        }
-        
-        .zoom1 {
-            transition: transform .3s;
-            opacity: 0;
-            width: 300px;
-        }
-        
-        .zoom:hover {
-            -ms-transform: scale(1.1);
-            /* IE 9 */
-            -webkit-transform: scale(1.1);
-            /* Safari 3-8 */
-            transform: scale(1.1);
-            -webkit-transition: 0.6s ease;
-            transition: 0.6s ease;
-        }
-        
-        .zoom {
-            transition: transform .3s;
-        }
-        
-        .zoom-img {
-            width: 210px!important;
-            border: 5px #ff7803 solid;
-        }
+       
+       .zoom1:hover {
+                  -ms-transform: scale(3.1); /* IE 9 */
+                  -webkit-transform: scale(3.1); /* Safari 3-8 */
+                  transform: scale(3.1); 
+                  -webkit-transition: 0.6s ease;
+                  transition: 0.6s ease;
+                  opacity: 1;
+                  border: 1px #ffb32f  solid;
+                  }
+                  .zoom1Jquery {
+                  -ms-transform: scale(3.1); /* IE 9 */
+                  -webkit-transform: scale(3.1); /* Safari 3-8 */
+                  transform: scale(3.1); 
+                  -webkit-transition: 0.6s ease;
+                  transition: 0.6s ease;
+                  opacity: 1;
+                  border: 1px #ffb32f  solid;
+                  }
+                  .zoom1
+                  {
+                  transition: transform .3s;
+                  opacity: 0;
+                  }
+                  .advantageUl{
+                  display: table;
+                  margin: 0 auto !important;
+                  line-height: 25px;
+                  padding-left: 50px;
+                  }
+                  .about-sec {min-height: 702px !important;}
+                  .ol-list {text-align: left; line-height: 29px; padding-left: 20px;}
+                  .master-bottom {width: 100%; padding-bottom: 85px;}
+                  .tp-mask-wrap {top:-50px;font-size: 55px; line-height: 45px;font-family: 'Noto Serif', serif; margin-left: -100px;}
+                  .top-text {font-size: 55px; line-height: 45px;font-family: 'Noto Serif', serif;
+                  text-transform: uppercase;
+                  font-weight: bold;
+                  }
+                  .fad{
+                  animation-duration: .3s;
+                  animation-name: fadeAndScale;
+                  animation-timing-function: cubic-bezier(.71,.55,.62,1.57);
+                  }
+                  @keyframes fadeAndScale {
+                  from {
+                  opacity: 0;
+                  transform: scale(.9, .9);
+                  }
+                  to {
+                  opacity: 1;
+                  transform: scale(1, 1);
+                  }
+                  }
+                  .zoom:hover {
+                  -ms-transform: scale(1.1); /* IE 9 */
+                  -webkit-transform: scale(1.1); /* Safari 3-8 */
+                  transform: scale(1.1); 
+                  -webkit-transition: 0.6s ease;
+                  transition: 0.6s ease;
+                  }
+                  .zoom
+                  {
+                  transition: transform .3s;
+                  }
+                  .zoom-img {width:210px!important; border: 5px #ff7803 solid;}
+                  .fad{
+                  animation-duration: .3s;
+                  animation-name: fadeAndScale;
+                  animation-timing-function: cubic-bezier(.71,.55,.62,1.57);
+                  }
+                  @keyframes fadeAndScale {
+                  from {
+                  opacity: 0;
+                  transform: scale(.9, .9);
+                  }
+                  to {
+                  opacity: 1;
+                  transform: scale(1, 1);
+                  }
+                  }
+                  .container-fluid.amenities-2nd-row
+                  {
+                  margin-bottom: -93px;
+                  }
         
         .location-box {
             width: 70%;
@@ -495,11 +531,20 @@
             width: 90%;
             margin: 0 5% 5% 5%;
         }
+        .about_one {margin-right: 22px;}
+        .contact_text {
+    display: block!important;
+    text-align: center!important;}
+    .contactForm {margin-top: 20px;}
     }
     </style>
 </head>
 
 <body id="top" class="page-load">
+                    <div style="position: fixed; z-index: 99999999999; left:0; bottom:3%;">
+               <a href="https://api.whatsapp.com/send?phone=917829583111" target="_blank"><img src="images/watsappnew.png" width="100%"
+                     height="100%" alt="Whatsapp" /></a>
+            </div>
     <!-- Color Settings Start
 	==================================================-->
     <div id="color-panel" class="color-panel">
@@ -1009,11 +1054,15 @@
         </ul>
     </div>
     <div class="sidebar bg_default">
-        <div class="logo text-center">
+        <div class="logo text-center desk-banner">
             <a href="#page1"><img class="nav-logo" src="images/logo.png" alt="logo"></a>
         </div>
-        <span style="cursor:pointer" onclick="openNav()">&#9776;</span>
-        <div class="socal_media mt_60">
+       <div class="sidebar bg_primary mob-banner">
+  
+    <span style="cursor:pointer; background: #1e283c; padding:7px 5px; border-radius: 3px;" onclick="openNav()">&#9776;</span>
+   
+  </div>
+        <div class="socal_media mt_60 desk-banner">
             <ul>
                 <li><a href="#"><i class="fa fa-facebook" aria-hidden="true"></i></a></li>
                 <li><a href="#"><i class="fa fa-twitter" aria-hidden="true"></i></a></li>
@@ -1193,8 +1242,8 @@
 		===================================================-->
         <!--	Start Services
 		===================================================-->
-        <div id="amenities" class="section bg_white pp-scrollable">
-            <div class="container">
+        <div id="amenities" class="section bg_white pp-scrollable ">
+            <div class="container desk-banner">
                 <div class="services my_60">
                     <div class="row">
                         <div class="col-md-12 col-lg-12">
@@ -1278,15 +1327,163 @@
                     </div>
                 </div>
             </div>
+      
+
+
+
+
+ <div id="carousel-example" class="carousel slide  mob-banner" data-ride="carousel">
+             <div class="col-md-12 col-lg-12 mt_60 ">
+                            <div class="section_title_1 text-center mx-auto pb_30 wow animated slideInUp">
+                                <h2 class="title text-uppercase color_primary" style="padding-top: 15px;">Amenities</h2>
+                <p class="mt_15 text-center color_primary">For the ultimate contemporary lifestyle revolving around health and well-being, Casa Serene offers a multitude of modern amenities.</p>
+                            </div>
+                        </div>
+
+        <div class="carousel-inner row w-100 mx-auto" role="listbox" style="padding-top: 15px;">
+
+          <div class="carousel-item col-12 col-sm-6 col-md-4 col-lg-3 active">
+  <div class="proj_amenities">
+                                <img src="images/amenities/swwimingpool.png">
+                                <p>Swimming Pool</p>
+                            </div>
+           
+
+  
+
+   <div class="proj_amenities">
+                                <img src="images/amenities/club-hous.png">
+                                <p>Club House</p>
+                            </div>
+          </div>
+
+
+
+          <div class="carousel-item col-12 col-sm-6 col-md-4 col-lg-3">
+
+           <div class="proj_amenities">
+                                <img src="images/amenities/gym.png">
+                                <p>Gym</p>
+                            </div>
+
+ <div class="proj_amenities">
+                                <img src="images/amenities/toldderpark.png">
+                                <p>Toddler's Park</p>
+                            </div>
+          
+
+          </div>
+
+
+           <div class="carousel-item col-12 col-sm-6 col-md-4 col-lg-3">
+
+ <div class="proj_amenities">
+                                <img src="images/amenities/2levelsecurity.png">
+                                <p>2 level security</p>
+                            </div>
+
+   <div class="proj_amenities">
+                                <img src="images/amenities/pipe-gas.png">
+                                <p>Piped Gas supply</p>
+                            </div>
+          
+
+          </div>
+
+
+           <div class="carousel-item col-12 col-sm-6 col-md-4 col-lg-3">
+
+               <div class="proj_amenities">
+                                <img src="images/amenities/s-elevaor.png">
+                                <p>5 Elevators</p>
+                            </div>
+
+         
+
+   <div class="proj_amenities">
+                                <img src="images/amenities/badminton.png">
+                                <p>Badminton Court</p>
+                            </div>
+
+          </div>
+
+
+           <div class="carousel-item col-12 col-sm-6 col-md-4 col-lg-3">
+
+    <div class="proj_amenities">
+                                <img src="images/amenities/jogging.png">
+                                <p>Jogger's track</p>
+                            </div>
+
+       
+       <div class="proj_amenities">
+                                <img src="images/amenities/carwash.png">
+                                <p>Car wash area</p>
+                            </div>
+          
+
+          </div>
+
+           <div class="carousel-item col-12 col-sm-6 col-md-4 col-lg-3">
+
+   <div class="proj_amenities">
+                                <img src="images/amenities/fire.png">
+                                <p>Fire fighting</p>
+                            </div>
+
+        
+
+    <div class="proj_amenities">
+                                <img src="images/amenities/toilet.png">
+                                <p>Separate toilets for maids and drivers</p>
+                            </div>
+
+          </div>
+
+
+
         </div>
+
+        <a class="carousel-control-prev" href="#carousel-example" role="button" data-slide="prev">
+
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+
+          <span class="sr-only">Previous</span>
+
+        </a>
+
+        <a class="carousel-control-next" href="#carousel-example" role="button" data-slide="next">
+
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+
+          <span class="sr-only">Next</span>
+
+        </a>
+
+      </div>
+
+  </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
         <!--	End Services
 		===================================================-->
         <!--	Start Services
 		===================================================-->
-        <div id="specifications" class="section bg_white pp-scrollable">
-            <div class="container">
+        <div id="specifications" class="section bg_white pp-scrollable ">
+            <div class="container desk-banner">
                 <div class="services my_60">
-                    <div class="row">
+                    <div class="row mt_60">
                         <div class="col-md-12 col-lg-12">
                             <div class="section_title_1 text-center mx-auto pb_30 wow animated slideInUp">
                                 <h2 class="title text-uppercase color_primary">Specifications</h2>
@@ -1458,7 +1655,268 @@
                     </div>
                 </div>
             </div>
+
+
+
+<div class="container mob-banner">
+     <div id="carousel-example" class="carousel slide mob-banner " data-ride="carousel">
+             <div class="col-md-12 col-lg-12 mt_60">
+                            <div class="section_title_1 text-center mx-auto pb_30 wow animated slideInUp">
+                                <h2 class="title text-uppercase color_primary" style="padding-top: 15px;">Specifications</h2>
+                <p class="mt_15 text-center color_primary">For the ultimate contemporary lifestyle revolving around health and well-being, Indraprastha offers a multitude of modern amenities.</p>
+                            </div>
+                        </div>
+
+        <div class="carousel-inner row w-100 mx-auto" role="listbox" style="padding-top: 15px;">
+
+          <div class="carousel-item col-md-4 col-lg-4 active">
+      <div class="service_one">
+                                <div class="srvicon bg_default color_white mx-auto mb_20 "><span><img src='images/specifications/structure.png'style="margin: 5px;width: 80%;padding: 5px" alt=''/></span></div>
+                                <h3 class="font-weight-bold color_primary text-center">STRUCTURE</h3>
+                                <ul class='project-detail-ul'>
+                                    <li>Seismic Zone II compliant RCC Structure</li>
+                                    <li>Solid Cement Block Masonry</li>
+                                    <li>External Walls with Cement Plaster & Internal Walls with lime plaster</li>
+                                </ul>
+                            </div>
+
+          </div>
+
+          <div class="carousel-item col-md-4 col-lg-4">
+
+             <div class="service_one">
+                                <div class="srvicon bg_default color_white mx-auto mb_20"><span><img src='images/specifications/flooring.png'style="margin: 5px;width: 80%;padding: 5px" alt=''/></span></div>
+                                <h3 class="font-weight-bold color_primary text-center">FLOORING</h3>
+                                <ul class='project-detail-ul'>
+                                    <li>Vitrified tiles in Living, Dining, Kitchen & all Bedrooms</li>
+                                </ul>
+                            </div>
+          </div>
+
+
+
+          <div class="carousel-item col-md-4 col-lg-4">
+       <div class="service_one">
+                                <div class="srvicon bg_default color_white mx-auto mb_20"><span><img src='images/specifications/main-door.png'style="margin: 5px;width: 80%;padding: 5px" alt=''/></span></div>
+                                <h3 class="font-weight-bold color_primary text-center">MAIN DOOR</h3>
+                                <ul class='project-detail-ul'>
+                                    <li>Teak Wood Door Frame with threshold</li>
+                                    <li>BSTV designer door shutters, finished with melamine polish on both sides</li>
+                                </ul>
+                            </div>
+
+          </div>
+
+
+           <div class="carousel-item col-md-4 col-lg-4">
+      <div class="service_one">
+                                <div class="srvicon bg_default color_white mx-auto mb_20"><span><img src='images/specifications/other-doors.png'style="margin: 5px;width: 80%;padding: 5px" alt=''/></span></div>
+                                <h3 class="font-weight-bold color_primary text-center">OTHER DOORS</h3>
+                                <ul class='project-detail-ul'>
+                                    <li>Sal/Hard Wood door frame</li>
+                                    <li>Commercial flush shutters</li>
+                                    <li>NCL Secolor Door and Window systems with plain glass for Balconies</li>
+                                </ul>
+                            </div>
+
+          </div>
+
+
+           <div class="carousel-item col-md-4 col-lg-4">
+       <div class="service_one">
+                                <div class="srvicon bg_default color_white mx-auto mb_20"><span><img src='images/specifications/window.png'style="margin: 5px;width: 80%;padding: 5px" alt=''/></span></div>
+                                <h3 class="font-weight-bold color_primary text-center">WINDOWS</h3>
+                                <ul class='project-detail-ul'>
+                                    <li>NCL Secolor Window system windows with plain glass and provision for mosquito mesh</li>
+                                    <li>NCL Secolor Ventilator system with translucent glass in toilets</li>
+                                </ul>
+                            </div>
+
+          </div>
+
+
+           <div class="carousel-item col-md-4 col-lg-4">
+
+     <div class="service_one">
+                                <div class="srvicon bg_default color_white mx-auto mb_20"><span><img src='images/specifications/water-suply.png'style="margin: 5px;width: 80%;padding: 5px" alt=''/></span></div>
+                                <h3 class="font-weight-bold color_primary text-center">WATER SUPPLY</h3>
+                                <ul class='project-detail-ul'>
+                                    <li>Underground & Overhead storage tanks of suitable capacity. Borewell as an auxiliary source of water supply</li>
+                                </ul>
+                            </div>
+          </div>
+
+
+           <div class="carousel-item col-md-4 col-lg-4">
+
+                      <div class="service_one">
+                                <div class="srvicon bg_default color_white mx-auto mb_20"><span><img src='images/specifications/utility.png'style="margin: 5px;width: 80%;padding: 5px" alt=''/></span></div>
+                                <h3 class="font-weight-bold color_primary text-center">UTILITY</h3>
+                                <ul class='project-detail-ul'>
+                                    <li>Provision for sink in utility</li>
+                                    <li>Provision for Washing machine in utility area</li>
+                                    <li>Provision for ironing</li>
+                                </ul>
+                            </div>
+
+          </div>
+
+
+           <div class="carousel-item col-md-4 col-lg-4">
+       <div class="service_one">
+                                <div class="srvicon bg_default color_white mx-auto mb_20"><span><img src='images/specifications/toilet.png'style="margin: 5px;width: 80%;padding: 5px" alt=''/></span></div>
+                                <h3 class="font-weight-bold color_primary text-center">TOILETS</h3>
+                                <ul class='project-detail-ul'>
+                                    <li>Ceramic Tiles for flooring and dado upto 7 ft height</li>
+                                    <li>EWC, Washbasin from KOHLER</li>
+                                    <li>Chromium plated fittings from Jaquar</li>
+                                    <ul class="ulExtra" id="list_D">
+                                        <li>Concealed flush tanks from GEBRIT</li>
+                                    </ul>
+                                    <div class='text-center'>
+                                        <button class="liReadMore btn btn-default" id="readMore_D" style="margin: 0px;">Show More</button>
+                                    </div>
+                                </ul>
+                            </div>
+       
+
+          </div>
+
+
+
+           <div class="carousel-item col-md-4 col-lg-4">
+
+              <div class="service_one">
+                                <div class="srvicon bg_default color_white mx-auto mb_20"><span><img src='images/specifications/wall.png'style="margin: 5px;width: 80%;padding: 5px" alt=''/></span></div>
+                                <h3 class="font-weight-bold color_primary text-center">WALL FINISHES</h3>
+                                <ul class='project-detail-ul'>
+                                    <li>Internal Walls: Oil Bound Distemper for all plastered walls & Ceilings</li>
+                                    <li>External Walls: Cement paint for the exteriors and common Areas</li>
+                                    <ul class="ulExtra" id="list_E">
+                                        <li>Enamel Paint for MS Grills and Door Shutters</li>
+                                    </ul>
+                                    <div class='text-center'>
+                                        <button class="liReadMore btn btn-default" id="readMore_E" style="margin: 0px;">Show More</button>
+                                    </div>
+                                </ul>
+                            </div>
+
+          </div>
+
+
+           <div class="carousel-item col-md-4 col-lg-4">
+     <div class="service_one">
+                                <div class="srvicon bg_default color_white mx-auto mb_20"><span><img src='images/specifications/kitchn.png'style="margin: 5px;width: 80%;padding: 5px" alt=''/></span></div>
+                                <h3 class="font-weight-bold color_primary  text-center">KITCHEN</h3>
+                                <ul class='project-detail-ul'>
+                                    <li>Polished granite platform with stainless steel sink</li>
+                                    <li>Ceramic tile dado of 2 feet above the granite counter</li>
+                                    <ul class="ulExtra" id="list_F">
+                                        <li>Provision for Aqua-guard point in kitchen</li>
+                                        <li>Provision for Geyser in kitchen</li>
+                                    </ul>
+                                    <div class='text-center'>
+                                        <button class="liReadMore btn btn-default" id="readMore_F" style="margin: 0px;">Show More</button>
+                                    </div>
+                                </ul>
+                            </div>
+
+          </div>
+
+
+
+           <div class="carousel-item col-md-4 col-lg-4">
+        <div class="service_one">
+                                <div class="srvicon bg_default color_white mx-auto mb_20"><span><img src='images/specifications/ELECTRICAL.png'style="margin: 5px;width: 80%;padding: 5px" alt=''/></span></div>
+                                <h3 class="font-weight-bold color_primary text-center">ELECTRICAL</h3>
+                                <ul class='project-detail-ul'>
+                                    <li>TV point in the living room and master bedroom</li>
+                                    <li>Elegant designer modular electrical switches</li>
+                                    <ul class="ulExtra" id="list_G">
+                                        <li>Fire Resistant Wires from Anchor</li>
+                                        <li>1 Earth Leakage Circuit Breaker to ensure safety</li>
+                                        <li>1 MCB for each room provided at the main distribution box</li>
+                                        <li>Provision for 5kW power in each flat</li>
+                                        <li>Telephone point will be provided in living room and each Bedroom</li>
+                                    </ul>
+                                </ul>
+                                <div class='text-center'>
+                                    <button class="liReadMore btn btn-default" id="readMore_G" style="margin: 0px;">Show More</button>
+                                </div>
+                            </div>
+
+          </div>
+
+
+
+           <div class="carousel-item col-md-4 col-lg-4">
+
+       <div class="service_one">
+                                <div class="srvicon bg_default color_white mx-auto mb_20"><span><img src='images/specifications/other.png'style="margin: 5px;width: 80%;padding: 5px" alt=''/></span></div>
+                                <h3 class="font-weight-bold color_primary text-center">OTHERS</h3>
+                                <ul class='project-detail-ul'>
+                                    <li>Complete Generator Backup for all common areas and services & 1kW power backup for every apartment at no extra cost</li>
+                                    <ul class="ulExtra" id="list_H">
+                                        <li>2 level security</li>
+                                        <li>Wi-fi ready</li>
+                                        <li>Sewage treatment plant</li>
+                                        <li>Rain water harvesting</li>
+                                        <li>5 Elevators</li>
+                                        <li>Marble lobbies & Granite staircase</li>
+                                    </ul>
+                                </ul>
+                                <div class='text-center'>
+                                    <button class="liReadMore btn btn-default" id="readMore_H" style="margin: 0px;">Show More</button>
+                                </div>
+                            </div>
+
+          </div>
+
+
+          
+
+
+
         </div>
+
+        <a class="carousel-control-prev" href="#carousel-example" role="button" data-slide="prev">
+
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+
+          <span class="sr-only">Previous</span>
+
+        </a>
+
+        <a class="carousel-control-next" href="#carousel-example" role="button" data-slide="next">
+
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+
+          <span class="sr-only">Next</span>
+
+        </a>
+
+      </div>
+
+
+</div>
+
+
+
+
+
+
+
+
+
+
+</div>
+
+
+
+
+
+
+
         <!--	End Services
 		===================================================-->
         <!--	Start Portfolio
@@ -1595,7 +2053,10 @@
                         <div class="col-md-12 col-lg-12">
                             <div class="price_table">
                                 <div class="row">
-                                    <div class="col-md-12 col-lg-12">
+                                    <div class="col-md-12 col-lg-12 mob-banner">
+                                          <img src="images/layout-mob.jpg" alt="design--room" usemap="#Map" class="master-bottom">
+                                    </div>
+                                    <div class="col-md-12 col-lg-12 desk-banner">
                                         <img src="images/layout.jpg" alt="design--room" usemap="#Map" class="master-bottom">
                                         <div class="master2">
                                             <img id="entryExitImg" src="images/m/1.jpg" class="zoom1 alig07" height="30" width="30">
@@ -1655,7 +2116,8 @@
                             <!--	End Title
 		    				================================-->
                         </div>
-                        <div class="col-md-4 col-lg-4">
+                        
+                        <div class="col-md-4 col-lg-4 desk-banner">
                             <div class="location">
                                 <ul class="project-detail-ul">
                                     <li>Jaahalli METRO station &ndash; across the road (150 mtrs)</li>
@@ -1668,7 +2130,7 @@
                                 </ul>
                             </div>
                         </div>
-                        <div class="col-md-4 col-lg-4">
+                        <div class="col-md-4 col-lg-4 desk-banner">
                             <div class="location">
                                 <ul class="project-detail-ul">
                                     <li>Taj Vivanta &ndash; 3 kms</li>
@@ -1681,7 +2143,7 @@
                                 </ul>
                             </div>
                         </div>
-                        <div class="col-md-4 col-lg-4">
+                        <div class="col-md-4 col-lg-4 desk-banner">
                             <div class="location">
                                 <ul class="project-detail-ul">
                                     <li>ISKCON &ndash; 5 kms</li>
@@ -1696,6 +2158,115 @@
                                 </ul>
                             </div>
                         </div>
+            
+
+
+
+<div class="container mob-banner">
+  
+ <div id="carousel-example" class="carousel slide  " data-ride="carousel">
+            
+
+        <div class="carousel-inner row w-100 mx-auto" role="listbox" style="padding-top: 15px;">
+
+          <div class="carousel-item col-md-4 col-lg-4 active">
+
+        <div class="location">
+                <ul class="project-detail-ul">
+                  
+<li>Palace Grounds  15.6km</li>
+<li>Bangalore Cantonment Station  7.6km</li>
+<li>Vidhan Soudha 7.7km</li>
+<li>M G Road  9.5km</li>
+<li>Brigade Road  9.7km</li>
+<li>Bangalore International Airport 35km</li>
+<li>World Trade Center  1.3km</li>
+<li>Fortis Hospital 1.3km</li>
+<li>Yeshwantpur Metro Station 2.2km</li>
+<li>Yeshwantpur RTO Office  2.0km</li>
+                  
+                </ul>
+              </div>
+          </div>
+
+          <div class="carousel-item col-md-4 col-lg-4">
+    <div class="location">
+                <ul class="project-detail-ul">
+                  <li>Taj Vivanta 2.8km</li>
+                  <li>Yeshwanthpur Terminus 2.0km</li>
+                  <li>International Exhibition Complex  11.8km</li>
+                  <li>Metro Cash n Carry  1.5km</li>
+                  <li>Sheraton Hotel  1.4km</li>
+                  <li>Orion Mall  1.4km</li>
+                  <li>Columbia Asia Hospital  1.5km</li>
+                  <li>ISKCON Temple 1.5km</li>
+                  <li>Veer Anjaneya Swamy 1.3km</li>
+                  <li>Indian Institute of Science 3.2km</li>
+                </ul>
+              </div>
+    
+          </div>
+
+
+
+          
+
+
+
+           <div class="carousel-item col-md-4 col-lg-4">
+
+            <div class="location">
+                <ul class="project-detail-ul">
+                  
+<li>Sparsh Hospital 1.5km</li>
+<li>PVR 1.9km</li>
+<li>National public School  1.9km</li>
+<li>Karnataka Examinations Authority  3.6km</li>
+<li>IWST  4.0km</li>
+<li>J.N Tata Statue 3.6km</li>
+<li>M.S.Ramaiah Hospital  4.4km</li>
+<li>Malleshwaram West 3.3km</li>
+<li>Govardhan Threater  400m</li>
+<li>Yeshwanthpur Market 2.0km</li>
+                  
+                </ul>
+              </div>
+
+          </div>
+
+
+          
+
+
+
+        </div>
+
+        <a class="carousel-control-prev" href="#carousel-example" role="button" data-slide="prev">
+
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+
+          <span class="sr-only">Previous</span>
+
+        </a>
+
+        <a class="carousel-control-next" href="#carousel-example" role="button" data-slide="next">
+
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+
+          <span class="sr-only">Next</span>
+
+        </a>
+
+      </div>
+</div>
+
+
+
+
+
+
+
+
                     </div>
                 </div>
             </div>
@@ -1706,8 +2277,9 @@
 		===================================================-->
         <div id="contact" class="section bg_brown pp-scrollable">
             <div class="container">
-                <div class="contact my_60">
+                <div class="contact my_30">
                     <div class="row">
+
                         <div class="col-md-12 col-lg-12">
                             <!--	Start Title
 		    				================================-->
@@ -1720,7 +2292,7 @@
                         </div>
                     </div>
                     <div class="row">
-                        <div class="col-md-4 col-lg-4">
+                        <div class="col-md-4 col-lg-4 desk-banner">
                             <div class="contact_info wow animated fadeInLeft">
                                 <ul>
                                     <li>
@@ -1761,7 +2333,7 @@
 							</ul>
 						</div>-->
                         </div>
-                        <div class="col-md-4 col-lg-4">
+                        <div class="col-md-4 col-lg-4 desk-banner">
                             <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1155.5847821470547!2d77.5185077808983!3d13.041502070466207!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bae3d27cd3cc213%3A0xa4fd2c5a2ae17aef!2sPratham%20Casa%20Serene%2C%20SM%20Rd%2C%20Prashanth%20Nagar%2C%20Peenya%2C%20Bengaluru%2C%20Karnataka%20560057!5e0!3m2!1sen!2sin!4v1582030222436!5m2!1sen!2sin"
                                 width="100%" height="360" frameborder="0" style="border:0;" allowfullscreen=""></iframe>
                         </div>
@@ -2242,8 +2814,59 @@
                                 </div>
                             </form>
                         </div>
+
+
+     <div class="col-md-4 col-lg-4 mob-banner">
+                            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1155.5847821470547!2d77.5185077808983!3d13.041502070466207!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bae3d27cd3cc213%3A0xa4fd2c5a2ae17aef!2sPratham%20Casa%20Serene%2C%20SM%20Rd%2C%20Prashanth%20Nagar%2C%20Peenya%2C%20Bengaluru%2C%20Karnataka%20560057!5e0!3m2!1sen!2sin!4v1582030222436!5m2!1sen!2sin"
+                                width="100%" height="360" frameborder="0" style="border:0; padding: 10px 0;" allowfullscreen=""></iframe>
+                        </div>
+
+<div class="col-md-4 col-lg-4 mob-banner">
+                            <div class="contact_info " style="visibility: visible;">
+                                <ul>
+                                    <li>
+                                        <div class="contact_text">
+                                            <h6 class="font-weight-bold color_default">Address</h6>
+                                            <span class="color_white">  Site Location,
+                                            <br />
+                                            SM Rd, Prashanth Nagar, Peenya, <br/>
+                                             Bengaluru,Karnataka 560057 
+                                            </span>
+                                        </div>
+                                    </li>
+
+                                    <li>
+                                        <div class="contact_text">
+                                            <h6 class="font-weight-bold color_default">Phone</h6>
+                                            <span class="color_white"><a href="tel:7829583111" style="color: #fff;">+91 - 7829 583 111 / 7829 180 111<br>
+                                            080 - 4171 5678</a></span>
+
+                                            
+                                        </div>
+                                    </li>
+                                    <li>
+                                        <div class="contact_text color_default">
+                                            <h6 class="font-weight-bold color_default">Email</h6>
+                                            <span class="color_white">info@prathamconstructions.com</span>
+                                        </div>
+                                    </li>
+                                </ul>
+                            </div>
+                            <!--<div class="socal_media_2 mt_15 d-inline-block">
+                            <ul>
+                                <li><a href="#"><i class="fa fa-facebook color_white" aria-hidden="true"></i></a></li>
+                                <li><a href="#"><i class="fa fa-twitter color_white" aria-hidden="true"></i></a></li>
+                                <li><a href="#"><i class="fa fa-google-plus color_white" aria-hidden="true"></i></a></li>
+                                <li><a href="#"><i class="fa fa-linkedin color_white" aria-hidden="true"></i></a></li>
+                                <li><a href="#"><i class="fa fa-instagram color_white" aria-hidden="true"></i></a></li>
+                            </ul>
+                        </div>-->
+                        </div>
+
+
+
                     </div>
-                    <div class="copyright2 p_20 color_lightgray bg_brown text-center footerp">
+                    <div class="copyright2 p_20 color_lightgray bg_brown text-center footerp" >
                         <p>Pratham Construction @ 2020. All Right Reserved.| Digital partner <a href="https://www.imsolutions.co/" target="_blank" style='color: #ffb32f;'>IM Solutions</a></p>
                     </div>
                 </div>
@@ -2264,6 +2887,8 @@
     <script src="js/jquery.pagepiling.min.js"></script>
     <script src="js/custom.js"></script>
     <script src="https://www.google.com/recaptcha/api.js?render=6LdFLNgUAAAAAJYdNhjXK2PosDbozvImaLqXSdyl"></script>
+
+
     <script>
         var deleteLog = false;
         //	Pagepiling js

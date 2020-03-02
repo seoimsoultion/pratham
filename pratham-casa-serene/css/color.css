@@ -228,3 +228,13 @@ ul#menu li a:hover,.twite i,.twite a:hover,.category_sidebar ul li:hover,
 	box-shadow: 1px 2px 10px rgba(0,0,0,.18);
 
 }
+
+@media (max-width:680px){
+.bg_default{
+	background-color:transparent!important;
+}
+
+.bg_primary{
+	background-color: transparent;
+}
+}

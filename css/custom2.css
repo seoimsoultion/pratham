@@ -15,7 +15,7 @@
 
 @media screen and (max-width:990px) and (min-width:280px) {
   .desktop img{display: none !important}
-  .background13 {background-image: url(../images/pratham/indraprastha/moblie-banner.jpg);}
+  .background13 {background-image: url(../images/slider/banner3-mob.jpg);}
   .mainbanner_content {display: none;}
 }
 

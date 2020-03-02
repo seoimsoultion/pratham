@@ -15,7 +15,7 @@
 		    			</div>
 		    		</div>
 		    		<div class="row">
-		    			<div class="col-md-4 col-lg-4">
+		    			<div class="col-md-4 col-lg-4 desk-banner">
 						<div class="contact_info wow animated fadeInLeft">
 							<ul>
 								<li>
@@ -64,7 +64,7 @@
 							</ul>
 						</div>-->
 					</div>
-					<div class="col-md-4 col-lg-4">
+					<div class="col-md-4 col-lg-4 desk-banner">
 					<iframe  src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1155.690198823871!2d77.550195304585!3d13.018917978649508!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bae3d6b24b1d2b5%3A0xc4abc5155f53f248!2sPRATHAM%20INDRAPRASTHA!5e0!3m2!1sen!2sin!4v1582031734034!5m2!1sen!2sin" width="100%" height="360" frameborder="0" style="border:0;" allowfullscreen=""></iframe>
 					
 					</div>
@@ -545,6 +545,60 @@
 							</div>
 						</form>
 					</div>
+					<div class="col-md-4 col-lg-4 mob-banner">
+					<iframe  src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1155.690198823871!2d77.550195304585!3d13.018917978649508!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bae3d6b24b1d2b5%3A0xc4abc5155f53f248!2sPRATHAM%20INDRAPRASTHA!5e0!3m2!1sen!2sin!4v1582031734034!5m2!1sen!2sin" width="100%" height="360" frameborder="0" style="border:0; padding: 10px 0" allowfullscreen=""></iframe>
+					
+					</div>
+					<div class="col-md-4 col-lg-4 mob-banner">
+						<div class="contact_info ">
+							<ul>
+								<li>
+									<div class="contact_text">
+										<h6 class="font-weight-bold color_default">Address</h6>
+										<span class="color_white">  
+											
+											Ullas Theatre, 49/4, <br/>
+											 R K Road (previously known as MEC Batteries Road),<br/>
+											  Mahalaxmipuram Ward Near,<br/> Bengaluru, Karnataka 560022</span>
+									</div>
+								</li>
+							
+								<li>
+									<div class="contact_text">
+										<h6 class="font-weight-bold color_default">Phone</h6>
+										<span class="color_white">+91 - 7829 583 111 / 7829 180 111<br>
+										 080 - 4171 5678</span>
+									</div>
+								</li>
+								<li>
+									<div class="contact_text color_default">
+										<h6 class="font-weight-bold color_default">Email</h6>
+										<span class="color_white">info@prathamconstructions.com</span>
+									</div>
+								</li>
+
+							</ul>
+							<div class="socal_media_2 mt_15 d-inline-block">
+							<ul>
+								<li><a href="#"><i class="fa fa-facebook color_white" aria-hidden="true"></i></a></li>
+								<li><a href="#"><i class="fa fa-twitter color_white" aria-hidden="true"></i></a></li>
+								<li><a href="#"><i class="fa fa-google-plus color_white" aria-hidden="true"></i></a></li>
+								<li><a href="#"><i class="fa fa-linkedin color_white" aria-hidden="true"></i></a></li>
+								<li><a href="#"><i class="fa fa-instagram color_white" aria-hidden="true"></i></a></li>
+							</ul>
+						</div>
+						</div>
+						<!--<div class="socal_media_2 mt_15 d-inline-block">
+							<ul>
+								<li><a href="#"><i class="fa fa-facebook color_white" aria-hidden="true"></i></a></li>
+								<li><a href="#"><i class="fa fa-twitter color_white" aria-hidden="true"></i></a></li>
+								<li><a href="#"><i class="fa fa-google-plus color_white" aria-hidden="true"></i></a></li>
+								<li><a href="#"><i class="fa fa-linkedin color_white" aria-hidden="true"></i></a></li>
+								<li><a href="#"><i class="fa fa-instagram color_white" aria-hidden="true"></i></a></li>
+							</ul>
+						</div>-->
+					</div>
+					
 					</div>
 					
 					<div class="copyright2 p_20 color_lightgray bg_brown text-center footerp"><p>Pratham Construction @ 2020. All Right Reserved.| Digital partner <a href="https://www.imsolutions.co/" target="_blank" style='color: #ffb32f;'>IM Solutions</a></p></div>

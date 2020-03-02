@@ -83,7 +83,7 @@
 .test {
   position:  absolute;
   bottom:50%;
-  padding: 15px;
+  padding: 5px 10px;
   z-index: 999;
   left:0;
   background: rgba(33, 37, 41, 0.9) ;
