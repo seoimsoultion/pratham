@@ -92,8 +92,28 @@ include 'includes/header.php';
 <script src="https://cdnjs.cloudflare.com/ajax/libs/Swiper/4.4.1/js/swiper.min.js"></script>
 
 <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/2.0.2/TweenMax.min.js"></script>
+<script type="text/javascript">
+	  var mySwiper = new Swiper('.swiper-container',{
+    pagination: '.pagination',
+    loop:true,
+    autoplay: 1000,
+    paginationClickable: true
+  })
+  $('.swiper-container').on('mouseenter', function(e){
+    console.log('stop autoplay');
+    mySwiper.stopAutoplay();
+  })
+  $('.swiper-container').on('mouseleave', function(e){
+    console.log('start autoplay');
+    mySwiper.startAutoplay();
+  })
+</script>
 
 <style type="text/css">
+	.color_white span {padding: 0 5px;}
+	.owl-carousel .owl-nav.disabled {
+    display: none !important;}
+	#about,#why-us,#portfolio,#blog,#testimonial,#contact1 {position: absolute; top:-90px;}
 	.swiper-container {
 
 		width: 100%;
@@ -316,7 +336,7 @@ include 'includes/header.php';
 
 		cursor: pointer;
 
-		background: rgba(0, 0, 0, 0.5);
+		background:transparent;
 
 	}
 
@@ -447,6 +467,9 @@ include 'includes/header.php';
 	}
 
 	@media (max-width: 767px) {
+		
+		.color_white b {width: 40%; float: left;}
+		.color_white span {padding: 0 5%!important;}
 
 		#mixedSlider .MS-content .item {}
 
@@ -565,6 +588,10 @@ include 'includes/header.php';
 	}
 
 	@media (max-width: 767px) {
+		.owl-nav {padding-top: 10px;}
+		.socal_media_2 { width: 100%; }
+		.socal_media_2 ul li {display: inline-block!important; float: none!important;}
+		.socal_media_2 ul {text-align: center!important;}
 
 		#mixedSlider .MS-controls button {
 
@@ -617,6 +644,7 @@ include 'includes/header.php';
 
 
 
+
 	<div class="swiper-container slideshow">
 
 
@@ -627,9 +655,9 @@ include 'includes/header.php';
 
 			<div class="swiper-slide slide">
 
-				<div class="slide-image desk-banner" style="background-image: url(images/slider/banner1.jpg)"></div>
+				<a href="indraprastha.php"> <div class="slide-image desk-banner" style="background-image: url(images/slider/banner1.jpg) ; background-position: left;"></div>
 
-				<div class="slide-image mob-banner" style="background-image: url(images/slider/banner1-mob.jpg)"></div>
+				<div class="slide-image mob-banner" style="background-image: url(images/slider/banner1-mob.jpg)"></div></a>
 
 				<span class="slide-title"></span>
 
@@ -638,10 +666,12 @@ include 'includes/header.php';
 
 
 			<div class="swiper-slide slide">
+				<a href="pratham-casa-serene/index.html">
 
-				<div class="slide-image desk-banner" style="background-image: url(images/slider/banner2.jpg"></div>
+				<div class="slide-image desk-banner" style="background-image: url(images/slider/banner2.jpg);background-position: left;"></div>
 
 				<div class="slide-image mob-banner" style="background-image: url(images/slider/banner2-mob.jpg"></div>
+			</a>
 
 				<span class="slide-title"></span>
 
@@ -650,10 +680,12 @@ include 'includes/header.php';
 
 
 			<div class="swiper-slide slide">
+				<a href="#">
 
-				<div class="slide-image desk-banner" style="background-image: url(images/slider/banner3.jpg"></div>
+				<div class="slide-image desk-banner" style="background-image: url(images/slider/banner3.jpg);background-position: left;"></div>
 
 				<div class="slide-image mob-banner" style="background-image: url(images/slider/banner3-mob.jpg"></div>
+			</a>
 
 				<span class="slide-title"></span>
 
@@ -729,7 +761,8 @@ include 'includes/header.php';
 
 
 
-<section id="about" class="py_80 full_row bg_primary">
+<section  class="py_80 full_row bg_primary">
+	<div id="about"></div>
 
 	<div class="container">
 
@@ -745,7 +778,7 @@ include 'includes/header.php';
 
 				<div class="section_title_1 text-center mx-auto  wow animated slideInUp">
 
-					<h2 class="title text-uppercase color_white"><span class=" mx-auto color_default">&nbsp;</span> About PRATHAM CONSTRUCTION</h2>
+					<h2 class="title text-uppercase color_white"> About PRATHAM CONSTRUCTION</h2>
 
 
 
@@ -755,11 +788,11 @@ include 'includes/header.php';
 
 			<div class="col-md-12 col-lg-12">
 
-				<div class="section_title_1 text-center mx-auto pb_60 wow animated slideInUp">
+				<div class="section_title_1 text-center mx-auto pb_30 wow animated slideInUp">
 
 
 
-					<p class="sub_title color_white ">“Providing the communities we serve with superior products and services by developing innovative
+					<p class="sub_title color_white " style="font-weight: bold;">“Providing the communities we serve with superior products and services by developing innovative
 
 						solutions to improve the quality of life and satisfy customer needs.”
 
@@ -795,7 +828,7 @@ include 'includes/header.php';
 
 						</p>
 
-						<p class="text-right "><a href="about.php" class=" color_white">Read More <i class="fas fa-arrow-right"></i></a></p>
+						<p class="text-right " style="margin-bottom: 20px;"><a href="about.php" class=" color_white">Read More <i class="fas fa-arrow-right"></i></a></p>
 
 
 
@@ -815,7 +848,7 @@ include 'includes/header.php';
 
 
 
-						<img src="images/pratham/about-us.jpg" alt="image">
+						<img src="images/about.gif" alt="image">
 
 						<?php /*<div class="iconround"><a class="video-popup" href="https://www.youtube.com/watch?v=U16kL-npP9s" title="video popup">
 
@@ -857,7 +890,8 @@ include 'includes/header.php';
 
 
 
-<section id="why-us" class="py_80  full_row">
+<section  class="py_80  full_row">
+	<div id="why-us"></div>
 
 	<div class="container">
 
@@ -865,9 +899,9 @@ include 'includes/header.php';
 
 			<div class="col-md-12 col-lg-12">
 
-				<div class="section_title_1 text-center mx-auto pb_60 wow animated slideInUp">
+				<div class="section_title_1 text-center mx-auto pb_30 wow animated slideInUp">
 
-					<h2 class="title text-uppercase"><span class=" mx-auto color_default">&nbsp;</span>Why Pratham Construction</h2>
+					<h2 class="title text-uppercase">Why Pratham Construction</h2>
 
 
 
@@ -953,7 +987,8 @@ include 'includes/header.php';
 
 
 
-<section id="portfolio" class="py_80 bg_secondery full_row">
+<section  class="py_80 bg_secondery full_row">
+	<div id="portfolio"></div>
 
 	<div class="container">
 
@@ -969,7 +1004,7 @@ include 'includes/header.php';
 
 				<div class="section_title_1 text-center mx-auto  wow animated slideInUp">
 
-					<h2 class="title text-uppercase"><span class=" mx-auto color_default">&nbsp;</span> Our Projects</h2>
+					<h2 class="title text-uppercase">Our Projects</h2>
 
 
 
@@ -977,7 +1012,7 @@ include 'includes/header.php';
 
 
 
-				<div class="section_title_1 text-center mx-auto pb_60 wow animated slideInUp" style="width:80%">
+				<div class="section_title_1 text-center mx-auto pb_30 wow animated slideInUp" style="width:80%">
 
 
 
@@ -1029,19 +1064,20 @@ include 'includes/header.php';
 
 						<div class="col-sm-12 details">
 
-							<div class="row">
+							<div class="row" style="font-size: 14px; padding-top: 10px; padding-bottom: 10px; line-height: 24px; ">
 
-								<div class="col-sm-6 color_white"><b class="color_default"> Type :</b> Residential Apartments</div>
+								<div class="col-sm-6 color_white " style="text-align: left;"><b class="color_default"> Type </b> 
+									<span>:</span> Residential Apartments</div>
 
-								<div class="col-sm-6 color_white"><b class="color_default">Area Range :</b> 1250-1655 Sq.Ft</div>
+								<div class="col-sm-6 color_white" style="text-align: left;"><b class="color_default">Area Range </b><span>:</span>  1250-1655 Sq.Ft</div>
 
-								<div class="col-sm-6 color_white"><b class="color_default">Location :</b> Yeshwanthpur</div>
+								<div class="col-sm-6 color_white" style="text-align: left;"><b class="color_default">Location </b><span>:</span> Yeshwanthpur</div>
 
-								<div class="col-sm-6 color_white"><b class="color_default">Classification :</b> 2BHK,3BHK</div>
+								<div class="col-sm-6 color_white" style="text-align: left;"><b class="color_default">Classification </b><span>:</span> 2BHK/3BHK/4BHK</div>
 
-								<div class="col-sm-6 color_white"><b class="color_default">Possession :</b> Dec 2020</div>
+								<div class="col-sm-6 color_white" style="text-align: left;"><b class="color_default">Possession </b><span>:</span> Dec 2020</div>
 
-								<div class="col-sm-6 color_white"><b class="color_default">No. of Units :</b> 253 Units </div>
+								<div class="col-sm-6 color_white" style="text-align: left;"><b class="color_default">No. of Units </b><span>:</span>  253 Units </div>
 
 							</div>
 
@@ -1080,25 +1116,25 @@ include 'includes/header.php';
 							<span class="test-title" wfd-id="167"><b>Casa Serene</b></span>
 							<br />
 							<span class="test-info" wfd-id="166"> <i class="fa fa-map-marker" aria-hidden="true"></i>
-								Near Jaahalli Metro Station</span>
+								Near Jalahalli Metro Station</span>
 
 						</span>
 
 						<div class="col-sm-12 details">
 
-							<div class="row">
+							<div class="row" style="font-size: 14px; padding-top: 10px; padding-bottom: 10px; line-height: 24px;">
 
-								<div class="col-sm-6 color_white"><b class="color_default"> Type :</b> Residential Apartments</div>
+								<div class="col-sm-6 color_white" style="text-align: left;"><b class="color_default"> Type </b><span>:</span> Residential Apartments</div>
 
-								<div class="col-sm-6 color_white"><b class="color_default">Area Range :</b> 1164-1583 Sq.Ft</div>
+								<div class="col-sm-6 color_white" style="text-align: left;"><b class="color_default">Area Range </b> <span>:</span> 1164-1583 Sq.Ft</div>
 
-								<div class="col-sm-6 color_white"><b class="color_default">Location :</b> Prashanth Nagar</div>
+								<div class="col-sm-6 color_white" style="text-align: left;"><b class="color_default">Location </b>  <span>:</span> Jalahalli</div>
 
-								<div class="col-sm-6 color_white"><b class="color_default">Classification :</b> 2BHK,3BHK</div>
+								<div class="col-sm-6 color_white" style="text-align: left;"><b class="color_default">Classification</b>  <span>:</span>  2BHK/3BHK</div>
 
-								<div class="col-sm-6 color_white"><b class="color_default">Possession :</b> Ready To Move</div>
+								<div class="col-sm-6 color_white" style="text-align: left;"><b class="color_default">Possession </b> <span>:</span> Ready To Move</div>
 
-								<div class="col-sm-6 color_white"><b class="color_default">No. of Units :</b> 140 Units </div>
+								<div class="col-sm-6 color_white" style="text-align: left;"><b class="color_default">No. of Units </b> <span>:</span> 140 Units </div>
 
 							</div>
 
@@ -1232,9 +1268,9 @@ include 'includes/header.php';
 
 			<div class="col-md-12 col-lg-12">
 
-				<div class="section_title_1 text-center mx-auto  wow animated slideInUp">
+				<div class="section_title_1 text-center mx-auto  pb_30  wow animated slideInUp">
 
-					<h2 class="title text-uppercase"><span class=" mx-auto color_white">&nbsp; </span> blogs </h2>
+					<h2 class="title text-uppercase">blogs </h2>
 
 
 
@@ -1244,17 +1280,6 @@ include 'includes/header.php';
 
 
 
-			<div class="col-md-12 col-lg-12">
-
-				<div class="section_title_1 text-center mx-auto pb_60 wow animated slideInUp">
-
-
-
-					<p class="sub_title ">Interdum a etiam sagittis vehicula porta. Massa felis eros quam blandit nulla dolor habitant. Ullamcorper quis ornare et proin pellentesque.</p>
-
-				</div>
-
-			</div>
 
 			<div id="carousel-example" class="carousel slide" data-ride="carousel">
 
@@ -1454,19 +1479,19 @@ include 'includes/header.php';
 
 </section>
 
-<section id="blog" class="py_80 experience full_row desk-banner">
-
+<section class="py_80 experience full_row desk-banner">
+<div id="blog"></div>
 	<div class="container">
 
 		<div class="row">
 
 			<div class="col-md-12 col-lg-12">
 
-				<div class="section_title_1 text-center mx-auto  wow animated slideInUp">
+				<div class="section_title_1 text-center mx-auto  pb_30  wow animated slideInUp">
 
-					<h2 class="title text-uppercase"><span class=" mx-auto color_white">&nbsp; </span> blogs </h2>
+					<h2 class="title text-uppercase"> blogs </h2>
 
-					<p class="sub_title ">&nbsp;</p>
+					
 
 				</div>
 
@@ -1476,11 +1501,11 @@ include 'includes/header.php';
 
 
 
-			<div id="mixedSlider">
+			<div class="container">
 
-				<div class="MS-content">
+				<div class="row">
 
-					<div class="item">
+					<div class="col-lg-4">
 
 						<div class="blog_item">
 
@@ -1534,7 +1559,7 @@ include 'includes/header.php';
 
 					</div>
 
-					<div class="item">
+					<div class="col-lg-4">
 
 						<div class="blog_item">
 
@@ -1588,7 +1613,7 @@ include 'includes/header.php';
 
 					</div>
 
-					<div class="item">
+					<div class="col-lg-4">
 
 						<div class="blog_item">
 
@@ -1964,7 +1989,8 @@ are two flagship programs from the Pratham Constructions.</p>
 
 	===================================================-->
 
-<section id="testimonial" class="py_80 full_row bg_white">
+<section  class="py_80 full_row bg_white">
+	<div id="testimonial"></div>
 
 	<div class="container">
 
@@ -1974,7 +2000,7 @@ are two flagship programs from the Pratham Constructions.</p>
 
 				<div class="section_title_1 text-center mx-auto  wow animated slideInUp">
 
-					<h2 class="title text-uppercase"><span class=" mx-auto color_default">&nbsp;</span> Testimonials </h2>
+					<h2 class="title text-uppercase">Testimonials </h2>
 
 
 
@@ -1986,7 +2012,7 @@ are two flagship programs from the Pratham Constructions.</p>
 
 			<div class="col-md-12 col-lg-12">
 
-				<div class="section_title_1 text-center mx-auto pb_60 wow animated slideInUp">
+				<div class="section_title_1 text-center mx-auto  wow animated slideInUp">
 
 
 
@@ -2209,7 +2235,7 @@ include 'includes/footer.php';
 
 				},
 
-				speed: 500,
+				speed: 2000,
 
 				preloadImages: true,
 

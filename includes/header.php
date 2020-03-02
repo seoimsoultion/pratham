@@ -80,7 +80,7 @@
 					<?php //  <li class="nav-item"><a class="nav-link" href="#experience">Location</a></li> ?>
 			
 					 
-					  <li class="nav-item"><a class="nav-link" href="<?php if($url!='home'){ echo 'index.php';}  ?>#contact">Contact</a></li>	
+					  <li class="nav-item"><a class="nav-link" href="<?php if($url!='home'){ echo 'index.php';}  ?>#contact1">Contact</a></li>	
 					</ul>
 				</div>		
 			</nav>

@@ -80,7 +80,7 @@
 	background-color: #ff3926;
 }
 .navbar-light .navbar-nav .nav-link{
-	color: #fff
+	color: #000
 }
 .navbar-light .navbar-nav .nav-link.active,.nav-scroll .navbar-light .navbar-nav .nav-link.active,
 ul#menu li.active a,.contact_massage a{

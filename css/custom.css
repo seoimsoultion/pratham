@@ -83,7 +83,7 @@
 .test {
   position:  absolute;
   bottom:50%;
-  padding: 15px;
+  padding: 5px 10px;
   z-index: 999;
   left:0;
   background: rgba(33, 37, 41, 0.9) ;
@@ -98,7 +98,7 @@
 select.form-control[multiple], select.form-control[size] {height: calc(30px + 15px);}
 .txt-italic { font-style: italic; font-size: 22px; color:#bdbabc;}
 .why-box img {width: 50%; margin: 0 25%;}
-.why-box p {text-align: center!important;}
+.why-box p {text-align: justify!important;}
 a.btn-project {border:1px #FAA61A solid; border-radius: 30px; margin: 10px 0; padding: 13px 40px; 
 }
 .experience {background: #faa61a;}
@@ -159,6 +159,6 @@ input[type=number]::-webkit-outer-spin-button {
 }
 .blog-p-c {
 
-    min-height: 488px;
+    min-height: 348px;
 
 }
