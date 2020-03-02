@@ -6,14 +6,6 @@ include 'includes/header.php';
 
 ?>
 
-
-
-
-
-
-
-
-
 <!------ Include the above in your HEAD tag ---------->
 
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Swiper/4.4.1/css/swiper.min.css">
@@ -778,7 +770,7 @@ include 'includes/header.php';
 
 				<div class="section_title_1 text-center mx-auto  wow animated slideInUp">
 
-					<h2 class="title text-uppercase color_white"> About PRATHAM CONSTRUCTION</h2>
+					<h2 class="title text-uppercase color_white"> About PRATHAM CONSTRUCTIONS</h2>
 
 
 
@@ -1018,8 +1010,7 @@ include 'includes/header.php';
 
 					<p class="sub_title">Pratham Construction is a pioneer in delivering world-class
 						residential spaces. We have pioneered many landmark
-						developments across cities in Gujarat, Karnataka, Maharashtra and many other Indian states. In Bangalore, our flagship
-						programs are Casa Serene and Indraprastha.</p>
+						developments across cities in Gujarat, Karnataka, Maharashtra and many other Indian states. In Bangalore, our flagship projects are Casa Serene and Indraprastha.</p>
 
 				</div>
 
@@ -1323,15 +1314,15 @@ include 'includes/header.php';
 
 
 
-								<div class="admin">
+								<!--<div class="admin">
 
 									<img src="images/about/02.jpg" alt="image">
 
 									<span class="color_white">By - Alok Nath</span>
 
-								</div>
+								</div>-->
 
-								<div class="date float-right color_primary">20 Jan 2019</div>
+								<div class="date float-right color_primary"><img src='images/icons-date.png' style="width: 30px;"/>20 Jan 2019</div>
 
 							</div>
 
@@ -1377,15 +1368,15 @@ include 'includes/header.php';
 
 
 
-								<div class="admin">
+								<!--<div class="admin">
 
 									<img src="images/about/02.jpg" alt="image">
 
 									<span class="color_white">By - Maahir Jain</span>
 
-								</div>
+								</div>-->
 
-								<div class="date float-right color_primary">18 Jan 2019</div>
+								<div class="date float-right color_primary"><img src='images/icons-date.png' style="width: 30px;"/>18 Jan 2019</div>
 
 							</div>
 
@@ -1435,15 +1426,15 @@ include 'includes/header.php';
 
 
 
-								<div class="admin">
+								<!--<div class="admin">
 
 									<img src="images/about/02.jpg" alt="image">
 
 									<span class="color_white">By - Atul Kumar</span>
 
-								</div>
+								</div>-->
 
-								<div class="date float-right color_primary">17 Jan 2019</div>
+								<div class="date float-right color_primary"><img src='images/icons-date.png' style="width: 30px;"/>17 Jan 2019</div>
 
 							</div>
 
@@ -1543,15 +1534,15 @@ include 'includes/header.php';
 
 
 
-								<div class="admin">
+								<!--<div class="admin">
 
 									<img src="images/about/02.jpg" alt="image">
 
 									<span class="color_white">By - Alok Nath</span>
 
-								</div>
+								</div>-->
 
-								<div class="date float-right color_primary">20 Jan 2019</div>
+								<div class="date float-right color_primary"><img src='images/icons-date.png' style="width: 30px;"/>20 Jan 2019</div>
 
 							</div>
 
@@ -1597,15 +1588,15 @@ include 'includes/header.php';
 
 
 
-								<div class="admin">
+								<!--<div class="admin">
 
 									<img src="images/about/02.jpg" alt="image">
 
 									<span class="color_white">By - Maahir Jain</span>
 
-								</div>
+								</div>-->
 
-								<div class="date float-right color_primary">18 Jan 2019</div>
+								<div class="date float-right color_primary"><img src='images/icons-date.png' style="width: 30px;"/>18 Jan 2019</div>
 
 							</div>
 
@@ -1652,16 +1643,15 @@ include 'includes/header.php';
 									are two flagship programs from the Pratham Constructions.</p>
 
 
-
-								<div class="admin">
+								<!--<div class="admin">
 
 									<img src="images/about/02.jpg" alt="image">
 
 									<span class="color_white">By - Atul Kumar</span>
 
-								</div>
+								</div>-->
 
-								<div class="date float-right color_primary">17 Jan 2019</div>
+								<div class="date float-right color_primary"><img src='images/icons-date.png' style="width: 30px;"/> 17 Jan 2019 </div>
 
 							</div>
 

@@ -181,7 +181,7 @@ ul#menu li a:hover,.twite i,.twite a:hover,.category_sidebar ul li:hover,
 }
 .socal_media ul li a, .owl-carousel .owl-nav button.owl-prev,
 .owl-carousel .owl-nav button.owl-next, .srvicon, .contact_icon{
-    border-color: rgba(255, 255, 255, 1) !important;
+    border-color: rgba(255, 255, 255, 0.3) !important;
 }
 
 /*	Overlay Color

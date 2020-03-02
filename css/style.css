@@ -1069,15 +1069,37 @@ ul#menu li a {
 /*==================================================================================
 15.   Services One
 ====================================================================================*/
+@media (min-width: 768px) {
+	.service_one{
+	  border-radius: 20px;
+	  border: 2px solid;
+	  border-color: transparent;
+	  /*margin: 10px 20px;*/
+	  margin: 10px 0px;
+	  /*min-height: 320px;*/
+	  min-height: 350px;
+	  padding: 15px;
+	}
+}
+@media only screen and (max-width: 767px) {
+	.service_one{
+	  border-radius: 20px;
+	  border: 2px solid;
+	  border-color: transparent;
+	  /*margin: 10px 20px;*/
+	  margin: 10px 0px;
+	}
+}
 
-.service_one {
+
+/*.service_one {
     border-radius: 20px;
     border: 2px solid;
     border-color: transparent;
     margin: 10px;
     padding: 20px;
 }
-
+*/
 .service_one:hover {
     border: 2px solid;
 }

@@ -4,8 +4,11 @@ include 'includes/header.php';
 ?>
 <style type="text/css">
 	.owl-carousel .owl-nav.disabled {
-    display: none !important;
-}
+		display: none !important;
+	}
+	.section_title_1{
+		width:80%;
+	}
 </style>
 <!--    Page Banner Start
     ==================================================-->

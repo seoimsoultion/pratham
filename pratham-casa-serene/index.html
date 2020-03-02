@@ -30,99 +30,141 @@
     ==================================================-->
     <title>Pratham Casa Serene</title>
     <style>
-       
-       .zoom1:hover {
-                  -ms-transform: scale(3.1); /* IE 9 */
-                  -webkit-transform: scale(3.1); /* Safari 3-8 */
-                  transform: scale(3.1); 
-                  -webkit-transition: 0.6s ease;
-                  transition: 0.6s ease;
-                  opacity: 1;
-                  border: 1px #ffb32f  solid;
-                  }
-                  .zoom1Jquery {
-                  -ms-transform: scale(3.1); /* IE 9 */
-                  -webkit-transform: scale(3.1); /* Safari 3-8 */
-                  transform: scale(3.1); 
-                  -webkit-transition: 0.6s ease;
-                  transition: 0.6s ease;
-                  opacity: 1;
-                  border: 1px #ffb32f  solid;
-                  }
-                  .zoom1
-                  {
-                  transition: transform .3s;
-                  opacity: 0;
-                  }
-                  .advantageUl{
-                  display: table;
-                  margin: 0 auto !important;
-                  line-height: 25px;
-                  padding-left: 50px;
-                  }
-                  .about-sec {min-height: 702px !important;}
-                  .ol-list {text-align: left; line-height: 29px; padding-left: 20px;}
-                  .master-bottom {width: 100%; padding-bottom: 85px;}
-                  .tp-mask-wrap {top:-50px;font-size: 55px; line-height: 45px;font-family: 'Noto Serif', serif; margin-left: -100px;}
-                  .top-text {font-size: 55px; line-height: 45px;font-family: 'Noto Serif', serif;
-                  text-transform: uppercase;
-                  font-weight: bold;
-                  }
-                  .fad{
-                  animation-duration: .3s;
-                  animation-name: fadeAndScale;
-                  animation-timing-function: cubic-bezier(.71,.55,.62,1.57);
-                  }
-                  @keyframes fadeAndScale {
-                  from {
-                  opacity: 0;
-                  transform: scale(.9, .9);
-                  }
-                  to {
-                  opacity: 1;
-                  transform: scale(1, 1);
-                  }
-                  }
-                  .zoom:hover {
-                  -ms-transform: scale(1.1); /* IE 9 */
-                  -webkit-transform: scale(1.1); /* Safari 3-8 */
-                  transform: scale(1.1); 
-                  -webkit-transition: 0.6s ease;
-                  transition: 0.6s ease;
-                  }
-                  .zoom
-                  {
-                  transition: transform .3s;
-                  }
-                  .zoom-img {width:210px!important; border: 5px #ff7803 solid;}
-                  .fad{
-                  animation-duration: .3s;
-                  animation-name: fadeAndScale;
-                  animation-timing-function: cubic-bezier(.71,.55,.62,1.57);
-                  }
-                  @keyframes fadeAndScale {
-                  from {
-                  opacity: 0;
-                  transform: scale(.9, .9);
-                  }
-                  to {
-                  opacity: 1;
-                  transform: scale(1, 1);
-                  }
-                  }
-                  .container-fluid.amenities-2nd-row
-                  {
-                  margin-bottom: -93px;
-                  }
-        
+        .zoom1:hover {
+            -ms-transform: scale(3.1);
+            /* IE 9 */
+            -webkit-transform: scale(3.1);
+            /* Safari 3-8 */
+            transform: scale(3.1);
+            -webkit-transition: 0.6s ease;
+            transition: 0.6s ease;
+            opacity: 1;
+            border: 1px #ffb32f solid;
+        }
+
+        .zoom1Jquery {
+            -ms-transform: scale(3.1);
+            /* IE 9 */
+            -webkit-transform: scale(3.1);
+            /* Safari 3-8 */
+            transform: scale(3.1);
+            -webkit-transition: 0.6s ease;
+            transition: 0.6s ease;
+            opacity: 1;
+            border: 1px #ffb32f solid;
+        }
+
+        .zoom1 {
+            transition: transform .3s;
+            opacity: 0;
+        }
+
+        .advantageUl {
+            display: table;
+            margin: 0 auto !important;
+            line-height: 25px;
+            padding-left: 50px;
+        }
+
+        .about-sec {
+            min-height: 702px !important;
+        }
+
+        .ol-list {
+            text-align: left;
+            line-height: 29px;
+            padding-left: 20px;
+        }
+
+        .master-bottom {
+            width: 100%;
+            padding-bottom: 85px;
+        }
+
+        .tp-mask-wrap {
+            top: -50px;
+            font-size: 55px;
+            line-height: 45px;
+            font-family: 'Noto Serif', serif;
+            margin-left: -100px;
+        }
+
+        .top-text {
+            font-size: 55px;
+            line-height: 45px;
+            font-family: 'Noto Serif', serif;
+            text-transform: uppercase;
+            font-weight: bold;
+        }
+
+        .fad {
+            animation-duration: .3s;
+            animation-name: fadeAndScale;
+            animation-timing-function: cubic-bezier(.71, .55, .62, 1.57);
+        }
+
+        @keyframes fadeAndScale {
+            from {
+                opacity: 0;
+                transform: scale(.9, .9);
+            }
+
+            to {
+                opacity: 1;
+                transform: scale(1, 1);
+            }
+        }
+
+        .zoom:hover {
+            -ms-transform: scale(1.1);
+            /* IE 9 */
+            -webkit-transform: scale(1.1);
+            /* Safari 3-8 */
+            transform: scale(1.1);
+            -webkit-transition: 0.6s ease;
+            transition: 0.6s ease;
+        }
+
+        .zoom {
+            transition: transform .3s;
+        }
+
+        .zoom-img {
+            width: 210px !important;
+            border: 5px #ff7803 solid;
+        }
+
+        .fad {
+            animation-duration: .3s;
+            animation-name: fadeAndScale;
+            animation-timing-function: cubic-bezier(.71, .55, .62, 1.57);
+        }
+
+        @keyframes fadeAndScale {
+            from {
+                opacity: 0;
+                transform: scale(.9, .9);
+            }
+
+            to {
+                opacity: 1;
+                transform: scale(1, 1);
+            }
+        }
+
+        .container-fluid.amenities-2nd-row {
+            margin-bottom: -93px;
+        }
+
         .location-box {
             width: 70%;
             margin: 0 15% 3%;
         }
-        
+
         .ulExtra {
             display: none;
         }
+
         /*.liReadMore {
 		-webkit-box-shadow: 10px 10px 5px 0px rgba(189, 189, 189, 1);
 		-moz-box-shadow: 10px 10px 5px 0px rgba(189, 189, 189, 1);
@@ -140,7 +182,7 @@
 		color: #FFF;
 		background-color: #d41125;
 	}*/
-        
+
         .holderCircle {
             width: 500px;
             height: 500px;
@@ -148,7 +190,7 @@
             margin: 60px auto;
             position: relative;
         }
-        
+
         .dotCircle {
             width: 100%;
             height: 100%;
@@ -161,7 +203,7 @@
             border-radius: 100%;
             z-index: 20;
         }
-        
+
         .dotCircle .itemDot {
             display: block;
             width: 80px;
@@ -177,7 +219,7 @@
             cursor: pointer;
             border: 2px solid #e6e6e6;
         }
-        
+
         .dotCircle .itemDot .forActive {
             width: 56px;
             height: 56px;
@@ -188,7 +230,7 @@
             bottom: 0;
             display: none;
         }
-        
+
         .dotCircle .itemDot .forActive::after {
             content: '';
             width: 5px;
@@ -200,7 +242,7 @@
             position: absolute;
             border-radius: 100%;
         }
-        
+
         .dotCircle .itemDot .forActive::before {
             content: '';
             width: 6px;
@@ -212,11 +254,11 @@
             border: 6px solid #a733bb;
             right: -39px;
         }
-        
+
         .dotCircle .itemDot.active .forActive {
             display: block;
         }
-        
+
         .round {
             position: absolute;
             left: 40px;
@@ -227,7 +269,7 @@
             border-radius: 100%;
             -webkit-animation: rotation 100s infinite linear;
         }
-        
+
         .dotCircle .itemDot:hover,
         .dotCircle .itemDot.active {
             color: #ffffff;
@@ -248,11 +290,11 @@
             -moz-box-shadow: 0 30px 30px 0 rgba(0, 0, 0, .13);
             box-shadow: 0 30px 30px 0 rgba(0, 0, 0, .13);
         }
-        
+
         .dotCircle .itemDot {
             font-size: 40px;
         }
-        
+
         .contentCircle {
             width: 250px;
             border-radius: 100%;
@@ -262,7 +304,7 @@
             left: 50%;
             transform: translate(-50%, -50%);
         }
-        
+
         .contentCircle .CirItem {
             border-radius: 100%;
             color: #222222;
@@ -281,14 +323,14 @@
             margin: auto;
             line-height: 250px;
         }
-        
+
         .CirItem.active {
             z-index: 1;
             opacity: 1;
             transform: scale(1);
             transition: 0.5s;
         }
-        
+
         .contentCircle .CirItem i {
             font-size: 180px;
             position: absolute;
@@ -298,16 +340,18 @@
             color: #000000;
             opacity: 0.1;
         }
-        
+
         @media only screen and (min-width:300px) and (max-width:599px) {
             .holderCircle {
                 /* width: 300px; height: 300px;*/
                 margin: 110px auto;
             }
+
             .holderCircle::after {
                 width: 100%;
                 height: 100%;
             }
+
             .dotCircle {
                 width: 100%;
                 height: 100%;
@@ -318,37 +362,38 @@
                 margin: auto;
             }
         }
-        
+
         @media only screen and (min-width:600px) and (max-width:767px) {}
-        
+
         @media only screen and (min-width:768px) and (max-width:991px) {}
-        
+
         @media only screen and (min-width:992px) and (max-width:1199px) {}
-        
+
         @media only screen and (min-width:1200px) and (max-width:1499px) {}
-        
+
         .title-box .title {
             font-weight: 600;
             letter-spacing: 2px;
             position: relative;
             z-index: -1;
         }
-        
+
         .title-box span {
             text-shadow: 0 10px 10px rgba(0, 0, 0, .15);
             font-weight: 800;
             color: #640178;
         }
-        
+
         .title-box p {
             font-size: 17px;
             line-height: 2em;
         }
-        
+
         @media (min-width: 360px AND max-width: 740px) {
             .service_one {
                 padding: 0px
             }
+
             .arrowClass li:before {
                 content: '\2192';
                 font-family: 'FontAwesome';
@@ -357,7 +402,7 @@
                 color: #d41125;
             }
         }
-        
+
         @media only screen and (max-width: 767px) {
             .proj_amenities {
                 text-align: center;
@@ -368,16 +413,20 @@
                 padding: 8px;
                 border-radius: 10px;
             }
+
             .proj_amenities img {
                 width: 100px;
             }
+
             .proj_amenities p {
                 font-weight: bold;
                 padding-top: 5px;
             }
+
             .proj_amenities:hover {
                 border: 1px solid #452620;
             }
+
             .arrowClass li:before {
                 content: '\2192';
                 font-family: 'FontAwesome';
@@ -387,12 +436,15 @@
                 color: #d41125;
                 padding: 0px 5px 0px 0px;
             }
+
             .sidebar .nav-logo {
                 width: 40px;
             }
+
             .footerp {
                 margin-left: 13%;
             }
+
             .project-detail-ul li {
                 position: relative;
                 background: url(images/aoc-mic-arrow.png) no-repeat;
@@ -404,6 +456,7 @@
                 line-height: 25px;
                 border-bottom: 0px !important;
             }
+
             .location {
                 -webkit-box-shadow: 1px 2px 10px rgba(0, 0, 0, .18);
                 -moz-box-shadow: 1px 2px 10px rgba(0, 0, 0, .18);
@@ -414,11 +467,12 @@
                 padding: 20px;
                 margin-bottom: 20px;
             }
+
             #desktop {
                 display: none;
             }
         }
-        
+
         @media (min-width: 768px) {
             .proj_amenities {
                 text-align: center;
@@ -430,16 +484,20 @@
                 border-radius: 10px;
                 min-height: 200px;
             }
+
             .proj_amenities img {
                 width: 100px;
             }
+
             .proj_amenities p {
                 font-weight: bold;
                 padding-top: 5px;
             }
+
             .proj_amenities:hover {
                 border: 1px solid #452620;
             }
+
             .arrowClass li:before {
                 content: '\2192';
                 font-family: 'FontAwesome';
@@ -448,6 +506,7 @@
                 color: #d41125;
                 padding: 0px 5px;
             }
+
             .location {
                 -webkit-box-shadow: 1px 2px 10px rgba(0, 0, 0, .18);
                 -moz-box-shadow: 1px 2px 10px rgba(0, 0, 0, .18);
@@ -458,9 +517,11 @@
                 padding: 20px;
                 min-height: 300px
             }
+
             .sidebar .nav-logo {
                 width: 50px;
             }
+
             .project-detail-ul li {
                 position: relative;
                 background: url(images/aoc-mic-arrow.png) no-repeat;
@@ -472,83 +533,91 @@
                 line-height: 25px;
                 border-bottom: 0px !important;
             }
+
             #mobile {
                 display: none;
             }
         }
-        
+
         .project-detail-ul li img {
             width: 20px;
             position: absolute;
             left: 0;
             top: 0;
         }
-        
+
         .project-detail-ul li:nth-of-type(2) img {
             width: 22px;
         }
-        
+
         .project-detail-ul li:nth-of-type(3) img {
             width: 19px;
         }
-        
+
         #mysidenav img {
             width: 100px;
         }
-        
+
         #more {
             display: none;
         }
-        
+
         #more1 {
             display: none;
         }
-        
+
         button#myBtn1 {
             margin-top: 10px;
         }
-        
+
         button#myBtn2 {
             margin-top: 10px;
         }
-        
+
         #myBtn {
             color: #ffb32f;
         }
-        
+
         #myBtn1 {
             color: red;
         }
-        
+
         #myBtn2 {
             color: #ffb32f !important;
         }
 
 
-@media (max-width: 680px) {
+        @media (max-width: 680px) {
 
-        .location-box {
-            width: 90%;
-            margin: 0 5% 5% 5%;
+            .location-box {
+                width: 90%;
+                margin: 0 5% 5% 5%;
+            }
+
+            .about_one {
+                margin-right: 22px;
+            }
+
+            .contact_text {
+                display: block !important;
+                text-align: center !important;
+            }
+
+            .contactForm {
+                margin-top: 20px;
+            }
         }
-        .about_one {margin-right: 22px;}
-        .contact_text {
-    display: block!important;
-    text-align: center!important;}
-    .contactForm {margin-top: 20px;}
-    }
     </style>
 </head>
 
 <body id="top" class="page-load">
-                    <div style="position: fixed; z-index: 99999999999; left:0; bottom:3%;">
-               <a href="https://api.whatsapp.com/send?phone=917829583111" target="_blank"><img src="images/watsappnew.png" width="100%"
-                     height="100%" alt="Whatsapp" /></a>
-            </div>
+    <div style="position: fixed; z-index: 99999999999; left:0; bottom:3%;">
+        <a href="https://api.whatsapp.com/send?phone=917829583111" target="_blank"><img src="images/watsappnew.png" width="100%" height="100%" alt="Whatsapp" /></a>
+    </div>
     <!-- Color Settings Start
 	==================================================-->
     <div id="color-panel" class="color-panel">
-        <div class="on-panel color_white bg_default">
+        <div class="on-panel color_white" style='background-color:#ffb32f;'>
             <div class="text-center icon-spinner">
                 <i class="fa fa-envelope fa-3x pop-icon" aria-hidden="true"></i>
             </div>
@@ -577,437 +646,437 @@
                         <div class="form-group">
                             <select class="form-control" size="0" name="ccode" wfd-id="29">
 
-								<option value=""> Select County </option>
+                                <option value=""> Select County </option>
 
-								<option data-countrycode="GB" value="44">UK (+44)</option>
+                                <option data-countrycode="GB" value="44">UK (+44)</option>
 
-								<option data-countrycode="US" value="1">USA (+1)</option>
+                                <option data-countrycode="US" value="1">USA (+1)</option>
 
-								<option data-countrycode="DZ" value="213">Algeria (+213)</option>
+                                <option data-countrycode="DZ" value="213">Algeria (+213)</option>
 
-								<option data-countrycode="AD" value="376">Andorra (+376)</option>
+                                <option data-countrycode="AD" value="376">Andorra (+376)</option>
 
-								<option data-countrycode="AO" value="244">Angola (+244)</option>
+                                <option data-countrycode="AO" value="244">Angola (+244)</option>
 
-								<option data-countrycode="AI" value="1264">Anguilla (+1264)</option>
+                                <option data-countrycode="AI" value="1264">Anguilla (+1264)</option>
 
-								<option data-countrycode="AG" value="1268">Antigua &amp; Barbuda (+1268)</option>
+                                <option data-countrycode="AG" value="1268">Antigua &amp; Barbuda (+1268)</option>
 
-								<option data-countrycode="AR" value="54">Argentina (+54)</option>
+                                <option data-countrycode="AR" value="54">Argentina (+54)</option>
 
-								<option data-countrycode="AM" value="374">Armenia (+374)</option>
+                                <option data-countrycode="AM" value="374">Armenia (+374)</option>
 
-								<option data-countrycode="AW" value="297">Aruba (+297)</option>
+                                <option data-countrycode="AW" value="297">Aruba (+297)</option>
 
-								<option data-countrycode="AU" value="61">Australia (+61)</option>
+                                <option data-countrycode="AU" value="61">Australia (+61)</option>
 
-								<option data-countrycode="AT" value="43">Austria (+43)</option>
+                                <option data-countrycode="AT" value="43">Austria (+43)</option>
 
-								<option data-countrycode="AZ" value="994">Azerbaijan (+994)</option>
+                                <option data-countrycode="AZ" value="994">Azerbaijan (+994)</option>
 
-								<option data-countrycode="BS" value="1242">Bahamas (+1242)</option>
+                                <option data-countrycode="BS" value="1242">Bahamas (+1242)</option>
 
-								<option data-countrycode="BH" value="973">Bahrain (+973)</option>
+                                <option data-countrycode="BH" value="973">Bahrain (+973)</option>
 
-								<option data-countrycode="BD" value="880">Bangladesh (+880)</option>
+                                <option data-countrycode="BD" value="880">Bangladesh (+880)</option>
 
-								<option data-countrycode="BB" value="1246">Barbados (+1246)</option>
+                                <option data-countrycode="BB" value="1246">Barbados (+1246)</option>
 
-								<option data-countrycode="BY" value="375">Belarus (+375)</option>
+                                <option data-countrycode="BY" value="375">Belarus (+375)</option>
 
-								<option data-countrycode="BE" value="32">Belgium (+32)</option>
+                                <option data-countrycode="BE" value="32">Belgium (+32)</option>
 
-								<option data-countrycode="BZ" value="501">Belize (+501)</option>
+                                <option data-countrycode="BZ" value="501">Belize (+501)</option>
 
-								<option data-countrycode="BJ" value="229">Benin (+229)</option>
+                                <option data-countrycode="BJ" value="229">Benin (+229)</option>
 
-								<option data-countrycode="BM" value="1441">Bermuda (+1441)</option>
+                                <option data-countrycode="BM" value="1441">Bermuda (+1441)</option>
 
-								<option data-countrycode="BT" value="975">Bhutan (+975)</option>
+                                <option data-countrycode="BT" value="975">Bhutan (+975)</option>
 
-								<option data-countrycode="BO" value="591">Bolivia (+591)</option>
+                                <option data-countrycode="BO" value="591">Bolivia (+591)</option>
 
-								<option data-countrycode="BA" value="387">Bosnia Herzegovina (+387)</option>
+                                <option data-countrycode="BA" value="387">Bosnia Herzegovina (+387)</option>
 
-								<option data-countrycode="BW" value="267">Botswana (+267)</option>
+                                <option data-countrycode="BW" value="267">Botswana (+267)</option>
 
-								<option data-countrycode="BR" value="55">Brazil (+55)</option>
+                                <option data-countrycode="BR" value="55">Brazil (+55)</option>
 
-								<option data-countrycode="BN" value="673">Brunei (+673)</option>
+                                <option data-countrycode="BN" value="673">Brunei (+673)</option>
 
-								<option data-countrycode="BG" value="359">Bulgaria (+359)</option>
+                                <option data-countrycode="BG" value="359">Bulgaria (+359)</option>
 
-								<option data-countrycode="BF" value="226">Burkina Faso (+226)</option>
+                                <option data-countrycode="BF" value="226">Burkina Faso (+226)</option>
 
-								<option data-countrycode="BI" value="257">Burundi (+257)</option>
+                                <option data-countrycode="BI" value="257">Burundi (+257)</option>
 
-								<option data-countrycode="KH" value="855">Cambodia (+855)</option>
+                                <option data-countrycode="KH" value="855">Cambodia (+855)</option>
 
-								<option data-countrycode="CM" value="237">Cameroon (+237)</option>
+                                <option data-countrycode="CM" value="237">Cameroon (+237)</option>
 
-								<option data-countrycode="CA" value="1">Canada (+1)</option>
+                                <option data-countrycode="CA" value="1">Canada (+1)</option>
 
-								<option data-countrycode="CV" value="238">Cape Verde Islands (+238)</option>
+                                <option data-countrycode="CV" value="238">Cape Verde Islands (+238)</option>
 
-								<option data-countrycode="KY" value="1345">Cayman Islands (+1345)</option>
+                                <option data-countrycode="KY" value="1345">Cayman Islands (+1345)</option>
 
-								<option data-countrycode="CF" value="236">Central African Republic (+236)</option>
+                                <option data-countrycode="CF" value="236">Central African Republic (+236)</option>
 
-								<option data-countrycode="CL" value="56">Chile (+56)</option>
+                                <option data-countrycode="CL" value="56">Chile (+56)</option>
 
-								<option data-countrycode="CN" value="86">China (+86)</option>
+                                <option data-countrycode="CN" value="86">China (+86)</option>
 
-								<option data-countrycode="CO" value="57">Colombia (+57)</option>
+                                <option data-countrycode="CO" value="57">Colombia (+57)</option>
 
-								<option data-countrycode="KM" value="269">Comoros (+269)</option>
+                                <option data-countrycode="KM" value="269">Comoros (+269)</option>
 
-								<option data-countrycode="CG" value="242">Congo (+242)</option>
+                                <option data-countrycode="CG" value="242">Congo (+242)</option>
 
-								<option data-countrycode="CK" value="682">Cook Islands (+682)</option>
+                                <option data-countrycode="CK" value="682">Cook Islands (+682)</option>
 
-								<option data-countrycode="CR" value="506">Costa Rica (+506)</option>
+                                <option data-countrycode="CR" value="506">Costa Rica (+506)</option>
 
-								<option data-countrycode="HR" value="385">Croatia (+385)</option>
+                                <option data-countrycode="HR" value="385">Croatia (+385)</option>
 
-								<option data-countrycode="CU" value="53">Cuba (+53)</option>
+                                <option data-countrycode="CU" value="53">Cuba (+53)</option>
 
-								<option data-countrycode="CY" value="90392">Cyprus North (+90392)</option>
+                                <option data-countrycode="CY" value="90392">Cyprus North (+90392)</option>
 
-								<option data-countrycode="CY" value="357">Cyprus South (+357)</option>
+                                <option data-countrycode="CY" value="357">Cyprus South (+357)</option>
 
-								<option data-countrycode="CZ" value="42">Czech Republic (+42)</option>
+                                <option data-countrycode="CZ" value="42">Czech Republic (+42)</option>
 
-								<option data-countrycode="DK" value="45">Denmark (+45)</option>
+                                <option data-countrycode="DK" value="45">Denmark (+45)</option>
 
-								<option data-countrycode="DJ" value="253">Djibouti (+253)</option>
+                                <option data-countrycode="DJ" value="253">Djibouti (+253)</option>
 
-								<option data-countrycode="DM" value="1809">Dominica (+1809)</option>
+                                <option data-countrycode="DM" value="1809">Dominica (+1809)</option>
 
-								<option data-countrycode="DO" value="1809">Dominican Republic (+1809)</option>
+                                <option data-countrycode="DO" value="1809">Dominican Republic (+1809)</option>
 
-								<option data-countrycode="EC" value="593">Ecuador (+593)</option>
+                                <option data-countrycode="EC" value="593">Ecuador (+593)</option>
 
-								<option data-countrycode="EG" value="20">Egypt (+20)</option>
+                                <option data-countrycode="EG" value="20">Egypt (+20)</option>
 
-								<option data-countrycode="SV" value="503">El Salvador (+503)</option>
+                                <option data-countrycode="SV" value="503">El Salvador (+503)</option>
 
-								<option data-countrycode="GQ" value="240">Equatorial Guinea (+240)</option>
+                                <option data-countrycode="GQ" value="240">Equatorial Guinea (+240)</option>
 
-								<option data-countrycode="ER" value="291">Eritrea (+291)</option>
+                                <option data-countrycode="ER" value="291">Eritrea (+291)</option>
 
-								<option data-countrycode="EE" value="372">Estonia (+372)</option>
+                                <option data-countrycode="EE" value="372">Estonia (+372)</option>
 
-								<option data-countrycode="ET" value="251">Ethiopia (+251)</option>
+                                <option data-countrycode="ET" value="251">Ethiopia (+251)</option>
 
-								<option data-countrycode="FK" value="500">Falkland Islands (+500)</option>
+                                <option data-countrycode="FK" value="500">Falkland Islands (+500)</option>
 
-								<option data-countrycode="FO" value="298">Faroe Islands (+298)</option>
+                                <option data-countrycode="FO" value="298">Faroe Islands (+298)</option>
 
-								<option data-countrycode="FJ" value="679">Fiji (+679)</option>
+                                <option data-countrycode="FJ" value="679">Fiji (+679)</option>
 
-								<option data-countrycode="FI" value="358">Finland (+358)</option>
+                                <option data-countrycode="FI" value="358">Finland (+358)</option>
 
-								<option data-countrycode="FR" value="33">France (+33)</option>
+                                <option data-countrycode="FR" value="33">France (+33)</option>
 
-								<option data-countrycode="GF" value="594">French Guiana (+594)</option>
+                                <option data-countrycode="GF" value="594">French Guiana (+594)</option>
 
-								<option data-countrycode="PF" value="689">French Polynesia (+689)</option>
+                                <option data-countrycode="PF" value="689">French Polynesia (+689)</option>
 
-								<option data-countrycode="GA" value="241">Gabon (+241)</option>
+                                <option data-countrycode="GA" value="241">Gabon (+241)</option>
 
-								<option data-countrycode="GM" value="220">Gambia (+220)</option>
+                                <option data-countrycode="GM" value="220">Gambia (+220)</option>
 
-								<option data-countrycode="GE" value="7880">Georgia (+7880)</option>
+                                <option data-countrycode="GE" value="7880">Georgia (+7880)</option>
 
-								<option data-countrycode="DE" value="49">Germany (+49)</option>
+                                <option data-countrycode="DE" value="49">Germany (+49)</option>
 
-								<option data-countrycode="GH" value="233">Ghana (+233)</option>
+                                <option data-countrycode="GH" value="233">Ghana (+233)</option>
 
-								<option data-countrycode="GI" value="350">Gibraltar (+350)</option>
+                                <option data-countrycode="GI" value="350">Gibraltar (+350)</option>
 
-								<option data-countrycode="GR" value="30">Greece (+30)</option>
+                                <option data-countrycode="GR" value="30">Greece (+30)</option>
 
-								<option data-countrycode="GL" value="299">Greenland (+299)</option>
+                                <option data-countrycode="GL" value="299">Greenland (+299)</option>
 
-								<option data-countrycode="GD" value="1473">Grenada (+1473)</option>
+                                <option data-countrycode="GD" value="1473">Grenada (+1473)</option>
 
-								<option data-countrycode="GP" value="590">Guadeloupe (+590)</option>
+                                <option data-countrycode="GP" value="590">Guadeloupe (+590)</option>
 
-								<option data-countrycode="GU" value="671">Guam (+671)</option>
+                                <option data-countrycode="GU" value="671">Guam (+671)</option>
 
-								<option data-countrycode="GT" value="502">Guatemala (+502)</option>
+                                <option data-countrycode="GT" value="502">Guatemala (+502)</option>
 
-								<option data-countrycode="GN" value="224">Guinea (+224)</option>
+                                <option data-countrycode="GN" value="224">Guinea (+224)</option>
 
-								<option data-countrycode="GW" value="245">Guinea - Bissau (+245)</option>
+                                <option data-countrycode="GW" value="245">Guinea - Bissau (+245)</option>
 
-								<option data-countrycode="GY" value="592">Guyana (+592)</option>
+                                <option data-countrycode="GY" value="592">Guyana (+592)</option>
 
-								<option data-countrycode="HT" value="509">Haiti (+509)</option>
+                                <option data-countrycode="HT" value="509">Haiti (+509)</option>
 
-								<option data-countrycode="HN" value="504">Honduras (+504)</option>
+                                <option data-countrycode="HN" value="504">Honduras (+504)</option>
 
-								<option data-countrycode="HK" value="852">Hong Kong (+852)</option>
+                                <option data-countrycode="HK" value="852">Hong Kong (+852)</option>
 
-								<option data-countrycode="HU" value="36">Hungary (+36)</option>
+                                <option data-countrycode="HU" value="36">Hungary (+36)</option>
 
-								<option data-countrycode="IS" value="354">Iceland (+354)</option>
+                                <option data-countrycode="IS" value="354">Iceland (+354)</option>
 
-								<option data-countrycode="IN" value="91" selected="">Ind (+91)</option>
+                                <option data-countrycode="IN" value="91" selected="">Ind (+91)</option>
 
-								<option data-countrycode="ID" value="62">Indonesia (+62)</option>
+                                <option data-countrycode="ID" value="62">Indonesia (+62)</option>
 
-								<option data-countrycode="IR" value="98">Iran (+98)</option>
+                                <option data-countrycode="IR" value="98">Iran (+98)</option>
 
-								<option data-countrycode="IQ" value="964">Iraq (+964)</option>
+                                <option data-countrycode="IQ" value="964">Iraq (+964)</option>
 
-								<option data-countrycode="IE" value="353">Ireland (+353)</option>
+                                <option data-countrycode="IE" value="353">Ireland (+353)</option>
 
-								<option data-countrycode="IL" value="972">Israel (+972)</option>
+                                <option data-countrycode="IL" value="972">Israel (+972)</option>
 
-								<option data-countrycode="IT" value="39">Italy (+39)</option>
+                                <option data-countrycode="IT" value="39">Italy (+39)</option>
 
-								<option data-countrycode="JM" value="1876">Jamaica (+1876)</option>
+                                <option data-countrycode="JM" value="1876">Jamaica (+1876)</option>
 
-								<option data-countrycode="JP" value="81">Japan (+81)</option>
+                                <option data-countrycode="JP" value="81">Japan (+81)</option>
 
-								<option data-countrycode="JO" value="962">Jordan (+962)</option>
+                                <option data-countrycode="JO" value="962">Jordan (+962)</option>
 
-								<option data-countrycode="KZ" value="7">Kazakhstan (+7)</option>
+                                <option data-countrycode="KZ" value="7">Kazakhstan (+7)</option>
 
-								<option data-countrycode="KE" value="254">Kenya (+254)</option>
+                                <option data-countrycode="KE" value="254">Kenya (+254)</option>
 
-								<option data-countrycode="KI" value="686">Kiribati (+686)</option>
+                                <option data-countrycode="KI" value="686">Kiribati (+686)</option>
 
-								<option data-countrycode="KP" value="850">Korea North (+850)</option>
+                                <option data-countrycode="KP" value="850">Korea North (+850)</option>
 
-								<option data-countrycode="KR" value="82">Korea South (+82)</option>
+                                <option data-countrycode="KR" value="82">Korea South (+82)</option>
 
-								<option data-countrycode="KW" value="965">Kuwait (+965)</option>
+                                <option data-countrycode="KW" value="965">Kuwait (+965)</option>
 
-								<option data-countrycode="KG" value="996">Kyrgyzstan (+996)</option>
+                                <option data-countrycode="KG" value="996">Kyrgyzstan (+996)</option>
 
-								<option data-countrycode="LA" value="856">Laos (+856)</option>
+                                <option data-countrycode="LA" value="856">Laos (+856)</option>
 
-								<option data-countrycode="LV" value="371">Latvia (+371)</option>
+                                <option data-countrycode="LV" value="371">Latvia (+371)</option>
 
-								<option data-countrycode="LB" value="961">Lebanon (+961)</option>
+                                <option data-countrycode="LB" value="961">Lebanon (+961)</option>
 
-								<option data-countrycode="LS" value="266">Lesotho (+266)</option>
+                                <option data-countrycode="LS" value="266">Lesotho (+266)</option>
 
-								<option data-countrycode="LR" value="231">Liberia (+231)</option>
+                                <option data-countrycode="LR" value="231">Liberia (+231)</option>
 
-								<option data-countrycode="LY" value="218">Libya (+218)</option>
+                                <option data-countrycode="LY" value="218">Libya (+218)</option>
 
-								<option data-countrycode="LI" value="417">Liechtenstein (+417)</option>
+                                <option data-countrycode="LI" value="417">Liechtenstein (+417)</option>
 
-								<option data-countrycode="LT" value="370">Lithuania (+370)</option>
+                                <option data-countrycode="LT" value="370">Lithuania (+370)</option>
 
-								<option data-countrycode="LU" value="352">Luxembourg (+352)</option>
+                                <option data-countrycode="LU" value="352">Luxembourg (+352)</option>
 
-								<option data-countrycode="MO" value="853">Macao (+853)</option>
+                                <option data-countrycode="MO" value="853">Macao (+853)</option>
 
-								<option data-countrycode="MK" value="389">Macedonia (+389)</option>
+                                <option data-countrycode="MK" value="389">Macedonia (+389)</option>
 
-								<option data-countrycode="MG" value="261">Madagascar (+261)</option>
+                                <option data-countrycode="MG" value="261">Madagascar (+261)</option>
 
-								<option data-countrycode="MW" value="265">Malawi (+265)</option>
+                                <option data-countrycode="MW" value="265">Malawi (+265)</option>
 
-								<option data-countrycode="MY" value="60">Malaysia (+60)</option>
+                                <option data-countrycode="MY" value="60">Malaysia (+60)</option>
 
-								<option data-countrycode="MV" value="960">Maldives (+960)</option>
+                                <option data-countrycode="MV" value="960">Maldives (+960)</option>
 
-								<option data-countrycode="ML" value="223">Mali (+223)</option>
+                                <option data-countrycode="ML" value="223">Mali (+223)</option>
 
-								<option data-countrycode="MT" value="356">Malta (+356)</option>
+                                <option data-countrycode="MT" value="356">Malta (+356)</option>
 
-								<option data-countrycode="MH" value="692">Marshall Islands (+692)</option>
+                                <option data-countrycode="MH" value="692">Marshall Islands (+692)</option>
 
-								<option data-countrycode="MQ" value="596">Martinique (+596)</option>
+                                <option data-countrycode="MQ" value="596">Martinique (+596)</option>
 
-								<option data-countrycode="MR" value="222">Mauritania (+222)</option>
+                                <option data-countrycode="MR" value="222">Mauritania (+222)</option>
 
-								<option data-countrycode="YT" value="269">Mayotte (+269)</option>
+                                <option data-countrycode="YT" value="269">Mayotte (+269)</option>
 
-								<option data-countrycode="MX" value="52">Mexico (+52)</option>
+                                <option data-countrycode="MX" value="52">Mexico (+52)</option>
 
-								<option data-countrycode="FM" value="691">Micronesia (+691)</option>
+                                <option data-countrycode="FM" value="691">Micronesia (+691)</option>
 
-								<option data-countrycode="MD" value="373">Moldova (+373)</option>
+                                <option data-countrycode="MD" value="373">Moldova (+373)</option>
 
-								<option data-countrycode="MC" value="377">Monaco (+377)</option>
+                                <option data-countrycode="MC" value="377">Monaco (+377)</option>
 
-								<option data-countrycode="MN" value="976">Mongolia (+976)</option>
+                                <option data-countrycode="MN" value="976">Mongolia (+976)</option>
 
-								<option data-countrycode="MS" value="1664">Montserrat (+1664)</option>
+                                <option data-countrycode="MS" value="1664">Montserrat (+1664)</option>
 
-								<option data-countrycode="MA" value="212">Morocco (+212)</option>
+                                <option data-countrycode="MA" value="212">Morocco (+212)</option>
 
-								<option data-countrycode="MZ" value="258">Mozambique (+258)</option>
+                                <option data-countrycode="MZ" value="258">Mozambique (+258)</option>
 
-								<option data-countrycode="MN" value="95">Myanmar (+95)</option>
+                                <option data-countrycode="MN" value="95">Myanmar (+95)</option>
 
-								<option data-countrycode="NA" value="264">Namibia (+264)</option>
+                                <option data-countrycode="NA" value="264">Namibia (+264)</option>
 
-								<option data-countrycode="NR" value="674">Nauru (+674)</option>
+                                <option data-countrycode="NR" value="674">Nauru (+674)</option>
 
-								<option data-countrycode="NP" value="977">Nepal (+977)</option>
+                                <option data-countrycode="NP" value="977">Nepal (+977)</option>
 
-								<option data-countrycode="NL" value="31">Netherlands (+31)</option>
+                                <option data-countrycode="NL" value="31">Netherlands (+31)</option>
 
-								<option data-countrycode="NC" value="687">New Caledonia (+687)</option>
+                                <option data-countrycode="NC" value="687">New Caledonia (+687)</option>
 
-								<option data-countrycode="NZ" value="64">New Zealand (+64)</option>
+                                <option data-countrycode="NZ" value="64">New Zealand (+64)</option>
 
-								<option data-countrycode="NI" value="505">Nicaragua (+505)</option>
+                                <option data-countrycode="NI" value="505">Nicaragua (+505)</option>
 
-								<option data-countrycode="NE" value="227">Niger (+227)</option>
+                                <option data-countrycode="NE" value="227">Niger (+227)</option>
 
-								<option data-countrycode="NG" value="234">Nigeria (+234)</option>
+                                <option data-countrycode="NG" value="234">Nigeria (+234)</option>
 
-								<option data-countrycode="NU" value="683">Niue (+683)</option>
+                                <option data-countrycode="NU" value="683">Niue (+683)</option>
 
-								<option data-countrycode="NF" value="672">Norfolk Islands (+672)</option>
+                                <option data-countrycode="NF" value="672">Norfolk Islands (+672)</option>
 
-								<option data-countrycode="NP" value="670">Northern Marianas (+670)</option>
+                                <option data-countrycode="NP" value="670">Northern Marianas (+670)</option>
 
-								<option data-countrycode="NO" value="47">Norway (+47)</option>
+                                <option data-countrycode="NO" value="47">Norway (+47)</option>
 
-								<option data-countrycode="OM" value="968">Oman (+968)</option>
+                                <option data-countrycode="OM" value="968">Oman (+968)</option>
 
-								<option data-countrycode="PW" value="680">Palau (+680)</option>
+                                <option data-countrycode="PW" value="680">Palau (+680)</option>
 
-								<option data-countrycode="PA" value="507">Panama (+507)</option>
+                                <option data-countrycode="PA" value="507">Panama (+507)</option>
 
-								<option data-countrycode="PG" value="675">Papua New Guinea (+675)</option>
+                                <option data-countrycode="PG" value="675">Papua New Guinea (+675)</option>
 
-								<option data-countrycode="PY" value="595">Paraguay (+595)</option>
+                                <option data-countrycode="PY" value="595">Paraguay (+595)</option>
 
-								<option data-countrycode="PE" value="51">Peru (+51)</option>
+                                <option data-countrycode="PE" value="51">Peru (+51)</option>
 
-								<option data-countrycode="PH" value="63">Philippines (+63)</option>
+                                <option data-countrycode="PH" value="63">Philippines (+63)</option>
 
-								<option data-countrycode="PL" value="48">Poland (+48)</option>
+                                <option data-countrycode="PL" value="48">Poland (+48)</option>
 
-								<option data-countrycode="PT" value="351">Portugal (+351)</option>
+                                <option data-countrycode="PT" value="351">Portugal (+351)</option>
 
-								<option data-countrycode="PR" value="1787">Puerto Rico (+1787)</option>
+                                <option data-countrycode="PR" value="1787">Puerto Rico (+1787)</option>
 
-								<option data-countrycode="QA" value="974">Qatar (+974)</option>
+                                <option data-countrycode="QA" value="974">Qatar (+974)</option>
 
-								<option data-countrycode="RE" value="262">Reunion (+262)</option>
+                                <option data-countrycode="RE" value="262">Reunion (+262)</option>
 
-								<option data-countrycode="RO" value="40">Romania (+40)</option>
+                                <option data-countrycode="RO" value="40">Romania (+40)</option>
 
-								<option data-countrycode="RU" value="7">Russia (+7)</option>
+                                <option data-countrycode="RU" value="7">Russia (+7)</option>
 
-								<option data-countrycode="RW" value="250">Rwanda (+250)</option>
+                                <option data-countrycode="RW" value="250">Rwanda (+250)</option>
 
-								<option data-countrycode="SM" value="378">San Marino (+378)</option>
+                                <option data-countrycode="SM" value="378">San Marino (+378)</option>
 
-								<option data-countrycode="ST" value="239">Sao Tome &amp; Principe (+239)</option>
+                                <option data-countrycode="ST" value="239">Sao Tome &amp; Principe (+239)</option>
 
-								<option data-countrycode="SA" value="966">Saudi Arabia (+966)</option>
+                                <option data-countrycode="SA" value="966">Saudi Arabia (+966)</option>
 
-								<option data-countrycode="SN" value="221">Senegal (+221)</option>
+                                <option data-countrycode="SN" value="221">Senegal (+221)</option>
 
-								<option data-countrycode="CS" value="381">Serbia (+381)</option>
+                                <option data-countrycode="CS" value="381">Serbia (+381)</option>
 
-								<option data-countrycode="SC" value="248">Seychelles (+248)</option>
+                                <option data-countrycode="SC" value="248">Seychelles (+248)</option>
 
-								<option data-countrycode="SL" value="232">Sierra Leone (+232)</option>
+                                <option data-countrycode="SL" value="232">Sierra Leone (+232)</option>
 
-								<option data-countrycode="SG" value="65">Singapore (+65)</option>
+                                <option data-countrycode="SG" value="65">Singapore (+65)</option>
 
-								<option data-countrycode="SK" value="421">Slovak Republic (+421)</option>
+                                <option data-countrycode="SK" value="421">Slovak Republic (+421)</option>
 
-								<option data-countrycode="SI" value="386">Slovenia (+386)</option>
+                                <option data-countrycode="SI" value="386">Slovenia (+386)</option>
 
-								<option data-countrycode="SB" value="677">Solomon Islands (+677)</option>
+                                <option data-countrycode="SB" value="677">Solomon Islands (+677)</option>
 
-								<option data-countrycode="SO" value="252">Somalia (+252)</option>
+                                <option data-countrycode="SO" value="252">Somalia (+252)</option>
 
-								<option data-countrycode="ZA" value="27">South Africa (+27)</option>
+                                <option data-countrycode="ZA" value="27">South Africa (+27)</option>
 
-								<option data-countrycode="ES" value="34">Spain (+34)</option>
+                                <option data-countrycode="ES" value="34">Spain (+34)</option>
 
-								<option data-countrycode="LK" value="94">Sri Lanka (+94)</option>
+                                <option data-countrycode="LK" value="94">Sri Lanka (+94)</option>
 
-								<option data-countrycode="SH" value="290">St. Helena (+290)</option>
+                                <option data-countrycode="SH" value="290">St. Helena (+290)</option>
 
-								<option data-countrycode="KN" value="1869">St. Kitts (+1869)</option>
+                                <option data-countrycode="KN" value="1869">St. Kitts (+1869)</option>
 
-								<option data-countrycode="SC" value="1758">St. Lucia (+1758)</option>
+                                <option data-countrycode="SC" value="1758">St. Lucia (+1758)</option>
 
-								<option data-countrycode="SD" value="249">Sudan (+249)</option>
+                                <option data-countrycode="SD" value="249">Sudan (+249)</option>
 
-								<option data-countrycode="SR" value="597">Suriname (+597)</option>
+                                <option data-countrycode="SR" value="597">Suriname (+597)</option>
 
-								<option data-countrycode="SZ" value="268">Swaziland (+268)</option>
+                                <option data-countrycode="SZ" value="268">Swaziland (+268)</option>
 
-								<option data-countrycode="SE" value="46">Sweden (+46)</option>
+                                <option data-countrycode="SE" value="46">Sweden (+46)</option>
 
-								<option data-countrycode="CH" value="41">Switzerland (+41)</option>
+                                <option data-countrycode="CH" value="41">Switzerland (+41)</option>
 
-								<option data-countrycode="SI" value="963">Syria (+963)</option>
+                                <option data-countrycode="SI" value="963">Syria (+963)</option>
 
-								<option data-countrycode="TW" value="886">Taiwan (+886)</option>
+                                <option data-countrycode="TW" value="886">Taiwan (+886)</option>
 
-								<option data-countrycode="TJ" value="7">Tajikstan (+7)</option>
+                                <option data-countrycode="TJ" value="7">Tajikstan (+7)</option>
 
-								<option data-countrycode="TH" value="66">Thailand (+66)</option>
+                                <option data-countrycode="TH" value="66">Thailand (+66)</option>
 
-								<option data-countrycode="TG" value="228">Togo (+228)</option>
+                                <option data-countrycode="TG" value="228">Togo (+228)</option>
 
-								<option data-countrycode="TO" value="676">Tonga (+676)</option>
+                                <option data-countrycode="TO" value="676">Tonga (+676)</option>
 
-								<option data-countrycode="TT" value="1868">Trinidad &amp; Tobago (+1868)</option>
+                                <option data-countrycode="TT" value="1868">Trinidad &amp; Tobago (+1868)</option>
 
-								<option data-countrycode="TN" value="216">Tunisia (+216)</option>
+                                <option data-countrycode="TN" value="216">Tunisia (+216)</option>
 
-								<option data-countrycode="TR" value="90">Turkey (+90)</option>
+                                <option data-countrycode="TR" value="90">Turkey (+90)</option>
 
-								<option data-countrycode="TM" value="7">Turkmenistan (+7)</option>
+                                <option data-countrycode="TM" value="7">Turkmenistan (+7)</option>
 
-								<option data-countrycode="TM" value="993">Turkmenistan (+993)</option>
+                                <option data-countrycode="TM" value="993">Turkmenistan (+993)</option>
 
-								<option data-countrycode="TC" value="1649">Turks &amp; Caicos Islands (+1649)</option>
+                                <option data-countrycode="TC" value="1649">Turks &amp; Caicos Islands (+1649)</option>
 
-								<option data-countrycode="TV" value="688">Tuvalu (+688)</option>
+                                <option data-countrycode="TV" value="688">Tuvalu (+688)</option>
 
-								<option data-countrycode="UG" value="256">Uganda (+256)</option>
+                                <option data-countrycode="UG" value="256">Uganda (+256)</option>
 
-								<option data-countrycode="UA" value="380">Ukraine (+380)</option>
+                                <option data-countrycode="UA" value="380">Ukraine (+380)</option>
 
-								<option data-countrycode="AE" value="971">United Arab Emirates (+971)</option>
+                                <option data-countrycode="AE" value="971">United Arab Emirates (+971)</option>
 
-								<option data-countrycode="UY" value="598">Uruguay (+598)</option>
+                                <option data-countrycode="UY" value="598">Uruguay (+598)</option>
 
-								<option data-countrycode="UZ" value="7">Uzbekistan (+7)</option>
+                                <option data-countrycode="UZ" value="7">Uzbekistan (+7)</option>
 
-								<option data-countrycode="VU" value="678">Vanuatu (+678)</option>
+                                <option data-countrycode="VU" value="678">Vanuatu (+678)</option>
 
-								<option data-countrycode="VA" value="379">Vatican City (+379)</option>
+                                <option data-countrycode="VA" value="379">Vatican City (+379)</option>
 
-								<option data-countrycode="VE" value="58">Venezuela (+58)</option>
+                                <option data-countrycode="VE" value="58">Venezuela (+58)</option>
 
-								<option data-countrycode="VN" value="84">Vietnam (+84)</option>
+                                <option data-countrycode="VN" value="84">Vietnam (+84)</option>
 
-								<option data-countrycode="VG" value="84">Virgin Islands - British (+1284)</option>
+                                <option data-countrycode="VG" value="84">Virgin Islands - British (+1284)</option>
 
-								<option data-countrycode="VI" value="84">Virgin Islands - US (+1340)</option>
+                                <option data-countrycode="VI" value="84">Virgin Islands - US (+1340)</option>
 
-								<option data-countrycode="WF" value="681">Wallis &amp; Futuna (+681)</option>
+                                <option data-countrycode="WF" value="681">Wallis &amp; Futuna (+681)</option>
 
-								<option data-countrycode="YE" value="969">Yemen (North)(+969)</option>
+                                <option data-countrycode="YE" value="969">Yemen (North)(+969)</option>
 
-								<option data-countrycode="YE" value="967">Yemen (South)(+967)</option>
+                                <option data-countrycode="YE" value="967">Yemen (South)(+967)</option>
 
-								<option data-countrycode="ZM" value="260">Zambia (+260)</option>
+                                <option data-countrycode="ZM" value="260">Zambia (+260)</option>
 
-								<option data-countrycode="ZW" value="263">Zimbabwe (+263)</option>
+                                <option data-countrycode="ZW" value="263">Zimbabwe (+263)</option>
 
-							</select>
+                            </select>
                         </div>
                     </div>
                     <div class="col-md-12 col-lg-12">
@@ -1057,11 +1126,11 @@
         <div class="logo text-center desk-banner">
             <a href="#page1"><img class="nav-logo" src="images/logo.png" alt="logo"></a>
         </div>
-       <div class="sidebar bg_primary mob-banner">
-  
-    <span style="cursor:pointer; background: #1e283c; padding:7px 5px; border-radius: 3px;" onclick="openNav()">&#9776;</span>
-   
-  </div>
+        <div class="sidebar bg_primary mob-banner">
+
+            <span style="cursor:pointer; background: #1e283c; padding:7px 5px; border-radius: 3px;" onclick="openNav()">&#9776;</span>
+
+        </div>
         <div class="socal_media mt_60 desk-banner">
             <ul>
                 <li><a href="#"><i class="fa fa-facebook" aria-hidden="true"></i></a></li>
@@ -1125,13 +1194,13 @@
                                     <p class="color_white" style="text-align: justify; margin-bottom:10px;">The highlights of amenities include swimming pool, club house, badminton court, Car wash area, Jogger’s track, high-speed elevators, 24/7 surveillance camera, 100% DG Back up for common areas, clutter free provision
                                         to connect DTH of your choice, water treatment plant-advanced, soft and grey, sewage treatment plant, solar water heater, solid waste convertor, rain water harvesting, connectivity, vehicle charging bays, car wash
                                         bays, round the clock security, restrooms for support staff, maintenance office cabin, disabled friendly community, sensor and timer controlled LED Lights for entire common area lighting.<span id="dots"></span>&nbsp;&nbsp;
-                                    </p><a href='#' onclick="myFunction()" id="myBtn" class="btn1">Read More  <i class="fa fa-arrow-right"></i></a>
+                                    </p><a href='#' onclick="myFunction()" id="myBtn" class="btn1">Read More <i class="fa fa-arrow-right"></i></a>
                                 </div>
 
                             </div>
                             <div class="col-md-5 col-lg-5">
                                 <img src="images/About-us.png" alt="image">
-                                <br/><br/>
+                                <br /><br />
                             </div>
                             <div class="col-md-12 col-lg-12" id='more'>
                                 <p class="color_white" style="text-align: justify;">Casa Serene’s architectural model is rooted to traditions and is Vaastu compliant attracting positive aura.Strategically located at Jalahalli, North West quadrant of Bangalore, Casa Serene has excellent connectivity to
@@ -1158,8 +1227,8 @@
                                         Hospital, ISKCON and Palace Ground. </p>
                                 </div>
                                 <a href='#' onclick="myFunction2()" id="myBtn2" class="btn2">Read More <i class="fa fa-arrow-right"></i></a>
-                                <br/>
-                                <br/>
+                                <br />
+                                <br />
                             </div>
                             <div class="col-md-5 col-lg-5">
                                 <img src="images/About-us.png" alt="image">
@@ -1327,150 +1396,142 @@
                     </div>
                 </div>
             </div>
-      
 
 
 
 
- <div id="carousel-example" class="carousel slide  mob-banner" data-ride="carousel">
-             <div class="col-md-12 col-lg-12 mt_60 ">
-                            <div class="section_title_1 text-center mx-auto pb_30 wow animated slideInUp">
-                                <h2 class="title text-uppercase color_primary" style="padding-top: 15px;">Amenities</h2>
-                <p class="mt_15 text-center color_primary">For the ultimate contemporary lifestyle revolving around health and well-being, Casa Serene offers a multitude of modern amenities.</p>
-                            </div>
+
+            <div id="carousel-example" class="carousel slide  mob-banner" data-ride="carousel">
+                <div class="col-md-12 col-lg-12 mt_60 ">
+                    <div class="section_title_1 text-center mx-auto pb_30 wow animated slideInUp">
+                        <h2 class="title text-uppercase color_primary" style="padding-top: 15px;">Amenities</h2>
+                        <p class="mt_15 text-center color_primary">For the ultimate contemporary lifestyle revolving around health and well-being, Casa Serene offers a multitude of modern amenities.</p>
+                    </div>
+                </div>
+
+                <div class="carousel-inner row w-100 mx-auto" role="listbox" style="padding-top: 15px;">
+
+                    <div class="carousel-item col-12 col-sm-6 col-md-4 col-lg-3 active">
+                        <div class="proj_amenities">
+                            <img src="images/amenities/swwimingpool.png">
+                            <p>Swimming Pool</p>
                         </div>
 
-        <div class="carousel-inner row w-100 mx-auto" role="listbox" style="padding-top: 15px;">
-
-          <div class="carousel-item col-12 col-sm-6 col-md-4 col-lg-3 active">
-  <div class="proj_amenities">
-                                <img src="images/amenities/swwimingpool.png">
-                                <p>Swimming Pool</p>
-                            </div>
-           
-
-  
-
-   <div class="proj_amenities">
-                                <img src="images/amenities/club-hous.png">
-                                <p>Club House</p>
-                            </div>
-          </div>
 
 
 
-          <div class="carousel-item col-12 col-sm-6 col-md-4 col-lg-3">
-
-           <div class="proj_amenities">
-                                <img src="images/amenities/gym.png">
-                                <p>Gym</p>
-                            </div>
-
- <div class="proj_amenities">
-                                <img src="images/amenities/toldderpark.png">
-                                <p>Toddler's Park</p>
-                            </div>
-          
-
-          </div>
+                        <div class="proj_amenities">
+                            <img src="images/amenities/club-hous.png">
+                            <p>Club House</p>
+                        </div>
+                    </div>
 
 
-           <div class="carousel-item col-12 col-sm-6 col-md-4 col-lg-3">
 
- <div class="proj_amenities">
-                                <img src="images/amenities/2levelsecurity.png">
-                                <p>2 level security</p>
-                            </div>
+                    <div class="carousel-item col-12 col-sm-6 col-md-4 col-lg-3">
 
-   <div class="proj_amenities">
-                                <img src="images/amenities/pipe-gas.png">
-                                <p>Piped Gas supply</p>
-                            </div>
-          
+                        <div class="proj_amenities">
+                            <img src="images/amenities/gym.png">
+                            <p>Gym</p>
+                        </div>
 
-          </div>
+                        <div class="proj_amenities">
+                            <img src="images/amenities/toldderpark.png">
+                            <p>Toddler's Park</p>
+                        </div>
 
 
-           <div class="carousel-item col-12 col-sm-6 col-md-4 col-lg-3">
-
-               <div class="proj_amenities">
-                                <img src="images/amenities/s-elevaor.png">
-                                <p>5 Elevators</p>
-                            </div>
-
-         
-
-   <div class="proj_amenities">
-                                <img src="images/amenities/badminton.png">
-                                <p>Badminton Court</p>
-                            </div>
-
-          </div>
+                    </div>
 
 
-           <div class="carousel-item col-12 col-sm-6 col-md-4 col-lg-3">
+                    <div class="carousel-item col-12 col-sm-6 col-md-4 col-lg-3">
 
-    <div class="proj_amenities">
-                                <img src="images/amenities/jogging.png">
-                                <p>Jogger's track</p>
-                            </div>
+                        <div class="proj_amenities">
+                            <img src="images/amenities/2levelsecurity.png">
+                            <p>2 level security</p>
+                        </div>
 
-       
-       <div class="proj_amenities">
-                                <img src="images/amenities/carwash.png">
-                                <p>Car wash area</p>
-                            </div>
-          
-
-          </div>
-
-           <div class="carousel-item col-12 col-sm-6 col-md-4 col-lg-3">
-
-   <div class="proj_amenities">
-                                <img src="images/amenities/fire.png">
-                                <p>Fire fighting</p>
-                            </div>
-
-        
-
-    <div class="proj_amenities">
-                                <img src="images/amenities/toilet.png">
-                                <p>Separate toilets for maids and drivers</p>
-                            </div>
-
-          </div>
+                        <div class="proj_amenities">
+                            <img src="images/amenities/pipe-gas.png">
+                            <p>Piped Gas supply</p>
+                        </div>
 
 
+                    </div>
+
+
+                    <div class="carousel-item col-12 col-sm-6 col-md-4 col-lg-3">
+
+                        <div class="proj_amenities">
+                            <img src="images/amenities/s-elevaor.png">
+                            <p>5 Elevators</p>
+                        </div>
+
+
+
+                        <div class="proj_amenities">
+                            <img src="images/amenities/badminton.png">
+                            <p>Badminton Court</p>
+                        </div>
+
+                    </div>
+
+
+                    <div class="carousel-item col-12 col-sm-6 col-md-4 col-lg-3">
+
+                        <div class="proj_amenities">
+                            <img src="images/amenities/jogging.png">
+                            <p>Jogger's track</p>
+                        </div>
+
+
+                        <div class="proj_amenities">
+                            <img src="images/amenities/carwash.png">
+                            <p>Car wash area</p>
+                        </div>
+
+
+                    </div>
+
+                    <div class="carousel-item col-12 col-sm-6 col-md-4 col-lg-3">
+
+                        <div class="proj_amenities">
+                            <img src="images/amenities/fire.png">
+                            <p>Fire fighting</p>
+                        </div>
+
+
+
+                        <div class="proj_amenities">
+                            <img src="images/amenities/toilet.png">
+                            <p>Separate toilets for maids and drivers</p>
+                        </div>
+
+                    </div>
+
+
+
+                </div>
+
+                <a class="carousel-control-prev" href="#carousel-example" role="button" data-slide="prev">
+
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+
+                    <span class="sr-only">Previous</span>
+
+                </a>
+
+                <a class="carousel-control-next" href="#carousel-example" role="button" data-slide="next">
+
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+
+                    <span class="sr-only">Next</span>
+
+                </a>
+
+            </div>
 
         </div>
-
-        <a class="carousel-control-prev" href="#carousel-example" role="button" data-slide="prev">
-
-          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-
-          <span class="sr-only">Previous</span>
-
-        </a>
-
-        <a class="carousel-control-next" href="#carousel-example" role="button" data-slide="next">
-
-          <span class="carousel-control-next-icon" aria-hidden="true"></span>
-
-          <span class="sr-only">Next</span>
-
-        </a>
-
-      </div>
-
-  </div>
-
-
-
-
-
-
-
-
 
 
 
@@ -1491,7 +1552,7 @@
                         </div>
                         <div class="col-md-4 col-lg-4">
                             <div class="service_one">
-                                <div class="srvicon bg_default color_white mx-auto mb_20 "><span><img src='images/specifications/structure.png'style="margin: 5px;width: 80%;padding: 5px" alt=''/></span></div>
+                                <div class="srvicon bg_default color_white mx-auto mb_20 "><span><img src='images/specifications/structure.png' style="margin: 5px;width: 80%;padding: 5px" alt='' /></span></div>
                                 <h3 class="font-weight-bold color_primary text-center">STRUCTURE</h3>
                                 <ul class='project-detail-ul'>
                                     <li>Seismic Zone II compliant RCC Structure</li>
@@ -1502,7 +1563,7 @@
                         </div>
                         <div class="col-md-4 col-lg-4">
                             <div class="service_one">
-                                <div class="srvicon bg_default color_white mx-auto mb_20"><span><img src='images/specifications/flooring.png'style="margin: 5px;width: 80%;padding: 5px" alt=''/></span></div>
+                                <div class="srvicon bg_default color_white mx-auto mb_20"><span><img src='images/specifications/flooring.png' style="margin: 5px;width: 80%;padding: 5px" alt='' /></span></div>
                                 <h3 class="font-weight-bold color_primary text-center">FLOORING</h3>
                                 <ul class='project-detail-ul'>
                                     <li>Vitrified tiles in Living, Dining, Kitchen & all Bedrooms</li>
@@ -1511,7 +1572,7 @@
                         </div>
                         <div class="col-md-4 col-lg-4">
                             <div class="service_one">
-                                <div class="srvicon bg_default color_white mx-auto mb_20"><span><img src='images/specifications/main-door.png'style="margin: 5px;width: 80%;padding: 5px" alt=''/></span></div>
+                                <div class="srvicon bg_default color_white mx-auto mb_20"><span><img src='images/specifications/main-door.png' style="margin: 5px;width: 80%;padding: 5px" alt='' /></span></div>
                                 <h3 class="font-weight-bold color_primary text-center">MAIN DOOR</h3>
                                 <ul class='project-detail-ul'>
                                     <li>Teak Wood Door Frame with threshold</li>
@@ -1522,7 +1583,7 @@
 
                         <div class="col-md-4 col-lg-4">
                             <div class="service_one">
-                                <div class="srvicon bg_default color_white mx-auto mb_20"><span><img src='images/specifications/other-doors.png'style="margin: 5px;width: 80%;padding: 5px" alt=''/></span></div>
+                                <div class="srvicon bg_default color_white mx-auto mb_20"><span><img src='images/specifications/other-doors.png' style="margin: 5px;width: 80%;padding: 5px" alt='' /></span></div>
                                 <h3 class="font-weight-bold color_primary text-center">OTHER DOORS</h3>
                                 <ul class='project-detail-ul'>
                                     <li>Sal/Hard Wood door frame</li>
@@ -1533,7 +1594,7 @@
                         </div>
                         <div class="col-md-4 col-lg-4">
                             <div class="service_one">
-                                <div class="srvicon bg_default color_white mx-auto mb_20"><span><img src='images/specifications/window.png'style="margin: 5px;width: 80%;padding: 5px" alt=''/></span></div>
+                                <div class="srvicon bg_default color_white mx-auto mb_20"><span><img src='images/specifications/window.png' style="margin: 5px;width: 80%;padding: 5px" alt='' /></span></div>
                                 <h3 class="font-weight-bold color_primary text-center">WINDOWS</h3>
                                 <ul class='project-detail-ul'>
                                     <li>NCL Secolor Window system windows with plain glass and provision for mosquito mesh</li>
@@ -1541,19 +1602,9 @@
                                 </ul>
                             </div>
                         </div>
-                        <div class="col-md-4 col-lg-4">
+						<div class="col-md-4 col-lg-4">
                             <div class="service_one">
-                                <div class="srvicon bg_default color_white mx-auto mb_20"><span><img src='images/specifications/water-suply.png'style="margin: 5px;width: 80%;padding: 5px" alt=''/></span></div>
-                                <h3 class="font-weight-bold color_primary text-center">WATER SUPPLY</h3>
-                                <ul class='project-detail-ul'>
-                                    <li>Underground & Overhead storage tanks of suitable capacity. Borewell as an auxiliary source of water supply</li>
-                                </ul>
-                            </div>
-                        </div>
-
-                        <div class="col-md-4 col-lg-4">
-                            <div class="service_one">
-                                <div class="srvicon bg_default color_white mx-auto mb_20"><span><img src='images/specifications/utility.png'style="margin: 5px;width: 80%;padding: 5px" alt=''/></span></div>
+                                <div class="srvicon bg_default color_white mx-auto mb_20"><span><img src='images/specifications/utility.png' style="margin: 5px;width: 80%;padding: 5px" alt='' /></span></div>
                                 <h3 class="font-weight-bold color_primary text-center">UTILITY</h3>
                                 <ul class='project-detail-ul'>
                                     <li>Provision for sink in utility</li>
@@ -1564,30 +1615,66 @@
                         </div>
                         <div class="col-md-4 col-lg-4">
                             <div class="service_one">
-                                <div class="srvicon bg_default color_white mx-auto mb_20"><span><img src='images/specifications/toilet.png'style="margin: 5px;width: 80%;padding: 5px" alt=''/></span></div>
+                                <div class="srvicon bg_default color_white mx-auto mb_20"><span><img src='images/specifications/water-suply.png' style="margin: 5px;width: 80%;padding: 5px" alt='' /></span></div>
+                                <h3 class="font-weight-bold color_primary text-center">WATER SUPPLY</h3>
+                                <ul class='project-detail-ul'>
+                                    <li>Underground & Overhead storage tanks of suitable capacity. Borewell as an auxiliary source of water supply</li>
+									<li>Cauvery Water Supply</li>
+									<ul class="ulExtra" id="list_A">
+										<li>Sewage Treatment Plant</li>
+										<li>Water Treatment Plant</li>
+									</ul>
+									<div class='text-center'>
+                                        <button class="liReadMore btn btn-default" id="readMore_A" style="margin: 0px;">Show More</button>
+                                    </div>
+                                </ul>
+                            </div>
+                        </div>
+
+                        
+                        <div class="col-md-4 col-lg-4">
+                            <div class="service_one">
+                                <div class="srvicon bg_default color_white mx-auto mb_20"><span><img src='images/specifications/toilet.png' style="margin: 5px;width: 80%;padding: 5px" alt='' /></span></div>
                                 <h3 class="font-weight-bold color_primary text-center">TOILETS</h3>
                                 <ul class='project-detail-ul'>
                                     <li>Ceramic Tiles for flooring and dado upto 7 ft height</li>
                                     <li>EWC, Washbasin from KOHLER</li>
                                     <li>Chromium plated fittings from Jaquar</li>
-                                    <ul class="ulExtra" id="list_D">
+                                    <ul class="ulExtra" id="list_B">
                                         <li>Concealed flush tanks from GEBRIT</li>
                                     </ul>
                                     <div class='text-center'>
-                                        <button class="liReadMore btn btn-default" id="readMore_D" style="margin: 0px;">Show More</button>
+                                        <button class="liReadMore btn btn-default" id="readMore_B" style="margin: 0px;">Show More</button>
                                     </div>
                                 </ul>
                             </div>
                         </div>
                         <div class="col-md-4 col-lg-4">
                             <div class="service_one">
-                                <div class="srvicon bg_default color_white mx-auto mb_20"><span><img src='images/specifications/wall.png'style="margin: 5px;width: 80%;padding: 5px" alt=''/></span></div>
+                                <div class="srvicon bg_default color_white mx-auto mb_20"><span><img src='images/specifications/wall.png' style="margin: 5px;width: 80%;padding: 5px" alt='' /></span></div>
                                 <h3 class="font-weight-bold color_primary text-center">WALL FINISHES</h3>
                                 <ul class='project-detail-ul'>
                                     <li>Internal Walls: Oil Bound Distemper for all plastered walls & Ceilings</li>
                                     <li>External Walls: Cement paint for the exteriors and common Areas</li>
-                                    <ul class="ulExtra" id="list_E">
+                                    <ul class="ulExtra" id="list_C">
                                         <li>Enamel Paint for MS Grills and Door Shutters</li>
+                                    </ul>
+                                    <div class='text-center'>
+                                        <button class="liReadMore btn btn-default" id="readMore_C" style="margin: 0px;">Show More</button>
+                                    </div>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="col-md-4 col-lg-4">
+                            <div class="service_one">
+                                <div class="srvicon bg_default color_white mx-auto mb_20"><span><img src='images/specifications/kitchn.png' style="margin: 5px;width: 80%;padding: 5px" alt='' /></span></div>
+                                <h3 class="font-weight-bold color_primary  text-center">KITCHEN</h3>
+                                <ul class='project-detail-ul'>
+                                    <li>Polished granite platform with stainless steel sink</li>
+                                    <li>Ceramic tile dado of 2 feet above the granite counter</li>
+                                    <ul class="ulExtra" id="list_E">
+                                        <li>Provision for Aqua-guard point in kitchen</li>
+                                        <li>Provision for Geyser in kitchen</li>
                                     </ul>
                                     <div class='text-center'>
                                         <button class="liReadMore btn btn-default" id="readMore_E" style="margin: 0px;">Show More</button>
@@ -1597,29 +1684,12 @@
                         </div>
                         <div class="col-md-4 col-lg-4">
                             <div class="service_one">
-                                <div class="srvicon bg_default color_white mx-auto mb_20"><span><img src='images/specifications/kitchn.png'style="margin: 5px;width: 80%;padding: 5px" alt=''/></span></div>
-                                <h3 class="font-weight-bold color_primary  text-center">KITCHEN</h3>
-                                <ul class='project-detail-ul'>
-                                    <li>Polished granite platform with stainless steel sink</li>
-                                    <li>Ceramic tile dado of 2 feet above the granite counter</li>
-                                    <ul class="ulExtra" id="list_F">
-                                        <li>Provision for Aqua-guard point in kitchen</li>
-                                        <li>Provision for Geyser in kitchen</li>
-                                    </ul>
-                                    <div class='text-center'>
-                                        <button class="liReadMore btn btn-default" id="readMore_F" style="margin: 0px;">Show More</button>
-                                    </div>
-                                </ul>
-                            </div>
-                        </div>
-                        <div class="col-md-4 col-lg-4">
-                            <div class="service_one">
-                                <div class="srvicon bg_default color_white mx-auto mb_20"><span><img src='images/specifications/ELECTRICAL.png'style="margin: 5px;width: 80%;padding: 5px" alt=''/></span></div>
+                                <div class="srvicon bg_default color_white mx-auto mb_20"><span><img src='images/specifications/ELECTRICAL.png' style="margin: 5px;width: 80%;padding: 5px" alt='' /></span></div>
                                 <h3 class="font-weight-bold color_primary text-center">ELECTRICAL</h3>
                                 <ul class='project-detail-ul'>
                                     <li>TV point in the living room and master bedroom</li>
                                     <li>Elegant designer modular electrical switches</li>
-                                    <ul class="ulExtra" id="list_G">
+                                    <ul class="ulExtra" id="list_F">
                                         <li>Fire Resistant Wires from Anchor</li>
                                         <li>1 Earth Leakage Circuit Breaker to ensure safety</li>
                                         <li>1 MCB for each room provided at the main distribution box</li>
@@ -1628,17 +1698,17 @@
                                     </ul>
                                 </ul>
                                 <div class='text-center'>
-                                    <button class="liReadMore btn btn-default" id="readMore_G" style="margin: 0px;">Show More</button>
+                                    <button class="liReadMore btn btn-default" id="readMore_F" style="margin: 0px;">Show More</button>
                                 </div>
                             </div>
                         </div>
                         <div class="col-md-4 col-lg-4">
                             <div class="service_one">
-                                <div class="srvicon bg_default color_white mx-auto mb_20"><span><img src='images/specifications/other.png'style="margin: 5px;width: 80%;padding: 5px" alt=''/></span></div>
+                                <div class="srvicon bg_default color_white mx-auto mb_20"><span><img src='images/specifications/other.png' style="margin: 5px;width: 80%;padding: 5px" alt='' /></span></div>
                                 <h3 class="font-weight-bold color_primary text-center">OTHERS</h3>
                                 <ul class='project-detail-ul'>
                                     <li>Complete Generator Backup for all common areas and services & 1kW power backup for every apartment at no extra cost</li>
-                                    <ul class="ulExtra" id="list_H">
+                                    <ul class="ulExtra" id="list_G">
                                         <li>2 level security</li>
                                         <li>Wi-fi ready</li>
                                         <li>Sewage treatment plant</li>
@@ -1648,7 +1718,7 @@
                                     </ul>
                                 </ul>
                                 <div class='text-center'>
-                                    <button class="liReadMore btn btn-default" id="readMore_H" style="margin: 0px;">Show More</button>
+                                    <button class="liReadMore btn btn-default" id="readMore_G" style="margin: 0px;">Show More</button>
                                 </div>
                             </div>
                         </div>
@@ -1658,20 +1728,20 @@
 
 
 
-<div class="container mob-banner">
-     <div id="carousel-example" class="carousel slide mob-banner " data-ride="carousel">
-             <div class="col-md-12 col-lg-12 mt_60">
-                            <div class="section_title_1 text-center mx-auto pb_30 wow animated slideInUp">
-                                <h2 class="title text-uppercase color_primary" style="padding-top: 15px;">Specifications</h2>
-                <p class="mt_15 text-center color_primary">For the ultimate contemporary lifestyle revolving around health and well-being, Indraprastha offers a multitude of modern amenities.</p>
-                            </div>
+            <div class="container mob-banner">
+                <div id="carousel-example" class="carousel slide mob-banner " data-ride="carousel">
+                    <div class="col-md-12 col-lg-12 mt_60">
+                        <div class="section_title_1 text-center mx-auto pb_30 wow animated slideInUp">
+                            <h2 class="title text-uppercase color_primary" style="padding-top: 15px;">Specifications</h2>
+                            <p class="mt_15 text-center color_primary">For the ultimate contemporary lifestyle revolving around health and well-being, Indraprastha offers a multitude of modern amenities.</p>
                         </div>
+                    </div>
 
-        <div class="carousel-inner row w-100 mx-auto" role="listbox" style="padding-top: 15px;">
+                    <div class="carousel-inner row w-100 mx-auto" role="listbox" style="padding-top: 15px;">
 
-          <div class="carousel-item col-md-4 col-lg-4 active">
-      <div class="service_one">
-                                <div class="srvicon bg_default color_white mx-auto mb_20 "><span><img src='images/specifications/structure.png'style="margin: 5px;width: 80%;padding: 5px" alt=''/></span></div>
+                        <div class="carousel-item col-md-4 col-lg-4 active">
+                            <div class="service_one">
+                                <div class="srvicon color_white mx-auto mb_20" style='background-color:#ffb32f;'><span><img src='images/specifications/structure.png' style="margin: 5px;width: 80%;padding: 5px" alt='' /></span></div>
                                 <h3 class="font-weight-bold color_primary text-center">STRUCTURE</h3>
                                 <ul class='project-detail-ul'>
                                     <li>Seismic Zone II compliant RCC Structure</li>
@@ -1680,24 +1750,24 @@
                                 </ul>
                             </div>
 
-          </div>
+                        </div>
 
-          <div class="carousel-item col-md-4 col-lg-4">
+                        <div class="carousel-item col-md-4 col-lg-4">
 
-             <div class="service_one">
-                                <div class="srvicon bg_default color_white mx-auto mb_20"><span><img src='images/specifications/flooring.png'style="margin: 5px;width: 80%;padding: 5px" alt=''/></span></div>
+                            <div class="service_one">
+                                <div class="srvicon color_white mx-auto mb_20" style='background-color:#ffb32f;'><span><img src='images/specifications/flooring.png' style="margin: 5px;width: 80%;padding: 5px" alt='' /></span></div>
                                 <h3 class="font-weight-bold color_primary text-center">FLOORING</h3>
                                 <ul class='project-detail-ul'>
                                     <li>Vitrified tiles in Living, Dining, Kitchen & all Bedrooms</li>
                                 </ul>
                             </div>
-          </div>
+                        </div>
 
 
 
-          <div class="carousel-item col-md-4 col-lg-4">
-       <div class="service_one">
-                                <div class="srvicon bg_default color_white mx-auto mb_20"><span><img src='images/specifications/main-door.png'style="margin: 5px;width: 80%;padding: 5px" alt=''/></span></div>
+                        <div class="carousel-item col-md-4 col-lg-4">
+                            <div class="service_one">
+                                <div class="srvicon color_white mx-auto mb_20" style='background-color:#ffb32f;'><span><img src='images/specifications/main-door.png' style="margin: 5px;width: 80%;padding: 5px" alt='' /></span></div>
                                 <h3 class="font-weight-bold color_primary text-center">MAIN DOOR</h3>
                                 <ul class='project-detail-ul'>
                                     <li>Teak Wood Door Frame with threshold</li>
@@ -1705,12 +1775,12 @@
                                 </ul>
                             </div>
 
-          </div>
+                        </div>
 
 
-           <div class="carousel-item col-md-4 col-lg-4">
-      <div class="service_one">
-                                <div class="srvicon bg_default color_white mx-auto mb_20"><span><img src='images/specifications/other-doors.png'style="margin: 5px;width: 80%;padding: 5px" alt=''/></span></div>
+                        <div class="carousel-item col-md-4 col-lg-4">
+                            <div class="service_one">
+                                <div class="srvicon color_white mx-auto mb_20" style='background-color:#ffb32f;'><span><img src='images/specifications/other-doors.png' style="margin: 5px;width: 80%;padding: 5px" alt='' /></span></div>
                                 <h3 class="font-weight-bold color_primary text-center">OTHER DOORS</h3>
                                 <ul class='project-detail-ul'>
                                     <li>Sal/Hard Wood door frame</li>
@@ -1719,12 +1789,12 @@
                                 </ul>
                             </div>
 
-          </div>
+                        </div>
 
 
-           <div class="carousel-item col-md-4 col-lg-4">
-       <div class="service_one">
-                                <div class="srvicon bg_default color_white mx-auto mb_20"><span><img src='images/specifications/window.png'style="margin: 5px;width: 80%;padding: 5px" alt=''/></span></div>
+                        <div class="carousel-item col-md-4 col-lg-4">
+                            <div class="service_one">
+                                <div class="srvicon color_white mx-auto mb_20" style='background-color:#ffb32f;'><span><img src='images/specifications/window.png' style="margin: 5px;width: 80%;padding: 5px" alt='' /></span></div>
                                 <h3 class="font-weight-bold color_primary text-center">WINDOWS</h3>
                                 <ul class='project-detail-ul'>
                                     <li>NCL Secolor Window system windows with plain glass and provision for mosquito mesh</li>
@@ -1732,25 +1802,33 @@
                                 </ul>
                             </div>
 
-          </div>
+                        </div>
 
 
-           <div class="carousel-item col-md-4 col-lg-4">
+                        <div class="carousel-item col-md-4 col-lg-4">
 
-     <div class="service_one">
-                                <div class="srvicon bg_default color_white mx-auto mb_20"><span><img src='images/specifications/water-suply.png'style="margin: 5px;width: 80%;padding: 5px" alt=''/></span></div>
+                            <div class="service_one">
+                                <div class="srvicon color_white mx-auto mb_20" style='background-color:#ffb32f;'><span><img src='images/specifications/water-suply.png' style="margin: 5px;width: 80%;padding: 5px" alt='' /></span></div>
                                 <h3 class="font-weight-bold color_primary text-center">WATER SUPPLY</h3>
                                 <ul class='project-detail-ul'>
                                     <li>Underground & Overhead storage tanks of suitable capacity. Borewell as an auxiliary source of water supply</li>
+									<li>Cauvery Water Supply</li>
+									<ul class="ulExtra" id="list_H">
+										<li>Sewage Treatment Plant</li>
+										<li>Water Treatment Plant</li>
+									</ul>
+									<div class='text-center'>
+                                        <button class="liReadMore btn btn-default" id="readMore_H" style="margin: 0px;">Show More</button>
+                                    </div>
                                 </ul>
                             </div>
-          </div>
+                        </div>
 
 
-           <div class="carousel-item col-md-4 col-lg-4">
+                        <div class="carousel-item col-md-4 col-lg-4">
 
-                      <div class="service_one">
-                                <div class="srvicon bg_default color_white mx-auto mb_20"><span><img src='images/specifications/utility.png'style="margin: 5px;width: 80%;padding: 5px" alt=''/></span></div>
+                            <div class="service_one">
+                                <div class="srvicon color_white mx-auto mb_20" style='background-color:#ffb32f;'><span><img src='images/specifications/utility.png' style="margin: 5px;width: 80%;padding: 5px" alt='' /></span></div>
                                 <h3 class="font-weight-bold color_primary text-center">UTILITY</h3>
                                 <ul class='project-detail-ul'>
                                     <li>Provision for sink in utility</li>
@@ -1759,80 +1837,80 @@
                                 </ul>
                             </div>
 
-          </div>
+                        </div>
 
 
-           <div class="carousel-item col-md-4 col-lg-4">
-       <div class="service_one">
-                                <div class="srvicon bg_default color_white mx-auto mb_20"><span><img src='images/specifications/toilet.png'style="margin: 5px;width: 80%;padding: 5px" alt=''/></span></div>
+                        <div class="carousel-item col-md-4 col-lg-4">
+                            <div class="service_one">
+                                <div class="srvicon color_white mx-auto mb_20" style='background-color:#ffb32f;'><span><img src='images/specifications/toilet.png' style="margin: 5px;width: 80%;padding: 5px" alt='' /></span></div>
                                 <h3 class="font-weight-bold color_primary text-center">TOILETS</h3>
                                 <ul class='project-detail-ul'>
                                     <li>Ceramic Tiles for flooring and dado upto 7 ft height</li>
                                     <li>EWC, Washbasin from KOHLER</li>
                                     <li>Chromium plated fittings from Jaquar</li>
-                                    <ul class="ulExtra" id="list_D">
+                                    <ul class="ulExtra" id="list_I">
                                         <li>Concealed flush tanks from GEBRIT</li>
                                     </ul>
                                     <div class='text-center'>
-                                        <button class="liReadMore btn btn-default" id="readMore_D" style="margin: 0px;">Show More</button>
+                                        <button class="liReadMore btn btn-default" id="readMore_I" style="margin: 0px;">Show More</button>
                                     </div>
                                 </ul>
                             </div>
-       
-
-          </div>
 
 
+                        </div>
 
-           <div class="carousel-item col-md-4 col-lg-4">
 
-              <div class="service_one">
-                                <div class="srvicon bg_default color_white mx-auto mb_20"><span><img src='images/specifications/wall.png'style="margin: 5px;width: 80%;padding: 5px" alt=''/></span></div>
+
+                        <div class="carousel-item col-md-4 col-lg-4">
+
+                            <div class="service_one">
+                                <div class="srvicon color_white mx-auto mb_20" style='background-color:#ffb32f;'><span><img src='images/specifications/wall.png' style="margin: 5px;width: 80%;padding: 5px" alt='' /></span></div>
                                 <h3 class="font-weight-bold color_primary text-center">WALL FINISHES</h3>
                                 <ul class='project-detail-ul'>
                                     <li>Internal Walls: Oil Bound Distemper for all plastered walls & Ceilings</li>
                                     <li>External Walls: Cement paint for the exteriors and common Areas</li>
-                                    <ul class="ulExtra" id="list_E">
+                                    <ul class="ulExtra" id="list_J">
                                         <li>Enamel Paint for MS Grills and Door Shutters</li>
                                     </ul>
                                     <div class='text-center'>
-                                        <button class="liReadMore btn btn-default" id="readMore_E" style="margin: 0px;">Show More</button>
+                                        <button class="liReadMore btn btn-default" id="readMore_J" style="margin: 0px;">Show More</button>
                                     </div>
                                 </ul>
                             </div>
 
-          </div>
+                        </div>
 
 
-           <div class="carousel-item col-md-4 col-lg-4">
-     <div class="service_one">
-                                <div class="srvicon bg_default color_white mx-auto mb_20"><span><img src='images/specifications/kitchn.png'style="margin: 5px;width: 80%;padding: 5px" alt=''/></span></div>
+                        <div class="carousel-item col-md-4 col-lg-4">
+                            <div class="service_one">
+                                <div class="srvicon color_white mx-auto mb_20" style='background-color:#ffb32f;'><span><img src='images/specifications/kitchn.png' style="margin: 5px;width: 80%;padding: 5px" alt='' /></span></div>
                                 <h3 class="font-weight-bold color_primary  text-center">KITCHEN</h3>
                                 <ul class='project-detail-ul'>
                                     <li>Polished granite platform with stainless steel sink</li>
                                     <li>Ceramic tile dado of 2 feet above the granite counter</li>
-                                    <ul class="ulExtra" id="list_F">
+                                    <ul class="ulExtra" id="list_K">
                                         <li>Provision for Aqua-guard point in kitchen</li>
                                         <li>Provision for Geyser in kitchen</li>
                                     </ul>
                                     <div class='text-center'>
-                                        <button class="liReadMore btn btn-default" id="readMore_F" style="margin: 0px;">Show More</button>
+                                        <button class="liReadMore btn btn-default" id="readMore_K" style="margin: 0px;">Show More</button>
                                     </div>
                                 </ul>
                             </div>
 
-          </div>
+                        </div>
 
 
 
-           <div class="carousel-item col-md-4 col-lg-4">
-        <div class="service_one">
-                                <div class="srvicon bg_default color_white mx-auto mb_20"><span><img src='images/specifications/ELECTRICAL.png'style="margin: 5px;width: 80%;padding: 5px" alt=''/></span></div>
+                        <div class="carousel-item col-md-4 col-lg-4">
+                            <div class="service_one">
+                                <div class="srvicon color_white mx-auto mb_20" style='background-color:#ffb32f;'><span><img src='images/specifications/ELECTRICAL.png' style="margin: 5px;width: 80%;padding: 5px" alt='' /></span></div>
                                 <h3 class="font-weight-bold color_primary text-center">ELECTRICAL</h3>
                                 <ul class='project-detail-ul'>
                                     <li>TV point in the living room and master bedroom</li>
                                     <li>Elegant designer modular electrical switches</li>
-                                    <ul class="ulExtra" id="list_G">
+                                    <ul class="ulExtra" id="list_L">
                                         <li>Fire Resistant Wires from Anchor</li>
                                         <li>1 Earth Leakage Circuit Breaker to ensure safety</li>
                                         <li>1 MCB for each room provided at the main distribution box</li>
@@ -1841,22 +1919,22 @@
                                     </ul>
                                 </ul>
                                 <div class='text-center'>
-                                    <button class="liReadMore btn btn-default" id="readMore_G" style="margin: 0px;">Show More</button>
+                                    <button class="liReadMore btn btn-default" id="readMore_L" style="margin: 0px;">Show More</button>
                                 </div>
                             </div>
 
-          </div>
+                        </div>
 
 
 
-           <div class="carousel-item col-md-4 col-lg-4">
+                        <div class="carousel-item col-md-4 col-lg-4">
 
-       <div class="service_one">
-                                <div class="srvicon bg_default color_white mx-auto mb_20"><span><img src='images/specifications/other.png'style="margin: 5px;width: 80%;padding: 5px" alt=''/></span></div>
+                            <div class="service_one">
+                                <div class="srvicon color_white mx-auto mb_20" style='background-color:#ffb32f;'><span><img src='images/specifications/other.png' style="margin: 5px;width: 80%;padding: 5px" alt='' /></span></div>
                                 <h3 class="font-weight-bold color_primary text-center">OTHERS</h3>
                                 <ul class='project-detail-ul'>
                                     <li>Complete Generator Backup for all common areas and services & 1kW power backup for every apartment at no extra cost</li>
-                                    <ul class="ulExtra" id="list_H">
+                                    <ul class="ulExtra" id="list_M">
                                         <li>2 level security</li>
                                         <li>Wi-fi ready</li>
                                         <li>Sewage treatment plant</li>
@@ -1866,52 +1944,44 @@
                                     </ul>
                                 </ul>
                                 <div class='text-center'>
-                                    <button class="liReadMore btn btn-default" id="readMore_H" style="margin: 0px;">Show More</button>
+                                    <button class="liReadMore btn btn-default" id="readMore_M" style="margin: 0px;">Show More</button>
                                 </div>
                             </div>
 
-          </div>
+                        </div>
 
 
-          
+
+
+
+                    </div>
+
+                    <a class="carousel-control-prev" href="#carousel-example" role="button" data-slide="prev">
+
+                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+
+                        <span class="sr-only">Previous</span>
+
+                    </a>
+
+                    <a class="carousel-control-next" href="#carousel-example" role="button" data-slide="next">
+
+                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+
+                        <span class="sr-only">Next</span>
+
+                    </a>
+
+                </div>
+
+
+            </div>
+
+
 
 
 
         </div>
-
-        <a class="carousel-control-prev" href="#carousel-example" role="button" data-slide="prev">
-
-          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-
-          <span class="sr-only">Previous</span>
-
-        </a>
-
-        <a class="carousel-control-next" href="#carousel-example" role="button" data-slide="next">
-
-          <span class="carousel-control-next-icon" aria-hidden="true"></span>
-
-          <span class="sr-only">Next</span>
-
-        </a>
-
-      </div>
-
-
-</div>
-
-
-
-
-
-
-
-
-
-
-</div>
-
-
 
 
 
@@ -2054,7 +2124,7 @@
                             <div class="price_table">
                                 <div class="row">
                                     <div class="col-md-12 col-lg-12 mob-banner">
-                                          <img src="images/layout-mob.jpg" alt="design--room" usemap="#Map" class="master-bottom">
+                                        <img src="images/layout-mob.jpg" alt="design--room" usemap="#Map" class="master-bottom">
                                     </div>
                                     <div class="col-md-12 col-lg-12 desk-banner">
                                         <img src="images/layout.jpg" alt="design--room" usemap="#Map" class="master-bottom">
@@ -2116,7 +2186,7 @@
                             <!--	End Title
 		    				================================-->
                         </div>
-                        
+
                         <div class="col-md-4 col-lg-4 desk-banner">
                             <div class="location">
                                 <ul class="project-detail-ul">
@@ -2158,110 +2228,104 @@
                                 </ul>
                             </div>
                         </div>
-            
 
 
 
-<div class="container mob-banner">
-  
- <div id="carousel-example" class="carousel slide  " data-ride="carousel">
-            
 
-        <div class="carousel-inner row w-100 mx-auto" role="listbox" style="padding-top: 15px;">
+                        <div class="container mob-banner">
 
-          <div class="carousel-item col-md-4 col-lg-4 active">
-
-        <div class="location">
-                <ul class="project-detail-ul">
-                  
-<li>Palace Grounds  15.6km</li>
-<li>Bangalore Cantonment Station  7.6km</li>
-<li>Vidhan Soudha 7.7km</li>
-<li>M G Road  9.5km</li>
-<li>Brigade Road  9.7km</li>
-<li>Bangalore International Airport 35km</li>
-<li>World Trade Center  1.3km</li>
-<li>Fortis Hospital 1.3km</li>
-<li>Yeshwantpur Metro Station 2.2km</li>
-<li>Yeshwantpur RTO Office  2.0km</li>
-                  
-                </ul>
-              </div>
-          </div>
-
-          <div class="carousel-item col-md-4 col-lg-4">
-    <div class="location">
-                <ul class="project-detail-ul">
-                  <li>Taj Vivanta 2.8km</li>
-                  <li>Yeshwanthpur Terminus 2.0km</li>
-                  <li>International Exhibition Complex  11.8km</li>
-                  <li>Metro Cash n Carry  1.5km</li>
-                  <li>Sheraton Hotel  1.4km</li>
-                  <li>Orion Mall  1.4km</li>
-                  <li>Columbia Asia Hospital  1.5km</li>
-                  <li>ISKCON Temple 1.5km</li>
-                  <li>Veer Anjaneya Swamy 1.3km</li>
-                  <li>Indian Institute of Science 3.2km</li>
-                </ul>
-              </div>
-    
-          </div>
+                            <div id="carousel-example" class="carousel slide  " data-ride="carousel">
 
 
+                                <div class="carousel-inner row w-100 mx-auto" role="listbox" style="padding-top: 15px;">
 
-          
+                                    <div class="carousel-item col-md-4 col-lg-4 active">
+
+                                        <div class="location">
+                                            <ul class="project-detail-ul">
+
+                                                <li>Palace Grounds 15.6km</li>
+                                                <li>Bangalore Cantonment Station 7.6km</li>
+                                                <li>Vidhan Soudha 7.7km</li>
+                                                <li>M G Road 9.5km</li>
+                                                <li>Brigade Road 9.7km</li>
+                                                <li>Bangalore International Airport 35km</li>
+                                                <li>World Trade Center 1.3km</li>
+                                                <li>Fortis Hospital 1.3km</li>
+                                                <li>Yeshwantpur Metro Station 2.2km</li>
+                                                <li>Yeshwantpur RTO Office 2.0km</li>
+
+                                            </ul>
+                                        </div>
+                                    </div>
+
+                                    <div class="carousel-item col-md-4 col-lg-4">
+                                        <div class="location">
+                                            <ul class="project-detail-ul">
+                                                <li>Taj Vivanta 2.8km</li>
+                                                <li>Yeshwanthpur Terminus 2.0km</li>
+                                                <li>International Exhibition Complex 11.8km</li>
+                                                <li>Metro Cash n Carry 1.5km</li>
+                                                <li>Sheraton Hotel 1.4km</li>
+                                                <li>Orion Mall 1.4km</li>
+                                                <li>Columbia Asia Hospital 1.5km</li>
+                                                <li>ISKCON Temple 1.5km</li>
+                                                <li>Veer Anjaneya Swamy 1.3km</li>
+                                                <li>Indian Institute of Science 3.2km</li>
+                                            </ul>
+                                        </div>
+
+                                    </div>
 
 
 
-           <div class="carousel-item col-md-4 col-lg-4">
-
-            <div class="location">
-                <ul class="project-detail-ul">
-                  
-<li>Sparsh Hospital 1.5km</li>
-<li>PVR 1.9km</li>
-<li>National public School  1.9km</li>
-<li>Karnataka Examinations Authority  3.6km</li>
-<li>IWST  4.0km</li>
-<li>J.N Tata Statue 3.6km</li>
-<li>M.S.Ramaiah Hospital  4.4km</li>
-<li>Malleshwaram West 3.3km</li>
-<li>Govardhan Threater  400m</li>
-<li>Yeshwanthpur Market 2.0km</li>
-                  
-                </ul>
-              </div>
-
-          </div>
 
 
-          
+                                    <div class="carousel-item col-md-4 col-lg-4">
 
+                                        <div class="location">
+                                            <ul class="project-detail-ul">
 
+                                                <li>Sparsh Hospital 1.5km</li>
+                                                <li>PVR 1.9km</li>
+                                                <li>National public School 1.9km</li>
+                                                <li>Karnataka Examinations Authority 3.6km</li>
+                                                <li>IWST 4.0km</li>
+                                                <li>J.N Tata Statue 3.6km</li>
+                                                <li>M.S.Ramaiah Hospital 4.4km</li>
+                                                <li>Malleshwaram West 3.3km</li>
+                                                <li>Govardhan Threater 400m</li>
+                                                <li>Yeshwanthpur Market 2.0km</li>
 
-        </div>
+                                            </ul>
+                                        </div>
 
-        <a class="carousel-control-prev" href="#carousel-example" role="button" data-slide="prev">
-
-          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-
-          <span class="sr-only">Previous</span>
-
-        </a>
-
-        <a class="carousel-control-next" href="#carousel-example" role="button" data-slide="next">
-
-          <span class="carousel-control-next-icon" aria-hidden="true"></span>
-
-          <span class="sr-only">Next</span>
-
-        </a>
-
-      </div>
-</div>
+                                    </div>
 
 
 
+
+
+                                </div>
+
+                                <a class="carousel-control-prev" href="#carousel-example" role="button" data-slide="prev">
+
+                                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+
+                                    <span class="sr-only">Previous</span>
+
+                                </a>
+
+                                <a class="carousel-control-next" href="#carousel-example" role="button" data-slide="next">
+
+                                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+
+                                    <span class="sr-only">Next</span>
+
+                                </a>
+
+                            </div>
+                        </div>
 
 
 
@@ -2298,11 +2362,14 @@
                                     <li>
                                         <div class="contact_text">
                                             <h6 class="font-weight-bold color_default">Address</h6>
-                                            <span class="color_white">  Site Location,
-											<br />
-											SM Rd, Prashanth Nagar, Peenya, <br/>
-											 Bengaluru,Karnataka 560057 
-											</span>
+                                            <span class="color_white"> No:8, Subroto Mukerjee Road,<br />
+											Jalahalli Cross Signal,
+											Jalahalli West,
+											Bengaluru,Karnataka<br />
+                                               <!-- <br />
+                                                SM Rd, Prashanth Nagar, Peenya, <br />
+                                                Bengaluru,Karnataka 560057-->
+                                            </span>
                                         </div>
                                     </li>
 
@@ -2310,9 +2377,9 @@
                                         <div class="contact_text">
                                             <h6 class="font-weight-bold color_default">Phone</h6>
                                             <span class="color_white"><a href="tel:7829583111" style="color: #fff;">+91 - 7829 583 111 / 7829 180 111<br>
-                                            080 - 4171 5678</a></span>
+                                                    080 - 4171 5678</a></span>
 
-                                            
+
                                         </div>
                                     </li>
                                     <li>
@@ -2334,8 +2401,7 @@
 						</div>-->
                         </div>
                         <div class="col-md-4 col-lg-4 desk-banner">
-                            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1155.5847821470547!2d77.5185077808983!3d13.041502070466207!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bae3d27cd3cc213%3A0xa4fd2c5a2ae17aef!2sPratham%20Casa%20Serene%2C%20SM%20Rd%2C%20Prashanth%20Nagar%2C%20Peenya%2C%20Bengaluru%2C%20Karnataka%20560057!5e0!3m2!1sen!2sin!4v1582030222436!5m2!1sen!2sin"
-                                width="100%" height="360" frameborder="0" style="border:0;" allowfullscreen=""></iframe>
+                            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1155.5847821470547!2d77.5185077808983!3d13.041502070466207!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bae3d27cd3cc213%3A0xa4fd2c5a2ae17aef!2sPratham%20Casa%20Serene%2C%20SM%20Rd%2C%20Prashanth%20Nagar%2C%20Peenya%2C%20Bengaluru%2C%20Karnataka%20560057!5e0!3m2!1sen!2sin!4v1582030222436!5m2!1sen!2sin" width="100%" height="360" frameborder="0" style="border:0;" allowfullscreen=""></iframe>
                         </div>
                         <div class="col-md-4 col-lg-4">
 
@@ -2358,436 +2424,436 @@
                                         <div class="form-group">
                                             <select class="form-control" size="0" name="ccode" wfd-id="29" style='height: calc(30px + 15px);'>
 
-											<option value=""> Select County </option>
+                                                <option value=""> Select County </option>
 
-											<option data-countrycode="GB" value="44">UK (+44)</option>
+                                                <option data-countrycode="GB" value="44">UK (+44)</option>
 
-											<option data-countrycode="US" value="1">USA (+1)</option>
+                                                <option data-countrycode="US" value="1">USA (+1)</option>
 
-											<option data-countrycode="DZ" value="213">Algeria (+213)</option>
+                                                <option data-countrycode="DZ" value="213">Algeria (+213)</option>
 
-											<option data-countrycode="AD" value="376">Andorra (+376)</option>
+                                                <option data-countrycode="AD" value="376">Andorra (+376)</option>
 
-											<option data-countrycode="AO" value="244">Angola (+244)</option>
+                                                <option data-countrycode="AO" value="244">Angola (+244)</option>
 
-											<option data-countrycode="AI" value="1264">Anguilla (+1264)</option>
+                                                <option data-countrycode="AI" value="1264">Anguilla (+1264)</option>
 
-											<option data-countrycode="AG" value="1268">Antigua &amp; Barbuda (+1268)</option>
+                                                <option data-countrycode="AG" value="1268">Antigua &amp; Barbuda (+1268)</option>
 
-											<option data-countrycode="AR" value="54">Argentina (+54)</option>
+                                                <option data-countrycode="AR" value="54">Argentina (+54)</option>
 
-											<option data-countrycode="AM" value="374">Armenia (+374)</option>
+                                                <option data-countrycode="AM" value="374">Armenia (+374)</option>
 
-											<option data-countrycode="AW" value="297">Aruba (+297)</option>
+                                                <option data-countrycode="AW" value="297">Aruba (+297)</option>
 
-											<option data-countrycode="AU" value="61">Australia (+61)</option>
+                                                <option data-countrycode="AU" value="61">Australia (+61)</option>
 
-											<option data-countrycode="AT" value="43">Austria (+43)</option>
+                                                <option data-countrycode="AT" value="43">Austria (+43)</option>
 
-											<option data-countrycode="AZ" value="994">Azerbaijan (+994)</option>
+                                                <option data-countrycode="AZ" value="994">Azerbaijan (+994)</option>
 
-											<option data-countrycode="BS" value="1242">Bahamas (+1242)</option>
+                                                <option data-countrycode="BS" value="1242">Bahamas (+1242)</option>
 
-											<option data-countrycode="BH" value="973">Bahrain (+973)</option>
+                                                <option data-countrycode="BH" value="973">Bahrain (+973)</option>
 
-											<option data-countrycode="BD" value="880">Bangladesh (+880)</option>
+                                                <option data-countrycode="BD" value="880">Bangladesh (+880)</option>
 
-											<option data-countrycode="BB" value="1246">Barbados (+1246)</option>
+                                                <option data-countrycode="BB" value="1246">Barbados (+1246)</option>
 
-											<option data-countrycode="BY" value="375">Belarus (+375)</option>
+                                                <option data-countrycode="BY" value="375">Belarus (+375)</option>
 
-											<option data-countrycode="BE" value="32">Belgium (+32)</option>
+                                                <option data-countrycode="BE" value="32">Belgium (+32)</option>
 
-											<option data-countrycode="BZ" value="501">Belize (+501)</option>
+                                                <option data-countrycode="BZ" value="501">Belize (+501)</option>
 
-											<option data-countrycode="BJ" value="229">Benin (+229)</option>
+                                                <option data-countrycode="BJ" value="229">Benin (+229)</option>
 
-											<option data-countrycode="BM" value="1441">Bermuda (+1441)</option>
+                                                <option data-countrycode="BM" value="1441">Bermuda (+1441)</option>
 
-											<option data-countrycode="BT" value="975">Bhutan (+975)</option>
+                                                <option data-countrycode="BT" value="975">Bhutan (+975)</option>
 
-											<option data-countrycode="BO" value="591">Bolivia (+591)</option>
+                                                <option data-countrycode="BO" value="591">Bolivia (+591)</option>
 
-											<option data-countrycode="BA" value="387">Bosnia Herzegovina (+387)</option>
+                                                <option data-countrycode="BA" value="387">Bosnia Herzegovina (+387)</option>
 
-											<option data-countrycode="BW" value="267">Botswana (+267)</option>
+                                                <option data-countrycode="BW" value="267">Botswana (+267)</option>
 
-											<option data-countrycode="BR" value="55">Brazil (+55)</option>
+                                                <option data-countrycode="BR" value="55">Brazil (+55)</option>
 
-											<option data-countrycode="BN" value="673">Brunei (+673)</option>
+                                                <option data-countrycode="BN" value="673">Brunei (+673)</option>
 
-											<option data-countrycode="BG" value="359">Bulgaria (+359)</option>
+                                                <option data-countrycode="BG" value="359">Bulgaria (+359)</option>
 
-											<option data-countrycode="BF" value="226">Burkina Faso (+226)</option>
+                                                <option data-countrycode="BF" value="226">Burkina Faso (+226)</option>
 
-											<option data-countrycode="BI" value="257">Burundi (+257)</option>
+                                                <option data-countrycode="BI" value="257">Burundi (+257)</option>
 
-											<option data-countrycode="KH" value="855">Cambodia (+855)</option>
+                                                <option data-countrycode="KH" value="855">Cambodia (+855)</option>
 
-											<option data-countrycode="CM" value="237">Cameroon (+237)</option>
+                                                <option data-countrycode="CM" value="237">Cameroon (+237)</option>
 
-											<option data-countrycode="CA" value="1">Canada (+1)</option>
+                                                <option data-countrycode="CA" value="1">Canada (+1)</option>
 
-											<option data-countrycode="CV" value="238">Cape Verde Islands (+238)</option>
+                                                <option data-countrycode="CV" value="238">Cape Verde Islands (+238)</option>
 
-											<option data-countrycode="KY" value="1345">Cayman Islands (+1345)</option>
+                                                <option data-countrycode="KY" value="1345">Cayman Islands (+1345)</option>
 
-											<option data-countrycode="CF" value="236">Central African Republic (+236)</option>
+                                                <option data-countrycode="CF" value="236">Central African Republic (+236)</option>
 
-											<option data-countrycode="CL" value="56">Chile (+56)</option>
+                                                <option data-countrycode="CL" value="56">Chile (+56)</option>
 
-											<option data-countrycode="CN" value="86">China (+86)</option>
+                                                <option data-countrycode="CN" value="86">China (+86)</option>
 
-											<option data-countrycode="CO" value="57">Colombia (+57)</option>
+                                                <option data-countrycode="CO" value="57">Colombia (+57)</option>
 
-											<option data-countrycode="KM" value="269">Comoros (+269)</option>
+                                                <option data-countrycode="KM" value="269">Comoros (+269)</option>
 
-											<option data-countrycode="CG" value="242">Congo (+242)</option>
+                                                <option data-countrycode="CG" value="242">Congo (+242)</option>
 
-											<option data-countrycode="CK" value="682">Cook Islands (+682)</option>
+                                                <option data-countrycode="CK" value="682">Cook Islands (+682)</option>
 
-											<option data-countrycode="CR" value="506">Costa Rica (+506)</option>
+                                                <option data-countrycode="CR" value="506">Costa Rica (+506)</option>
 
-											<option data-countrycode="HR" value="385">Croatia (+385)</option>
+                                                <option data-countrycode="HR" value="385">Croatia (+385)</option>
 
-											<option data-countrycode="CU" value="53">Cuba (+53)</option>
+                                                <option data-countrycode="CU" value="53">Cuba (+53)</option>
 
-											<option data-countrycode="CY" value="90392">Cyprus North (+90392)</option>
+                                                <option data-countrycode="CY" value="90392">Cyprus North (+90392)</option>
 
-											<option data-countrycode="CY" value="357">Cyprus South (+357)</option>
+                                                <option data-countrycode="CY" value="357">Cyprus South (+357)</option>
 
-											<option data-countrycode="CZ" value="42">Czech Republic (+42)</option>
+                                                <option data-countrycode="CZ" value="42">Czech Republic (+42)</option>
 
-											<option data-countrycode="DK" value="45">Denmark (+45)</option>
+                                                <option data-countrycode="DK" value="45">Denmark (+45)</option>
 
-											<option data-countrycode="DJ" value="253">Djibouti (+253)</option>
+                                                <option data-countrycode="DJ" value="253">Djibouti (+253)</option>
 
-											<option data-countrycode="DM" value="1809">Dominica (+1809)</option>
+                                                <option data-countrycode="DM" value="1809">Dominica (+1809)</option>
 
-											<option data-countrycode="DO" value="1809">Dominican Republic (+1809)</option>
+                                                <option data-countrycode="DO" value="1809">Dominican Republic (+1809)</option>
 
-											<option data-countrycode="EC" value="593">Ecuador (+593)</option>
+                                                <option data-countrycode="EC" value="593">Ecuador (+593)</option>
 
-											<option data-countrycode="EG" value="20">Egypt (+20)</option>
+                                                <option data-countrycode="EG" value="20">Egypt (+20)</option>
 
-											<option data-countrycode="SV" value="503">El Salvador (+503)</option>
+                                                <option data-countrycode="SV" value="503">El Salvador (+503)</option>
 
-											<option data-countrycode="GQ" value="240">Equatorial Guinea (+240)</option>
+                                                <option data-countrycode="GQ" value="240">Equatorial Guinea (+240)</option>
 
-											<option data-countrycode="ER" value="291">Eritrea (+291)</option>
+                                                <option data-countrycode="ER" value="291">Eritrea (+291)</option>
 
-											<option data-countrycode="EE" value="372">Estonia (+372)</option>
+                                                <option data-countrycode="EE" value="372">Estonia (+372)</option>
 
-											<option data-countrycode="ET" value="251">Ethiopia (+251)</option>
+                                                <option data-countrycode="ET" value="251">Ethiopia (+251)</option>
 
-											<option data-countrycode="FK" value="500">Falkland Islands (+500)</option>
+                                                <option data-countrycode="FK" value="500">Falkland Islands (+500)</option>
 
-											<option data-countrycode="FO" value="298">Faroe Islands (+298)</option>
+                                                <option data-countrycode="FO" value="298">Faroe Islands (+298)</option>
 
-											<option data-countrycode="FJ" value="679">Fiji (+679)</option>
+                                                <option data-countrycode="FJ" value="679">Fiji (+679)</option>
 
-											<option data-countrycode="FI" value="358">Finland (+358)</option>
+                                                <option data-countrycode="FI" value="358">Finland (+358)</option>
 
-											<option data-countrycode="FR" value="33">France (+33)</option>
+                                                <option data-countrycode="FR" value="33">France (+33)</option>
 
-											<option data-countrycode="GF" value="594">French Guiana (+594)</option>
+                                                <option data-countrycode="GF" value="594">French Guiana (+594)</option>
 
-											<option data-countrycode="PF" value="689">French Polynesia (+689)</option>
+                                                <option data-countrycode="PF" value="689">French Polynesia (+689)</option>
 
-											<option data-countrycode="GA" value="241">Gabon (+241)</option>
+                                                <option data-countrycode="GA" value="241">Gabon (+241)</option>
 
-											<option data-countrycode="GM" value="220">Gambia (+220)</option>
+                                                <option data-countrycode="GM" value="220">Gambia (+220)</option>
 
-											<option data-countrycode="GE" value="7880">Georgia (+7880)</option>
+                                                <option data-countrycode="GE" value="7880">Georgia (+7880)</option>
 
-											<option data-countrycode="DE" value="49">Germany (+49)</option>
+                                                <option data-countrycode="DE" value="49">Germany (+49)</option>
 
-											<option data-countrycode="GH" value="233">Ghana (+233)</option>
+                                                <option data-countrycode="GH" value="233">Ghana (+233)</option>
 
-											<option data-countrycode="GI" value="350">Gibraltar (+350)</option>
+                                                <option data-countrycode="GI" value="350">Gibraltar (+350)</option>
 
-											<option data-countrycode="GR" value="30">Greece (+30)</option>
+                                                <option data-countrycode="GR" value="30">Greece (+30)</option>
 
-											<option data-countrycode="GL" value="299">Greenland (+299)</option>
+                                                <option data-countrycode="GL" value="299">Greenland (+299)</option>
 
-											<option data-countrycode="GD" value="1473">Grenada (+1473)</option>
+                                                <option data-countrycode="GD" value="1473">Grenada (+1473)</option>
 
-											<option data-countrycode="GP" value="590">Guadeloupe (+590)</option>
+                                                <option data-countrycode="GP" value="590">Guadeloupe (+590)</option>
 
-											<option data-countrycode="GU" value="671">Guam (+671)</option>
+                                                <option data-countrycode="GU" value="671">Guam (+671)</option>
 
-											<option data-countrycode="GT" value="502">Guatemala (+502)</option>
+                                                <option data-countrycode="GT" value="502">Guatemala (+502)</option>
 
-											<option data-countrycode="GN" value="224">Guinea (+224)</option>
+                                                <option data-countrycode="GN" value="224">Guinea (+224)</option>
 
-											<option data-countrycode="GW" value="245">Guinea - Bissau (+245)</option>
+                                                <option data-countrycode="GW" value="245">Guinea - Bissau (+245)</option>
 
-											<option data-countrycode="GY" value="592">Guyana (+592)</option>
+                                                <option data-countrycode="GY" value="592">Guyana (+592)</option>
 
-											<option data-countrycode="HT" value="509">Haiti (+509)</option>
+                                                <option data-countrycode="HT" value="509">Haiti (+509)</option>
 
-											<option data-countrycode="HN" value="504">Honduras (+504)</option>
+                                                <option data-countrycode="HN" value="504">Honduras (+504)</option>
 
-											<option data-countrycode="HK" value="852">Hong Kong (+852)</option>
+                                                <option data-countrycode="HK" value="852">Hong Kong (+852)</option>
 
-											<option data-countrycode="HU" value="36">Hungary (+36)</option>
+                                                <option data-countrycode="HU" value="36">Hungary (+36)</option>
 
-											<option data-countrycode="IS" value="354">Iceland (+354)</option>
+                                                <option data-countrycode="IS" value="354">Iceland (+354)</option>
 
-											<option data-countrycode="IN" value="91" selected="">Ind (+91)</option>
+                                                <option data-countrycode="IN" value="91" selected="">Ind (+91)</option>
 
-											<option data-countrycode="ID" value="62">Indonesia (+62)</option>
+                                                <option data-countrycode="ID" value="62">Indonesia (+62)</option>
 
-											<option data-countrycode="IR" value="98">Iran (+98)</option>
+                                                <option data-countrycode="IR" value="98">Iran (+98)</option>
 
-											<option data-countrycode="IQ" value="964">Iraq (+964)</option>
+                                                <option data-countrycode="IQ" value="964">Iraq (+964)</option>
 
-											<option data-countrycode="IE" value="353">Ireland (+353)</option>
+                                                <option data-countrycode="IE" value="353">Ireland (+353)</option>
 
-											<option data-countrycode="IL" value="972">Israel (+972)</option>
+                                                <option data-countrycode="IL" value="972">Israel (+972)</option>
 
-											<option data-countrycode="IT" value="39">Italy (+39)</option>
+                                                <option data-countrycode="IT" value="39">Italy (+39)</option>
 
-											<option data-countrycode="JM" value="1876">Jamaica (+1876)</option>
+                                                <option data-countrycode="JM" value="1876">Jamaica (+1876)</option>
 
-											<option data-countrycode="JP" value="81">Japan (+81)</option>
+                                                <option data-countrycode="JP" value="81">Japan (+81)</option>
 
-											<option data-countrycode="JO" value="962">Jordan (+962)</option>
+                                                <option data-countrycode="JO" value="962">Jordan (+962)</option>
 
-											<option data-countrycode="KZ" value="7">Kazakhstan (+7)</option>
+                                                <option data-countrycode="KZ" value="7">Kazakhstan (+7)</option>
 
-											<option data-countrycode="KE" value="254">Kenya (+254)</option>
+                                                <option data-countrycode="KE" value="254">Kenya (+254)</option>
 
-											<option data-countrycode="KI" value="686">Kiribati (+686)</option>
+                                                <option data-countrycode="KI" value="686">Kiribati (+686)</option>
 
-											<option data-countrycode="KP" value="850">Korea North (+850)</option>
+                                                <option data-countrycode="KP" value="850">Korea North (+850)</option>
 
-											<option data-countrycode="KR" value="82">Korea South (+82)</option>
+                                                <option data-countrycode="KR" value="82">Korea South (+82)</option>
 
-											<option data-countrycode="KW" value="965">Kuwait (+965)</option>
+                                                <option data-countrycode="KW" value="965">Kuwait (+965)</option>
 
-											<option data-countrycode="KG" value="996">Kyrgyzstan (+996)</option>
+                                                <option data-countrycode="KG" value="996">Kyrgyzstan (+996)</option>
 
-											<option data-countrycode="LA" value="856">Laos (+856)</option>
+                                                <option data-countrycode="LA" value="856">Laos (+856)</option>
 
-											<option data-countrycode="LV" value="371">Latvia (+371)</option>
+                                                <option data-countrycode="LV" value="371">Latvia (+371)</option>
 
-											<option data-countrycode="LB" value="961">Lebanon (+961)</option>
+                                                <option data-countrycode="LB" value="961">Lebanon (+961)</option>
 
-											<option data-countrycode="LS" value="266">Lesotho (+266)</option>
+                                                <option data-countrycode="LS" value="266">Lesotho (+266)</option>
 
-											<option data-countrycode="LR" value="231">Liberia (+231)</option>
+                                                <option data-countrycode="LR" value="231">Liberia (+231)</option>
 
-											<option data-countrycode="LY" value="218">Libya (+218)</option>
+                                                <option data-countrycode="LY" value="218">Libya (+218)</option>
 
-											<option data-countrycode="LI" value="417">Liechtenstein (+417)</option>
+                                                <option data-countrycode="LI" value="417">Liechtenstein (+417)</option>
 
-											<option data-countrycode="LT" value="370">Lithuania (+370)</option>
+                                                <option data-countrycode="LT" value="370">Lithuania (+370)</option>
 
-											<option data-countrycode="LU" value="352">Luxembourg (+352)</option>
+                                                <option data-countrycode="LU" value="352">Luxembourg (+352)</option>
 
-											<option data-countrycode="MO" value="853">Macao (+853)</option>
+                                                <option data-countrycode="MO" value="853">Macao (+853)</option>
 
-											<option data-countrycode="MK" value="389">Macedonia (+389)</option>
+                                                <option data-countrycode="MK" value="389">Macedonia (+389)</option>
 
-											<option data-countrycode="MG" value="261">Madagascar (+261)</option>
+                                                <option data-countrycode="MG" value="261">Madagascar (+261)</option>
 
-											<option data-countrycode="MW" value="265">Malawi (+265)</option>
+                                                <option data-countrycode="MW" value="265">Malawi (+265)</option>
 
-											<option data-countrycode="MY" value="60">Malaysia (+60)</option>
+                                                <option data-countrycode="MY" value="60">Malaysia (+60)</option>
 
-											<option data-countrycode="MV" value="960">Maldives (+960)</option>
+                                                <option data-countrycode="MV" value="960">Maldives (+960)</option>
 
-											<option data-countrycode="ML" value="223">Mali (+223)</option>
+                                                <option data-countrycode="ML" value="223">Mali (+223)</option>
 
-											<option data-countrycode="MT" value="356">Malta (+356)</option>
+                                                <option data-countrycode="MT" value="356">Malta (+356)</option>
 
-											<option data-countrycode="MH" value="692">Marshall Islands (+692)</option>
+                                                <option data-countrycode="MH" value="692">Marshall Islands (+692)</option>
 
-											<option data-countrycode="MQ" value="596">Martinique (+596)</option>
+                                                <option data-countrycode="MQ" value="596">Martinique (+596)</option>
 
-											<option data-countrycode="MR" value="222">Mauritania (+222)</option>
+                                                <option data-countrycode="MR" value="222">Mauritania (+222)</option>
 
-											<option data-countrycode="YT" value="269">Mayotte (+269)</option>
+                                                <option data-countrycode="YT" value="269">Mayotte (+269)</option>
 
-											<option data-countrycode="MX" value="52">Mexico (+52)</option>
+                                                <option data-countrycode="MX" value="52">Mexico (+52)</option>
 
-											<option data-countrycode="FM" value="691">Micronesia (+691)</option>
+                                                <option data-countrycode="FM" value="691">Micronesia (+691)</option>
 
-											<option data-countrycode="MD" value="373">Moldova (+373)</option>
+                                                <option data-countrycode="MD" value="373">Moldova (+373)</option>
 
-											<option data-countrycode="MC" value="377">Monaco (+377)</option>
+                                                <option data-countrycode="MC" value="377">Monaco (+377)</option>
 
-											<option data-countrycode="MN" value="976">Mongolia (+976)</option>
+                                                <option data-countrycode="MN" value="976">Mongolia (+976)</option>
 
-											<option data-countrycode="MS" value="1664">Montserrat (+1664)</option>
+                                                <option data-countrycode="MS" value="1664">Montserrat (+1664)</option>
 
-											<option data-countrycode="MA" value="212">Morocco (+212)</option>
+                                                <option data-countrycode="MA" value="212">Morocco (+212)</option>
 
-											<option data-countrycode="MZ" value="258">Mozambique (+258)</option>
+                                                <option data-countrycode="MZ" value="258">Mozambique (+258)</option>
 
-											<option data-countrycode="MN" value="95">Myanmar (+95)</option>
+                                                <option data-countrycode="MN" value="95">Myanmar (+95)</option>
 
-											<option data-countrycode="NA" value="264">Namibia (+264)</option>
+                                                <option data-countrycode="NA" value="264">Namibia (+264)</option>
 
-											<option data-countrycode="NR" value="674">Nauru (+674)</option>
+                                                <option data-countrycode="NR" value="674">Nauru (+674)</option>
 
-											<option data-countrycode="NP" value="977">Nepal (+977)</option>
+                                                <option data-countrycode="NP" value="977">Nepal (+977)</option>
 
-											<option data-countrycode="NL" value="31">Netherlands (+31)</option>
+                                                <option data-countrycode="NL" value="31">Netherlands (+31)</option>
 
-											<option data-countrycode="NC" value="687">New Caledonia (+687)</option>
+                                                <option data-countrycode="NC" value="687">New Caledonia (+687)</option>
 
-											<option data-countrycode="NZ" value="64">New Zealand (+64)</option>
+                                                <option data-countrycode="NZ" value="64">New Zealand (+64)</option>
 
-											<option data-countrycode="NI" value="505">Nicaragua (+505)</option>
+                                                <option data-countrycode="NI" value="505">Nicaragua (+505)</option>
 
-											<option data-countrycode="NE" value="227">Niger (+227)</option>
+                                                <option data-countrycode="NE" value="227">Niger (+227)</option>
 
-											<option data-countrycode="NG" value="234">Nigeria (+234)</option>
+                                                <option data-countrycode="NG" value="234">Nigeria (+234)</option>
 
-											<option data-countrycode="NU" value="683">Niue (+683)</option>
+                                                <option data-countrycode="NU" value="683">Niue (+683)</option>
 
-											<option data-countrycode="NF" value="672">Norfolk Islands (+672)</option>
+                                                <option data-countrycode="NF" value="672">Norfolk Islands (+672)</option>
 
-											<option data-countrycode="NP" value="670">Northern Marianas (+670)</option>
+                                                <option data-countrycode="NP" value="670">Northern Marianas (+670)</option>
 
-											<option data-countrycode="NO" value="47">Norway (+47)</option>
+                                                <option data-countrycode="NO" value="47">Norway (+47)</option>
 
-											<option data-countrycode="OM" value="968">Oman (+968)</option>
+                                                <option data-countrycode="OM" value="968">Oman (+968)</option>
 
-											<option data-countrycode="PW" value="680">Palau (+680)</option>
+                                                <option data-countrycode="PW" value="680">Palau (+680)</option>
 
-											<option data-countrycode="PA" value="507">Panama (+507)</option>
+                                                <option data-countrycode="PA" value="507">Panama (+507)</option>
 
-											<option data-countrycode="PG" value="675">Papua New Guinea (+675)</option>
+                                                <option data-countrycode="PG" value="675">Papua New Guinea (+675)</option>
 
-											<option data-countrycode="PY" value="595">Paraguay (+595)</option>
+                                                <option data-countrycode="PY" value="595">Paraguay (+595)</option>
 
-											<option data-countrycode="PE" value="51">Peru (+51)</option>
+                                                <option data-countrycode="PE" value="51">Peru (+51)</option>
 
-											<option data-countrycode="PH" value="63">Philippines (+63)</option>
+                                                <option data-countrycode="PH" value="63">Philippines (+63)</option>
 
-											<option data-countrycode="PL" value="48">Poland (+48)</option>
+                                                <option data-countrycode="PL" value="48">Poland (+48)</option>
 
-											<option data-countrycode="PT" value="351">Portugal (+351)</option>
+                                                <option data-countrycode="PT" value="351">Portugal (+351)</option>
 
-											<option data-countrycode="PR" value="1787">Puerto Rico (+1787)</option>
+                                                <option data-countrycode="PR" value="1787">Puerto Rico (+1787)</option>
 
-											<option data-countrycode="QA" value="974">Qatar (+974)</option>
+                                                <option data-countrycode="QA" value="974">Qatar (+974)</option>
 
-											<option data-countrycode="RE" value="262">Reunion (+262)</option>
+                                                <option data-countrycode="RE" value="262">Reunion (+262)</option>
 
-											<option data-countrycode="RO" value="40">Romania (+40)</option>
+                                                <option data-countrycode="RO" value="40">Romania (+40)</option>
 
-											<option data-countrycode="RU" value="7">Russia (+7)</option>
+                                                <option data-countrycode="RU" value="7">Russia (+7)</option>
 
-											<option data-countrycode="RW" value="250">Rwanda (+250)</option>
+                                                <option data-countrycode="RW" value="250">Rwanda (+250)</option>
 
-											<option data-countrycode="SM" value="378">San Marino (+378)</option>
+                                                <option data-countrycode="SM" value="378">San Marino (+378)</option>
 
-											<option data-countrycode="ST" value="239">Sao Tome &amp; Principe (+239)</option>
+                                                <option data-countrycode="ST" value="239">Sao Tome &amp; Principe (+239)</option>
 
-											<option data-countrycode="SA" value="966">Saudi Arabia (+966)</option>
+                                                <option data-countrycode="SA" value="966">Saudi Arabia (+966)</option>
 
-											<option data-countrycode="SN" value="221">Senegal (+221)</option>
+                                                <option data-countrycode="SN" value="221">Senegal (+221)</option>
 
-											<option data-countrycode="CS" value="381">Serbia (+381)</option>
+                                                <option data-countrycode="CS" value="381">Serbia (+381)</option>
 
-											<option data-countrycode="SC" value="248">Seychelles (+248)</option>
+                                                <option data-countrycode="SC" value="248">Seychelles (+248)</option>
 
-											<option data-countrycode="SL" value="232">Sierra Leone (+232)</option>
+                                                <option data-countrycode="SL" value="232">Sierra Leone (+232)</option>
 
-											<option data-countrycode="SG" value="65">Singapore (+65)</option>
+                                                <option data-countrycode="SG" value="65">Singapore (+65)</option>
 
-											<option data-countrycode="SK" value="421">Slovak Republic (+421)</option>
+                                                <option data-countrycode="SK" value="421">Slovak Republic (+421)</option>
 
-											<option data-countrycode="SI" value="386">Slovenia (+386)</option>
+                                                <option data-countrycode="SI" value="386">Slovenia (+386)</option>
 
-											<option data-countrycode="SB" value="677">Solomon Islands (+677)</option>
+                                                <option data-countrycode="SB" value="677">Solomon Islands (+677)</option>
 
-											<option data-countrycode="SO" value="252">Somalia (+252)</option>
+                                                <option data-countrycode="SO" value="252">Somalia (+252)</option>
 
-											<option data-countrycode="ZA" value="27">South Africa (+27)</option>
+                                                <option data-countrycode="ZA" value="27">South Africa (+27)</option>
 
-											<option data-countrycode="ES" value="34">Spain (+34)</option>
+                                                <option data-countrycode="ES" value="34">Spain (+34)</option>
 
-											<option data-countrycode="LK" value="94">Sri Lanka (+94)</option>
+                                                <option data-countrycode="LK" value="94">Sri Lanka (+94)</option>
 
-											<option data-countrycode="SH" value="290">St. Helena (+290)</option>
+                                                <option data-countrycode="SH" value="290">St. Helena (+290)</option>
 
-											<option data-countrycode="KN" value="1869">St. Kitts (+1869)</option>
+                                                <option data-countrycode="KN" value="1869">St. Kitts (+1869)</option>
 
-											<option data-countrycode="SC" value="1758">St. Lucia (+1758)</option>
+                                                <option data-countrycode="SC" value="1758">St. Lucia (+1758)</option>
 
-											<option data-countrycode="SD" value="249">Sudan (+249)</option>
+                                                <option data-countrycode="SD" value="249">Sudan (+249)</option>
 
-											<option data-countrycode="SR" value="597">Suriname (+597)</option>
+                                                <option data-countrycode="SR" value="597">Suriname (+597)</option>
 
-											<option data-countrycode="SZ" value="268">Swaziland (+268)</option>
+                                                <option data-countrycode="SZ" value="268">Swaziland (+268)</option>
 
-											<option data-countrycode="SE" value="46">Sweden (+46)</option>
+                                                <option data-countrycode="SE" value="46">Sweden (+46)</option>
 
-											<option data-countrycode="CH" value="41">Switzerland (+41)</option>
+                                                <option data-countrycode="CH" value="41">Switzerland (+41)</option>
 
-											<option data-countrycode="SI" value="963">Syria (+963)</option>
+                                                <option data-countrycode="SI" value="963">Syria (+963)</option>
 
-											<option data-countrycode="TW" value="886">Taiwan (+886)</option>
+                                                <option data-countrycode="TW" value="886">Taiwan (+886)</option>
 
-											<option data-countrycode="TJ" value="7">Tajikstan (+7)</option>
+                                                <option data-countrycode="TJ" value="7">Tajikstan (+7)</option>
 
-											<option data-countrycode="TH" value="66">Thailand (+66)</option>
+                                                <option data-countrycode="TH" value="66">Thailand (+66)</option>
 
-											<option data-countrycode="TG" value="228">Togo (+228)</option>
+                                                <option data-countrycode="TG" value="228">Togo (+228)</option>
 
-											<option data-countrycode="TO" value="676">Tonga (+676)</option>
+                                                <option data-countrycode="TO" value="676">Tonga (+676)</option>
 
-											<option data-countrycode="TT" value="1868">Trinidad &amp; Tobago (+1868)</option>
+                                                <option data-countrycode="TT" value="1868">Trinidad &amp; Tobago (+1868)</option>
 
-											<option data-countrycode="TN" value="216">Tunisia (+216)</option>
+                                                <option data-countrycode="TN" value="216">Tunisia (+216)</option>
 
-											<option data-countrycode="TR" value="90">Turkey (+90)</option>
+                                                <option data-countrycode="TR" value="90">Turkey (+90)</option>
 
-											<option data-countrycode="TM" value="7">Turkmenistan (+7)</option>
+                                                <option data-countrycode="TM" value="7">Turkmenistan (+7)</option>
 
-											<option data-countrycode="TM" value="993">Turkmenistan (+993)</option>
+                                                <option data-countrycode="TM" value="993">Turkmenistan (+993)</option>
 
-											<option data-countrycode="TC" value="1649">Turks &amp; Caicos Islands (+1649)</option>
+                                                <option data-countrycode="TC" value="1649">Turks &amp; Caicos Islands (+1649)</option>
 
-											<option data-countrycode="TV" value="688">Tuvalu (+688)</option>
+                                                <option data-countrycode="TV" value="688">Tuvalu (+688)</option>
 
-											<option data-countrycode="UG" value="256">Uganda (+256)</option>
+                                                <option data-countrycode="UG" value="256">Uganda (+256)</option>
 
-											<option data-countrycode="UA" value="380">Ukraine (+380)</option>
+                                                <option data-countrycode="UA" value="380">Ukraine (+380)</option>
 
-											<option data-countrycode="AE" value="971">United Arab Emirates (+971)</option>
+                                                <option data-countrycode="AE" value="971">United Arab Emirates (+971)</option>
 
-											<option data-countrycode="UY" value="598">Uruguay (+598)</option>
+                                                <option data-countrycode="UY" value="598">Uruguay (+598)</option>
 
-											<option data-countrycode="UZ" value="7">Uzbekistan (+7)</option>
+                                                <option data-countrycode="UZ" value="7">Uzbekistan (+7)</option>
 
-											<option data-countrycode="VU" value="678">Vanuatu (+678)</option>
+                                                <option data-countrycode="VU" value="678">Vanuatu (+678)</option>
 
-											<option data-countrycode="VA" value="379">Vatican City (+379)</option>
+                                                <option data-countrycode="VA" value="379">Vatican City (+379)</option>
 
-											<option data-countrycode="VE" value="58">Venezuela (+58)</option>
+                                                <option data-countrycode="VE" value="58">Venezuela (+58)</option>
 
-											<option data-countrycode="VN" value="84">Vietnam (+84)</option>
+                                                <option data-countrycode="VN" value="84">Vietnam (+84)</option>
 
-											<option data-countrycode="VG" value="84">Virgin Islands - British (+1284)</option>
+                                                <option data-countrycode="VG" value="84">Virgin Islands - British (+1284)</option>
 
-											<option data-countrycode="VI" value="84">Virgin Islands - US (+1340)</option>
+                                                <option data-countrycode="VI" value="84">Virgin Islands - US (+1340)</option>
 
-											<option data-countrycode="WF" value="681">Wallis &amp; Futuna (+681)</option>
+                                                <option data-countrycode="WF" value="681">Wallis &amp; Futuna (+681)</option>
 
-											<option data-countrycode="YE" value="969">Yemen (North)(+969)</option>
+                                                <option data-countrycode="YE" value="969">Yemen (North)(+969)</option>
 
-											<option data-countrycode="YE" value="967">Yemen (South)(+967)</option>
+                                                <option data-countrycode="YE" value="967">Yemen (South)(+967)</option>
 
-											<option data-countrycode="ZM" value="260">Zambia (+260)</option>
+                                                <option data-countrycode="ZM" value="260">Zambia (+260)</option>
 
-											<option data-countrycode="ZW" value="263">Zimbabwe (+263)</option>
-										</select>
+                                                <option data-countrycode="ZW" value="263">Zimbabwe (+263)</option>
+                                            </select>
                                         </div>
                                     </div>
                                     <div class="col-md-6 col-lg-6">
@@ -2816,21 +2882,20 @@
                         </div>
 
 
-     <div class="col-md-4 col-lg-4 mob-banner">
-                            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1155.5847821470547!2d77.5185077808983!3d13.041502070466207!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bae3d27cd3cc213%3A0xa4fd2c5a2ae17aef!2sPratham%20Casa%20Serene%2C%20SM%20Rd%2C%20Prashanth%20Nagar%2C%20Peenya%2C%20Bengaluru%2C%20Karnataka%20560057!5e0!3m2!1sen!2sin!4v1582030222436!5m2!1sen!2sin"
-                                width="100%" height="360" frameborder="0" style="border:0; padding: 10px 0;" allowfullscreen=""></iframe>
+                        <div class="col-md-4 col-lg-4 mob-banner">
+                            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1155.5847821470547!2d77.5185077808983!3d13.041502070466207!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bae3d27cd3cc213%3A0xa4fd2c5a2ae17aef!2sPratham%20Casa%20Serene%2C%20SM%20Rd%2C%20Prashanth%20Nagar%2C%20Peenya%2C%20Bengaluru%2C%20Karnataka%20560057!5e0!3m2!1sen!2sin!4v1582030222436!5m2!1sen!2sin" width="100%" height="360" frameborder="0" style="border:0; padding: 10px 0;" allowfullscreen=""></iframe>
                         </div>
 
-<div class="col-md-4 col-lg-4 mob-banner">
+                        <div class="col-md-4 col-lg-4 mob-banner">
                             <div class="contact_info " style="visibility: visible;">
                                 <ul>
                                     <li>
                                         <div class="contact_text">
                                             <h6 class="font-weight-bold color_default">Address</h6>
-                                            <span class="color_white">  Site Location,
-                                            <br />
-                                            SM Rd, Prashanth Nagar, Peenya, <br/>
-                                             Bengaluru,Karnataka 560057 
+                                            <span class="color_white"> Site Location,
+                                                <br />
+                                                SM Rd, Prashanth Nagar, Peenya, <br />
+                                                Bengaluru,Karnataka 560057
                                             </span>
                                         </div>
                                     </li>
@@ -2839,9 +2904,9 @@
                                         <div class="contact_text">
                                             <h6 class="font-weight-bold color_default">Phone</h6>
                                             <span class="color_white"><a href="tel:7829583111" style="color: #fff;">+91 - 7829 583 111 / 7829 180 111<br>
-                                            080 - 4171 5678</a></span>
+                                                    080 - 4171 5678</a></span>
 
-                                            
+
                                         </div>
                                     </li>
                                     <li>
@@ -2866,7 +2931,7 @@
 
 
                     </div>
-                    <div class="copyright2 p_20 color_lightgray bg_brown text-center footerp" >
+                    <div class="copyright2 p_20 color_lightgray bg_brown text-center footerp">
                         <p>Pratham Construction @ 2020. All Right Reserved.| Digital partner <a href="https://www.imsolutions.co/" target="_blank" style='color: #ffb32f;'>IM Solutions</a></p>
                     </div>
                 </div>

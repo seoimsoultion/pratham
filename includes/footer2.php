@@ -1,5 +1,5 @@
 <!--Start Contact ===================================================-->
-<div id="contact" class="section background60 pp-scrollable ">
+	<div id="contact" class="section background60 pp-scrollable ">
 	    	<div class="container">
 	    		<div class="contact ">
 	    			<div class="row">
@@ -604,14 +604,18 @@
 					<div class="copyright2 p_20 color_lightgray bg_brown text-center footerp"><p>Pratham Construction @ 2020. All Right Reserved.| Digital partner <a href="https://www.imsolutions.co/" target="_blank" style='color: #ffb32f;'>IM Solutions</a></p></div>
 	    		</div>
 	    	</div>
-	    
-	    </div>
+	</div>
 
 </div>
 
 
 <!--	Js Links
 	===================================================-->
+		<div style="position: fixed; z-index: 9999999; left:-.5%; bottom:3%;">
+            <a href="https://api.whatsapp.com/send?phone=917829583111" target="_blank"><img src="images/watsappnew.png" width="100%" height="100%" alt="Whatsapp" /></a>
+        </div>
+        
+        	
 <script src="js/jquery.min.js"></script>
 <script src="js/popper.min.js"></script>
 <script src="js/bootstrap.min.js"></script>
@@ -622,22 +626,33 @@
 <script src="js/custom.js"></script>
 <script src="js/recliner.min.js"></script>
 <script src="https://www.google.com/recaptcha/api.js?render=6LdFLNgUAAAAAJYdNhjXK2PosDbozvImaLqXSdyl"></script>
+<script src="js/multislider.js"></script>
 <script>
-	$('document').ready(function () {
-		$('.liReadMore').trigger('click');
-		$('.ulExtra').hide();
-		//$('.color-panel').toggleClass('open');
+	$('#basicSlider').multislider({
+		continuous: true,
+		duration: 2000
+	});
+	$('#mixedSlider').multislider({
+		duration: 750,
+		interval: 3000
+	});
+</script>
+<script>
+		/*$('document').ready(function() {
+			$('.liReadMore').trigger('click');
+			$('.ulExtra').hide();
+			//$('.color-panel').toggleClass('open');
 
-		setTimeout(function () {
-			$('.color-panel').toggleClass('open');
-		}, 5000);
-		
-		setTimeout(function () {
-			$('.color-panel').removeClass('open');
-        }, 6000);
+			setTimeout(function() {
+				$('.color-panel').toggleClass('open');
+			}, 5000);
 
-	} );
-	$('.liReadMore').click(function() {
+			setTimeout(function() {
+				$('.color-panel').removeClass('open');
+			}, 6000);
+
+		});*/
+		$('.liReadMore').click(function() {
             var idVal = $(this).attr('id');
             idValSplit = idVal.split("_");
             idVal = idValSplit[1];
@@ -645,202 +660,208 @@
             if (idValCss == 'none') {
                 $('#list_' + idVal).css('display', 'block');
                 $('#readMore_' + idVal).html('Show Less');
-				$('#readMore_' + idVal).css({backgroundColor: 'red'});
+                $('#readMore_' + idVal).css({
+                    backgroundColor: 'red'
+                });
             }
             if (idValCss == 'block') {
                 $('#list_' + idVal).css('display', 'none');
                 $('#readMore_' + idVal).html('Show More');
-				$('#readMore_' + idVal).css({backgroundColor: '#ffb32f'});
-           }
+                $('#readMore_' + idVal).css({
+                    backgroundColor: '#ffb32f'
+                });
+            }
             console.log(idValCss);
-           // $('.testimonials-carousel').trigger('to.owl.carousel', [idVal,10,true]);
+            // $('.testimonials-carousel').trigger('to.owl.carousel', [idVal,10,true]);
         });
-		
+
 
 		function myFunction() {
-		  var dots = document.getElementById("dots");
-		  var moreText = document.getElementById("more");
-		  var btnText = document.getElementById("myBtn");
-		  var btnText1 = document.getElementById("myBtn1");
+			var dots = document.getElementById("dots");
+			var moreText = document.getElementById("more");
+			var btnText = document.getElementById("myBtn");
+			var btnText1 = document.getElementById("myBtn1");
 
-		  if (dots.style.display === "none") {
-			dots.style.display = "inline";
-			btnText.innerHTML = 'Read More <i class="fa fa-arrow-right"></i>'; 
-			moreText.style.display = "none";
-			$(".btn1").show();
-		  } else {
-			dots.style.display = "none";
-			btnText1.innerHTML = 'Read Less <i class="fa fa-arrow-left"></i>';
-			moreText.style.display = "inline";
-			$(".btn1").hide();
-		  }
+			if (dots.style.display === "none") {
+				dots.style.display = "inline";
+				btnText.innerHTML = 'Read More <i class="fa fa-arrow-right"></i>';
+				moreText.style.display = "none";
+				$(".btn1").show();
+			} else {
+				dots.style.display = "none";
+				btnText1.innerHTML = 'Read Less <i class="fa fa-arrow-left"></i>';
+				moreText.style.display = "inline";
+				$(".btn1").hide();
+			}
 		}
+
 		function myFunction2() {
-		  var dots = document.getElementById("dots");
-		  var moreText = document.getElementById("more1");
-		  var btnText = document.getElementById("myBtn2");
+			var dots = document.getElementById("dots");
+			var moreText = document.getElementById("more1");
+			var btnText = document.getElementById("myBtn2");
 
-		  if (dots.style.display === "none") {
-			dots.style.display = "inline";
-			btnText.innerHTML = "<span style='color:#ffb32f !important;'>Read More <i class='fa fa-arrow-right'></i></span>"; 
-			moreText.style.display = "none";
-		  } else {
-			dots.style.display = "none";
-			btnText.innerHTML = "<span style='color:red;'>Read Less <i class='fa fa-arrow-left'></i></span>";
-			moreText.style.display = "inline";
-		  }
+			if (dots.style.display === "none") {
+				dots.style.display = "inline";
+				btnText.innerHTML = "<span style='color:#ffb32f !important;'>Read More <i class='fa fa-arrow-right'></i></span>";
+				moreText.style.display = "none";
+			} else {
+				dots.style.display = "none";
+				btnText.innerHTML = "<span style='color:red;'>Read Less <i class='fa fa-arrow-left'></i></span>";
+				moreText.style.display = "inline";
+			}
 		}
 
 
 
-       
+
 		// instantiate recliner
 		$('.lazy').recliner({
 			attrib: "data-src", // selector for attribute containing the media src
-			throttle: 300,      // millisecond interval at which to process events
-			threshold: 100,     // scroll distance from element before its loaded
-			live: true          // auto bind lazy loading to ajax loaded elements          
+			throttle: 300, // millisecond interval at which to process events
+			threshold: 100, // scroll distance from element before its loaded
+			live: true // auto bind lazy loading to ajax loaded elements          
 		});
-	
-    var deleteLog = false;
-    //	Pagepiling js
-    //=====================================================
-    $(document).ready(function() {
-        $('#pagepiling').pagepiling({
-            menu: '#menu',
-            anchors: ['page1', 'page2', 'page3', 'page4', 'page5', 'page6', 'page7', 'page8', 'page9'],
-            loopTop: true,
-            loopBottom: true
-        });
-    });
-    //	Sidebar Nav Menu js
-    //=====================================================
-    function openNav() {
-        document.getElementById("mysidenav").style.width = "150px";
-    }
 
-    function closeNav() {
-        document.getElementById("mysidenav").style.width = "0";
-    }
-	
-	grecaptcha.ready(function() {
+		var deleteLog = false;
+		//	Pagepiling js
+		//=====================================================
+		$(document).ready(function() {
+			$('#pagepiling').pagepiling({
+				menu: '#menu',
+				anchors: ['page1', 'page2', 'page3', 'page4', 'page5', 'page6', 'page7', 'page8', 'page9'],
+				loopTop: true,
+				loopBottom: true
+			});
+		});
+		//	Sidebar Nav Menu js
+		//=====================================================
+		function openNav() {
+			document.getElementById("mysidenav").style.width = "150px";
+		}
 
-        grecaptcha.execute('6LdFLNgUAAAAAJYdNhjXK2PosDbozvImaLqXSdyl', {
+		function closeNav() {
+			document.getElementById("mysidenav").style.width = "0";
+		}
 
-            action: 'homepage'
+		grecaptcha.ready(function() {
 
-        }).then(function(token) {
+			grecaptcha.execute('6LdFLNgUAAAAAJYdNhjXK2PosDbozvImaLqXSdyl', {
 
-            $('#hcon').prepend('<input type="hidden" name="g-recaptcha-response"  value="' + token + '">');
+				action: 'homepage'
 
-            $('#ccon').prepend('<input type="hidden" name="g-recaptcha-response"  value="' + token + '">');
+			}).then(function(token) {
 
-        });
+				$('#hcon').prepend('<input type="hidden" name="g-recaptcha-response"  value="' + token + '">');
 
-    });
+				$('#ccon').prepend('<input type="hidden" name="g-recaptcha-response"  value="' + token + '">');
 
-   
+			});
 
-    $("#hcon").submit(function() {		
+		});
+
+
+
+		$("#hcon").submit(function() {
 
 			var str = $(this).serialize();
 
-        $.ajax({
+			$.ajax({
 
-            type: "POST",
+				type: "POST",
 
-            url: "contact-process.php",
+				url: "contact-process.php",
 
-            data: str,
+				data: str,
 
-            success: function(msg) {
+				success: function(msg) {
 
-                if (msg == 'OK') {
-					$('.form-control').val('');
-                    result = '<p style="color:green !important; font-weight: 600;font-size: 18px;">Email Sent Successfully!</p>';
+					if (msg == 'OK') {
+						$('.form-control').val('');
+						result = '<p style="color:green !important; font-weight: 600;font-size: 18px;">Email Sent Successfully!</p>';
 
-                    $('#headererrormessage').delay(18000).fadeOut();
+						$('#headererrormessage').delay(18000).fadeOut();
 
-					$('#hcon')[0].reset();
-					
+						$('#hcon')[0].reset();
 
-                    //$('input,textarea').val('');
 
-                } else {
+						//$('input,textarea').val('');
 
-                    result = msg;
+					} else {
 
-                }
+						result = msg;
 
-                $('#headererrormessage').html(result);
+					}
 
-            }
+					$('#headererrormessage').html(result);
 
-        });
+				}
 
-        return false;
+			});
 
-    });
+			return false;
 
-	$("#ccon").submit(function() {		
+		});
+
+		$("#ccon").submit(function() {
 
 			var str = $(this).serialize();
 
-        $.ajax({
+			$.ajax({
 
-            type: "POST",
+				type: "POST",
 
-            url: "contact-process.php",
+				url: "contact-process.php",
 
-            data: str,
+				data: str,
 
-            success: function(msg) {
+				success: function(msg) {
 
-                if (msg == 'OK') {
-					$('.form-control').val('');
-                    result = '<p style="color:green !important; font-weight: 600;font-size: 18px;">Email Sent Successfully!</p>';
+					if (msg == 'OK') {
+						$('.form-control').val('');
+						result = '<p style="color:green !important; font-weight: 600;font-size: 18px;">Email Sent Successfully!</p>';
 
-                    $('#contacterrormessage').delay(18000).fadeOut();
+						$('#contacterrormessage').delay(18000).fadeOut();
 
-					$('#ccon')[0].reset();
-				
+						$('#ccon')[0].reset();
 
-                    //$('input,textarea').val('');
 
-                } else {
+						//$('input,textarea').val('');
 
-                    result = msg;
+					} else {
 
-                }
+						result = msg;
 
-                $('#contacterrormessage').html(result);
+					}
 
-            }
+					$('#contacterrormessage').html(result);
 
-        });
+				}
 
-        return false;
+			});
 
-    });
-	$("#phone").keypress(function(e) {
-		//if the letter is not digit then display error and don't type anything
-		if (e.which != 8 && e.which != 0 && (e.which < 48 || e.which > 57)) {
-			//display error message
-			$("#contacterrormessage").html('<p style="color:red !important;">Digits Only</p>').show().fadeOut("slow");
 			return false;
-		}
-	});
-	$("#phone1").keypress(function(e) {
-		//if the letter is not digit then display error and don't type anything
-		if (e.which != 8 && e.which != 0 && (e.which < 48 || e.which > 57)) {
-			//display error message
-			$("#headererrormessage").html('<p style="color:red !important;">Digits Only</p>').show().fadeOut("slow");
-			return false;
-		}
-	});
-	function checkNumberFieldLength1(elem){
+
+		});
+		$("#phone").keypress(function(e) {
+			//if the letter is not digit then display error and don't type anything
+			if (e.which != 8 && e.which != 0 && (e.which < 48 || e.which > 57)) {
+				//display error message
+				$("#contacterrormessage").html('<p style="color:red !important;">Digits Only</p>').show().fadeOut("slow");
+				return false;
+			}
+		});
+		$("#phone1").keypress(function(e) {
+			//if the letter is not digit then display error and don't type anything
+			if (e.which != 8 && e.which != 0 && (e.which < 48 || e.which > 57)) {
+				//display error message
+				$("#headererrormessage").html('<p style="color:red !important;">Digits Only</p>').show().fadeOut("slow");
+				return false;
+			}
+		});
+
+		function checkNumberFieldLength1(elem) {
 			if (elem.value.length > 10) {
-				elem.value = elem.value.slice(0,10);
+				elem.value = elem.value.slice(0, 10);
 			}
 		}
 </script>

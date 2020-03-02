@@ -25,7 +25,22 @@
       <!--	Title
     ==================================================-->
 	<title>Pratham Construction</title>
-
+	<?php $url = basename($_SERVER['PHP_SELF']); 
+		if($url =="index.php"){
+	?>
+	<style>
+		.navbar-light .navbar-nav .nav-link{
+			color: #000;
+		}
+	</style>
+	<?php }else{ ?>
+	<style>
+		.navbar-light .navbar-nav .nav-link{
+			color: #fff;
+		}
+	</style>
+	<?php } ?>
+	
 </head>
 
 <body id="top" class="page-load">
